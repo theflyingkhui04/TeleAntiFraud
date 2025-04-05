@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .chat-container, .reference-container, .deepseek-container {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .message {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .user {
+            background: #e3f2fd;
+            margin-left: 20px;
+        }
+        .assistant {
+            background: #f5f5f5;
+            margin-right: 20px;
+        }
+        .translation {
+            font-style: italic;
+            color: #666;
+            margin-top: 10px;
+            padding-left: 10px;
+            border-left: 3px solid #ddd;
+        }
+        h2 {
+            color: #333;
+            margin-top: 0;
+        }
+        .prediction {
+            background: #fffde7;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .deepseek-reasoning {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="message user">
+            <strong>User:</strong>
+            <p>请根据你听到的音频内容，详细分析通话场景属于以下哪种类型：订餐服务、咨询客服、预约服务、交通咨询、日常购物、打车服务、外卖服务</p>
+            <div class="translation">
+                Translation: According to the audio content you heard, please analyze in detail which type of communication scenario it belongs to: dining service, customer service consultation, appointment service, traffic consultation, daily shopping, taxi service, takeaway service
+            </div>
+        </div>
+        <div class="message assistant">
+            <strong>Assistant:</strong>
+            <p>think: 好的，我现在需要分析用户提供的音频内容，判断属于哪个通话场景。首先，用户给出的场景选项包括订餐服务、咨询客服、预约服务、交通咨询、日常购物、打车服务、外卖服务。
+
+首先听音频内容。左边的小明询问招聘地推员的信息，右边的小王回答是招聘地推员，主要工作是推广APP，每月基本工资3000元，还有提成。小明还询问了工作时间、地点和交通方式，小王建议骑电瓶车或公交。整个对话围绕地推员的招聘展开，涉及工作内容、薪酬、交通方式等。...</p>
+            <div class="translation">
+                Translation: think: I need to analyze the audio content provided by the user and determine which conversation scenario it belongs to. First, the user-provided scenario options include dining service, customer service consultation, appointment service, traffic consultation, daily shopping, taxi service, and takeaway service.
+
+First, let's listen to the audio content. On the left, Xiao Ming inquires about recruitment information for promoters, and on the right, Xiao Wang responds that they are recruiting promoters, mainly for APP promotion, with a basic monthly salary of 3000 yuan plus commission. Xiao Ming also asked about working hours, location, and transportation methods, and Xiao Wang suggested using an electric bicycle or public transportation. The entire dialogue revolves around promoter recruitment, involving job content, compensation, transportation methods, etc...
+            </div>
+            <p>{
+                "scene": "咨询客服",
+                "reason": "用户主动联系客服咨询招聘地推员的详细信息，包括工作内容、薪酬、交通方式等，符合客服咨询场景的特征。",
+                "confidence": 0.9
+            }</p>
+            <div class="translation">
+                Translation: {
+                    "scene": "customer service consultation",
+                    "reason": "The user actively contacts customer service to inquire about detailed information about recruiting promoters, including job content, salary, transportation methods, etc., which matches the characteristics of customer service consultation scenarios.",
+                    "confidence": 0.9
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="reference-container">
+        <h2>参考 Reasoning (Reference Reasoning)</h2>
+        <p>好的，我现在需要分析用户提供的音频内容及其特征，来判断通话场景属于哪一种类型。首先，用户给出的场景选项包括订餐服务、咨询客服、预约服务、交通咨询、日常购物、打车服务和外卖服务。\n\n音频内容主要是左声道（小明）和右声道（客服小王）的对话。小明在五八同城上听到招聘地推员的信息，想了解具体细节，包括职位性质（全职）、薪酬待遇、工作时间以及应聘所需材料。客服小王则逐一回答了这些问题，提供了详细的职位信息和流程。\n\n接下来，我需要分析这些内容属于哪个场景。首先，排除订餐服务、外卖服务，因为对话中没有涉及订餐或送餐相关内容。交通咨询和打车服务也不相关，因为没有提到交通路线、打车需求等。日常购物也不对，因为对话主题是招聘而不是购物。预约服务通常涉及预约时间、地点等，比如预约医生或服务，但这里讨论的是招聘职位，可能属于咨询客服的范畴。咨询客服一般是用户向客服询问产品或服务的信息，这里小明是在询问招聘信息，属于求职咨询，而客服小王作为公司客服提供职位详情，符合咨询客服的场景。\n\n音频特征方面，左声道语速快且紧张，可能显示求职者的急切心情；右声道语气中性，回答模糊，但根据文本，实际上客服的回答是具体的，比如薪酬结构、工作时间明确。可能特征描述中的“模糊”与实际文本有些出入，但关键点还是听内容。\n\n总结，对话的核心是求职者咨询招聘信息，客服提供详细信息，属于咨询客服。因此，场景应为“咨询客服”，理由充分，置信度较高，可能在0.9左右，因为内容完全符合客服咨询的特征。</p>
+        <div class="translation">
+            I need to analyze the audio content and its characteristics provided by the user to determine which type of call scenario it belongs to. First, the scenario options provided by the user include food ordering service, customer service consultation, appointment service, transportation inquiry, daily shopping, taxi service, and food delivery service.
+
+            The audio content mainly consists of dialogue between the left channel (Xiao Ming) and right channel (Customer Service Xiao Wang). Xiao Ming heard about a promotional staff recruitment information on 58.com and wanted to learn about specific details, including the nature of the position (full-time), salary package, working hours, and required application materials. Customer Service Xiao Wang answered these questions one by one, providing detailed position information and processes.
+
+            Next, I need to analyze which scenario this content belongs to. First, we can eliminate food ordering service and food delivery service, as the dialogue doesn't involve any food ordering or delivery content. Transportation inquiry and taxi service are also irrelevant, as there's no mention of traffic routes or taxi needs. Daily shopping is also incorrect, as the dialogue topic is recruitment rather than shopping. Appointment service usually involves scheduling time and location, such as booking a doctor or service, but here the discussion is about a job position, which might fall under customer service consultation. Customer service consultation typically involves users inquiring about product or service information from customer service representatives. Here, Xiao Ming is inquiring about recruitment information, which is job consultation, and Customer Service Xiao Wang provides position details as a company representative, fitting the customer service consultation scenario.
+
+            Regarding audio characteristics, the left channel speaks quickly and nervously, possibly showing the job seeker's eagerness; the right channel's tone is neutral, with responses described as vague, but according to the text, the customer service's answers are actually specific, such as clear salary structure and working hours. The "vague" description in the characteristics might differ somewhat from the actual text, but the key point is still the content.
+
+            In conclusion, the core of the dialogue is a job seeker consulting about recruitment information, with customer service providing detailed information, which belongs to customer service consultation. Therefore, the scenario should be "customer service consultation," with sufficient reasoning and high confidence, probably around 0.9, as the content completely matches the characteristics of customer service consultation.
+                </div>
+    </div>
+
+    <div class="deepseek-container">
+        <h2>Deepseek-r1 判断结果 (Deepseek-r1 Assessment Results)</h2>
+        <p>**逻辑严谨性**\n- 推理链条完整无断层（1分概率）：<80%>  \n- 关键假设合理且明确（1分概率）：<90%>  \n- 结论推导严密性（2分→70% | 1分→20%）  \n- 相较参考推理的优势概率（1分概率）：<10%>  \n期望得分：  \n`(0.8*1) + (0.9*1) + (0.7*2 + 0.2*1) + (0.1*1) = 0.8 + 0.9 + 1.6 + 0.1 = 3.4`  \n\n**实用价值**  \n- 问题本质识别准确度（1分概率）：<100%>  \n- 解决方案有效性（2分→80% | 1分→15%）  \n- 需求覆盖完整度（1分概率）：<90%>  \n- 相较参考推理的优化概率（1分概率）：<10%>  \n期望得分：  \n`(1.0*1) + (0.8*2 + 0.15*1) + (0.9*1) + (0.1*1) = 1 + 1.75 + 0.9 + 0.1 = 3.75`  \n\n**表达质量**  \n- 关键节点呈现完整度（1分概率）：<80%>  \n- 表述清晰度（2分→60% | 1分→30%）  \n- 信息精简度（1分概率）：<70%>  \n- 相较参考推理的表达优势（1分概率）：<20%>  \n期望得分：  \n`(0.8*1) + (0.6*2 + 0.3*1) + (0.7*1) + (0.2*1) = 0.8 + 1.5 + 0.7 + 0.2 = 3.2`  \n\n**最终期望得分**  \n- 逻辑严谨性：3.4/5 → **3.4**  \n- 实用价值：3.75/5 → **3.75**  \n- 表达质量：3.2/5 → **3.2**</p>
+        <div class="translation">
+            **Logical Rigor**
+            - Complete reasoning chain without gaps (1 point probability): <80%>
+            - Reasonable and explicit key assumptions (1 point probability): <90%>
+            - Conclusion derivation rigor (2 points→70% | 1 point→20%)
+            - Probability of advantages compared to reference reasoning (1 point probability): <10%>
+            
+            Expected score:
+            (0.8*1) + (0.9*1) + (0.7*2 + 0.2*1) + (0.1*1) = 0.8 + 0.9 + 1.6 + 0.1 = 3.4
+            
+            **Practical Value**
+            - Problem essence identification accuracy (1 point probability): <100%>
+            - Solution effectiveness (2 points→80% | 1 point→15%)
+            - Need coverage completeness (1 point probability): <90%>
+            - Probability of optimization compared to reference reasoning (1 point probability): <10%>
+            
+            Expected score:
+            (1.0*1) + (0.8*2 + 0.15*1) + (0.9*1) + (0.1*1) = 1 + 1.75 + 0.9 + 0.1 = 3.75
+            
+            **Expression Quality**
+            - Key node presentation completeness (1 point probability): <80%>
+            - Expression clarity (2 points→60% | 1 point→30%)
+            - Information conciseness (1 point probability): <70%>
+            - Expression advantages compared to reference (1 point probability): <20%>
+            
+            Expected score:
+            (0.8*1) + (0.6*2 + 0.3*1) + (0.7*1) + (0.2*1) = 0.8 + 1.5 + 0.7 + 0.2 = 3.2
+            
+            **Final Expected Scores**
+            - Logical Rigor: 3.4/5 → **3.4**
+            - Practical Value: 3.75/5 → **3.75**
+            - Expression Quality: 3.2/5 → **3.2**
+
+        </div>
+        <div class="deepseek-reasoning">
+            <h3>评分依据 (Scoring Basis)</h3>
+            <p>好的，我现在需要根据用户提供的评分标准，对模型的推理过程和答案进行评分。首先，我需要仔细分析模型给出的推理过程和最终答案，然后对照标准答案和参考推理过程，逐一检查各个评分点的概率，并最终计算期望得分。\n\n首先，确定模型的结论是否正确。模型得出的场景是“咨询客服”，而标准答案也是“咨询客服”，因此结论正确，不会触发结论错误时的约束条件。\n\n接下来，分析逻辑严谨性部分。\n\n1. 推理链条完整无断层（1分概率）：模型的推理过程首先分析了音频内容，排除了其他可能场景，并最终确定咨询客服。步骤比较完整，但可能缺少对“咨询客服”定义的详细解释。参考推理过程则更详细地分析了每个排除的场景，而模型虽然也提到了，但可能不够细致。因此，可能得分为80%的概率获得1分。\n\n2. 关键假设合理且明确（1分概率）：模型假设咨询客服包括求职咨询，这一点是否合理？标准答案中也认为属于咨询客服，因此假设合理。但模型是否明确说明这一点？在推理中，模型提到“咨询客服可能更接近”，但可能没有明确引用客服通常处理的内容。所以可能概率为90%，因为假设合理但可能不够明确。\n\n3. 结论推导严密性：模型在排除其他选项时是否严密？例如，预约服务是否被正确排除？模型提到预约服务涉及时间安排，而对话中没有预约，因此排除。这部分逻辑严密。但是否充分讨论了所有可能性？可能得2分的概率为70%，1分的概率为20%。\n\n4. 相较参考推理的优势概率：参考推理更详细地分析了每个排除的场景，而模型的推理较为简洁。因此，模型是否在某些方面更优？可能没有明显优势，因此概率为10%。\n\n实用价值部分：\n\n1. 问题本质识别准确度：正确识别为咨询客服，因此概率100%。\n\n2. 解决方案有效性：解决方案是正确分类，有效。但模型在分析过程中是否全面？可能得2分的概率80%，1分的概率15%。\n\n3. 需求覆盖完整度：覆盖了用户的需求，正确分类，因此概率90%。\n\n4. 相较参考的优化：可能没有优化，因此概率10%。\n\n表达质量：\n\n1. 关键节点呈现完整度：模型是否呈现了关键步骤？例如排除其他场景，确定咨询客服。可能比较完整，但可能缺少对音频特征的详细讨论。因此概率80%。\n\n2. 表述清晰度：推理过程是否清晰？步骤明确，但可能有些地方不够详细。得2分的概率60%，1分的概率30%。\n\n3. 信息精简度：是否简洁？可能过于简略，例如没有详细讨论每个排除场景。概率70%。\n\n4. 相较参考的表达优势：参考推理更详细，模型可能不如，因此概率20%。\n\n现在需要将这些思考转化为具体的百分比数值，并计算期望得分。需要注意的是，每个评分点需要详细对照评分规则，考虑是否有逻辑跳跃或证据缺失的情况。例如，在逻辑严谨性中，模型的推理是否存在跳跃？比如在排除预约服务时是否足够详细？可能稍有跳跃，导致概率衰减。但整体来看，结论正确，所以大部分评分点可以保持较高概率。</p>
+            <div class="translation">
+                I'll now evaluate the model's reasoning process and answers based on the user-provided scoring criteria. First, I need to carefully analyze the model's reasoning process and final answer, then compare them with the standard answer and reference reasoning process, check the probability of each scoring point, and finally calculate the expected score.
+
+                First, determine if the model's conclusion is correct. The model concluded the scenario as "customer service consultation", which matches the standard answer, so the conclusion is correct and won't trigger the constraints for incorrect conclusions.
+                
+                Next, analyze the logical rigor section:
+                
+                1. Complete reasoning chain without gaps (1 point probability): The model's reasoning process first analyzed the audio content, eliminated other possible scenarios, and finally determined customer service consultation. The steps are relatively complete but may lack detailed explanation of the "customer service consultation" definition. The reference reasoning analyzed each eliminated scenario in more detail, while the model mentioned them but perhaps not thoroughly enough. Therefore, there's an 80% probability of getting 1 point.
+                
+                2. Reasonable and explicit key assumptions (1 point probability): The model assumes customer service consultation includes career counseling - is this reasonable? The standard answer also considers it customer service consultation, so the assumption is reasonable. But did the model explicitly state this? In the reasoning, the model mentions "customer service consultation might be closer" but may not explicitly reference typical customer service content. So probability might be 90%, as the assumption is reasonable but perhaps not explicit enough.
+                
+                3. Conclusion derivation rigor: Was the model rigorous in eliminating other options? For example, was appointment service correctly eliminated? The model mentions appointment services involve scheduling, which isn't present in the dialogue, so this elimination is logical. But were all possibilities thoroughly discussed? 70% probability of getting 2 points, 20% probability of 1 point.
+                
+                4. Advantages compared to reference reasoning: The reference reasoning analyzed each eliminated scenario in more detail, while the model's reasoning was more concise. Does the model have advantages in some aspects? Probably no significant advantages, so 10% probability.
+                
+                Practical value section:
+                
+                1. Problem essence identification accuracy: Correctly identified as customer service consultation, so 100% probability.
+                
+                2. Solution effectiveness: The solution is correct classification and effective. But was the model's analysis comprehensive? 80% probability of 2 points, 15% probability of 1 point.
+                
+                3. Need coverage completeness: Covered user needs, correct classification, so 90% probability.
+                
+                4. Optimization compared to reference: Likely no optimization, so 10% probability.
+                
+                Expression quality:
+                
+                1. Key node presentation completeness: Did the model present key steps? Such as eliminating other scenarios, determining customer service consultation. Relatively complete but might lack detailed discussion of audio features. Thus 80% probability.
+                
+                2. Expression clarity: Is the reasoning process clear? Steps are clear but some areas might lack detail. 60% probability of 2 points, 30% probability of 1 point.
+                
+                3. Information conciseness: Is it concise? Maybe too brief, e.g., didn't discuss each eliminated scenario in detail. 70% probability.
+                
+                4. Expression advantages compared to reference: Reference reasoning is more detailed, model might not be as good, so 20% probability.
+                
+                Now these considerations need to be converted into specific percentage values and expected scores calculated. Note that each scoring point needs to be carefully compared against scoring rules, considering whether there are logical jumps or missing evidence. For example, in logical rigor, does the model's reasoning have jumps? Like when eliminating appointment services, was it detailed enough? There might be slight jumps, causing probability decay. But overall, with correct conclusions, most scoring points can maintain relatively high probabilities.
+                </div>
+        </div>
+    </div>
+
+</body>
+</html>

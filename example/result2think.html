@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .asr-result {
+            background: #e8f5e9;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .conversation {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .message {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .user {
+            background: #e3f2fd;
+        }
+        .assistant {
+            background: #f5f5f5;
+        }
+        .translation {
+            margin-top: 10px;
+            padding: 10px;
+            background: #fff3e0;
+            border-radius: 6px;
+        }
+        .title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        pre {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        code {
+            font-family: monospace;
+        }
+        .think {
+            background: #f0f7ff;
+            padding: 15px;
+            border-left: 3px solid #3498db;
+            margin: 10px 0;
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="asr-result">
+        <div class="title">Audio ASR Result:</div>
+        
+        <p><strong>Left:</strong> 喂，你好，张老板吗，我是农商银行的小刘，今天给你打电话是有个好消息要告诉你。</p>
+        <div class="translation">Hello, is this Boss Zhang? I'm Xiao Liu from the Rural Commercial Bank. I'm calling today because I have some good news to tell you.</div>
+        
+        <p><strong>Right:</strong> 你好，有什么好消息呢？</p>
+        <div class="translation">Hello, what's the good news?</div>
+        
+        <p><strong>Left:</strong> 啊，是这样的，我们银行最近推出了一个特别的贷款服务，不需要任何抵押，审批特别快，而且利率非常低，特别适合你这样的老板。</p>
+        <div class="translation">Ah, well, our bank recently launched a special loan service. It requires no collateral, has very fast approval, and very low interest rates - especially suitable for business owners like you.</div>
+
+        <p><strong>Right:</strong> 哦，听起来不错，但是我不太了解这些贷款的事。</p>
+        <div class="translation">Oh, sounds good, but I'm not very familiar with these loan matters.</div>
+        
+        <p><strong>Left:</strong> 没关系，我可以给你详细介绍。如果你感兴趣的话，可以点击我发给你的链接，里面详细介绍了我们的贷款产品，你也可以直接通过链接申请。</p>
+        <div class="translation">That's okay, I can explain in detail. If you're interested, you can click the link I'll send you, which has detailed information about our loan products, and you can also apply directly through the link.</div>
+        
+        <p><strong>Right:</strong> 好吧，我看看。</p>
+        <div class="translation">Okay, I'll take a look.</div>
+        
+        <p><strong>Left:</strong> 太好了，你点击链接后，如果有什么不明白的地方，可以直接联系我。对了，为了加快审批速度，如果你能提供一些个人信息，比如身份证号、银行卡号，那会更快捷。</p>
+        <div class="translation">Great! After clicking the link, if there's anything you don't understand, you can contact me directly. Oh, and to speed up the approval process, if you could provide some personal information, like your ID number and bank card number, that would be faster.</div>
+        
+        <p><strong>Right:</strong> 这样啊，我先看看资料再说。</p>
+        <div class="translation">I see, let me look at the information first.</div>
+        
+        <p><strong>Left:</strong> 好的，你放心，我们的链接绝对安全，银行信息也会保密处理。你有任何问题，都可以随时联系我。</p>
+        <div class="translation">Okay, don't worry, our link is absolutely safe, and your banking information will be kept confidential. You can contact me anytime if you have any questions.</div>
+        
+        <p><strong>Right:</strong> 谢谢，我会考虑的。</p>
+        <div class="translation">Thanks, I'll think about it.</div>
+    </div>
+
+    <div class="conversation">
+        <!-- Round 1: Scene Classification -->
+        <div class="message user">
+            <div class="title">User:</div>
+            <p><strong>任务描述：</strong></p>
+            <p>请根据你听到的音频内容，判断通话场景属于以下哪种类型：</p>
+            <ul>
+                <li>订餐服务</li>
+                <li>咨询客服</li>
+                <li>预约服务</li>
+                <li>交通咨询</li>
+                <li>日常购物</li>
+                <li>打车服务</li>
+                <li>外卖服务</li>
+            </ul>
+            <div class="translation">
+                <strong>Task Description:</strong><br>
+                Based on the audio content, please determine which type of scenario this conversation belongs to:
+                <ul>
+                    <li>Food Ordering Services</li>
+                    <li>Customer Service Inquiries</li>
+                    <li>Appointment Services</li>
+                    <li>Transportation Inquiries</li>
+                    <li>Daily Shopping</li>
+                    <li>Ride-hailing Services</li>
+                    <li>Delivery Services</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="message assistant">
+            <div class="title">Assistant:</div>
+            <div class="think">
+                好的，我现在需要分析用户提供的音频内容，判断属于哪个通话场景。首先，用户给出的场景选项包括订餐服务、咨询客服、预约服务、交通咨询、日常购物、打车服务、外卖服务。
+
+                首先听音频内容。左声道的人自称是农商银行的小刘，提到有好消息，推荐贷款服务，不需要抵押，审批快，利率低。右声道的人表现出兴趣，但询问细节，并要求发送链接。根据这些内容，左声道是银行工作人员推销贷款，右声道是潜在客户询问贷款信息。
+
+                需要从给定选项中选择最合适的场景类型。这里涉及金融产品咨询，最接近的是"咨询客服"类型，因为涉及银行服务咨询，尽管是银行主动推销。其他选项如订餐服务、交通咨询等明显不相关。
+
+                虽然这个场景有推销的成分，但从客户服务的角度来看，仍然属于咨询客服的范畴，因为涉及产品介绍和服务咨询。置信度可以设为0.85，因为虽然有一些推销的特征，但主要还是围绕服务咨询展开。
+            </div>
+            <div class="translation think">
+                <strong>Thinking Process:</strong><br>
+                I need to analyze the provided audio content and determine which scenario it belongs to. First, let's look at the given options: food ordering, customer service, appointment services, transportation inquiries, daily shopping, ride-hailing, and delivery services.
+
+                From the audio, the speaker on the left channel identifies himself as Xiao Liu from the Rural Commercial Bank, mentioning good news and recommending a loan service with no collateral, fast approval, and low interest rates. The person on the right shows interest but asks for details and requests a link. This indicates a bank employee promoting loans and a potential customer inquiring about loan information.
+
+                Looking at the given options, this involves financial product consultation, making it closest to "Customer Service Inquiries". While it involves proactive selling from the bank, it still revolves around service consultation. The confidence level can be set at 0.85, as despite some promotional aspects, the core interaction is about service inquiry.
+            </div>
+            <pre><code>{
+  "scene": "咨询客服",
+  "reason": "通话内容涉及银行工作人员主动推销贷款服务，潜在客户询问贷款细节并要求发送链接，符合金融机构与客户之间的服务咨询场景。",
+  "confidence": 0.85
+}</code></pre>
+            <div class="translation">
+                {
+                    "scene": "Customer Service Inquiries",
+                    "reason": "The conversation involves bank staff actively promoting loan services, with potential customers inquiring about loan details and requesting links, matching the service consultation scenario between financial institutions and customers.",
+                    "confidence": 0.85
+                }
+            </div>
+        </div>
+
+        <!-- Round 2: Fraud Detection -->
+        <div class="message user">
+            <div class="title">User:</div>
+            <p><strong>任务描述：</strong></p>
+            <p>你是一个专业的音频大模型，能够直接分析音频内容并判断其是否涉及诈骗。请根据以下信息，输出你的判断：</p>
+            <ol>
+                <li>第一轮分析的通话场景。</li>
+                <li>音频内容。</li>
+            </ol>
+            <div class="translation">
+                <strong>Task Description:</strong><br>
+                You are a professional audio model capable of directly analyzing audio content and determining if it involves fraud. Please provide your judgment based on:
+                <ol>
+                    <li>The conversation scenario from the first round analysis.</li>
+                    <li>The audio content.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="message assistant">
+            <div class="title">Assistant:</div>
+            <div class="think">
+                好的，我现在需要基于第一轮的分析结果和音频内容来判断是否涉及诈骗。从第一轮分析中，我们已经确定这是一个"咨询客服"场景，但需要进一步分析其真实性。
+
+                分析几个关键点：
+                1. 身份声明：自称是农商银行工作人员，但主动推销贷款服务，这不符合正规银行的业务流程
+                2. 产品特征：无抵押、快速审批、低利率，这些承诺过于完美，不符合正常银行风控流程
+                3. 操作要求：要求点击不明链接，索要身份证号和银行卡号等敏感信息
+                4. 话术特点：强调"好消息"、"特别适合"等诱导性话语
+                
+                这些特征都指向可能的诈骗行为。正规银行不会通过电话主动推销贷款，更不会要求通过非官方渠道提供敏感信息。置信度设为0.85，因为特征明显符合典型的金融诈骗模式。
+            </div>
+            <div class="translation think">
+                <strong>Thinking Process:</strong><br>
+                I need to determine if fraud is involved based on the first round analysis and audio content. While we identified this as a "customer service" scenario, we need to verify its authenticity.
+
+                Key analysis points:
+                1. Identity claim: Claims to be a bank employee but actively promotes loans, which is inconsistent with legitimate bank procedures
+                2. Product features: No collateral, fast approval, low interest rates - promises that seem too good to be true
+                3. Required actions: Requests clicking on an unknown link and sensitive personal information
+                4. Sales tactics: Uses persuasive language like "good news" and "especially suitable"
+
+                These characteristics strongly indicate potential fraud. Legitimate banks don't typically promote loans via phone calls or request sensitive information through unofficial channels.
+            </div>
+            <pre><code>{
+  "reason": "通话内容涉及银行工作人员主动推销贷款服务，要求点击不明链接，且客户对链接安全性存在质疑，符合常见诈骗话术特征。银行通常不会通过电话主动推销贷款并要求点击链接，且客户对链接安全性存在合理怀疑。",
+  "confidence": 0.85,
+  "is_fraud": true
+}</code></pre>
+            <div class="translation">
+                {
+                    "reason": "The conversation involves bank staff actively promoting loan services, requesting clicks on suspicious links, and the customer expressing doubts about link security, matching common fraud patterns. Banks typically don't actively promote loans via phone calls or request clicking links, and the customer's doubts about link security are reasonable.",
+                    "confidence": 0.85,
+                    "is_fraud": true
+                }
+            </div>
+        </div>
+
+        <!-- Round 3: Fraud Type Classification -->
+        <div class="message user">
+            <div class="title">User:</div>
+            <p><strong>任务描述：</strong></p>
+            <p>你是一个专业的音频大模型，能够详细分析音频内容并判断其涉及的诈骗类型。请根据以下信息，输出你的判断：</p>
+            <ol>
+                <li>第一轮分析的通话场景。</li>
+                <li>第二轮对于是否涉诈的分析。</li>
+                <li>音频内容。</li>
+            </ol>
+            <div class="translation">
+                <strong>Task Description:</strong><br>
+                You are a professional audio model capable of analyzing audio content in detail and determining the type of fraud involved. Please provide your judgment based on:
+                <ol>
+                    <li>The conversation scenario from the first round.</li>
+                    <li>The fraud analysis from the second round.</li>
+                    <li>The audio content.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="message assistant">
+            <div class="title">Assistant:</div>
+            <div class="think">
+                基于前两轮的分析，我们已经确定这是一个诈骗电话，现在需要具体判断诈骗类型。从给定的选项来看，可能的类型包括：投资诈骗、钓鱼诈骗、身份盗窃、彩票诈骗、银行诈骗、绑架诈骗、客服诈骗、邮件诈骗。
+
+                分析诈骗特征：
+                1. 冒充身份：假扮银行工作人员
+                2. 诈骗手法：推销虚假贷款产品
+                3. 信息收集：试图获取身份证号、银行卡号等敏感信息
+                4. 技术手段：使用不明链接进行诱导
+
+                这种情况既符合"银行诈骗"的特征（冒充银行人员），也符合"钓鱼诈骗"的特征（使用链接诱导）。但考虑到主要是冒充银行身份进行诈骗，应归类为"银行诈骗"。置信度设为0.7，因为虽然特征明显，但与钓鱼诈骗也有重叠。
+            </div>
+            <div class="translation think">
+                <strong>Thinking Process:</strong><br>
+                Based on the previous two rounds of analysis, we've confirmed this is a fraudulent call and now need to determine the specific type of fraud. The options include: investment fraud, phishing fraud, identity theft, lottery fraud, bank fraud, kidnapping fraud, customer service fraud, and email fraud.
+
+                Analysis of fraud characteristics:
+                1. Identity impersonation: Pretending to be a bank employee
+                2. Fraud method: Promoting fake loan products
+                3. Information gathering: Attempting to obtain sensitive information like ID and bank card numbers
+                4. Technical approach: Using suspicious links as bait
+
+                While this case shows characteristics of both bank fraud (impersonating bank staff) and phishing fraud (using links as bait), the primary aspect is the impersonation of bank identity, so it should be classified as "bank fraud". Confidence is set at 0.7 due to some overlap with phishing fraud characteristics.
+            </div>
+            <pre><code>{
+  "fraud_type": "银行诈骗",
+  "reason": "冒充银行工作人员以贷款服务为名诱导客户点击不明链接并提供身份证号、银行卡号等敏感信息，符合银行诈骗中伪造官方身份骗取信任的典型特征。",
+  "confidence": 0.7
+}</code></pre>
+            <div class="translation">
+                {
+                    "fraud_type": "Bank Fraud",
+                    "reason": "Impersonating bank staff to induce customers to click suspicious links and provide sensitive information like ID numbers and bank card numbers under the guise of loan services, matching typical characteristics of bank fraud where official identity is forged to gain trust.",
+                    "confidence": 0.7
+                }
+            </div>
+        </div>
+    </div>
+</body>
+</html>

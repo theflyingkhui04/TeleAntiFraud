@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .asr-result {
+            background: #e8f5e9;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .conversation {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .message {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .user {
+            background: #e3f2fd;
+        }
+        .assistant {
+            background: #f5f5f5;
+        }
+        .translation {
+            margin-top: 10px;
+            padding: 10px;
+            background: #fff3e0;
+            border-radius: 6px;
+        }
+        .title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        pre {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        code {
+            font-family: monospace;
+        }
+        .think {
+            background: #f0f7ff;
+            padding: 15px;
+            border-left: 3px solid #3498db;
+            margin: 10px 0;
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="asr-result">
+        <div class="title">Audio ASR Result:</div>
+        
+        <p><strong>Left:</strong> 喂，你好，这里是深圳银行的信用贷款服务中心，最近我们推出了一个非常优惠的贷款项目，不知道你是否有兴趣了解一下？</p>
+        <div class="translation">Hello, this is the credit loan service center of Shenzhen Bank. We recently launched a very favorable loan project. Would you be interested in learning more about it?</div>
+        
+        <p><strong>Right:</strong> 哦，贷款吗？我现在资金周转还可以，不过你先说说看，有什么特别的？</p>
+        <div class="translation">Oh, a loan? My current financial situation is fine, but tell me, what's special about it?</div>
+        
+        <p><strong>Left:</strong> 是这样的，我们这次的贷款项目是无抵押、无担保，只要你有稳定的工作和收入，就能快速审批，最快当天放款。</p>
+        <div class="translation">Well, this loan project requires no collateral and no guarantee. As long as you have a stable job and income, we can quickly approve it, with funds possibly available on the same day.</div>
+        
+        <p><strong>Right:</strong> 听起来不错，那我需要怎么做呢？</p>
+        <div class="translation">Sounds good, what do I need to do?</div>
+        
+        <p><strong>Left:</strong> 非常简单，你只需要下载我们的官方APP，填写一些基本信息，然后提交申请就可以了。</p>
+        <div class="translation">It's very simple. You just need to download our official APP, fill in some basic information, and submit the application.</div>
+        
+        <p><strong>Right:</strong> 下载APP？在哪里下载呢？</p>
+        <div class="translation">Download the APP? Where can I download it?</div>
+        
+        <p><strong>Left:</strong> 你可以直接点击这个链接，或者我可以通过短信发送给你，非常方便。</p>
+        <div class="translation">You can click this link directly, or I can send it to you via text message, very convenient.</div>
+        
+        <p><strong>Right:</strong> 好的，你可以发短信给我，我看看具体情况。</p>
+        <div class="translation">Okay, you can send me a text message, I'll check the details.</div>
+        
+        <p><strong>Left:</strong> 好的，我这就发短信。另外，为了确保你的信息安全，我们需要你提供一个验证码，这个验证码会通过短信发送，你收到后告诉我，这样我们就可以继续下一步了。</p>
+        <div class="translation">Alright, I'll send the text message now. Also, to ensure your information security, we need you to provide a verification code that will be sent via text message. Once you receive it, let me know, and we can proceed to the next step.</div>
+        
+        <p><strong>Right:</strong> 行，我等短信。</p>
+        <div class="translation">Okay, I'll wait for the text message.</div>
+    </div>
+
+    <div class="conversation">
+        <div class="message user">
+            <div class="title">User:</div>
+            <p><strong>任务描述：</strong></p>
+            <p>请根据你听到的音频内容，判断通话场景属于以下哪种类型：</p>
+            <ul>
+                <li>订餐服务 (Food Ordering Services)</li>
+                <li>咨询客服 (Customer Service Inquiries)</li>
+                <li>预约服务 (Appointment Services)</li>
+                <li>交通咨询 (Transportation Inquiries)</li>
+                <li>日常购物 (Daily Shopping)</li>
+                <li>打车服务 (Ride-hailing Services)</li>
+                <li>外卖服务 (Delivery Services)</li>
+            </ul>
+            <div class="translation">
+                <strong>Translation:</strong><br>
+                Task Description: Based on the audio content you hear, determine which type of call scenario it belongs to from the following categories.
+            </div>
+        </div>
+
+        <div class="message assistant">
+            <div class="title">Assistant:</div>
+            <div class="think">
+                好的，我现在需要分析用户提供的音频内容和特征，判断通话场景属于哪个预定义的类别。
+
+                首先，转写文本显示，左声道的人自称是深圳银行的信用贷款服务中心，推广一个无抵押、无担保的贷款项目，并引导对方下载APP和提供验证码。右声道的人询问了一些细节，但并没有表现出明确的兴趣，只是被动回应。
+
+                这种情况在给定的七个场景中最接近"咨询客服"，因为涉及金融服务咨询。但显然，这更像是主动推销或可能的诈骗电话。不过根据任务要求必须从闭集中选择，而"咨询客服"相对是最接近的选项。
+
+                考虑到这种分类的不确定性，置信度应当较低，设为0.5。因为虽然确实涉及金融服务咨询，但主动推销的性质与典型的客服咨询场景有所不同。
+            </div>
+            <div class="translation think">
+                <strong>Thinking Process:</strong><br>
+                I need to analyze the provided audio content and features to determine which predefined category this conversation belongs to.
+
+                First, the transcript shows that the person on the left channel claims to be from Shenzhen Bank's credit loan service center, promoting a loan project without collateral or guarantee, and guiding the other party to download an APP and provide verification codes. The person on the right channel asks some details but shows no clear interest, only responding passively.
+
+                Among the seven given scenarios, this is closest to "Customer Service Inquiry" as it involves financial service consultation. However, it's clearly more like active sales or potentially a fraud call. But according to the task requirements, we must choose from the closed set, and "Customer Service Inquiry" is relatively the closest option.
+
+                Given the uncertainty of this classification, the confidence level should be relatively low, set at 0.5. While it does involve financial service consultation, the nature of active sales differs from typical customer service inquiry scenarios.
+            </div>
+            <pre><code>{
+  "scene": "咨询客服",
+  "reason": "通话内容涉及银行信用贷款服务的详细介绍、申请流程及验证操作，属于金融服务咨询范畴。左方主动提供贷款信息并引导操作，右方被动询问细节，符合客服咨询场景特征。",
+  "confidence": 0.5
+}</code></pre>
+            <div class="translation">
+                <strong>Translation:</strong><br>
+                {
+                    "scene": "Customer Service Inquiries",
+                    "reason": "The call content involves detailed introduction of bank credit loan services, application process and verification operations, falling under financial service consultation. The left party actively provides loan information and guides operations, while the right party passively inquires about details, matching customer service consultation scenario characteristics.",
+                    "confidence": 0.5
+                }
+            </div>
+        </div>
+
+        <div class="message user">
+            <div class="title">User:</div>
+            <p><strong>任务描述：</strong></p>
+            <p>你是一个专业的音频大模型，能够直接分析音频内容并判断其是否涉及诈骗。请根据以下信息，输出你的判断：</p>
+            <ol>
+                <li>第一轮分析的通话场景。</li>
+                <li>音频内容。</li>
+            </ol>
+            <p><strong>输出格式：</strong></p>
+            <pre><code>{
+  "reason": "&lt;reason_for_judgment&gt;",
+  "confidence": &lt;confidence_level&gt;,
+  "is_fraud": &lt;true/false&gt;
+}</code></pre>
+            <div class="translation">
+                <strong>Translation:</strong><br>
+                Task Description: You are a professional audio model that can directly analyze audio content and determine if it involves fraud. Please output your judgment based on the following information:
+                1. The call scenario from the first round of analysis
+                2. Audio content
+                
+                Output Format:
+                - reason: String, briefly explaining the reason for your judgment
+                - confidence: Float, indicating your confidence level
+                - is_fraud: Boolean, indicating whether the audio involves fraud
+            </div>
+        </div>
+
+        <div class="message assistant">
+            <div class="title">Assistant:</div>
+            <div class="think">
+                好的，我现在需要分析用户提供的这段音频内容，判断是否涉及诈骗。从第一轮分析可知，这是一个咨询客服场景，但信心度较低（0.5），现在需要进一步判断是否涉诈。
+
+                分析几个关键点：
+                1. 身份冒充：自称深圳银行信用贷款服务中心
+                2. 可疑承诺：无抵押、无担保但承诺快速放款
+                3. 危险操作：要求下载APP、提供验证码
+                4. 话术特征：标准化推销用语，急于推动流程
+
+                这些特征都指向典型的诈骗电话：
+                - 正规银行不会主动电话推销无抵押贷款
+                - 要求下载不明APP和提供验证码是常见诈骗手段
+                - 无抵押快速放款的承诺与正常银行业务流程不符
+
+                置信度设为0.7，因为虽然诈骗特征明显，但仍需考虑可能存在的合法推销情况。
+            </div>
+            <div class="translation think">
+                <strong>Thinking Process:</strong><br>
+                I need to analyze this audio content to determine if it involves fraud. From the first round analysis, this was classified as a customer service scenario but with low confidence (0.5), and now we need to further assess if it involves fraud.
+
+                Key analysis points:
+                1. Identity impersonation: Claims to be from Shenzhen Bank's credit loan service center
+                2. Suspicious promises: No collateral or guarantee but promises quick loan approval
+                3. Risky operations: Requests APP download and verification code
+                4. Speech patterns: Standardized sales language, rushing to push the process
+
+                These characteristics point to a typical fraud call:
+                - Legitimate banks don't actively promote unsecured loans via phone
+                - Requesting downloads of unknown APPs and verification codes are common fraud tactics
+                - Promises of quick unsecured loans don't align with normal banking procedures
+
+                Confidence is set at 0.7 because while fraud characteristics are evident, we must still consider possible legitimate sales scenarios.
+            </div>
+            <pre><code>{
+  "reason": "通话内容涉及无抵押贷款推销、要求下载不明链接APP及提供短信验证码，存在虚假贷款服务特征。可疑方使用脚本化话术强调快速放款，逻辑矛盾（无抵押但当天放款），符合涉诈电话常见模式。",
+  "confidence": 0.7,
+  "is_fraud": true
+}</code></pre>
+            <div class="translation">
+                <strong>Translation:</strong><br>
+                {
+                    "reason": "The call involves unsecured loan marketing, requests to download an APP from suspicious links and provide SMS verification codes, showing characteristics of fake loan services. The suspicious party uses scripted dialogue emphasizing quick loan disbursement, with logical contradictions (no collateral but same-day funding), matching common fraud call patterns.",
+                    "confidence": 0.7,
+                    "is_fraud": true
+                }
+            </div>
+        </div>
+
+        <div class="message user">
+            <div class="title">User:</div>
+            <p><strong>任务描述：</strong></p>
+            <p>你是一个专业的音频大模型，能够直接分析音频内容并判断其涉及的诈骗类型。请根据以下信息，输出你的判断：</p>
+            <ol>
+                <li>第一轮分析的通话场景。</li>
+                <li>第二轮对于是否涉诈的分析。</li>
+                <li>音频内容。</li>
+            </ol>
+            <div class="translation">
+                <strong>Translation:</strong><br>
+                Task Description: You are a professional audio model that can analyze audio content in detail and determine if it involves fraud. Please output your judgment based on the following information:
+                1. The call scenario from the first round of analysis
+                2. The fraud analysis from the second round
+                3. The audio content
+            </div>
+        </div>
+
+        <div class="message assistant">
+            <div class="title">Assistant:</div>
+            <div class="think">
+                基于前两轮的分析，我们已经确定这是一个诈骗电话，现在需要具体判断诈骗类型。从给定的选项来看，最相关的是"银行诈骗"和"钓鱼诈骗"。
+
+                分析诈骗特征：
+                1. 冒充身份：假扮银行信贷部门
+                2. 诈骗手法：推销虚假贷款产品
+                3. 风险操作：诱导下载APP、提供验证码
+                4. 话术模式：脚本化推销、承诺快速放款
+
+                虽然涉及钓鱼诈骗的特征（下载APP、验证码），但整体更符合银行诈骗的特点：
+                - 直接冒充银行机构
+                - 以贷款服务为诱饵
+                - 使用银行业务相关话术
+
+                置信度设为0.7，因为虽然银行诈骗特征明显，但也包含钓鱼诈骗的元素。
+            </div>
+            <div class="translation think">
+                <strong>Thinking Process:</strong><br>
+                Based on the previous two rounds of analysis, we've confirmed this is a fraudulent call and now need to determine the specific type of fraud. Among the given options, "Bank Fraud" and "Phishing Fraud" are most relevant.
+
+                Analysis of fraud characteristics:
+                1. Identity impersonation: Pretending to be bank lending department
+                2. Fraud method: Promoting fake loan products
+                3. Risk operations: Inducing APP downloads, requesting verification codes
+                4. Speech patterns: Scripted sales, promises of quick loans
+
+                While there are elements of phishing fraud (APP downloads, verification codes), the overall pattern better matches bank fraud:
+                - Direct impersonation of banking institution
+                - Using loan services as bait
+                - Using banking business-related language
+
+                Confidence is set at 0.7 because while bank fraud characteristics are evident, it also contains elements of phishing fraud.
+            </div>
+            <pre><code>{
+  "fraud_type": "银行诈骗",
+  "reason": "冒充银行信用贷款服务诱导下载虚假APP、索取短信验证码，结合无抵押快速放款承诺与脚本化推销话术，符合虚假贷款类银行诈骗特征。",
+  "confidence": 0.7
+}</code></pre>
+            <div class="translation">
+                <strong>Translation:</strong><br>
+                {
+                    "fraud_type": "Bank Fraud",
+                    "reason": "Impersonating bank credit loan service to induce downloading fake APP and requesting SMS verification codes, combined with unsecured quick loan promises and scripted sales pitch, matching characteristics of fake loan bank fraud.",
+                    "confidence": 0.7
+                }
+            </div>
+        </div>
+    </div>
+</body>
+</html>

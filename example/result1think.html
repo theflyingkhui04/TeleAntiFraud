@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .asr-result {
+            background: #e8f5e9;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .conversation {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .message {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .user {
+            background: #e3f2fd;
+        }
+        .assistant {
+            background: #f5f5f5;
+        }
+        .translation {
+            margin-top: 10px;
+            padding: 10px;
+            background: #fff3e0;
+            border-radius: 6px;
+        }
+        .title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        pre {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        code {
+            font-family: monospace;
+        }
+        .think {
+            background: #f0f7ff;
+            padding: 15px;
+            border-left: 3px solid #3498db;
+            margin: 10px 0;
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="asr-result">
+        <div class="title">Audio ASR Result:</div>
+        
+        <p><strong>Right:</strong> 喂，你好喂，你好</p>
+        <div class="translation">Hello, hello</div>
+        
+        <p><strong>Left:</strong> 喂，哎，你好，师傅</p>
+        <div class="translation">Hi, hello, driver</div>
+        
+        <p><strong>Right:</strong> 哎</p>
+        <div class="translation">Yes</div>
+        
+        <p><strong>Left:</strong> 那个你不是在来的路上吗？是吧？</p>
+        <div class="translation">Aren't you on your way here, right?</div>
+        
+        <p><strong>Right:</strong> 对，马上快到了。</p>
+        <div class="translation">Yes, I'm almost there.</div>
+        
+        <p><strong>Left:</strong> 我知道你我在那个停车场的入口，这里等你吧，停车场的入口，这样的话你不用再往里边拐了，或者说呃也比较好找好吧，要不然那边太堵了。</p>
+        <div class="translation">I'll wait for you at the parking lot entrance. This way you won't need to turn inside, and it's easier to find. Otherwise, it's too congested over there.</div>
+        
+        <p><strong>Right:</strong> 啊，里面太堵了是吧，那你那你出来吧，出来的入口可以。</p>
+        <div class="translation">Oh, it's too congested inside? Then come out, the entrance is fine.</div>
+        
+        <p><strong>Left:</strong> 但是我我我我的意思是停车场的入口，这个地方就是你还是要进停车场的是吧？</p>
+        <div class="translation">But what I mean is the parking lot entrance, you still need to enter the parking lot, right?</div>
+        
+        <p><strong>Right:</strong> 哦，要进要进去吧，应该你要不要不进去？</p>
+        <div class="translation">Oh, should we go in? Or do you want to not go in?</div>
+        
+        <p><strong>Left:</strong> 对，因为那是个单行道，所以说你可能还要再进来一下，然后我就在停车场的这个闸机进来这里等你可以不？</p>
+        <div class="translation">Yes, because it's a one-way street, so you might need to come in again, and I'll wait for you by the parking lot gate, is that okay?</div>
+        
+        <p><strong>Right:</strong> 就那个入口就那个呃入口可以掉头的。</p>
+        <div class="translation">That entrance, that entrance has a place to turn around.</div>
+        
+        <p><strong>Left:</strong> 啊，对呀，所以说我就在入口的闸机里边，这里等你可以吧？</p>
+        <div class="translation">Ah, yes, so I'll wait for you inside by the entrance near the gate, is that okay?</div>
+        
+        <p><strong>Right:</strong> 可以可以可以好</p>
+        <div class="translation">Yes, yes, yes, good</div>
+        
+        <p><strong>Left:</strong> 啊啊，这样的话直要调头就走了啊。</p>
+        <div class="translation">Ah, this way you just need to turn around and go.</div>
+        
+        <p><strong>Right:</strong> 好好</p>
+        <div class="translation">Okay, okay</div>
+    </div>
+
+    <div class="conversation">
+        <!-- Round 1 -->
+        <div class="message user">
+            <div class="title">User:</div>
+            <p><strong>任务描述：</strong></p>
+            <p>请根据你听到的音频内容，判断通话场景属于以下哪种类型：</p>
+            <ul>
+                <li>订餐服务 (Food Ordering Services)</li>
+                <li>咨询客服 (Customer Service Inquiries)</li>
+                <li>预约服务 (Appointment Services)</li>
+                <li>交通咨询 (Transportation Inquiries)</li>
+                <li>日常购物 (Daily Shopping)</li>
+                <li>打车服务 (Ride-hailing Services)</li>
+                <li>外卖服务 (Delivery Services)</li>
+            </ul>
+            <p><strong>输入：</strong></p>
+            <p>通话记录</p>
+            <p><strong>输出格式：</strong></p>
+            <pre><code>{
+  "scene": "&lt;scene_type&gt;",
+  "reason": "&lt;reason_for_judgment&gt;",
+  "confidence": &lt;confidence_level&gt;
+}</code></pre>
+            <div class="translation">
+                <strong>Translation:</strong><br>
+                Task Description: Based on the audio content you hear, determine which type of call scenario it belongs to from the following categories:
+                - Food Ordering Services
+                - Customer Service Inquiries 
+                - Appointment Services
+                - Transportation Inquiries
+                - Daily Shopping
+                - Ride-hailing Services
+                - Delivery Services
+                
+                Input: Call record
+                
+                Output Format: Please output your judgment result in the following format:
+                - scene: String, indicating the identified call scenario type
+                - reason: String, briefly explaining the reason for your judgment
+                - confidence: Float, indicating your confidence in the judgment result
+            </div>
+        </div>
+
+
+        <div class="message assistant">
+            <div class="title">Assistant:</div>
+            <div class="think">
+                好的，我现在需要分析用户提供的音频内容，判断属于哪个通话场景。首先，用户给出的场景选项包括订餐服务、咨询客服、预约服务、交通咨询、日常购物、打车服务、外卖服务。
+
+                首先听音频内容。左边的人一开始说"喂你好，师傅，你不是在来的路上吗？"右边回应说"对，马上快到了。"接着讨论停车场入口，左边提到"停车场入口这里等你吧"，右边说"出来的入口就可以"。整个对话围绕停车场入口展开，讨论如何见面，避免拥堵，听起来像是在安排见面地点。
+
+                根据对话内容和语境，这明显是一次打车服务中的对话，司机和乘客在协调具体的接车地点。对话围绕停车场入口和路线展开，完全符合打车场景的特征。而且双方的称呼（"师傅"）和交谈内容都很符合打车服务的特点。
+            </div>
+            <div class="translation think">
+                <strong>Thinking Process:</strong><br>
+                I need to analyze the provided audio content and determine which scenario it belongs to. First, looking at the given options: food ordering services, customer service inquiries, appointment services, transportation inquiries, daily shopping, ride-hailing services, and delivery services.
+
+                From the audio, the person on the left starts with "Hello, driver, aren't you on your way?" The right side responds "Yes, almost there." They then discuss the parking lot entrance, with the left mentioning "I'll wait at the parking lot entrance" and the right saying "The entrance is fine." The entire conversation revolves around coordinating a meeting point and avoiding traffic congestion.
+
+                Based on the conversation context and content, this is clearly a ride-hailing service dialogue where driver and passenger are coordinating a pickup location. The discussion focuses on the parking lot entrance and route, perfectly matching ride-hailing scenario characteristics. The way they address each other ("driver") and the conversation content are typical of ride-hailing services.
+            </div>
+            <pre><code>{
+  "scene": "打车服务",
+  "reason": "对话中双方讨论了停车场入口的具体位置，并且涉及车辆接人安排，符合打车服务中司机与乘客协商见面地点的典型场景。",
+  "confidence": 0.9
+}</code></pre>
+            <div class="translation">
+                {
+                    "scene": "Ride-hailing Services",
+                    "reason": "The conversation involves discussion about the parking lot entrance location and vehicle pickup arrangements, matching the typical scenario of driver and passenger coordinating meeting point in ride-hailing services.",
+                    "confidence": 0.9
+                }
+            </div>
+        </div>
+
+        <!-- Round 2 -->
+        <div class="message user">
+           <div class="title">User:</div>
+            <p><strong>任务描述：</strong></p>
+            <p>你是一个专业的音频大模型，能够直接分析音频内容并判断其是否涉及诈骗。请根据以下信息，输出你的判断：</p>
+            <ol>
+                <li>第一轮分析的通话场景。</li>
+                <li>音频内容。</li>
+            </ol>
+            <p><strong>输出格式：</strong></p>
+            <pre><code>{
+  "reason": "&lt;reason_for_judgment&gt;",
+  "confidence": &lt;confidence_level&gt;,
+  "is_fraud": &lt;true/false&gt;
+}</code></pre>
+            <div class="translation">
+                <strong>Translation:</strong><br>
+                Task Description: You are a professional audio model that can directly analyze audio content and determine if it involves fraud. Please output your judgment based on the following information:
+                1. The call scenario from the first round of analysis
+                2. Audio content
+                
+                Output Format:
+                - reason: String, briefly explaining the reason for your judgment
+                - confidence: Float, indicating your confidence level
+                - is_fraud: Boolean, indicating whether the audio involves fraud
+            </div>
+
+        </div>
+
+        <div class="message assistant">
+            <div class="title">Assistant:</div>
+            <div class="think">
+                好的，我现在需要基于第一轮的分析结果和音频内容来判断是否涉及诈骗。从第一轮分析中，我们已经确定这是一个打车服务场景，现在需要进一步分析其真实性。
+
+                分析几个关键点：
+                1. 对话内容：双方讨论具体的接车地点，都是合理的路线和位置描述
+                2. 交互方式：双方交流自然，没有强迫或诱导的语气
+                3. 语气特征：语气平和，没有急躁或威胁的情绪
+                4. 信息安全：没有要求个人信息或金钱交易
+                
+                这些特征都指向正常的打车服务对话。没有出现任何诈骗的典型特征，如催促付款、索要私人信息等。置信度可以设为0.9，因为对话完全符合正常打车服务的特点。
+            </div>
+            <div class="translation think">
+                <strong>Thinking Process:</strong><br>
+                I need to determine if fraud is involved based on the first round analysis and audio content. From the first round, we identified this as a ride-hailing service scenario, and now need to verify its authenticity.
+
+                Key analysis points:
+                1. Conversation content: Both parties discuss specific pickup location with reasonable route and location descriptions
+                2. Interaction style: Natural communication without any coercion or manipulation
+                3. Tone characteristics: Calm tone without any urgency or threatening emotions
+                4. Information security: No requests for personal information or monetary transactions
+
+                These characteristics all point to a normal ride-hailing service conversation. No typical fraud indicators like rushed payments or requests for private information appear. Confidence can be set at 0.9 as the conversation completely matches normal ride-hailing service characteristics.
+            </div>
+            <pre><code>{
+  "reason": "通话内容涉及车辆接载的具体位置指引，双方语气自然且无异常情绪波动，未涉及金钱交易、个人信息索取或制造紧急情况等诈骗常见特征。司机与乘客的交流符合正常打车服务流程，无可疑诱导行为。",
+  "confidence": 0.9,
+  "is_fraud": false
+}</code></pre>
+            <div class="translation">
+                {
+                    "reason": "The conversation involves specific location guidance for vehicle pickup, with natural tone and no unusual emotional fluctuations from both parties. No common fraud characteristics such as monetary transactions, personal information requests, or creation of urgent situations. The communication between driver and passenger follows normal ride-hailing service procedures without suspicious inducement.",
+                    "confidence": 0.9,
+                    "is_fraud": false
+                }
+            </div>
+        </div>
+    </div>
+</body>
+</html>
