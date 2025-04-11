@@ -1,3 +1,5 @@
+I'll summarize the TeleAntiFraud-28k dataset based on your README and add the two sections you requested.
+
 # TeleAntiFraud-28k
 
 TeleAntiFraud-28k is the first open-source audio-text slow-thinking dataset specifically designed for automated telecom fraud analysis. This dataset integrates audio signals with reasoning-oriented textual analysis, providing high-quality multimodal training data for telecom fraud detection research.
@@ -44,12 +46,40 @@ Explore our dataset examples to better understand the telecom fraud detection ca
 - [Model Output: Normal Conversation](example/result1think.html) - Our model's reasoning process on a legitimate call
 - [Model Output: Fraud Detection](example/result2think.html) - Model's analysis and detection of a fraudulent call
 
+## Multi-Agent Data Collection
+
+To collect fraudulent conversation data:
+1. Insert your API key in `multi-agents-tools/AntiFraudMatrix/main.py` (uses SiliconFlow API key)
+2. Run the following command to generate fraudulent dialog text:
+   ```bash
+   python multi-agents-tools/AntiFraudMatrix/main.py
+   ```
+3. Results will be saved in the `result` directory
+
+For normal conversation data:
+- Use `multi-agents-tools/AntiFraudMatrix-normal/main.py` following the same process
+
+## Voice Synthesis with ChatTTS
+
+To synthesize speech from the collected text:
+1. Install the necessary dependencies
+2. Run the API server:
+   ```bash
+   fastapi dev ChatTTS/examples/api/main_new_new.py --host 0.0.0.0 --port 8006
+   ```
+3. Use any of the scripts in `ChatTTS/examples/api/normal_run*.sh` or `ChatTTS/examples/api/run*.sh`
+
+  Modify the port in these scripts if needed, then run:
+   ```bash
+   bash ChatTTS/examples/api/run*.sh
+   ```
+
 ## Open-Source Resources
 
 - TeleAntiFraud-28k dataset
 - TeleAntiFraud-Bench evaluation benchmark
 - Data processing framework (supporting community-driven dataset expansion)
-- Qwen2-Audio-based SFT model
+- TeleAntiFraud-Qwen2-Audio SFT model
 
 ## Key Contributions
 
@@ -57,7 +87,6 @@ Explore our dataset examples to better understand the telecom fraud detection ca
 2. Addressing critical challenges in data privacy and scenario diversity
 3. Providing high-quality training data for telecom fraud detection
 4. Open-sourcing data processing tools to enable community collaboration
-
 
 ## Citation
 
@@ -69,4 +98,3 @@ Explore our dataset examples to better understand the telecom fraud detection ca
   url={https://api.semanticscholar.org/CorpusID:277467703}
 }
 ```
-
