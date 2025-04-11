@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到我们的购物中心，有什么我可以帮您的吗？",
+      "timestamp": 1740958898.0418139
+    },
+    {
+      "role": "right",
+      "content": "你好，我想看看新出的手机。",
+      "timestamp": 1740958899.7331097
+    },
+    {
+      "role": "left",
+      "content": "好的，我们这里新到了几款手机，您可以告诉我您更倾向于哪个品牌或型号吗？这样我可以为您详细介绍。",
+      "timestamp": 1740958906.0844135
+    },
+    {
+      "role": "right",
+      "content": "我喜欢用苹果，能给我推荐一下最新的吗？",
+      "timestamp": 1740958907.578426
+    },
+    {
+      "role": "left",
+      "content": "当然可以。我们这里最新款的苹果手机是 iPhone 14 系列，有 iPhone 14、iPhone 14 Plus、iPhone 14 Pro 和 iPhone 14 Pro Max 四款。您对配置或颜色有什么特别的要求吗？",
+      "timestamp": 1740958911.8092635
+    },
+    {
+      "role": "right",
+      "content": "我对配置没特别要求，颜色的话，喜欢深空灰。",
+      "timestamp": 1740958915.808742
+    },
+    {
+      "role": "left",
+      "content": "深空灰是一款非常经典的颜色，我们这里有现货。您可以进来试用一下，看看手感如何。如果您方便的话，我还可以帮您详细介绍各款的具体区别。",
+      "timestamp": 1740958921.2356756
+    },
+    {
+      "role": "right",
+      "content": "好的，我进去看看。谢谢。",
+      "timestamp": 1740958922.7725601
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何其他问题或需要进一步的帮助，随时可以联系我。感谢您的光临，希望您在这里有一个愉快的购物体验。",
+      "timestamp": 1740958930.4578946
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会仔细看看。",
+      "timestamp": 1740958934.0785348
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示会进去看看，并且对服务方的帮助表示了感谢，这表明用户的需求已经得到满足，对话可以自然结束。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您有任何其他问题或需要进一步的帮助，随时可以联系我。感谢您的光临，希望您在这里有一个愉快的购物体验。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会仔细看看。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

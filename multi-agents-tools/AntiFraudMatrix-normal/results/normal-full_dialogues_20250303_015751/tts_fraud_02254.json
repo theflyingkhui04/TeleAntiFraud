@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车助手，已经为您安排了一辆车，大约五分钟后到达，车牌号是沪A12345，司机电话13500135000，您现在可以下楼等车了。",
+      "timestamp": 1740953563.4028232
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我这就下去等车。",
+      "timestamp": 1740953564.5895884
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户结束对话的原因是因为服务方已经提供了所需的所有信息，包括车牌号和司机电话，用户对服务表示满意并准备下楼等车。用户的意图是确认信息无误后，礼貌地结束对话，表明不再需要进一步的帮助。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

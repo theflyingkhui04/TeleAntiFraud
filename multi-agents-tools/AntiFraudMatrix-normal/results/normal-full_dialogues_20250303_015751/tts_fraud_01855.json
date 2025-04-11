@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的打车服务助手，可以帮助您叫车、查询路线等，有什么我可以帮您的吗？",
+      "timestamp": 1740965599.389656
+    },
+    {
+      "role": "right",
+      "content": "你好，我需要从家出发去公司，能帮我叫一辆车吗？地址是上海市浦东新区张江高科路1688号，目的地是陆家嘴环路1000号。",
+      "timestamp": 1740965601.578471
+    },
+    {
+      "role": "left",
+      "content": "好的，我已经记录下您的出发地和目的地。正在为您叫车，预计五分钟左右会有司机接单并联系您，请保持电话畅通。",
+      "timestamp": 1740965610.5118482
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会留意电话的。",
+      "timestamp": 1740965611.450746
+    },
+    {
+      "role": "left",
+      "content": "好的，您的车辆已成功叫到，预计五分钟后到达。如果需要进一步帮助，可以随时联系我。祝您一路顺利，再见。",
+      "timestamp": 1740965616.6486168
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。再见。",
+      "timestamp": 1740965617.4153771
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已表示会留意电话，表明其对当前服务满意，且服务方已提供所需帮助，对话目标达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的车辆已成功叫到，预计五分钟后到达。如果需要进一步帮助，可以随时联系我。祝您一路顺利，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

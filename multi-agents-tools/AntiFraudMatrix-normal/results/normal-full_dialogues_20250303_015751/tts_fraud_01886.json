@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，我是您的客服小助理，有什么可以帮助您的吗？",
+      "timestamp": 1740944378.383448
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下你们的配送时间和费用。",
+      "timestamp": 1740944380.220405
+    },
+    {
+      "role": "left",
+      "content": "我们的配送时间通常是下单后30到60分钟内送达，具体时间视您所在区域和餐厅繁忙程度而定。",
+      "timestamp": 1740944385.8339977
+    },
+    {
+      "role": "right",
+      "content": "明白了，那配送费用是多少呢？",
+      "timestamp": 1740944386.7712848
+    },
+    {
+      "role": "left",
+      "content": "配送费用根据您的具体位置和订单金额有所不同，一般在3元到8元之间，如果订单金额达到一定额度，还可以享受免配送费的优惠。",
+      "timestamp": 1740944390.3945973
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的解答。我会考虑下单的。",
+      "timestamp": 1740944394.909962
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您还有其他问题或需要下单，随时欢迎联系。祝您用餐愉快！",
+      "timestamp": 1740944402.6441474
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740944403.8800802
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需信息，并明确表示了感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您还有其他问题或需要下单，随时欢迎联系。祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

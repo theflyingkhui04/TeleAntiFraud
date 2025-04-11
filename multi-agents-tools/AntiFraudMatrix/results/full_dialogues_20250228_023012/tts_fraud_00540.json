@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行客服中心，我是小李。我们刚刚监测到您的账户有异常活动，为了确保您的资金安全，需要您配合我们进行身份验证。您现在方便吗？",
+      "timestamp": 1740686482.987044
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊...我最近也没用过银行卡啊。不好意思，我这会儿有点忙，待会儿再说行吗？",
+      "timestamp": 1740686487.017249
+    },
+    {
+      "role": "left",
+      "content": "理解您的情况，但为了您的账户安全，我们建议尽快处理。异常活动可能意味着您的账户正在被盗用，这需要立即采取行动。您只需要几分钟时间，我们可以马上开始，这样更安全。您看呢？",
+      "timestamp": 1740686497.5848136
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在用户表示不便时尝试施压，要求立即进行身份验证，但用户没有立即同意。诈骗者可能认为继续对话无法立即取得用户信任或获取所需信息，因此选择挂断以避免浪费时间，寻找下一个潜在受害者。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

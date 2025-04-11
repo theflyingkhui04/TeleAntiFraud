@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是华夏银行客服中心，我是客服经理李华。请问您是张先生吗？我们发现您的账户存在异常交易，需要您配合我们进行核实。",
+      "timestamp": 1740783693.861803
+    },
+    {
+      "role": "right",
+      "content": "您好，李经理。我是张先生。不过，我最近没有进行过任何大额交易，怎么会突然出现异常交易呢？我需要了解一下具体情况。",
+      "timestamp": 1740783695.8592725
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方身份或对所谓的异常交易感到困惑而选择挂断电话。用户的意图可能是避免进一步的交流，直到他们能够通过可信渠道验证情况。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

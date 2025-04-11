@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您！您在我们的国际彩票抽奖中荣获了一等奖，奖品是一百万现金加一辆豪华汽车！",
+      "timestamp": 1740805075.4480236
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太激动了！我怎么领奖呢？",
+      "timestamp": 1740805076.810931
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为过于激动或怀疑而选择挂断电话，以进一步核实信息的真实性。用户的意图可能是避免在未确认信息真实性之前透露更多个人信息或进行任何财务操作。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,66 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是店员小张，有什么可以帮助您的吗？",
+      "timestamp": 1740982095.5518203
+    },
+    {
+      "role": "right",
+      "content": "你好，小张，我想看看你们的菜单。",
+      "timestamp": 1740982096.6931868
+    },
+    {
+      "role": "left",
+      "content": "好的，这是我们的菜单，您可以慢慢浏览，如果需要任何推荐或帮助，随时告诉我。",
+      "timestamp": 1740982100.4571266
+    },
+    {
+      "role": "right",
+      "content": "谢谢，小张，我看看再说。你们这里有什么特色菜吗？",
+      "timestamp": 1740982101.785308
+    },
+    {
+      "role": "left",
+      "content": "我们这里的特色菜有宫保鸡丁、鱼香肉丝和清蒸鲈鱼，都是顾客评价很高的菜品。您可以试试看。",
+      "timestamp": 1740982107.2058957
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，我考虑一下。对了，你们这里有没有素菜推荐？",
+      "timestamp": 1740982108.7833352
+    },
+    {
+      "role": "left",
+      "content": "当然有，我们的素菜也很受欢迎，比如干煸四季豆、蒜蓉西兰花和地三鲜，这些都是不错的选择。",
+      "timestamp": 1740982112.610046
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的推荐，我点一份蒜蓉西兰花吧。再给我来一份宫保鸡丁。",
+      "timestamp": 1740982113.782749
+    },
+    {
+      "role": "left",
+      "content": "好的，一份蒜蓉西兰花和一份宫保鸡丁，马上为您安排。还需要点其他菜品或饮料吗？",
+      "timestamp": 1740982117.186779
+    },
+    {
+      "role": "right",
+      "content": "先这样吧，谢谢。如果有需要我会再叫你。",
+      "timestamp": 1740982117.9219656
+    },
+    {
+      "role": "left",
+      "content": "好的，您先慢慢享用，如果需要任何帮助，随时告诉我。祝您用餐愉快。",
+      "timestamp": 1740982121.9680629
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在用户点完菜并表示暂时不需要其他帮助后，礼貌地结束了对话。服务方的意图是确保用户满意，并让用户知道在需要时可以随时寻求帮助，同时结束对话以继续服务其他顾客。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

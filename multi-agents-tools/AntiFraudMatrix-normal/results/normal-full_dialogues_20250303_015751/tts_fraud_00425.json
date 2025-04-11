@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎您使用我们的订餐服务，有什么可以帮助您的？",
+      "timestamp": 1740943563.357082
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份午餐，有什么推荐的吗？",
+      "timestamp": 1740943564.3694987
+    },
+    {
+      "role": "left",
+      "content": "我们今天的推荐有宫保鸡丁套餐和西红柿牛腩套餐，都非常受欢迎。您喜欢哪种口味的呢？",
+      "timestamp": 1740943569.377388
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，那就来一份西红柿牛腩套餐吧。还带有什么？",
+      "timestamp": 1740943570.606677
+    },
+    {
+      "role": "left",
+      "content": "西红柿牛腩套餐包括一份西红柿牛腩、一份米饭、一份小菜和一碗汤。如果您需要，还可以加点其他小菜或饮品。",
+      "timestamp": 1740943576.4200435
+    },
+    {
+      "role": "right",
+      "content": "好的，这个套餐就足够了。请问我需要什么时候来取餐呢？",
+      "timestamp": 1740943578.8313441
+    },
+    {
+      "role": "left",
+      "content": "您的订单将在三十分钟内准备好，您可以选择来店自取或我们提供送餐服务。您需要送餐服务吗？",
+      "timestamp": 1740943584.6594043
+    },
+    {
+      "role": "right",
+      "content": "不了，我自己来取吧。谢谢。",
+      "timestamp": 1740943585.5845585
+    },
+    {
+      "role": "left",
+      "content": "好的，您的西红柿牛腩套餐已准备妥当，三十分钟后前来取餐即可。如果您有任何其他需求，随时联系我们。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740943594.1563804
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。三十分钟后见。",
+      "timestamp": 1740943595.1908383
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了所需的餐品，并确定了取餐方式，同时表达了感谢，表明对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的西红柿牛腩套餐已准备妥当，三十分钟后前来取餐即可。如果您有任何其他需求，随时联系我们。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。三十分钟后见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

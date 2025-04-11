@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮您的？",
+      "timestamp": 1740951963.1440542
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份午餐，有什么推荐的吗？",
+      "timestamp": 1740951966.9776034
+    },
+    {
+      "role": "left",
+      "content": "我们今天的推荐是招牌牛肉饭和海鲜炒面，都是很受欢迎的选择。您感兴趣吗？",
+      "timestamp": 1740951971.1171064
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，那就来一份招牌牛肉饭吧。还有什么饮料搭配推荐？",
+      "timestamp": 1740951972.0696938
+    },
+    {
+      "role": "left",
+      "content": "招牌牛肉饭搭配一杯冰镇柠檬茶或低脂奶昔都很合适，您可以选择喜欢的口味。",
+      "timestamp": 1740951976.142192
+    },
+    {
+      "role": "right",
+      "content": "那就来一杯冰镇柠檬茶吧。谢谢。",
+      "timestamp": 1740951976.7909095
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，一份招牌牛肉饭和一杯冰镇柠檬茶，预计30分钟后送达。感谢您的订餐，希望您用餐愉快！",
+      "timestamp": 1740951984.3327212
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待用餐。",
+      "timestamp": 1740951985.3596363
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了菜品和饮料，并表示了感谢，表明用户的需求已经得到满足，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，一份招牌牛肉饭和一杯冰镇柠檬茶，预计30分钟后送达。感谢您的订餐，希望您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待用餐。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

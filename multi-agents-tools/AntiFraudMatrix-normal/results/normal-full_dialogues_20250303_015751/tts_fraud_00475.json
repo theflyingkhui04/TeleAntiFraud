@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小助手为您服务，请问有什么问题需要我帮忙解决？",
+      "timestamp": 1740940003.303883
+    },
+    {
+      "role": "right",
+      "content": "你好，我最近感觉身体不太舒服，想预约个医生看看。你能帮我预约吗？",
+      "timestamp": 1740940005.03022
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我会帮您预约。请问您希望预约哪个科室的医生，以及方便的就诊时间？",
+      "timestamp": 1740940010.3588772
+    },
+    {
+      "role": "right",
+      "content": "我感觉可能是肠胃问题，想预约消化内科。时间的话，这周的周三或周四下午都可以。",
+      "timestamp": 1740940012.3834422
+    },
+    {
+      "role": "left",
+      "content": "好的，我这就帮您查询消化内科周三和周四下午的号源。请稍等片刻。",
+      "timestamp": 1740940016.450211
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我等你消息。",
+      "timestamp": 1740940017.1679397
+    },
+    {
+      "role": "left",
+      "content": "已经帮您查到了，周三下午14:00和周四下午15:00都有号源。您看哪个时间更合适？",
+      "timestamp": 1740940021.178233
+    },
+    {
+      "role": "right",
+      "content": "周三下午14:00比较合适。请帮我预约这个时间。",
+      "timestamp": 1740940022.514414
+    },
+    {
+      "role": "left",
+      "content": "好的，已为您预约周三下午14:00的消化内科门诊。预约成功后，您会收到确认短信。请问还有其他需要帮助的事项吗？",
+      "timestamp": 1740940028.8733122
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户预约成功后，询问用户是否有其他需要帮助的事项，用户没有回应，服务方主动结束了对话。服务方的意图是确保用户的所有需求都已得到满足，并在确认没有其他问题后礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

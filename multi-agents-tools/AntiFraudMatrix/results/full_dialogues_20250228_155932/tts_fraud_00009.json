@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的投资者，您好！我是财富增值咨询中心的理财顾问李强，我们最近发现一个绝佳的投资机会，年化收益率高达百分之三十，您有兴趣了解一下吗？",
+      "timestamp": 1740736016.8821185
+    },
+    {
+      "role": "right",
+      "content": "啊，李强先生，您好！真的有这么好的机会吗？我以前也投资过一些项目，但收益都没有这么高。您能详细介绍一下吗？我挺感兴趣的。",
+      "timestamp": 1740736056.3993256
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们就先聊到这里，如果您有任何疑问或感兴趣，随时联系我。祝您生活愉快，再见。",
+      "timestamp": 1740736070.8278842
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢李强先生，我会考虑一下的。再见。",
+      "timestamp": 1740736085.0325434
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经发送了明确的挂断信号'##ENDCALL_SIGNAL##'，这表明诈骗者选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们就先聊到这里，如果您有任何疑问或感兴趣，随时联系我。祝您生活愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢李强先生，我会考虑一下的。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

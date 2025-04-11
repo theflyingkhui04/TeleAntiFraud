@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您儿子的朋友，他刚才在国外出了点事，现在被扣押在这里，需要您马上打一笔钱过来才能放人。您能帮帮他吗？",
+      "timestamp": 1740729886.9791524
+    },
+    {
+      "role": "right",
+      "content": "啊，出什么事了？我儿子真的被扣押了吗？这到底是怎么回事？你能告诉我详细一点吗？我需要确认一下。",
+      "timestamp": 1740729889.991141
+    },
+    {
+      "role": "left",
+      "content": "情况非常紧急，他现在被一些坏人控制着，我好不容易才找到机会给您打电话。您要是不相信，可以听听他的声音。喂，你能说话吗？",
+      "timestamp": 1740729900.0340142
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者可能意识到用户对情况产生了怀疑，并要求提供更多信息以确认真实性。为了避免进一步的质疑和可能的暴露，诈骗者选择主动挂断电话，以防止诈骗行为被识破。诈骗者的意图是避免在无法提供更多信息的情况下，导致诈骗失败。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

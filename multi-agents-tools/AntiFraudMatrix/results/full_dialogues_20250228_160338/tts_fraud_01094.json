@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您开户行的客服专员，李晓晓。我们发现您的账户有异常交易，需要您配合核实一下，以免造成不必要的损失。方便的话，请您提供一下您的身份证号码和开户时预留的手机号码，以便我们进行身份确认。",
+      "timestamp": 1740731995.9975812
+    },
+    {
+      "role": "right",
+      "content": "好的，李晓晓小姐，我理解这种情况。我的身份证号码是三十一零二一九八四零四二三六七一五，开户时预留的手机号码是一三五零零零零一二三三。麻烦您核实一下。",
+      "timestamp": 1740732023.9238417
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，李女士。我们已经记录了您的信息，会尽快处理并确保您的账户安全。如果后续有任何问题，我们会及时与您联系。祝您生活愉快，再见。",
+      "timestamp": 1740732045.2544746
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。希望一切顺利，再见。",
+      "timestamp": 1740732047.107174
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗明显成功，用户已提供敏感信息（身份证号码和手机号码），诈骗者已获取足够信息，因此由诈骗者结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，李女士。我们已经记录了您的信息，会尽快处理并确保您的账户安全。如果后续有任何问题，我们会及时与您联系。祝您生活愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。希望一切顺利，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自「光辉未来」投资顾问公司的李明。最近我们发现了一个非常有潜力的投资项目，收益率非常高，我想您一定感兴趣。我们已经为少数优质客户预留了一些份额，您有兴趣了解一下吗？",
+      "timestamp": 1740792537.1835623
+    },
+    {
+      "role": "right",
+      "content": "您好，李明先生。谢谢您的联系。我确实对投资有一些兴趣，但目前我对市场还不是很了解。您能具体介绍一下这个项目吗？另外，我怎么确认您的公司是正规的呢？",
+      "timestamp": 1740792539.7806325
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对投资项目的兴趣，但同时也提出了对诈骗者公司正规性的质疑。用户可能因为对诈骗者的身份和公司背景存疑，或者出于对个人财务安全的谨慎考虑，决定挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

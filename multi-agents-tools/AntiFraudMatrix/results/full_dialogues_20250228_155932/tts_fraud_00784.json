@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友李明的同事，他现在出了点意外，情况非常紧急。",
+      "timestamp": 1740752594.1110632
+    },
+    {
+      "role": "right",
+      "content": "什么？李明出了意外？他现在怎么样了？我得赶紧了解情况。你能不能告诉我具体是怎么回事？",
+      "timestamp": 1740752597.1066382
+    },
+    {
+      "role": "left",
+      "content": "好的，我明白了，如果有任何进展，我会第一时间联系您的。谢谢您的配合，再见。",
+      "timestamp": 1740752603.690563
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的消息，我会尽快联系李明的家人。希望他没事。再见。",
+      "timestamp": 1740752606.377329
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明其选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我明白了，如果有任何进展，我会第一时间联系您的。谢谢您的配合，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的消息，我会尽快联系李明的家人。希望他没事。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

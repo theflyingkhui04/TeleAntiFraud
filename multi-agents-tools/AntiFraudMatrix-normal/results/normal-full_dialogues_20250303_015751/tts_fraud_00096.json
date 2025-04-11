@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手为您服务，有什么我可以帮忙的吗？",
+      "timestamp": 1740967317.931304
+    },
+    {
+      "role": "right",
+      "content": "嗯，我最近在考虑买一辆二手车，你能给我一些建议吗？",
+      "timestamp": 1740967319.2682745
+    },
+    {
+      "role": "left",
+      "content": "当然可以。购买二手车时，首先建议您检查车辆的事故记录和维修历史，确保车辆状况良好。此外，最好带一位懂车的朋友或专业技师一起去看车，以确保没有隐藏的问题。预算方面，除了车价，还要考虑保险、维修和保养费用。您是否有特定的品牌或车型在考虑？",
+      "timestamp": 1740967325.2131083
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的建议。我准备看看本田或丰田的车型，听说这两个品牌的车比较耐用。",
+      "timestamp": 1740967327.0419948
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在获得关于购买二手车的建议后，明确表示了感谢，并提到了自己准备考虑的品牌。随后，用户给出了明确的结束信号代码'##ENDCALL_SIGNAL##'，表明其问题已得到解决，不再需要进一步的帮助。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

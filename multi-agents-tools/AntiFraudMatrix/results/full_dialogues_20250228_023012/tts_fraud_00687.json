@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问，我们最近有一个内部投资项目，年收益率高达30%，您有兴趣了解一下吗？",
+      "timestamp": 1740681618.768629
+    },
+    {
+      "role": "right",
+      "content": "抱歉，我对这种高回报的投资项目持怀疑态度。作为一名医生，我更倾向于稳健的投资方式。如果您有其他合法合规的投资建议，可以提供更多详细信息，我会考虑。但目前我对这个项目不感兴趣。",
+      "timestamp": 1740681626.4756665
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对高回报投资项目持怀疑态度，并明确表示了不感兴趣。用户作为医生，更倾向于稳健的投资方式，对诈骗者的项目缺乏信任。用户通过挂断电话表达了其不愿意继续对话的意图。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

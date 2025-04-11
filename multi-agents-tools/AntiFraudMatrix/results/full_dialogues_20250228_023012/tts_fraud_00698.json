@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！这里是银联中心客服，我们检测到您的账户存在异常交易，需要立即核实您的身份信息以确保资金安全。请问您的姓名和身份证号码是？",
+      "timestamp": 1740682715.4979997
+    },
+    {
+      "role": "right",
+      "content": "您好，我叫张伟，身份证号码是 110102197701011234。不过，我最近确实没有进行过任何大额交易，你们确定是说我吗？你们是银联的官方客服吗？我怎么确认你们的身份？",
+      "timestamp": 1740682718.8091564
+    },
+    {
+      "role": "left",
+      "content": "非常抱歉打扰您了，如果您后续发现账户异常，可以随时联系我们。祝您生活愉快！再见。",
+      "timestamp": 1740682727.9642437
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的提醒。我会留意的。再见。",
+      "timestamp": 1740682767.8104074
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（姓名和身份证号码），诈骗明显成功。虽然用户表达了对诈骗者身份的怀疑，但已经泄露了重要个人信息，应立即终止对话以防止进一步的损失。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常抱歉打扰您了，如果您后续发现账户异常，可以随时联系我们。祝您生活愉快！再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的提醒。我会留意的。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

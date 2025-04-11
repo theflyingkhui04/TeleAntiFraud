@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你好，我是你儿子的朋友，他现在出事了，被几个坏人扣着，我们需要一笔钱才能把他救出来，你必须尽快把钱转到我的账户，不然他们可能要对他动手了。",
+      "timestamp": 1740749360.344155
+    },
+    {
+      "role": "right",
+      "content": "你说什么？我儿子出事了？你先别急，你能不能告诉我这是怎么回事？我儿子现在在哪里？",
+      "timestamp": 1740749361.768881
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子出事并要求转账后，表现出明显的担忧和怀疑，要求提供更多信息。然而，在诈骗者未能提供具体信息或让用户感到可信的情况下，用户可能意识到这是一起诈骗，因此选择挂断电话以避免进一步的风险。用户的意图是停止与诈骗者的交流，防止可能的财产损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

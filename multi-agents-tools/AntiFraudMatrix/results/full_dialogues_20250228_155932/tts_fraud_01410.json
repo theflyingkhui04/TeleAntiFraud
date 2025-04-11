@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家彩票中心，恭喜您在我们最新的彩票活动中获得了一等奖，奖金高达五百万元！请您提供一下您的姓名和联系方式，以便我们安排奖金发放。",
+      "timestamp": 1740748351.2624114
+    },
+    {
+      "role": "right",
+      "content": "您好，这个消息听起来太突然了。我需要确认一下，这是真的吗？我是不是需要提供一些个人信息？",
+      "timestamp": 1740748353.5894582
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者要求提供个人信息时，可能意识到了这是一个诈骗电话，因此选择了挂断电话以保护自己的个人信息安全。用户的意图是避免进一步的交流，防止个人信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

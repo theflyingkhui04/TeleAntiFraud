@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的孩子现在在我手上，如果你不想看到他受伤，就立刻准备五十万现金，不要报警，否则后果自负。",
+      "timestamp": 1740741905.4356017
+    },
+    {
+      "role": "right",
+      "content": "哎呀，你这是在开玩笑吧？我的孩子好好的在家呢。我可不会上当，你们这种骗局我都看过好多次了。你要是再这样，我可要报警了。",
+      "timestamp": 1740741944.2750018
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是因为识破了诈骗者的骗局。用户明确表示知道这是常见的诈骗手法，并且警告诈骗者如果继续会报警。用户的意图是终止与诈骗者的对话，防止进一步的骚扰或诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

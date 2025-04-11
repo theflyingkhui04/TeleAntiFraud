@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，我是李明的朋友，你听我说，他现在出事了，在外面被人扣住了，需要马上付一笔钱才能放人。你能帮帮他吗？这可是十万火急的事情！",
+      "timestamp": 1740757655.745461
+    },
+    {
+      "role": "right",
+      "content": "哎呀，这可怎么办？李明真的出事了吗？那我得赶紧帮忙。需要付多少钱呢？你告诉我具体的账号，我这就去转账。",
+      "timestamp": 1740757661.8159838
+    },
+    {
+      "role": "left",
+      "content": "太好了，你真是个好朋友，账号信息我会发短信给你，你快点转账，时间不等人。李明就靠你了，谢谢！",
+      "timestamp": 1740757670.3833318
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，我这就去办。你放心，我会尽快把钱转过去。希望李明没事。",
+      "timestamp": 1740757671.847832
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗明显成功 - 用户已提供敏感信息（同意转账），诈骗者已获取足够信息，可以结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "太好了，你真是个好朋友，账号信息我会发短信给你，你快点转账，时间不等人。李明就靠你了，谢谢！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，我这就去办。你放心，我会尽快把钱转过去。希望李明没事。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

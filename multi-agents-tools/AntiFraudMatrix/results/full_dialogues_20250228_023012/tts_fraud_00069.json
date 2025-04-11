@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是快递公司客服，我们发现您的包裹中有一笔未支付的税费，请问您现在方便处理吗？",
+      "timestamp": 1740681620.8793523
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊...那我该怎么办呢？",
+      "timestamp": 1740681625.3202505
+    },
+    {
+      "role": "left",
+      "content": "抱歉打扰了，如果您需要处理包裹问题，随时可以联系我们的客服热线。祝您生活愉快！再见。",
+      "timestamp": 1740681632.7435303
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，我会联系的。再见。",
+      "timestamp": 1740681643.9062488
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中提供了明确的挂断标识符'##ENDCALL_SIGNAL##'，表明对话已经结束。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "抱歉打扰了，如果您需要处理包裹问题，随时可以联系我们的客服热线。祝您生活愉快！再见。"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，我会联系的。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

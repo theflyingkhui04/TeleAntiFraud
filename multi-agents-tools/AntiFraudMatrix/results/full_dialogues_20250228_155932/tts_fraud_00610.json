@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子的朋友，他刚才出事了，被坏人绑架了，现在情况非常紧急，您必须马上转账一笔赎金，不然他们可能会伤害他。请您相信我，时间不多了。",
+      "timestamp": 1740750399.630951
+    },
+    {
+      "role": "right",
+      "content": "什么？我儿子被绑架了？这怎么可能？你先别急，你说的这些都是真的吗？我得赶紧想办法。你告诉我，我需要转多少钱？",
+      "timestamp": 1740750402.3803759
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被绑架并要求立即转账后，表现出极度的紧张和不安。用户询问了转账金额，但随后立即挂断了电话。这可能是因为用户意识到这可能是一个诈骗电话，或者用户需要时间来处理这一突发情况，自行核实信息的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

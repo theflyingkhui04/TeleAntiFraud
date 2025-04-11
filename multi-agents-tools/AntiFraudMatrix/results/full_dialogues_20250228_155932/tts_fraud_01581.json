@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX彩票中心，恭喜您中了本期特等奖，奖金五百万元！请问您方便现在领取奖金吗？",
+      "timestamp": 1740755224.1236784
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？我中了五百万元的大奖！真是太好了，我正需要这笔钱来扩大我的生意。你们是怎么联系到我的？我需要做些什么来领取奖金呢？",
+      "timestamp": 1740755226.6094766
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们先这样，您有任何问题可以随时联系我，期待您的好消息。再见。",
+      "timestamp": 1740755232.1461816
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的好消息，我一定会尽快联系你们。真是太激动了，再见。",
+      "timestamp": 1740755236.629056
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表明对话已经结束。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们先这样，您有任何问题可以随时联系我，期待您的好消息。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的好消息，我一定会尽快联系你们。真是太激动了，再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

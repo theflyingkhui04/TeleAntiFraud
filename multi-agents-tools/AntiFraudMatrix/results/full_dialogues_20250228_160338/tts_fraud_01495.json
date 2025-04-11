@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是邮政客服中心的张华，我们刚刚收到通知，您的一个包裹在运输过程中被海关扣留了，需要您支付一笔手续费用才能放行。请问您能提供一下您的姓名和电话号码以便我们核对信息吗？",
+      "timestamp": 1740730889.7696426
+    },
+    {
+      "role": "right",
+      "content": "您好，张先生。我叫李大山，电话号码是这个。不过我最近没寄什么包裹，这事儿有点奇怪。你们能告诉我具体是什么包裹吗？",
+      "timestamp": 1740730905.739132
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供了姓名和电话号码后，对包裹的具体信息表示怀疑，可能是因为用户近期确实没有寄送包裹，因此对诈骗者的说法产生质疑。用户挂断电话的行为表明其不愿意继续与诈骗者交流，可能是为了防止进一步的信息泄露或诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

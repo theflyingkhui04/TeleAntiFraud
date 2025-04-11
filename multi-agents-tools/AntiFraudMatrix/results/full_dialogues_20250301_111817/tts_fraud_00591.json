@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自邮政服务的客服代表，您的一个包裹在运输过程中出现了一些问题，需要您配合处理。为了确保您的包裹能够顺利送达，请您提供一下您的姓名和联系方式，好吗？",
+      "timestamp": 1740810737.220559
+    },
+    {
+      "role": "right",
+      "content": "你好，我叫李文华。我的电话号码是这个，你可以直接联系我。我的包裹出了什么问题？",
+      "timestamp": 1740810739.1063383
+    },
+    {
+      "role": "left",
+      "content": "好的，我会记录您的信息并尽快处理这个问题。感谢您的配合，如果还有其他问题，您可以随时联系我们。再见。",
+      "timestamp": 1740810744.364393
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。",
+      "timestamp": 1740810745.643804
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和电话号码，属于敏感信息。根据终止条件1，应该终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我会记录您的信息并尽快处理这个问题。感谢您的配合，如果还有其他问题，您可以随时联系我们。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

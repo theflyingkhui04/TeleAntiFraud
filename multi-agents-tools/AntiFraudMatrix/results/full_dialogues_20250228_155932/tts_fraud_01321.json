@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递客服中心，我看到您的包裹因为海关问题被扣留了，需要您提供一些信息来协助处理。请问您方便现在处理吗？",
+      "timestamp": 1740748461.2713144
+    },
+    {
+      "role": "right",
+      "content": "您好，我是张伟。我最近确实有从国外购买了一些东西，不过我不是很清楚具体需要提供什么信息。您可以告诉我具体需要哪些信息吗？",
+      "timestamp": 1740748463.954272
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出需要提供信息以协助处理包裹问题时，虽然表现出一定的合作意愿，但可能因为对所需信息的具体内容感到不确定或怀疑，选择了挂断电话以避免进一步的风险。这表明用户可能对诈骗者的要求持谨慎态度，或认为直接挂断电话是更安全的选择。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

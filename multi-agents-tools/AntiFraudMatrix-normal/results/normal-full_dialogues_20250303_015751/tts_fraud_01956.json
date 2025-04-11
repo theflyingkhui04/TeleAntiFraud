@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是 XYZ 预约服务中心，我可以帮您预约服务。请问您需要预约哪项服务？",
+      "timestamp": 1740980332.5411735
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一下家政服务。",
+      "timestamp": 1740980334.6866183
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方询问需要预约的服务类型时，明确表达了预约家政服务的意图，并随后提供了结束信号代码。这表明用户可能认为自己的需求已经传达清楚，无需进一步交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

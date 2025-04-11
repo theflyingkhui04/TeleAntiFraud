@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！这里是国际邮政服务中心。我们发现您有一个来自海外的重要包裹被海关扣留，需要您提供一些个人信息以便核实身份并支付相关费用。请问您现在方便接听电话吗？",
+      "timestamp": 1740689334.1047766
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我最近确实有从国外订购一些东西，不过我不确定是不是这个。你们需要我提供哪些信息呢？",
+      "timestamp": 1740689371.1650617
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一个诈骗电话，因为诈骗者要求提供个人信息以支付费用，这通常是诈骗的常见手法。用户虽然表现出初步的兴趣，但随后可能通过进一步的思考或经验判断出这是诈骗，因此选择挂断电话以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你听到了吗？你的孩子现在在我们手上，如果不马上转账五十万到指定账户，我们可不敢保证他的安全。",
+      "timestamp": 1740738688.1197999
+    },
+    {
+      "role": "right",
+      "content": "你说什么？我的孩子怎么会在你们手上？这到底是怎么回事？你们是不是搞错了？我得先确认一下，你能不能让我跟孩子说两句？",
+      "timestamp": 1740738690.256518
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的要求表示怀疑，并要求与孩子直接通话以确认情况的真实性。由于诈骗者无法提供直接证据，用户可能认为这是诈骗行为，因此选择挂断电话以保护自己不受进一步的欺骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

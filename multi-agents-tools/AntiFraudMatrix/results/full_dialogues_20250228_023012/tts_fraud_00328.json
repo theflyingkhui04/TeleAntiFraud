@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，我是你儿子的朋友，他现在出了点意外，被我们暂时扣留了。我们需要你马上汇款5万元到这个账户，否则他可能会有生命危险。",
+      "timestamp": 1740685284.5934486
+    },
+    {
+      "role": "right",
+      "content": "天哪，这怎么可能？我儿子平时和你们的关系很好的啊，怎么会出这种事？你们能不能告诉我具体是怎么回事？我需要确认一下。",
+      "timestamp": 1740685288.7530224
+    },
+    {
+      "role": "left",
+      "content": "情况非常紧急，我们没有时间解释太多。如果你爱他，就请赶紧把钱汇过来，这是我们唯一的要求。汇款账号我已经发到你手机上了。请快点，时间不多了。",
+      "timestamp": 1740685329.3195758
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在用户表现出怀疑和要求更多信息时选择挂断电话，这表明诈骗者可能意识到用户已经开始产生警惕，继续诈骗成功的可能性降低。诈骗者的意图是避免在对话中暴露更多破绽，从而减少被识破的风险。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

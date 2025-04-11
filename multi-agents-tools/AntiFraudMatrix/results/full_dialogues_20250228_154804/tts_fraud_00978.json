@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子的老师，现在情况非常紧急，他刚刚在学校外面遇到了一些麻烦，被几个不良分子扣押了，我需要您立即转一笔钱过来，这样才能确保他的安全。请您配合，时间不等人。",
+      "timestamp": 1740736219.670263
+    },
+    {
+      "role": "right",
+      "content": "您是说小明在学校外面遇到了麻烦？这到底是怎么回事？您能说详细一点吗？我得确认这是真的，不然我不能随便转账。",
+      "timestamp": 1740736224.33065
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者要求立即转账以确保其儿子的安全时，表现出了警惕和怀疑。用户要求提供更详细的信息以确认情况的真实性，但并未得到满意的回答，因此选择挂断电话。用户的意图是避免可能的诈骗，保护自己的财产安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，我是快递公司的客服，我们发现您的包裹被海关扣留了，需要您提供身份证号码和银行卡信息来处理相关手续。请问您方便现在提供这些信息吗？",
+      "timestamp": 1740688124.5422902
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我最近确实有一个包裹在寄送途中。不过，我之前寄送的时候都没有遇到过这种情况。您能告诉我具体是什么问题吗？我需要怎么做呢？",
+      "timestamp": 1740688126.8159325
+    },
+    {
+      "role": "left",
+      "content": "好的，我会记录您的信息并尽快处理，请您耐心等待我们的通知。如果有任何问题，我们会再次联系您。谢谢您的配合，再见。",
+      "timestamp": 1740688137.7652676
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。我会等你们的通知。再见。",
+      "timestamp": 1740688141.2689834
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中提供了明确的挂断标识符'##ENDCALL_SIGNAL##'，表明其选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我会记录您的信息并尽快处理，请您耐心等待我们的通知。如果有任何问题，我们会再次联系您。谢谢您的配合，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。我会等你们的通知。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

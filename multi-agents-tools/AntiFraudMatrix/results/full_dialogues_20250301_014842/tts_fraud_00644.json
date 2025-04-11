@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，您的账户刚刚有一笔异常交易，我们需要立即核实您的信息以确保账户安全。请问您现在方便接听电话吗？",
+      "timestamp": 1740796232.742151
+    },
+    {
+      "role": "right",
+      "content": "你好，我方便接听。请问有什么问题呢？",
+      "timestamp": 1740796234.7162116
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合。为了确保您的账户安全，我们需要核实几个问题。首先，请问您今天是否有进行过一笔金额为六百元的转账操作？",
+      "timestamp": 1740796239.7365398
+    },
+    {
+      "role": "right",
+      "content": "没有啊，我今天没有进行过任何转账操作。这到底是怎么回事？",
+      "timestamp": 1740796241.6860986
+    },
+    {
+      "role": "left",
+      "content": "这就对了，我们怀疑这是一笔未经授权的交易。为了尽快处理，我们需要您提供一下身份证号码和开户时预留的手机号码，以便我们进行下一步的核实。请您放心，您的信息安全是我们最关心的。",
+      "timestamp": 1740796249.3389714
+    },
+    {
+      "role": "right",
+      "content": "好的，我明白了。我的身份证号码是 XXXXXXXXXXXXXXXX，开户时预留的手机号码是 XXXXXXXXXX。你们会尽快处理的吧？",
+      "timestamp": 1740796251.082775
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们已经记录了您的信息，会立即进行调查。如果您有任何疑问，可以随时拨打我们的客服热线。祝您生活愉快。再见。",
+      "timestamp": 1740796259.4774685
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。再见。",
+      "timestamp": 1740796261.2703235
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（身份证号码和手机号码），诈骗明显成功。为了防止进一步的信息泄露，应立即终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们已经记录了您的信息，会立即进行调查。如果您有任何疑问，可以随时拨打我们的客服热线。祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

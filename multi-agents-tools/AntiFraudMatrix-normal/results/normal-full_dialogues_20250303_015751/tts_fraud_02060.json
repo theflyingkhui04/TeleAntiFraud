@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是打车服务的客服代表，有什么可以帮助您的吗？",
+      "timestamp": 1740953950.1470556
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下你们的打车服务怎么使用。",
+      "timestamp": 1740953951.6738794
+    },
+    {
+      "role": "left",
+      "content": "当然可以，您可以通过我们的手机应用或网站来叫车。首先注册账号并登录，然后输入您的出发地和目的地，选择合适的车型，最后确认叫车。车辆到达后，按照司机的指引上车即可。如果有任何问题，可以随时联系我们的客服。",
+      "timestamp": 1740953958.377316
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的解释。我明白了。还有，如果我遇到问题，可以通过哪些方式联系你们的客服？",
+      "timestamp": 1740953960.2685928
+    },
+    {
+      "role": "left",
+      "content": "您可以通过我们的手机应用内客服按钮、官方网站的客服中心或者拨打客服热线来联系我们。我们的客服团队会尽快为您解决问题。",
+      "timestamp": 1740953964.0368788
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的帮助。我会试一试的。",
+      "timestamp": 1740953964.9182067
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的耐心解答。我会按照你说的步骤去试一试。如果还有问题，我会再联系你们的。谢谢，再见。",
+      "timestamp": 1740953971.5436916
+    },
+    {
+      "role": "left",
+      "content": "不客气，祝您使用愉快，如果有任何问题随时欢迎联系。再见。",
+      "timestamp": 1740953974.4192755
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示感谢并结束对话，对话目标已达成，用户获得了所需信息或服务问题已解决。",
+  "terminator": "right",
+  "conclusion_messages": [
+    {
+      "role": "right",
+      "content": "好的，谢谢你的耐心解答。我会按照你说的步骤去试一试。如果还有问题，我会再联系你们的。谢谢，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "left",
+      "content": "不客气，祝您使用愉快，如果有任何问题随时欢迎联系。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

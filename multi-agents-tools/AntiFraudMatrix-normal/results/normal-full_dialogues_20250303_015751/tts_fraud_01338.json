@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是预约服务专员，可以帮助您预约相关服务，请问您需要预约哪项服务呢？",
+      "timestamp": 1740940357.712118
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约一下体检服务。",
+      "timestamp": 1740940358.5820756
+    },
+    {
+      "role": "left",
+      "content": "好的，预约体检服务请告诉我您的姓名、联系方式以及希望预约的具体日期和时间，我会为您安排。",
+      "timestamp": 1740940364.5475872
+    },
+    {
+      "role": "right",
+      "content": "我叫张伟，电话是13812345678，想预约下周五上午九点的体检。",
+      "timestamp": 1740940366.3572726
+    },
+    {
+      "role": "left",
+      "content": "好的，张伟先生，您预约的是下周五上午九点的体检服务，我已为您记录。请您确认一下信息是否正确：姓名张伟，电话13812345678，时间下周五上午九点。",
+      "timestamp": 1740940374.8567412
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的所有预约信息后，认为已经完成了预约服务的流程，用户的信息和需求都得到了满足。因此，服务方选择结束对话，以表明服务已经完成，同时也避免了不必要的交流，保持了服务的高效性。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

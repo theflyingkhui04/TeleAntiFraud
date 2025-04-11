@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，有什么我可以帮您的？",
+      "timestamp": 1740950348.2689743
+    },
+    {
+      "role": "right",
+      "content": "你好，我不太需要外卖服务，谢谢。不过如果有需要的时候我会考虑的。",
+      "timestamp": 1740950349.4987314
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户明确表示当前不需要外卖服务，并对服务方表示了感谢。用户提到未来可能会考虑使用该服务，显示出对服务的认可但当前没有实际需求。用户通过发送结束信号代码'##ENDCALL_SIGNAL##'表达了结束对话的意图。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

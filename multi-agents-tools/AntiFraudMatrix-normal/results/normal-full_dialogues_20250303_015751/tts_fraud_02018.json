@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是店员小张，有什么我可以帮您的吗？",
+      "timestamp": 1740975200.7542956
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我是来买些学习资料的，你这里有适合高中生的辅导书吗？",
+      "timestamp": 1740975202.432518
+    },
+    {
+      "role": "left",
+      "content": "有的，我们这里有很多适合高中生的辅导书，包括各个科目的复习资料和习题集。您是需要特定科目的辅导书吗？",
+      "timestamp": 1740975207.6177697
+    },
+    {
+      "role": "right",
+      "content": "数学和英语的辅导书各来一本吧。",
+      "timestamp": 1740975208.5376222
+    },
+    {
+      "role": "left",
+      "content": "好的，数学方面我们推荐《高考数学必刷题》，英语方面则有《新概念英语》第两册，这两本书都很受欢迎，适合高中生使用。您看可以吗？",
+      "timestamp": 1740975212.638936
+    },
+    {
+      "role": "right",
+      "content": "可以，就这两本吧。谢谢。",
+      "timestamp": 1740975213.2352834
+    },
+    {
+      "role": "left",
+      "content": "好的，数学《高考数学必刷题》和英语《新概念英语》第两册已经为您准备好，您可以直接去收银台结账。如果还有其他需要，随时告诉我。感谢您的光临！",
+      "timestamp": 1740975219.1810505
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我会去结账了。",
+      "timestamp": 1740975220.3546283
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了所需的商品，并表达了感谢，表明其需求已得到满足。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，数学《高考数学必刷题》和英语《新概念英语》第两册已经为您准备好，您可以直接去收银台结账。如果还有其他需要，随时告诉我。感谢您的光临！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我会去结账了。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

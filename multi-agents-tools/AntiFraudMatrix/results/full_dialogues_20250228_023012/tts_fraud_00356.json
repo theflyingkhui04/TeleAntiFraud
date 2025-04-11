@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问。我们有一个绝佳的投资机会，只需要5万元起投，年化收益率可以达到30%。请问您有兴趣了解一下吗？",
+      "timestamp": 1740690781.1750617
+    },
+    {
+      "role": "right",
+      "content": "您好，投资理财我是挺感兴趣的，但30%的年化收益率听起来有点高，会不会有风险啊？我得先了解一下具体情况，您能给我详细说说吗？",
+      "timestamp": 1740690786.9232135
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对高收益率表示怀疑，并要求详细了解具体情况，显示出对投资风险的谨慎态度。诈骗者可能意识到用户不会轻易上当，因此选择主动挂断电话，以避免进一步的质疑和解释。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是星辉银行客服中心，我是客服专员李慧。我们发现您的账户有异常交易记录，需要您配合我们进行身份验证，以确保您的资金安全。您现在方便吗？",
+      "timestamp": 1740756991.574581
+    },
+    {
+      "role": "right",
+      "content": "哦，好的好的，我方便。我的账户有什么问题吗？",
+      "timestamp": 1740756996.9087808
+    },
+    {
+      "role": "left",
+      "content": "好的，感谢您的配合，我们会尽快处理这个问题。如果还有其他疑问，您可以随时拨打我们的客服热线。祝您生活愉快，再见。",
+      "timestamp": 1740757002.0247743
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，我会注意的。再见。",
+      "timestamp": 1740757003.1287835
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明其选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，感谢您的配合，我们会尽快处理这个问题。如果还有其他疑问，您可以随时拨打我们的客服热线。祝您生活愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，我会注意的。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

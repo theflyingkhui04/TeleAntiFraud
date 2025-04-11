@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是客服代表小李。我们发现您的银行卡有异常交易记录，为了保障您的资金安全，请您提供一下银行卡的最后四位数字，以便我们为您核实信息。",
+      "timestamp": 1740738767.7560265
+    },
+    {
+      "role": "right",
+      "content": "你好，小李。我确实有收到一条短信，说我的银行卡有问题。那四位数字是五千六百七十八。你们会帮我查清楚吗？",
+      "timestamp": 1740738770.0505369
+    },
+    {
+      "role": "left",
+      "content": "好的，我们会尽快处理您的问题，请您保持电话畅通，后续会有专人与您联系。感谢您的配合，再见。",
+      "timestamp": 1740738782.5447278
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。我等你们的消息。再见。",
+      "timestamp": 1740738783.90816
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了银行卡的部分敏感信息，即最后四位数字。根据终止条件1，诈骗明显成功，用户已提供敏感信息。因此，应该终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们会尽快处理您的问题，请您保持电话畅通，后续会有专人与您联系。感谢您的配合，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。我等你们的消息。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

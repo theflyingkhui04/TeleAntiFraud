@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，请问您需要预订哪个餐厅的美食？",
+      "timestamp": 1740941811.9950302
+    },
+    {
+      "role": "right",
+      "content": "嗨，我想订个附近的火锅店，有什么推荐的吗？",
+      "timestamp": 1740941813.3241243
+    },
+    {
+      "role": "left",
+      "content": "您好，附近的热门火锅店有“沸腾鱼乡”和“老灶火锅”，两家的评价都非常不错，您看需要为您预订哪家呢？",
+      "timestamp": 1740941817.2166414
+    },
+    {
+      "role": "right",
+      "content": "那就订“老灶火锅”吧，听说味道很好。他们有哪些特色菜？",
+      "timestamp": 1740941819.5906498
+    },
+    {
+      "role": "left",
+      "content": "“老灶火锅”确实很受欢迎，他们的特色菜有麻辣牛肉、手工豆腐和毛肚，都是非常受欢迎的选择。您想要预订这些菜品吗？",
+      "timestamp": 1740941825.4858685
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来一份麻辣牛肉和手工豆腐吧。还有什么需要特别注意的吗？",
+      "timestamp": 1740941827.0031648
+    },
+    {
+      "role": "left",
+      "content": "好的，为您记下了麻辣牛肉和手工豆腐。另外，这家火锅店的汤底有多种选择，比如麻辣、番茄和清汤，您需要哪种汤底呢？",
+      "timestamp": 1740941832.0534925
+    },
+    {
+      "role": "right",
+      "content": "我要麻辣汤底，听起来就很过瘾。还有，几点能送到？",
+      "timestamp": 1740941833.5638099
+    },
+    {
+      "role": "left",
+      "content": "好的，麻辣汤底也记下了。根据您的位置，预计会在下单后的45分钟左右送达。请问您现在就下单吗？",
+      "timestamp": 1740941839.8081138
+    },
+    {
+      "role": "right",
+      "content": "好的，现在就下单吧。谢谢！",
+      "timestamp": 1740941840.609169
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已成功提交，预计45分钟后送达。如果您有任何其他需求或问题，欢迎随时联系我们。祝您用餐愉快！",
+      "timestamp": 1740941847.0773163
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。祝好！",
+      "timestamp": 1740941847.9310029
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单，并表示感谢，表明用户对服务满意且无需进一步的帮助。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已成功提交，预计45分钟后送达。如果您有任何其他需求或问题，欢迎随时联系我们。祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。祝好！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

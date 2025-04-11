@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递客服中心，我们发现您的包裹被海关扣留，需要您提供身份信息以便核实处理。请问您现在方便接听电话吗？",
+      "timestamp": 1740687123.4982402
+    },
+    {
+      "role": "right",
+      "content": "您好，我现在不方便接听电话，可以给我发个短信或者邮件吗？这样我可以更方便地处理。",
+      "timestamp": 1740687160.9383836
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为当前环境不方便接听电话，或者对电话内容有所怀疑，选择通过短信或邮件的方式进行后续沟通，以避免直接透露个人信息。用户挂断电话的意图是为了保护自己的隐私和安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

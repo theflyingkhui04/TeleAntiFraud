@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我是您的客服小助手，请问您需要预约车辆吗？",
+      "timestamp": 1740981257.010348
+    },
+    {
+      "role": "right",
+      "content": "你好，我需要预约一辆车，麻烦帮我安排一下。",
+      "timestamp": 1740981257.941207
+    },
+    {
+      "role": "left",
+      "content": "好的，我来帮您安排。请问您现在的位置和目的地是哪里呢？",
+      "timestamp": 1740981261.4093504
+    },
+    {
+      "role": "right",
+      "content": "我现在在国贸大厦，目的地是西单购物中心。",
+      "timestamp": 1740981262.4776647
+    },
+    {
+      "role": "left",
+      "content": "了解了，从国贸大厦到西单购物中心距离大约是10公里，预计需要20分钟的车程。我会立刻为您派车。预计车辆将在5分钟内到达，请您注意查看车牌号和司机信息。需要我帮您确认一下其他需求吗？比如车型或者是否有大件行李？",
+      "timestamp": 1740981267.285244
+    },
+    {
+      "role": "right",
+      "content": "不用了，就按默认的车型来吧，没有大件行李。谢谢。",
+      "timestamp": 1740981268.453272
+    },
+    {
+      "role": "left",
+      "content": "好的，车辆已为您安排妥当，预计5分钟内到达。如果您有任何其他需求，欢迎随时联系我。祝您乘车愉快！",
+      "timestamp": 1740981274.3816373
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。",
+      "timestamp": 1740981275.7681537
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了所有需求，并表示没有其他需要帮助的地方，同时表达了感谢。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，车辆已为您安排妥当，预计5分钟内到达。如果您有任何其他需求，欢迎随时联系我。祝您乘车愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

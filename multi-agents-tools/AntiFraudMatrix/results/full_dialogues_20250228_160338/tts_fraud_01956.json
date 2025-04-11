@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的邻居小李的同班同学，他现在遇到了大麻烦，被一伙人绑走了，对方要求立即支付赎金，不然会有生命危险。您能帮帮他吗？",
+      "timestamp": 1740731368.0659118
+    },
+    {
+      "role": "right",
+      "content": "小李被绑架了？这太可怕了！你有什么证据能证明你说的是真的？我得确认一下，毕竟这种事太严重了。",
+      "timestamp": 1740731394.4722776
+    },
+    {
+      "role": "left",
+      "content": "我理解您的担心，但是情况非常紧急，对方随时可能对小李下手。我现在手里有他的一张照片，但需要您先证明您的身份，我才能发给您。您能告诉我您和小李的关系吗？",
+      "timestamp": 1740731441.3465204
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在用户提出需要证据以确认情况真实性时，可能意识到用户已经开始怀疑，并且要求提供身份证明增加了诈骗的难度。为了避免进一步的质疑和暴露，诈骗者选择主动挂断电话，以防止诈骗行为被识破。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

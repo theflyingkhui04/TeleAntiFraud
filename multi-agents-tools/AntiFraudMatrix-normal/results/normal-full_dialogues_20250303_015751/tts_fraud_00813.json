@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，我是您的订单助手，请问有什么可以帮您的？",
+      "timestamp": 1740972137.2801242
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个晚餐，有什么推荐的吗？",
+      "timestamp": 1740972138.6949623
+    },
+    {
+      "role": "left",
+      "content": "当然，我们这里有几款人气菜品推荐：宫保鸡丁、酸辣土豆丝和蒜蓉西兰花，都是客人评价很好的选择。您需要尝试一下吗？",
+      "timestamp": 1740972150.0766788
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来一份宫保鸡丁和一份蒜蓉西兰花吧。",
+      "timestamp": 1740972151.7632596
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已添加宫保鸡丁和蒜蓉西兰花。还需要点些别的吗？比如米饭或汤类？",
+      "timestamp": 1740972159.3211553
+    },
+    {
+      "role": "right",
+      "content": "再来两份米饭吧。",
+      "timestamp": 1740972160.590187
+    },
+    {
+      "role": "left",
+      "content": "好的，两份米饭也已加入您的订单。还有其他需要的吗？如果没有，我将为您提交订单。",
+      "timestamp": 1740972168.1839604
+    },
+    {
+      "role": "right",
+      "content": "就这样吧，可以提交了。谢谢。",
+      "timestamp": 1740972169.2679176
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已提交成功，预计送达时间为三十分钟内。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740972179.2077446
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740972180.9993494
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容，并表示感谢，表明用户对当前服务感到满意且没有进一步的需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已提交成功，预计送达时间为三十分钟内。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

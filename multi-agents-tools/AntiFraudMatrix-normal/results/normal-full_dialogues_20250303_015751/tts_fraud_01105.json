@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，请问有什么问题需要我帮忙解决？",
+      "timestamp": 1740979613.8267508
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我是学生，最近在准备考试，想了解一下图书馆的开放时间。",
+      "timestamp": 1740979616.2381454
+    },
+    {
+      "role": "left",
+      "content": "您好，图书馆的开放时间是每天早上八点到晚上九点，周末也是相同的时间。请问还有其他需要了解的信息吗？",
+      "timestamp": 1740979623.4913843
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。那我还有一个问题，图书馆有没有提供自习室或者安静的自习区域？",
+      "timestamp": 1740979625.5727987
+    },
+    {
+      "role": "left",
+      "content": "图书馆确实提供自习室和安静的自习区域，通常位于三楼和四楼。您可以在入口处的服务台领取钥匙，或者直接使用开放的座位。需要提前预约吗？",
+      "timestamp": 1740979634.9122832
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的详细解答。暂时不需要预约，如果以后需要会再咨询的。谢谢！",
+      "timestamp": 1740979636.9602065
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您需要使用自习室，可以直接前往图书馆三楼或四楼，不需要预约。如果还有其他问题，欢迎随时联系。祝您考试顺利！",
+      "timestamp": 1740979647.29795
+    },
+    {
+      "role": "right",
+      "content": "谢谢，考试加油！",
+      "timestamp": 1740979648.6832771
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并明确表示了感谢，没有进一步的问题或需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您需要使用自习室，可以直接前往图书馆三楼或四楼，不需要预约。如果还有其他问题，欢迎随时联系。祝您考试顺利！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，考试加油！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

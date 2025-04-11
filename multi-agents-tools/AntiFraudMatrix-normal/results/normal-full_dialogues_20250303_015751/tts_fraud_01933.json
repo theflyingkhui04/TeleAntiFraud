@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎致电客服中心，有什么问题我可以帮您解决？",
+      "timestamp": 1740976217.8995492
+    },
+    {
+      "role": "right",
+      "content": "你好，我想咨询一下你们的退费政策。",
+      "timestamp": 1740976219.7846167
+    },
+    {
+      "role": "left",
+      "content": "关于退费政策，我们通常在收到退货商品并确认无误后，会在七个工作日内处理退款。具体流程和要求，您可以在官网的“帮助中心”里查看详细说明，或者我可以为您简要介绍一下。您需要了解哪些方面的内容呢？",
+      "timestamp": 1740976229.215823
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦你帮我简要介绍一下。主要是想了解一下退货条件和退款时间。",
+      "timestamp": 1740976231.7247937
+    },
+    {
+      "role": "left",
+      "content": "退货条件方面，商品需要保持原貌，未经使用或损坏，并且需要连同原包装和附件一起退回。对于退款时间，通常在我们收到退货商品并确认无误后的七个工作日内完成退款。退款将退回到您原来的支付账户。如果还有其他疑问，可以随时告诉我。",
+      "timestamp": 1740976242.3600054
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的解答。如果没有其他问题，我就先挂了。",
+      "timestamp": 1740976244.2058506
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果还有其他问题或需要进一步的帮助，欢迎随时联系我们。希望您今天过得愉快。再见。",
+      "timestamp": 1740976257.9482434
+    },
+    {
+      "role": "right",
+      "content": "再见。",
+      "timestamp": 1740976259.1900916
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示感谢并结束对话，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果还有其他问题或需要进一步的帮助，欢迎随时联系我们。希望您今天过得愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

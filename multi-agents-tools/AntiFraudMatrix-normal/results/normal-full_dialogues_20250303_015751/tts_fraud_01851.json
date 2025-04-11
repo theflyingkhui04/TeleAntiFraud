@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，可以帮您叫车、查询路线等，有什么我可以帮忙的吗？",
+      "timestamp": 1740943637.0022204
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。能帮我查一下从我家到市中心的路线吗？我家在西区花园。",
+      "timestamp": 1740943638.3577077
+    },
+    {
+      "role": "left",
+      "content": "当然可以。从西区花园到市中心的话，您可以选择走主干道，全程大约需要二十分钟，路况好的话会更快一些。还有其他需要帮忙的吗？比如帮您叫辆车？",
+      "timestamp": 1740943644.4638748
+    },
+    {
+      "role": "right",
+      "content": "谢谢，不用了。我自己开车过去。对了，最近路上修路多吗？需要绕路吗？",
+      "timestamp": 1740943646.2828383
+    },
+    {
+      "role": "left",
+      "content": "目前从西区花园到市中心的路段没有大规模的修路工程，您可以正常行驶。不过建议您出发前通过导航软件确认一下实时路况，以确保行程顺利。如果还有其他问题，我随时可以帮您解答。",
+      "timestamp": 1740943654.3273187
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我会注意路况的。如果有问题我再联系你。",
+      "timestamp": 1740943658.3838508
+    },
+    {
+      "role": "left",
+      "content": "好的，祝您一路顺畅，安全到达市中心。如果今后还有需要，随时欢迎咨询。感谢您的使用，再见。",
+      "timestamp": 1740943665.8904757
+    },
+    {
+      "role": "right",
+      "content": "再见。谢谢你的帮助。一路平安。",
+      "timestamp": 1740943667.272335
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已表示感谢，并明确表示如果需要进一步帮助会再次联系，这表明用户当前的问题已经解决，对话目标达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，祝您一路顺畅，安全到达市中心。如果今后还有需要，随时欢迎咨询。感谢您的使用，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。谢谢你的帮助。一路平安。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

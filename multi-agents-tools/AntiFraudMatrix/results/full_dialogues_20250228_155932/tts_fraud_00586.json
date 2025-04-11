@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX彩票中心的客服，您最近在我们平台购买的彩票中了大奖，奖金是五十万元。请问您现在方便接听电话吗？",
+      "timestamp": 1740759407.468801
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？太意外了！我确实买过彩票，不过中这么大的奖，真是不敢相信。你们是怎么知道我的信息的？",
+      "timestamp": 1740759409.1569595
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方的真实身份而选择挂断电话。在对话中，用户表达了对中奖信息的惊讶和怀疑，询问了对方如何获取其个人信息，这表明用户对电话的真实性持谨慎态度。用户挂断电话的意图可能是为了防止进一步的信息泄露，并自行核实中奖信息的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

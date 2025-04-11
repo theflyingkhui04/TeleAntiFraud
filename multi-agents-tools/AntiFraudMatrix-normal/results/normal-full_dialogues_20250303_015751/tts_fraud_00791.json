@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，可以帮助您预订车辆，请告诉我您的目的地和上车地点。",
+      "timestamp": 1740942259.5377805
+    },
+    {
+      "role": "right",
+      "content": "好的，我要去机场，现在在东城区的王府井大街。",
+      "timestamp": 1740942263.2967658
+    },
+    {
+      "role": "left",
+      "content": "好的，您现在在东城区的王府井大街，目的地是机场。我正在为您查找合适的车辆，大约需要5分钟的时间，请您稍等。",
+      "timestamp": 1740942267.7654912
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会在路边等。",
+      "timestamp": 1740942269.2990022
+    },
+    {
+      "role": "left",
+      "content": "好的，司机已经在路上了，预计5分钟后到达。请您注意车辆到达，车牌号是京A12345。祝您旅途愉快！",
+      "timestamp": 1740942273.8576272
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的需求后，成功为用户预订了车辆，并提供了车辆到达时间和车牌号等重要信息。用户对此表示了认可和感谢。服务方在确保用户没有其他需求后，使用了结束信号代码'##ENDCALL_SIGNAL##'来结束对话，表明服务目标已达成，服务流程已经完成。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

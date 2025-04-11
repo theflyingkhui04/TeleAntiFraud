@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，我可以帮您完成订餐，请问您想吃哪家餐厅的美食呢？",
+      "timestamp": 1740945295.7353733
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一家附近的中餐馆，有什么推荐的吗？",
+      "timestamp": 1740945299.4675708
+    },
+    {
+      "role": "left",
+      "content": "当然可以帮您推荐，附近有一家评价很高的“福满楼”，主打本帮菜，口味地道，您看是否感兴趣？",
+      "timestamp": 1740945303.7481554
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，就订这家吧。有什么推荐的菜品吗？",
+      "timestamp": 1740945305.4383664
+    },
+    {
+      "role": "left",
+      "content": "“福满楼”的招牌菜有宫保鸡丁、红烧肉和清蒸鲈鱼，这些都是顾客评价很高的菜品，您可以考虑一下。您有特别想点的菜吗？",
+      "timestamp": 1740945312.0423512
+    },
+    {
+      "role": "right",
+      "content": "那就来一份宫保鸡丁和红烧肉吧，再加一份清蒸鲈鱼。还有一份青菜，清淡点的。",
+      "timestamp": 1740945314.478319
+    },
+    {
+      "role": "left",
+      "content": "好的，您的点餐已记录：宫保鸡丁、红烧肉、清蒸鲈鱼和一份清淡的青菜。还需要帮您加点其他的东西吗？比如汤或甜点？",
+      "timestamp": 1740945320.978608
+    },
+    {
+      "role": "right",
+      "content": "汤就来一份西红柿蛋汤吧，甜点就不用了。这样就可以了。",
+      "timestamp": 1740945322.4003487
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认：宫保鸡丁、红烧肉、清蒸鲈鱼、清淡的青菜和西红柿蛋汤。请问需要现在送餐吗？还是预订一个送餐时间？",
+      "timestamp": 1740945330.6862335
+    },
+    {
+      "role": "right",
+      "content": "现在送餐吧，越快越好。谢谢。",
+      "timestamp": 1740945340.1578984
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已成功提交，餐厅会在30分钟内为您送达。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740945346.8036447
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。",
+      "timestamp": 1740945348.2486985
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已确认订单并表示感谢，对话目标已达成，用户没有进一步的需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已成功提交，餐厅会在30分钟内为您送达。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

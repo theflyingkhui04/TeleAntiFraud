@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "打车服务专员为您服务，需要帮您叫车吗？",
+      "timestamp": 1740941897.4137952
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦你帮我叫一辆车，去市中心的四季酒店。",
+      "timestamp": 1740941898.571141
+    },
+    {
+      "role": "left",
+      "content": "好的，您的出发地点是哪里呢？方便的话请告诉我具体地址或附近地标。",
+      "timestamp": 1740941904.264688
+    },
+    {
+      "role": "right",
+      "content": "我在城南的阳光花园小区，麻烦你了。",
+      "timestamp": 1740941908.1791546
+    },
+    {
+      "role": "left",
+      "content": "明白了，已经为您叫了一辆车。预计三分钟后到达阳光花园小区，车牌号是京A12345，蓝色轿车。请注意车辆到来，确保安全上车。如果需要帮助，随时联系我。",
+      "timestamp": 1740941913.2679777
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我会注意的。",
+      "timestamp": 1740941913.9961722
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您安排好车辆，感谢您的使用，祝您旅途愉快。如果有任何问题，欢迎随时联系我们。",
+      "timestamp": 1740941921.5017388
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740941922.5500262
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢，并确认了解了服务信息，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，已经为您安排好车辆，感谢您的使用，祝您旅途愉快。如果有任何问题，欢迎随时联系我们。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

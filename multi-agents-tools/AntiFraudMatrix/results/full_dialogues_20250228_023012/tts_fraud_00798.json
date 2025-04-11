@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您被选中为本期彩票的幸运获奖者！请告诉我您的姓名和身份证号码以便我们核实身份，奖金总额高达50万元！",
+      "timestamp": 1740683233.538312
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？太好了！我叫张建国，身份证号码是123456789012345678。谢谢你们的通知，我真是太幸运了！",
+      "timestamp": 1740683274.0831094
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供个人信息后立即挂断了电话，这表明用户可能意识到自己提供了敏感信息给诈骗者，并迅速采取行动以防止进一步的诈骗行为。用户的意图可能是保护自己的个人信息不被进一步利用。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是某某市警察局，非常紧急，您的家人被绑架了，现在需要您配合我们行动，不然后果不堪设想。",
+      "timestamp": 1740736965.8299997
+    },
+    {
+      "role": "right",
+      "content": "啊，什么？我的家人被绑架了？这怎么可能，您能告诉我具体是哪个家人吗？我需要马上了解情况。",
+      "timestamp": 1740736979.983509
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者的言辞过于紧急和不具体，感到恐慌和不确定，导致其选择挂断电话以核实信息的真实性。用户的意图可能是为了保护自己和家人，避免进一步的误导或诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

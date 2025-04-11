@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临！有什么商品您想了解或需要帮助的吗？",
+      "timestamp": 1740948302.9987454
+    },
+    {
+      "role": "right",
+      "content": "谢谢，不用了。我自己看看就好。",
+      "timestamp": 1740948303.8855603
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的光临，如果您还有其他需要，欢迎随时联系我们。祝您生活愉快！",
+      "timestamp": 1740948310.2477477
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。生活愉快！",
+      "timestamp": 1740948311.236049
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经明确表示不需要帮助，并表达了希望自行浏览的意愿。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的光临，如果您还有其他需要，欢迎随时联系我们。祝您生活愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。生活愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

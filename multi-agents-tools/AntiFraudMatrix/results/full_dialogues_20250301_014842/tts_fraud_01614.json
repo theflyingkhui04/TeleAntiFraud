@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服，我们发现您的账户存在异常交易，需要您配合进行核实，以免造成不必要的损失。",
+      "timestamp": 1740774115.2530575
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我的账户怎么会有异常交易呢？我平时用得很少的。你能不能告诉我具体是什么情况？",
+      "timestamp": 1740774117.2318003
+    },
+    {
+      "role": "left",
+      "content": "好的，感谢您的配合，我们会尽快处理这个问题，确保您的账户安全。如果还有其他疑问，可以随时联系我们的客服。再见。",
+      "timestamp": 1740774121.659647
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你。我会留意的。再见。",
+      "timestamp": 1740774125.0804098
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明其选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，感谢您的配合，我们会尽快处理这个问题，确保您的账户安全。如果还有其他疑问，可以随时联系我们的客服。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你。我会留意的。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

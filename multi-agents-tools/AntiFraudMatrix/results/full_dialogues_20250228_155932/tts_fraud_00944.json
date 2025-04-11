@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是工商银行客户服务中心，我们检测到您的账户存在异常交易，需要立即核实您的身份信息，以确保账户安全。请问您是本人吗？",
+      "timestamp": 1740738659.6439588
+    },
+    {
+      "role": "right",
+      "content": "您好，我是本人。不过，我最近没有进行过任何异常交易，你们是怎么发现的？我需要提供哪些信息来核实我的身份？",
+      "timestamp": 1740738672.6418393
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提及需要核实身份信息后，可能意识到了潜在的诈骗风险，因此选择主动挂断电话以保护个人信息安全。用户的意图是避免进一步的交流，防止个人信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

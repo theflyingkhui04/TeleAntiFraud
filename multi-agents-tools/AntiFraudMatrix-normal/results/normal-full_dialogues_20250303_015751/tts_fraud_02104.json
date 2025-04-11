@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮助您的？",
+      "timestamp": 1740948483.7352302
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个午餐。有什么推荐的吗？",
+      "timestamp": 1740948487.5397334
+    },
+    {
+      "role": "left",
+      "content": "我们今天的特色菜有宫保鸡丁和清蒸鲈鱼，都非常受欢迎。您喜欢哪种口味的菜品呢？",
+      "timestamp": 1740948495.6281455
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，我就试试这个吧。另外，能不能加一碗米饭？",
+      "timestamp": 1740948496.7115676
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁加一碗米饭，您还需要其他的配菜或者汤吗？",
+      "timestamp": 1740948503.0284593
+    },
+    {
+      "role": "right",
+      "content": "再来一碗西红柿蛋汤吧。这样就齐全了。",
+      "timestamp": 1740948504.1699278
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁、一碗米饭和一碗西红柿蛋汤，您的订单已经记录下来了。预计送达时间是三十分钟内。还有其他需要帮忙的吗？",
+      "timestamp": 1740948509.0412915
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的订单详情后，询问用户是否还有其他需要帮助的事项。用户没有提出进一步的需求，服务方通过提供结束信号代码'##ENDCALL_SIGNAL##'表明订单处理完成，服务目标已达成，因此选择结束对话。服务方的意图是确保用户的需求得到满足，并礼貌地结束服务流程。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

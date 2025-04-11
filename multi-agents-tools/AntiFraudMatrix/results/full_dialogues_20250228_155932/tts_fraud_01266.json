@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，我是XX银行的客服经理。我们检测到您的账户存在异常交易，需要立即进行安全验证，以保护您的资金安全。请问您现在方便配合处理吗？",
+      "timestamp": 1740751078.1101618
+    },
+    {
+      "role": "right",
+      "content": "您好，我是张伟。我最近确实没注意到有什么异常，不过既然你们检测到了，那我就配合处理吧。您需要我怎么做？",
+      "timestamp": 1740751080.9659114
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出账户存在异常交易需要安全验证时，虽然表示愿意配合，但可能在进一步思考后意识到这可能是诈骗电话，或者用户可能认为自己没有时间或不愿意继续对话，因此选择了挂断电话。用户的意图可能是为了避免潜在的风险或节省时间。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，这里是中国银行客服中心。我们检测到您的账户存在异常交易，需要立即核实您的身份信息以确保账户安全。请问您方便现在提供一下您的姓名和身份证号码吗？",
+      "timestamp": 1740737616.2992623
+    },
+    {
+      "role": "right",
+      "content": "你好，我叫李华，身份证号码是三十三零一零一九八零零一零一零二一三。我的账户真的有问题吗？",
+      "timestamp": 1740737619.2101543
+    },
+    {
+      "role": "left",
+      "content": "李华先生，感谢您的配合。我们已经记录了您的信息，将会进一步核实账户的异常情况。如果有任何进展，我们会及时与您联系。请您放心，我们会尽快处理。",
+      "timestamp": 1740737642.5535567
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。希望我的账户没有大问题。",
+      "timestamp": 1740737665.4059606
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗明显成功 - 用户已提供敏感信息（姓名和身份证号码），诈骗者已获取足够信息，可以结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "李华先生，感谢您的配合。我们已经记录了您的信息，将会进一步核实账户的异常情况。如果有任何进展，我们会及时与您联系。请您放心，我们会尽快处理。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。希望我的账户没有大问题。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李华吗？我是你儿子小明的同学，小刚。小明出事了，他被一群混混抓走了，现在情况很紧急，你得赶紧把赎金准备好，不然他们可能会对小明下手。",
+      "timestamp": 1740791503.8998916
+    },
+    {
+      "role": "right",
+      "content": "小刚，你先别急，慢慢说，小明真的被混混抓走了？这到底是怎么回事？你有没有报警？我得赶紧想办法。",
+      "timestamp": 1740791505.580911
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的紧急情况后，表现出关心和担忧，并询问了更多细节。然而，用户在第二次发言后立即挂断了电话，这可能是因为用户意识到了这是一个诈骗电话，或者是因为用户认为需要立即采取行动，比如报警或联系其他家人，而不是继续与诈骗者对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

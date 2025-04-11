@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李华的家属吗？我是他朋友，现在李华出了点事，你们最好赶紧过来。",
+      "timestamp": 1740789770.2263908
+    },
+    {
+      "role": "right",
+      "content": "您好，我是李华的家属，请问您是哪位？李华到底出了什么事？麻烦您详细说一下。",
+      "timestamp": 1740789772.5615997
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者提供的信息不足且突然挂断电话而感到怀疑，从而选择挂断电话以保护自己不受潜在诈骗的侵害。用户的意图是避免进一步的风险和不必要的交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

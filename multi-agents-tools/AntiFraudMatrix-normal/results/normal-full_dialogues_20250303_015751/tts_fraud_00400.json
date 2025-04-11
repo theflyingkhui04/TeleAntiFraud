@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，欢迎使用我们的外卖服务，我可以帮您完成订餐，有什么需要的吗？",
+      "timestamp": 1740951091.3043725
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份牛肉炒饭和一份糖醋排骨，还有一瓶可乐。",
+      "timestamp": 1740951093.4749863
+    },
+    {
+      "role": "left",
+      "content": "好的，您点的是一份牛肉炒饭、一份糖醋排骨和一瓶可乐，这个组合非常不错。请问这些是送到您的地址，还是需要自取呢？",
+      "timestamp": 1740951100.3345969
+    },
+    {
+      "role": "right",
+      "content": "送到我的地址吧，地址是XX小区X号楼X单元X室。",
+      "timestamp": 1740951102.369629
+    },
+    {
+      "role": "left",
+      "content": "好的，您的地址是XX小区X号楼X单元X室，我们已经记录好了。请问需要现在就送过去吗？还是您有特殊的时间要求？",
+      "timestamp": 1740951106.8201578
+    },
+    {
+      "role": "right",
+      "content": "现在就送过来吧，谢谢。",
+      "timestamp": 1740951107.6238422
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经成功提交，预计送达时间为30分钟内。如果您有任何其他需求或问题，可以随时联系我们。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740951113.6110442
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，期待美食。",
+      "timestamp": 1740951114.8019226
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐并提供了送餐地址及时间要求，服务目标已达成。",
+  "terminator": "service",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经成功提交，预计送达时间为30分钟内。如果您有任何其他需求或问题，可以随时联系我们。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

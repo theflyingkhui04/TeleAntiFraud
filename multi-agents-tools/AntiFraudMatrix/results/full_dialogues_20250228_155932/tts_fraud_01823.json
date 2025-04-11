@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好，我是国际快递公司的客服专员。我们发现您的包裹在海关被扣留，需要您提供身份信息以便核实并支付相关费用。请问您现在方便处理吗？",
+      "timestamp": 1740733292.8575425
+    },
+    {
+      "role": "right",
+      "content": "您好，我是李医生。这个包裹是我订的吗？我最近确实有网购一些医疗用品，但不太记得是不是需要支付什么额外费用。您能告诉我具体的费用是多少吗？另外，我需要提供哪些身份信息？",
+      "timestamp": 1740733300.0510387
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方的真实身份和意图而选择挂断电话。用户在对话中表达了对额外费用和提供身份信息的谨慎态度，这表明用户可能已经意识到这可能是一起诈骗行为，因此选择终止对话以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

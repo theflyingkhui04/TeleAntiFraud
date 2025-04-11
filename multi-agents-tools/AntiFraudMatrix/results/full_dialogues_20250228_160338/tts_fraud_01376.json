@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服经理，张经理。我们刚刚检测到您的账户有异常活动，为了确保您的资金安全，我们需要立即采取行动。您现在方便吗？",
+      "timestamp": 1740732046.1210954
+    },
+    {
+      "role": "right",
+      "content": "您好，张经理。我确实方便。不过，我平时都是在田里干活，对银行的事不太懂，您能具体说说是什么异常吗？",
+      "timestamp": 1740732077.5980892
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对银行事务的不熟悉，并提到自己平时在田里干活，这可能表明用户对诈骗者的身份或所提及的异常活动持怀疑态度。用户在询问具体异常情况后立即挂断电话，可能是为了避免进一步的诈骗尝试，保护自己的个人信息和资金安全。挂断电话是用户主动采取的防御措施，意图是终止与诈骗者的交流，防止被骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

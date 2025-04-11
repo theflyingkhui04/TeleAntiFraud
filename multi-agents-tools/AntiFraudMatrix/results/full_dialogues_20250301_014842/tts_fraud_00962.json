@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李明吗？我是你儿子的辅导员，他刚刚在学校里出事了，你必须马上过来一趟。",
+      "timestamp": 1740772571.595252
+    },
+    {
+      "role": "right",
+      "content": "我是李明，但你说的事我得先确认一下。我儿子现在在学校里吗？你们学校有联系电话吧，我打个电话确认一下。",
+      "timestamp": 1740772573.2881217
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份和所述情况表示怀疑，并提出要通过其他渠道进行确认。用户可能意识到这是一个诈骗电话，因此选择挂断以避免进一步的潜在风险。用户的意图是通过挂断电话来结束对话，防止诈骗者继续施压或获取更多个人信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

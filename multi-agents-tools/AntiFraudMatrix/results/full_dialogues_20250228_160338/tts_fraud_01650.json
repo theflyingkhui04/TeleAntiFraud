@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是支付宝客服中心，我们检测到您的账户存在异常交易，需要立即处理，请问您方便配合吗？",
+      "timestamp": 1740735447.1980095
+    },
+    {
+      "role": "right",
+      "content": "好的，我最近确实有些担心账户安全，您能帮我解决真是太好了。需要我提供什么信息吗？",
+      "timestamp": 1740735461.4478788
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在意识到对方可能是诈骗者后，主动挂断了电话。用户最初表现出对账户安全的担忧，并愿意提供信息，但在诈骗者提出需要立即处理的要求后，用户可能察觉到异常，决定终止对话以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

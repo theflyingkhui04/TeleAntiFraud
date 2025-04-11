@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某预约服务中心，有什么可以帮您的？",
+      "timestamp": 1740944197.616902
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约一个心理辅导的咨询。",
+      "timestamp": 1740944199.419583
+    },
+    {
+      "role": "left",
+      "content": "好的，我可以帮您预约。请问您希望预约的具体时间是哪一天呢？",
+      "timestamp": 1740944203.594148
+    },
+    {
+      "role": "right",
+      "content": "下周三下午三点左右可以吗？",
+      "timestamp": 1740944204.330657
+    },
+    {
+      "role": "left",
+      "content": "下周三下午三点，这个时间段是可以的。请问您需要预约多长时间的咨询？我们通常提供五十分钟的标准咨询时间。",
+      "timestamp": 1740944208.803591
+    },
+    {
+      "role": "right",
+      "content": "五十分钟就行。",
+      "timestamp": 1740944209.3066185
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您预约了下周三下午三点，时长五十分钟的心理辅导咨询。请问您需要预约编号或确认短信吗？",
+      "timestamp": 1740944216.843644
+    },
+    {
+      "role": "right",
+      "content": "需要，麻烦发个确认短信给我。",
+      "timestamp": 1740944217.7001653
+    },
+    {
+      "role": "left",
+      "content": "好的，您的预约信息已经记录，确认短信稍后会发送到您的手机上，请注意查收。还有其他需要帮助的吗？",
+      "timestamp": 1740944225.1620543
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户预约信息并发送确认短信后，询问用户是否还有其他需要帮助的事项。用户没有提出进一步的需求，服务方在此时选择结束对话，表明服务目标已经达成，用户的需求得到了满足，服务流程已经完成。服务方的意图是确保用户没有其他问题，并礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

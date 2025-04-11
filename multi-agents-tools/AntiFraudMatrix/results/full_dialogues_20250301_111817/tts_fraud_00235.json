@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李明吗？我是你儿子的朋友小王，你儿子现在出事了，你必须马上给我打钱，否则他会有生命危险。",
+      "timestamp": 1740803960.4797814
+    },
+    {
+      "role": "right",
+      "content": "等等，你说你是小王？我怎么没见过你？你说我儿子出事了，他到底怎么了？你得给我个确凿的证据，不然我不会随便打钱的。",
+      "timestamp": 1740803964.021652
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中对诈骗者的身份和所说内容表示怀疑，并要求提供确凿的证据。在诈骗者未能提供任何证据的情况下，用户可能认为这是一起诈骗行为，因此选择主动挂断电话以保护自己的财产安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是客服代表小李。我们检测到您的账户有异常交易，为确保您的资金安全，需要您配合我们进行身份验证。请问您现在方便吗？",
+      "timestamp": 1740809085.4413948
+    },
+    {
+      "role": "right",
+      "content": "你好，小李。我是某某企业的老板，对这类事情比较敏感。你们怎么确定是我的账户有异常交易？能否提供更多细节？",
+      "timestamp": 1740809087.530797
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对诈骗者身份和信息真实性的怀疑，要求提供更多细节以验证情况的真实性。用户可能已经意识到这是一起诈骗尝试，因此选择主动挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

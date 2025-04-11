@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询助手，可以帮您查询路线和交通信息，请问有什么我可以帮您的吗？",
+      "timestamp": 1740974635.4204109
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从市中心医院到东郊公园的公交路线，方便的话，也告诉我大概需要多长时间。",
+      "timestamp": 1740974638.2778382
+    },
+    {
+      "role": "left",
+      "content": "从市中心医院到东郊公园可以乘坐公交15路，全程大约需要四十五分钟，会经过十二个站点。如果您现在出发，大约在下午三点四十五分左右可以到达东郊公园。",
+      "timestamp": 1740974647.7994292
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，我大概会在这个时间出发。如果有其他问题，我再联系你。",
+      "timestamp": 1740974650.6137729
+    },
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，那我就帮您确认这条路线信息了。祝您旅途愉快，感谢您的咨询。",
+      "timestamp": 1740974662.9386916
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，旅途愉快。",
+      "timestamp": 1740974664.8127832
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的公交路线和时间信息，并表示如果需要会再次联系，这表明用户对当前服务满意且没有进一步的问题。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，那我就帮您确认这条路线信息了。祝您旅途愉快，感谢您的咨询。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，旅途愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "先生，您好，我是国家彩票中心的工作人员，恭喜您中得了今天的一等奖，奖金高达一百万！由于是紧急通知，我需要您提供一些个人信息以便我们核实身份和发放奖金。您能告诉我您的全名和身份证号吗？",
+      "timestamp": 1740757890.6639128
+    },
+    {
+      "role": "right",
+      "content": "您好，这个消息听起来太突然了。我怎么确认这是真的呢？彩票中心通常不会直接打电话通知中奖吧？",
+      "timestamp": 1740757892.234065
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的中奖信息表示怀疑，并认为彩票中心不会通过电话直接通知中奖，因此用户选择挂断电话以避免进一步的诈骗尝试。用户的意图是终止对话，防止个人信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

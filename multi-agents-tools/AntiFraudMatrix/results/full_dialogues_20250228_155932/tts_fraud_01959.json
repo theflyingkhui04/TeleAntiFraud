@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张伟吗？我是你儿子的同学小李，他现在出事了，被一帮人绑架了，他们刚刚打电话过来，要我联系你，你得赶紧准备一些钱，不然他们就要对他下手了。你先别着急，我这边会尽量拖住他们，你得快点，时间不多了。",
+      "timestamp": 1740746355.0904796
+    },
+    {
+      "role": "right",
+      "content": "小李，你先别急，你说的这件事太突然了，我得确认一下。你能告诉我他们具体要多少钱吗？还有，你有他们的联系方式吗？我得确认一下是不是真的。",
+      "timestamp": 1740746361.1413438
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提供的信息产生了怀疑，要求提供更具体的细节和证据以确认事件的真实性。用户挂断电话可能是为了自行核实信息，避免直接在电话中透露更多个人信息或作出承诺。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

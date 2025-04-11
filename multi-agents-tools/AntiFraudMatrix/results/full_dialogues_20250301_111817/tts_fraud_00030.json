@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您银行的客服代表，我注意到您的账户有些异常活动，需要尽快核实一些信息以确保您的账户安全。",
+      "timestamp": 1740814116.444546
+    },
+    {
+      "role": "right",
+      "content": "真的吗？我的账户有问题？那我得注意了，你能告诉我具体是什么问题吗？",
+      "timestamp": 1740814119.1600623
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们检测到您的账户有几笔未经授权的转账，金额较大，为了您的资金安全，我们需要尽快确认这些交易是否是您本人操作的。请您提供一下您的身份证号码，以便我们进行身份验证。",
+      "timestamp": 1740814129.0379403
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊，那确实挺严重的。我身份证号是三十一零一零一九九八零一零一零一零。不过我是学生，平时用钱不多，怎么会有这么大的转账呢？",
+      "timestamp": 1740814133.480734
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们会立即调查这些异常交易。如果需要进一步的信息，我们会联系您。请您保持手机畅通。",
+      "timestamp": 1740814141.139859
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，我会注意手机的。希望问题能尽快解决。",
+      "timestamp": 1740814143.1406884
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（身份证号码），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们会立即调查这些异常交易。如果需要进一步的信息，我们会联系您。请您保持手机畅通。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，我会注意手机的。希望问题能尽快解决。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

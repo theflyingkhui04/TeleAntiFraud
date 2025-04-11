@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的打车服务，请问您现在需要叫车吗？",
+      "timestamp": 1740941903.6488452
+    },
+    {
+      "role": "right",
+      "content": "不需要，谢谢。我目前没有叫车的需求。",
+      "timestamp": 1740941905.2150564
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户明确表示当前没有叫车需求，并且使用了结束信号代码'##ENDCALL_SIGNAL##'，表明其意图是礼貌地结束对话，不希望继续进行不必要的交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

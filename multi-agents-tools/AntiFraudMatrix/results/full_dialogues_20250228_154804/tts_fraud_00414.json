@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的邻居，您家的李先生刚刚出事了，他被坏人绑架了，现在情况非常紧急，您需要马上汇款一百万，否则他们说要对李先生不利。您快点吧，时间不等人。",
+      "timestamp": 1740731382.0660946
+    },
+    {
+      "role": "right",
+      "content": "什么？李先生被绑架了？这怎么可能？你能告诉我详细一点吗？到底是怎么回事？",
+      "timestamp": 1740731385.5887668
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的信息表示怀疑，并要求更多详细信息。诈骗者的信息缺乏具体细节，且要求立即汇款，这引发了用户的警觉，因此用户选择挂断电话，以避免进一步的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您，您中了我们彩票的特别大奖！我是您的专属客服经理，可以帮您处理兑奖事宜。您现在方便接电话吗？",
+      "timestamp": 1740691128.5619986
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我中奖了？这真是太好了！我一直都有买彩票，但从来没中过这么大的奖。你们是哪家彩票公司的？我怎么没听说过呢？",
+      "timestamp": 1740691130.4117794
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑这是一起诈骗而选择挂断电话。用户在对话中表达了对彩票公司不熟悉的疑虑，这表明用户可能已经开始质疑这通电话的真实性。用户没有直接表达出强烈的不满或明确拒绝继续交流，但选择挂断电话可能是因为他们不想继续参与这个可能的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

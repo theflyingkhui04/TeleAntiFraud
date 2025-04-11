@@ -1,0 +1,90 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的？",
+      "timestamp": 1740951388.5909994
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个外卖，有什么推荐的吗？",
+      "timestamp": 1740951390.100378
+    },
+    {
+      "role": "left",
+      "content": "我们有几款热销菜品，比如宫保鸡丁、鱼香肉丝和酸菜鱼，都是顾客评价很高的，您感兴趣吗？",
+      "timestamp": 1740951393.9427896
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，那就来个宫保鸡丁和酸菜鱼吧。还有其他需要加的吗？",
+      "timestamp": 1740951398.5433455
+    },
+    {
+      "role": "left",
+      "content": "宫保鸡丁和酸菜鱼都是很好的选择。如果您喜欢，可以再加一份米饭和一个例汤，这样搭配更加营养均衡。",
+      "timestamp": 1740951403.0772333
+    },
+    {
+      "role": "right",
+      "content": "好的，那就加一份米饭和例汤吧。一共多少钱？",
+      "timestamp": 1740951405.4701617
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单包括宫保鸡丁、酸菜鱼、一份米饭和一个例汤，总价是58元，包含配送费。",
+      "timestamp": 1740951411.242059
+    },
+    {
+      "role": "right",
+      "content": "行，那就这样吧。送餐地址是哪里？",
+      "timestamp": 1740951411.9975982
+    },
+    {
+      "role": "left",
+      "content": "请告诉我您的送餐地址，我会为您记录下来。",
+      "timestamp": 1740951417.0766592
+    },
+    {
+      "role": "right",
+      "content": "地址是**村123号，李华家。大概多久能送到？",
+      "timestamp": 1740951420.396264
+    },
+    {
+      "role": "left",
+      "content": "好的，您的地址是**村123号，李华家。我们预计在30到40分钟内送达。如果有什么变动，我们会及时联系您。还有其他需要补充的吗？",
+      "timestamp": 1740951427.0031269
+    },
+    {
+      "role": "right",
+      "content": "没有了，谢谢。等会儿联系我确认一下订单吧。",
+      "timestamp": 1740951428.6095486
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计30到40分钟内送达。如果需要任何帮助，可以随时联系我们。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740951435.8905172
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740951436.926375
+    }
+  ],
+  "turns": 5,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已确认订单详情，并表示没有其他需要补充的内容，同时表达了感谢。这表明对话目标已达成，用户对服务满意。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计30到40分钟内送达。如果需要任何帮助，可以随时联系我们。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

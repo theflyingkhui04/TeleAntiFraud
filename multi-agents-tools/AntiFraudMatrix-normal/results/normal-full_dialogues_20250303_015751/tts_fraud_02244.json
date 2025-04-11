@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，有什么可以帮您的？",
+      "timestamp": 1740981484.4083698
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下附近有哪些打车选项。",
+      "timestamp": 1740981485.382334
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方询问需求后，简单表达了想要了解附近打车选项的意图，但随即结束了对话。这可能是因为用户突然改变了主意，或者意识到自己可以通过其他方式获取所需信息，也可能是用户对服务方的回应感到不满意或认为服务方无法提供所需的具体信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

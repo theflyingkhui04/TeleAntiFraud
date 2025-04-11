@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "李总，您好，我是丰盛资本的张经理。最近我们发现有一个非常有前景的投资项目，收益率预计能超过百分之三十，我想您可能会感兴趣。您有时间了解一下吗？",
+      "timestamp": 1740781240.7284899
+    },
+    {
+      "role": "right",
+      "content": "哎呀，张经理，您好您好。这个项目听起来真不错，我确实对投资有点兴趣。您能给我详细介绍一下吗？我这人不太懂这些，您多担待点。",
+      "timestamp": 1740781243.6135528
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "从对话内容来看，用户并没有表现出明显的拒绝或不满情绪，反而对诈骗者提出的投资项目表示了兴趣。然而，用户和诈骗者都在对话中使用了挂断信号（##ENDCALL_SIGNAL##），这可能是因为双方都意识到对话无法继续进行下去，或者是在测试对话系统。在这种情况下，由于双方都发出了挂断信号，我们可以认为对话是自然结束的。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

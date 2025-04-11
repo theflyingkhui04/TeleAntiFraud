@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服中心，编号零零七，我们刚刚收到您的一个包裹，但发现里面有一些问题，需要您配合处理。",
+      "timestamp": 1740769944.6915646
+    },
+    {
+      "role": "right",
+      "content": "你好，我是小李，学生。我最近确实有一个包裹，你们说有问题是什么意思？",
+      "timestamp": 1740769948.9448318
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方身份或对包裹问题的描述感到不安，选择主动挂断电话以避免潜在的风险。用户的意图是终止对话，防止进一步的信息泄露或诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

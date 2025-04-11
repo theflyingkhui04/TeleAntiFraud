@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的儿子现在在我们手上，不立刻转账五十万到指定账户，我们就撕票！你听到了吗？他现在很害怕！",
+      "timestamp": 1740742559.2408516
+    },
+    {
+      "role": "right",
+      "content": "你们是谁？你们为什么要这样做？我儿子在哪里？你们不要伤害他！我需要证据，我需要知道他真的在你们手上，否则我不会转账的。",
+      "timestamp": 1740742574.092845
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者威胁后表现出怀疑和谨慎，要求提供证据。用户可能意识到这是一个诈骗，因此选择挂断电话以避免进一步的威胁和压力。用户的意图是保护自己和家人，避免成为诈骗的受害者。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

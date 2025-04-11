@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助理，已为您安排了一辆出租车，大约十分钟后到达您的位置。",
+      "timestamp": 1740954570.237461
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我知道了。",
+      "timestamp": 1740954571.133271
+    },
+    {
+      "role": "left",
+      "content": "出租车已为您安排妥当，请留意车辆到达，祝您旅途愉快。",
+      "timestamp": 1740954575.422344
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会注意的。旅途愉快。",
+      "timestamp": 1740954579.1520216
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢并确认收到信息，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "出租车已为您安排妥当，请留意车辆到达，祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会注意的。旅途愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

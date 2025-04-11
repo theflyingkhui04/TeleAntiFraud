@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是紧急热线。您的家人在外地出了意外，现在需要您尽快配合处理，否则后果不堪设想。您能听清楚吗？",
+      "timestamp": 1740743556.309045
+    },
+    {
+      "role": "right",
+      "content": "什么？我的家人出事了？您能告诉我具体是怎么回事吗？我需要了解一下详细情况。",
+      "timestamp": 1740743558.780865
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为感到突然和意外，且对诈骗者提供的信息感到怀疑或不安，选择了立即挂断电话以避免进一步的交流。这表明用户可能已经意识到这可能是一个诈骗电话，或者至少对来电者的身份和意图产生了怀疑。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

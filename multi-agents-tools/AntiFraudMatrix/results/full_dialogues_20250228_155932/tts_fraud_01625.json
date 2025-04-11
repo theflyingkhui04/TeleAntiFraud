@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李伟吗？我是你儿子的朋友，他现在出事了，被一群坏人抓走了，你必须马上汇一百万人民币到这个账户，不然他们就会对他不利！账号是六二二二零八零八零八零八零八零八零八，你快点，时间不多了！",
+      "timestamp": 1740750716.6678307
+    },
+    {
+      "role": "right",
+      "content": "天哪，这可怎么办！你先别急，我得赶紧想办法。你能告诉我具体是怎么回事吗？我儿子现在在哪里？",
+      "timestamp": 1740750719.809244
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者的要求后，表现出明显的紧张和不安，但并未立即提供敏感信息或同意转账。用户试图获取更多信息，以验证情况的真实性。然而，诈骗者并未提供具体的细节，这可能让用户产生了怀疑。用户挂断电话可能是为了有时间冷静思考，或寻求其他人的意见以确认情况的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

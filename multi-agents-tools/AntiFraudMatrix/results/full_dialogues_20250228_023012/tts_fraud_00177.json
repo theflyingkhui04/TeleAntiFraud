@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问，我们公司最近推出了一款高回报的理财产品，年化收益率可以达到30%以上，您有兴趣了解一下吗？",
+      "timestamp": 1740686382.133618
+    },
+    {
+      "role": "right",
+      "content": "您好，谢谢您的推荐。不过我对这种高回报的理财产品持保留态度，毕竟高收益往往伴随着高风险。您能具体介绍一下这款产品吗？比如它是如何保证这么高的收益率的？",
+      "timestamp": 1740686420.6978948
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对高回报理财产品的保留态度，并要求诈骗者提供更详细的信息来解释高收益率的来源。然而，在用户提出具体问题后，用户选择了挂断电话，这可能是因为用户怀疑对方的真实性和产品的可靠性，或者用户认为没有必要继续与对方交谈。用户的意图可能是避免进一步的风险或浪费时间。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

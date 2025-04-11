@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是国家彩票中心的工作人员，恭喜您，您的彩票号码与本期一等奖完全匹配，您中了一百万奖金！",
+      "timestamp": 1740759755.2547278
+    },
+    {
+      "role": "right",
+      "content": "这听起来不太对劲。我是医生，平时从不买彩票。而且国家彩票中心通常不会主动打电话通知中奖。我建议您不要再打来，否则我会向有关部门举报。",
+      "timestamp": 1740759761.2613835
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是因为他们认为这是一起诈骗电话。用户表示自己从未购买过彩票，并且指出国家彩票中心通常不会通过电话通知中奖，这表明用户对诈骗行为有一定的警觉性。用户明确表示如果再接到此类电话将会向有关部门举报，显示出强烈的拒绝态度和防范意识。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

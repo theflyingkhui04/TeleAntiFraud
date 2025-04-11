@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的好朋友李明的同事，刚才李明出了点事，他现在需要您的帮助。",
+      "timestamp": 1740773556.9543428
+    },
+    {
+      "role": "right",
+      "content": "李明出事了？他现在怎么样了？你能告诉我具体是什么情况吗？我需要确认一下这是真的。",
+      "timestamp": 1740773559.4021025
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到对方声称李明出事并需要帮助时，表现出了警惕性，要求对方提供更具体的信息以确认情况的真实性。这表明用户对来电的真实性持怀疑态度，并可能认为这是一个诈骗电话。用户主动挂断电话，可能是为了避免进一步的风险，表明其不愿意继续与对方交流，直到能够确认对方的身份和情况的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

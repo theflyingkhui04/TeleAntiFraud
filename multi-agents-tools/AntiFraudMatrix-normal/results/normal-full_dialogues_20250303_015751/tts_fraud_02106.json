@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，有什么可以帮助您的吗？",
+      "timestamp": 1740940379.7133737
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖。你们这里有推荐的菜品吗？",
+      "timestamp": 1740940381.4632661
+    },
+    {
+      "role": "left",
+      "content": "我们这里的招牌菜有宫保鸡丁、鱼香肉丝和麻辣香锅，都非常受欢迎。您对这些有什么兴趣吗？",
+      "timestamp": 1740940388.0169806
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错。我来一份宫保鸡丁和一份鱼香肉丝吧。还有，你们的米饭是免费的吗？",
+      "timestamp": 1740940389.9988258
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您加上了宫保鸡丁和鱼香肉丝。米饭是免费提供的，需要几份呢？",
+      "timestamp": 1740940395.5077205
+    },
+    {
+      "role": "right",
+      "content": "那就来两份米饭吧。对了，送餐时间大概多久？",
+      "timestamp": 1740940399.7924511
+    },
+    {
+      "role": "left",
+      "content": "您的订单将在三十到四十五分钟内送达，具体时间可能会因当前订单量有所变化。您还有其他需求吗？",
+      "timestamp": 1740940406.9253368
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。没有其他的需求了。等会儿送餐的时候，麻烦敲门声响一点，我年纪大了，听力不太好。",
+      "timestamp": 1740940409.4416053
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，两份宫保鸡丁、鱼香肉丝和两份米饭将在三十到四十五分钟内送达。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740940417.3093886
+    },
+    {
+      "role": "right",
+      "content": "谢谢，麻烦你们了。",
+      "timestamp": 1740940418.3066359
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单详情，并表示没有其他需求。同时，用户也提出了送餐时的特殊要求，表明对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，两份宫保鸡丁、鱼香肉丝和两份米饭将在三十到四十五分钟内送达。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，麻烦你们了。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

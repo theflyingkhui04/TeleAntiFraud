@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你好，我是李辉的朋友。李辉现在遇到一点麻烦，他被一些人扣押了，他们要求我们支付一笔钱才能放了他。你必须马上行动，不然就来不及了。能帮我们联系一下吗？",
+      "timestamp": 1740783314.4838192
+    },
+    {
+      "role": "right",
+      "content": "什么？李辉真的被扣押了吗？这太可怕了，我该怎么办？你们需要多少钱？我尽量帮你们想想办法。",
+      "timestamp": 1740783316.9375303
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的情况后，表现出明显的担忧和不安，但随后立即挂断了电话。这可能是因为用户意识到这是一个诈骗电话，或者用户感到恐慌和不知所措，无法继续对话。用户的意图可能是避免进一步的交流，以防止被骗或因为情绪激动而选择挂断。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

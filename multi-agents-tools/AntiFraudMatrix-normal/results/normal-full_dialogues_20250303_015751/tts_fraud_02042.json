@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，可以帮您快速安排车辆。请告诉我您的上车地点和目的地。",
+      "timestamp": 1740946371.7178779
+    },
+    {
+      "role": "right",
+      "content": "好的，我在家，地址是幸福路123号，目的地是市中心医院。",
+      "timestamp": 1740946374.3528986
+    },
+    {
+      "role": "left",
+      "content": "好的，幸福路123号到市中心医院，我已为您安排好车辆。预计等待时间大约10分钟，司机将会在5分钟后出发接您。请留意车辆信息，保持手机畅通。",
+      "timestamp": 1740946379.5128407
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的上车地点和目的地后，成功为用户安排了车辆，并提供了预计等待时间和司机出发时间等详细信息。用户没有提出进一步的问题或需求，服务方认为服务目标已经达成，因此选择结束对话。服务方的意图是确保用户已经获得了所需的服务信息，并且对服务感到满意。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

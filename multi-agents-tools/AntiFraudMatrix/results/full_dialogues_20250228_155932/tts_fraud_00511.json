@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自某某投资公司的张经理，最近我们发现您有意向投资高收益项目，特此联系您，希望为您详细介绍。",
+      "timestamp": 1740756158.1683671
+    },
+    {
+      "role": "right",
+      "content": "您好，张经理，谢谢您的联系。我最近确实有一些闲钱，想了解一下投资方面的事情。您能具体说说你们的项目吗？",
+      "timestamp": 1740756159.8199604
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们今天就先聊到这里，如果有任何疑问，随时联系我，祝您生活愉快。",
+      "timestamp": 1740756167.1727185
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢张经理，我会考虑的。如果有什么问题我会联系您。祝您工作顺利。再见。",
+      "timestamp": 1740756168.4788365
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表示诈骗者选择挂断电话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们今天就先聊到这里，如果有任何疑问，随时联系我，祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢张经理，我会考虑的。如果有什么问题我会联系您。祝您工作顺利。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

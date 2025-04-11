@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手为您服务，请问有什么我可以帮您的？",
+      "timestamp": 1740970608.2660468
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从市中心到机场的交通方式，有哪些选择？",
+      "timestamp": 1740970609.8284683
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在询问了从市中心到机场的交通方式后立即结束了对话，可能是因为用户已经知道了他们想要的信息，或者用户意识到他们不需要进一步的帮助。用户的意图可能是获取关于交通方式的基本信息，一旦获得，他们就认为对话的目的已经达成。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

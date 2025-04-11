@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的朋友李明的同事，他现在出事了，情况非常紧急，您能听我说吗？",
+      "timestamp": 1740802182.3174672
+    },
+    {
+      "role": "right",
+      "content": "啊，李明出事了？他怎么样了？你能不能告诉我具体是什么情况？我真的很担心他。",
+      "timestamp": 1740802184.9197292
+    },
+    {
+      "role": "left",
+      "content": "李明他被几个不明身份的人带走了，我们现在正想办法救他，但是需要您这边先转一笔钱过来，作为解救他的保证金。时间不多了，您能马上帮忙吗？",
+      "timestamp": 1740802191.058169
+    },
+    {
+      "role": "right",
+      "content": "天哪，这太可怕了！我得赶紧帮忙。需要转多少钱呢？我马上去办。",
+      "timestamp": 1740802192.6558828
+    },
+    {
+      "role": "left",
+      "content": "我理解您现在很担心，但时间真的不多了，如果您不能马上帮忙，我们可能就来不及了。请您考虑一下，我先挂了，希望您能尽快联系我们。",
+      "timestamp": 1740802199.3748355
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，我明白了。我会尽快想办法的。你先别挂，我这就去办。",
+      "timestamp": 1740802201.964625
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表现出愿意提供资金，诈骗明显成功。为了防止进一步的损失，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "我理解您现在很担心，但时间真的不多了，如果您不能马上帮忙，我们可能就来不及了。请您考虑一下，我先挂了，希望您能尽快联系我们。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，我明白了。我会尽快想办法的。你先别挂，我这就去办。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

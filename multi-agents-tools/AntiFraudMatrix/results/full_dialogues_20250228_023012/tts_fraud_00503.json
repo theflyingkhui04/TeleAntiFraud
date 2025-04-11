@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行客服中心，我是客服代表小李。我们发现您的账户有异常活动，为了您的资金安全，请您提供一下您的身份证号码，我们需要进行身份验证。",
+      "timestamp": 1740685124.3979547
+    },
+    {
+      "role": "right",
+      "content": "您好，小李。谢谢您的提醒，但我现在在外地，不方便提供身份证号码。不过，我可以提供一些其他信息来验证我的身份。您看可以吗？",
+      "timestamp": 1740685163.3864417
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一个诈骗电话，因此以在外地为借口拒绝提供敏感信息，并在对方坚持要求提供身份证号码时选择挂断电话，以避免进一步的风险。用户的意图是终止对话，保护个人信息不被泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

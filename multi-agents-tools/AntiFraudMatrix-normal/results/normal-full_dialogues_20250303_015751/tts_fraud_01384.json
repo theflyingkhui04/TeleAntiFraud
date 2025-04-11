@@ -1,0 +1,61 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是店员小张，有什么可以帮您的吗？",
+      "timestamp": 1740974847.5989356
+    },
+    {
+      "role": "right",
+      "content": "你好，我想看看你们这里有没有适合上班族的轻便背包。",
+      "timestamp": 1740974849.056351
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几个系列的背包非常适合上班族使用，轻便又时尚。您想要哪种材质的，比如尼龙、帆布还是皮革的呢？",
+      "timestamp": 1740974855.751675
+    },
+    {
+      "role": "right",
+      "content": "尼龙的就可以了，耐用一些的。",
+      "timestamp": 1740974856.9598174
+    },
+    {
+      "role": "left",
+      "content": "好的，我推荐您看看我们这款尼龙背包，它的设计简洁大方，内部空间也很合理，还有一个防水层，非常适合日常使用。您可以在这里看看实物。",
+      "timestamp": 1740974863.0935788
+    },
+    {
+      "role": "right",
+      "content": "这款看起来不错，可以试一下。多少钱？",
+      "timestamp": 1740974864.3150287
+    },
+    {
+      "role": "left",
+      "content": "这款尼龙背包的价格是 299 元。您可以试试看，看看尺寸和背负舒适度是否合适。",
+      "timestamp": 1740974870.7784038
+    },
+    {
+      "role": "right",
+      "content": "好的，我试试。",
+      "timestamp": 1740974871.7876465
+    },
+    {
+      "role": "left",
+      "content": "好的，请慢慢来，如果您有任何需要，随时告诉我。",
+      "timestamp": 1740974877.3289003
+    },
+    {
+      "role": "right",
+      "content": "谢谢。",
+      "timestamp": 1740974878.2563753
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在试背包之前表达了感谢，并给出了明确的结束信号代码'##ENDCALL_SIGNAL##'。这表明用户可能已经对背包满意，认为无需进一步的帮助或交流，或者用户可能有其他事情需要处理，选择在此时结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

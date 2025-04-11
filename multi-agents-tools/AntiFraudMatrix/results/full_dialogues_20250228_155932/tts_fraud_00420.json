@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家福利彩票管理中心，恭喜您被系统随机抽中成为幸运用户，您将获得一百万元的奖金！请问您方便接听电话吗？",
+      "timestamp": 1740752580.685607
+    },
+    {
+      "role": "right",
+      "content": "您好，我是退休人员，平时很少接到这种电话。这么大的奖，我得确认一下。你们能提供一些具体的凭证或者联系人信息吗？",
+      "timestamp": 1740752584.657062
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者的身份和提供的信息持怀疑态度，要求提供具体的凭证或联系人信息以进一步验证。由于诈骗者未能提供足够的信任证据，用户选择挂断电话，以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

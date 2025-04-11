@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "预约服务专员为您服务，请问需要预约哪项服务？",
+      "timestamp": 1740944883.4405355
+    },
+    {
+      "role": "right",
+      "content": "我是来预约维修服务的，家里水管有点问题。",
+      "timestamp": 1740944885.0000002
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话开始后立即提供了需要的服务类型（维修服务）和具体问题（家里水管有点问题），但服务方在用户表达需求前就结束了对话。这可能是由于服务方的系统或操作失误导致的提前结束。用户的意图是明确的，即预约维修服务以解决家里的水管问题。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

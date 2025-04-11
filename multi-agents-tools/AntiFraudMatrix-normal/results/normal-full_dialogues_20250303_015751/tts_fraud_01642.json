@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我已经帮您叫了一辆出租车，大约需要五到十分钟到达您的当前位置。",
+      "timestamp": 1740945144.8483398
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会在门口等。",
+      "timestamp": 1740945148.4775465
+    },
+    {
+      "role": "left",
+      "content": "您的出租车已经确认接单，预计五到十分钟内到达，请注意查收司机的联系方式和车牌信息。如果有任何问题，可以随时联系客服。祝您乘车愉快。",
+      "timestamp": 1740945155.1177108
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会留意的。",
+      "timestamp": 1740945156.1056476
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示会等待出租车，服务目标达成，用户明确表示感谢。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的出租车已经确认接单，预计五到十分钟内到达，请注意查收司机的联系方式和车牌信息。如果有任何问题，可以随时联系客服。祝您乘车愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会留意的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

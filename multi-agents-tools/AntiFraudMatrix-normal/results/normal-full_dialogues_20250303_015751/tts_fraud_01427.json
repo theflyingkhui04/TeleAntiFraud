@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我已为您安排了一辆出租车，大约五分钟后到达您的位置。",
+      "timestamp": 1740953370.1066766
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。五分钟后见。",
+      "timestamp": 1740953371.3548026
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认服务方已安排好出租车并表示感谢后，使用了结束信号代码##ENDCALL_SIGNAL##，表明用户对服务满意且认为对话已无需要继续的内容。用户的意图是礼貌地结束对话，表示对服务的认可和满意。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

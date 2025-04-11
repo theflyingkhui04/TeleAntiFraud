@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，请问有什么问题需要我帮您解决？",
+      "timestamp": 1740980963.8659756
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我是李明，最近天气变化挺大的，田里的庄稼有些受影响，想请教一下有没有什么好的应对措施。",
+      "timestamp": 1740980965.5505424
+    },
+    {
+      "role": "left",
+      "content": "您好，李明先生，针对天气变化对庄稼的影响，可以考虑采取以下措施：一是加强田间管理，及时排水防涝，防止作物根系受损；二是适当调整种植结构，选择抗逆性强的作物品种；三是关注气象预报，提前做好防范准备。希望这些建议对您有所帮助。",
+      "timestamp": 1740980975.280934
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在提供了具体的应对措施建议后，使用了结束信号代码'##ENDCALL_SIGNAL##'，表明服务方认为已经解决了用户的问题，提供了足够的信息，达到了对话的目标，因此选择主动结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

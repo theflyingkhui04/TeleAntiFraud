@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您是李明的家人吗？这里是李明的朋友，他现在遇到了点麻烦，我需要您马上过来帮忙。",
+      "timestamp": 1740750932.6963592
+    },
+    {
+      "role": "right",
+      "content": "您好，我是李明的家人。请问您是哪位？李明遇到了什么麻烦？我需要确认一下，毕竟现在骗子很多，我得确保是真的。",
+      "timestamp": 1740750935.0788288
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方是诈骗者而选择主动挂断电话。用户在对话中表达了对诈骗的警惕，并要求确认对方的身份和李明遇到的具体麻烦，这表明用户对对方的身份持怀疑态度。由于诈骗者没有提供足够的信息来证明其身份，用户为了安全起见，选择挂断电话以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

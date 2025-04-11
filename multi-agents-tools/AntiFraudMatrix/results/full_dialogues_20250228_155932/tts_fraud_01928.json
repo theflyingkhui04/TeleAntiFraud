@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，我是XX银行的客服专员，我们检测到您的账户存在异常交易，需要立即核实您的身份信息，以确保资金安全。请问您现在方便接听电话吗？",
+      "timestamp": 1740757160.238643
+    },
+    {
+      "role": "right",
+      "content": "不方便，我现在正忙着呢。你们银行怎么不事先通知我？这会不会是诈骗电话？我之前听警察说过，有很多骗子冒充银行工作人员行骗。你们能不能提供一些具体的证据，证明这是真的？",
+      "timestamp": 1740757164.375056
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户因怀疑电话为诈骗而选择挂断。用户提到之前有警察提醒过关于此类诈骗，并要求诈骗者提供具体证据证明其身份，表明用户对电话的真实性持怀疑态度，并采取了谨慎措施以避免潜在的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

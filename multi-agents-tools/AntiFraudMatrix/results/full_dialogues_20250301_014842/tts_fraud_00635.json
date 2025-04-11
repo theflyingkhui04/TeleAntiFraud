@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某宝客服中心，我们发现您的账户存在异常交易记录，为了保障您的账户安全，需要您配合我们进行核实。请问您可以提供一下您的姓名和注册手机号码吗？",
+      "timestamp": 1740775672.0513642
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫张伟，手机号码是 **隐去号码**。你们查到有什么问题吗？",
+      "timestamp": 1740775673.4338894
+    },
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会进一步核实处理。感谢您的配合，祝您生活愉快。再见。",
+      "timestamp": 1740775680.5535488
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们，希望没什么大问题。再见。",
+      "timestamp": 1740775682.486963
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和手机号码，这属于敏感信息，诈骗明显成功。为了防止进一步的信息泄露，应立即终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会进一步核实处理。感谢您的配合，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们，希望没什么大问题。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

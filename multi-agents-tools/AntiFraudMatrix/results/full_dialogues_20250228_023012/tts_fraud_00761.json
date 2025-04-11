@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的先生/女士，我是XX投资公司的理财顾问，我们公司最近有一个高回报的黄金投资项目，年收益率高达30%，您有兴趣了解一下吗？",
+      "timestamp": 1740686051.598748
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我以前确实对投资有些兴趣。你能不能给我详细讲讲这个项目？",
+      "timestamp": 1740686053.8341935
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者的提议产生了怀疑或不感兴趣，因此选择挂断电话。用户的意图可能是避免进一步的交流，以防止可能的诈骗行为。由于双方都使用了挂断信号，这表明对话已经自然结束。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

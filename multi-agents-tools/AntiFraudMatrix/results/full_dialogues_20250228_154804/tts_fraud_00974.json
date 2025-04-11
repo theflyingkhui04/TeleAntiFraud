@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是李先生的司机，李先生现在遇到麻烦了，您能听我说吗？",
+      "timestamp": 1740746897.551547
+    },
+    {
+      "role": "right",
+      "content": "喂，你好。你是李先生的司机？李先生怎么了？他出什么事了吗？",
+      "timestamp": 1740746899.6301234
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方身份的真实性而选择挂断电话。在对话中，诈骗者以李先生的司机身份出现，并声称李先生遇到了麻烦，这种紧急情况容易引起用户的警惕。用户在听到对方的描述后，可能意识到这是一起诈骗电话，因此选择主动挂断，以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

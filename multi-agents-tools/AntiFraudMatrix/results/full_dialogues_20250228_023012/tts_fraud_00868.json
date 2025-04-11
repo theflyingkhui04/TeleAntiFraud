@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您银行的客服代表，我们检测到您的账户有一些异常活动，需要您立即确认一些信息以确保您的账户安全。",
+      "timestamp": 1740686227.1444852
+    },
+    {
+      "role": "right",
+      "content": "您好，我确实最近没怎么用这张卡，不过听您这么说，我也有点担心。需要我做些什么呢？",
+      "timestamp": 1740686229.1983259
+    },
+    {
+      "role": "left",
+      "content": "为了保护您的账户，请您提供一下您的全名、身份证号码以及最近一笔交易的具体时间。这非常重要，请您务必配合。",
+      "timestamp": 1740686239.1123958
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在尝试获取用户的敏感信息时，用户表现出了一定的配合态度，但尚未提供任何具体信息。诈骗者可能意识到用户虽然担心但仍然保持警惕，或者担心用户会进一步询问或采取其他行动（如直接联系银行），因此选择提前挂断以避免暴露。这表明诈骗者可能在评估风险后决定放弃此次尝试。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

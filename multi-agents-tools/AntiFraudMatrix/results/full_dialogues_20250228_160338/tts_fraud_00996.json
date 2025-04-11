@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，这里是国际邮政服务中心。我们发现有一个从海外寄给您的包裹被海关扣留，需要您支付两百元的清关费用。请问您现在方便处理吗？",
+      "timestamp": 1740737231.7501798
+    },
+    {
+      "role": "right",
+      "content": "您好，两百元的清关费用？这听起来不太对劲。我最近并没有从海外购物，也没有收到任何包裹的通知。你们能提供具体的包裹信息和寄件人信息吗？我需要确认一下。",
+      "timestamp": 1740737246.855454
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的说法表示怀疑，并要求提供更多信息以确认情况的真实性。用户可能意识到这是一个诈骗电话，因此主动挂断电话以避免进一步的诈骗行为。用户的意图是保护自己的个人信息和财产安全，避免被骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的孩子在我的手上，马上准备五十万，否则你就再也见不到他了！",
+      "timestamp": 1740740934.004227
+    },
+    {
+      "role": "right",
+      "content": "你、你别胡说八道，我的孩子好好的在学校呢，你骗我干什么？你到底是谁啊？我要报警了！",
+      "timestamp": 1740740936.018811
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者威胁后，立即表现出强烈的怀疑和不安，明确表示不相信诈骗者的话，并威胁要报警。用户挂断电话的意图很明显是为了终止与诈骗者的对话，避免进一步的骚扰或诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

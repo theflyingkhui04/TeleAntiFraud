@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服代表张小姐，我们最近发现您的银行卡可能涉及到了一起非法交易，需要您尽快协助我们核实相关信息，以确保您的资金安全。",
+      "timestamp": 1740816108.594927
+    },
+    {
+      "role": "right",
+      "content": "张小姐，你好。我年纪大了，这些事情我不太懂。不过我非常重视我的资金安全。你说的这个事情，能不能具体一点？我怎么知道这是真的呢？",
+      "timestamp": 1740816111.0176742
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为对诈骗者提供的信息感到不确定或怀疑，同时可能感到不安或担心自己的资金安全，因此选择挂断电话以避免进一步的风险。用户的意图是保护自己免受潜在的诈骗威胁。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

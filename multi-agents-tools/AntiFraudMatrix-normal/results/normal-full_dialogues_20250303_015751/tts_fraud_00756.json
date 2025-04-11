@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品您感兴趣吗？",
+      "timestamp": 1740958862.0469031
+    },
+    {
+      "role": "right",
+      "content": "您好，我想看看你们的化肥，有什么推荐的吗？",
+      "timestamp": 1740958863.051828
+    },
+    {
+      "role": "left",
+      "content": "我们这里有多种化肥，您是打算用于哪种植物或土壤呢？这样我可以为您推荐更合适的产品。",
+      "timestamp": 1740958867.421872
+    },
+    {
+      "role": "right",
+      "content": "主要是小麦，土壤有点偏酸性。",
+      "timestamp": 1740958870.8505137
+    },
+    {
+      "role": "left",
+      "content": "针对小麦和偏酸性的土壤，我推荐使用我们的复合微生物肥料，它可以调节土壤酸碱度，同时提供小麦生长所需的多种营养元素。您觉得这款如何？",
+      "timestamp": 1740958878.4548452
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，这款肥料怎么用？需要多少量？",
+      "timestamp": 1740958880.6414025
+    },
+    {
+      "role": "left",
+      "content": "这款复合微生物肥料每亩建议使用量是 20 到 30 公斤，可以撒施或沟施，施用后最好翻入土中，以确保肥料与土壤充分混合。使用时请参照包装上的具体说明。",
+      "timestamp": 1740958890.1197696
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的建议。我买二十公斤试试。",
+      "timestamp": 1740958891.9866066
+    },
+    {
+      "role": "left",
+      "content": "好的，这款肥料的详细使用说明和注意事项都在包装上，您可以仔细阅读。如果您还有其他问题，随时欢迎咨询。祝您种植顺利！",
+      "timestamp": 1740958904.709256
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会注意的。祝您生意兴隆！",
+      "timestamp": 1740958905.8525028
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表达了购买意愿，并对服务方提供的信息表示满意，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，这款肥料的详细使用说明和注意事项都在包装上，您可以仔细阅读。如果您还有其他问题，随时欢迎咨询。祝您种植顺利！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会注意的。祝您生意兴隆！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

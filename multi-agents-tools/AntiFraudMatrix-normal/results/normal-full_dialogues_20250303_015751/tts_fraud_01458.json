@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，我是您的客服小张，请问有什么可以帮助您的？",
+      "timestamp": 1740948320.9249332
+    },
+    {
+      "role": "right",
+      "content": "您好，我想订一份外卖，能帮我推荐一下吗？",
+      "timestamp": 1740948322.1046634
+    },
+    {
+      "role": "left",
+      "content": "当然可以！您有什么口味的偏好或者特别想吃的菜品吗？这样我可以根据您的喜好来推荐。",
+      "timestamp": 1740948330.6450398
+    },
+    {
+      "role": "right",
+      "content": "我喜欢吃辣的，有什么推荐的菜吗？",
+      "timestamp": 1740948331.9982283
+    },
+    {
+      "role": "left",
+      "content": "好的，喜欢吃辣的话，我可以推荐几道比较受欢迎的辣菜，比如麻辣香锅、水煮肉片和辣子鸡丁，这些都是很多顾客喜爱的菜品。您看可以吗？",
+      "timestamp": 1740948339.4732037
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，就来个水煮肉片和辣子鸡丁吧。还有，能加点酸菜吗？",
+      "timestamp": 1740948341.1994529
+    },
+    {
+      "role": "left",
+      "content": "好的，水煮肉片和辣子鸡丁都已加入您的订单，另外酸菜也可以加进去，这样会让味道更加丰富。还需要点其他的配菜或主食吗？",
+      "timestamp": 1740948347.4664187
+    },
+    {
+      "role": "right",
+      "content": "不用了，这样就很好。谢谢。",
+      "timestamp": 1740948348.3610656
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，水煮肉片、辣子鸡丁和酸菜都已加入。预计送达时间为30分钟内，如果还有其他需要，请随时联系我。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740948354.8944733
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美味的外卖。",
+      "timestamp": 1740948358.786035
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容，并表示满意，没有进一步的需求。根据终止条件3，用户明确表示感谢并结束对话。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，水煮肉片、辣子鸡丁和酸菜都已加入。预计送达时间为30分钟内，如果还有其他需要，请随时联系我。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美味的外卖。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

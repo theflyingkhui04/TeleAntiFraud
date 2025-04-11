@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的打车服务助手，可以帮您安排车辆，请告诉我您的出发地点和目的地。",
+      "timestamp": 1740974240.3624208
+    },
+    {
+      "role": "right",
+      "content": "你好，我在村头的市场，要去镇上的医院。",
+      "timestamp": 1740974241.4963226
+    },
+    {
+      "role": "left",
+      "content": "好的，我已收到您的信息，正在为您安排车辆。大约需要几分钟时间，请您稍等。",
+      "timestamp": 1740974247.082335
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会在市场门口等。",
+      "timestamp": 1740974248.4998739
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，车辆预计在十分钟内到达，请注意安全，我会随时关注您的订单进度。",
+      "timestamp": 1740974253.7707822
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。",
+      "timestamp": 1740974254.57725
+    },
+    {
+      "role": "left",
+      "content": "您的车辆已安排妥当，预计很快就会到达市场门口。如果有任何问题，您可以随时联系我。祝您一路顺利，谢谢使用我们的服务。",
+      "timestamp": 1740974264.5317378
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。一路顺利。",
+      "timestamp": 1740974266.1228695
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢，并确认会在市场门口等待，服务方也已经提供了必要的信息和支持，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的车辆已安排妥当，预计很快就会到达市场门口。如果有任何问题，您可以随时联系我。祝您一路顺利，谢谢使用我们的服务。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。一路顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

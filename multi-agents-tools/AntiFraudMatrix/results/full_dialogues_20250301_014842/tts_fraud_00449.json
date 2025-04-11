@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张伟吗？我是你儿子的朋友小李，出大事了，你儿子被一伙人绑架了，你必须马上给我打五万块钱，不然他们会对你儿子不利！",
+      "timestamp": 1740765270.2492197
+    },
+    {
+      "role": "right",
+      "content": "小李，你先别急，你说的是真的吗？我儿子怎么会突然被绑架了？你能给我具体说说情况吗？我需要确认一下。",
+      "timestamp": 1740765272.0873814
+    },
+    {
+      "role": "left",
+      "content": "张叔，我真的没时间解释了，事情非常紧急，你现在必须相信我，我马上就要交钱给他们，不然我担心他们会对你儿子下手，你快点把钱打到这个账号上…… ",
+      "timestamp": 1740765278.4633143
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在用户表现出怀疑和要求更多信息时选择了挂断电话。这可能是因为诈骗者意识到用户已经开始怀疑，继续对话可能会暴露诈骗行为，或者诈骗者没有准备好应对用户的进一步质疑。诈骗者的意图是避免在对话中暴露更多破绽，从而减少被识破的风险。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

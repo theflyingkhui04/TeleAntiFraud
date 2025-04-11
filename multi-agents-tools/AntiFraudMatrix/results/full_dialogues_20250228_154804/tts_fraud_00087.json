@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自顺丰速运的客服，这里有一个关于您的包裹的重要通知。",
+      "timestamp": 1740737543.2857926
+    },
+    {
+      "role": "right",
+      "content": "你好，顺丰速运的客服。我最近确实有网购，你能告诉我具体是什么通知吗？",
+      "timestamp": 1740737545.0100756
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何其他问题，可以随时联系我们。祝您生活愉快，再见。",
+      "timestamp": 1740737556.3022668
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，再见。",
+      "timestamp": 1740737560.8701391
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明对话已由诈骗者单方面结束。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您有任何其他问题，可以随时联系我们。祝您生活愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

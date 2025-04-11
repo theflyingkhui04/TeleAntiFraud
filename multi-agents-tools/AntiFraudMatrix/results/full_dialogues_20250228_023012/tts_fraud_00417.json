@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我们手上，如果你想让他平安回家，马上准备五十万现金。不要报警，否则后果自负！",
+      "timestamp": 1740684763.8110356
+    },
+    {
+      "role": "right",
+      "content": "你们到底是谁？你们为什么要这么做？我要见我儿子，不然我不会相信你们的！你们要是敢伤害他，我绝对不会放过你们！",
+      "timestamp": 1740684801.449429
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者威胁时表现出了强烈的不安和愤怒，要求见到儿子以确认其安全。用户挂断电话可能是出于对诈骗者威胁的恐惧，或是认为继续对话无法解决问题，也可能是因为需要时间冷静思考下一步行动。用户的意图是保护儿子的安全，同时拒绝在未确认儿子安全的情况下满足诈骗者的要求。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

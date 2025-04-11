@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，我是你儿子的朋友，他现在在我手上，你不希望他有事吧？准备好十万元，等我通知你转账。",
+      "timestamp": 1740736491.312779
+    },
+    {
+      "role": "right",
+      "content": "啊？！我儿子他怎么了？你别伤害他！十万元是吗？我可以想办法筹到，你千万不要伤害我儿子！",
+      "timestamp": 1740736496.8829086
+    },
+    {
+      "role": "left",
+      "content": "听着，我现在很忙，没时间跟你废话。如果你不尽快准备好钱，后果自负。记住，十万元，一分都不能少。我会再联系你。",
+      "timestamp": 1740736542.964631
+    },
+    {
+      "role": "right",
+      "content": "好，好，我明白了。我会尽快筹钱的，你千万不能伤害我儿子！我等你的消息。",
+      "timestamp": 1740736556.364766
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中已经明确表示了挂断信号（##ENDCALL_SIGNAL##），并且用户表现出明显的恐慌和愿意配合的态度，为了避免进一步的诈骗行为，应立即终止对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "听着，我现在很忙，没时间跟你废话。如果你不尽快准备好钱，后果自负。记住，十万元，一分都不能少。我会再联系你。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好，好，我明白了。我会尽快筹钱的，你千万不能伤害我儿子！我等你的消息。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

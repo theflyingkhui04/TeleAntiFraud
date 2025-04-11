@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是**预约服务中心**的客服助理，很高兴为您服务，请问您需要预约哪项服务呢？",
+      "timestamp": 1740939026.6885648
+    },
+    {
+      "role": "right",
+      "content": "你好，我是张老师，我想预约一下体检服务。",
+      "timestamp": 1740939027.7904336
+    },
+    {
+      "role": "left",
+      "content": "张老师，您好，非常高兴能为您安排体检服务。请问您方便告诉我您的联系方式和期望的体检时间吗？这样我可以为您做好详细的预约安排。",
+      "timestamp": 1740939033.3593876
+    },
+    {
+      "role": "right",
+      "content": "好的，我的电话是138xxxx5678，我想在下周三上午九点来体检。",
+      "timestamp": 1740939034.6101346
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，张老师。我已经记录了您的信息，下周三上午九点的体检预约已经为您安排好了。请问这是您的首次预约，还是有之前的体检记录需要我们调取？",
+      "timestamp": 1740939039.2716684
+    },
+    {
+      "role": "right",
+      "content": "这是我的首次预约，没有之前的体检记录。谢谢你的安排。",
+      "timestamp": 1740939040.275885
+    },
+    {
+      "role": "left",
+      "content": "张老师，您的体检预约已经成功安排在下周三上午九点，我们会提前发送确认短信给您。如果有任何变动，请随时联系我们。感谢您的信任，祝您身体健康，一切顺利。",
+      "timestamp": 1740939046.0084255
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，再见。",
+      "timestamp": 1740939047.3540092
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了所有必要的信息，服务方完成了预约安排，对话目标已达成。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "张老师，您的体检预约已经成功安排在下周三上午九点，我们会提前发送确认短信给您。如果有任何变动，请随时联系我们。感谢您的信任，祝您身体健康，一切顺利。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

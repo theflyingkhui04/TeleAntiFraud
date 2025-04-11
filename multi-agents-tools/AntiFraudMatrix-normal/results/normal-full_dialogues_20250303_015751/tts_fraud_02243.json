@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，可以帮助您叫车、查询路线或提供其他相关信息。",
+      "timestamp": 1740969451.842971
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我今天需要从家去公司，能帮我叫一辆车吗？",
+      "timestamp": 1740969453.5497086
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我先需要知道您家的具体地址和目的地公司的地址，以便为您叫车。",
+      "timestamp": 1740969458.5841188
+    },
+    {
+      "role": "right",
+      "content": "我家地址是朝阳区东三环北路10号，公司地址是海淀区中关村大街1号。麻烦你了。",
+      "timestamp": 1740969464.323426
+    },
+    {
+      "role": "left",
+      "content": "好的，已经记录下来。我将为您叫一辆车，预计几分钟后会有司机联系您确认上车时间和地点。您现在准备好了吗？",
+      "timestamp": 1740969470.8211467
+    },
+    {
+      "role": "right",
+      "content": "准备好了，谢谢。等司机联系我吧。",
+      "timestamp": 1740969472.9071097
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经提交成功。司机将在大约5分钟内与您联系，请保持手机畅通。祝您旅途愉快！",
+      "timestamp": 1740969479.505779
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在成功为用户叫车并告知用户司机将联系他们后，确认用户已经准备好，并在表达祝福后使用了结束信号代码'##ENDCALL_SIGNAL##'。这表明服务方认为服务目标已经达成，且用户对服务表示满意，因此选择结束对话。服务方的意图是确保用户获得所需服务，并在服务完成后礼貌地结束对话，以避免不必要的等待或占用资源。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

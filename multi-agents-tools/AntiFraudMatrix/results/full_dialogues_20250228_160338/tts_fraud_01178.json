@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问，我们最近有一个非常稳健的投资项目，年化收益率可以达到百分之二十，您有兴趣了解一下吗？",
+      "timestamp": 1740743825.2290425
+    },
+    {
+      "role": "right",
+      "content": "您好，我是张老师。百分之二十的年化收益听起来不错，但我对投资这方面的知识了解不多。这个项目具体是怎么运作的呢？",
+      "timestamp": 1740743860.9130929
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在询问项目具体运作方式时，诈骗者突然挂断了电话。这可能表明诈骗者意识到用户对项目的细节感兴趣，可能会进一步询问，从而暴露诈骗的本质。为了避免这种情况，诈骗者选择立即挂断电话，以防止进一步的询问和潜在的揭露。用户的意图是了解投资项目的详细信息，以便做出明智的决策。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

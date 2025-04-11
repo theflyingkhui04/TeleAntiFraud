@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您儿子的朋友，他现在遇到了大麻烦，被几个坏人带走了，您必须马上转账三万元到这个账户：6222 0801 1234 5678，否则我不能保证他的安全。您得赶快，时间不多了。",
+      "timestamp": 1740728912.698762
+    },
+    {
+      "role": "right",
+      "content": "你先别急，能不能告诉我你是谁，为什么你会知道我儿子的情况？你有证据证明你真的和他在一起吗？",
+      "timestamp": 1740728915.9089935
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的要求表示怀疑，并要求提供更多身份验证和证据。在诈骗者未能提供令人信服的证据或解释的情况下，用户选择挂断电话，以避免进一步的风险。这表明用户可能已经意识到这是一起诈骗行为，或至少认为继续对话存在风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

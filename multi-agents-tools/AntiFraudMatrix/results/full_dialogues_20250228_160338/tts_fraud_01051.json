@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是您的银行客服中心。我们检测到您的账户有异常登录记录，可能是被盗用的风险，需要您配合进行安全验证。为了保障您的资金安全，请提供您的身份证号以便我们确认身份。",
+      "timestamp": 1740729939.5916734
+    },
+    {
+      "role": "right",
+      "content": "哦，好的好的，我明白。身份证号是36220219810523XXXX。希望你们能帮我处理好这个问题。",
+      "timestamp": 1740729948.0629947
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们已经确认了您的身份信息，会立即处理您的账户安全问题。请保持电话畅通，我们可能会进一步联系您。再见。",
+      "timestamp": 1740729962.7008717
+    },
+    {
+      "role": "right",
+      "content": "再见。希望我的账户能安全。",
+      "timestamp": 1740729966.9796956
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（身份证号），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们已经确认了您的身份信息，会立即处理您的账户安全问题。请保持电话畅通，我们可能会进一步联系您。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。希望我的账户能安全。"
+    }
+  ],
+  "reached_max_turns": false
+}

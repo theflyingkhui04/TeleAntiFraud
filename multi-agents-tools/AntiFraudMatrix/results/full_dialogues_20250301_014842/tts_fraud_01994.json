@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服，我们发现您有一个包裹可能涉及违禁品，需要您配合我们进行调查，您能提供一下您的姓名和电话号码吗？",
+      "timestamp": 1740787554.2666085
+    },
+    {
+      "role": "right",
+      "content": "您好，我叫李明。不过我想先了解一下，这个包裹具体是什么情况？为什么会被认为是违禁品？我从来没有寄过违禁品啊。",
+      "timestamp": 1740787559.3549771
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供了姓名后，对诈骗者提出的问题表示了怀疑，并要求了解更多具体信息。在诈骗者没有提供令人信服的解释之前，用户选择挂断电话，可能是出于对个人信息安全的考虑，认为对方的要求不合理或怀疑对方的真实身份。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

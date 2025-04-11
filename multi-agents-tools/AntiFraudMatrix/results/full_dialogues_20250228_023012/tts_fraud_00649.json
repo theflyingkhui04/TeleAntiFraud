@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好，这里是XX银行客服中心。我们检测到您的账户存在异常交易，需要立即核实您的身份信息，以保障您的资金安全。请问您现在方便接听电话吗？",
+      "timestamp": 1740690109.7931798
+    },
+    {
+      "role": "right",
+      "content": "啊，好的，我现在方便。请问具体是什么异常交易呢？我最近确实没怎么用这张卡。",
+      "timestamp": 1740690113.1905751
+    },
+    {
+      "role": "left",
+      "content": "由于您的账户安全对我们非常重要，我们稍后会派专员与您联系以完成身份核实。感谢您的配合，祝您生活愉快！",
+      "timestamp": 1740690119.9876668
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的提醒，我会留意电话的。不过，你们能告诉我大概是什么时候会联系我吗？我好安排一下时间。",
+      "timestamp": 1740690157.8588612
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明其选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "由于您的账户安全对我们非常重要，我们稍后会派专员与您联系以完成身份核实。感谢您的配合，祝您生活愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的提醒，我会留意电话的。不过，你们能告诉我大概是什么时候会联系我吗？我好安排一下时间。"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的邻居小张，很抱歉这么晚打电话给您，但是情况非常紧急，我刚刚亲眼看到您家的小李被几个陌生男子强行带走，他们看起来很危险。我试着跟了他们一段路，但是他们发现我了，我只能先躲起来，给您好心提个醒。您现在能来一趟吗？",
+      "timestamp": 1740690883.2289596
+    },
+    {
+      "role": "right",
+      "content": "哇，小张，真的吗？太吓人了！小李怎么会遇到这种事？我现在就下楼，你还在那里吗？我马上到。谢谢你告诉我，太感谢了！",
+      "timestamp": 1740690885.2139
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为急切想要确认小李的情况，决定立即前往现场，因此没有等待诈骗者进一步的指示或信息，直接挂断了电话。用户的意图是尽快采取行动，而不是结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

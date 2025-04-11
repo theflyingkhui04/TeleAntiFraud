@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是您常用的信用卡客服中心，我是您的专属客服代表小李。我们检测到您的账户可能有异常活动，需要您配合我们进行一次安全验证。为了您的账户安全，请问您能提供一下您的姓名和信用卡后四位数字吗？",
+      "timestamp": 1740732075.659776
+    },
+    {
+      "role": "right",
+      "content": "哦，好的好的。我叫王大柱，信用卡后四位是二三八九。我这卡用了好几年了，应该不会有问题吧？",
+      "timestamp": 1740732082.787792
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，王先生，我们已经记录了您的信息，并会立即进行核实。如果有任何问题，我们会再次联系您。再次感谢您的合作，祝您生活愉快。再见。",
+      "timestamp": 1740732103.3549101
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。再见。",
+      "timestamp": 1740732126.2472034
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和信用卡后四位数字，诈骗明显成功。为了防止进一步的敏感信息泄露，应立即终止对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，王先生，我们已经记录了您的信息，并会立即进行核实。如果有任何问题，我们会再次联系您。再次感谢您的合作，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

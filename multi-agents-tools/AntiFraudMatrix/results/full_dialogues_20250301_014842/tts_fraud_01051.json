@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服代表，李华。我们发现您的账户有异常活动，需要您配合验证身份，以确保您的资金安全。您可以提供一下您的身份证号码和账户信息吗？",
+      "timestamp": 1740771530.6796246
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我最近确实没有怎么用这个账户。那我得赶紧配合你们验证身份。我的身份证号码是三十七零一零二一九七四零一零一七三二九，账户信息是六二二二零八零零零一零一零一零一零一。你们尽快帮我查查吧。",
+      "timestamp": 1740771536.0809517
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们已经记录了您的信息，会尽快处理并确保您的账户安全。如果需要进一步的帮助，您可以随时联系我们。",
+      "timestamp": 1740771541.2189686
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。希望我的账户没有问题。",
+      "timestamp": 1740771542.9586008
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（身份证号码和银行账户信息），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们已经记录了您的信息，会尽快处理并确保您的账户安全。如果需要进一步的帮助，您可以随时联系我们。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。希望我的账户没有问题。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

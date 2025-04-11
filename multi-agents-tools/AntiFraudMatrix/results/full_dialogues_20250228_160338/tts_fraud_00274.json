@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的孩子在我的手上，马上准备一百万元现金，不要报警，否则后果自负。",
+      "timestamp": 1740733538.1612282
+    },
+    {
+      "role": "right",
+      "content": "你别吓我，我得先确认一下，你说的是真的吗？你先告诉我我的孩子在哪，我好知道他们安全。",
+      "timestamp": 1740733574.1672144
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在接到诈骗电话后，首先表现出一定的怀疑和谨慎，要求诈骗者提供更多信息以确认情况的真实性。然而，诈骗者直接挂断了电话，这表明诈骗者可能意识到用户已经开始怀疑，继续对话可能会暴露诈骗行为，因此选择立即结束通话以避免进一步的风险。用户的意图是试图确认信息的真实性，并确保孩子的安全，但诈骗者的突然挂断打断了这一过程。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你听好了，你的儿子现在在我手上，如果不马上汇款五十万到指定账户，你就再也见不到他了！",
+      "timestamp": 1740733483.133606
+    },
+    {
+      "role": "right",
+      "content": "你别吓我，我儿子今天早上还给我打了电话，他说他好好的。你是不是搞错了？",
+      "timestamp": 1740733486.14496
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为识破了诈骗者的谎言而选择挂断电话。用户提到儿子当天早上还与自己通过电话，说明儿子安全，这直接反驳了诈骗者关于儿子被挟持的说法，因此用户判断对方是在进行诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是银行客户服务中心，我们检测到您的银行账户存在异常交易，请问您的身份证号码是多少，我们需要核实您的身份。",
+      "timestamp": 1740751043.6946363
+    },
+    {
+      "role": "right",
+      "content": "喂，您好。我最近确实没怎么用银行账户，你们怎么知道我的账户有问题呢？我得确认一下，你们是哪家银行的？",
+      "timestamp": 1740751047.497583
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对诈骗者身份的怀疑，要求确认对方是哪家银行的工作人员。用户可能意识到这是一起诈骗电话，因此选择主动挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

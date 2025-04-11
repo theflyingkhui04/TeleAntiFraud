@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的侄子小李的朋友，小李现在出事了，您能听我说吗？",
+      "timestamp": 1740773524.5098941
+    },
+    {
+      "role": "right",
+      "content": "小李出事了？他怎么了？你快告诉我，我非常担心他。",
+      "timestamp": 1740773525.9342172
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者提供的信息过于模糊且突然，感到不安或怀疑，从而选择挂断电话以保护自己。用户的意图可能是避免进一步的风险或确认信息的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "预约服务专员为您服务，请问您需要预约哪项服务？",
+      "timestamp": 1740970841.538343
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约一下体检服务。",
+      "timestamp": 1740970842.6245682
+    },
+    {
+      "role": "left",
+      "content": "好的，体检服务预约已为您准备好。请问您方便的时间是哪一天？我们这里有几个时间段可供选择。",
+      "timestamp": 1740970847.652339
+    },
+    {
+      "role": "right",
+      "content": "下周一早上九点可以吗？",
+      "timestamp": 1740970848.6398976
+    },
+    {
+      "role": "left",
+      "content": "下周一早上九点的时间段可以预约。请您提供一下姓名和联系方式，以便我们为您确认预约。",
+      "timestamp": 1740970853.1787941
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫张建国，电话是13812345678。",
+      "timestamp": 1740970854.6791594
+    },
+    {
+      "role": "left",
+      "content": "感谢您的信息，张建国先生。您的体检预约已确认在下周一早上九点。我们会发送一条确认短信到您的手机13812345678，请留意查收。如果需要取消或更改预约，请至少提前一天致电我们。祝您生活愉快，再见。",
+      "timestamp": 1740970862.2737603
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息后，提供了必要的后续指导（如留意确认短信、取消或更改预约的条件），并表达了祝福，随后使用了结束信号代码'##ENDCALL_SIGNAL##'来礼貌地结束了对话。服务方的意图是确保用户对预约流程满意，并且清楚下一步的行动指南，同时保持专业和礼貌的态度。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

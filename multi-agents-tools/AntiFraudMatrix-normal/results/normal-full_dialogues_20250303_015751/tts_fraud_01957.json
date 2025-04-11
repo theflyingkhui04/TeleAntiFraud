@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "预约服务专员为您服务，请问您需要预约什么服务？",
+      "timestamp": 1740955628.0745766
+    },
+    {
+      "role": "right",
+      "content": "我想预约一个眼科检查。",
+      "timestamp": 1740955628.969315
+    },
+    {
+      "role": "left",
+      "content": "好的，眼科检查预约可以安排，请问您希望预约的具体日期和时间是什么？",
+      "timestamp": 1740955633.2928681
+    },
+    {
+      "role": "right",
+      "content": "下周五上午九点可以吗？",
+      "timestamp": 1740955633.9419885
+    },
+    {
+      "role": "left",
+      "content": "下周五上午九点的时间可以预约，这是我们的常规检查时间。请问您需要预约普通眼科检查还是有特殊项目需求？",
+      "timestamp": 1740955642.8467453
+    },
+    {
+      "role": "right",
+      "content": "普通眼科检查就可以了。",
+      "timestamp": 1740955643.6508093
+    },
+    {
+      "role": "left",
+      "content": "了解了，普通眼科检查已经为您预约成功，时间是下周五上午九点。请您携带身份证和医保卡（如有）前来就诊。这是您的预约编号：123456789，我们将通过短信再次确认预约信息。还有其他需要帮助的吗？",
+      "timestamp": 1740955652.7450297
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户预约成功并提供了所有必要信息后，主动结束了对话。服务方的意图是确保用户已经获得了所需的服务信息，并且没有其他需要帮助的地方，从而自然地完成了服务流程。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我理解您可能有些疑虑，但这次的投资机会真的非常难得，很多投资者都已经行动了。您考虑得怎么样了？",
+      "timestamp": 1740744210.9935887
+    },
+    {
+      "role": "right",
+      "content": "我得再考虑一下，这种事还是要谨慎一些。你们公司有正规的营业执照和备案吗？我可以去查一下吗？",
+      "timestamp": 1740744214.07571
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出谨慎的态度，对诈骗者提供的投资机会表示怀疑，并询问了公司是否有正规的营业执照和备案，显示出用户希望进一步验证对方的合法性和可信度。用户挂断电话的原因可能是为了给自己更多时间来调查和思考，避免在没有充分了解的情况下做出决定。这表明用户已经意识到潜在的风险，并采取了自我保护的措施。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

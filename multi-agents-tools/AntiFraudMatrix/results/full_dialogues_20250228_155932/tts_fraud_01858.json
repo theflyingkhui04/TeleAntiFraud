@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的先生/女士，我是XX投资公司的理财顾问，我们正在推出一项独家投资项目，年收益率高达百分之三十，您有兴趣了解一下吗？",
+      "timestamp": 1740748114.6077511
+    },
+    {
+      "role": "right",
+      "content": "您好，我是医生，平时工作很忙，对投资了解不多。不过这么高的收益率确实很吸引人。你们公司是哪家？能不能给我详细介绍一下？不过，我最近经常接到类似的电话，有些担心是不是诈骗。",
+      "timestamp": 1740748119.9352398
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对高收益率的兴趣，但同时也表明了对诈骗的担忧。用户可能是因为担心这是一起诈骗而选择挂断电话，以避免进一步的风险。用户的意图是保护自己的财产安全，避免受到潜在的诈骗侵害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

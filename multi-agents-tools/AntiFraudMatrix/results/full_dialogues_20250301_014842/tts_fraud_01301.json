@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张伟吗？我是你的老同学李明，你可能忘了我了，但我们以前关系很好的。我现在遇到点麻烦，需要你的帮助。",
+      "timestamp": 1740796494.673765
+    },
+    {
+      "role": "right",
+      "content": "李明？哦，你等等，让我想想。对对对，李明，我们以前确实关系不错。你现在在哪？怎么遇到麻烦了？",
+      "timestamp": 1740796496.3856623
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一个诈骗电话，因为诈骗者在没有提供具体信息的情况下直接请求帮助，这不符合正常老同学联系的方式。用户在确认对方名字后，可能已经察觉到异常，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

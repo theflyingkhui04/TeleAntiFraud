@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友李明的同事，他现在遇到了一些麻烦，需要您的帮助。",
+      "timestamp": 1740796773.465649
+    },
+    {
+      "role": "right",
+      "content": "您好，我是李明的医生，您能详细说说他遇到了什么麻烦吗？我有点担心。",
+      "timestamp": 1740796775.9370346
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能怀疑对方的真实身份，因为用户自称是李明的医生，而诈骗者却声称是李明的同事。这种身份上的不一致可能让用户产生了警觉，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

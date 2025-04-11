@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是平安银行客服中心，我们检测到您的账户有异常活动，为了您的资金安全，请您提供一下身份证号码，我们需要进行身份验证。",
+      "timestamp": 1740754999.5659266
+    },
+    {
+      "role": "right",
+      "content": "哦，您好。我最近确实没注意到有什么异常，不过既然你们发现了，那我得小心一些。不过，现在我也在上课，不方便马上提供这些信息。您看，我等下课了再打回去可以吗？",
+      "timestamp": 1740755002.7126002
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一个诈骗电话，或者至少对对方的要求感到怀疑。用户提到正在上课，不方便提供信息，并提出等下课后再回拨，这可能是为了避免立即提供个人信息，同时也是一种拖延策略，以给自己更多时间来核实情况。用户通过挂断电话，避免了立即提供敏感信息的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

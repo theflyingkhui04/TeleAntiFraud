@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么可以帮助您的吗？",
+      "timestamp": 1740971577.524605
+    },
+    {
+      "role": "right",
+      "content": "您好，我想点一份牛肉炒饭和一份糖醋排骨。还有一杯冰红茶。谢谢。",
+      "timestamp": 1740971579.410934
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在点完餐后立即提供了结束信号代码，表明用户认为其需求已经得到满足，无需进一步交流。用户的意图是结束对话，确认订单。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

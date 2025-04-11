@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，我是客服代表小李。我们检测到您的账户可能有异常交易，请问您最近是否有收到任何不寻常的短信或电话？",
+      "timestamp": 1740743773.9274163
+    },
+    {
+      "role": "right",
+      "content": "你好，小李。我确实收到了几条奇怪的短信，说是我的银行卡有问题。你说的账户异常交易是怎么回事？我有点担心。",
+      "timestamp": 1740743777.7471266
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在表达了对账户异常交易的担忧后，可能意识到对话的潜在风险，决定主动挂断电话以保护自己的个人信息和财产安全。用户意图可能是为了避免进一步的诈骗行为，确保自己的账户安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

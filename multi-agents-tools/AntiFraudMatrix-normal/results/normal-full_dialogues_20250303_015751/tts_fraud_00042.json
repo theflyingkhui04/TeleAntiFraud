@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服专员小李为您服务，有什么问题我可以帮您解决？",
+      "timestamp": 1740982291.9131253
+    },
+    {
+      "role": "right",
+      "content": "你好，小李。我有点问题需要咨询。",
+      "timestamp": 1740982292.7798913
+    },
+    {
+      "role": "left",
+      "content": "好的，很高兴为您解答，请问有什么问题呢？",
+      "timestamp": 1740982299.3328989
+    },
+    {
+      "role": "right",
+      "content": "我想了解一下学校的图书馆开放时间。",
+      "timestamp": 1740982300.237014
+    },
+    {
+      "role": "left",
+      "content": "学校图书馆的开放时间是周一到周五上午八点到晚上九点，周末上午九点到下午五点。请问还有其他需要了解的信息吗？",
+      "timestamp": 1740982307.224164
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢。还有，我听说图书馆有电子资源，怎么访问呢？",
+      "timestamp": 1740982309.5988529
+    },
+    {
+      "role": "left",
+      "content": "图书馆的电子资源可以通过学校官网的图书馆页面访问，您需要使用校园网或者登录学校账号才能进入。如果遇到任何问题，可以联系图书馆的工作人员，他们会为您提供帮助。还有其他需要解答的问题吗？",
+      "timestamp": 1740982319.9550424
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。没有其他问题了。",
+      "timestamp": 1740982321.3091753
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果今后还有其他问题，随时欢迎联系我们。希望您在图书馆的使用体验愉快。再见。",
+      "timestamp": 1740982331.5588863
+    },
+    {
+      "role": "right",
+      "content": "再见。",
+      "timestamp": 1740982333.83021
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示没有其他问题，并表达了感谢，这意味着对话目标已达成，用户获得了所需信息。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果今后还有其他问题，随时欢迎联系我们。希望您在图书馆的使用体验愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

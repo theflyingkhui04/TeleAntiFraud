@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "张总，您好，我是财富管理公司的李经理，最近我们推出了一款收益非常可观的投资项目，年化收益可达百分之十五，想了解一下您是否有兴趣？",
+      "timestamp": 1740806918.4732451
+    },
+    {
+      "role": "right",
+      "content": "李经理，您好，这么高的收益听起来确实不错。不过我之前也遇到过类似的项目，结果不是特别理想。您能具体介绍一下这个项目吗？我对自己投资的项目还是希望多了解一些。",
+      "timestamp": 1740806922.9816172
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了谨慎的态度，要求了解更多关于投资项目的具体信息。然而，诈骗者在用户提出进一步了解的要求后立即挂断了电话，这可能是因为诈骗者意识到用户对项目有较高的警惕性，担心进一步的解释会暴露其诈骗行为。因此，用户并没有主动挂断电话，而是诈骗者选择结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

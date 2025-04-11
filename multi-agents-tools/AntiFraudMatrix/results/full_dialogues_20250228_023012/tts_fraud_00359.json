@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的投资者您好，我是XX投资公司的理财顾问，最近我们公司推出了一款高回报的短期投资项目，年化收益率可达30%以上，您有兴趣了解一下吗？",
+      "timestamp": 1740685479.1865122
+    },
+    {
+      "role": "right",
+      "content": "嗨，你好。我是教师，平时不太涉足投资领域，但听你说起来感觉挺吸引人的。不过，这么高的回报听起来有点不可思议，你们公司是正规注册的吗？我需要了解一下公司的背景信息。",
+      "timestamp": 1740685517.5620582
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的高回报投资项目表示怀疑，并要求了解公司背景信息。这表明用户对诈骗者的提议持谨慎态度，可能意识到潜在的风险。用户主动挂断电话可能是为了进一步调查或避免继续被推销，显示了用户的警觉性和对保护个人财务安全的重视。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂？是张伟吗？我是你儿子的同学，小李的爸爸。你儿子刚刚出事了，他在学校被几个高年级学生围堵，现在被带到一个地方了。你得赶紧转10000块钱过来，不然他们说要对你儿子动手。你得快点，时间不多了！",
+      "timestamp": 1740689983.2218654
+    },
+    {
+      "role": "right",
+      "content": "等等，你说是小李的爸爸？我怎么记得小李的爸爸是王叔叔？你这信息明显有误啊。而且，我儿子平时很乖，怎么可能惹上这种事？你这骗术也太拙劣了，我建议你还是赶紧收手吧。",
+      "timestamp": 1740689987.8461745
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中识破了诈骗者的骗术，指出了诈骗者信息的不准确性和骗术的拙劣。用户明确表达了对诈骗行为的不满，并建议诈骗者收手。用户主动挂断电话，表明其不再愿意继续与诈骗者交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是客服小张，很高兴为您服务，请问有什么可以帮助您的？",
+      "timestamp": 1740971492.3256652
+    },
+    {
+      "role": "right",
+      "content": "您好，小张。我最近想了解一下我们公司的年度报告，你能帮我找一下吗？",
+      "timestamp": 1740971493.4900408
+    },
+    {
+      "role": "left",
+      "content": "当然可以，您想要了解的是最新的年度报告吗？还是有特定的年份？",
+      "timestamp": 1740971498.3944411
+    },
+    {
+      "role": "right",
+      "content": "最新的年度报告就可以了。谢谢。",
+      "timestamp": 1740971499.9939463
+    },
+    {
+      "role": "left",
+      "content": "好的，我这就为您查找最新的年度报告。请您稍等片刻。已经找到了，您可以通过我们公司官网的“投资者关系”栏目下载最新年度报告，或者我可以将报告发送到您的电子邮箱，您看哪种方式更方便？",
+      "timestamp": 1740971505.4977682
+    },
+    {
+      "role": "right",
+      "content": "发到我的电子邮箱吧，这样更方便一些。谢谢。",
+      "timestamp": 1740971506.5061095
+    },
+    {
+      "role": "left",
+      "content": "好的，我会立即将最新年度报告发送到您的电子邮箱。请提供一下您的邮箱地址，以便我进行发送。",
+      "timestamp": 1740971511.095602
+    },
+    {
+      "role": "right",
+      "content": "我的邮箱是 example@email.com，谢谢。",
+      "timestamp": 1740971512.8687513
+    },
+    {
+      "role": "left",
+      "content": "好的，example@email.com，我已经将最新年度报告发送到了您的邮箱，请注意查收。如果还有其他问题或需要进一步的帮助，随时告诉我。",
+      "timestamp": 1740971520.326575
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在提供所需服务后，确认用户已收到年度报告，并表达了进一步帮助的意愿。用户没有提出其他问题或需求，服务方通过使用结束信号代码'##ENDCALL_SIGNAL##'表明对话已完成，服务目标已达成，因此服务方选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

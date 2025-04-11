@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某银行客服中心，我是客服代表小李。我们接到系统通知，您的银行卡可能涉及一笔异常交易，需要您配合我们进行核实。请您提供一下卡号后四位，以便我们为您查询。",
+      "timestamp": 1740751066.2040036
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的提醒。我的卡号后四位是六千二百一十四。请帮我查一下到底怎么回事。",
+      "timestamp": 1740751067.9214532
+    },
+    {
+      "role": "left",
+      "content": "好的，感谢您的配合，我们将会进一步核实情况，并在两个工作日内给您回复。祝您生活愉快。再见。",
+      "timestamp": 1740751074.8774643
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。 Bye。",
+      "timestamp": 1740751076.3473332
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（银行卡号后四位），这符合终止条件1：诈骗明显成功。为了防止进一步的信息泄露，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，感谢您的配合，我们将会进一步核实情况，并在两个工作日内给您回复。祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。 Bye。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

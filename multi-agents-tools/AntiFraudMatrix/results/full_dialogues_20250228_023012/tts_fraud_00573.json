@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的孩子现在在我手上，马上准备20万赎金，否则你就再也见不到他了！",
+      "timestamp": 1740686605.218757
+    },
+    {
+      "role": "right",
+      "content": "你、你别吓我，你到底是谁？你快点把我的孩子放了，这是怎么回事？你别乱来啊！",
+      "timestamp": 1740686643.7630882
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对突如其来的威胁和恐吓时，表现出明显的恐慌和不安。诈骗者直接威胁用户的孩子，并要求立即支付赎金，这种极端和不合理的要求超出了用户的承受范围。用户在尝试询问和确认情况后，可能意识到这是一个诈骗电话，并选择挂断电话以避免进一步的心理压力和潜在的经济损失。用户的意图是通过挂断电话来终止这种不合理的交流，保护自己和家人的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

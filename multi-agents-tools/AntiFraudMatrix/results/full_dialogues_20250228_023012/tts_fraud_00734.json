@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的孩子在我的手上，想要保证他的安全，就立即准备50万现金。不要报警，否则后果自负。",
+      "timestamp": 1740682342.1780963
+    },
+    {
+      "role": "right",
+      "content": "你这是什么意思？你到底是谁？你要是敢动我孩子一根毫毛，我绝对不会放过你！你这种威胁我不会上当的，我会报警的！",
+      "timestamp": 1740682345.0699632
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者的威胁时，表现出了强烈的愤怒和不屈服的态度。用户明确表示不会上当，并威胁要报警，显示出用户已经识破了诈骗者的企图。用户主动挂断电话，表明其不愿意继续与诈骗者交流，以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

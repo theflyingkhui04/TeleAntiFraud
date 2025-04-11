@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "等待您的信号，准备开始对话。",
+      "timestamp": 1740746325.2601776
+    },
+    {
+      "role": "right",
+      "content": "好的，我们准备好了。请开始对话。",
+      "timestamp": 1740746326.1595492
+    },
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问李强，最近我们公司推出了一款高回报的投资产品，年收益率可以达到百分之三十，您有兴趣了解一下吗？",
+      "timestamp": 1740746335.487582
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在介绍自己和产品后立即挂断电话，可能是为了测试用户是否对此类诈骗电话有所警惕，或者是为了确认电话号码的有效性和接听者的反应速度。这种行为通常用于筛选出可能的受害者，为后续的诈骗活动做准备。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

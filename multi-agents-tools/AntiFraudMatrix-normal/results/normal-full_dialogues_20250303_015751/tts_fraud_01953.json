@@ -1,0 +1,41 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是客服小张，很高兴为您服务，请问有什么可以帮助您的？",
+      "timestamp": 1740978633.5346982
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下你们这里有没有适合老年人的活动或者优惠？",
+      "timestamp": 1740978635.2501953
+    },
+    {
+      "role": "left",
+      "content": "我们这里有专门为老年人设计的活动，比如健康讲座、书法绘画班等，还有专属的优惠套餐，您具体想了解哪方面的内容呢？",
+      "timestamp": 1740978643.1946316
+    },
+    {
+      "role": "right",
+      "content": "健康讲座听起来不错，能告诉我具体的时间和地点吗？",
+      "timestamp": 1740978644.7785828
+    },
+    {
+      "role": "left",
+      "content": "健康讲座每周五上午9点30分在社区活动中心举行，地址是XX路XX号，您需要提前预约吗？",
+      "timestamp": 1740978651.6965835
+    },
+    {
+      "role": "right",
+      "content": "好的，我知道了。谢谢你的帮助。",
+      "timestamp": 1740978653.5746455
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在获得所需信息后，明确表示感谢并使用了结束信号代码'##ENDCALL_SIGNAL##'，表明用户对服务满意且认为无需进一步的帮助。用户的意图是礼貌地结束对话，同时确认已经解决了他们的问题。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

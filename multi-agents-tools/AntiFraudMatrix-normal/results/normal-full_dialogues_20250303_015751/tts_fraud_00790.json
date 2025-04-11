@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车助手，可以帮助您预约车辆和提供相关服务。请告诉我您的位置和目的地。",
+      "timestamp": 1740966919.0774815
+    },
+    {
+      "role": "right",
+      "content": "好的，我在学校门口，目的地是市图书馆。谢谢。",
+      "timestamp": 1740966920.2809968
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您预约了一辆出租车，预计10分钟后到达学校门口。请问还有其他需要帮助的事项吗？如果没有，我将结束本次服务。",
+      "timestamp": 1740966933.73985
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的需求并完成预约服务后，询问用户是否有其他需要帮助的事项。在用户没有回应的情况下，服务方主动结束对话，表明服务已完成，且服务方认为用户的需求已经得到满足。服务方的意图是确保用户满意并高效地结束服务流程。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

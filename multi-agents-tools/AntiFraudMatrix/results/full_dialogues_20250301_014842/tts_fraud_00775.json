@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是中国工商银行客服中心的李经理，我们刚刚监测到您的账户有异常活动，为了保障您的资金安全，请您提供一下身份证号码，我们需要核对一下您的身份信息。",
+      "timestamp": 1740770966.4847248
+    },
+    {
+      "role": "right",
+      "content": "你好，李经理。我确实收到了一条短信，说我的账户有异常。不过，我之前听说过有骗子冒充银行客服的，你们能不能先告诉我具体是什么异常？",
+      "timestamp": 1740770970.9804273
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对诈骗者身份的怀疑，并要求提供更多关于账户异常的具体信息。在诈骗者未能提供足够的信息以消除用户的疑虑之前，用户选择了主动挂断电话，表明其意识到可能存在诈骗风险，意图避免进一步的风险暴露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

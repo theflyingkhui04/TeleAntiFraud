@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行客服中心，我是客服代表小张。我们检测到您的账户有异常活动，为了您的资金安全，需要您配合我们进行身份验证。请问您现在方便吗？",
+      "timestamp": 1740689371.0562444
+    },
+    {
+      "role": "right",
+      "content": "您好，我是王阿姨。请问有什么异常情况吗？我最近确实用过银行卡，但都是正常的消费。",
+      "timestamp": 1740689374.9097188
+    },
+    {
+      "role": "left",
+      "content": "王阿姨您好，系统显示您的账户在今天上午10点出现了3笔异常交易，总金额超过5万元。我们需要立即核实您的身份信息来冻结账户，防止更大的损失。请问您的身份证号码是多少？",
+      "timestamp": 1740689385.485193
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在尝试获取用户敏感信息（身份证号码）时，用户没有立即提供信息，诈骗者可能担心用户会进一步质疑或核实情况，从而导致诈骗失败，因此选择主动挂断电话，以避免暴露诈骗行为或引起用户的警觉。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

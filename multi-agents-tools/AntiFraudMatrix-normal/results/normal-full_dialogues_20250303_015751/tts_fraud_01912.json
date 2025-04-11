@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮助您的？",
+      "timestamp": 1740965877.172955
+    },
+    {
+      "role": "right",
+      "content": "你好，我想点一份牛肉炒饭和一份糖醋排骨。",
+      "timestamp": 1740965878.0859609
+    },
+    {
+      "role": "left",
+      "content": "好的，您点了一份牛肉炒饭和一份糖醋排骨，还需要其他菜品吗？",
+      "timestamp": 1740965882.6220264
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这两样。还有一瓶冰红茶。",
+      "timestamp": 1740965883.216876
+    },
+    {
+      "role": "left",
+      "content": "明白了，您点了一份牛肉炒饭、一份糖醋排骨和一瓶冰红茶，这些都清楚了。请问需要什么时间送达呢？",
+      "timestamp": 1740965888.3389068
+    },
+    {
+      "role": "right",
+      "content": "下午两点左右吧。",
+      "timestamp": 1740965889.022087
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单预计在下午两点左右送达。请问送餐地址是哪里？",
+      "timestamp": 1740965891.9595473
+    },
+    {
+      "role": "right",
+      "content": "地址是明湖路三十四号。",
+      "timestamp": 1740965892.7831595
+    },
+    {
+      "role": "left",
+      "content": "好的，明湖路三十四号，我们会准时送达。您的订单已经记录，请问还有其他需要特别说明的吗？比如餐具、调料等。",
+      "timestamp": 1740965896.0201
+    },
+    {
+      "role": "right",
+      "content": "不用特别说明，按常规来就行。谢谢。",
+      "timestamp": 1740965896.810409
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，下午两点左右会送到明湖路三十四号。如果还有其他需要，可以随时联系我们。感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740965901.421654
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一天愉快。",
+      "timestamp": 1740965902.892218
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单的所有细节，并表示没有其他需要特别说明的事项，同时表达了感谢。这表明用户对服务满意，且对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，下午两点左右会送到明湖路三十四号。如果还有其他需要，可以随时联系我们。感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一天愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

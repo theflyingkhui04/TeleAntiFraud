@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "李女士，您好，我是您儿子小明的朋友小张。小明刚才在学校出事了，现在被几个混混带到一个偏僻的地方，他们要求我们尽快筹集一笔钱才肯放人，您得赶紧想办法，时间不多了。",
+      "timestamp": 1740789928.666521
+    },
+    {
+      "role": "right",
+      "content": "小张，你先别急，你能说得详细一点吗？小明到底怎么了，他现在在哪儿？你们是不是也遇到了危险？我得马上报警。",
+      "timestamp": 1740789930.375986
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的情况后，表现出明显的警惕和怀疑。用户要求提供更多细节，并表达了报警的意图，这表明用户可能已经识破了诈骗者的企图，或者至少对诈骗者的故事产生了怀疑。用户通过挂断电话，可能是为了避免进一步的诈骗行为，保护自己的安全和财产。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

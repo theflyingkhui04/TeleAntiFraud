@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的外卖服务助手，有什么可以帮助您的吗？",
+      "timestamp": 1740972879.7226257
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个外卖，有什么推荐的吗？",
+      "timestamp": 1740972881.1274405
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款热门菜品推荐，比如麻辣香锅、蒜蓉西兰花和招牌烤鱼，都非常受顾客欢迎。您对哪种更感兴趣呢？",
+      "timestamp": 1740972892.68907
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我试试招牌烤鱼吧。还要来点米饭。",
+      "timestamp": 1740972894.0158625
+    },
+    {
+      "role": "left",
+      "content": "好的，招牌烤鱼和一份米饭已经加入您的订单。还需要点其他的配菜或者饮料吗？",
+      "timestamp": 1740972901.7278044
+    },
+    {
+      "role": "right",
+      "content": "来杯冰红茶吧。",
+      "timestamp": 1740972902.852397
+    },
+    {
+      "role": "left",
+      "content": "已经为您加上了一杯冰红茶。您的订单已经准备好，预计送达时间是30到40分钟。还有其他需要我帮忙的吗？",
+      "timestamp": 1740972910.469548
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户订单并告知预计送达时间后，询问用户是否还有其他需要帮助的事项。用户没有提出进一步的需求，服务方在确认服务完成后，使用了结束信号代码'##ENDCALL_SIGNAL##'，表明服务方认为对话目标已达成，订单处理完成，可以结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么我可以帮您的吗？",
+      "timestamp": 1740958906.8295085
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我来看看你们这里有什么适合企业的礼品。",
+      "timestamp": 1740958907.8542218
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了明确的购物意图，即寻找适合企业的礼品。然而，服务方在用户表达需求之前就已经提供了结束信号，这可能是因为服务方误以为用户只是浏览，并未意识到用户有具体的需求。用户的结束信号可能是出于礼貌，或因为服务方的提前结束信号而感到对话已经完结。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

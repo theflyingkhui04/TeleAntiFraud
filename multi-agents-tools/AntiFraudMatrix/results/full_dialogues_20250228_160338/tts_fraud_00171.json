@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "李女士，您好，我是来自盛辉投资的张经理。最近我们发现您对金融市场有很高的关注度，不知道您是否有兴趣了解一下我们最新的投资产品？这可是个难得的机会，收益非常可观。",
+      "timestamp": 1740740426.7153804
+    },
+    {
+      "role": "right",
+      "content": "啊，张经理您好。不过我最近刚创业，对投资还不太了解，可能暂时没有太多精力去关注这些。不过您说的收益可观，听起来挺吸引人的。",
+      "timestamp": 1740740431.396534
+    },
+    {
+      "role": "left",
+      "content": "李女士，看来您现在不太方便，那我们改天再聊。如果您改变主意了，随时可以联系我。再见。",
+      "timestamp": 1740740455.608139
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢张经理的理解。我会考虑的，再见。",
+      "timestamp": 1740740469.6876483
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明他选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "李女士，看来您现在不太方便，那我们改天再聊。如果您改变主意了，随时可以联系我。再见。"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢张经理的理解。我会考虑的，再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

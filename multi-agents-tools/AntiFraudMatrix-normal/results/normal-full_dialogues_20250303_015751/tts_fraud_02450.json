@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，可以帮助您叫车、查询路线等，有什么我可以帮您的吗？",
+      "timestamp": 1740971583.9972057
+    },
+    {
+      "role": "right",
+      "content": "好的，我想从我家出发，去市中心的商场，你能帮我叫一辆车吗？",
+      "timestamp": 1740971585.1917858
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我已为您叫了一辆车。大约需要十分钟左右到达您家，请您准备一下。",
+      "timestamp": 1740971591.4740674
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认已为用户成功叫车，并告知了预计到达时间后，认为服务目标已经达成，用户的需求得到了满足。因此，服务方主动结束了对话，其意图是确保用户及时了解服务已完成，同时避免不必要的等待或重复信息交流。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

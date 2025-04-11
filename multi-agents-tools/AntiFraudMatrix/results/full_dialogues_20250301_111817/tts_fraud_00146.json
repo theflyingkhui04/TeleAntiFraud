@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的邻居，您的儿子刚才在我这里玩，现在出事了，他被人带走了，您必须马上给我打一笔钱，不然他们不会放人的。",
+      "timestamp": 1740799451.1831336
+    },
+    {
+      "role": "right",
+      "content": "什么？我的儿子出事了？你怎么知道他是我的儿子？你说清楚点，我儿子怎么会被带走？这到底是怎么回事？",
+      "timestamp": 1740799453.578246
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者提供的信息不足且逻辑不合理而产生了怀疑，特别是诈骗者未能提供具体的细节来证明其说法的真实性。用户挂断电话可能是为了终止与诈骗者的进一步交流，避免潜在的风险。这表明用户可能已经识破了诈骗企图或至少对诈骗者的身份和意图产生了高度怀疑。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

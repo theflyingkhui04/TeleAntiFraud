@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小助手为您服务，请问有什么问题需要我帮忙解决呢？",
+      "timestamp": 1740981345.2138727
+    },
+    {
+      "role": "right",
+      "content": "你好，最近我的订单好像出了点问题，能帮我查一下吗？",
+      "timestamp": 1740981349.9839077
+    },
+    {
+      "role": "left",
+      "content": "当然可以，麻烦您提供一下订单号，我来帮您查询。",
+      "timestamp": 1740981353.4459338
+    },
+    {
+      "role": "right",
+      "content": "好的，订单号是123456789。谢谢。",
+      "timestamp": 1740981354.9019177
+    },
+    {
+      "role": "left",
+      "content": "感谢您的耐心等待，我查到了您的订单。目前该订单处于配送中状态，预计明天下午可以送达。如果还有其他问题，您可以随时联系我。",
+      "timestamp": 1740981358.2250888
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。如果有问题我会再联系的。",
+      "timestamp": 1740981358.872067
+    },
+    {
+      "role": "left",
+      "content": "您的订单状态已经确认，如果有任何变动我们会及时通知您。感谢您的耐心等待，祝您生活愉快。",
+      "timestamp": 1740981363.9065313
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。生活愉快。",
+      "timestamp": 1740981364.5904307
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢，并明确表示如果有问题会再次联系，这意味着当前的问题已经解决，用户对服务感到满意。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的订单状态已经确认，如果有任何变动我们会及时通知您。感谢您的耐心等待，祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。生活愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

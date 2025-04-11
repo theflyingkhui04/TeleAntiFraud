@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，这里是XX银行客服中心。我们检测到您的账户存在异常交易活动，需要立即核实您的身份信息以确保资金安全。请问您现在方便接听电话吗？",
+      "timestamp": 1740754043.372815
+    },
+    {
+      "role": "right",
+      "content": "喂，您好。我是张阿姨，我刚刚在公园散步，突然接到您的电话。我的账户真的有问题吗？我得赶紧回家看看。",
+      "timestamp": 1740754045.0334835
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户张阿姨在接到诈骗者声称的银行客服电话后，表示自己正在公园散步，并提到要回家查看账户情况。用户可能意识到这是一个诈骗电话，或者认为在当前环境下不方便继续对话，因此选择挂断电话以确保个人安全和账户安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "先生，我是您儿子的学校老师，他现在出了点事，需要您马上汇一笔钱过来处理，不然会有严重后果。您能马上帮忙吗？",
+      "timestamp": 1740774686.6726549
+    },
+    {
+      "role": "right",
+      "content": "老师您好，您能具体说说发生了什么吗？我儿子平时在学校表现挺好的，突然听到这个消息我有点担心。另外，汇款的事情能不能等我先确认一下？",
+      "timestamp": 1740774691.1463792
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者要求立即汇款后，表现出谨慎的态度，并要求了解更多具体信息。用户可能已经意识到这是一起诈骗行为，因此选择挂断电话以避免进一步的风险。用户的意图是终止对话，防止个人信息和财产受到威胁。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

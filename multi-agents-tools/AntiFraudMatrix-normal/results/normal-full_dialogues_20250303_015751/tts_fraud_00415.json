@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740959055.5332031
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个外卖，有什么推荐的吗？",
+      "timestamp": 1740959056.6423748
+    },
+    {
+      "role": "left",
+      "content": "您好，我们这里有几款热门菜品推荐：宫保鸡丁、麻辣香锅和酸菜鱼，都是顾客评价很高的。您想要尝试哪一款呢？",
+      "timestamp": 1740959062.4002786
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我就来个宫保鸡丁吧。还有什么配菜推荐的？",
+      "timestamp": 1740959063.8627658
+    },
+    {
+      "role": "left",
+      "content": "宫保鸡丁搭配一份清炒时蔬和一份米饭会很搭，既能解腻又能均衡营养。您看这样可以吗？",
+      "timestamp": 1740959069.6354077
+    },
+    {
+      "role": "right",
+      "content": "好的，那就这样吧。对了，你们这里送餐时间大概多久？",
+      "timestamp": 1740959070.8918853
+    },
+    {
+      "role": "left",
+      "content": "根据您所在的位置，预计送达时间大约是30到40分钟。如果交通情况较好，可能会更快一些。",
+      "timestamp": 1740959074.4590209
+    },
+    {
+      "role": "right",
+      "content": "行，那我等会儿。谢谢啊。",
+      "timestamp": 1740959078.1373112
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计30到40分钟后送达。感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740959083.1334646
+    },
+    {
+      "role": "right",
+      "content": "谢谢，等会儿见。",
+      "timestamp": 1740959086.986144
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示满意并感谢服务，表明不再需要进一步的帮助。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计30到40分钟后送达。感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，等会儿见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

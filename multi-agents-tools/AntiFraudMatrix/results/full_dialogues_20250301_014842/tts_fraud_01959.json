@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是张先生吗？我是你儿子的朋友小李。你儿子出事了，他现在在我这里，我需要你马上给我打一笔钱，不然我就不知道会发生什么事了。你得快点，时间不多了。",
+      "timestamp": 1740792038.6153417
+    },
+    {
+      "role": "right",
+      "content": "你先别急，你说你是小李，你是怎么联系到我的？我儿子到底怎么了？你得说清楚点。我得确认一下，不然我怎么知道你是不是真的。",
+      "timestamp": 1740792040.4673548
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提出需要立即转账的要求后，表现出警觉并要求提供更多详细信息以确认对方身份。用户可能怀疑这是一起诈骗，并通过要求更多信息来验证对方的真实性。最终，用户选择挂断电话，表明其不愿意继续与诈骗者交流，以防落入诈骗陷阱。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某宝官方客服，您的订单在支付过程中出现了异常，为了您的权益，请您提供一下购买时使用的手机号码，我们好帮您核实情况。",
+      "timestamp": 1740748410.163076
+    },
+    {
+      "role": "right",
+      "content": "哦，好的好的，我最近确实在某宝上买了很多东西。我的手机号是138xxxx9876，麻烦您帮我查一下。",
+      "timestamp": 1740748416.5174758
+    },
+    {
+      "role": "left",
+      "content": "好的，您的信息我们会尽快核实处理，请您保持手机畅通，我们会第一时间联系您。谢谢您的配合，再见。",
+      "timestamp": 1740748424.8727138
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，我会注意接听电话的。再见。",
+      "timestamp": 1740748426.8351564
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（手机号码），满足终止条件1：诈骗明显成功。为了保护用户不再提供更多信息，应立即终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的信息我们会尽快核实处理，请您保持手机畅通，我们会第一时间联系您。谢谢您的配合，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，我会注意接听电话的。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

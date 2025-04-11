@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，这里是紧急呼叫中心，我们需要您立即配合，您的家人现在处于非常危险的境地，我们怀疑他已经被绑架了。",
+      "timestamp": 1740804885.439912
+    },
+    {
+      "role": "right",
+      "content": "什么？我的家人被绑架了？这怎么可能？你们是谁？怎么证明你们不是骗子？",
+      "timestamp": 1740804887.4628296
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其家人被绑架后，表现出明显的怀疑态度，并要求诈骗者证明其身份。用户可能认为这是诈骗行为，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

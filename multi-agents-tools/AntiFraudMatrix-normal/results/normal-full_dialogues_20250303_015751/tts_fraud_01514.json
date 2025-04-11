@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎联系客服，我是您的服务专员，有什么问题我可以帮您解答？",
+      "timestamp": 1740948312.398325
+    },
+    {
+      "role": "right",
+      "content": "你好，最近工作有点忙，想了解一下公司的年假政策。",
+      "timestamp": 1740948313.419466
+    },
+    {
+      "role": "left",
+      "content": "了解了，关于年假政策，我们公司规定员工每年可享有五天带薪年假，随着工龄增长，年假天数也会相应增加。您想了解更具体的细节吗？",
+      "timestamp": 1740948322.2279663
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。那工龄满五年后，年假会增加到多少天？",
+      "timestamp": 1740948326.156683
+    },
+    {
+      "role": "left",
+      "content": "工龄满五年后，您的年假将增加到十天。之后每满五年，年假天数还会逐步增加。希望这些信息对您有帮助。",
+      "timestamp": 1740948330.75548
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的详细解答。这政策挺不错的。",
+      "timestamp": 1740948331.5014937
+    },
+    {
+      "role": "left",
+      "content": "如果您还有其他关于年假政策的问题，或是需要进一步的帮助，随时欢迎联系我们。感谢您的咨询，祝您工作顺利，生活愉快。",
+      "timestamp": 1740948339.3197143
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。工作顺利，再见。",
+      "timestamp": 1740948340.5289838
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并对服务表示满意，明确表示了感谢。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您还有其他关于年假政策的问题，或是需要进一步的帮助，随时欢迎联系我们。感谢您的咨询，祝您工作顺利，生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。工作顺利，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

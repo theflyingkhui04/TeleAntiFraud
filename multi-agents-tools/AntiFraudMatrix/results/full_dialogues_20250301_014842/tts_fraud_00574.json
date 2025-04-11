@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您中得了本期双色球二等奖，奖金高达五百万元！为了确保奖金能够顺利发放，请问您能提供一下您的姓名和联系方式吗？",
+      "timestamp": 1740778679.853888
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太激动了！我叫张阿姨，电话是13812345678，你们能帮我确认一下中奖信息吗？",
+      "timestamp": 1740778681.8425338
+    },
+    {
+      "role": "left",
+      "content": "张阿姨，我们已经记录了您的信息，稍后会有专人与您联系确认中奖细节。请您保持电话畅通，再次恭喜您！",
+      "timestamp": 1740778685.7446542
+    },
+    {
+      "role": "right",
+      "content": "谢谢你们啊！我这就等着你们的电话了。五百万元，我这辈子都没见过这么多钱呢！",
+      "timestamp": 1740778689.42439
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和电话号码，属于敏感信息，诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "张阿姨，我们已经记录了您的信息，稍后会有专人与您联系确认中奖细节。请您保持电话畅通，再次恭喜您！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢你们啊！我这就等着你们的电话了。五百万元，我这辈子都没见过这么多钱呢！"
+    }
+  ],
+  "reached_max_turns": false
+}

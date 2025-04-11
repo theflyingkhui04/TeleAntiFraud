@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "感谢您的来电，我是客服小张，很高兴为您服务，请问有什么可以帮助您的？",
+      "timestamp": 1740969481.190648
+    },
+    {
+      "role": "right",
+      "content": "你好，我想咨询一下最近的促销活动。",
+      "timestamp": 1740969482.23275
+    },
+    {
+      "role": "left",
+      "content": "您好，我们目前有几个促销活动正在进行中。首先，满两百元全场通用的优惠券，还有部分商品享受买一赠一的优惠。您对哪个活动感兴趣呢？",
+      "timestamp": 1740969487.8778777
+    },
+    {
+      "role": "right",
+      "content": "满两百元的优惠券听起来不错，能用在哪些商品上？",
+      "timestamp": 1740969489.458529
+    },
+    {
+      "role": "left",
+      "content": "满两百元的优惠券适用于大部分商品，但不包括部分特殊商品和促销专区的物品。您可以在结账时选择使用优惠券，系统会自动显示可用的商品。需要我帮您详细列出来吗？",
+      "timestamp": 1740969497.6250286
+    },
+    {
+      "role": "right",
+      "content": "不用了，大致了解了。谢谢。",
+      "timestamp": 1740969499.7160995
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何疑问或需要进一步的帮助，欢迎随时联系我们的客服。感谢您的咨询，祝您购物愉快！",
+      "timestamp": 1740969510.228653
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740969511.6100204
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示对当前信息满意，并明确表示感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您有任何疑问或需要进一步的帮助，欢迎随时联系我们的客服。感谢您的咨询，祝您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

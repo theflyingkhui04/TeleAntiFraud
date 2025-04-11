@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我们手上，不想他出事的话，赶紧准备50万赎金！",
+      "timestamp": 1740692438.6084116
+    },
+    {
+      "role": "right",
+      "content": "你们是谁？我儿子怎么会在你们手上？这到底是怎么回事？你们先告诉我他在哪儿，我才能相信你们啊。",
+      "timestamp": 1740692440.1701913
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的威胁感到怀疑和不安，意识到这可能是一个诈骗电话。用户要求诈骗者提供更多信息以验证情况的真实性，但同时可能已经意识到继续对话的风险，因此选择主动挂断电话以保护自己免受潜在的诈骗侵害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

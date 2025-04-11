@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询助手，可以帮您查询路线、公交、地铁等信息，请告诉我您需要什么帮助？",
+      "timestamp": 1740954062.0488493
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我最近想去市图书馆，能告诉我怎么坐公交过去吗？",
+      "timestamp": 1740954063.2119493
+    },
+    {
+      "role": "left",
+      "content": "当然可以。您现在的位置是哪里？这样我可以为您规划最合适的公交路线。",
+      "timestamp": 1740954069.425313
+    },
+    {
+      "role": "right",
+      "content": "我在市中心广场附近。",
+      "timestamp": 1740954070.4830935
+    },
+    {
+      "role": "left",
+      "content": "从市中心广场到市图书馆，您可以乘坐公交 105 路，直接到达图书馆站，全程大约需要 20 分钟。如果您需要更详细的路线信息，可以告诉我。",
+      "timestamp": 1740954074.1228905
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。105路的发车间隔是多少？我大概什么时候可以出发？",
+      "timestamp": 1740954075.3499053
+    },
+    {
+      "role": "left",
+      "content": "105 路公交车的发车间隔大约是 10 分钟一班。您现在就可以出发，步行到最近的公交站台，等一班 105 路即可。这样安排时间应该很充裕。",
+      "timestamp": 1740954084.108971
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的帮助。我这就出发。",
+      "timestamp": 1740954085.0003552
+    },
+    {
+      "role": "left",
+      "content": "路线信息已提供给您，如果您还有其他问题或需要进一步的帮助，随时可以联系我。祝您旅途愉快。",
+      "timestamp": 1740954092.3506
+    },
+    {
+      "role": "right",
+      "content": "好的，非常感谢。祝你一天愉快。",
+      "timestamp": 1740954093.2743137
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的公交路线信息，并表示将立即出发，明确表示感谢并准备结束对话。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "路线信息已提供给您，如果您还有其他问题或需要进一步的帮助，随时可以联系我。祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，非常感谢。祝你一天愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

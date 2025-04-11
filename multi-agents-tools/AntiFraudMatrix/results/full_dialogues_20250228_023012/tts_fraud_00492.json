@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你听好了，你的女儿现在在我手上，如果不想她出事，马上准备50万赎金，不要报警，否则你再也见不到她了！",
+      "timestamp": 1740691198.9589522
+    },
+    {
+      "role": "right",
+      "content": "什么？我女儿怎么会在你手上？你到底是谁？我女儿现在在哪里？你最好别乱来，我已经报警了！",
+      "timestamp": 1740691203.5629075
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

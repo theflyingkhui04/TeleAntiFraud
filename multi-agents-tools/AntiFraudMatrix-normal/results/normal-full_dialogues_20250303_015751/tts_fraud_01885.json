@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740944601.1618128
+    },
+    {
+      "role": "right",
+      "content": "您好，我想订一份午餐，有什么推荐的吗？",
+      "timestamp": 1740944602.4168217
+    },
+    {
+      "role": "left",
+      "content": "我们今天的推荐有香辣鸡腿堡套餐和牛肉意面，都非常受欢迎，您感兴趣吗？",
+      "timestamp": 1740944606.6400516
+    },
+    {
+      "role": "right",
+      "content": "香辣鸡腿堡听起来不错，就来那个吧。还有什么饮料和小食可以搭配的？",
+      "timestamp": 1740944610.7374692
+    },
+    {
+      "role": "left",
+      "content": "香辣鸡腿堡可以搭配一份薯条和一杯可乐，我们也有柠檬茶和冰红茶可选，您看需要吗？",
+      "timestamp": 1740944614.588939
+    },
+    {
+      "role": "right",
+      "content": "好的，来一份薯条和一杯冰红茶吧。谢谢。",
+      "timestamp": 1740944615.5126076
+    },
+    {
+      "role": "left",
+      "content": "好的，为您搭配一份薯条和一杯可乐，您的订单已经确认，预计三十分钟后送达。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740944620.7539177
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，三十分钟后见。",
+      "timestamp": 1740944621.691338
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了所需的餐点，并表达了感谢，表明其需求已得到满足。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，为您搭配一份薯条和一杯可乐，您的订单已经确认，预计三十分钟后送达。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，三十分钟后见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

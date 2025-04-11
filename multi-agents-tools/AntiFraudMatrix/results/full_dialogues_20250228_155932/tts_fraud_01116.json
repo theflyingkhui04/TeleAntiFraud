@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，李女士吗？我是您的儿子小明的朋友小张，小明现在在我这里，他出事了，需要您马上汇一笔钱过来才能救他。十万，您能马上转过来吗？时间很紧，您快点吧，小明现在很危险。",
+      "timestamp": 1740733331.8677275
+    },
+    {
+      "role": "right",
+      "content": "小张啊，你先别急，你说小明出事了，到底怎么回事？他现在在哪里？我得知道具体的情况，才能想办法啊。",
+      "timestamp": 1740733350.6009822
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提到需要立即转账十万以救助其儿子时，表现出警觉并要求提供更多具体信息。用户可能怀疑这是诈骗行为，因此选择挂断电话以避免进一步的风险。用户的意图是中断可能的诈骗行为，保护自己的财产安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

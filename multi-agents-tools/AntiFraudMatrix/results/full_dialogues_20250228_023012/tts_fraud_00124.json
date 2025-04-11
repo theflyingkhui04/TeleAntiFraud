@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家彩票中心，恭喜您中得了本期的大奖！为了确认您的身份，请提供一下您的姓名和身份证号。",
+      "timestamp": 1740691760.7118483
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太不可思议了！不过，我之前没有买过彩票啊。这会不会是搞错了？",
+      "timestamp": 1740691798.6623163
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在接收到诈骗者声称中奖的消息后，表现出怀疑和不确定的态度，并提出了合理的疑问，即自己从未购买过彩票。这表明用户可能意识到了潜在的诈骗行为，并选择通过挂断电话来避免进一步的交流和可能的损失。用户的意图是通过挂断电话来结束对话，保护自己的个人信息和财产安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友张伟的同事，张伟现在出事了，被我们公司的一些人绑住了，他们要求我马上联系您，不然就要对张伟不利。您现在能马上转一笔钱过来吗？这是我们唯一的解决办法。",
+      "timestamp": 1740743501.0433803
+    },
+    {
+      "role": "right",
+      "content": "天哪，张伟出事了？这怎么可能！你们公司怎么会有人做出这种事？我得赶紧想办法。多少钱？我马上转过去。你们先把张伟照顾好，我这就去办。",
+      "timestamp": 1740743505.02613
+    },
+    {
+      "role": "left",
+      "content": "好的，谢谢您的配合，我们收到钱后会立刻放了张伟。请您尽快，时间不等人。我先挂了，您赶紧办吧。",
+      "timestamp": 1740743512.376789
+    },
+    {
+      "role": "right",
+      "content": "好，我这就去办。请你们一定要保证张伟的安全。我马上转账。",
+      "timestamp": 1740743514.4933755
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示愿意转账，诈骗明显成功。根据终止条件1，应立即终止对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，谢谢您的配合，我们收到钱后会立刻放了张伟。请您尽快，时间不等人。我先挂了，您赶紧办吧。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好，我这就去办。请你们一定要保证张伟的安全。我马上转账。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

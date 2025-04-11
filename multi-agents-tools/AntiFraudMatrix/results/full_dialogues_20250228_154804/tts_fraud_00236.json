@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友小李的同事，现在小李遇到了一些麻烦，他在国外被警察扣留了，需要马上支付一笔费用才能脱身。您能帮我们解决这个问题吗？时间非常紧迫。",
+      "timestamp": 1740729181.4312227
+    },
+    {
+      "role": "right",
+      "content": "小李被警察扣留了？这听起来很严重。我需要确认一下，你能告诉我具体是什么情况吗？还有，为什么需要支付费用？这听起来不太对劲。",
+      "timestamp": 1740729183.8738563
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者的要求后，对情况表示怀疑，并要求提供更多信息。在诈骗者未能提供令人信服的解释之前，用户选择挂断电话，表明其可能识破了诈骗企图，不愿意继续参与对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

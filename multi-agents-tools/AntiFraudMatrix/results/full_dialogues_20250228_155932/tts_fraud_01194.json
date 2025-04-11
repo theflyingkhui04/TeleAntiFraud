@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "李总，您好，我是来自华兴投资的张经理。最近我们发现了一项非常有潜力的投资项目，预计收益非常可观，我想您可能会感兴趣。",
+      "timestamp": 1740750092.6342695
+    },
+    {
+      "role": "right",
+      "content": "张经理啊，你好你好。投资这事儿我懂的不多，但听你这么一说，心里还是有点动心的。这个项目具体是啥呢？能不能给我详细讲讲？",
+      "timestamp": 1740750095.3721852
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "从对话内容来看，用户最初对诈骗者的提议表现出了兴趣，但双方的对话中均出现了##ENDCALL_SIGNAL##，这表明双方都选择了挂断电话。用户可能在进一步了解项目之前意识到这可能是一个诈骗电话，或者对诈骗者的身份和项目的真实性产生了怀疑，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

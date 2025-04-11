@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行客服中心，我们检测到您的账户存在异常交易，需要立即进行安全验证，请问您方便配合吗？",
+      "timestamp": 1740690235.8503695
+    },
+    {
+      "role": "right",
+      "content": "您好，我这边确实看到过一些账户异常的新闻，不过我之前也接到过类似的电话，最后发现是诈骗。您能提供一下具体的异常交易信息吗？还有，我怎么确认您是XX银行的客服呢？",
+      "timestamp": 1740690273.5160131
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对诈骗电话的警觉性，要求诈骗者提供具体的异常交易信息，并询问如何确认对方的身份。用户可能怀疑对方是诈骗者，为了安全起见，选择挂断电话以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

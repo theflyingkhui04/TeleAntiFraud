@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您，您在最近的一次全国彩票抽奖中荣获了一等奖，奖金高达五百万元，不知道您现在心情怎么样？",
+      "timestamp": 1740748176.9141395
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？这听起来太不可思议了。我是医生，平时很少买彩票的。你们是怎么确定我中奖的呢？我需要提供什么信息来确认吗？",
+      "timestamp": 1740748183.2413108
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提供的信息感到怀疑，尤其是在对方要求提供信息以确认中奖时。作为医生，用户可能具备较高的警惕性和判断力，意识到这可能是一起诈骗行为，因此选择主动挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的儿子现在在我手上，立即准备五十万赎金，不要报警，否则后果自负！听到没有？",
+      "timestamp": 1740749982.4352462
+    },
+    {
+      "role": "right",
+      "content": "你到底是谁？你说什么我儿子在你手上，这不可能，你别吓我。你快告诉我到底怎么回事，我儿子真的没事吧？",
+      "timestamp": 1740749984.9297721
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为极度恐慌和无法确认对方身份及儿子的真实情况，选择挂断电话以保护自己不受进一步的惊吓或诈骗。用户的意图是终止与诈骗者的交流，避免在情绪不稳定的情况下做出错误决定。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我们手上，如果你不想看到他出事，就赶紧准备50万赎金，不准报警！",
+      "timestamp": 1740691811.4269722
+    },
+    {
+      "role": "right",
+      "content": "你们是谁？我儿子怎么了？你们赶紧告诉我他在哪儿，我担心死了。",
+      "timestamp": 1740691813.8611517
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为极度的恐慌和担心儿子的安全，导致无法继续冷静地与诈骗者对话，选择挂断电话以寻求其他帮助，例如联系家人或直接报警。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

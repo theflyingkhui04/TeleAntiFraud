@@ -1,0 +1,90 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "感谢您的来电，我是客服专员小张，有什么服务可以帮助您预约的吗？",
+      "timestamp": 1740948371.8309796
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我是李同学，想预约一下下周的图书馆座位，不知道还有没有空位？",
+      "timestamp": 1740948374.0935404
+    },
+    {
+      "role": "left",
+      "content": "您好，李同学，我可以帮您查询一下。请问您希望预约哪一天的座位呢？",
+      "timestamp": 1740948378.7171152
+    },
+    {
+      "role": "right",
+      "content": "好的，我想预约下周一的座位。谢谢。",
+      "timestamp": 1740948380.554063
+    },
+    {
+      "role": "left",
+      "content": "好的，下周一的座位我来帮您查一下。请稍等片刻。##WAITING_SIGNAL##",
+      "timestamp": 1740948384.8452036
+    },
+    {
+      "role": "right",
+      "content": "好的，我等一下。谢谢你。",
+      "timestamp": 1740948385.8823671
+    },
+    {
+      "role": "left",
+      "content": "不客气，已经为您查到了下周一的座位情况，还剩一些空位。请问您希望预约哪个时间段的座位呢？",
+      "timestamp": 1740948394.0355117
+    },
+    {
+      "role": "right",
+      "content": "那太好了。我想预约上午九点到十二点的时段。可以吗？",
+      "timestamp": 1740948396.0478373
+    },
+    {
+      "role": "left",
+      "content": "当然可以，下周一上午九点到十二点的时段还有空位。请问您需要预约哪个区域的座位？比如学习区、阅读区或研讨区？",
+      "timestamp": 1740948401.2155013
+    },
+    {
+      "role": "right",
+      "content": "我打算在学习区学习，就预约学习区的吧。",
+      "timestamp": 1740948402.242309
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您预约了下周一上午九点到十二点的学习区座位。这是您的预约编号：123456，请妥善保存。稍后您也会收到确认短信。还有其他需要帮助的吗？",
+      "timestamp": 1740948409.89114
+    },
+    {
+      "role": "right",
+      "content": "好的，收到了，谢谢你的帮助。没有其他需要了。",
+      "timestamp": 1740948413.5282798
+    },
+    {
+      "role": "left",
+      "content": "好的，您的图书馆座位已经成功预约，如果有任何变动，我们会及时通知您。感谢您的来电，祝您学习愉快！",
+      "timestamp": 1740948419.4288828
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740948420.931357
+    }
+  ],
+  "turns": 5,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示满意并感谢服务方的帮助，且明确表示没有其他需要了。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的图书馆座位已经成功预约，如果有任何变动，我们会及时通知您。感谢您的来电，祝您学习愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

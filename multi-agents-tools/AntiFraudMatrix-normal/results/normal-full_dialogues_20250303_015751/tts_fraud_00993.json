@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我将帮您安排车辆，请问您现在的位置和目的地是哪里？",
+      "timestamp": 1740951677.691699
+    },
+    {
+      "role": "right",
+      "content": "好的，我现在在公司，地址是科技园路123号，目的地是家，地址是幸福小区5号楼。谢谢。",
+      "timestamp": 1740951682.3324227
+    },
+    {
+      "role": "left",
+      "content": "好的，您的起点是科技园路123号，目的地是幸福小区5号楼。我正在为您安排车辆，预计三分钟内会有司机联系您，请保持手机畅通。",
+      "timestamp": 1740951687.962977
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的起点和目的地后，已经成功为用户安排了车辆，并告知了预计的司机联系时间。用户的需求已经得到了满足，服务流程已经完成，因此服务方选择结束对话，以避免不必要的等待和资源占用。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

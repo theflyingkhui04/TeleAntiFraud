@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是预约服务的客服，请问有什么可以帮助您的？",
+      "timestamp": 1740971223.606171
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一个内科的专家门诊，方便帮我安排一下吗？",
+      "timestamp": 1740971225.36799
+    },
+    {
+      "role": "left",
+      "content": "当然可以，您希望预约哪一天，上午还是下午呢？",
+      "timestamp": 1740971229.9701307
+    },
+    {
+      "role": "right",
+      "content": "下周三上午方便吗？",
+      "timestamp": 1740971230.7314546
+    },
+    {
+      "role": "left",
+      "content": "好的，下周三上午有可用的预约时间。请问您方便的具体时间段是什么时候？",
+      "timestamp": 1740971237.1452448
+    },
+    {
+      "role": "right",
+      "content": "九点到十点之间可以吗？",
+      "timestamp": 1740971238.0242085
+    },
+    {
+      "role": "left",
+      "content": "九点到十点之间有可用的预约时间。请问您的姓名和联系方式是什么，以便我们为您确认预约？",
+      "timestamp": 1740971244.4146445
+    },
+    {
+      "role": "right",
+      "content": "我叫李明，手机号是13812345678。",
+      "timestamp": 1740971245.9773736
+    },
+    {
+      "role": "left",
+      "content": "好的，李先生，您的预约已经成功安排在下周三上午九点到十点，医生是内科的张医生。稍后我们会给您发送确认短信。还有其他需要帮忙的吗？",
+      "timestamp": 1740971252.216493
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息并告知会发送确认短信后，询问用户是否有其他需要帮助的事项。用户没有进一步的需求，服务方通过'##ENDCALL_SIGNAL##'明确表示结束对话，表明服务方认为预约服务已经完成，用户的需求得到了满足，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

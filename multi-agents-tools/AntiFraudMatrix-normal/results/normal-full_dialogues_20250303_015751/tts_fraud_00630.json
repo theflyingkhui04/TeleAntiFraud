@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮您的吗？",
+      "timestamp": 1740944297.527727
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖，有什么推荐的吗？",
+      "timestamp": 1740944298.710435
+    },
+    {
+      "role": "left",
+      "content": "您好，我们这里有几个最受欢迎的选项：宫保鸡丁、鱼香肉丝和牛肉炒饭，都是顾客评价很高的菜品。您喜欢哪种口味的呢？",
+      "timestamp": 1740944302.3351026
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来一份宫保鸡丁吧。还要加个蔬菜，你们有什么推荐的蔬菜菜式？",
+      "timestamp": 1740944303.554609
+    },
+    {
+      "role": "left",
+      "content": "好的，宫保鸡丁已经为您加入订单。我们这里推荐的蔬菜有清炒西兰花和蒜蓉菠菜，都是新鲜时令的，您看需要加哪一种呢？",
+      "timestamp": 1740944307.910455
+    },
+    {
+      "role": "right",
+      "content": "清炒西兰花吧，听起来很健康。还要一份米饭。另外，你们这里可以备注少油少盐吗？",
+      "timestamp": 1740944312.365123
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单里已经加入了宫保鸡丁、清炒西兰花和一份米饭。我们可以在烹饪时为您备注少油少盐，这样更健康。还有其他需要特别说明的吗？",
+      "timestamp": 1740944316.5713344
+    },
+    {
+      "role": "right",
+      "content": "没有了，谢谢。送餐地址是阳光小区12号楼3单元401室，麻烦尽快送到。",
+      "timestamp": 1740944320.2936213
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，我们会备注少油少盐。预计半小时后送达，感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740944326.225259
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。等会儿见。",
+      "timestamp": 1740944330.1176605
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了订单的所有细节，包括菜品选择、特殊要求和送餐地址。服务方可以确认订单并结束对话。",
+  "terminator": "service",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，我们会备注少油少盐。预计半小时后送达，感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。等会儿见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

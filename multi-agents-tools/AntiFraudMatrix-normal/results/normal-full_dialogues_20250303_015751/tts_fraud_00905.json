@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是幸福美发沙龙，很高兴为您服务，请问有什么可以帮助您的？",
+      "timestamp": 1740981513.423278
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一个剪发的时间，方便了解一下你们的空档时间吗？",
+      "timestamp": 1740981514.7690637
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们目前有几个时间段可供选择，分别是明天上午十点、下午两点和下午五点，您看哪个时间比较合适呢？",
+      "timestamp": 1740981519.5214229
+    },
+    {
+      "role": "right",
+      "content": "明天上午十点听起来不错，我那时候有空。可以预约这个时间吗？",
+      "timestamp": 1740981520.4798636
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我已经为您预约了明天上午十点的剪发服务，您的预约编号是0218，稍后您也会收到我们的确认短信。请问还有其他需要帮助的吗？",
+      "timestamp": 1740981525.0471911
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户预约成功后，主动提供了预约编号，并告知用户会收到确认短信，随后询问用户是否还有其他需要帮助的事项。在用户没有进一步的需求后，服务方使用了结束信号代码'##ENDCALL_SIGNAL##'，表明服务目标已达成，预约服务流程已完成，因此服务方选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

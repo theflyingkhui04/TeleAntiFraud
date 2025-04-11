@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您儿子的老师，他刚才在学校出事了，需要立即去医院，您能尽快转一笔钱过来吗？这是救护车的费用，我们等钱用，您儿子现在情况很危急。",
+      "timestamp": 1740805988.7534873
+    },
+    {
+      "role": "right",
+      "content": "天哪，这怎么会这样！老师，您能告诉我具体发生了什么吗？我马上转钱过去。对了，您能告诉我救护车的账户信息吗？我这就去办。",
+      "timestamp": 1740805992.1974554
+    },
+    {
+      "role": "left",
+      "content": "好的，那我先挂了，希望您能尽快处理。再见。",
+      "timestamp": 1740805996.9141507
+    },
+    {
+      "role": "right",
+      "content": "好的，我马上处理，谢谢您了。再见。",
+      "timestamp": 1740805997.9924436
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表现出愿意提供敏感信息（转账），这表明诈骗明显成功。为了防止进一步的损失，应立即终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我先挂了，希望您能尽快处理。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，我马上处理，谢谢您了。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

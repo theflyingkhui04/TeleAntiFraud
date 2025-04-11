@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李华吗？我是你儿子的朋友小明，出大事了，你儿子现在在我这里，他被几个人盯上了，你必须马上汇五千块钱过来，不然我怕他们会对小明不利。",
+      "timestamp": 1740744862.339371
+    },
+    {
+      "role": "right",
+      "content": "小明，你这是怎么回事？你先别急，你说清楚点。五千块钱不是小数目，我得先确认一下。你能不能告诉我你在哪里，我好过去看看情况。",
+      "timestamp": 1740744866.7464373
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能怀疑这是诈骗电话，要求提供更多具体信息以验证情况的真实性。用户挂断电话可能是为了自行核实情况，避免直接在电话中透露更多个人信息或进行转账。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

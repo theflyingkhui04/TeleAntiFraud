@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是张伟吗？我是你儿子的朋友小李，他刚才给我打电话，说他被几个坏人绑架了，现在情况很紧急，你必须马上帮我，不然他会有危险的。",
+      "timestamp": 1740740422.747752
+    },
+    {
+      "role": "right",
+      "content": "小李，你说的是真的吗？我儿子怎么会突然被绑架了？你能告诉我具体是怎么回事吗？我需要确认一下你是不是真的认识我儿子。",
+      "timestamp": 1740740427.3014965
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被绑架后，表现出了谨慎的态度，并要求确认诈骗者的身份。这表明用户可能怀疑这是一个诈骗电话，因此在没有得到满意的回答之前选择了挂断电话，以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

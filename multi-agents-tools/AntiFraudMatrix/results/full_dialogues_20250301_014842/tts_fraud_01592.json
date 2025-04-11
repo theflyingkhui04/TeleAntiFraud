@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是福利彩票中心的工作人员，恭喜您，您中了本期一等奖，奖金高达五百万元！请提供您的姓名和联系方式，以便我们尽快为您办理兑奖手续。",
+      "timestamp": 1740773510.4750097
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太令人惊喜了！我叫李老师，电话是一三八零零一三八零零零。你们怎么联系上我的？我平时也没怎么买彩票啊。",
+      "timestamp": 1740773515.3431966
+    },
+    {
+      "role": "left",
+      "content": "李老师，真是太幸运了！我们是通过您的个人信息库比对出来的。请您耐心等待，我们的工作人员会尽快与您联系，为您办理兑奖手续。感谢您的配合，祝您生活愉快！再见。",
+      "timestamp": 1740773519.5306745
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们！我等你们的电话。再见。",
+      "timestamp": 1740773520.313515
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和电话号码，属于敏感信息，诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "李老师，真是太幸运了！我们是通过您的个人信息库比对出来的。请您耐心等待，我们的工作人员会尽快与您联系，为您办理兑奖手续。感谢您的配合，祝您生活愉快！再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们！我等你们的电话。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

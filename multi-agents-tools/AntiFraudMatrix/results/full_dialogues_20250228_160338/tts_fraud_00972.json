@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某宝客服中心，我注意到您的账户存在异常交易记录，需要立即核实处理。请问您方便提供一下您的账号信息吗？",
+      "timestamp": 1740737231.524429
+    },
+    {
+      "role": "right",
+      "content": "您好，我确实收到了一条短信说我的账户有异常，但我刚刚已经登录账户查看了，没有发现任何异常交易。你们这边有具体的交易记录吗？我需要确认一下。",
+      "timestamp": 1740737246.7432718
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者要求提供账号信息时，主动挂断了电话。这表明用户对诈骗者的身份和请求产生了怀疑，可能意识到这是一个诈骗电话。用户已经登录账户查看了交易记录，没有发现异常，这进一步增加了用户对诈骗者的不信任。用户挂断电话的意图可能是为了避免提供敏感信息，保护自己的账户安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

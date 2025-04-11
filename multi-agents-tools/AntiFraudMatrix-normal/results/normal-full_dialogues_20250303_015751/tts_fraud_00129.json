@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品您需要了解或购买的吗？",
+      "timestamp": 1740944565.2930415
+    },
+    {
+      "role": "right",
+      "content": "你好，我在找一些适合送给老师的礼物，有什么推荐的吗？",
+      "timestamp": 1740944566.9570956
+    },
+    {
+      "role": "left",
+      "content": "当然可以帮您推荐。我们这里有一些精美的钢笔套装和设计独特的桌面日历，都非常适合作为送给老师的礼物。您觉得这些选项如何？",
+      "timestamp": 1740944572.1636744
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，可以给我看看钢笔套装吗？",
+      "timestamp": 1740944573.3184412
+    },
+    {
+      "role": "left",
+      "content": "当然可以。我们有一款钢笔套装，包含一支精致的签名笔和一本配套的笔记本，外观典雅，包装也十分精美，非常适合表达对老师的敬意。您感兴趣的话，我可以带您去看实物。",
+      "timestamp": 1740944579.4311035
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦你了。带我去看看吧。",
+      "timestamp": 1740944580.4471266
+    },
+    {
+      "role": "left",
+      "content": "不客气，这边请。我会带您到展示区，您可以亲自看看这款钢笔套装。",
+      "timestamp": 1740944584.5395026
+    },
+    {
+      "role": "right",
+      "content": "谢谢，走吧。",
+      "timestamp": 1740944586.0477786
+    },
+    {
+      "role": "left",
+      "content": "好的，我们这就过去。请跟我来。",
+      "timestamp": 1740944592.3279166
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户对钢笔套装感兴趣并同意前往展示区查看实物后，使用了结束信号代码'##ENDCALL_SIGNAL##'。这表明服务方认为对话已经达到了目的，即用户对商品有了进一步的兴趣并准备亲自查看。服务方的意图是结束当前的在线或远程对话，转为现场服务，以提供更直接的购物体验。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

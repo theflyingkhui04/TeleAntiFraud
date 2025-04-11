@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是华夏银行客服中心，我是客服代表小张。我们发现您的银行卡可能涉及一笔异常交易，为了您的资金安全，请问您现在方便接听电话吗？",
+      "timestamp": 1740732507.6486595
+    },
+    {
+      "role": "right",
+      "content": "喂，您好，小张。我是小李，教师。我现在在学校，有点忙，但可以听您说一下。我的银行卡怎么了？",
+      "timestamp": 1740732524.665026
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到这是诈骗电话而选择立即挂断，或者由于当前忙碌而没有时间继续对话。用户的意图是终止当前对话，避免进一步的风险或浪费时间。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

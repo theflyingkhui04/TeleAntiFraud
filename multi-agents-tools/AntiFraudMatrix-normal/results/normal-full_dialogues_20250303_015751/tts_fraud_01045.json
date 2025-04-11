@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，我可以帮您下单或解答任何问题。",
+      "timestamp": 1740941972.564939
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我不太确定今天想吃什么，有什么推荐的吗？",
+      "timestamp": 1740941974.9510903
+    },
+    {
+      "role": "left",
+      "content": "当然，我们这里有几款热门菜品，比如麻辣香锅、酸菜鱼和牛肉拉面，都是顾客评价很高的。您对哪一种比较感兴趣？",
+      "timestamp": 1740941979.8814266
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错。我最近工作比较忙，吃点清淡的吧，那就酸菜鱼好了。",
+      "timestamp": 1740941981.3947191
+    },
+    {
+      "role": "left",
+      "content": "好的，酸菜鱼是非常不错的选择，清新又美味。请问需要什么饮料或者小菜搭配吗？",
+      "timestamp": 1740941985.7891438
+    },
+    {
+      "role": "right",
+      "content": "来一杯冰红茶吧，小菜就来个凉拌黄瓜。",
+      "timestamp": 1740941987.5388925
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已包含酸菜鱼、冰红茶和凉拌黄瓜。请问还有其他需要加的吗？",
+      "timestamp": 1740941995.0185304
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这样吧。谢谢。",
+      "timestamp": 1740941995.9203796
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计30分钟后送达。感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740942003.380936
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。",
+      "timestamp": 1740942006.9660068
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表达了感谢，表明不再需要其他服务。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计30分钟后送达。感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

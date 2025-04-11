@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询员为您服务，请问有什么我可以帮助您的？",
+      "timestamp": 1740946264.944204
+    },
+    {
+      "role": "right",
+      "content": "你好，我想问一下去市区的公交车怎么坐？",
+      "timestamp": 1740946266.0281055
+    },
+    {
+      "role": "left",
+      "content": "您好，去市区的公交车可以从您当前的位置乘坐路线一零一，直接到达市区中心站，途中大约需要四十分钟，您可以在公交站台查看实时到站信息。",
+      "timestamp": 1740946272.1913893
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。",
+      "timestamp": 1740946273.0607984
+    },
+    {
+      "role": "left",
+      "content": "如果您还有其他问题，欢迎随时咨询。祝您旅途愉快！",
+      "timestamp": 1740946276.635671
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你。旅途愉快！",
+      "timestamp": 1740946280.0966353
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已表示感谢并确认无需进一步帮助，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您还有其他问题，欢迎随时咨询。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你。旅途愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

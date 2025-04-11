@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩券中心的客服人员，恭喜您赢得了本期的特别大奖，奖金总额高达五百万元！为了确认您的中奖信息，请提供您的姓名和联系方式。",
+      "timestamp": 1740745829.0760038
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？太意外了！我叫张伟，电话是 13812345678。不过，我怎么确认这是真的呢？",
+      "timestamp": 1740745832.9932852
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们会尽快处理您的中奖事宜。如果需要进一步确认，我们会再次联系您。祝您生活愉快！再见。",
+      "timestamp": 1740745844.9654818
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！不过我还是有点不放心，先挂了，有事我会再联系你们。",
+      "timestamp": 1740745847.1170504
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和电话号码，这是敏感信息，诈骗明显成功。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们会尽快处理您的中奖事宜。如果需要进一步确认，我们会再次联系您。祝您生活愉快！再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！不过我还是有点不放心，先挂了，有事我会再联系你们。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

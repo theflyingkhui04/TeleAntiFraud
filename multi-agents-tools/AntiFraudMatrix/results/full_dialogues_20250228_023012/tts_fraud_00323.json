@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你听好了，你的儿子现在在我手上，如果不马上打50000元到这个账户，你就再也见不到他了！账号是6222 0215 1112 3344，户名李强，快点，你儿子的命就在你手里！",
+      "timestamp": 1740682650.069651
+    },
+    {
+      "role": "right",
+      "content": "你别吓我，我儿子好好的在家呢，你是不是搞错了？",
+      "timestamp": 1740682651.3287876
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是因为他识破了诈骗者的企图。用户明确表示他的儿子安全在家，这表明他对诈骗者的威胁持怀疑态度，并且不愿意继续与诈骗者交流。用户通过挂断电话表达了他拒绝继续参与对话的意图。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客户经理，李华。我们检测到您的账户有异常活动，需要您配合进行安全验证。为了您的资金安全，请您提供一下身份证号码和开户行信息。",
+      "timestamp": 1740779038.5266497
+    },
+    {
+      "role": "right",
+      "content": "你好，李华。你们怎么知道我的账户有异常活动的？我最近都没怎么用这张卡。你们能先告诉我具体的异常活动是什么吗？",
+      "timestamp": 1740779041.1061552
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者要求提供敏感信息前，表现出警惕并询问了具体的异常活动详情。用户可能怀疑对方的真实身份，为了防止个人信息泄露，选择主动挂断电话。这表明用户意识到可能存在诈骗风险，采取了自我保护措施。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

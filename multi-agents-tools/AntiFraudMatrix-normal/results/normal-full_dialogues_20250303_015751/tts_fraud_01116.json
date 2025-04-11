@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪一项服务？",
+      "timestamp": 1740955839.7579432
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我不需要预约服务。我是农民，主要关心农作物的种植和管理。你们有什么关于农业方面的服务吗？",
+      "timestamp": 1740955841.2243335
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话开始时尝试了解服务方是否提供与农业相关的服务，但服务方的回应表明其服务范围可能不包括农业方面的内容。用户在确认服务方无法提供所需信息后，礼貌地结束了对话。用户的意图是寻找与农业相关的服务或信息，但在得知服务方无法满足其需求后选择结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

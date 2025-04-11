@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到我们的购物中心，有什么可以帮助您的吗？",
+      "timestamp": 1740980551.6541426
+    },
+    {
+      "role": "right",
+      "content": "你好，我来看看有没有适合我孙子的玩具。他今年六岁了。",
+      "timestamp": 1740980553.5261467
+    },
+    {
+      "role": "left",
+      "content": "好的，我们这里有很多适合六岁孩子的玩具。您是想看看教育类的还是娱乐类的玩具呢？",
+      "timestamp": 1740980557.0924366
+    },
+    {
+      "role": "right",
+      "content": "教育类的吧，他平时喜欢动脑筋的东西。",
+      "timestamp": 1740980557.9010997
+    },
+    {
+      "role": "left",
+      "content": "明白了，我们有一些很受欢迎的拼图和科学实验套装，这些都能很好地锻炼孩子的思维能力。您感兴趣吗？",
+      "timestamp": 1740980563.0067441
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，可以带我去看看吗？",
+      "timestamp": 1740980563.769695
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我这就带您过去。请跟我来。",
+      "timestamp": 1740980567.993256
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740980569.0828736
+    },
+    {
+      "role": "left",
+      "content": "不客气，这是我的工作。有什么疑问随时可以问我。",
+      "timestamp": 1740980572.514986
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的需求并提供具体帮助后，选择结束对话。这表明服务方认为已经完成了用户请求的服务，并且通过提供明确的引导和帮助，确保用户满意。服务方的意图是确保用户能够顺利找到所需商品，同时保持高效的服务流程。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

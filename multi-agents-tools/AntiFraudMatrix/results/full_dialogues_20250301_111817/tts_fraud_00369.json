@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是您的银行客服中心，我们检测到您的账户有异常交易活动，为了您的资金安全，请立即提供您的账户信息以便我们进行核实。",
+      "timestamp": 1740809355.8174357
+    },
+    {
+      "role": "right",
+      "content": "您好，我的账户有异常交易活动？这听起来很严重。不过，我之前也有收到过类似的电话，说是银行的，结果后来发现是诈骗电话。您能理解我的担心吧？我需要确认一下您的身份，能告诉我您的工号和姓名吗？",
+      "timestamp": 1740809359.0426042
+    },
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快处理。感谢您的配合，祝您生活愉快。再见。",
+      "timestamp": 1740809366.0801983
+    },
+    {
+      "role": "right",
+      "content": "再见。我会等你们的进一步通知。如果有什么问题，我会主动联系银行的官方客服。谢谢。",
+      "timestamp": 1740809368.329255
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在用户要求进一步验证身份时选择了挂断，表明其不愿意或无法提供相关信息，这符合诈骗行为的特征。同时，诈骗者已经明确使用了挂断标识符'##ENDCALL_SIGNAL##'，表明对话已经结束。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快处理。感谢您的配合，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。我会等你们的进一步通知。如果有什么问题，我会主动联系银行的官方客服。谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

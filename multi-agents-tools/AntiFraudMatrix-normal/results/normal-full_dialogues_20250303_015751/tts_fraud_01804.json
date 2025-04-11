@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么我可以帮您的吗？",
+      "timestamp": 1740975239.445288
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我只是进来逛逛，看看有什么新书。",
+      "timestamp": 1740975240.5965269
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户明确表示了其当前没有具体的需求，仅是浏览，这表明用户当前并不需要服务方的进一步帮助。用户在对话中表达了感谢，并使用了结束信号代码'##ENDCALL_SIGNAL##'，这表明用户已经完成了其访问目的，且对服务方的欢迎表示了礼貌的回应。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

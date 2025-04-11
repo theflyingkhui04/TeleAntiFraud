@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您，您中了一等奖，奖金是五百万现金，还有价值一百万的奖品，真是太幸运了！",
+      "timestamp": 1740746890.370855
+    },
+    {
+      "role": "right",
+      "content": "真的吗？这太让人惊喜了！我该怎么做才能领取这些奖励呢？",
+      "timestamp": 1740746892.1603622
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑信息的真实性而选择挂断电话，以避免进一步的诈骗行为。用户的意图是停止与诈骗者的交流，防止个人信息泄露或财务损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

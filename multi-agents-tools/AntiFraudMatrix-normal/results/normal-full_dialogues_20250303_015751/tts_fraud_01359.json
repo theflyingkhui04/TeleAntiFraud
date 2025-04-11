@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "请问您需要咨询哪方面的交通信息？",
+      "timestamp": 1740965028.2501533
+    },
+    {
+      "role": "right",
+      "content": "我需要了解一下从市区到机场的公交线路。",
+      "timestamp": 1740965029.5599456
+    },
+    {
+      "role": "left",
+      "content": "从市区到机场有几条公交线路可以选择，最便捷的是机场快线，全程大约需要四十分钟，票价是十元。如果您需要详细的线路信息或时间表，我可以帮您查询。",
+      "timestamp": 1740965037.9436588
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。机场快线的起点站是哪里？大概多久一班车？",
+      "timestamp": 1740965039.5784786
+    },
+    {
+      "role": "left",
+      "content": "机场快线的起点站是市中心的公交总站，每十五分钟一班车，早班时间是六点，末班时间是晚上九点。您可以根据您的出行时间提前到达车站。",
+      "timestamp": 1740965046.3989758
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的帮助。",
+      "timestamp": 1740965047.281177
+    },
+    {
+      "role": "left",
+      "content": "如果您还有其他问题，随时可以咨询。祝您旅途愉快。",
+      "timestamp": 1740965052.7313695
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。旅途愉快。",
+      "timestamp": 1740965053.8854065
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表达了感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您还有其他问题，随时可以咨询。祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。旅途愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

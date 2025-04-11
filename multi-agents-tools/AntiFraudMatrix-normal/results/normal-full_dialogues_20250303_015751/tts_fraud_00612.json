@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，我可以帮您下单或解答任何问题。",
+      "timestamp": 1740945631.2865205
+    },
+    {
+      "role": "right",
+      "content": "好的，我想点一份牛肉炒饭和一份糖醋排骨，还有一瓶冰红茶。可以帮我确认一下订单吗？",
+      "timestamp": 1740945633.3010468
+    },
+    {
+      "role": "left",
+      "content": "当然可以，您的订单是：一份牛肉炒饭，一份糖醋排骨，还有一瓶冰红茶。请问需要备注什么特殊要求吗？例如口味偏淡或加辣？",
+      "timestamp": 1740945638.648049
+    },
+    {
+      "role": "right",
+      "content": "不需要特别备注，就这样就好。谢谢。",
+      "timestamp": 1740945639.5788267
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计送达时间为三十分钟内。如果送达时间有变动，我们会提前通知您。还有其他需要帮助的吗？",
+      "timestamp": 1740945645.573104
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户订单并告知预计送达时间后，询问用户是否还有其他需要帮助的事项。用户没有提出进一步的需求，服务方通过使用结束信号代码'##ENDCALL_SIGNAL##'来礼貌地结束对话，表明服务流程已经完成，且用户的需求得到了满足。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！我是快递公司的客服专员。我们发现您有一个重要的国际包裹被海关扣留，需要您提供身份信息以便核实身份并缴纳相关税费。请问您现在方便处理吗？",
+      "timestamp": 1740691156.3117344
+    },
+    {
+      "role": "right",
+      "content": "您好，我是医生，现在正在医院上班，不太方便处理这些事情。不过，我确实有一个国际包裹，能不能告诉我具体是怎么回事？我需要提供哪些信息？",
+      "timestamp": 1740691160.8482223
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为正在工作（医生在医院上班），不方便详细讨论或处理个人事务，因此选择挂断电话。用户虽然对包裹的情况表示了关心，但可能认为当前不是合适的时机或环境来处理此事。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

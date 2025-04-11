@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "打车服务为您效劳，请告诉我您的上车地点和目的地。",
+      "timestamp": 1740972707.2776191
+    },
+    {
+      "role": "right",
+      "content": "上车地点是科技园区正门，目的地是市中心的希尔顿酒店。",
+      "timestamp": 1740972709.2933888
+    },
+    {
+      "role": "left",
+      "content": "好的，您的上车地点是科技园区正门，目的地是市中心的希尔顿酒店。我已帮您叫车，预计三分钟后到达。请留意车辆信息，车牌号为京A12345，车型为黑色丰田卡罗拉。如果您有任何问题，可以随时联系我。",
+      "timestamp": 1740972716.7955077
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的上车地点和目的地后，成功为用户叫到了车，并提供了详细的车辆信息和预计到达时间。服务方认为已经完成了用户所需的服务，且明确告知用户如有问题可随时联系，因此选择结束对话。这表明服务方认为当前的服务流程已经完成，且用户没有表现出进一步的需求或疑问。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

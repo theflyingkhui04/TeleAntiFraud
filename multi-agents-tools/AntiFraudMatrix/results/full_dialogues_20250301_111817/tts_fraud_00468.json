@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是您银行卡的客服中心，我们检测到您的银行卡可能被盗用，为了您的资金安全，需要您立即提供卡号以便我们进行核实。",
+      "timestamp": 1740803228.0237777
+    },
+    {
+      "role": "right",
+      "content": "您好，我有点怀疑这是真的。你们能不能告诉我具体是怎么回事？我之前没有收到任何关于银行卡被盗用的短信或者邮件。而且，我最近也没有发现任何异常交易。你们能不能先告诉我你们的客服电话，我好确认一下？",
+      "timestamp": 1740803232.172431
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户表现出对来电真实性的怀疑，并要求提供客服电话以确认身份。用户在未得到满意的答复前选择挂断电话，表明其对可能的诈骗行为保持警惕，并不愿意提供任何敏感信息。这显示了用户具有一定的安全意识，选择通过挂断电话来保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

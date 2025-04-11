@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您！您已被选为本期幸运彩票大奖的得主，奖金高达50万元！请提供您的姓名和联系方式，以便我们核实您的身份并安排奖金发放。",
+      "timestamp": 1740681872.6345677
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太神奇了！我从来没有中过这么大的奖。那我该怎么操作呢？",
+      "timestamp": 1740681877.160082
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为突然意识到这可能是一起诈骗而选择挂断电话，或者用户可能因为需要时间考虑和验证信息的真实性而不愿意立即继续对话。用户的意图可能是避免进一步的风险或保护个人信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的孩子在我的手里，马上准备50万赎金，不许报警，否则你就再也见不到他了！",
+      "timestamp": 1740691820.6674504
+    },
+    {
+      "role": "right",
+      "content": "你、你是谁？你说什么？我的孩子在哪里？这到底是怎么回事？",
+      "timestamp": 1740691857.7851033
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对突如其来的威胁和要求时，表现出明显的恐慌和困惑，可能无法立即判断对方的真实意图。在这种高压情况下，用户选择挂断电话，可能是为了保护自己和家人，避免进一步的威胁，同时也可能为了寻求其他帮助，如报警或联系家人确认安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

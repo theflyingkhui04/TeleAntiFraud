@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国际快递公司客服中心，您的包裹在海关检查时发现了一笔意外的现金，需要您支付一笔税费才能放行。请您提供一下您的姓名和联系方式，以便我们为您处理。",
+      "timestamp": 1740742828.899408
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近确实有收到一个包裹，但里面应该没有现金。你们怎么会发现现金的呢？这听起来有点奇怪。",
+      "timestamp": 1740742846.2898853
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提到包裹中发现现金并要求支付税费时，产生了怀疑。用户表示最近确实收到了包裹，但不认为包裹内有现金，对诈骗者的故事表示质疑。用户通过挂断电话表达了对对话内容的不信任和拒绝继续交流的意图。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

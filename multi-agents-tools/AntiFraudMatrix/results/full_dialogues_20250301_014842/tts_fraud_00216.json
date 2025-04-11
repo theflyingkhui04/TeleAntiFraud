@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服专员，李华。我们发现您的账户可能存在安全风险，需要您配合我们进行一次安全验证。请问您现在方便吗？",
+      "timestamp": 1740779809.8837898
+    },
+    {
+      "role": "right",
+      "content": "啊，李华啊，你好你好。你说我的账户有安全风险？这事儿确实得赶紧处理。我现在还挺方便的，你说说看，需要我做些什么呢？",
+      "timestamp": 1740779811.7663856
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一起诈骗电话，因此在诈骗者还未展开具体诈骗步骤之前，选择了主动挂断电话以避免进一步的风险。用户的意图是终止与诈骗者的交流，防止个人信息泄露或资金损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

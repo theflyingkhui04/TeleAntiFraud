@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！这里是国际快递服务中心，我们发现您有一个从海外寄来的包裹被海关扣留，需要您提供一些信息以便处理。请问您现在方便通话吗？",
+      "timestamp": 1740733590.8692408
+    },
+    {
+      "role": "right",
+      "content": "你好，我这边现在挺忙的，不过我可以抽几分钟时间。你说的这个包裹是怎么回事？我最近没收到任何海外的包裹啊。",
+      "timestamp": 1740733598.373814
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑这是一起诈骗电话而选择挂断。用户提到自己最近没有收到任何海外包裹，这表明用户对诈骗者的说法产生了怀疑。用户在确认自己没有相关包裹后，选择挂断电话，以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

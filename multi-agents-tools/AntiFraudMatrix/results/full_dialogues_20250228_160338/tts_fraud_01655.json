@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是快递公司客服中心，我们发现您的包裹在清关过程中出现了一些问题，需要您协助处理。请问您方便接听吗？",
+      "timestamp": 1740740723.6925867
+    },
+    {
+      "role": "right",
+      "content": "您好，我方便接听。请问我的包裹出了什么问题呢？",
+      "timestamp": 1740740736.398637
+    },
+    {
+      "role": "left",
+      "content": "您的包裹中有一件物品被海关认为可能涉及违禁品，需要您提供一些额外的信息以便我们协助您处理。为了避免延误，您能提供您的姓名和联系方式吗？",
+      "timestamp": 1740740743.5989983
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫李建国，电话是一三五零零零零零零零。请问还需要提供什么信息呢？",
+      "timestamp": 1740740767.3228002
+    },
+    {
+      "role": "left",
+      "content": "很抱歉打扰您了，如果您不方便提供信息，我们会先将您的包裹暂时保留，后续有进展会再联系您。祝您生活愉快！再见。",
+      "timestamp": 1740740800.8332498
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的理解。如果有需要我配合的地方，请随时联系我。再见。",
+      "timestamp": 1740740813.8097415
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供了姓名和电话号码，属于敏感信息，诈骗明显成功。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "很抱歉打扰您了，如果您不方便提供信息，我们会先将您的包裹暂时保留，后续有进展会再联系您。祝您生活愉快！再见。"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的理解。如果有需要我配合的地方，请随时联系我。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

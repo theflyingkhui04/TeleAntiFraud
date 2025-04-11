@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我手上，要想他平安无事，马上准备三十万现金，不要报警，否则后果自负！",
+      "timestamp": 1740733620.5452557
+    },
+    {
+      "role": "right",
+      "content": "你别吓我，我真的没有那么多钱，你让我怎么办？你能不能先放了他，我们再慢慢想办法？",
+      "timestamp": 1740733624.6942112
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者提出的要求时，表现出了恐惧和无助，但同时也表达了无法满足对方要求的实际情况。用户试图通过请求诈骗者先释放人质来争取时间，这表明用户可能是在试图拖延时间，寻找其他解决办法，比如报警。用户最终挂断电话，可能是为了切断与诈骗者的联系，避免进一步受到威胁，同时也可能是因为感到恐慌和不知所措。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您！您刚刚参加的抽奖活动中，幸运地赢得了50万元的大奖！",
+      "timestamp": 1740683736.5164106
+    },
+    {
+      "role": "right",
+      "content": "您好，谢谢您的通知。不过，我最近并没有参加过任何抽奖活动，这可能是搞错了。另外，我听说这种中奖信息很多都是诈骗，所以我要确认一下，您能否提供一些具体的证明，比如中奖的凭证或者官方的联系方式？",
+      "timestamp": 1740683738.8895574
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对诈骗信息的警惕性，明确表示自己近期未参与任何抽奖活动，并对中奖信息的真实性提出了质疑，要求提供具体的证明材料。用户挂断电话的原因可能是为了防止潜在的诈骗风险，保护自己的信息安全。用户的意图是终止与诈骗者的进一步交流，避免可能的财产损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

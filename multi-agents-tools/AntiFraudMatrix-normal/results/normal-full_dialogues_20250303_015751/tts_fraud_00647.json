@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，我可以帮您订购您想吃的美食，请问您想订哪家餐厅的什么餐点呢？",
+      "timestamp": 1740957113.932321
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个外卖，有什么推荐的餐厅吗？",
+      "timestamp": 1740957114.880814
+    },
+    {
+      "role": "left",
+      "content": "您好，我们这里有多种类型的餐厅可以选择，比如中式、西式、日式和韩式等。您可以告诉我您偏好的口味或菜系，我可以为您推荐一些热门餐厅。您想尝试哪种类型的美食呢？",
+      "timestamp": 1740957119.598366
+    },
+    {
+      "role": "right",
+      "content": "中式吧，想吃点家常菜。",
+      "timestamp": 1740957122.5318239
+    },
+    {
+      "role": "left",
+      "content": "好的，推荐您尝试一下“家常小馆”，这里的家常菜非常受欢迎，有宫保鸡丁、鱼香肉丝、清炒时蔬等经典菜品。您对这些菜品感兴趣吗？或者有其他特别想吃的菜吗？",
+      "timestamp": 1740957131.745936
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁和鱼香肉丝听起来不错，来这两个吧。还要一份米饭。",
+      "timestamp": 1740957134.0370812
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您添加了宫保鸡丁、鱼香肉丝和一份米饭。请问还需要其他配菜或饮料吗？",
+      "timestamp": 1740957139.0538087
+    },
+    {
+      "role": "right",
+      "content": "不用了，这样就行。谢谢。",
+      "timestamp": 1740957139.8894186
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，包含宫保鸡丁、鱼香肉丝和一份米饭。预计送达时间为30分钟内。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740957147.6861372
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740957148.4198663
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并明确表示不需要其他服务，同时表达了感谢。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，包含宫保鸡丁、鱼香肉丝和一份米饭。预计送达时间为30分钟内。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

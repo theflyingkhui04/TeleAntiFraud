@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮助您的？",
+      "timestamp": 1740952703.0985932
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份午餐。有什么推荐的吗？",
+      "timestamp": 1740952704.0463934
+    },
+    {
+      "role": "left",
+      "content": "我们今天的特色午餐有牛肉炒饭和鸡肉意面，都非常受欢迎。您想尝试哪一款呢？",
+      "timestamp": 1740952709.595628
+    },
+    {
+      "role": "right",
+      "content": "那就来一份牛肉炒饭吧。听起来不错。",
+      "timestamp": 1740952710.551007
+    },
+    {
+      "role": "left",
+      "content": "好的，一份牛肉炒饭已经加入您的订单。还需要搭配其他的菜品或饮料吗？",
+      "timestamp": 1740952716.582669
+    },
+    {
+      "role": "right",
+      "content": "来一杯冰红茶吧。谢谢。",
+      "timestamp": 1740952717.5303943
+    },
+    {
+      "role": "left",
+      "content": "好的，一份牛肉炒饭和一杯冰红茶，您的订单已经确认。请告诉我您的送餐地址。",
+      "timestamp": 1740952723.092375
+    },
+    {
+      "role": "right",
+      "content": "地址是公园路123号，阳光小区3号楼2单元102室。",
+      "timestamp": 1740952725.0900497
+    },
+    {
+      "role": "left",
+      "content": "好的，您的地址是公园路123号，阳光小区3号楼2单元102室。我们将在大约30分钟内为您送达。还需要其他帮助吗？",
+      "timestamp": 1740952731.0581865
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情和送餐地址后，询问用户是否需要其他帮助。用户没有进一步的需求，服务方通过发送结束信号代码 ##ENDCALL_SIGNAL## 表示对话已经完成，订单处理完毕，服务方认为此时结束对话是合适的。服务方的意图是确保用户的需求已经完全满足，并礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

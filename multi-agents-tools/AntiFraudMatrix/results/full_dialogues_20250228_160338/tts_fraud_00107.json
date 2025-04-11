@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子的同学，他现在出了点事，需要马上汇款五千元到这个账号，不然他会有危险的。请您立刻转账，账号是一三七零五四二一七八六三。",
+      "timestamp": 1740741981.2734914
+    },
+    {
+      "role": "right",
+      "content": "什么？你再说一遍，我儿子怎么了？他现在在哪里？出了什么事？你先别急，慢慢说清楚。",
+      "timestamp": 1740742005.400799
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提供具体信息之前主动挂断了电话，可能是出于对诈骗者身份的怀疑和对所提供信息的警惕。用户在诈骗者提出转账要求后，要求诈骗者提供更多细节，但诈骗者未能提供足够的信息来消除用户的疑虑，导致用户选择挂断电话以避免进一步的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

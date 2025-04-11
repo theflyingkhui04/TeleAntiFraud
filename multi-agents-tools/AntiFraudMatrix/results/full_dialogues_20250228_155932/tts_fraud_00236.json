@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您中得了一等奖！我是彩票中心的王主任，请问您方便接听电话吗？",
+      "timestamp": 1740757758.3008535
+    },
+    {
+      "role": "right",
+      "content": "哦，王主任，您好。我真是中了一等奖吗？这太意外了。不过，我最近好像没有买过彩票啊。您能告诉我具体是哪一期的彩票吗？",
+      "timestamp": 1740757761.8776073
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提供的信息产生了怀疑，因为用户表示自己近期没有购买过彩票。用户挂断电话可能是为了进一步核实信息，或者直接选择不相信这一突如其来的‘中奖’消息，以避免潜在的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

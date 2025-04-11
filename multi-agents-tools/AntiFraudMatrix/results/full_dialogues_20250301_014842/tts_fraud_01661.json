@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服中心，您的一个包裹在运输过程中被发现有问题，需要您配合处理，麻烦您提供一下手机号码和身份证号，以便我们核对信息。",
+      "timestamp": 1740780205.4609692
+    },
+    {
+      "role": "right",
+      "content": "好的，我明白了。我的手机号码是一三八零零一三八零零零，身份证号是三十一零零一九五四年一月一日出生的，你可以查一下。",
+      "timestamp": 1740780207.349691
+    },
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快处理这个问题。如果有进一步的进展，我们会及时与您联系。谢谢您的配合，再见。",
+      "timestamp": 1740780213.6699712
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。希望问题能尽快解决。再见。",
+      "timestamp": 1740780216.01038
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（手机号码和身份证号），诈骗明显成功。为了防止进一步的信息泄露，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快处理这个问题。如果有进一步的进展，我们会及时与您联系。谢谢您的配合，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。希望问题能尽快解决。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

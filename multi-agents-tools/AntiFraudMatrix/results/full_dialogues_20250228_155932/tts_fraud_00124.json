@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "张先生吗？我是您的老朋友李健，不知道您还记得我吗？我刚从国外回来，有些事情需要您的帮助。",
+      "timestamp": 1740748337.2399087
+    },
+    {
+      "role": "right",
+      "content": "哎呀，李健，好久不见！你还好吗？你刚从国外回来啊，有什么事情需要我帮忙的，尽管说吧。",
+      "timestamp": 1740748338.7946477
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提供结束信号后立即挂断电话，表明用户可能意识到对话的异常或诈骗性质。用户的回应看似热情，但紧随诈骗者的结束信号，显示用户可能察觉到对话的不对劲，并选择迅速结束对话以避免潜在的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

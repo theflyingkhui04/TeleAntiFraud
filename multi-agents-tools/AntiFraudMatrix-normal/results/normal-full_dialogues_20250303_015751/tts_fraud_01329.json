@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪一项服务？",
+      "timestamp": 1740957531.0705278
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我不需要预约服务。",
+      "timestamp": 1740957533.292604
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户明确表示不需要预约服务，并通过发送结束信号代码'##ENDCALL_SIGNAL##'表达了结束对话的意图。这表明用户已经了解了服务选项，并决定当前不使用这些服务。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是张伟的家人吗？张伟现在在我这里，他出了一点事，你们必须在半小时内给我们转一笔钱，不然我们就……",
+      "timestamp": 1740735287.230346
+    },
+    {
+      "role": "right",
+      "content": "你们到底是谁？张伟怎么会在你们那里？他出什么事了？你们为什么要钱？这听起来太奇怪了，我得先确认一下这是真的。",
+      "timestamp": 1740735290.5848243
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的要求表示怀疑，并要求更多详细信息以确认情况的真实性。用户可能已经意识到这是一起诈骗行为，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

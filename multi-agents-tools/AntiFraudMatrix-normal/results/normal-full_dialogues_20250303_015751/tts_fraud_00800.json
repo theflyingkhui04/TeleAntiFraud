@@ -1,0 +1,41 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，请告诉我您的上车地点和目的地。",
+      "timestamp": 1740950258.1420865
+    },
+    {
+      "role": "right",
+      "content": "上车地点是大学南门，目的地是市中心火车站。",
+      "timestamp": 1740950261.9274592
+    },
+    {
+      "role": "left",
+      "content": "好的，您的上车地点是大学南门，目的地是市中心火车站。请稍等片刻，系统正在为您匹配合适的司机。预计等待时间约为五到十分钟。",
+      "timestamp": 1740950267.2953146
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740950267.7542126
+    },
+    {
+      "role": "left",
+      "content": "不客气，如果有什么其他需求，请随时告诉我。我会为您留意。",
+      "timestamp": 1740950277.1821415
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740950278.313447
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认了上车地点和目的地，并得到了服务方关于等待时间的回复后，表示感谢并使用了结束信号代码'##ENDCALL_SIGNAL##'。这表明用户对服务感到满意，且认为无需进一步的交流，意图结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

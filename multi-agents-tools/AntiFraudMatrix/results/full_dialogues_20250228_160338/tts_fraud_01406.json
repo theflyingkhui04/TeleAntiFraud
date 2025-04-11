@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是银行客服专员，系统显示您的账户存在异常交易，需要立即核实您的身份信息。请问您的全名和身份证号码是？",
+      "timestamp": 1740735911.4271295
+    },
+    {
+      "role": "right",
+      "content": "不好意思，我不能提供这些信息。银行通常不会通过电话询问客户的身份证号码。如果您确实是银行工作人员，请提供工号和所在支行信息，我会亲自去银行核实。",
+      "timestamp": 1740735949.4592226
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是识破了诈骗者的企图。用户意识到银行不会通过电话询问敏感信息，如身份证号码，因此拒绝提供，并要求诈骗者提供工号和所在支行信息，以进一步验证其身份。用户的意图是保护个人信息不被泄露，并通过要求对方提供更多信息来验证其合法性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,41 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询助手，有什么我可以帮您的吗？",
+      "timestamp": 1740979168.9503276
+    },
+    {
+      "role": "right",
+      "content": "你好，我最近想了解一下最新的交通法规，有什么变化吗？",
+      "timestamp": 1740979169.9835339
+    },
+    {
+      "role": "left",
+      "content": "最近的交通法规有一些更新，比如增加了电动车的管理规定，提高了酒驾的处罚力度，还有对使用手机驾驶的行为进行了更严格的限制。您具体想了解哪方面的内容呢？",
+      "timestamp": 1740979178.3037834
+    },
+    {
+      "role": "right",
+      "content": "电动车的管理规定和使用手机驾驶的限制，这两个方面了解一下。",
+      "timestamp": 1740979180.3211036
+    },
+    {
+      "role": "left",
+      "content": "好的。关于电动车的管理规定，现在要求所有电动车必须上牌，并且驾驶者需年满十六岁，佩戴安全头盔。对于使用手机驾驶的限制，新规规定驾驶过程中禁止手持使用手机，包括接打电话和操作手机，违反者将面临罚款和扣分。希望这些信息对您有帮助。",
+      "timestamp": 1740979193.8320847
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的详细解答。这些新规听起来挺合理的。",
+      "timestamp": 1740979196.282943
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在获得所需信息后，明确表示感谢并使用了结束信号代码'##ENDCALL_SIGNAL##'，表明用户对服务方提供的信息感到满意，且认为对话已达到其目的，无需进一步交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

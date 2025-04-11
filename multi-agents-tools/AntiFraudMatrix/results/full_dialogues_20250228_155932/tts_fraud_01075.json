@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX彩票中心的客服，恭喜您被随机选中成为我们本期的幸运用户，您将获得五十万元的奖金。请问您方便接听电话吗？",
+      "timestamp": 1740759392.182321
+    },
+    {
+      "role": "right",
+      "content": "您好，真的吗？太意外了，我竟然中了这么大的奖。不过我现在正在上课，不太方便接电话，您能发个短信给我吗？",
+      "timestamp": 1740759393.9663336
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为正在上课，不方便继续电话交流，因此选择挂断电话。用户的意图是希望以短信的形式继续沟通，以便在更方便的时间处理此事。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

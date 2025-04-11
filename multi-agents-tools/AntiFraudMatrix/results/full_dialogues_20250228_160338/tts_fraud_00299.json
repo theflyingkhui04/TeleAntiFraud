@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递客服中心，我们发现您的包裹因海关问题被扣留，需要您提供身份信息以协助处理。请问您方便现在提供吗？",
+      "timestamp": 1740734729.0400033
+    },
+    {
+      "role": "right",
+      "content": "您好，我是老师，平时比较忙。这个包裹是什么时候寄的？我怎么没印象呢？",
+      "timestamp": 1740734731.6762698
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为对快递信息的不熟悉和对突然要求提供身份信息的警惕性而选择挂断电话。用户的意图可能是避免潜在的风险，同时由于其教师身份，可能对个人信息保护有较高的意识。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

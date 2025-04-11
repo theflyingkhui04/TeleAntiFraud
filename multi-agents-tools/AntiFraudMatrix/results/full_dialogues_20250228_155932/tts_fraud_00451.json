@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，是[受害者姓名]先生/女士吗？我是[某地]公安局的警官，你儿子现在在我们手上，需要马上汇款二十万赎金，否则后果自负。",
+      "timestamp": 1740759029.874142
+    },
+    {
+      "role": "right",
+      "content": "你好，你说你是公安局的警官？这听起来有点奇怪，我儿子怎么可能被你们抓了？我需要确认一下你的身份。",
+      "timestamp": 1740759033.113405
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提出不合理的赎金要求后，对诈骗者的身份产生了怀疑，并要求确认诈骗者的身份。用户可能已经意识到这是一起诈骗行为，因此选择主动挂断电话以避免进一步的交流和潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

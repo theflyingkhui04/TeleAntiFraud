@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是您的购物助理，有什么我可以帮您的吗？",
+      "timestamp": 1740956266.045388
+    },
+    {
+      "role": "right",
+      "content": "你好，我来看看有没有合适的电子产品。",
+      "timestamp": 1740956266.8501837
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们这里有各种品牌的手机、平板、笔记本电脑等电子产品，您有什么具体的需求吗？",
+      "timestamp": 1740956273.287348
+    },
+    {
+      "role": "right",
+      "content": "主要是想买个新手机，预算在四千左右。",
+      "timestamp": 1740956275.2064533
+    },
+    {
+      "role": "left",
+      "content": "好的，四千元左右的手机选择很多，您是更注重性能、拍照还是续航呢？这样我可以为您推荐几款合适的机型。",
+      "timestamp": 1740956280.0290651
+    },
+    {
+      "role": "right",
+      "content": "性能和续航都挺重要的，拍照一般用用就好。",
+      "timestamp": 1740956283.7955346
+    },
+    {
+      "role": "left",
+      "content": "了解了，根据您的需求，我推荐您可以考虑以下几款手机：第一款是小米11，性能和续航都非常出色，价格也在您的预算范围内；第二款是荣耀V40，同样有着不错的性能和续航表现。您可以看看这两款手机的详细参数，看哪一款更符合您的需求。",
+      "timestamp": 1740956293.7939453
+    },
+    {
+      "role": "right",
+      "content": "好的，我看看这俩款。谢谢。",
+      "timestamp": 1740956294.5822484
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您对这两款手机有任何疑问或需要进一步的帮助，随时可以联系我。希望您能找到满意的手机，祝您购物愉快。",
+      "timestamp": 1740956301.4191577
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会仔细看看的。祝好。",
+      "timestamp": 1740956302.6088502
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表达了感谢，表明其需求已得到满足。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您对这两款手机有任何疑问或需要进一步的帮助，随时可以联系我。希望您能找到满意的手机，祝您购物愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会仔细看看的。祝好。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

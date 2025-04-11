@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是银行客服中心，我们检测到您的账户存在异常交易，需要您配合核实身份信息以确保资金安全。请问您现在方便接听吗？",
+      "timestamp": 1740690565.926281
+    },
+    {
+      "role": "right",
+      "content": "啊？我的账户有异常交易？这个...这个不太可能吧。我最近都没怎么用银行卡。你们是哪家银行？我怎么知道你们是真的客服？",
+      "timestamp": 1740690569.9709327
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑来电的真实性而选择挂断电话。用户在对话中表达了对账户异常交易的怀疑，并询问了对方是哪家银行，表明用户对来电者的身份持谨慎态度。用户可能认为直接挂断电话是避免潜在风险的最安全方式。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

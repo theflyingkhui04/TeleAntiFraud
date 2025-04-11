@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，我是你儿子的朋友，他现在遇到了一点麻烦，需要你的帮助。",
+      "timestamp": 1740745086.2718441
+    },
+    {
+      "role": "right",
+      "content": "你好，你说你是我家儿子的朋友？他遇到了什么麻烦？你能详细说说吗？我儿子现在在哪里？",
+      "timestamp": 1740745087.7777674
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方的身份或感到对话内容不正常而选择挂断电话。用户的意图是避免进一步的风险或诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

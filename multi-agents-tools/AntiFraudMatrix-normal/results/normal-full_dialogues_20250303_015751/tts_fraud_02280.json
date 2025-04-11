@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么我可以帮您的？",
+      "timestamp": 1740945268.4523702
+    },
+    {
+      "role": "right",
+      "content": "您好，我想订一份外卖。你们这里有什么推荐的吗？",
+      "timestamp": 1740945269.8959749
+    },
+    {
+      "role": "left",
+      "content": "我们这里有许多受欢迎的菜品，比如宫保鸡丁、鱼香肉丝和牛肉炒饭，都是非常受欢迎的选择。您有什么偏好吗？",
+      "timestamp": 1740945275.4340782
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，我就来一份宫保鸡丁吧。还有什么别的需要搭配的吗？",
+      "timestamp": 1740945276.829603
+    },
+    {
+      "role": "left",
+      "content": "宫保鸡丁配一份米饭和一份酸辣汤会是个不错的选择。这样既有主食也有汤，营养均衡。您觉得如何？",
+      "timestamp": 1740945285.3524845
+    },
+    {
+      "role": "right",
+      "content": "好的，那就这样吧。再加一份米饭和酸辣汤。谢谢您的建议。",
+      "timestamp": 1740945286.6318343
+    },
+    {
+      "role": "left",
+      "content": "不客气，您的订单已经记录好了。宫保鸡丁、一份米饭和一份酸辣汤。请问还需要其他的吗？",
+      "timestamp": 1740945291.7385962
+    },
+    {
+      "role": "right",
+      "content": "不需要了，谢谢。请问大概多久能送到？",
+      "timestamp": 1740945292.6371121
+    },
+    {
+      "role": "left",
+      "content": "您的订单预计在30到40分钟内送达。我们会尽快为您准备好。还有其他需要帮忙的吗？",
+      "timestamp": 1740945296.764613
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户订单详情并告知预计送达时间后，询问用户是否还有其他需要帮助的事项。在用户没有进一步需求的情况下，服务方使用了结束标识符'##ENDCALL_SIGNAL##'，表明服务方认为对话目标已达成，即用户的需求已得到满足，服务流程已完成，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

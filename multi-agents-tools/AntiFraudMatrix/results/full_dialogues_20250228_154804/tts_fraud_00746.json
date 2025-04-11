@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某宝客服，系统检测到您的账户有异常交易，需要您配合我们进行核实，以免造成不必要的损失。",
+      "timestamp": 1740748477.7436318
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近确实有在某宝上购物，但如果真的是账户异常，我应该会收到短信通知吧？你们能提供一下具体的异常交易信息吗？我需要确认一下。",
+      "timestamp": 1740748481.918648
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能怀疑对方身份的真实性，要求提供具体的异常交易信息以确认对方是否为真正的客服。用户在未获得足够信息以确认对方身份的情况下选择挂断电话，以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

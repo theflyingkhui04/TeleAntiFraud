@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，您的账户刚刚有一笔异常交易，我们需要您配合确认一下。",
+      "timestamp": 1740758949.3939803
+    },
+    {
+      "role": "right",
+      "content": "真的吗？我刚刚确实收到了一条短信，说我的账户有异常。我该怎么办？我是个老师，平时很少用银行卡交易的。",
+      "timestamp": 1740758951.519352
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在接收到诈骗者的信息后，虽然表现出一定的关注，但随后主动挂断了电话。这可能是因为用户意识到对话内容存在可疑之处，或者用户对诈骗者的身份产生了怀疑，决定不再继续对话以保护自己的信息安全。用户的意图可能是为了避免进一步的诈骗行为，确保自己的财产安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

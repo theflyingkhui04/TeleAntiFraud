@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李老板吗？我是您的老朋友张伟，现在遇到了点麻烦，需要您的帮助。",
+      "timestamp": 1740729843.0828733
+    },
+    {
+      "role": "right",
+      "content": "您好，张伟先生，不过您可能弄错了，我并不是什么李老板，我叫小林，目前还没找到工作。您应该是在找其他人吧？",
+      "timestamp": 1740729846.9383087
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因可能是认为对方打错了电话，并且对方提到的‘李老板’与自己身份不符。用户意图是终止这次无关的对话，避免浪费时间。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

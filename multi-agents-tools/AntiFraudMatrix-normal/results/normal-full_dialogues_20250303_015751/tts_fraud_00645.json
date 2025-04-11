@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想要订购的餐品和送餐地址吗？",
+      "timestamp": 1740944891.3909385
+    },
+    {
+      "role": "right",
+      "content": "好的，我想要一份牛肉炒饭和一份宫保鸡丁，送餐地址是科技园区A座12楼。",
+      "timestamp": 1740944892.8682706
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录。请问需要什么饮料搭配吗？或者有其他特殊要求？",
+      "timestamp": 1740944897.0368457
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这样。谢谢。",
+      "timestamp": 1740944900.8552732
+    },
+    {
+      "role": "left",
+      "content": "您的订单已确认，预计将在30分钟后送达科技园区A座12楼。感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740944905.7894075
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740944906.6071315
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已确认订单内容，并明确表示无需其他服务，同时表达了感谢。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的订单已确认，预计将在30分钟后送达科技园区A座12楼。感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

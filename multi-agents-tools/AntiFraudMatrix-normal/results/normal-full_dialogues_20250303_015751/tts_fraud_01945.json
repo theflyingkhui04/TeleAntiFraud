@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，有什么我可以帮忙的吗？",
+      "timestamp": 1740979986.2676125
+    },
+    {
+      "role": "right",
+      "content": "你好，我想咨询一下家里的暖气问题。最近家里暖气不太热，想看看是不是需要调整一下。",
+      "timestamp": 1740979988.4821522
+    },
+    {
+      "role": "left",
+      "content": "了解了，您可以先检查一下暖气阀门是否完全打开，有时候可能是阀门没有完全打开导致的。如果阀门已经完全打开，暖气还是不热，可能需要联系专业的维修人员进行检查。您看这样处理可以吗？",
+      "timestamp": 1740979995.8200688
+    },
+    {
+      "role": "right",
+      "content": "好的，我先检查一下阀门。如果还是不行，再联系维修人员。谢谢你。",
+      "timestamp": 1740980000.1869175
+    },
+    {
+      "role": "left",
+      "content": "好的，如果暖气阀门没有问题，建议您联系专业的维修人员检查一下。希望这些建议对您有帮助，如果还有其他问题，随时欢迎咨询。祝您生活愉快。",
+      "timestamp": 1740980009.7443478
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。",
+      "timestamp": 1740980011.040179
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示会先检查阀门，如果问题仍然存在会联系维修人员，并对服务方表示了感谢。这表明用户的问题得到了初步的解决，且用户对当前的建议表示满意。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果暖气阀门没有问题，建议您联系专业的维修人员检查一下。希望这些建议对您有帮助，如果还有其他问题，随时欢迎咨询。祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

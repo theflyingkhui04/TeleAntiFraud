@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友小李的同事，现在小李出事了，他被人绑架了！您能听到我说话吗？",
+      "timestamp": 1740759216.531732
+    },
+    {
+      "role": "right",
+      "content": "小李出事了？这...这怎么可能！小李前几天还来医院找我看病呢。等等，你说是绑架？这听起来不太对劲，我得先报警。",
+      "timestamp": 1740759222.0615418
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其朋友小李被绑架后，表现出明显的怀疑态度，并决定报警。这表明用户识破了诈骗企图，因此选择挂断电话以避免进一步的风险。用户的意图是终止与诈骗者的交流，并采取行动保护自己和朋友的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

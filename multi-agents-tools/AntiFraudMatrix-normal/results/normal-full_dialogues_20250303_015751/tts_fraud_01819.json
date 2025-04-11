@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品是您特别感兴趣的吗？",
+      "timestamp": 1740958911.6998777
+    },
+    {
+      "role": "right",
+      "content": "你好，我主要是来看看你们的书籍，特别是历史类的。",
+      "timestamp": 1740958915.3386307
+    },
+    {
+      "role": "left",
+      "content": "好的，我们的历史类书籍主要位于三楼的文学与历史专区，那里的藏书非常丰富。需要我带您过去吗？",
+      "timestamp": 1740958919.2199852
+    },
+    {
+      "role": "right",
+      "content": "不用了，谢谢。我知道怎么去，三楼对吧？",
+      "timestamp": 1740958920.3014364
+    },
+    {
+      "role": "left",
+      "content": "是的，三楼，您沿着楼梯上去就能看到指示牌。如果您有任何问题，可以随时找工作人员帮忙。希望您能找到心仪的书籍。",
+      "timestamp": 1740958927.2867339
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我会自己慢慢找找看。",
+      "timestamp": 1740958928.3236177
+    },
+    {
+      "role": "left",
+      "content": "如果您需要任何帮助，随时欢迎回来找我们。希望您今天有一个愉快的购物体验。",
+      "timestamp": 1740958937.9386594
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会的。祝我好运吧！",
+      "timestamp": 1740958938.9897816
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经明确表示感谢并表示会自己慢慢找书，没有进一步的服务需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您需要任何帮助，随时欢迎回来找我们。希望您今天有一个愉快的购物体验。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会的。祝我好运吧！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

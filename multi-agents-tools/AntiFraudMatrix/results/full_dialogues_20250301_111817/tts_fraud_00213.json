@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，恭喜你中了我们彩票的大奖！你是不是还沉浸在惊喜之中？我们这次的奖金可是高达五百万元呢！",
+      "timestamp": 1740812493.445666
+    },
+    {
+      "role": "right",
+      "content": "哇，真的假的？这么好的事情怎么就让我碰上了？不过我最近都没买彩票啊，你们是不是搞错了？",
+      "timestamp": 1740812494.9281912
+    },
+    {
+      "role": "left",
+      "content": "绝对没有错，我们是通过你的手机号码随机抽取的。你真是太幸运了，这个活动是为了庆祝我们彩票上市十周年，特地举办的。你只需要提供一下你的身份证号码，我们就可以开始办理兑奖手续了。",
+      "timestamp": 1740812500.4642403
+    },
+    {
+      "role": "right",
+      "content": "等等，这听起来有点不对劲。你们为什么会用手机号码抽奖？而且，我从没听说过这样的活动。你们是不是骗子？我可不想把我的身份证号码随便给陌生人。",
+      "timestamp": 1740812502.5498748
+    },
+    {
+      "role": "left",
+      "content": "那真是太可惜了，本来你有机会获得一笔不小的财富。不过如果你改变主意了，可以随时联系我们。希望你今天过得愉快。再见。",
+      "timestamp": 1740812513.4557476
+    },
+    {
+      "role": "right",
+      "content": "再见。我得先查一查再说。",
+      "timestamp": 1740812514.7292223
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经识破诈骗，并明确表示怀疑和拒绝提供个人信息。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "那真是太可惜了，本来你有机会获得一笔不小的财富。不过如果你改变主意了，可以随时联系我们。希望你今天过得愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。我得先查一查再说。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

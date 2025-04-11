@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，先生，我是从您的朋友小李那里得知您的电话的。很不幸，我现在必须告诉您一个非常紧急的情况，小李他出事了。",
+      "timestamp": 1740779414.0457664
+    },
+    {
+      "role": "right",
+      "content": "什么？小李出事了？怎么会这样？他现在怎么样了？你在哪里？我需要过去看看。",
+      "timestamp": 1740779415.4658992
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为情绪激动，担心朋友小李的安全，急于了解具体情况或亲自前往查看，因此没有等待诈骗者进一步的解释就挂断了电话。这表明用户在听到朋友出事的消息后，可能没有意识到这是一个诈骗电话，而是出于关心和急切的心情采取了行动。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "这里是银行客服中心，我们发现您的账户存在异常登录行为，需要立即核实您的身份信息以确保账户安全。请问您方便配合我们的验证流程吗？",
+      "timestamp": 1740691143.357027
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？账户异常登录听起来挺严重的。不过，我最近确实没有登录过银行账户。你们能帮我确认一下具体是什么问题吗？\n\n我最近失业了，所以账户里的钱对我来说很重要。如果有任何风险，我希望能尽快解决。",
+      "timestamp": 1740691148.3313427
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称的账户异常登录后，虽然表现出了一定的担忧，但可能在进一步思考后意识到这可能是一个诈骗电话，尤其是在诈骗者要求核实身份信息时。用户可能意识到提供个人信息的风险，因此选择主动挂断电话以保护自己的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

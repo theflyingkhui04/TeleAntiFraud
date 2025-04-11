@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740967597.6372113
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖。有什么推荐的吗？",
+      "timestamp": 1740967598.811994
+    },
+    {
+      "role": "left",
+      "content": "我们有几款热门菜品非常受顾客欢迎，比如宫保鸡丁、牛肉炒饭和酸菜鱼，您可以考虑一下。您有特别的口味或饮食需求吗？",
+      "timestamp": 1740967604.7680643
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来一份宫保鸡丁吧。还要加一份米饭。",
+      "timestamp": 1740967606.272431
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁加一份米饭已加入您的订单。还需要其他菜品或饮品吗？",
+      "timestamp": 1740967612.8349297
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这样吧。谢谢。",
+      "timestamp": 1740967613.7408707
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认。一份宫保鸡丁和一份米饭，我们将在大约30分钟后为您送达。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740967620.7309089
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740967622.4276981
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经点完餐并表示感谢，对话目标已达成，用户明确表达了结束对话的意愿。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认。一份宫保鸡丁和一份米饭，我们将在大约30分钟后为您送达。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

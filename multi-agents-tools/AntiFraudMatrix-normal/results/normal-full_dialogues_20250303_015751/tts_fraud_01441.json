@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740948444.5692346
+    },
+    {
+      "role": "right",
+      "content": "我想订个外卖，有什么推荐的吗？",
+      "timestamp": 1740948448.3932014
+    },
+    {
+      "role": "left",
+      "content": "我们这周的特色推荐是牛肉炒饭和宫保鸡丁，都是很受欢迎的菜品，您感兴趣吗？",
+      "timestamp": 1740948452.4784636
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来一份牛肉炒饭吧。还需要点别的吗？",
+      "timestamp": 1740948453.634208
+    },
+    {
+      "role": "left",
+      "content": "我们还有新鲜的果蔬沙拉和招牌汤品，您可以搭配一份，营养更均衡。需要来一份沙拉吗？",
+      "timestamp": 1740948458.7469773
+    },
+    {
+      "role": "right",
+      "content": "来一份果蔬沙拉吧。对了，送餐时间大概多久？",
+      "timestamp": 1740948462.6206641
+    },
+    {
+      "role": "left",
+      "content": "您的订单已记录，预计在三十分钟内送达，如果遇到高峰期可能会稍有延迟。您还有其他要求吗？",
+      "timestamp": 1740948466.8317912
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。没有其他要求了。",
+      "timestamp": 1740948467.6022766
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包含一份牛肉炒饭和一份果蔬沙拉，预计三十分钟内送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740948475.2350154
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待外卖。",
+      "timestamp": 1740948476.615031
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单，并表示没有其他要求，同时表达了感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包含一份牛肉炒饭和一份果蔬沙拉，预计三十分钟内送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待外卖。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

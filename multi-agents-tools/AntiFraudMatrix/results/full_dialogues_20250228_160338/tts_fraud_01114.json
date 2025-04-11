@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你听好了，你儿子现在在我手上！如果不想他出事，就马上准备二十万到指定账户！",
+      "timestamp": 1740729960.060846
+    },
+    {
+      "role": "right",
+      "content": "啊？我儿子真的在你手上吗？他现在怎么样了？你可别伤害他啊！（声音颤抖）我马上就去准备钱，你能告诉我账号吗？",
+      "timestamp": 1740729965.2849762
+    },
+    {
+      "role": "left",
+      "content": "好，你动作快点，我会在收到钱后放了他！记住，不要报警，否则后果自负！",
+      "timestamp": 1740729978.20933
+    },
+    {
+      "role": "right",
+      "content": "好的好的，我绝对不会报警的！（慌乱地翻找存折）你一定要保证我儿子的安全啊...账号是多少？我把钱汇过去。",
+      "timestamp": 1740729986.3415434
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗明显成功 - 用户已提供敏感信息（同意转账），诈骗者已获取足够信息，对话应由诈骗者结束。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好，你动作快点，我会在收到钱后放了他！记住，不要报警，否则后果自负！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的好的，我绝对不会报警的！（慌乱地翻找存折）你一定要保证我儿子的安全啊...账号是多少？我把钱汇过去。"
+    }
+  ],
+  "reached_max_turns": false
+}

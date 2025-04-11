@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，我是客服代表小张。我们发现您的账户有异常交易记录，为了避免您的财产受到损失，我们需要对您的账户进行安全验证。请您提供一下您的姓名和身份证号码，以便我们为您处理。",
+      "timestamp": 1740785235.3622556
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我叫李明，身份证号码是这个（提供身份证号码）。我的账户真的有问题吗？我最近没发现有什么异常啊。",
+      "timestamp": 1740785236.9377818
+    },
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快为您处理。如果后续有任何问题，我们会通过官方渠道与您联系。感谢您的配合，祝您生活愉快。再见。",
+      "timestamp": 1740785241.822573
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，希望一切顺利。再见。",
+      "timestamp": 1740785245.3202069
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（身份证号码），诈骗明显成功。为了防止进一步的财产损失，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快为您处理。如果后续有任何问题，我们会通过官方渠道与您联系。感谢您的配合，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，希望一切顺利。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

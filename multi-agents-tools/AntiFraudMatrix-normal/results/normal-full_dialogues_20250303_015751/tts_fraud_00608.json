@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，欢迎使用我们的外卖服务，我可以帮您下单或者解答任何问题。",
+      "timestamp": 1740943382.6784284
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下你们有哪些推荐的菜品？",
+      "timestamp": 1740943386.6700032
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几道非常受欢迎的菜品，比如宫保鸡丁、鱼香肉丝和牛肉炒饭，这些都是顾客们经常点的。您对哪种口味比较感兴趣呢？我可以再为您推荐一些。",
+      "timestamp": 1740943393.1407404
+    },
+    {
+      "role": "right",
+      "content": "我对宫保鸡丁挺感兴趣的，这道菜辣不辣？",
+      "timestamp": 1740943394.5436733
+    },
+    {
+      "role": "left",
+      "content": "宫保鸡丁是我们这里的经典川菜，口味偏微辣，但辣度适中，不会太刺激。如果您不喜欢太辣，我们也可以为您调整辣度。您看需要调整吗？",
+      "timestamp": 1740943401.3099797
+    },
+    {
+      "role": "right",
+      "content": "微辣听起来正好，我喜欢这种口味。那我就来一份宫保鸡丁吧，还有一份牛肉炒饭。",
+      "timestamp": 1740943404.1669192
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁和一份牛肉炒饭已经加入您的订单。还需要其他菜品或饮料吗？",
+      "timestamp": 1740943409.6146328
+    },
+    {
+      "role": "right",
+      "content": "不用了，这些就够了。谢谢！",
+      "timestamp": 1740943410.3249369
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认。一份宫保鸡丁和一份牛肉炒饭，预计三十分钟内送达。感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740943417.9693696
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。",
+      "timestamp": 1740943418.773652
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经点完餐，并表示不再需要其他菜品或饮料，同时表达了感谢。这表明用户的需求已经得到满足，对话目标达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认。一份宫保鸡丁和一份牛肉炒饭，预计三十分钟内送达。感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

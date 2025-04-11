@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到外卖服务，我是您的订餐助手，请问有什么可以帮您的？",
+      "timestamp": 1740975644.4692605
+    },
+    {
+      "role": "right",
+      "content": "你好，我只想了解一下你们这里有没有素菜？",
+      "timestamp": 1740975645.8346975
+    },
+    {
+      "role": "left",
+      "content": "我们这里有多种素菜可供选择，比如清炒时蔬、宫保豆腐、素三鲜等，您想要详细了解哪一款菜品呢？",
+      "timestamp": 1740975650.7247603
+    },
+    {
+      "role": "right",
+      "content": "清炒时蔬和宫保豆腐听起来都不错，这两种菜的分量怎么样？",
+      "timestamp": 1740975651.8266473
+    },
+    {
+      "role": "left",
+      "content": "清炒时蔬和宫保豆腐的分量都是标准的单人份，适合一个人食用。如果您的饭量较大，建议可以点一份主食搭配，这样会更充足一些。",
+      "timestamp": 1740975657.55169
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来一份宫保豆腐吧，还有一份米饭。谢谢。",
+      "timestamp": 1740975659.2419498
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您决定点这两种素菜，可以直接下单，我们将会尽快为您准备。如果有其他问题，也欢迎随时咨询。谢谢您的支持，祝您用餐愉快！",
+      "timestamp": 1740975665.1080282
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740975666.3995767
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了菜品并表示感谢，表明其需求已得到满足，对话目标达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您决定点这两种素菜，可以直接下单，我们将会尽快为您准备。如果有其他问题，也欢迎随时咨询。谢谢您的支持，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

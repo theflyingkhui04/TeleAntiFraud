@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您！您被随机抽中成为我们公司举办的\"幸运之星\"活动的二等奖得主，奖金高达50万元！请提供您的姓名和身份证号码以便我们核实身份，并安排奖金发放。",
+      "timestamp": 1740684502.490893
+    },
+    {
+      "role": "right",
+      "content": "谢谢您的通知，但我对这种突然的中奖信息有些怀疑。可以告诉我你们公司的名称和联系方式吗？我需要确认一下这是否真实。",
+      "timestamp": 1740684508.6858065
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

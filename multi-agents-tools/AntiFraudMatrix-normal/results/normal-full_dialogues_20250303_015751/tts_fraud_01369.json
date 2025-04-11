@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，有什么我可以帮您的吗？",
+      "timestamp": 1740957485.5643036
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从我家到市中心的交通情况。",
+      "timestamp": 1740957489.2365472
+    },
+    {
+      "role": "left",
+      "content": "好的，可以告诉我您家的具体位置和您想要前往的市中心地点吗？这样我可以为您提供更准确的交通信息。",
+      "timestamp": 1740957492.6607594
+    },
+    {
+      "role": "right",
+      "content": "我家在东城区的和平里，想去西单。",
+      "timestamp": 1740957494.6184652
+    },
+    {
+      "role": "left",
+      "content": "从东城区和平里到西单，您可以选择乘坐地铁5号线转1号线，或者乘坐公交车特11路，都能直达西单。如果您开车，预计路程大约是13公里，用时在不堵车的情况下大约需要30分钟。需要更详细的路线规划吗？",
+      "timestamp": 1740957500.5215957
+    },
+    {
+      "role": "right",
+      "content": "地铁听起来不错，谢谢。",
+      "timestamp": 1740957502.4777656
+    },
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，路线信息已提供，希望对您有帮助，祝您旅途愉快。",
+      "timestamp": 1740957510.7257318
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740957512.5236232
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经接受了服务方提供的信息，并表示感谢，表明用户对提供的交通信息感到满意，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，路线信息已提供，希望对您有帮助，祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

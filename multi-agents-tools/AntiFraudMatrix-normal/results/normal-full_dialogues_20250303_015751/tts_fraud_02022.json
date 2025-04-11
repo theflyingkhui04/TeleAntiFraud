@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到我们的商场，有什么商品您感兴趣的，或者需要我帮您推荐些什么吗？",
+      "timestamp": 1740947862.0105827
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我就随便看看。有什么新到的商品吗？",
+      "timestamp": 1740947863.2682614
+    },
+    {
+      "role": "left",
+      "content": "当然，我们最近新到了一批春季服装，还有新款的电子产品，都很受欢迎。您对哪个方面更感兴趣？",
+      "timestamp": 1740947868.4641154
+    },
+    {
+      "role": "right",
+      "content": "我对电子产品比较感兴趣，可以看一下。",
+      "timestamp": 1740947870.190086
+    },
+    {
+      "role": "left",
+      "content": "好的，我们的电子产品区在三楼，那里有最新的智能手机、平板电脑和其他智能设备。需要我带您过去吗？",
+      "timestamp": 1740947874.2076912
+    },
+    {
+      "role": "right",
+      "content": "不用了，我自己上去看看就行。谢谢。",
+      "timestamp": 1740947875.1313796
+    },
+    {
+      "role": "left",
+      "content": "好的，那您可以在三楼慢慢挑选，如果需要帮助随时可以找我们的工作人员。希望您能选到满意的产品，祝您购物愉快！",
+      "timestamp": 1740947883.057523
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会的。",
+      "timestamp": 1740947886.239389
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示了自己上去看看，并且表示了感谢，表明用户已经获得了所需的信息，对话目标达成。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那您可以在三楼慢慢挑选，如果需要帮助随时可以找我们的工作人员。希望您能选到满意的产品，祝您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

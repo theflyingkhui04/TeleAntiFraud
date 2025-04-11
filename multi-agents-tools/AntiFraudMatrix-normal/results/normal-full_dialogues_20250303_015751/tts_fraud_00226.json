@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，我可以帮您完成订餐吗？",
+      "timestamp": 1740966996.7270567
+    },
+    {
+      "role": "right",
+      "content": "可以的，我想订一份晚餐。有什么推荐的吗？",
+      "timestamp": 1740966998.4534874
+    },
+    {
+      "role": "left",
+      "content": "我们今天的特色菜有香煎三文鱼和黑椒牛柳，都是很受欢迎的选择。您喜欢哪种呢？",
+      "timestamp": 1740967004.8080478
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，那就来一份黑椒牛柳吧。还有什么配菜可以选？",
+      "timestamp": 1740967006.4552863
+    },
+    {
+      "role": "left",
+      "content": "黑椒牛柳可以搭配蒜蓉西兰花和番茄罗勒意面，这两道配菜都很搭，您看需要加哪一道吗？",
+      "timestamp": 1740967013.4148746
+    },
+    {
+      "role": "right",
+      "content": "蒜蓉西兰花听起来不错，就加这个吧。还有一道汤或者沙拉可以选吗？",
+      "timestamp": 1740967015.8967311
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们有清爽的凯撒沙拉和滋补的玉米鸡汤，您想要哪一种？",
+      "timestamp": 1740967022.0064511
+    },
+    {
+      "role": "right",
+      "content": "凯撒沙拉听起来不错，就来一份凯撒沙拉吧。这些都确认了吗？",
+      "timestamp": 1740967023.6645098
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单包括：黑椒牛柳、蒜蓉西兰花和凯撒沙拉。还需要为您加点什么饮料吗？",
+      "timestamp": 1740967031.5785255
+    },
+    {
+      "role": "right",
+      "content": "来一杯冰红茶吧。这样就齐了，谢谢。",
+      "timestamp": 1740967033.0395226
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，包括黑椒牛柳、蒜蓉西兰花和凯撒沙拉。预计在30分钟后送达，感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740967043.1177685
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。",
+      "timestamp": 1740967045.186514
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了所有点餐内容，并表示感谢，表明其需求已得到满足，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，包括黑椒牛柳、蒜蓉西兰花和凯撒沙拉。预计在30分钟后送达，感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

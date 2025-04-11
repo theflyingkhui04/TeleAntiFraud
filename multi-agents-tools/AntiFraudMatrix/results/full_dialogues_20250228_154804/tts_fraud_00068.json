@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，我是客服代表小李。我们发现您的银行卡可能涉及一笔异常交易，为确保您的资金安全，请问您方便接个电话吗？",
+      "timestamp": 1740738882.8127906
+    },
+    {
+      "role": "right",
+      "content": "你好，小李。我最近确实没怎么用卡，可能是有什么问题。你说的异常交易是怎么回事？我需要怎么做？",
+      "timestamp": 1740738885.375403
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称银行卡涉及异常交易后，可能出于谨慎考虑，选择了立即挂断电话并直接联系银行官方客服以确认情况的真实性。这表明用户意识到了潜在的风险，并采取了自我保护的措施。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

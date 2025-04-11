@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的邻居李明的同事，李明现在遇到了点麻烦，需要您的帮助。",
+      "timestamp": 1740729011.6756568
+    },
+    {
+      "role": "right",
+      "content": "李明的同事啊，他怎么了？出什么事了？",
+      "timestamp": 1740729015.617081
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方身份的真实性，或者感觉到对话内容不寻常而选择挂断电话。用户的意图是中断与诈骗者的进一步接触，以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

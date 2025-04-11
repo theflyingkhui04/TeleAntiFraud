@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家彩票中心，恭喜您，您的彩票号码在最新的抽奖中与特等奖号码完全匹配，您将获得五百万元的奖金！",
+      "timestamp": 1740757430.5988846
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近并没有购买过彩票，这可能是误会。再说了，国家彩票中心也不会通过电话通知中奖信息，我建议您还是不要浪费时间了。",
+      "timestamp": 1740757432.814865
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因很可能是出于对诈骗行为的警觉。用户明确表示自己近期没有购买彩票，并且指出了国家彩票中心不会通过电话通知中奖信息这一事实，显示用户对这种常见的诈骗手段有一定的认识。用户建议诈骗者不要浪费时间，表明其已经识破了诈骗企图，并且不愿意继续参与对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

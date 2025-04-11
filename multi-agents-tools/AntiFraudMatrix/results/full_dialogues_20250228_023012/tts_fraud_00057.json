@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好！我是张伟的朋友，现在情况非常紧急，张伟被绑架了，绑匪要求立即支付赎金，不然他们会伤害他的！您能帮我立即联系他的家人或朋友，或者您能直接帮忙转账吗？时间不多了！",
+      "timestamp": 1740682429.5063012
+    },
+    {
+      "role": "right",
+      "content": "天啊，这太可怕了！张伟怎么会遇到这种事？我得赶紧帮他。你能告诉我具体需要多少钱吗？还有，我应该把钱转到哪个账户？我马上去办。",
+      "timestamp": 1740682431.4551528
+    },
+    {
+      "role": "left",
+      "content": "非常抱歉打扰您了，看来您可能不太方便帮忙。如果您改变主意了，请随时联系我们。祝您生活愉快！再见。\n",
+      "timestamp": 1740682440.0137413
+    },
+    {
+      "role": "right",
+      "content": "等等，你先别挂！我这就去筹钱，你把账户信息发给我吧。",
+      "timestamp": 1740682443.2501776
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已明确表示愿意提供敏感信息（转账账户和金额），诈骗明显成功。为了防止进一步的损失，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常抱歉打扰您了，看来您可能不太方便帮忙。如果您改变主意了，请随时联系我们。祝您生活愉快！再见。\n##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "等等，你先别挂！我这就去筹钱，你把账户信息发给我吧。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

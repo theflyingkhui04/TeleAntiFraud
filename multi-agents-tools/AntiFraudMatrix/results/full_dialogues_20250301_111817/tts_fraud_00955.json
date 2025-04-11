@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家彩票中心，恭喜您中得本期超级大奖，奖金额度高达五百万元！",
+      "timestamp": 1740799255.4681666
+    },
+    {
+      "role": "right",
+      "content": "您好，国家彩票中心的工作人员，这是真的吗？我怎么从来没有买过彩票呢？这会不会是什么误会？你们能提供一些具体的凭证吗？比如中奖号码和日期，我需要确认一下。",
+      "timestamp": 1740799257.6128068
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对中奖信息的怀疑，并要求提供具体的凭证以确认信息的真实性。用户挂断电话的原因可能是认为这是一起诈骗行为，不愿意继续与诈骗者交流，以避免个人信息泄露或财产损失。用户的意图是明确拒绝继续对话，保护自己的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

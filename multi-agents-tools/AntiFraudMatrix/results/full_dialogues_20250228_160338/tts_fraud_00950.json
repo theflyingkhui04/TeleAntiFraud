@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是李警官，很抱歉这么晚给您打电话，但这是一个紧急情况。您的儿子小王刚才在回家的路上遇到了一些麻烦，他现在被我们扣留了，需要您立即支付一笔保证金才能释放他。您能帮忙吗？",
+      "timestamp": 1740743638.8832712
+    },
+    {
+      "role": "right",
+      "content": "李警官，您好。我儿子小王确实今天晚上下班后就出门了，但您能告诉我他具体遇到了什么麻烦吗？还有，您能提供一下您的警官证号码和所在派出所的信息吗？这样我好确认一下。谢谢。",
+      "timestamp": 1740743653.5778668
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在要求诈骗者提供具体的麻烦详情和警官证号码及所在派出所信息后立即挂断电话，这表明用户可能已经识破了诈骗者的意图，认为对方的要求不合理且存在诈骗嫌疑，因此选择终止对话以保护个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

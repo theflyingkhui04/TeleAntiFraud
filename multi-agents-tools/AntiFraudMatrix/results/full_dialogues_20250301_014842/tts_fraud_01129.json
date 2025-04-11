@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的邻居小李，刚刚我路过了您家附近，发现您的家人好像被几个陌生男子强行带上了一辆车，他们看起来很危险，我赶紧给您打了电话。您现在方便说话吗？",
+      "timestamp": 1740786137.4241009
+    },
+    {
+      "role": "right",
+      "content": "小李啊，真是太谢谢你了，我这就赶紧去问问家里人。他们现在还好吗？你有没有看到他们往哪个方向走了？",
+      "timestamp": 1740786139.6560168
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为急切想要确认家人的安全状况，选择挂断电话以便立即采取行动，如联系家人或报警。用户的意图是尽快获取更多信息并采取必要的安全措施。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

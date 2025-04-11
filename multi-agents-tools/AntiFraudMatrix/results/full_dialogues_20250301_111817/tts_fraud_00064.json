@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您儿子的朋友，他现在遇到了大麻烦，我需要您的帮助。",
+      "timestamp": 1740813323.2729292
+    },
+    {
+      "role": "right",
+      "content": "啊，你是谁？我儿子怎么了？你先别急，慢慢说。",
+      "timestamp": 1740813325.3683212
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者的开场白过于突兀和紧急，产生了警觉或怀疑，从而选择立即挂断电话以避免潜在的风险。用户的意图是中断对话，防止进一步的信息泄露或诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

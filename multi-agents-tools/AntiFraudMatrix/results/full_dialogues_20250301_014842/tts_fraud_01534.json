@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你好，这里是工商银行客服中心，您的账户刚刚有一笔异常交易，为了保障您的资金安全，我们需要您配合进行一次身份验证。请您提供一下开户时的手机号码。",
+      "timestamp": 1740780590.0269673
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我最近确实没怎么用这个账户。好的，我的手机号码是……等一下，我找找看。嗯，是这个吗？一三八零零一三八零零零。",
+      "timestamp": 1740780592.338672
+    },
+    {
+      "role": "left",
+      "content": "好的，我会记录下来并尽快处理，感谢您的配合。再见。",
+      "timestamp": 1740780596.4263482
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮忙。再见。",
+      "timestamp": 1740780597.353231
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（手机号码），根据终止条件1，诈骗明显成功，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我会记录下来并尽快处理，感谢您的配合。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮忙。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

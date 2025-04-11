@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想订哪家餐厅的哪道菜吗？",
+      "timestamp": 1740951581.5618055
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份宫保鸡丁，可以推荐一家口味不错的餐厅吗？",
+      "timestamp": 1740951583.8540816
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们推荐您尝试“美味轩”餐厅的宫保鸡丁，他们的菜品口味非常受欢迎。您需要预订吗？",
+      "timestamp": 1740951588.7141013
+    },
+    {
+      "role": "right",
+      "content": "好的，那就订“美味轩”的宫保鸡丁吧。需要预订时间吗？",
+      "timestamp": 1740951589.5252843
+    },
+    {
+      "role": "left",
+      "content": "好的，您预订的时间是什么时候呢？我们好为您安排。",
+      "timestamp": 1740951594.38397
+    },
+    {
+      "role": "right",
+      "content": "那就今天晚上六点半吧。谢谢。",
+      "timestamp": 1740951597.812048
+    },
+    {
+      "role": "left",
+      "content": "好的，您的宫保鸡丁已经预订成功，预计在三十分钟后送达。感谢您的订购，如果还有其他需要，欢迎随时联系我们。",
+      "timestamp": 1740951606.2366168
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待晚餐。",
+      "timestamp": 1740951607.2806482
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了所需的所有信息（餐厅名称、菜品、预订时间），并且表达了感谢，服务目标已达成。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的宫保鸡丁已经预订成功，预计在三十分钟后送达。感谢您的订购，如果还有其他需要，欢迎随时联系我们。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待晚餐。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

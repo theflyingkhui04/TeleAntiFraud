@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，我是客服专员小张。我们检测到您的账户有异常活动，为了保障您的资金安全，需要您配合我们进行身份验证。请问您现在方便吗？",
+      "timestamp": 1740746817.609766
+    },
+    {
+      "role": "right",
+      "content": "您好，小张。我这里确实有些不放心，毕竟涉及资金安全。您能告诉我具体是怎么回事吗？我需要确认一下。",
+      "timestamp": 1740746820.8912232
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对资金安全的担忧，并要求诈骗者提供更具体的信息以确认情况的真实性。然而，诈骗者在用户提出合理疑问之前就挂断了电话，这可能是因为诈骗者意识到用户已经开始怀疑，为了避免进一步的质疑和暴露，选择了提前结束对话。用户的意图是希望通过询问更多细节来验证对方的身份和信息的真实性，但未能得到满意的回答。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

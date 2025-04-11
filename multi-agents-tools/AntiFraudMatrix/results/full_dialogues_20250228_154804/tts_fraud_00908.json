@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某宝客服中心，我们检测到您的账户存在异常登录情况，为了保障您的账户安全，请尽快联系我们进行核实，避免造成不必要的损失。",
+      "timestamp": 1740731492.2255251
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？我最近都没怎么用某宝，是不是有人盗用了我的账号？我得赶紧处理一下。你们能帮我查清楚吗？",
+      "timestamp": 1740731496.5467837
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对账户安全的担忧，并愿意配合诈骗者进行所谓的核实。然而，用户和诈骗者都在最后一句话后提供了挂断信号（##ENDCALL_SIGNAL##），这表明双方同时结束了通话。在这种情况下，挂断的原因可能是用户意识到这可能是一个诈骗电话，或者用户出于谨慎考虑决定先挂断电话，再通过官方渠道核实情况。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

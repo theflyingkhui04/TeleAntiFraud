@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，您需要预约哪一项服务呢？",
+      "timestamp": 1740980981.760198
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一下维修服务。家里有些管道老化了，需要检查和更换。",
+      "timestamp": 1740980983.6963193
+    },
+    {
+      "role": "left",
+      "content": "了解了，我们提供 Household 维修服务，可以帮您检查和更换老化的管道。您可以告诉我方便的服务时间吗？",
+      "timestamp": 1740980989.852958
+    },
+    {
+      "role": "right",
+      "content": "好的，那下周五下午可以吗？大概三点左右。",
+      "timestamp": 1740980990.9680722
+    },
+    {
+      "role": "left",
+      "content": "下周五下午三点可以安排。为了确保准时，我们需要您提供一个联系电话和家庭地址。您可以提供一下吗？",
+      "timestamp": 1740980996.225402
+    },
+    {
+      "role": "right",
+      "content": "可以，我的电话是 123-456-7890，地址是 XX 街 123 号。",
+      "timestamp": 1740980998.1751144
+    },
+    {
+      "role": "left",
+      "content": "好的，我们已经记录下来了。下周五下午三点，我们的技术人员会准时到达。请问还需要其他的服务吗？",
+      "timestamp": 1740981003.6464136
+    },
+    {
+      "role": "right",
+      "content": "暂时不需要了，谢谢。如果有问题我会再联系你们。",
+      "timestamp": 1740981005.652226
+    },
+    {
+      "role": "left",
+      "content": "好的，一切已经安排妥当。如果有任何变化，我们会提前联系您。感谢您的预约，祝您有美好的一天。",
+      "timestamp": 1740981011.8471525
+    },
+    {
+      "role": "right",
+      "content": "谢谢，也祝您一天愉快。",
+      "timestamp": 1740981012.8519657
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示暂时不需要其他服务，并表达了感谢，这表明用户对当前的服务感到满意，且没有进一步的需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，一切已经安排妥当。如果有任何变化，我们会提前联系您。感谢您的预约，祝您有美好的一天。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，也祝您一天愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

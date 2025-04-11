@@ -1,0 +1,86 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是这里的销售人员，有什么可以帮您的吗？",
+      "timestamp": 1740952534.9137125
+    },
+    {
+      "role": "right",
+      "content": "你好，我在看看，有什么推荐的吗？",
+      "timestamp": 1740952535.8149414
+    },
+    {
+      "role": "left",
+      "content": "我们最近新到了一批春季新款，特别是这条淡蓝色的连衣裙很受欢迎，您有兴趣试穿一下吗？",
+      "timestamp": 1740952542.2987285
+    },
+    {
+      "role": "right",
+      "content": "可以，那条淡蓝色的连衣裙看起来不错，我试试看。",
+      "timestamp": 1740952543.3375998
+    },
+    {
+      "role": "left",
+      "content": "好的，您请跟我来，我带您去试衣间。这条连衣裙有您需要的尺码吗？",
+      "timestamp": 1740952546.709892
+    },
+    {
+      "role": "right",
+      "content": "尺码的话，我平时穿 M 码的，有吗？",
+      "timestamp": 1740952550.6281404
+    },
+    {
+      "role": "left",
+      "content": "有的，我这就去帮您拿 M 码的。请稍微等一下，很快就来。",
+      "timestamp": 1740952554.2378953
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740952554.7294164
+    },
+    {
+      "role": "left",
+      "content": "不客气，这是我的工作。如果您还需要其他帮助，随时告诉我。",
+      "timestamp": 1740952563.423009
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740952564.179893
+    },
+    {
+      "role": "left",
+      "content": "试衣间已经准备好了，您可以进去了。如果需要帮助，随时叫我。",
+      "timestamp": 1740952571.8069777
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我进去试试。",
+      "timestamp": 1740952573.849175
+    },
+    {
+      "role": "left",
+      "content": "好的，希望这条裙子能让您满意。试完后如果需要其他帮助，我在这里等着您。",
+      "timestamp": 1740952579.370922
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的耐心服务。",
+      "timestamp": 1740952580.6333811
+    },
+    {
+      "role": "left",
+      "content": "您太客气了，这是我们应该做的。有任何问题随时告诉我。",
+      "timestamp": 1740952585.097751
+    }
+  ],
+  "turns": 6,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在用户试穿裙子前提供了详尽的服务，包括引导用户、准备试衣间和提供所需尺码的裙子。用户对服务表示满意并进入试衣间。服务方在确认用户没有其他需求后，礼貌地结束了对话。服务方的意图是确保用户在试穿前得到充分的帮助，同时避免不必要的等待，保持服务效率。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

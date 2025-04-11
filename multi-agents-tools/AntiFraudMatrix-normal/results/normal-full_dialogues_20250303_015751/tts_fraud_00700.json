@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪项服务呢？",
+      "timestamp": 1740955543.9335358
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一个全面体检。",
+      "timestamp": 1740955544.8448515
+    },
+    {
+      "role": "left",
+      "content": "好的，全面体检是一个很好的选择。请问您希望预约哪一天来医院进行体检呢？我们这里的工作日和周末都有开放。",
+      "timestamp": 1740955551.5383823
+    },
+    {
+      "role": "right",
+      "content": "下周五可以吗？上午的时间段。",
+      "timestamp": 1740955552.4247587
+    },
+    {
+      "role": "left",
+      "content": "下周五上午的时间段是可以的。我们会为您安排在上午九点，请问这个时间合适吗？如果需要调整，也可以告诉我您更具体的时间偏好。",
+      "timestamp": 1740955557.2957766
+    },
+    {
+      "role": "right",
+      "content": "九点可以，谢谢。",
+      "timestamp": 1740955557.8480287
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合。您的预约已经成功，预约号是123456，请您在当天携带身份证和预约号前来。如果有任何变动，请提前联系我们。还有其他需要帮助的吗？",
+      "timestamp": 1740955565.2124162
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息，并提供了必要的提醒和建议后，主动结束了对话。服务方的意图是确保用户已经获得了所有需要的信息，并确认没有其他服务需求，从而自然地完成了服务流程。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

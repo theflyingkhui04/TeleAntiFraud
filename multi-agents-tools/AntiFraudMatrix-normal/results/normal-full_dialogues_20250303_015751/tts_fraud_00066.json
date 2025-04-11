@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "感谢您联系我们的预约服务，有什么可以帮助您的？",
+      "timestamp": 1740967382.1137366
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约一个工程师上门检查一下家里的电路问题。",
+      "timestamp": 1740967383.1282887
+    },
+    {
+      "role": "left",
+      "content": "好的，我可以帮您安排。请问您方便的上门时间是什么时候？",
+      "timestamp": 1740967386.6444821
+    },
+    {
+      "role": "right",
+      "content": "明天下午三点可以吗？",
+      "timestamp": 1740967387.286947
+    },
+    {
+      "role": "left",
+      "content": "明天下午三点可以，这个时间我们有工程师可用。请问您的地址是哪里？",
+      "timestamp": 1740967391.365332
+    },
+    {
+      "role": "right",
+      "content": "地址是阳光花园小区，三号楼一单元 102 室。",
+      "timestamp": 1740967392.529606
+    },
+    {
+      "role": "left",
+      "content": "好的，已经记录下来了。明天下午三点，我们的工程师会准时到达阳光花园小区，三号楼一单元 102 室。如果有任何变动，我们会提前联系您。您的预约编号是 123456，您也可以通过这个编号查询预约状态。还有什么需要我帮忙的吗？",
+      "timestamp": 1740967398.8676589
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息后，提供了预约编号，并询问用户是否还有其他需要帮助的事项。用户没有进一步的需求，服务方通过提供预约详情和确认信息，确保用户满意并主动结束了对话，表明服务目标已达成，服务流程完整且顺利。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

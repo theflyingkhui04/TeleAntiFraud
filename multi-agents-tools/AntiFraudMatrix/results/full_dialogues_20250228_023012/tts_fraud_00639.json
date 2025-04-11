@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您，您刚刚赢得了一笔巨额彩票奖金，总额高达50万元！请告诉我您的全名和联系电话，以便我们为您办理领奖手续。",
+      "timestamp": 1740691070.793477
+    },
+    {
+      "role": "right",
+      "content": "真的吗？这太意外了！我叫李华，电话是13812345678。不过，我怎么没记得买过彩票呢？这不会是诈骗吧？",
+      "timestamp": 1740691074.747949
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供部分个人信息后，对诈骗者的意图产生了怀疑，意识到这可能是一个诈骗电话。用户使用'##ENDCALL_SIGNAL##'主动挂断了电话，表明其不希望继续与诈骗者交流，并试图终止对话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的预约服务专员，可以帮您安排预约时间，请问您需要预约哪项服务呢？",
+      "timestamp": 1740945158.3364403
+    },
+    {
+      "role": "right",
+      "content": "好的，我想预约一次体检。",
+      "timestamp": 1740945160.093673
+    },
+    {
+      "role": "left",
+      "content": "好的，体检服务可以帮您安排。请问您希望预约的具体日期和时间是什么时候呢？",
+      "timestamp": 1740945164.6848905
+    },
+    {
+      "role": "right",
+      "content": "那下周一上午十点可以吗？",
+      "timestamp": 1740945165.4093406
+    },
+    {
+      "role": "left",
+      "content": "下周一上午十点的时间是可行的。这是初次体检吗？如果是的话，我们可能需要您提前填写一些健康问卷。",
+      "timestamp": 1740945169.7869532
+    },
+    {
+      "role": "right",
+      "content": "是的，这是初次体检。那健康问卷在哪里填写呢？",
+      "timestamp": 1740945173.793451
+    },
+    {
+      "role": "left",
+      "content": "您可以登录我们的官方网站或使用手机应用程序，在“体检预约”栏目中找到您的预约信息，里面会有健康问卷的链接。请您提前一天完成填写。如果有特殊情况或需要帮助，也可以直接联系我们。",
+      "timestamp": 1740945179.2871058
+    },
+    {
+      "role": "right",
+      "content": "好的，我知道了。谢谢你的帮助。",
+      "timestamp": 1740945179.9609418
+    },
+    {
+      "role": "left",
+      "content": "好的，您的体检预约已经安排好了，下周一上午十点。请您提前一天填写健康问卷，如果有任何问题，可以随时联系我们。感谢您的预约，祝您健康！",
+      "timestamp": 1740945188.264724
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740945189.1665585
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并明确表示了感谢，表明服务目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的体检预约已经安排好了，下周一上午十点。请您提前一天填写健康问卷，如果有任何问题，可以随时联系我们。感谢您的预约，祝您健康！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

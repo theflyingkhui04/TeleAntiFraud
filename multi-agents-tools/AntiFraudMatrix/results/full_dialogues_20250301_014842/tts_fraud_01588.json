@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是全国彩票管理中心，恭喜您，您的彩票号码与本期大奖号码完全匹配，您中了一等奖，奖金金额高达五百万元！请问我能叫您什么名字呢？",
+      "timestamp": 1740791703.1017783
+    },
+    {
+      "role": "right",
+      "content": "您好，您可以叫我老李。真的中了五百万元？这太令人惊喜了！我需要做些什么呢？",
+      "timestamp": 1740791705.6237204
+    },
+    {
+      "role": "left",
+      "content": "老李，恭喜您！这确实是个天大的好消息。首先，为了确认您的中奖信息，我需要您提供一下彩票编号，还有您的身份证号码，这样我们可以核对信息，确保奖金能够准确无误地发放给您。",
+      "timestamp": 1740791712.3241413
+    },
+    {
+      "role": "right",
+      "content": "好的，好的。彩票编号是……（思考了一下）……零三零二零一。身份证号码嘛，我得找一找，等一下啊。您稍等。",
+      "timestamp": 1740791714.0012417
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能在寻找身份证号码的过程中意识到这可能是一个诈骗电话，或者用户可能突然意识到不应该轻易透露个人敏感信息，因此选择挂断电话以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

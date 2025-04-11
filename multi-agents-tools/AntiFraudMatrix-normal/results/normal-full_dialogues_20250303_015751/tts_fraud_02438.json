@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是商场的客服人员，有什么我可以帮您的吗？",
+      "timestamp": 1740957608.044205
+    },
+    {
+      "role": "right",
+      "content": "您好，我刚来这个商场，想问问这里有没有卖家电的地方？",
+      "timestamp": 1740957610.2858837
+    },
+    {
+      "role": "left",
+      "content": "有的，我们商场三楼有专门的家电专区，您可以乘坐中央的电梯直接上去。",
+      "timestamp": 1740957615.1750026
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助！三楼是吧，我这就上去看看。",
+      "timestamp": 1740957616.3297904
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您需要任何其他帮助，可以随时联系我。祝您购物愉快！",
+      "timestamp": 1740957621.9970908
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会的。祝您工作顺利！",
+      "timestamp": 1740957624.2943587
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经得到了所需的信息，并表达了感谢，同时表示将前往三楼查看，这表明用户的问题已经解决，对话目标达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您需要任何其他帮助，可以随时联系我。祝您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会的。祝您工作顺利！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

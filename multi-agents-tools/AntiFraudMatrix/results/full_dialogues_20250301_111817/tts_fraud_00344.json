@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国际快递服务公司，您的包裹在运输过程中遇到了一些问题，需要您尽快处理。",
+      "timestamp": 1740802287.2927814
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我的包裹出了什么问题？",
+      "timestamp": 1740802288.5485141
+    },
+    {
+      "role": "left",
+      "content": "您的包裹中似乎含有违禁品，需要您支付一笔罚款，否则我们将无法继续为您送达。您能提供一些信息以便我们验证您的身份吗？",
+      "timestamp": 1740802295.5279422
+    },
+    {
+      "role": "right",
+      "content": "啊，这可怎么办？我都不知道寄的是什么违禁品。需要提供哪些信息呢？",
+      "timestamp": 1740802297.6021693
+    },
+    {
+      "role": "left",
+      "content": "请您提供您的全名和联系电话，这样我们可以在系统中查证。同时，您需要支付一笔三百元的罚款，我们会将这笔费用退还给您，一旦确认包裹内容没有问题。",
+      "timestamp": 1740802306.4895115
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫张大山，电话是这个，您记一下……嗯，这个罚款我怎么支付呢？",
+      "timestamp": 1740802308.4143732
+    },
+    {
+      "role": "left",
+      "content": "如果您有任何疑问，可以随时联系我们。我们会在核实信息后尽快处理。再见。",
+      "timestamp": 1740802316.1916409
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，我明白了。",
+      "timestamp": 1740802317.5503454
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和电话，这是敏感信息，且用户询问如何支付罚款，表明诈骗行为即将成功。为了保护用户，应立即终止对话。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您有任何疑问，可以随时联系我们。我们会在核实信息后尽快处理。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，我明白了。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客户服务中心，我是您的服务专员小张。我们检测到您的账户有异常操作，为了您的资金安全，请问您现在方便接听电话吗？",
+      "timestamp": 1740753786.1269138
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我最近确实有点忙，不过现在有时间。你说我的账户有异常操作？你能具体说说吗？我最近确实有点担心这个问题。",
+      "timestamp": 1740753789.6492705
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户和诈骗者在对话中都使用了挂断信号（##ENDCALL_SIGNAL##），这表明对话在开始之前就已经被双方以非正常方式终止。用户可能在看到诈骗者提供的银行异常操作的初步信息后，出于谨慎考虑，选择了挂断电话以进一步核实情况。用户的意图可能是避免在未经验证的情况下继续对话，以防止潜在的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的儿子的同学，他刚刚出事了，被一伙人绑架了，您必须马上转一笔钱过来，不然他们不会放了他！",
+      "timestamp": 1740741553.4480479
+    },
+    {
+      "role": "right",
+      "content": "天哪，这怎么可能？你先别急，告诉我具体是什么情况，我需要了解一下。你们现在在哪里？我儿子他怎么样了？",
+      "timestamp": 1740741556.2550766
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提供的信息感到怀疑，要求提供更多详细信息以验证情况的真实性。然而，诈骗者并未提供进一步的信息或证据，这可能让用户意识到这是一个诈骗电话，因此用户选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，我是您的服务专员，有什么可以帮助您的？",
+      "timestamp": 1740981427.38246
+    },
+    {
+      "role": "right",
+      "content": "你好，我想点一份牛肉炒饭和一份宫保鸡丁，还有一瓶冰红茶。你们这里可以加辣吗？",
+      "timestamp": 1740981429.2357893
+    },
+    {
+      "role": "left",
+      "content": "当然可以，您的订单是牛肉炒饭、宫保鸡丁和一瓶冰红茶，都需要加辣对吗？",
+      "timestamp": 1740981433.7513108
+    },
+    {
+      "role": "right",
+      "content": "对的，都加辣。还有，大概多久能送到？",
+      "timestamp": 1740981435.3131974
+    },
+    {
+      "role": "left",
+      "content": "您的加辣要求已记录，预计送达时间为45分钟左右，如果地址在繁忙区域可能会稍有延迟。请问送餐地址和联系电话可以提供一下吗？",
+      "timestamp": 1740981440.5311167
+    },
+    {
+      "role": "right",
+      "content": "好的，送餐地址是幸福路123号，联系电话是13812345678。谢谢。",
+      "timestamp": 1740981442.0012772
+    },
+    {
+      "role": "left",
+      "content": "您的订单已成功提交，预计45分钟左右送达幸福路123号，联系电话13812345678。我们会尽快为您安排送餐，感谢您的耐心等待，祝您用餐愉快！",
+      "timestamp": 1740981447.711041
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情、送餐地址和联系电话后，提供了预计送达时间，并表达了感谢和祝福。服务方使用了明确的结束信号代码##ENDCALL_SIGNAL##，表明服务目标已达成，用户的需求得到了满足，服务方认为对话可以自然结束。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

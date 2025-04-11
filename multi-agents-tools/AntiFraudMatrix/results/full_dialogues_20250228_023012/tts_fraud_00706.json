@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是社保局，我们发现您的社保账户存在异常操作，需要立即核实您的身份信息，请问您的姓名和身份证号码是多少？",
+      "timestamp": 1740682447.642385
+    },
+    {
+      "role": "right",
+      "content": "您好，我叫张明，身份证号码是310110197901012345。不过，我最近确实没有进行过任何社保操作，你们是怎么发现的？",
+      "timestamp": 1740682452.8463643
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到对方是诈骗者，因为对方要求提供敏感的身份证信息，而正常的社保局通常不会通过电话直接要求提供此类信息。用户在提供部分信息后立即挂断电话，表明其可能意识到风险并选择终止对话以保护个人信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

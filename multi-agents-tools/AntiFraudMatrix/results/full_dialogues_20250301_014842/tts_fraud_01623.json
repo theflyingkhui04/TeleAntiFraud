@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的邻居李女士的儿子，小杰。现在我被坏人绑架了，他们要我打电话给您，让您转一笔钱过来。请您快点帮忙，我真的很害怕。",
+      "timestamp": 1740772695.7744288
+    },
+    {
+      "role": "right",
+      "content": "哎呀，小杰，你这是怎么了？你妈妈知道吗？她现在在哪里？我得赶紧联系她。你别急，告诉我坏人要你转多少钱，我这就去准备。你放心，我一定会帮你的。",
+      "timestamp": 1740772700.6383286
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对诈骗者故事的信以为真，并表达了帮助的意愿。然而，在用户提到要联系李女士时，诈骗者并没有给出进一步的回应，这可能是用户意识到情况不对劲，或者用户在尝试通过挂断电话来保护自己，避免进一步的诈骗行为。用户的挂断可能是因为怀疑或出于自我保护的本能反应。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

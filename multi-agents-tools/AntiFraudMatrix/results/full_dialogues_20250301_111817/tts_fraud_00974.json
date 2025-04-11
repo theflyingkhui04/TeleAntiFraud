@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，是张伟先生吗？我是您的亲戚小李，我现在遇到了非常紧急的情况，需要您的帮助。",
+      "timestamp": 1740818006.7211936
+    },
+    {
+      "role": "right",
+      "content": "小李啊，怎么了？你遇到什么麻烦了吗？别着急，慢慢说。",
+      "timestamp": 1740818008.787192
+    },
+    {
+      "role": "left",
+      "content": "叔叔，我现在在国外，出了点事，被人扣住了，他们要求我支付一笔赎金才能放我走。我身上没有那么多钱，只能联系您了。您能帮帮我吗？",
+      "timestamp": 1740818017.6153145
+    },
+    {
+      "role": "right",
+      "content": "小李，你先别急，这种情况听起来很不正常。你到底在哪儿？对方有没有给你打过电话或者发过信息？我得确认一下这到底是怎么回事。",
+      "timestamp": 1740818020.691934
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的情况后，表现出对情况真实性的怀疑，并要求提供更多细节以确认情况的真实性。用户挂断电话可能是出于谨慎考虑，希望先自行调查清楚再做决定，避免可能的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

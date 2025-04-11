@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自顺丰快递的客服李华，这里有一份您的包裹需要处理，但似乎遇到了一些问题。",
+      "timestamp": 1740785388.3028445
+    },
+    {
+      "role": "right",
+      "content": "您好，李华。我是张强，农民。您说的包裹有问题，具体是什么问题呢？我最近确实有网购了一些种子，但没听说有问题。",
+      "timestamp": 1740785390.3758004
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到对方自称是顺丰快递客服后，可能因为怀疑对方身份的真实性，或是认为自己近期没有需要处理的包裹问题，而选择主动挂断电话，以避免潜在的诈骗风险。用户的意图是保护个人信息安全，避免进一步的交流可能导致的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

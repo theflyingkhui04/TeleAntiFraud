@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您被选中成为本期幸运彩票大奖的得主，您只需支付一小笔手续费即可领取高达50万元的奖金！请告诉我您的姓名和联系方式，以便我们尽快为您办理领奖手续。",
+      "timestamp": 1740682448.0047421
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？我从来没有中过这么大的奖。不过，我听说这种中奖信息有时候是骗人的。您能告诉我这是哪个彩票公司的吗？我需要确认一下。",
+      "timestamp": 1740682452.957824
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们先这样，如果您有任何疑问可以随时联系我。希望您今天过得愉快！再见。",
+      "timestamp": 1740682459.616365
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。我会先查一查这个信息的真假，再决定是否联系您。再见。",
+      "timestamp": 1740682496.7587214
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表示诈骗者选择挂断对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们先这样，如果您有任何疑问可以随时联系我。希望您今天过得愉快！再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。我会先查一查这个信息的真假，再决定是否联系您。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张先生吗？我是李华，你儿子的同学。他现在出事了，被一伙人绑架了，对方要求立即支付五万赎金，不然就要伤害他。你必须马上把钱转到这个账户……",
+      "timestamp": 1740759869.8117797
+    },
+    {
+      "role": "right",
+      "content": "天哪，你说的是真的吗？我儿子他……他真的被绑架了吗？这太可怕了！我该怎么办？你能帮我联系警方吗？",
+      "timestamp": 1740759872.2228296
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到儿子被绑架的消息后表现出极度的恐慌和不安，这可能是由于诈骗者使用了高度紧张和紧急的场景，导致用户在情绪失控的情况下选择了挂断电话。用户的意图可能是为了立即采取行动，例如联系警方或其他家人，以确认儿子的安全状况。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

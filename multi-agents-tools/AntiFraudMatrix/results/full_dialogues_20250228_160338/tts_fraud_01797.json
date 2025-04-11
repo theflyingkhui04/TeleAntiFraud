@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子小明的朋友小张，他现在出事了，情况非常紧急，您能听我说吗？",
+      "timestamp": 1740734986.6548183
+    },
+    {
+      "role": "right",
+      "content": "小张？你是哪位？小明怎么了？你能不能先告诉我具体是什么情况？我有点担心。",
+      "timestamp": 1740734992.124966
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提供了紧急情况的背景信息后，表现出对情况的担忧，并要求提供更多具体信息。然而，诈骗者使用了挂断标识符'##ENDCALL_SIGNAL##'，这表明诈骗者已经意识到用户可能开始怀疑或不愿意继续对话，因此选择主动挂断电话以避免进一步的质疑或暴露。用户的意图可能是希望获取更多信息以确认情况的真伪，但诈骗者的挂断行为可能被视为不透明或可疑，导致用户对诈骗者的信任度下降。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

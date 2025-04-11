@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮您的？",
+      "timestamp": 1740981281.177103
+    },
+    {
+      "role": "right",
+      "content": "想订个餐，有什么推荐的吗？",
+      "timestamp": 1740981282.3247418
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方发出欢迎信息后立即表达了订餐的需求，并询问是否有推荐。然而，用户在服务方未作出回应前就发出了结束信号。这可能是因为用户误操作，或者用户在等待回复时失去了耐心，又或者用户找到了其他方式解决需求。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

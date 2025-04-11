@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是张伟的表哥，现在张伟被几个混混扣住了，他们要我们交一笔钱才肯放人，您能帮帮忙吗？",
+      "timestamp": 1740748528.0595515
+    },
+    {
+      "role": "right",
+      "content": "啊，张伟真的出事了吗？太可怕了，我该怎么办？需要多少钱才能把他救出来？",
+      "timestamp": 1740748529.686994
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在得知张伟被扣住并需要支付赎金的情况下，可能因为情绪激动或感到恐慌而选择立即挂断电话。用户的意图可能是为了尽快联系其他亲人或朋友寻求帮助，或者直接报警处理。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是客服代表小张。我们检测到您的账户有一次异常登录，为了您的资金安全，请您提供一下您的身份证号码，我们需要进行身份验证。",
+      "timestamp": 1740805914.4043043
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我是工程师老李。你们银行的客服电话怎么变了？我记得以前的电话不是这个。",
+      "timestamp": 1740805916.2126062
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑来电的真实性而选择挂断电话。用户提到银行客服电话的变化，表明他对来电号码的不信任，这可能是他挂断电话的原因。用户的意图是避免可能的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

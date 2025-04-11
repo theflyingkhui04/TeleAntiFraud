@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询服务中心，有什么可以帮您的？",
+      "timestamp": 1740942551.290844
+    },
+    {
+      "role": "right",
+      "content": "您好，我想问问最近村里去镇上的班车时间有没有变化？",
+      "timestamp": 1740942552.5453646
+    },
+    {
+      "role": "left",
+      "content": "目前村里到镇上的班车时间没有变化，还是早上六点、九点、十二点和下午三点发车。不过建议您出发前再次确认一下，以免有临时调整。",
+      "timestamp": 1740942558.7451072
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的提醒。我会注意的。",
+      "timestamp": 1740942559.856834
+    },
+    {
+      "role": "left",
+      "content": "班车时间的信息已提供给您，如果没有其他问题，祝您旅途愉快。",
+      "timestamp": 1740942564.5867503
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一天顺利。",
+      "timestamp": 1740942565.3776724
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需信息，并表示了感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "班车时间的信息已提供给您，如果没有其他问题，祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一天顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

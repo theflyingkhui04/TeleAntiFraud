@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我需要订购的餐品和送餐地址吗？",
+      "timestamp": 1740966346.5797336
+    },
+    {
+      "role": "right",
+      "content": "好的，我要订一份牛肉炒饭和一份糖醋排骨，送餐地址是光明小区三号楼二单元1202室。",
+      "timestamp": 1740966349.6212509
+    },
+    {
+      "role": "left",
+      "content": "好的，您订购的是一份牛肉炒饭和一份糖醋排骨，送餐地址是光明小区三号楼二单元1202室，对吗？还需要其他配菜或饮料吗？",
+      "timestamp": 1740966356.6425014
+    },
+    {
+      "role": "right",
+      "content": "对的，就这些了，不用再加其他东西。谢谢。",
+      "timestamp": 1740966357.5173106
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计将在三十分钟内送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740966363.4075952
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。",
+      "timestamp": 1740966364.3191843
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容和送餐地址，并表示无需添加其他物品，同时表达了感谢，表明用户对服务满意且对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计将在三十分钟内送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

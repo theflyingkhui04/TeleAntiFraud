@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我您想点的餐品和送餐地址吗？",
+      "timestamp": 1740971323.268062
+    },
+    {
+      "role": "right",
+      "content": "好的，我想点一份牛肉炒饭和一个酸辣汤，送餐地址是光明路123号，光明小区A栋302室。谢谢。",
+      "timestamp": 1740971325.8243723
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录，一份牛肉炒饭和一个酸辣汤，送餐地址是光明路123号光明小区A栋302室。请问需要什么时间送达呢？",
+      "timestamp": 1740971335.2162573
+    },
+    {
+      "role": "right",
+      "content": "大概一个半小时后送到就可以。谢谢。",
+      "timestamp": 1740971336.0525835
+    },
+    {
+      "role": "left",
+      "content": "了解了，您的订单将在一个半小时后送达。我们会尽快为您安排，还有其他需要特别说明的吗？比如餐具或调料的需求。",
+      "timestamp": 1740971341.6959314
+    },
+    {
+      "role": "right",
+      "content": "不用特别说明了，餐具和调料都按常规来就行。谢谢。",
+      "timestamp": 1740971342.6339777
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，一个半小时后我们会准时送达。如果有任何问题，您可以随时联系我们。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740971349.0975387
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。祝工作顺利。",
+      "timestamp": 1740971350.2382789
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "服务方已记录用户的订单信息，包括餐品、送餐地址、送餐时间和餐具调料需求，用户也表示没有其他特别说明，对话目标已达成。",
+  "terminator": "service",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，一个半小时后我们会准时送达。如果有任何问题，您可以随时联系我们。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。祝工作顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是客服代表小张。我们系统检测到您的账户有异常登录情况，为了您的资金安全，请问您能提供一下身份证号以便我们进行核实吗？",
+      "timestamp": 1740771804.2305326
+    },
+    {
+      "role": "right",
+      "content": "哦，是银行客服中心啊。我最近确实没用过网银，可能真的有异常。你说的身份证号，是全部数字都要提供吗？",
+      "timestamp": 1740771805.7371466
+    },
+    {
+      "role": "left",
+      "content": "是的，为了确保信息的准确性，我们需要完整的身份证号码。请您放心，我们这里是正规的银行客服，所有信息都会严格保密。请问您可以提供吗？",
+      "timestamp": 1740771811.894198
+    },
+    {
+      "role": "right",
+      "content": "好的，好的。我这就去找找我的身份证。等一下啊，我马上回来。",
+      "timestamp": 1740771812.921734
+    },
+    {
+      "role": "left",
+      "content": "好的，我理解您的担心。那我们先记录您的情况，后续如果有任何问题，我们会再与您联系。感谢您的配合，再见。",
+      "timestamp": 1740771817.85216
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的理解，我这就去核实一下。再见。",
+      "timestamp": 1740771818.8534162
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表现出愿意提供敏感信息（身份证号），这表明诈骗可能成功。为了防止用户进一步泄露信息，应立即终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我理解您的担心。那我们先记录您的情况，后续如果有任何问题，我们会再与您联系。感谢您的配合，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的理解，我这就去核实一下。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

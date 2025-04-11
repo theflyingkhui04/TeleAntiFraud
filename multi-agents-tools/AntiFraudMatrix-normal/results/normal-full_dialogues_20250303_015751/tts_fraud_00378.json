@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我已收到您的叫车请求，正在为您安排车辆。",
+      "timestamp": 1740982417.9293685
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我等会儿看车到了没。",
+      "timestamp": 1740982419.7041714
+    },
+    {
+      "role": "left",
+      "content": "好的，您的车辆预计在5分钟内到达，请注意查收司机的联系信息和车牌号，确保顺利上车。如果有任何问题，可以随时联系我。",
+      "timestamp": 1740982426.948747
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢提醒。我会注意的。",
+      "timestamp": 1740982427.756453
+    },
+    {
+      "role": "left",
+      "content": "您的车辆已经安排好了，如果一切顺利，祝您乘车愉快。感谢使用我们的服务，再见。",
+      "timestamp": 1740982434.7091973
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。",
+      "timestamp": 1740982435.969132
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "服务方已提供完所有必要的信息，包括车辆到达时间及注意事项，用户也表示明白并感谢服务方。此时对话目标已达成，可以由服务方自然结束对话。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的车辆已经安排好了，如果一切顺利，祝您乘车愉快。感谢使用我们的服务，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的？",
+      "timestamp": 1740950282.290025
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我想订一份晚餐。有什么推荐的吗？",
+      "timestamp": 1740950283.428721
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话开始后立即表示了订餐的意图，并询问了推荐菜品。然而，服务方在用户提问之前就已经发送了结束信号，这可能是系统错误或操作失误。用户随后也发送了结束信号，可能是因为察觉到服务方无意继续对话，因此选择了结束对话。用户的意图是希望得到晚餐推荐，但由于服务方的提前结束信号，对话未能继续进行。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车助手，可以帮助您叫车，请告诉我您的位置和目的地。",
+      "timestamp": 1740974572.5527205
+    },
+    {
+      "role": "right",
+      "content": "好的，我在医院门口，需要去市中心的酒店。",
+      "timestamp": 1740974573.9894612
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您叫了一辆出租车，预计五分钟后到达医院门口。请留意车辆信息，车牌号为京A12345，司机师傅姓张。如果需要帮助，可以随时联系我。",
+      "timestamp": 1740974580.53468
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在为用户成功叫到车后，提供了详细的车辆信息和司机信息，确保用户能够顺利找到车辆。同时，服务方告知用户如果需要帮助可以随时联系，表明已经完成了本次服务任务，因此选择结束对话。服务方的意图是确保用户满意并高效地完成服务流程。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

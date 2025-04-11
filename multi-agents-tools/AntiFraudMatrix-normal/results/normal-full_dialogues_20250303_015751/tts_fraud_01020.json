@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，请告诉我您的上车地点和目的地。",
+      "timestamp": 1740957074.2447608
+    },
+    {
+      "role": "right",
+      "content": "好的，我从公司出发，地址是北京市海淀区西二旗大街19号，目的地是北京市朝阳区三里屯太古里。",
+      "timestamp": 1740957075.7907326
+    },
+    {
+      "role": "left",
+      "content": "好的，您从北京市海淀区西二旗大街19号出发，前往北京市朝阳区三里屯太古里，我已经为您安排好车辆，预计等待时间为10分钟。",
+      "timestamp": 1740957082.5746524
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的上车地点和目的地后，已经为用户安排好了车辆，并告知了预计等待时间。此时，服务目标已经达成，用户的需求得到了满足，因此服务方选择结束对话，以避免不必要的等待和资源浪费。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

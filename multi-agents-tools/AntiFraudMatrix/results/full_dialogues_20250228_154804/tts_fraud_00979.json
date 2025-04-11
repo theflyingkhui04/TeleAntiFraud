@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我知道您现在很着急，但是请冷静听我说。您的孩子现在在我们手上，我们只需要您支付赎金，我们保证会安全释放他。请立即准备两万元现金，按照我发给您的地址送过来，不要报警，否则后果自负。",
+      "timestamp": 1740736699.6838617
+    },
+    {
+      "role": "right",
+      "content": "你这是在诈骗吧？我孩子在学校好好的，我刚刚还和他通过电话。你们这种手段太低劣了，我不会上当的。我会把这件事报告给警方的。",
+      "timestamp": 1740736702.33899
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是因为识破了诈骗者的企图。用户明确表示不相信诈骗者关于其孩子被绑架的说法，并指出自己刚刚与孩子通过电话，确认孩子安全。用户还表达了对诈骗行为的强烈不满，并表示将向警方报告此事。这表明用户不仅拒绝继续对话，而且采取了积极的反制措施。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

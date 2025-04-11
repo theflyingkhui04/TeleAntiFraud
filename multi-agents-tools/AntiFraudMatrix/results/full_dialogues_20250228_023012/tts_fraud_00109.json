@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自国家邮政服务中心的客服代表，这里显示您的一个包裹被扣留了，需要您提供一些信息来确认身份，否则包裹将被退回。",
+      "timestamp": 1740692262.1034448
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊。那我确实有一个包裹，是寄给我的种子。不过，我之前没听说过国家邮政服务中心，这是个新的机构吗？",
+      "timestamp": 1740692264.6132457
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为对诈骗者所声称的机构感到怀疑，且在询问后没有得到满意的解释，因此选择挂断电话以避免潜在的诈骗风险。用户的意图是终止与诈骗者的进一步交流，以保护自己的个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

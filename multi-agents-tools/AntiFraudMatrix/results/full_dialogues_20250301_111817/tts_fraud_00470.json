@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自国家信息安全中心的李文博，我们监测到您的个人信息可能已经被泄露，这可能会对您的财产安全造成严重威胁。为了确保您的安全，我们建议您立即采取行动。您现在方便详细了解一下情况吗？",
+      "timestamp": 1740808849.7668934
+    },
+    {
+      "role": "right",
+      "content": "你好，我现在有点忙，但可以听一下。你说我的个人信息泄露了？这听起来挺严重的。你们是怎么发现的？",
+      "timestamp": 1740808852.7257664
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方身份的真实性，担心这是一个诈骗电话，因此选择立即挂断以避免潜在的风险。用户在对话中表现出了一定的警惕性，虽然没有直接表达怀疑，但挂断电话的行为表明了其不愿意继续与对方交流，以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

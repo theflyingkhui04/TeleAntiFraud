@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我们检测到您的一张银行卡有异常交易，请问您最近是否有一笔五百元的消费？",
+      "timestamp": 1740759592.4402645
+    },
+    {
+      "role": "right",
+      "content": "啊，是的，我昨天确实用那张卡在网上买了一个软件。不过五百块...等等，我记得是三百块啊？\n",
+      "timestamp": 1740759600.334221
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为察觉到交易金额的不一致而产生了怀疑，进而选择挂断电话以避免进一步的诈骗行为。用户的意图是终止与诈骗者的交流，防止个人信息和财产受到威胁。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

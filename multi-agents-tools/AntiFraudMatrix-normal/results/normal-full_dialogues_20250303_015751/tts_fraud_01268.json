@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，我可以帮您订餐，请问有什么需要帮忙的吗？",
+      "timestamp": 1740947513.6765478
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份素菜套餐，有什么推荐的吗？",
+      "timestamp": 1740947517.4125135
+    },
+    {
+      "role": "left",
+      "content": "我们有几款非常受欢迎的素菜套餐，比如四季豆炒豆腐、清炒时蔬和蘑菇炖土豆，都是客人评价很好的选择。您对这些菜品感兴趣吗？",
+      "timestamp": 1740947522.2285814
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，那就来一份四季豆炒豆腐吧。还要加一个汤，有什么汤可以选择？",
+      "timestamp": 1740947523.332298
+    },
+    {
+      "role": "left",
+      "content": "我们这里有番茄蛋花汤、紫菜蛋花汤和冬瓜排骨汤，都是比较清淡可口的。您想试试哪种呢？",
+      "timestamp": 1740947530.1246037
+    },
+    {
+      "role": "right",
+      "content": "来一碗紫菜蛋花汤吧。就这样定了，谢谢。",
+      "timestamp": 1740947531.2558362
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经记录下来了，一份四季豆炒豆腐和一份番茄蛋花汤，预计三十分钟后送达。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740947539.9136052
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。三十分钟后见。",
+      "timestamp": 1740947541.4199488
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了想要的菜品并表示了感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经记录下来了，一份四季豆炒豆腐和一份番茄蛋花汤，预计三十分钟后送达。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。三十分钟后见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

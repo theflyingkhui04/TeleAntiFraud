@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李先生吗？我是您的邻居张师傅，刚接到一个电话说您的儿子小明出事了，现在在医院，您得赶紧过来。",
+      "timestamp": 1740685838.299719
+    },
+    {
+      "role": "right",
+      "content": "张师傅，真的吗？我儿子怎么了？他现在在哪一家医院？我这就赶过去。谢谢您告诉我。",
+      "timestamp": 1740685842.6930683
+    },
+    {
+      "role": "left",
+      "content": "李先生，具体情况我也不太清楚，您赶紧打个电话问问情况吧。我这边还有事，先挂了啊。",
+      "timestamp": 1740685852.209613
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，谢谢张师傅，我马上联系。",
+      "timestamp": 1740685853.2731895
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经成功获取了用户的关注和紧急反应，用户已提供敏感信息（询问医院位置），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "李先生，具体情况我也不太清楚，您赶紧打个电话问问情况吧。我这边还有事，先挂了啊。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，谢谢张师傅，我马上联系。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

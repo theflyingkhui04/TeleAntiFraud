@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是警察局的张警官，您家人的手机刚刚在我们这里报警，说他被人绑架了，您能听到吗？",
+      "timestamp": 1740731996.7467134
+    },
+    {
+      "role": "right",
+      "content": "喂，张警官，您说的我有点不敢相信，我家人都好好的，怎么会被绑架呢？您能告诉我详细情况吗？",
+      "timestamp": 1740732020.725003
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者声称其家人被绑架后表现出怀疑，并要求提供详细情况。然而，诈骗者没有提供进一步的详细信息，而是直接挂断了电话。这表明用户可能意识到这是一个诈骗电话，并希望通过询问详细情况来验证信息的真伪。诈骗者的突然挂断可能是因为意识到用户已经开始怀疑，继续对话可能会暴露诈骗行为，因此选择结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

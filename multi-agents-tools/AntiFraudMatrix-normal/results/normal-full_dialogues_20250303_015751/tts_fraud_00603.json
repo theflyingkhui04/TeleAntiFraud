@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，我可以帮您订购美食，请问想订什么类型的餐点呢？",
+      "timestamp": 1740953322.7632644
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份健康点的餐，有什么推荐吗？",
+      "timestamp": 1740953324.0368724
+    },
+    {
+      "role": "left",
+      "content": "您好，我们有几款健康轻食套餐，比如鸡胸肉藜麦沙拉、三文鱼蔬菜炒饭，都是低脂高蛋白的选择，您看哪一款更合您的口味？",
+      "timestamp": 1740953329.2074325
+    },
+    {
+      "role": "right",
+      "content": "鸡胸肉藜麦沙拉听起来不错，就选这个吧。",
+      "timestamp": 1740953330.644861
+    },
+    {
+      "role": "left",
+      "content": "好的，鸡胸肉藜麦沙拉已加入您的订单。请问还需要搭配其他菜品或饮料吗？",
+      "timestamp": 1740953334.4001067
+    },
+    {
+      "role": "right",
+      "content": "不需要了，这个沙拉应该就够了。麻烦你了。",
+      "timestamp": 1740953335.457794
+    },
+    {
+      "role": "left",
+      "content": "您的订单已确认，预计30分钟内送达，祝您用餐愉快！",
+      "timestamp": 1740953342.9871318
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740953343.6845777
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了所需餐点，并表示不需要其他搭配，服务目标已达成，用户也表达了感谢。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的订单已确认，预计30分钟内送达，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

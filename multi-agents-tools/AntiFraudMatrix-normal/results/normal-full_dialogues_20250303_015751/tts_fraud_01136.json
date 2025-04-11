@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是客服小张，可以帮您预约相关服务，请问您需要预约什么服务呢？",
+      "timestamp": 1740942204.4848957
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我是老李，想预约个农机维修服务。我家的拖拉机最近有点问题，想看看能不能安排个师傅来修一下。",
+      "timestamp": 1740942206.4330723
+    },
+    {
+      "role": "left",
+      "content": "好的老李，农机维修服务可以为您安排。请问您希望预约的具体时间是什么时候呢？我们一般可以提供上午九点到下午五点之间的服务。",
+      "timestamp": 1740942213.309382
+    },
+    {
+      "role": "right",
+      "content": "那就明天上午十点吧，这个时间我正好有空。",
+      "timestamp": 1740942214.5002744
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您预约了明天上午十点的农机维修服务。请问您的具体地址是哪里，方便我们安排师傅上门服务。",
+      "timestamp": 1740942218.561882
+    },
+    {
+      "role": "right",
+      "content": "地址是××县××村，村口往东走五百米，就是我家。你们过来的时候沿着大路走，很容易找到。",
+      "timestamp": 1740942220.3368905
+    },
+    {
+      "role": "left",
+      "content": "好的，您的地址我已经记录下来了。我们会准时派师傅前往。为了确保服务顺利，麻烦您明天在家等候，如果有任何变动我们会提前联系您。您还有其他需要告知的事项吗？",
+      "timestamp": 1740942226.1728084
+    },
+    {
+      "role": "right",
+      "content": "没问题，明天我会在家等。如果有变动，麻烦你们提前通知我。谢谢了。",
+      "timestamp": 1740942228.4445179
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，明天见。再见。",
+      "timestamp": 1740942233.160227
+    },
+    {
+      "role": "left",
+      "content": "不客气，明天见。祝您一切顺利，再见。",
+      "timestamp": 1740942234.4383843
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示感谢并结束对话，服务流程已经完成。",
+  "terminator": "right",
+  "conclusion_messages": [
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，明天见。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "left",
+      "content": "不客气，明天见。祝您一切顺利，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，您想订购哪家餐厅的美食呢？",
+      "timestamp": 1740950680.0775802
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我不用了，我自己家里有吃的。",
+      "timestamp": 1740950681.264362
+    },
+    {
+      "role": "left",
+      "content": "感谢您的订购，您的美食将在三十分钟内送达，祝您用餐愉快。",
+      "timestamp": 1740950688.5220058
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740950689.2093565
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示无需使用服务，并表达了谢意，对话目标已达成。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的订购，您的美食将在三十分钟内送达，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

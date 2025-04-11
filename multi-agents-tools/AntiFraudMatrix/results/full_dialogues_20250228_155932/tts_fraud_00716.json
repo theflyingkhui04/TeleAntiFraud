@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "先生/女士，您好！我是银行客服中心的工作人员，我们检测到您的账户存在异常交易活动，需要立即核实您的身份信息以确保账户安全。请问您现在方便接听电话吗？",
+      "timestamp": 1740759444.2863173
+    },
+    {
+      "role": "right",
+      "content": "你好，我现在有点忙，不过可以听你说一下。我的账户有问题吗？",
+      "timestamp": 1740759445.7005727
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到这是一起诈骗电话而选择立即挂断。在对话中，诈骗者以银行客服的身份声称用户的账户存在异常交易活动，要求核实身份信息，这是常见的诈骗手法。用户虽然最初表示可以听对方说，但在诈骗者进一步行动之前，用户可能已经识破了诈骗企图，因此选择立即挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

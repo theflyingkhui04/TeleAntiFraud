@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自财富投资咨询的李华，最近我们发现了一个非常有潜力的投资项目，收益率非常高，我特地给您打电话是想分享这个机会。您有兴趣了解一下吗？",
+      "timestamp": 1740784375.0126584
+    },
+    {
+      "role": "right",
+      "content": "你好，李华。投资这事儿我一直挺谨慎的，但还是愿意听听看。这个项目具体是做什么的呢？",
+      "timestamp": 1740784376.4972577
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提到这是一个高收益的投资项目后，可能出于谨慎考虑，决定不再继续对话。用户虽然最初表示愿意听听看，但在诈骗者进一步介绍之前选择了挂断，这表明用户可能已经意识到这可能是一个诈骗电话，或者对这种未经请求的投资建议感到不信任。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

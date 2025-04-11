@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是张先生吗？这里情况非常紧急，你的妹妹刚刚被我们绑架了，如果你还想见到她，必须立刻按照我说的做。",
+      "timestamp": 1740783088.2282515
+    },
+    {
+      "role": "right",
+      "content": "你是什么人？你为什么要这么说我妹妹？这到底是怎么回事？你必须立刻告诉我，否则我马上报警。",
+      "timestamp": 1740783089.8593836
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其妹妹被绑架后，表现出强烈的不安和怀疑，并立即威胁要报警。这表明用户可能认为这是一个诈骗电话，或者即使不确定，也希望通过挂断电话并报警来保护自己和家人。用户主动挂断电话，表明其不愿意继续与诈骗者交流，以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

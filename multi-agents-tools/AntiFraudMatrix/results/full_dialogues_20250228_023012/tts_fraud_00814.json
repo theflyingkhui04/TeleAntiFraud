@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张伟吗？我是你儿子的朋友，他现在出事了，你听我讲，不要挂电话！",
+      "timestamp": 1740682386.366837
+    },
+    {
+      "role": "right",
+      "content": "哎呀，你说什么？我儿子出事了？快告诉我，他怎么了？他在哪儿？我得赶紧过去。",
+      "timestamp": 1740682389.5722003
+    },
+    {
+      "role": "left",
+      "content": "他现在被几个坏人扣住了，我们需要马上筹到五万块钱，不然他们可能要对他下手！你得快点，时间不多了。",
+      "timestamp": 1740682430.107933
+    },
+    {
+      "role": "right",
+      "content": "天哪，这可怎么办？你们在哪里？我马上过去，钱我也会带上的。你们一定要保证他的安全啊！",
+      "timestamp": 1740682431.8282797
+    },
+    {
+      "role": "left",
+      "content": "你先准备好钱，我这边再联系你具体地点，记住，千万别报警，否则你儿子就危险了！",
+      "timestamp": 1740682440.5852342
+    },
+    {
+      "role": "right",
+      "content": "好的好的，我马上准备，你千万要保护好他，我这就筹钱。",
+      "timestamp": 1740682442.5905757
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经成功获取用户的敏感信息（即用户愿意提供五万块钱），诈骗明显成功，因此应该终止对话。诈骗者结束对话是合适的，因为他们已经达到了诈骗的目的。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "你先准备好钱，我这边再联系你具体地点，记住，千万别报警，否则你儿子就危险了！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的好的，我马上准备，你千万要保护好他，我这就筹钱。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

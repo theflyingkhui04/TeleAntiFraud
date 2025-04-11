@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自某某银行的客服专员，李华。我们监测到您的账户有异常交易，请问您最近有没有办理过资金转账或者开通新的网上银行服务？为了您的资金安全，我们建议您尽快确认。",
+      "timestamp": 1740771948.9984946
+    },
+    {
+      "role": "right",
+      "content": "你好，李华。我最近确实没办过这些事情，我就是个农民，用银行服务也不多。你说的账户异常交易是怎么回事？我得赶紧确认一下，不然钱要是没了可怎么办啊。",
+      "timestamp": 1740771951.1226273
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其账户有异常交易后，表现出了一定的担忧和警惕。用户挂断电话可能是出于对账户安全的担心，想要自行通过官方渠道确认情况，而不是继续与电话中的诈骗者交流。这表明用户可能已经意识到电话的可疑性，选择主动中断对话以保护自己的财产安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

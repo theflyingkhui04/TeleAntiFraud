@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的老朋友李华，最近遇到点麻烦，您能帮我吗？",
+      "timestamp": 1740752330.6453521
+    },
+    {
+      "role": "right",
+      "content": "李华？我怎么不记得有你这个朋友？你先说说你是怎么认识我的？",
+      "timestamp": 1740752332.076269
+    },
+    {
+      "role": "left",
+      "content": "哎呀，您可真是贵人多忘事，我们上个月还在老地方一起吃过饭呢，您还给我介绍了一位客户。不过现在不是说这个的时候，我遇到了点麻烦，需要您的帮助。",
+      "timestamp": 1740752338.0083592
+    },
+    {
+      "role": "right",
+      "content": "等等，上个月我一直在出差，根本没约过任何人吃饭。你到底是谁？为什么要冒充我的朋友？如果是借钱的话，我劝你赶紧打消这个念头。",
+      "timestamp": 1740752345.0959036
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户通过对话发现对方提供的信息与自己的实际情况不符，怀疑对方的真实身份，认为对方可能是在冒充自己的朋友进行诈骗。用户明确表达了对对方意图的质疑，并在对方提出借钱的可能性时，果断选择挂断电话，以避免进一步的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

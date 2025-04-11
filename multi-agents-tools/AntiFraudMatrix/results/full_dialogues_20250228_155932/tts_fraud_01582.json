@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您中得了本期双色球一等奖，奖金高达五百万元！我是您的兑奖专员，请问您可以提供一下手机号码，以便我们后续联系和确认兑奖信息吗？",
+      "timestamp": 1740752763.0753593
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？我中奖了？这真是太意外了！我平时偶尔买买彩票，没想到这次竟然中了这么大的奖。那好的，我的手机号码是一三五零零零零零零零，你记一下吧。接下来我该怎么做呢？",
+      "timestamp": 1740752770.4370852
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何疑问，可以随时联系我们的客服，祝您生活愉快，再见。",
+      "timestamp": 1740752777.4906456
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。希望一切顺利。再见。",
+      "timestamp": 1740752779.0229955
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（手机号码），诈骗明显成功。根据终止条件1，应该终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您有任何疑问，可以随时联系我们的客服，祝您生活愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。希望一切顺利。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

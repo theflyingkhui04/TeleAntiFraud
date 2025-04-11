@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的打车服务，我将为您安排车辆。请问您现在需要叫车吗？",
+      "timestamp": 1740956240.783547
+    },
+    {
+      "role": "right",
+      "content": "嗯，需要。",
+      "timestamp": 1740956243.9484286
+    },
+    {
+      "role": "left",
+      "content": "好的，请告诉我您的上车地点和目的地。",
+      "timestamp": 1740956247.4156017
+    },
+    {
+      "role": "right",
+      "content": "上车地点是医院门口，目的地是家，地址是××小区。",
+      "timestamp": 1740956249.4255483
+    },
+    {
+      "role": "left",
+      "content": "明白了，您的上车地点是医院门口，目的地是××小区。我会立即为您安排车辆。预计三到五分钟内会有司机联系您。",
+      "timestamp": 1740956256.0699866
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740956256.7887895
+    },
+    {
+      "role": "left",
+      "content": "您的车辆已安排妥当，司机稍后会联系您。感谢使用我们的服务，祝您一路平安。",
+      "timestamp": 1740956261.1042962
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740956261.8775644
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢，并且服务方已经提供了所需的信息和服务，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的车辆已安排妥当，司机稍后会联系您。感谢使用我们的服务，祝您一路平安。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您在昨天的彩票抽奖中赢得了五百万元的大奖！这是您一直以来的幸运日吗？",
+      "timestamp": 1740737333.681783
+    },
+    {
+      "role": "right",
+      "content": "您好，五百万元的大奖听起来真是令人惊喜。不过，我平时很少买彩票，更没有参加过什么抽奖活动。您能告诉我这是怎么回事吗？我得确认一下。",
+      "timestamp": 1740737358.5135713
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在意识到对话可能涉及诈骗后，表现出谨慎和怀疑的态度，并要求进一步确认信息的真伪。用户可能意识到这是一个诈骗电话，因此选择主动挂断以避免进一步的潜在风险。用户的意图是保护自己的个人信息和财产安全，避免陷入诈骗陷阱。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

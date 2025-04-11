@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "预约服务专员为您服务，请问有什么可以帮助您的？",
+      "timestamp": 1740977667.8332887
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下你们的退休金管理服务。",
+      "timestamp": 1740977669.4298966
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方首次问候后立即提供了他们的问题，即想了解退休金管理服务。然而，由于服务方的回复中包含了结束信号代码 '##ENDCALL_SIGNAL##'，这可能被误认为是服务方提前结束了对话，导致用户也使用了结束信号代码 '##ENDCALL_SIGNAL##' 来回应。实际上，这可能是一个误解，用户原本是希望继续对话并获得关于退休金管理服务的信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

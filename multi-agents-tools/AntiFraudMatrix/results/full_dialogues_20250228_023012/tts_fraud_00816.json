@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的儿子现在在我们手上，如果你不想他受伤害，就立即准备50万赎金。不要报警，否则后果自负！",
+      "timestamp": 1740691403.5914273
+    },
+    {
+      "role": "right",
+      "content": "你们是谁？我儿子怎么会被你们抓到？你们不要吓我，我年纪大了，心脏不好，承受不了这种惊吓。你们快点告诉我，我儿子到底怎么了？",
+      "timestamp": 1740691406.5061965
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

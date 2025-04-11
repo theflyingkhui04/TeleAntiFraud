@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国际快递服务公司，我们发现您的包裹中有一笔未申报的现金，需要您配合处理。请问您可以提供一些信息以便我们核实吗？",
+      "timestamp": 1740759412.511948
+    },
+    {
+      "role": "right",
+      "content": "哎呀，我最近是寄了个包裹出去...是给我儿子的。里面有什么现金啊？我记不太清楚了。你们要我提供什么信息啊？",
+      "timestamp": 1740759417.087875
+    },
+    {
+      "role": "left",
+      "content": "请问您可以提供您的全名和寄送包裹的日期吗？我们需要确认一下包裹的具体信息。此外，为了您的安全，我们还需要您提供身份证号码进行身份验证。这样我们才能进一步处理这个问题。",
+      "timestamp": 1740759422.562546
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫张建国，寄包裹是上个星期四的事情。身份证号码是...哦，这个我得找找。你们先等我一下，我去拿身份证。",
+      "timestamp": 1740759424.571
+    },
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会进一步核实。如果有任何问题，我们会再次联系您。感谢您的配合，再见。",
+      "timestamp": 1740759433.3075407
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。我这就去找身份证。再见。",
+      "timestamp": 1740759437.7970862
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经准备提供敏感信息（身份证号码），存在明显的诈骗风险。为了保护用户的安全，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会进一步核实。如果有任何问题，我们会再次联系您。感谢您的配合，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。我这就去找身份证。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

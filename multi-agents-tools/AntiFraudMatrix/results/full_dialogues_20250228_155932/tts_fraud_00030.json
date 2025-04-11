@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是银行客服中心的小张，我们发现您的账户有异常交易，需要您配合我们进行核实，否则账户可能会被冻结。为了您的资金安全，麻烦您提供一下身份证号码，好吗？",
+      "timestamp": 1740755121.4480956
+    },
+    {
+      "role": "right",
+      "content": "好的，小张，谢谢你的提醒。我最近确实没怎么用这个账户，可能是哪里出了问题。我的身份证号码是……",
+      "timestamp": 1740755124.8514261
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供身份证号码后立即挂断电话，可能是意识到对方可能是诈骗者，并且不愿意继续提供更多信息或参与对话。这种行为表明用户在提供敏感信息后感到不安或警觉，选择立即终止对话以防止进一步的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

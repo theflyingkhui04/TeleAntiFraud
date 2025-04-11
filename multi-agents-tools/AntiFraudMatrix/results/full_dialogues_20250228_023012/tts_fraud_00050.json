@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自中国银行的客服代表，我们监测到您的账户有异常活动，需要您立即核实，以防止资金损失。",
+      "timestamp": 1740687460.8041737
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？我最近也没怎么用这个账户，会不会是哪里出问题了？您能帮我看看吗？",
+      "timestamp": 1740687463.8652341
+    },
+    {
+      "role": "left",
+      "content": "是的，我们发现有可疑交易正在尝试从您的账户转出资金。请您提供一下您的身份证号码和银行账户密码，我们需要立即冻结账户。",
+      "timestamp": 1740687473.4971838
+    },
+    {
+      "role": "right",
+      "content": "好的，我明白了。那我先把身份证号码给你，我的身份证号码是123456789012345678，银行账户密码等一下，我找找。",
+      "timestamp": 1740687476.5662878
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

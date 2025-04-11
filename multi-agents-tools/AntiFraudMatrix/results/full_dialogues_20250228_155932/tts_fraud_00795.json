@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你是XXX的家长吧？我们刚刚绑架了你的孩子，现在他就在我手里。如果你还想见到活的他，就乖乖听我的指示。不要报警，否则后果自负。",
+      "timestamp": 1740759040.3924844
+    },
+    {
+      "role": "right",
+      "content": "你、你们到底是谁？我的孩子真的在你们手上吗？我、我需要证据，不然我怎么知道你们说的是真的？",
+      "timestamp": 1740759043.7745848
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者的威胁时表现出恐惧和不确定，要求提供证据以确认孩子是否真的被绑架。然而，用户可能意识到这是一个诈骗电话，或者无法承受进一步的压力，因此选择挂断电话以保护自己和孩子。用户的意图可能是避免进一步的骚扰和威胁，同时也可能是因为不确定如何应对这种紧急情况而采取的自我保护措施。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

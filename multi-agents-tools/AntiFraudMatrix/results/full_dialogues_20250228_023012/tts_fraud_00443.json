@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问，我们公司最近有个内部投资项目，收益高达300%，不知道您有没有兴趣了解一下？",
+      "timestamp": 1740683343.098601
+    },
+    {
+      "role": "right",
+      "content": "您好，投资这事儿我懂一些，但300%的收益听起来太不现实了。你们公司这项目具体是做什么的？能给我详细介绍一下吗？",
+      "timestamp": 1740683380.6017294
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提出的高收益投资项目表示怀疑，认为其不现实，并要求详细介绍项目内容。诈骗者可能意识到用户对项目的真实性持怀疑态度，继续对话可能无法达到诈骗目的，因此选择主动挂断电话。用户的意图是获取更多信息以评估项目的可信度，而诈骗者可能认为继续提供信息会增加被识破的风险，故选择结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

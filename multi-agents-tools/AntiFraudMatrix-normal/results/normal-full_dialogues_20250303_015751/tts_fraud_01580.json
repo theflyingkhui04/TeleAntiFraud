@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询客服为您服务，请问有什么可以帮助您的？",
+      "timestamp": 1740947306.4805875
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下最近的地铁线路是否有调整，特别是三号线。",
+      "timestamp": 1740947307.9885106
+    },
+    {
+      "role": "left",
+      "content": "三号线目前没有线路调整，运营时间和服务均保持正常。如果您需要具体的班次时间或进一步的信息，可以告诉我，我会为您查询。",
+      "timestamp": 1740947317.212437
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。那我就放心了。如果有具体的时间表，能发给我一份就更好了。",
+      "timestamp": 1740947318.738321
+    },
+    {
+      "role": "left",
+      "content": "可以的，我会将三号线的最新时间表发送到您的手机上。请问您的手机号码是多少？（注：实际操作中，我们会遵循隐私保护政策，不会在对话中直接要求用户提供手机号码。）",
+      "timestamp": 1740947326.3130503
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的需求后，主动提供了进一步的服务（发送时间表），并在此过程中提供了结束信号（##ENDCALL_SIGNAL##）。这表明服务方认为已经满足了用户的需求，且进一步的交流没有必要，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

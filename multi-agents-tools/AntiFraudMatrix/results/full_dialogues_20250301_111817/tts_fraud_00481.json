@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您开户银行的客服人员，我们监测到您的账户有异常活动，为了保护您的资金安全，请您提供一下您的身份证号码和银行卡号，我们需要进行核实。",
+      "timestamp": 1740800473.5643165
+    },
+    {
+      "role": "right",
+      "content": "您好，谢谢您的提醒。不过，我最近并没有发现账户有什么异常，您能具体说说是哪里不对吗？另外，我之前也接到过类似的电话，说是需要提供身份证号码和银行卡号，结果后来才知道是诈骗。所以，我想先确认一下您的身份。",
+      "timestamp": 1740800479.7824984
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因可能是出于对诈骗的警惕。用户在对话中表达了对提供个人信息的谨慎态度，并提到了之前类似电话的诈骗经历。这表明用户怀疑来电的真实性和安全性，因此选择挂断电话以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

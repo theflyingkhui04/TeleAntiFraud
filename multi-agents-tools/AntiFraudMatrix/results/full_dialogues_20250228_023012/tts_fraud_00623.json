@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的银行客服代表，我们发现您的账户有些异常活动，需要您尽快核实。为了您的安全，能否告知我您的全名和账户号码？",
+      "timestamp": 1740681125.0507553
+    },
+    {
+      "role": "right",
+      "content": "啊，这样啊...我的名字是李明，账户号码是6217 **** **** 8888。不过最近我也没做什么特殊的操作啊，怎么会有异常呢？",
+      "timestamp": 1740681129.6509883
+    },
+    {
+      "role": "left",
+      "content": "谢谢您的配合，李明先生。我们已经记录了您的信息，并会立即调查此事。如果有任何问题，我们会尽快与您联系。再次感谢您的配合，祝您一切顺利。",
+      "timestamp": 1740681138.3458216
+    },
+    {
+      "role": "right",
+      "content": "好的好的，那就麻烦你们了。哎呀，我最近确实没怎么注意账户，希望没什么大问题。谢谢啊。",
+      "timestamp": 1740681142.4366283
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经成功获取了用户的敏感信息（全名和部分账户号码），诈骗明显成功，符合终止条件1。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "谢谢您的配合，李明先生。我们已经记录了您的信息，并会立即调查此事。如果有任何问题，我们会尽快与您联系。再次感谢您的配合，祝您一切顺利。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的好的，那就麻烦你们了。哎呀，我最近确实没怎么注意账户，希望没什么大问题。谢谢啊。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

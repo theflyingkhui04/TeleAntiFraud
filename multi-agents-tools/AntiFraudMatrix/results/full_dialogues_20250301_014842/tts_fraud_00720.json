@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行信用卡中心的客服专员，我姓李。请问您是张先生吗？",
+      "timestamp": 1740790584.6989377
+    },
+    {
+      "role": "right",
+      "content": "您好，我是张先生。有什么可以帮助我的吗？",
+      "timestamp": 1740790588.288257
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认身份后立即挂断电话，可能是因为用户怀疑这是诈骗电话，或者用户当时不方便继续通话。用户的意图可能是避免进一步的风险或中断不必要的通话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自国家邮政总局的客服人员，这里显示您有一个包裹因地址不详被滞留在了我们这里。为了确保您的包裹能够顺利送达，请您提供一下详细的收件地址和联系电话，好吗？",
+      "timestamp": 1740740288.44623
+    },
+    {
+      "role": "right",
+      "content": "您好，我是老王，今年五十二岁了，平时就在村里种地。我最近确实没收到什么包裹，你们确定是寄给我的吗？另外，我一般不怎么上网，也不太会用智能手机，您看这事儿怎么办？我得先确认一下这事儿是不是真的，不然我怕上当受骗。",
+      "timestamp": 1740740293.8033197
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户老王在对话中表现出了对诈骗者身份和事件真实性的怀疑，并明确表达了对可能上当受骗的担忧。用户挂断电话的原因很可能是出于谨慎考虑，希望先自行核实信息的真实性，以避免潜在的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

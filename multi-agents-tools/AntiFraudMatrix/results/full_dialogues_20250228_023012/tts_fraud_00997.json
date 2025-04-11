@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！我是国际快递公司的客服专员，我们发现您的包裹在海关被扣留，需要您提供一些信息以便处理。请问您现在方便接听电话吗？",
+      "timestamp": 1740688094.7313762
+    },
+    {
+      "role": "right",
+      "content": "这听起来不太对劲啊。我最近根本没有寄过任何国际包裹。你们是哪家快递公司？能提供具体的包裹信息吗？而且，我作为医生，每天都很忙，没有时间处理这种可疑的电话。请不要再打扰我了。",
+      "timestamp": 1740688099.7327943
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因可能是怀疑这是一起诈骗电话。用户表示自己近期没有寄过国际包裹，对电话内容表示怀疑，并且提到自己作为医生很忙，没有时间处理这种可疑的电话，明确表达了不再希望继续交流的意图。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

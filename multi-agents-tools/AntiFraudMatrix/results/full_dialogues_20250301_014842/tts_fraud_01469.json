@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是从您家附近的一家医院打来的，您儿子出事了，他现在需要紧急手术，但我们需要您先转账一笔保证金才能进行，您能尽快帮忙吗？",
+      "timestamp": 1740793263.4383495
+    },
+    {
+      "role": "right",
+      "content": "什么？我儿子出事了？你们能告诉我具体是怎么回事吗？他现在怎么样了？我需要知道详细的情况。你们医院的名字是什么？我怎么联系他的主治医生？",
+      "timestamp": 1740793265.7571387
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的说辞表示怀疑，并要求提供更多详细信息，如医院名称和主治医生联系方式。用户可能意识到这是一个诈骗电话，因此选择挂断电话以避免进一步的欺骗或信息泄露。用户的意图是保护自己和家人的信息安全，并避免可能的经济损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

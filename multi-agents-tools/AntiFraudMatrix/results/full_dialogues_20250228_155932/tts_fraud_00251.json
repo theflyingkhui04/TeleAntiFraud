@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您，您在我们最近的一次全国彩票活动中抽中了一等奖，奖金高达一百万元，真是太幸运了！",
+      "timestamp": 1740756392.3123074
+    },
+    {
+      "role": "right",
+      "content": "哇，真的假的？我中了一百万元？这太不可思议了！你们是哪家彩票公司的？我完全不记得买过彩票啊。这不会是诈骗吧？我最近在新闻上看到很多类似的诈骗案件。",
+      "timestamp": 1740756398.8596263
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其赢得了一百万元的彩票奖金后，表现出惊讶和怀疑。用户提到自己不记得买过彩票，并且提到了最近新闻中关于类似诈骗的报道，显示出对诈骗的高度警惕。用户主动挂断电话，表明其可能认为这是一起诈骗行为，选择立即终止对话以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

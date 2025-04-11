@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是您的银行客服中心，我们发现您的账户有异常活动，需要您配合进行身份验证。请问您现在方便吗？",
+      "timestamp": 1740785575.0892396
+    },
+    {
+      "role": "right",
+      "content": "方便，你说吧，有什么问题需要我配合的？",
+      "timestamp": 1740785575.92244
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合。为了确保您的账户安全，我们需要核对一些基本信息。请您提供一下您的全名和身份证号码，好吗？",
+      "timestamp": 1740785584.2140765
+    },
+    {
+      "role": "right",
+      "content": "我叫张建国，身份证号码是三十七零一零二一九六五零四一五零三零一。这些信息对吗？",
+      "timestamp": 1740785585.6600144
+    },
+    {
+      "role": "left",
+      "content": "张先生，感谢您的配合，我们已经记录了您的信息，会尽快处理这个问题。如果您有任何其他疑问，可以随时联系我们。祝您生活愉快。",
+      "timestamp": 1740785591.95238
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，希望问题能尽快解决。",
+      "timestamp": 1740785593.0015326
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（全名和身份证号码），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "张先生，感谢您的配合，我们已经记录了您的信息，会尽快处理这个问题。如果您有任何其他疑问，可以随时联系我们。祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，希望问题能尽快解决。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

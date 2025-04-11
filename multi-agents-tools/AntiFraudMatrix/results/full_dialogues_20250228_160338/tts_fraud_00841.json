@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自××投资的顾问，李明。最近我们的一个投资项目表现非常出色，我想您可能对此感兴趣。您有时间了解一下吗？",
+      "timestamp": 1740735182.0040193
+    },
+    {
+      "role": "right",
+      "content": "哦，李先生您好。不过我平时工作比较忙，对投资这方面也不太了解。请问这个项目具体是什么样的？风险大吗？",
+      "timestamp": 1740735224.0331974
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为对投资不感兴趣或对诈骗者的身份存疑，选择以挂断电话的方式礼貌地结束对话。用户在回答问题时表现出了犹豫和谨慎，这可能是由于对诈骗者的真实身份和意图的怀疑，或是对投资风险的担忧。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

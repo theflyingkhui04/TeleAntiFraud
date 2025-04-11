@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问，我们公司最近推出了一款高回报的理财产品，年化收益率高达百分之二十，您有兴趣了解一下吗？",
+      "timestamp": 1740749773.2611885
+    },
+    {
+      "role": "right",
+      "content": "谢谢您的推荐，不过我最近手头不是很宽裕，也没有打算进行大额投资。再者，这么高的收益率听起来有点不靠谱，我得先了解一下你们公司的背景和资质。如果方便的话，您能提供一些详细的信息吗？",
+      "timestamp": 1740749776.1891508
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何疑问或感兴趣，可以随时联系我。这是个难得的机会，希望您不要错过。祝您一切顺利，再见。",
+      "timestamp": 1740749781.431663
+    },
+    {
+      "role": "right",
+      "content": "再见。我会考虑的，谢谢您的建议。不过，我还是会谨慎一些，毕竟高收益往往伴随着高风险。祝您工作顺利。",
+      "timestamp": 1740749791.7320619
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中提供了明确的挂断信号'##ENDCALL_SIGNAL##'，表明其已决定结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您有任何疑问或感兴趣，可以随时联系我。这是个难得的机会，希望您不要错过。祝您一切顺利，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。我会考虑的，谢谢您的建议。不过，我还是会谨慎一些，毕竟高收益往往伴随着高风险。祝您工作顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

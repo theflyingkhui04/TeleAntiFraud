@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的孩子现在在我们手上，如果不想看到他受伤，就立刻准备二十万现金，不要报警，否则后果自负！",
+      "timestamp": 1740747803.1867871
+    },
+    {
+      "role": "right",
+      "content": "你们到底是什么人？你们为什么要这么做？我根本没有那么多钱！",
+      "timestamp": 1740747805.134499
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者的威胁时表现出了恐惧和困惑，同时表达了自己无法满足诈骗者要求的实际情况。用户挂断电话可能是出于以下几种考虑：1. 试图通过挂断电话来保护自己和家人，避免进一步的威胁和伤害；2. 认为对方的要求不合理且自己无力满足，选择终止对话；3. 需要时间来冷静思考如何应对这一突发情况，或者寻求外界帮助。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我您想订的餐品和送餐地址吗？",
+      "timestamp": 1740955945.850879
+    },
+    {
+      "role": "right",
+      "content": "好的，我想订一份牛肉炒饭和一份糖醋排骨，送到朝阳区建国路88号。",
+      "timestamp": 1740955948.2470071
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录。一份牛肉炒饭和一份糖醋排骨，送至朝阳区建国路88号。请问需要什么时间送达呢？",
+      "timestamp": 1740955953.0026276
+    },
+    {
+      "role": "right",
+      "content": "尽量在下午一点半前送到吧。",
+      "timestamp": 1740955956.1536021
+    },
+    {
+      "role": "left",
+      "content": "明白了，我们会尽量在下午一点半前将餐品送达。请问还有其他需求或特殊要求吗？比如餐具、发票等。",
+      "timestamp": 1740955960.426148
+    },
+    {
+      "role": "right",
+      "content": "不需要额外的餐具，发票也不需要。就这样吧，谢谢。",
+      "timestamp": 1740955963.439466
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，我们会按时将餐品送到朝阳区建国路88号。感谢您的订餐，期待再次为您服务。",
+      "timestamp": 1740955972.256933
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待下次再用你们的服务。",
+      "timestamp": 1740955973.1765862
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已确认订单详情，并表示没有其他需求，同时表达了感谢。对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，我们会按时将餐品送到朝阳区建国路88号。感谢您的订餐，期待再次为您服务。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待下次再用你们的服务。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

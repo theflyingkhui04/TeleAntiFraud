@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您！我是XX彩票中心的工作人员，您中得了一等奖，奖金高达50万元！请您提供银行账户信息，以便我们尽快为您办理兑奖手续。",
+      "timestamp": 1740684665.1714144
+    },
+    {
+      "role": "right",
+      "content": "真的吗？这也太幸运了吧！不过我之前好像没有买过这个彩票啊。你能帮我确认一下我的中奖信息吗？我有点不太确定。",
+      "timestamp": 1740684669.3543148
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对中奖信息的怀疑，可能是因为用户没有购买过该彩票，因此对诈骗者的说法产生了质疑。用户挂断电话可能是为了避免进一步的交流，防止可能的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

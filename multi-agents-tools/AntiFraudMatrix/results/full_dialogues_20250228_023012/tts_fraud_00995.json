@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，这里是国际邮政快递公司，我们发现您有一个价值100万元的包裹被海关扣留，需要您支付2万元的税费才能放行。请问您现在方便处理这个问题吗？",
+      "timestamp": 1740688395.0030665
+    },
+    {
+      "role": "right",
+      "content": "你好，你说的这个包裹我完全不知情，我也没有购买过这么贵重的东西。你们是不是搞错了？",
+      "timestamp": 1740688396.5291448
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

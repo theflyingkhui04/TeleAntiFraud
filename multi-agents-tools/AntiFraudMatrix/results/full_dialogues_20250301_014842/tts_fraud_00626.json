@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您儿子的同学的家长，他现在遇到麻烦了，您儿子被一群混混绑架了，他们要求我们支付赎金，不然就要对您儿子动手。您能帮帮我们吗？我们真的很急。",
+      "timestamp": 1740788862.5273926
+    },
+    {
+      "role": "right",
+      "content": "天哪，这太可怕了！我儿子怎么会被绑架呢？你们现在在哪里？我需要马上报警。",
+      "timestamp": 1740788864.9058552
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在得知儿子可能被绑架的情况下，表现出极度的担忧和焦虑，并表达了立即报警的意图。用户挂断电话可能是为了尽快采取行动，如联系警方或寻找其他帮助，以确保儿子的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

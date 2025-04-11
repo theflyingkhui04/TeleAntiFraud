@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家邮政服务中心，您的包裹在运输过程中发现有违禁品，需要您配合处理，否则包裹将被没收。请您提供一下姓名和联系电话，以便我们确认您的身份。",
+      "timestamp": 1740752072.5355458
+    },
+    {
+      "role": "right",
+      "content": "哦，是这样啊。我叫李明，电话是这个号码，你们可以直接联系我。这个包裹里到底有什么违禁品呢？我得了解一下。",
+      "timestamp": 1740752074.9344294
+    },
+    {
+      "role": "left",
+      "content": "好的，我会记录您的信息并尽快处理，请您耐心等待我们的回复。感谢您的配合，再见。",
+      "timestamp": 1740752081.7389762
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，我等你们的消息。再见。",
+      "timestamp": 1740752082.764776
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和联系电话，这是敏感信息，诈骗明显成功。为了防止进一步的信息泄露，应立即终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我会记录您的信息并尽快处理，请您耐心等待我们的回复。感谢您的配合，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，我等你们的消息。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

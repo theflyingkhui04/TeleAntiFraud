@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，有什么问题我可以帮您解决呢？",
+      "timestamp": 1740970405.764558
+    },
+    {
+      "role": "right",
+      "content": "您好，小张，我最近收到了一笔退休金，想了解一下有没有合适的投资方式。",
+      "timestamp": 1740970407.5012338
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在简要说明了自己的需求后立即提供了结束信号代码'##ENDCALL_SIGNAL##'，这可能是因为用户意识到自己需要更多时间来考虑或研究投资选项，或者用户可能只是想先了解服务方是否能提供帮助，但并不希望立即深入讨论。用户的意图可能是礼貌地结束对话，同时保留未来进一步咨询的可能性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

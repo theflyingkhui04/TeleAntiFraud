@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您，您中了一等奖，奖金高达一百万元，还有机会获得额外的豪华旅行套餐！",
+      "timestamp": 1740772983.8928154
+    },
+    {
+      "role": "right",
+      "content": "谢谢您通知我，不过我得先核实一下。你们是哪家公司？我之前有参加过什么活动吗？",
+      "timestamp": 1740772985.375399
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在接到诈骗者声称中奖的通知后，表现出谨慎的态度，要求核实信息来源及参与的活动，表明用户对信息的真实性持怀疑态度。用户随后挂断电话，可能是为了防止进一步的诈骗行为，或自行调查信息的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

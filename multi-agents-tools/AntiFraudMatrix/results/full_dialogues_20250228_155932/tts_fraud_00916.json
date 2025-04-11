@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您中得了本周的大奖，奖金是一百万元整！请您提供一下您的个人信息，以便我们进行身份核实和奖金发放。",
+      "timestamp": 1740751399.6575627
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？我平时都不买彩票的啊。你们是怎么知道我中奖的？这个号码我都没听说过。",
+      "timestamp": 1740751404.2675998
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份和中奖信息表示怀疑，由于用户没有购买过彩票，对提供的中奖信息感到困惑和不信任，因此选择主动挂断电话，以避免进一步的诈骗尝试。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

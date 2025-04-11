@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎致电客服中心，我是您的客服专员，有什么问题我可以帮您解决？",
+      "timestamp": 1740947075.1013064
+    },
+    {
+      "role": "right",
+      "content": "你好，最近公司的报销流程有些变化，想了解一下新的规定是什么。",
+      "timestamp": 1740947076.1459816
+    },
+    {
+      "role": "left",
+      "content": "好的，关于公司报销流程的变化，新的规定主要包括简化了报销单的填写步骤，增加了电子发票的提交选项，并且报销审核时间缩短至三个工作日内。您是否需要了解更详细的信息？",
+      "timestamp": 1740947081.4583192
+    },
+    {
+      "role": "right",
+      "content": "明白了，简化流程和增加电子发票提交确实方便多了。三个工作日内审核也挺快的。这样我就清楚了，谢谢你的帮助。",
+      "timestamp": 1740947083.6941645
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，新的报销流程已经为您详细说明。如果有任何其他问题或需要进一步的帮助，请随时联系我们。祝您工作顺利，生活愉快。再见。",
+      "timestamp": 1740947092.166604
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，再见。",
+      "timestamp": 1740947093.0498683
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并明确表示了感谢，表明对话目标已达成。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，新的报销流程已经为您详细说明。如果有任何其他问题或需要进一步的帮助，请随时联系我们。祝您工作顺利，生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

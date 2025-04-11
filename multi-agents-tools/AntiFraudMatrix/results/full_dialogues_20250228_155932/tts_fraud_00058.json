@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的用户，您好，我是来自您开户银行的风险管理部门。我们发现您的账户存在异常交易，需要立即核实您的身份信息以确保资金安全。请问您现在方便接听吗？",
+      "timestamp": 1740759608.5570135
+    },
+    {
+      "role": "right",
+      "content": "您好，我是小李，医生。我现在有点忙，不过可以听您说一下具体情况。我的账户出了什么问题？",
+      "timestamp": 1740759610.132191
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到对方的语气和提问方式不符合常规银行操作，怀疑对方的真实身份，从而选择挂断电话以确保个人信息安全。用户的意图是避免进一步的风险和不必要的交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

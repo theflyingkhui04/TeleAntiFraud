@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您中得了本期的彩票大奖，奖金高达五百万元！请问我可以称呼您什么名字呢？",
+      "timestamp": 1740740180.3248522
+    },
+    {
+      "role": "right",
+      "content": "哎呀，这可真是没想到啊！我叫老李，种了一辈子地，从来没买过彩票。您说这话是真的吗？不会是骗子吧？",
+      "timestamp": 1740740188.3076062
+    },
+    {
+      "role": "left",
+      "content": "老李先生，您放心，我们这里是正规单位，您中奖的信息已经核实过了。可能是您的朋友或者家人帮您代买的彩票。请问您现在方便接听电话吗？我们需要确认一下您的身份信息，以便为您办理领奖手续。",
+      "timestamp": 1740740225.123872
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者可能因为用户表达了怀疑态度，并且提到从未买过彩票，意识到用户可能已经识破骗局或进一步询问可能导致骗局暴露，因此选择主动挂断电话以避免进一步的风险。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

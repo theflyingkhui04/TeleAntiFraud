@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约什么项目？",
+      "timestamp": 1740943679.0542848
+    },
+    {
+      "role": "right",
+      "content": "您好，我想了解一下你们的健康检查项目。",
+      "timestamp": 1740943679.9521441
+    },
+    {
+      "role": "left",
+      "content": "好的，我们的健康检查项目包括基础体检、专项检查和全面体检，您可以根据自己的需求选择。您想了解哪个方面的详细信息？",
+      "timestamp": 1740943687.9915946
+    },
+    {
+      "role": "right",
+      "content": "我想看看全面体检都包含哪些内容。",
+      "timestamp": 1740943689.7113817
+    },
+    {
+      "role": "left",
+      "content": "全面体检包括血常规、尿常规、生化检查、心电图、彩超（肝胆胰脾肾）、胸部X光或CT、肿瘤标志物筛查等项目。此外，我们还会根据您的年龄和性别提供个性化的检查建议。您看这个方案是否合适？",
+      "timestamp": 1740943693.5022504
+    },
+    {
+      "role": "right",
+      "content": "听起来挺全面的，价格是多少？",
+      "timestamp": 1740943695.11168
+    },
+    {
+      "role": "left",
+      "content": "全面体检的价格根据所选项目的不同而有所差异，一般价格在2000元到5000元之间。具体的费用需要根据您选择的具体项目来确定。您可以先告诉我您的大致需求，我可以为您估算一个价格。",
+      "timestamp": 1740943702.010106
+    },
+    {
+      "role": "right",
+      "content": "好的，那我先了解一下。谢谢。",
+      "timestamp": 1740943702.6350408
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何其他问题或需要进一步的帮助，可以随时联系我们。感谢您的咨询，祝您健康！",
+      "timestamp": 1740943707.2983983
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740943710.7440364
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示感谢并表示先了解，这表明用户当前没有进一步的问题或需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您有任何其他问题或需要进一步的帮助，可以随时联系我们。感谢您的咨询，祝您健康！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

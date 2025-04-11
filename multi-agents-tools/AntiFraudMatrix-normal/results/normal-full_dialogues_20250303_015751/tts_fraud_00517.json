@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询员，可以帮您查询路线和交通信息，请问有什么我可以帮您的吗？",
+      "timestamp": 1740938513.4523284
+    },
+    {
+      "role": "right",
+      "content": "你好，我想知道从我们村子到镇上的最近的公交站怎么走，还有多久一趟车？",
+      "timestamp": 1740938515.9743984
+    },
+    {
+      "role": "left",
+      "content": "好的，从您村子到镇上的最近公交站，您可以沿着村口的主路直走，大约走八百米左右，在十字路口右转，继续走大约三百米就能看到公交站了。公交车大约每二十分钟一班，您可以看一下站牌上的时刻表，确保不要错过。",
+      "timestamp": 1740938525.3116286
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，我会按照你说的路线去的。",
+      "timestamp": 1740938526.6799808
+    },
+    {
+      "role": "left",
+      "content": "路线和班次信息已经提供给您了，希望对您有帮助。如果还有其他问题，随时欢迎咨询。祝您旅途愉快。",
+      "timestamp": 1740938535.0264223
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，旅途愉快。",
+      "timestamp": 1740938536.1275904
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢并确认会按照提供的路线前往，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "路线和班次信息已经提供给您了，希望对您有帮助。如果还有其他问题，随时欢迎咨询。祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，旅途愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

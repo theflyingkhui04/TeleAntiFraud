@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的老朋友李某，您还记得我吧？我有一个非常紧急的事情需要您的帮助，我的手机马上没电了。",
+      "timestamp": 1740748675.3072233
+    },
+    {
+      "role": "right",
+      "content": "哎呀，李老兄，你好你好，好几年没见了。你这是在哪儿呢？出什么急事了？手机怎么快没电了？",
+      "timestamp": 1740748676.9968596
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们改天再聊，希望您一切顺利。再见。",
+      "timestamp": 1740748682.4087725
+    },
+    {
+      "role": "right",
+      "content": "再见。",
+      "timestamp": 1740748685.9600077
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中使用了挂断标识符'##ENDCALL_SIGNAL##'，表示其选择挂断对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们改天再聊，希望您一切顺利。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，恭喜你！你中了我们彩票公司的一等奖，奖金是五百万元！我是你的专职客服李小姐，会帮助你完成领奖流程。你现在方便吗？",
+      "timestamp": 1740783491.3099532
+    },
+    {
+      "role": "right",
+      "content": "你好，李小姐。这听起来太令人意外了。五百万元，这是一笔巨款。我需要确认一下，你们公司叫什么名字？还有，我能看看中奖的凭证吗？",
+      "timestamp": 1740783494.7710414
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提供的中奖信息后，表现出了一定的怀疑态度，并要求提供公司名称和中奖凭证。这表明用户对信息的真实性持谨慎态度，并试图验证信息的真伪。用户随后挂断电话，可能是出于对诈骗的怀疑，认为继续对话可能会泄露个人信息或遭受诈骗，因此选择中断对话以保护自己。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

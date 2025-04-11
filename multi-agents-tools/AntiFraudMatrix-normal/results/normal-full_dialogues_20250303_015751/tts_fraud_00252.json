@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服专员为您服务，请问有什么问题需要我帮您解决？",
+      "timestamp": 1740949136.3971987
+    },
+    {
+      "role": "right",
+      "content": "你好，我最近在用你们的软件，有个功能不太明白，能帮我解释一下吗？",
+      "timestamp": 1740949137.7134435
+    },
+    {
+      "role": "left",
+      "content": "当然可以，您遇到的是哪个功能呢？我会尽力帮您解答。",
+      "timestamp": 1740949141.8765724
+    },
+    {
+      "role": "right",
+      "content": "是那个数据分析模块，我不太清楚怎么导出数据。",
+      "timestamp": 1740949142.9966896
+    },
+    {
+      "role": "left",
+      "content": "好的，导出数据的操作比较简单。您可以在数据分析模块中选择您需要的数据，然后点击右上角的“导出”按钮，选择导出的格式，比如CSV或Excel，最后点击确认即可完成导出。需要我为您提供更详细的步骤吗？",
+      "timestamp": 1740949149.761216
+    },
+    {
+      "role": "right",
+      "content": "这样啊，我试试看。如果还有问题，我再联系你。谢谢！",
+      "timestamp": 1740949150.8547406
+    },
+    {
+      "role": "left",
+      "content": "如果您按照这些步骤操作后还有问题，欢迎随时联系我们。感谢您的咨询，祝您使用愉快。",
+      "timestamp": 1740949156.2556784
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。",
+      "timestamp": 1740949160.1440217
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示已经理解了解决方案，并明确表示如果还有问题会再次联系，同时表达了感谢，这表明用户的问题已经得到解决，对话目标达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您按照这些步骤操作后还有问题，欢迎随时联系我们。感谢您的咨询，祝您使用愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

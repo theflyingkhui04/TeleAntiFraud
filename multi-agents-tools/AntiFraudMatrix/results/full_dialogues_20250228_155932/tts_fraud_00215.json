@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客户经理，我叫张华。我们发现您的账户有些异常活动，需要您尽快核实，以免造成不必要的损失。请问您现在方便吗？",
+      "timestamp": 1740751235.7009785
+    },
+    {
+      "role": "right",
+      "content": "你好，张华。我最近确实发现账户有些奇怪的交易，你能具体说说是什么问题吗？",
+      "timestamp": 1740751237.8559973
+    },
+    {
+      "role": "left",
+      "content": "是这样的，系统检测到您的账户在昨天晚上十一点左右有一笔两万五千元的异常转账。我们需要立即核实您的身份信息，以确保账户安全。能告诉我您的身份证号码和最近的取款密码吗？",
+      "timestamp": 1740751251.137616
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在尝试获取用户的敏感信息（身份证号码和取款密码）时，用户没有立即提供这些信息，而是询问了更多关于异常交易的细节。诈骗者可能意识到用户有所警惕，担心继续对话会被识破，因此选择主动挂断电话以避免风险。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

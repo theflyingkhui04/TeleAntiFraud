@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是客服代表小李。我们发现您的账户有异常活动，为了您的资金安全，请您提供一下身份证号码和银行卡号以便我们进行核实。",
+      "timestamp": 1740746453.008356
+    },
+    {
+      "role": "right",
+      "content": "你好，小李。真的有异常活动吗？我最近确实没怎么用这张卡，不过我还是先打银行的官方电话确认一下吧。这样也安全一些。你们的电话是多少来着？",
+      "timestamp": 1740746465.9694111
+    },
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快处理。如果您有任何其他问题，可以随时联系我们。谢谢您的配合。再见。",
+      "timestamp": 1740746474.923936
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你。我会先确认一下再决定怎么操作。再见。",
+      "timestamp": 1740746478.8000674
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表达了对诈骗者身份的怀疑，并且表示会通过官方渠道进行确认，这表明用户已经识破了诈骗企图并拒绝继续对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快处理。如果您有任何其他问题，可以随时联系我们。谢谢您的配合。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你。我会先确认一下再决定怎么操作。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

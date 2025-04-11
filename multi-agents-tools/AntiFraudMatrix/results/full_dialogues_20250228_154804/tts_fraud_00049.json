@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是华夏银行客服中心，我是您的专属客服代表小李。我们发现您的银行账户有异常交易记录，为了保护您的资金安全，需要您配合我们进行核实。请问您现在方便吗？",
+      "timestamp": 1740751126.1330993
+    },
+    {
+      "role": "right",
+      "content": "嗯，我现在有点忙，不过可以抽几分钟时间。你说的异常交易是怎么回事？",
+      "timestamp": 1740751128.3662431
+    },
+    {
+      "role": "left",
+      "content": "谢谢您的配合。我们发现有一笔一千元的转账记录，而我们并没有收到您的确认信息。为了确保您的资金安全，我们需要您提供一些基本信息进行身份验证。请您提供一下开户时预留的手机号码，好吗？",
+      "timestamp": 1740751136.0617247
+    },
+    {
+      "role": "right",
+      "content": "好的，那我提供手机号码吧。是这个吗，一三七零零零零零零零零？",
+      "timestamp": 1740751138.4090817
+    },
+    {
+      "role": "left",
+      "content": "好的，感谢您的配合，我们会尽快核实情况并处理。如果需要进一步信息，我们会通过官方渠道联系您。祝您生活愉快，再见。",
+      "timestamp": 1740751147.2614617
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。希望一切顺利。",
+      "timestamp": 1740751149.2402804
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（手机号码），诈骗明显成功。为了防止进一步的损失，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，感谢您的配合，我们会尽快核实情况并处理。如果需要进一步信息，我们会通过官方渠道联系您。祝您生活愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。希望一切顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

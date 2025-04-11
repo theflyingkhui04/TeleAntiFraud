@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友李明的同事，现在他遇到一点麻烦，您能帮我个忙吗？",
+      "timestamp": 1740742277.1344194
+    },
+    {
+      "role": "right",
+      "content": "你好，我是老王。李明怎么了？他遇到什么麻烦了？",
+      "timestamp": 1740742280.515474
+    },
+    {
+      "role": "left",
+      "content": "李明现在被我们控制了，因为他欠了我们一笔钱。如果你不想看到他受伤，就马上准备三万块钱，我会再联系你。",
+      "timestamp": 1740742313.0295658
+    },
+    {
+      "role": "right",
+      "content": "什么？李明被你们控制了？你们是谁？这听起来太不靠谱了。我怎么知道你们说的是真的？",
+      "timestamp": 1740742327.7621076
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的故事表示怀疑，并认为这是不可信的。用户通过挂断电话明确表示了拒绝继续对话的意图，表明他不愿意参与或相信诈骗者的说辞。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

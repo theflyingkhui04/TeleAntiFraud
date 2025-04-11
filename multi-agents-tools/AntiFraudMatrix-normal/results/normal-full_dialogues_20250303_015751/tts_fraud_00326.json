@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，有什么我可以帮您的？",
+      "timestamp": 1740946738.6145678
+    },
+    {
+      "role": "right",
+      "content": "嗨，我在考虑明天的出行路线，能帮我查一下从家到公司的最佳路线吗？",
+      "timestamp": 1740946741.0986302
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在发送请求后立即使用了结束信号代码，这可能是因为用户意识到自己已经找到了答案，或者认为通过其他方式获取信息更为快捷。用户的意图可能是礼貌地开始对话，但在发送消息后发现无需继续对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

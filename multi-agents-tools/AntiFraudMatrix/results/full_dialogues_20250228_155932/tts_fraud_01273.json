@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是客服代表小李。我们监测到您的银行账户有异常交易，请问您方便接听电话吗？",
+      "timestamp": 1740746941.003194
+    },
+    {
+      "role": "right",
+      "content": "您好，小李。我最近确实收到了几条短信说我的账户可能有问题，但我不太确定。能麻烦您帮我确认一下吗？",
+      "timestamp": 1740746947.4603176
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出账户异常交易的问题后，主动挂断了电话。这表明用户可能对诈骗者的身份或所提供的信息产生了怀疑，或者用户意识到这是一个诈骗电话，因此选择挂断以避免进一步的潜在风险。用户的意图可能是保护自己的个人信息和财务安全，避免被诈骗者获取更多敏感信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

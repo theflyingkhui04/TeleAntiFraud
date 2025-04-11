@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，欢迎使用打车服务，我将为您安排车辆。请问您现在需要打车吗？",
+      "timestamp": 1740967071.49852
+    },
+    {
+      "role": "right",
+      "content": "需要，麻烦帮我安排一辆车。",
+      "timestamp": 1740967072.577297
+    },
+    {
+      "role": "left",
+      "content": "好的，您目前所在的位置是哪里？我好为您安排最近的司机。",
+      "timestamp": 1740967078.8123012
+    },
+    {
+      "role": "right",
+      "content": "我在人民广场地铁站出口。",
+      "timestamp": 1740967079.9101613
+    },
+    {
+      "role": "left",
+      "content": "了解了，人民广场地铁站出口，我已为您安排车辆。大约需要五分钟到达，请注意留意车牌号和司机信息，我会将详细信息发送到您的手机上。",
+      "timestamp": 1740967086.1614072
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会留意的。",
+      "timestamp": 1740967087.3012905
+    },
+    {
+      "role": "left",
+      "content": "好的，车辆已安排妥当，预计五分钟后到达人民广场地铁站出口。请您留意手机上的信息，祝您乘车愉快。",
+      "timestamp": 1740967093.8025916
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝我乘车愉快。",
+      "timestamp": 1740967094.9814727
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了服务信息，并表示会留意相关信息，对话目标已达成，用户也表达了感谢。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，车辆已安排妥当，预计五分钟后到达人民广场地铁站出口。请您留意手机上的信息，祝您乘车愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝我乘车愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

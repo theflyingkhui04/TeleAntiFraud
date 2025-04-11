@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，恭喜您，您在我们举办的彩票活动中获得了本次大奖！奖品是一百万元现金加一辆轿车，真是太幸运了！",
+      "timestamp": 1740792841.6583443
+    },
+    {
+      "role": "right",
+      "content": "真的吗？这也太幸运了吧。不过，我之前可没参加过什么彩票活动啊。这会不会是搞错了？",
+      "timestamp": 1740792844.5134459
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称自己中奖后，表示怀疑并提到自己从未参加过此类活动。用户可能意识到这是诈骗行为，因此选择主动挂断电话以避免进一步的交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

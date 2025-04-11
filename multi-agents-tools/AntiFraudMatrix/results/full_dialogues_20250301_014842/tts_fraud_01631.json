@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是警察局的李警官，非常紧急地联系您，您的儿子现在在我们这里，他被人绑架了，您必须立即配合我们的行动，不然后果不堪设想。",
+      "timestamp": 1740771201.3030486
+    },
+    {
+      "role": "right",
+      "content": "啊，天哪，我的儿子被人绑架了？这真是太可怕了！李警官，您能告诉我他现在的情况吗？我该怎么做？",
+      "timestamp": 1740771202.9059935
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被绑架后，可能因为极度恐慌和无法立即接受这一信息的真实性，导致情绪失控，从而选择挂断电话。用户的意图可能是需要时间冷静下来，重新评估这一突发情况，或者联系其他家人确认信息的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是王警官，非常紧急，您的儿子出事了，已经被我们控制住了。请您保持冷静，听我指示。",
+      "timestamp": 1740776434.683726
+    },
+    {
+      "role": "right",
+      "content": "王警官，您能告诉我具体发生了什么吗？我儿子他现在怎么样了？我真的很担心。",
+      "timestamp": 1740776436.2623134
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者提供的信息过于模糊且紧急，感到恐慌或怀疑，从而选择挂断电话以保护自己或进一步核实情况。用户的意图是避免在情绪不稳定的情况下做出任何决定，同时也可能打算通过其他方式确认儿子的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

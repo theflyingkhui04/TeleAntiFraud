@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的打车服务助理，有什么可以帮助您的吗？",
+      "timestamp": 1740946048.1712308
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预订一辆车去市区。",
+      "timestamp": 1740946049.0683618
+    },
+    {
+      "role": "left",
+      "content": "好的，我来帮您预订。请问您现在的位置和目的地是哪里？还有，预计什么时候出发？",
+      "timestamp": 1740946053.6404357
+    },
+    {
+      "role": "right",
+      "content": "我现在在机场，想去市中心的华美达酒店，大概半小时后出发。",
+      "timestamp": 1740946057.5793397
+    },
+    {
+      "role": "left",
+      "content": "了解了，我会为您预订一辆从机场到华美达酒店的车辆，预计半小时后到达机场。稍后您会收到确认短信和车牌号信息。请留意手机通知。还有其他需要帮忙的吗？",
+      "timestamp": 1740946062.1703527
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。不需要了。",
+      "timestamp": 1740946062.9284558
+    },
+    {
+      "role": "left",
+      "content": "一切安排妥当了，感谢您的预订。祝您旅途愉快！如果有任何问题，欢迎随时联系我们。",
+      "timestamp": 1740946069.2075596
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740946071.0656798
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示已获得所需帮助，并明确表示不需要其他帮助，对话目标已达成。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "一切安排妥当了，感谢您的预订。祝您旅途愉快！如果有任何问题，欢迎随时联系我们。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

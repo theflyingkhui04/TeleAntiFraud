@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国际快递服务公司，我们发现您的包裹里可能含有违禁品，需要您配合处理。请提供您的姓名和联系方式，以便我们进一步核实。",
+      "timestamp": 1740731987.374598
+    },
+    {
+      "role": "right",
+      "content": "您好，我叫李明，我的电话是这个号码。不过，我最近没有寄过任何包裹，也没有收到过国际快递，你们是不是搞错了？",
+      "timestamp": 1740731991.952917
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供了姓名和电话号码后，对诈骗者提到的包裹表示怀疑，认为可能是误会或诈骗。用户通过挂断电话来结束对话，表明其不愿意继续参与或进一步提供信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

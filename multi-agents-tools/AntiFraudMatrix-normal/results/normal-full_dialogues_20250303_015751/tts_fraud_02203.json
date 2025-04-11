@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询助理，有什么我可以帮您的吗？",
+      "timestamp": 1740952979.906153
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下最近有没有新的公交线路调整，特别是我常坐的那几条。",
+      "timestamp": 1740952983.9462762
+    },
+    {
+      "role": "left",
+      "content": "可以帮您查询一下。请问您通常乘坐的是哪几条公交线路呢？",
+      "timestamp": 1740952987.844411
+    },
+    {
+      "role": "right",
+      "content": "我经常坐的是10路和25路，想知道这些线路有没有变化。",
+      "timestamp": 1740952989.0243337
+    },
+    {
+      "role": "left",
+      "content": "好的，我来查一下10路和25路的最新情况。请稍等。最新信息显示，10路和25路的线路近期都没有调整。您可以继续按照以往的路线乘坐。有其他问题需要咨询吗？",
+      "timestamp": 1740952998.3262577
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户所需的公交线路没有调整后，询问用户是否有其他问题需要咨询。在用户没有进一步提问的情况下，服务方提供了结束信号，表明服务目标已达成，且服务方认为当前的咨询服务已经满足了用户的需求，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

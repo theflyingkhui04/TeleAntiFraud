@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您中了我们这次的特别福利彩票大奖，您将获得一百万的奖金！这是您的幸运号码，您只需要提供一些基本信息，我们就可以为您办理领奖手续了。",
+      "timestamp": 1740732587.8839638
+    },
+    {
+      "role": "right",
+      "content": "不好意思，我需要先确认一下。请问这个彩票活动是通过什么渠道进行的？我最近并没有购买过彩票，怎么会中奖呢？",
+      "timestamp": 1740732597.6249707
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的中奖信息表示怀疑，并要求提供活动渠道的详细信息。由于用户没有得到满意的回答，并且意识到这可能是一起诈骗，因此选择主动挂断电话以避免进一步的风险。这表明用户具有一定的防骗意识，能够在面对可疑情况时及时采取行动保护自己。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

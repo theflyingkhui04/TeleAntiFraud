@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，您可以告诉我想点什么吗？",
+      "timestamp": 1740982049.7266564
+    },
+    {
+      "role": "right",
+      "content": "嗨，我想点一份牛肉炒饭和一份糖醋排骨，还有一瓶冰红茶。谢谢。",
+      "timestamp": 1740982051.2962496
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您选择我们的外卖服务，如果还有任何需要，请随时联系我们。祝您用餐愉快！",
+      "timestamp": 1740982057.2262619
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的服务。用餐愉快！",
+      "timestamp": 1740982058.0233579
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "服务方已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表明服务方认为对话可以结束了。虽然用户随后提供了点餐请求，但根据服务方的信号，可以认为服务方认为对话已经完成或准备结束。为了尊重服务方的意愿，应终止对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您选择我们的外卖服务，如果还有任何需要，请随时联系我们。祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的服务。用餐愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

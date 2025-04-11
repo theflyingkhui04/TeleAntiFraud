@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李女士吗？我是您的邻居小张，刚刚接到一个电话，说您的家人在国外出了点事，需要您赶紧处理，我这边联系不上他们，您能帮我个忙吗？",
+      "timestamp": 1740685453.6097898
+    },
+    {
+      "role": "right",
+      "content": "小张啊，你好。你说什么？我的家人在国外出事了？这事儿听起来挺严重的。你能告诉我对方具体说了什么吗？我需要确认一下这是真的。",
+      "timestamp": 1740685455.2678587
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提到家人在国外出事的信息后，表现出了一定的警惕性，并要求提供更具体的信息以确认事情的真实性。然而，用户可能意识到诈骗者提供的信息不够具体或可信，因此选择主动挂断电话，以避免进一步的风险。用户的意图是终止与诈骗者的交流，防止个人信息泄露或财务损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

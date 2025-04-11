@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "张总，您好，我是国信投资的李经理。最近我们发现了一个非常难得的投资机会，收益非常高，而且风险非常低。您有兴趣了解一下吗？",
+      "timestamp": 1740748810.4710164
+    },
+    {
+      "role": "right",
+      "content": "李经理，你好。我平时主要忙于农活，对投资了解不多。不过既然您说收益高，风险低，我还是想了解一下。能具体说说这个投资机会吗？",
+      "timestamp": 1740748814.4218278
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "从对话内容来看，用户在听到诈骗者提到的投资机会时，表现出了初步的兴趣。然而，用户提到自己平时主要忙于农活，对投资了解不多，这表明用户可能对投资并不感兴趣，或者对诈骗者的身份和提议持谨慎态度。用户主动挂断电话，可能是因为意识到对方可能是诈骗者，或者认为对方的提议不适合自己，因此选择终止对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

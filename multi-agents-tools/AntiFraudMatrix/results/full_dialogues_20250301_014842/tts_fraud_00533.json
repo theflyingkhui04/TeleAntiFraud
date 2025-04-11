@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服代表，张经理。我们刚刚检测到您的账户存在异常交易，为了您的资金安全，需要您立即配合我们进行身份验证。请问您现在方便吗？",
+      "timestamp": 1740780909.2313187
+    },
+    {
+      "role": "right",
+      "content": "您好，张经理。我确实收到过一些奇怪的短信，可能是银行发的。您能告诉我具体是怎么回事吗？我最近确实没怎么注意账户的情况。",
+      "timestamp": 1740780911.0336142
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户和诈骗者双方几乎同时挂断了电话，这可能是因为用户对诈骗者提出的要求产生了怀疑，或者用户意识到这可能是一个诈骗电话。同时，诈骗者可能也意识到用户对情况有所警觉，因此选择提前结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

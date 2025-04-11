@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，我可以帮您订餐或解答任何关于菜单的问题。",
+      "timestamp": 1740945881.1863005
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我想了解一下今天的特色菜有哪些？",
+      "timestamp": 1740945882.1299417
+    },
+    {
+      "role": "left",
+      "content": "今天的特色菜有红烧肉、清蒸海鲈鱼和蒜蓉西兰花，这些都是我们餐厅的招牌菜，非常受顾客喜爱。您感兴趣吗？",
+      "timestamp": 1740945886.9304976
+    },
+    {
+      "role": "right",
+      "content": "听起来都很不错。我今天想吃点清淡的，蒜蓉西兰花怎么样？",
+      "timestamp": 1740945890.8585055
+    },
+    {
+      "role": "left",
+      "content": "蒜蓉西兰花是我们的招牌素菜，口感鲜嫩，蒜香浓郁，非常清淡可口。您想单独点这道菜，还是需要搭配其他菜品？",
+      "timestamp": 1740945895.023536
+    },
+    {
+      "role": "right",
+      "content": "那就来一份蒜蓉西兰花吧。再给我推荐一个汤品，最好是清淡一些的。",
+      "timestamp": 1740945896.5059423
+    },
+    {
+      "role": "left",
+      "content": "推荐您尝试我们的西红柿蛋花汤，汤色清澈，味道鲜美，非常清淡适口，是很多顾客喜欢的选择。您看可以吗？",
+      "timestamp": 1740945904.6182485
+    },
+    {
+      "role": "right",
+      "content": "好的，西红柿蛋花汤听起来不错。就这两道菜吧，谢谢。",
+      "timestamp": 1740945905.9993272
+    },
+    {
+      "role": "left",
+      "content": "好的，一份蒜蓉西兰花和西红柿蛋花汤已经为您下单，预计三十分钟内送达。感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740945912.4278228
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。",
+      "timestamp": 1740945913.134187
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了菜品并表示感谢，对话目标已达成，用户没有进一步的需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，一份蒜蓉西兰花和西红柿蛋花汤已经为您下单，预计三十分钟内送达。感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

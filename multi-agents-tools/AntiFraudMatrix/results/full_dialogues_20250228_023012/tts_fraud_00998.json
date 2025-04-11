@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服，您的包裹在运输过程中出现了问题，需要您配合处理一下。",
+      "timestamp": 1740690559.5110643
+    },
+    {
+      "role": "right",
+      "content": "哦？我的包裹出问题了？具体是什么情况？（警惕地皱眉）我记得我最近没有寄过包裹啊，你们是不是搞错了？",
+      "timestamp": 1740690563.4453127
+    },
+    {
+      "role": "left",
+      "content": "非常抱歉给您带来困扰，系统显示您的包裹中被查出了违禁品，需要您立即支付一笔罚款来处理这个问题。（语气急促）",
+      "timestamp": 1740690573.249145
+    },
+    {
+      "role": "right",
+      "content": "什么违禁品？我根本没寄过什么违禁品啊！你们是不是搞错了？这种事情可不能随便说说就算了。",
+      "timestamp": 1740690574.871466
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

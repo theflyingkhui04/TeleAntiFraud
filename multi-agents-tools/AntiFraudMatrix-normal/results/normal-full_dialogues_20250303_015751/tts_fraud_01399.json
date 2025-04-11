@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么我可以帮您的吗？",
+      "timestamp": 1740982978.47703
+    },
+    {
+      "role": "right",
+      "content": "您好，我只是来看看，谢谢。",
+      "timestamp": 1740982979.6108372
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户表示只是来看看，并明确表达了感谢，这表明用户当前没有具体的需求或问题需要解决，因此选择了结束对话。用户的意图可能是浏览或了解服务，但暂时不需要进一步的帮助或信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

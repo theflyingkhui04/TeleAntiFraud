@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，有什么可以为您效劳的吗？",
+      "timestamp": 1740955937.2746556
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个餐，有什么推荐吗？",
+      "timestamp": 1740955938.2792962
+    },
+    {
+      "role": "left",
+      "content": "您好，我们这里有几款人气菜品，比如川香辣子鸡、本帮红烧肉和清蒸鲈鱼，不知道您平时喜欢哪种口味？",
+      "timestamp": 1740955943.6571708
+    },
+    {
+      "role": "right",
+      "content": "辣子鸡听起来不错，就来一份吧。再加个青菜和一碗米饭。",
+      "timestamp": 1740955945.8161957
+    },
+    {
+      "role": "left",
+      "content": "好的，一份川香辣子鸡、一份青菜和一碗米饭，还需要帮您加点饮料吗？",
+      "timestamp": 1740955950.9886725
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这样吧。谢谢。",
+      "timestamp": 1740955951.7371778
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，一份川香辣子鸡、一份青菜和一碗米饭，预计三十分钟内送达。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740955959.01619
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740955960.883814
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表示了感谢，表明其需求已得到满足。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，一份川香辣子鸡、一份青菜和一碗米饭，预计三十分钟内送达。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

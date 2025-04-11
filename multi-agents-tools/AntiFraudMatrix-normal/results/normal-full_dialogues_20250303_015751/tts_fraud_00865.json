@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想订什么餐，以及送餐地址吗？",
+      "timestamp": 1740983564.6342883
+    },
+    {
+      "role": "right",
+      "content": "好的，我想订一份糖醋排骨和清炒时蔬，送餐地址是幸福小区12号楼3单元402室。谢谢。",
+      "timestamp": 1740983569.0008535
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经记录，糖醋排骨和清炒时蔬，送餐地址是幸福小区12号楼3单元402室。请确认您的联系电话，以便我们联系您。",
+      "timestamp": 1740983581.966278
+    },
+    {
+      "role": "right",
+      "content": "我的电话是138xxxx5678，可以联系我。谢谢。",
+      "timestamp": 1740983585.2380302
+    },
+    {
+      "role": "left",
+      "content": "好的，您的联系电话是138xxxx5678，已经记录。您的订单将在30分钟内送达，请留意接听送餐电话。如果还有其他需求，随时告诉我。",
+      "timestamp": 1740983591.045279
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情、送餐地址和联系电话后，告知用户订单将在30分钟内送达，并提醒用户留意接听送餐电话。服务方在此时使用了结束信号代码##ENDCALL_SIGNAL##，表明服务方认为所有必要的信息和服务已经提供完毕，订单处理流程已经完成，对话目标达成，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

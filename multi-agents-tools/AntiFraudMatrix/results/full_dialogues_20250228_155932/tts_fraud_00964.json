@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是紧急联系中心，您的家人目前遇到了一些麻烦，需要您的帮助。",
+      "timestamp": 1740749269.8894503
+    },
+    {
+      "role": "right",
+      "content": "您好，我是农民张大明，我家里人怎么了？请告诉我具体情况。",
+      "timestamp": 1740749271.314108
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其家人遇到麻烦后，可能出于担心或怀疑，迅速挂断了电话。这表明用户可能认为这是一个诈骗电话，或者不愿意在电话中透露更多信息，选择直接结束对话以保护自己。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

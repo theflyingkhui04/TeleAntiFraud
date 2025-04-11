@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自XX银行的客服代表，我注意到您的账户最近有一些异常活动，为了保护您的资金安全，我们需要尽快核实一些信息。可以请您提供一下您的姓名和账户号码吗？",
+      "timestamp": 1740682534.186687
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的提醒。我叫李明，我的账户号码是1234567890。请问有什么问题吗？",
+      "timestamp": 1740682538.649102
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，李明先生。我们已经记录了您的信息，会进一步调查这些异常活动。如果需要您提供更多信息，我们会再次联系您。祝您一切顺利。",
+      "timestamp": 1740682548.1205282
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。如果有任何问题，我会等你们的通知。希望一切没问题。",
+      "timestamp": 1740682552.5980568
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗明显成功 - 用户已提供敏感信息（姓名和账户号码），诈骗者已获取足够信息，可以结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，李明先生。我们已经记录了您的信息，会进一步调查这些异常活动。如果需要您提供更多信息，我们会再次联系您。祝您一切顺利。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。如果有任何问题，我会等你们的通知。希望一切没问题。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

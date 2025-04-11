@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，欢迎使用订餐服务，请问需要预订哪种餐品呢？",
+      "timestamp": 1740981247.3905125
+    },
+    {
+      "role": "right",
+      "content": "您好，我想订一份清蒸鱼和一份青菜，还有一碗小米粥。",
+      "timestamp": 1740981249.0838406
+    },
+    {
+      "role": "left",
+      "content": "好的，您订的是一份清蒸鱼、一份青菜和一碗小米粥。请问还有其他需要加的菜品吗？",
+      "timestamp": 1740981252.5114734
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这些吧。谢谢。",
+      "timestamp": 1740981253.1642525
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包含一份清蒸鱼、一份青菜和一碗小米粥。预计送达时间为三十分钟内。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740981257.7062624
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待美味的餐点。",
+      "timestamp": 1740981258.955419
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经明确表示不需要再添加其他菜品，并表达了感谢，这意味着用户的需求已经得到满足，对话目标达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包含一份清蒸鱼、一份青菜和一碗小米粥。预计送达时间为三十分钟内。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待美味的餐点。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

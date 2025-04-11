@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，我是您的客服小助手，有什么可以帮您的吗？",
+      "timestamp": 1740971052.105665
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖，有什么推荐的吗？",
+      "timestamp": 1740971053.5009573
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们这里有几款热门菜品特别受欢迎，比如麻辣香锅、酸菜鱼和牛肉炒饭，您感兴趣吗？",
+      "timestamp": 1740971059.70334
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我最近挺喜欢吃酸菜鱼的，就来一份酸菜鱼吧。",
+      "timestamp": 1740971061.619287
+    },
+    {
+      "role": "left",
+      "content": "好的，一份酸菜鱼已加入您的订单。还需要搭配其他菜品或饮料吗？",
+      "timestamp": 1740971067.4589796
+    },
+    {
+      "role": "right",
+      "content": "不了，一份酸菜鱼就够了，谢谢。",
+      "timestamp": 1740971068.4878826
+    },
+    {
+      "role": "left",
+      "content": "好的，一份酸菜鱼已为您准备好了。订单已确认，预计三十分钟后送达。如果还有其他需要，请随时联系我们。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740971075.8449721
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们，期待准时送达。",
+      "timestamp": 1740971078.053653
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了菜品并表示不再需要其他服务，同时表达了感谢，这意味着对话目标已达成，用户对当前服务表示满意。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，一份酸菜鱼已为您准备好了。订单已确认，预计三十分钟后送达。如果还有其他需要，请随时联系我们。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们，期待准时送达。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自XX银行的客服代表，我注意到您的账户近期有异常活动，为了您的安全，我们需要进行身份验证。请告诉我您最近一次交易的具体金额，好吗？",
+      "timestamp": 1740692144.0478
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的提醒。我最近一次交易的金额是500元。这真的没问题吗？我最近确实没怎么注意账户。",
+      "timestamp": 1740692145.4943123
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们已经记录了这些信息，并会立即采取措施确保您的账户安全。如果再有任何问题，我们会及时与您联系。祝您一切顺利。再见。",
+      "timestamp": 1740692152.6653695
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你啊，再见。",
+      "timestamp": 1740692156.212528
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗明显成功 - 用户已提供敏感信息（最近一次交易的具体金额）。诈骗者已经获取了足够的信息，可能会进一步实施诈骗，因此应该由诈骗者主导结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们已经记录了这些信息，并会立即采取措施确保您的账户安全。如果再有任何问题，我们会及时与您联系。祝您一切顺利。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你啊，再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，这里是XX银行客服中心，我们检测到您的账户存在异常交易，需要立即核实您的身份信息，以保障您的资金安全。请问您现在方便接听电话吗？",
+      "timestamp": 1740683999.1081295
+    },
+    {
+      "role": "right",
+      "content": "哦，您好，我是李老师。我方便接听电话，不过我最近没注意到有什么异常交易啊。您能告诉我具体是什么情况吗？",
+      "timestamp": 1740684000.7777786
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

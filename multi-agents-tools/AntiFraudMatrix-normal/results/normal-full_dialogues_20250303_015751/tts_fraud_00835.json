@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，我是您的客服助手，请问有什么可以帮助您的？",
+      "timestamp": 1740940422.633024
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖，有什么推荐的吗？",
+      "timestamp": 1740940423.7612615
+    },
+    {
+      "role": "left",
+      "content": "我们有几款热门菜品非常受顾客欢迎，比如麻辣香锅、牛肉炒饭和番茄炒蛋，您看是否有兴趣尝试一下？",
+      "timestamp": 1740940428.9437833
+    },
+    {
+      "role": "right",
+      "content": "可以，给我来一份牛肉炒饭吧。还需要点其他的吗？",
+      "timestamp": 1740940429.9859262
+    },
+    {
+      "role": "left",
+      "content": "好的，一份牛肉炒饭已加入您的订单。我们还推荐搭配一份酸辣土豆丝和一瓶冰红茶，这样营养更均衡，味道也更丰富，您看如何？",
+      "timestamp": 1740940437.567289
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，那就加一份酸辣土豆丝和一瓶冰红茶吧。谢谢。",
+      "timestamp": 1740940439.015124
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，一份牛肉炒饭，预计40分钟后送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740940444.7094557
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740940446.9457417
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表达了感谢，表明其需求已得到满足。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，一份牛肉炒饭，预计40分钟后送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

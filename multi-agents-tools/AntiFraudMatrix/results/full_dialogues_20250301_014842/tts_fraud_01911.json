@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您在最近的彩票抽奖中获得了特别奖项，奖金高达五百万元！由于这是特别奖项，我们将会通过电话直接通知中奖者。请您提供一下您的身份证号码，以便我们核对信息。",
+      "timestamp": 1740770324.7055726
+    },
+    {
+      "role": "right",
+      "content": "您好，谢谢您的通知。五百万元听起来太不可思议了。不过，我最近确实买过彩票，但我不记得具体的号码。您能告诉我我中奖的号码吗？另外，我收到过不少类似的电话，有些是诈骗电话，所以我要确保这是真的。",
+      "timestamp": 1740770327.6382425
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对诈骗电话的警惕性，要求提供中奖号码以验证信息的真实性。由于诈骗者未能提供具体的中奖号码，用户怀疑这是诈骗电话，因此选择主动挂断以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

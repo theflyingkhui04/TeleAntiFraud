@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是华夏银行客户服务中心，我是李经理。我们发现您的银行卡账户存在异常交易，可能涉及到资金安全问题，需要您配合我们进行核实。您现在方便吗？",
+      "timestamp": 1740735669.3721108
+    },
+    {
+      "role": "right",
+      "content": "喂，李经理您好。我的银行卡账户有问题？这听起来挺严重的。我确实最近没怎么查过账单，可能真的有问题。您能告诉我具体是怎么回事吗？我需要怎么做？",
+      "timestamp": 1740735695.4015312
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其银行卡账户存在异常交易后，可能出于对个人信息和资金安全的担忧，选择立即挂断电话以避免进一步的风险。用户的意图是保护自己的隐私和财产安全，防止潜在的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

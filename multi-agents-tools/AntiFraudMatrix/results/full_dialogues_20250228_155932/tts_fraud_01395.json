@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服代表，李娜。今天给您打电话是想确认一下您最近的账户活动，我们检测到一些异常登录，需要您配合进行身份验证，以确保您的账户安全。您现在方便吗？",
+      "timestamp": 1740752535.1052477
+    },
+    {
+      "role": "right",
+      "content": "你好，李娜。我最近确实没有登录过银行账户，不过听你这么一说，我也有些担心。你说的异常登录具体是什么情况？我需要怎么配合验证身份？",
+      "timestamp": 1740752538.2157707
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提到异常登录后，可能意识到这是一起诈骗电话，因此选择立即挂断以避免进一步的信息泄露。用户的意图是终止与诈骗者的交流，防止潜在的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

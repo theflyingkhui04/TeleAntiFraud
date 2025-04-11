@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是打车服务助手，可以帮助您叫车、查询行程等，请问有什么可以帮您的？",
+      "timestamp": 1740947634.5054393
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下明天早上七点从家到公司的车费大概多少？",
+      "timestamp": 1740947636.7499087
+    },
+    {
+      "role": "left",
+      "content": "好的，为了给您提供更准确的报价，能否告诉我您家和公司的具体地址呢？",
+      "timestamp": 1740947643.8966882
+    },
+    {
+      "role": "right",
+      "content": "我家在天安门广场附近，公司地址是国贸大厦。",
+      "timestamp": 1740947645.169912
+    },
+    {
+      "role": "left",
+      "content": "了解了，从天安门广场到国贸大厦的距离大约是10公里左右，根据我们的计费标准，车费大概在30到40元之间，具体费用会根据实际路况和车型有所不同。希望这个信息对您有帮助。",
+      "timestamp": 1740947653.6236382
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。这个价格还是可以接受的。",
+      "timestamp": 1740947654.4794204
+    },
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，那我就帮您确认这些信息了。如果有任何变动，您可以随时联系我们的客服。感谢您的咨询，祝您明天出行顺利。",
+      "timestamp": 1740947658.5948594
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。如果有需要我会再联系你们。祝你工作顺利。",
+      "timestamp": 1740947659.8265185
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已获得所需信息，并表示满意，没有进一步的需求。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，那我就帮您确认这些信息了。如果有任何变动，您可以随时联系我们的客服。感谢您的咨询，祝您明天出行顺利。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。如果有需要我会再联系你们。祝你工作顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

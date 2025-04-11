@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某宝客服，您最近购买的商品出现了一些问题，需要您配合处理一下，您能听我说吗？",
+      "timestamp": 1740783514.5370083
+    },
+    {
+      "role": "right",
+      "content": "好的，你说吧，是什么问题？我最近确实买了一些东西，希望不是什么大问题。",
+      "timestamp": 1740783516.7930477
+    },
+    {
+      "role": "left",
+      "content": "您放心，问题不大，但为了您的权益，我们需要您提供一下订单号和购买时使用的手机号，我们好为您查询详细信息。",
+      "timestamp": 1740783523.2219658
+    },
+    {
+      "role": "right",
+      "content": "好的，订单号是十二位的数字，手机号是我在某宝注册的那个吧？我这就去找找订单号。",
+      "timestamp": 1740783524.6024287
+    },
+    {
+      "role": "left",
+      "content": "好的，麻烦您了。为了加快处理速度，您可以直接告诉我手机号的后四位，这样我们就可以迅速定位到您的订单信息了。",
+      "timestamp": 1740783534.485456
+    },
+    {
+      "role": "right",
+      "content": "好的，我手机号的后四位是四五六七。这样可以了吗？",
+      "timestamp": 1740783535.3206923
+    },
+    {
+      "role": "left",
+      "content": "好的，那我就先记录一下您的手机号后四位，等您找到订单号再告诉我，好吗？感谢您的配合。再见。",
+      "timestamp": 1740783540.4279482
+    },
+    {
+      "role": "right",
+      "content": "好的，我这就去找订单号。谢谢你，再见。",
+      "timestamp": 1740783542.294475
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（手机号的后四位），这足以让诈骗者进行下一步的诈骗行为。根据终止条件1，应该终止对话。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我就先记录一下您的手机号后四位，等您找到订单号再告诉我，好吗？感谢您的配合。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，我这就去找订单号。谢谢你，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

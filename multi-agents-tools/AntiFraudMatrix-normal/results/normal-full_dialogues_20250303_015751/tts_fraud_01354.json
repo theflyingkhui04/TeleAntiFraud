@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，有什么我可以帮您的？",
+      "timestamp": 1740969009.0152416
+    },
+    {
+      "role": "right",
+      "content": "您好，我不太需要交通方面的帮助，谢谢。",
+      "timestamp": 1740969015.420288
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话开始后立即表示不需要交通方面的帮助，并明确表达了感谢。这表明用户可能误拨或误入了该服务，或者用户的需求与服务方提供的服务不匹配。用户明确使用了结束信号代码，表明其意图结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

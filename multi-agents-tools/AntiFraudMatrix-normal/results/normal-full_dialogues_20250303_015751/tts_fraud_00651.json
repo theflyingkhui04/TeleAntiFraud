@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，我可以帮您预订哪家餐厅的餐点呢？",
+      "timestamp": 1740967096.8030932
+    },
+    {
+      "role": "right",
+      "content": "嗨，我想订个外卖，有什么推荐吗？",
+      "timestamp": 1740967097.9094157
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们这里有多种口味的餐点可以选择，比如中式料理、西式快餐、日料寿司等。您平时偏好哪种口味呢？我可以根据您的喜好推荐一些热门选项。",
+      "timestamp": 1740967113.693599
+    },
+    {
+      "role": "right",
+      "content": "我喜欢吃中式料理，有什么好地方吗？",
+      "timestamp": 1740967114.5635338
+    },
+    {
+      "role": "left",
+      "content": "中式料理的话，我们有几家非常受欢迎的餐厅，比如“老北京炸酱面”、“川香阁”和“粤菜轩”。您想尝尝哪个地方的特色菜呢？我可以为您详细介绍。",
+      "timestamp": 1740967121.5170095
+    },
+    {
+      "role": "right",
+      "content": "川香阁听起来不错，有什么推荐的菜吗？",
+      "timestamp": 1740967122.6686084
+    },
+    {
+      "role": "left",
+      "content": "川香阁的招牌菜有水煮牛肉、宫保鸡丁和麻婆豆腐，这些都是经典的川菜，口味非常正宗。您对辣度有特别的要求吗？我们可以根据您的口味调整。",
+      "timestamp": 1740967129.4273694
+    },
+    {
+      "role": "right",
+      "content": "水煮牛肉听起来挺好的，麻烦帮我订一份，辣度就按中辣吧。",
+      "timestamp": 1740967131.087096
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您添加了一份中辣的水煮牛肉。还需要搭配其他的菜品或饮料吗？比如一些凉菜或是啤酒？",
+      "timestamp": 1740967138.2189689
+    },
+    {
+      "role": "right",
+      "content": "不了，就这一份吧，谢谢。",
+      "timestamp": 1740967139.0596757
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已成功提交，一份中辣的水煮牛肉将会尽快为您送达。如果您有其他需求，可以随时联系我们。祝您用餐愉快！",
+      "timestamp": 1740967146.6336212
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。",
+      "timestamp": 1740967147.5589447
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单，并表示不需要其他服务，同时表达了感谢，表明对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已成功提交，一份中辣的水煮牛肉将会尽快为您送达。如果您有其他需求，可以随时联系我们。祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

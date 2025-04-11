@@ -1,0 +1,41 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到外卖订餐服务，我可以帮您下单或者解答任何疑问。",
+      "timestamp": 1740973881.9173284
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖。有什么推荐的吗？",
+      "timestamp": 1740973882.9390085
+    },
+    {
+      "role": "left",
+      "content": "当然，我们的招牌菜有宫保鸡丁、鱼香肉丝和牛肉炒饭，都是非常受欢迎的选择。您喜欢哪种口味的菜品呢？",
+      "timestamp": 1740973889.1885161
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我来一份宫保鸡丁和一份牛肉炒饭吧。还有一瓶冰红茶。",
+      "timestamp": 1740973890.9446716
+    },
+    {
+      "role": "left",
+      "content": "好的，您的选择是宫保鸡丁、牛肉炒饭和一瓶冰红茶。需要加点什么小菜或者汤类吗？比如酸辣汤或者凉拌黄瓜？",
+      "timestamp": 1740973896.7156115
+    },
+    {
+      "role": "right",
+      "content": "不用了，这些就够了。帮我尽快送到吧，地址是…… ",
+      "timestamp": 1740973898.396634
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认了订单内容并提供了送餐地址后，使用了结束信号代码 ##ENDCALL_SIGNAL##，表明用户认为对话目标已达成，即完成外卖订购，且没有其他需要帮助的事项。用户的意图是结束对话，表示对服务的满意和对订单的确认。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

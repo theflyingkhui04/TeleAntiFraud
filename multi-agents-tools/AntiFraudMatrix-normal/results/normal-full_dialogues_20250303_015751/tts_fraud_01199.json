@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品是您感兴趣的吗？",
+      "timestamp": 1740975546.1162624
+    },
+    {
+      "role": "right",
+      "content": "你好，我最近在找一款适合运动的智能手表，有什么推荐的吗？",
+      "timestamp": 1740975548.0442507
+    },
+    {
+      "role": "left",
+      "content": "当然，我们这里有几款非常受欢迎的运动智能手表。比如品牌A的运动版，它有心率监测、多种运动模式和长续航时间；还有品牌B的旗舰款，功能更全面，支持GPS定位和水下运动模式。您更倾向于哪一种功能呢？",
+      "timestamp": 1740975555.7700925
+    },
+    {
+      "role": "right",
+      "content": "品牌A的听起来不错，心率监测和续航时间对我来说很重要。这款手表的价格是多少？",
+      "timestamp": 1740975560.0160415
+    },
+    {
+      "role": "left",
+      "content": "品牌A的运动版智能手表目前的售价是1499元，现在购买还可以享受我们店的满减活动，实际支付会更优惠一些。您对这款手表还有其他疑问吗？",
+      "timestamp": 1740975566.173942
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的介绍。我考虑一下，如果决定购买会再联系你。",
+      "timestamp": 1740975567.7986908
+    },
+    {
+      "role": "left",
+      "content": "如果您对这款手表感兴趣，可以随时来店里试戴体验，也可以在线上下单。感谢您的咨询，祝您购物愉快！",
+      "timestamp": 1740975574.2990441
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。祝你工作顺利！",
+      "timestamp": 1740975575.6200745
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示已经获得了所需信息，并会考虑之后再做决定。这表明用户当前没有进一步的问题或需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您对这款手表感兴趣，可以随时来店里试戴体验，也可以在线上下单。感谢您的咨询，祝您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。祝你工作顺利！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

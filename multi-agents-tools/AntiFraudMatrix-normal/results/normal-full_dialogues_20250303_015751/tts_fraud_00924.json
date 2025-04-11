@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "预约服务专员为您服务，请问需要预约什么项目？",
+      "timestamp": 1740943711.837968
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约一个全身体检，具体时间看你们的安排。",
+      "timestamp": 1740943712.8917575
+    },
+    {
+      "role": "left",
+      "content": "好的，全身体检是我们的一项热门服务，目前最早可预约的时间是下周一上午九点，您看这个时间方便吗？",
+      "timestamp": 1740943719.5327382
+    },
+    {
+      "role": "right",
+      "content": "下周一上午九点可以，谢谢。",
+      "timestamp": 1740943720.432627
+    },
+    {
+      "role": "left",
+      "content": "您的全身体检已成功预约在下周一上午九点，我们将通过短信发送确认信息，请注意查收。感谢您的预约，祝您健康！",
+      "timestamp": 1740943728.0999496
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的服务，我会留意短信的。祝好！",
+      "timestamp": 1740943729.3491428
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经同意了预约时间，并表示感谢，表明用户的需求已经得到满足，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的全身体检已成功预约在下周一上午九点，我们将通过短信发送确认信息，请注意查收。感谢您的预约，祝您健康！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的服务，我会留意短信的。祝好！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

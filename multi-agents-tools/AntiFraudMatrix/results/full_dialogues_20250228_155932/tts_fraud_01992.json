@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰客服，您的包裹在运输过程中被发现有异常，需要您配合处理，否则可能会导致您的包裹被扣押。",
+      "timestamp": 1740758610.3864863
+    },
+    {
+      "role": "right",
+      "content": "您好，我是李阿姨，我最近确实有一个包裹，能告诉我具体是什么问题吗？我需要提供什么信息来配合处理？",
+      "timestamp": 1740758613.313953
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方身份的真实性或对包裹问题的具体描述不够明确而感到不安，选择了挂断电话以避免潜在的风险。用户的意图是终止与不明身份者的交流，保护个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

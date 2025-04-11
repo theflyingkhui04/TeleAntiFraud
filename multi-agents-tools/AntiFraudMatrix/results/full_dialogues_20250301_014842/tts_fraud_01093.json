@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是工商银行的客服代表，姓名王亮，工号零零三七。我们监测到您的账户有异常活动，为了保证您的资金安全，需要您配合我们进行身份验证。您可以告诉我您的全名和账户的最后四位数字吗？",
+      "timestamp": 1740769069.9315937
+    },
+    {
+      "role": "right",
+      "content": "你好，我叫李建国。我的账户最后四位数字是七七八八。你们怎么知道我的账户有问题的？",
+      "timestamp": 1740769071.2809825
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，李建国先生。我们已经记录了您的信息，会立即对您的账户进行安全检查。如果一切正常，我们会尽快通知您。如果还有其他问题，请随时联系我们。再次感谢，祝您生活愉快。再见。",
+      "timestamp": 1740769079.4084759
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。希望一切顺利。再见。",
+      "timestamp": 1740769083.1502612
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（姓名和账户后四位数字），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，李建国先生。我们已经记录了您的信息，会立即对您的账户进行安全检查。如果一切正常，我们会尽快通知您。如果还有其他问题，请随时联系我们。再次感谢，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。希望一切顺利。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

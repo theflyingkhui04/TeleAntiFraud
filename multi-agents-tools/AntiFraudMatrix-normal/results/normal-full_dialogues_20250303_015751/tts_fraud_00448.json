@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮助您的吗？",
+      "timestamp": 1740975804.5348432
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份午餐，有什么推荐的吗？",
+      "timestamp": 1740975805.85892
+    },
+    {
+      "role": "left",
+      "content": "我们的午餐推荐有牛肉炒饭和香辣鸡腿堡套餐，都很受欢迎。您想要尝试哪一款呢？",
+      "timestamp": 1740975809.675162
+    },
+    {
+      "role": "right",
+      "content": "香辣鸡腿堡套餐听起来不错，我就试试这个吧。还需要加点什么饮料或者小食吗？",
+      "timestamp": 1740975811.1072206
+    },
+    {
+      "role": "left",
+      "content": "香辣鸡腿堡套餐包含一份薯条和一杯可乐，如果您需要其他饮料或小食，我们这里还有冰淇淋和柠檬茶可供选择。需要加点吗？",
+      "timestamp": 1740975817.5830398
+    },
+    {
+      "role": "right",
+      "content": "那我就加一份冰淇淋吧，谢谢。",
+      "timestamp": 1740975818.497712
+    },
+    {
+      "role": "left",
+      "content": "好的，一份香辣鸡腿堡套餐加一份冰淇淋，已经为您加入订单。请问还有其他需要的吗？如果没有，我将为您确认订单。",
+      "timestamp": 1740975823.6178966
+    },
+    {
+      "role": "right",
+      "content": "没有了，就这些吧。可以确认订单了。谢谢。",
+      "timestamp": 1740975826.3104534
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，一份香辣鸡腿堡套餐加一份冰淇淋。预计三十分钟内送达。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740975833.6467786
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。",
+      "timestamp": 1740975834.538551
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认订单，并表示没有其他需要。服务目标已达成。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，一份香辣鸡腿堡套餐加一份冰淇淋。预计三十分钟内送达。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

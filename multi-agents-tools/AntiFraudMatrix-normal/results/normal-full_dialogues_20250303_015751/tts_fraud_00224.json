@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您需要预订哪个餐厅的餐点呢？",
+      "timestamp": 1740970612.1222482
+    },
+    {
+      "role": "right",
+      "content": "嗨，我想订一个汉堡王的套餐。",
+      "timestamp": 1740970613.2266674
+    },
+    {
+      "role": "left",
+      "content": "好的，汉堡王的套餐有很多种，您想要尝试哪一款呢？我们可以为您提供经典的皇堡套餐、鸡腿堡套餐等。",
+      "timestamp": 1740970620.17523
+    },
+    {
+      "role": "right",
+      "content": "就来个皇堡套餐吧，加一份大薯条和一杯可乐。",
+      "timestamp": 1740970622.0683026
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单是皇堡套餐，加一份大薯条和一杯可乐。请问还需要其他搭配或备注吗？",
+      "timestamp": 1740970628.5472763
+    },
+    {
+      "role": "right",
+      "content": "不需要了，就这样吧。谢谢。",
+      "timestamp": 1740970629.5333924
+    },
+    {
+      "role": "left",
+      "content": "好的，您的皇堡套餐、大薯条和可乐已添加到订单中，预计送达时间为三十分钟。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740970639.6489787
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。",
+      "timestamp": 1740970644.0329988
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已确认订单内容，并表示无需其他服务，同时表达了感谢。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的皇堡套餐、大薯条和可乐已添加到订单中，预计送达时间为三十分钟。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

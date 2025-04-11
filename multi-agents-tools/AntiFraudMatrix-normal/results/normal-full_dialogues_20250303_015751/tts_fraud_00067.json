@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "预约服务专员，很高兴为您服务，请问您需要预约什么服务呢？",
+      "timestamp": 1740958056.6649783
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约一下清洁服务。",
+      "timestamp": 1740958057.4707506
+    },
+    {
+      "role": "left",
+      "content": "好的，清洁服务预约时间是什么时候呢？我们提供一周七天的服务，您可以选择一个方便的时间。",
+      "timestamp": 1740958061.3203776
+    },
+    {
+      "role": "right",
+      "content": "这周末怎么样，周六下午三点左右可以吗？",
+      "timestamp": 1740958061.8782887
+    },
+    {
+      "role": "left",
+      "content": "周六下午三点的时间可以安排，大约需要清洁多长时间呢？通常我们建议两到四小时，具体根据您的需求来定。",
+      "timestamp": 1740958068.60908
+    },
+    {
+      "role": "right",
+      "content": "两小时应该够了。",
+      "timestamp": 1740958069.1754391
+    },
+    {
+      "role": "left",
+      "content": "好的，已为您预约了周六下午三点到五点的清洁服务，服务时长为两小时。请问还有其他特殊需求吗？比如是否有需要特别清洁的区域？",
+      "timestamp": 1740958074.8301613
+    },
+    {
+      "role": "right",
+      "content": "没有特别的需求，就是日常清洁一下。谢谢。",
+      "timestamp": 1740958075.750278
+    },
+    {
+      "role": "left",
+      "content": "好的，您的预约已经安排妥当，清洁服务将在周六下午三点准时开始，两小时的服务时间。如果有任何变动，我们会提前与您联系。感谢您的预约，祝您周末愉快！",
+      "timestamp": 1740958081.9780376
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。周末见。",
+      "timestamp": 1740958085.5245652
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已确认预约信息，并表示没有其他特殊需求，同时表达了感谢。这表明用户对服务感到满意，且没有进一步的帮助需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的预约已经安排妥当，清洁服务将在周六下午三点准时开始，两小时的服务时间。如果有任何变动，我们会提前与您联系。感谢您的预约，祝您周末愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。周末见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

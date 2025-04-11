@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，有什么可以帮助您的吗？",
+      "timestamp": 1740979790.312407
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下最近的公交线路调整情况。",
+      "timestamp": 1740979791.6513455
+    },
+    {
+      "role": "left",
+      "content": "好的，最近确实有一些公交线路进行了调整。请问您具体想了解哪条线路的情况？",
+      "timestamp": 1740979796.5688362
+    },
+    {
+      "role": "right",
+      "content": "我想知道32路公交有没有变动。",
+      "timestamp": 1740979797.5106378
+    },
+    {
+      "role": "left",
+      "content": "32路公交目前确实有一些变动。原来的终点站从火车站调整到了新客运站，途经站点也新增了两个，分别是科技广场和市民中心。您需要具体的时间表或其他信息吗？",
+      "timestamp": 1740979805.5858603
+    },
+    {
+      "role": "right",
+      "content": "不需要了，谢谢。我知道了。",
+      "timestamp": 1740979806.6283906
+    },
+    {
+      "role": "left",
+      "content": "已经为您提供了32路公交的最新调整信息，如果还有其他问题或需要进一步的帮助，随时欢迎咨询。祝您旅途愉快！",
+      "timestamp": 1740979816.7609642
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。旅途愉快！",
+      "timestamp": 1740979819.8112729
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示已获得所需信息，并表达了感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "已经为您提供了32路公交的最新调整信息，如果还有其他问题或需要进一步的帮助，随时欢迎咨询。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。旅途愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，有什么我可以帮您的吗？",
+      "timestamp": 1740948895.7748783
+    },
+    {
+      "role": "right",
+      "content": "您好，我需要从现在的位置去市中心的火车站，大概要多少钱？",
+      "timestamp": 1740948899.7130756
+    },
+    {
+      "role": "left",
+      "content": "从您当前的位置到市中心火车站大约需要二十到三十元，具体费用会根据实时路况和车型有所不同。",
+      "timestamp": 1740948903.5785236
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。那我大概多久能到那里？",
+      "timestamp": 1740948904.4065797
+    },
+    {
+      "role": "left",
+      "content": "根据当前的交通状况，预计需要二十到二十五分钟到达。如果遇到高峰期可能会稍有延迟。",
+      "timestamp": 1740948908.1778965
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢您的帮助。我会提前出发，尽量避开高峰期。",
+      "timestamp": 1740948910.0457938
+    },
+    {
+      "role": "left",
+      "content": "如果您现在出发，预计二十到二十五分钟后可以到达市中心火车站。如果还有其他问题，随时欢迎咨询。祝您一路顺利。",
+      "timestamp": 1740948917.338413
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。祝您一天愉快。",
+      "timestamp": 1740948919.3776414
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表示了感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您现在出发，预计二十到二十五分钟后可以到达市中心火车站。如果还有其他问题，随时欢迎咨询。祝您一路顺利。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。祝您一天愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

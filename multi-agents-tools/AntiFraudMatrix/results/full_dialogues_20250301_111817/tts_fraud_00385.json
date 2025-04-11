@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是某某银行信用卡中心，我是您的专属客服小张。我们最近在进行账户安全升级，需要您配合完成一些信息确认，以确保您的账户安全。请问您现在方便吗？",
+      "timestamp": 1740811091.4251323
+    },
+    {
+      "role": "right",
+      "content": "您好，小张。我现在有点忙，不过可以稍微抽点时间。你说的账户安全升级是怎么回事？需要我提供什么信息呢？我最近确实没收到过相关的通知。",
+      "timestamp": 1740811095.982609
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提出的问题感到怀疑，尤其是在提到没有收到相关通知的情况下。用户可能意识到这是一个诈骗电话，因此选择挂断以避免进一步的风险。用户的意图是终止对话，防止个人信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在此，有什么我可以帮您的吗？",
+      "timestamp": 1740952793.7771447
+    },
+    {
+      "role": "right",
+      "content": "您好，我想了解一下最近的公交线路调整情况，特别是我常坐的5路车。",
+      "timestamp": 1740952796.1904955
+    },
+    {
+      "role": "left",
+      "content": "好的，我来帮您查询一下5路车的最新调整情况。请稍等片刻。",
+      "timestamp": 1740952801.2699068
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。我等一下。",
+      "timestamp": 1740952802.0538883
+    },
+    {
+      "role": "left",
+      "content": "感谢您的耐心等待。5路车最近确实有一些调整，主要是在早晚高峰期间增加了班次，以减少乘客的等待时间。此外，从下周一（3月13日）起，5路车将不再停靠人民广场站，而是新增了一个位于中山路的新站点。希望这些信息对您有帮助。",
+      "timestamp": 1740952810.3450365
+    },
+    {
+      "role": "right",
+      "content": "谢谢您的详细解答，这些信息对我很有帮助。我会注意这些变化的。",
+      "timestamp": 1740952812.5002592
+    },
+    {
+      "role": "left",
+      "content": "感谢您咨询公交线路信息，祝您出行顺利！",
+      "timestamp": 1740952818.7628226
+    },
+    {
+      "role": "right",
+      "content": "谢谢，祝您一切顺利。",
+      "timestamp": 1740952820.357712
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示感谢并结束对话，表示信息对其有帮助，没有进一步的问题或需求。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您咨询公交线路信息，祝您出行顺利！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，祝您一切顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

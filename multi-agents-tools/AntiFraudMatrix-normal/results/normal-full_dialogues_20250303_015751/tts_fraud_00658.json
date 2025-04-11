@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以为您预订的吗？",
+      "timestamp": 1740965280.9320316
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份午餐，有什么推荐的吗？",
+      "timestamp": 1740965281.9819632
+    },
+    {
+      "role": "left",
+      "content": "我们今天的午餐特别推荐有牛肉炒饭和鸡肉沙拉，两道菜都非常受欢迎。您对口味有什么特别的偏好吗？",
+      "timestamp": 1740965288.860487
+    },
+    {
+      "role": "right",
+      "content": "牛肉炒饭听起来不错，就来一份吧。还需要加点别的吗？",
+      "timestamp": 1740965290.0839741
+    },
+    {
+      "role": "left",
+      "content": "好的，一份牛肉炒饭已加入您的订单。我们还有新鲜的水果沙拉和汤品，您可以考虑加一份，营养更均衡。需要我为您推荐一款吗？",
+      "timestamp": 1740965295.682451
+    },
+    {
+      "role": "right",
+      "content": "水果沙拉听起来不错，加一份吧。这样就可以了。",
+      "timestamp": 1740965297.027723
+    },
+    {
+      "role": "left",
+      "content": "好的，一份牛肉炒饭和一份水果沙拉已加入您的订单。请问还需要什么饮料或甜点吗？",
+      "timestamp": 1740965302.092715
+    },
+    {
+      "role": "right",
+      "content": "不用了，这样就可以了。谢谢。",
+      "timestamp": 1740965302.9773333
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，一份牛肉炒饭和一份水果沙拉。预计三十分钟内送达。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740965310.7108822
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。",
+      "timestamp": 1740965311.889774
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容，并明确表示不需要其他服务，同时表达了感谢。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，一份牛肉炒饭和一份水果沙拉。预计三十分钟内送达。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

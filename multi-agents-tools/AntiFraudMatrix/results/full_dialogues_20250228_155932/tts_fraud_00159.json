@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国际快递服务公司，您的包裹在最近的检查中被发现有问题，需要您尽快处理。请您提供一下您的姓名和联系方式，以便我们为您核实情况。",
+      "timestamp": 1740746496.123157
+    },
+    {
+      "role": "right",
+      "content": "你好，我叫李晓，我的电话号码是这个，你们是怎么找到我的？我的包裹有什么问题吗？",
+      "timestamp": 1740746498.3199718
+    },
+    {
+      "role": "left",
+      "content": "好的，我明白了，感谢您的配合，我们会尽快处理您的包裹问题。如果有任何更新，我们会及时通知您。再见。",
+      "timestamp": 1740746505.846149
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们，希望尽快解决。再见。",
+      "timestamp": 1740746507.5381079
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和电话号码，属于敏感信息。根据终止条件1，应该立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我明白了，感谢您的配合，我们会尽快处理您的包裹问题。如果有任何更新，我们会及时通知您。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们，希望尽快解决。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

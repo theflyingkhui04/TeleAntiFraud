@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "\"你好，我是市公安局刑侦队的王警官。我们刚刚接到报案，你的儿子在我们手上，要想他安全回家，请立即准备50万赎金。\"",
+      "timestamp": 1740685765.8802433
+    },
+    {
+      "role": "right",
+      "content": "啊？我儿子被绑架了？这...这不可能吧...王警官，您能证明一下您的身份吗？还有，我儿子现在安全吗？",
+      "timestamp": 1740685769.68859
+    },
+    {
+      "role": "left",
+      "content": "\"既然你不相信我，那就等着给你儿子收尸吧！\"",
+      "timestamp": 1740685776.416656
+    },
+    {
+      "role": "right",
+      "content": "你这话太吓人了，我得先确认一下你是不是真的警察。我儿子真的没事吧？我需要联系他的朋友或者公司确认一下。",
+      "timestamp": 1740685813.4876883
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中使用了挂断标识符'##ENDCALL_SIGNAL##'，表明其已经选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "\"既然你不相信我，那就等着给你儿子收尸吧！\"##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "你这话太吓人了，我得先确认一下你是不是真的警察。我儿子真的没事吧？我需要联系他的朋友或者公司确认一下。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

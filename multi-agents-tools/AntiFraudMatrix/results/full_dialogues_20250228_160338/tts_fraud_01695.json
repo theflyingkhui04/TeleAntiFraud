@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自国际金融投资公司的李经理，最近我们推出了一款高收益的投资项目，年化收益率可以达到百分之四十，想邀请您参与。",
+      "timestamp": 1740742845.7822502
+    },
+    {
+      "role": "right",
+      "content": "李经理，您好。听起来不错，不过我年纪大了，对这些投资不太懂。您能具体说说这个项目是怎样的吗？",
+      "timestamp": 1740742849.8956523
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者主动挂断了电话，可能是因为诈骗者意识到用户对投资项目表现出兴趣，但同时用户也提出了具体问题，这可能让诈骗者感到需要更多准备或担心被识破，因此选择挂断电话以避免进一步的交流和潜在的风险。用户的意图是寻求更多关于投资项目的详细信息，显示出一定的兴趣，但同时也表现出谨慎，希望通过更多了解来做出决定。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

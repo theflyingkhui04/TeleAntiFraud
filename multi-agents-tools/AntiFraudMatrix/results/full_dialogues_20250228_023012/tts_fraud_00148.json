@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，你是张先生的家属吗？他现在在我们手上，如果你想让他平安回去，就准备20万赎金。不要报警，否则后果自负！",
+      "timestamp": 1740686249.6146166
+    },
+    {
+      "role": "right",
+      "content": "你们是谁？这是怎么回事？我怎么知道你们说的是真的？张先生和我没有什么关系，但他如果是你们说的那个人，我需要更多的信息来确认。",
+      "timestamp": 1740686253.8661382
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为感到恐慌或怀疑诈骗者的真实性而选择挂断电话。用户要求更多的信息来确认张先生的身份，表明他没有立即相信诈骗者的话。此外，用户提到张先生与自己关系不大，这可能是为了避免引起诈骗者的进一步兴趣或威胁。用户的挂断行为可能是一种自我保护机制，以避免卷入潜在的危险或诈骗情况。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

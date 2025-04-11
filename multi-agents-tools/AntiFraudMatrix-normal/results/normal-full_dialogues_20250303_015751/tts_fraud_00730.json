@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，有什么我可以帮您的吗？",
+      "timestamp": 1740949562.3034227
+    },
+    {
+      "role": "right",
+      "content": "您好，我想了解一下最近的交通状况，特别是从医院到家的路线。",
+      "timestamp": 1740949563.548963
+    },
+    {
+      "role": "left",
+      "content": "好的，从医院到家的路线通常有几个选择。您能告诉我具体是哪家医院，以及您家的大致位置吗？这样我可以为您提供更准确的路线建议。",
+      "timestamp": 1740949568.4579196
+    },
+    {
+      "role": "right",
+      "content": "我是从市立医院出发，家在城西区。谢谢。",
+      "timestamp": 1740949569.961774
+    },
+    {
+      "role": "left",
+      "content": "从市立医院到城西区，您可以选择乘坐公交车2号线直达，大约需要四十分钟。如果您选择驾车，可以沿着主干道一直向西行驶，大约需要三十分钟，具体时间取决于路况。需要我查询一下当前的路况信息吗？",
+      "timestamp": 1740949576.2440991
+    },
+    {
+      "role": "right",
+      "content": "不用了，谢谢。我会自己查一下。",
+      "timestamp": 1740949577.636337
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您确认了从市立医院到城西区的路线。如果还有其他问题或需要进一步的帮助，请随时联系我。祝您旅途愉快。",
+      "timestamp": 1740949585.7954376
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740949589.3300033
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并明确表示不再需要进一步的帮助。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，已经为您确认了从市立医院到城西区的路线。如果还有其他问题或需要进一步的帮助，请随时联系我。祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

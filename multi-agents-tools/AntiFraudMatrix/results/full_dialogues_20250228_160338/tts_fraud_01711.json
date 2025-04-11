@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！我是XX快递公司的客服人员，我们发现您的包裹在清关时遇到了一些问题，需要您提供一些信息以便我们尽快处理。请问您现在方便接听电话吗？",
+      "timestamp": 1740731454.603309
+    },
+    {
+      "role": "right",
+      "content": "哎呀，快递出问题了啊？我最近确实有一个包裹，不知道是不是那个。您说需要提供什么信息呢？",
+      "timestamp": 1740731483.103057
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑这是诈骗电话，或者因为不方便继续通话而选择挂断。用户在听到诈骗者自称是快递公司客服并提到包裹问题时，可能立刻产生了警觉，尤其是在诈骗者要求提供信息的情况下。此外，用户也可能因为当前环境不适合继续通话而选择挂断。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

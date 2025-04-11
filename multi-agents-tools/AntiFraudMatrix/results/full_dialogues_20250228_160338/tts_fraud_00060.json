@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服代表，李华。我们检测到您的账户有异常活动，为了您的安全，需要您配合我们做一下身份验证。请问您现在方便吗？",
+      "timestamp": 1740732508.966024
+    },
+    {
+      "role": "right",
+      "content": "你好，李华。我最近确实有点忙，但可以挤出几分钟时间。请问需要我做些什么呢？",
+      "timestamp": 1740732525.3488111
+    },
+    {
+      "role": "left",
+      "content": "是这样的，我们需要核对一下您的身份证号码，以确保账户安全。请您提供一下您的身份证号码和姓名，好吗？",
+      "timestamp": 1740732546.8404567
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者挂断电话的可能原因是因为用户表现出愿意配合的态度，诈骗者可能认为用户已经上钩，准备提供敏感信息，因此诈骗者选择在获取关键信息之前挂断电话，以避免被追踪或暴露身份。诈骗者的意图可能是为了制造紧迫感，让用户在挂断后主动回拨或寻找其他方式联系诈骗者，从而进一步实施诈骗。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

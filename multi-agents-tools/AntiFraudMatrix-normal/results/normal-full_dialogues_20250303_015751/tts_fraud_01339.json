@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是客服小张，很高兴为您服务，请问您需要预约什么服务呢？",
+      "timestamp": 1740950476.590661
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我就是想了解一下你们这边有没有农业技术指导的服务。",
+      "timestamp": 1740950478.0295868
+    },
+    {
+      "role": "left",
+      "content": "有的，我们提供农业技术指导服务，包括种植技术、病虫害防治、土壤改良等方面的专业指导。您是想了解具体的哪些方面呢？",
+      "timestamp": 1740950491.3575132
+    },
+    {
+      "role": "right",
+      "content": "主要是种植技术和病虫害防治，最近地里的庄稼有些问题，想请专家看看。",
+      "timestamp": 1740950492.9015598
+    },
+    {
+      "role": "left",
+      "content": "明白了，我们可以为您安排一位资深的农业技术专家进行现场指导。请问您方便的时间是什么时候呢？我们好为您预约。",
+      "timestamp": 1740950498.0173535
+    },
+    {
+      "role": "right",
+      "content": "那就麻烦你了，后天上午九点左右可以吗？",
+      "timestamp": 1740950499.0962145
+    },
+    {
+      "role": "left",
+      "content": "好的，后天上午九点，这个时间可以安排。请问您的具体地址是哪里？我们需要将信息提供给技术专家。",
+      "timestamp": 1740950502.2375858
+    },
+    {
+      "role": "right",
+      "content": "地址是xx村xx号，你们过来的时候记得带点工具，可能需要用到。",
+      "timestamp": 1740950503.555053
+    },
+    {
+      "role": "left",
+      "content": "好的，我们会准备好相关工具。后天上午九点，xx村xx号，技术专家会准时到达。请问还有什么其他需求或注意事项需要我们提前了解的吗？",
+      "timestamp": 1740950511.8851073
+    },
+    {
+      "role": "right",
+      "content": "没有了，就这些。谢谢你们的帮助。",
+      "timestamp": 1740950513.0062973
+    },
+    {
+      "role": "left",
+      "content": "好的，后天上午九点我们会准时到达，如果还有其他需求可以随时联系我们。感谢您的信任，祝您一切顺利。再见。",
+      "timestamp": 1740950519.1078105
+    },
+    {
+      "role": "right",
+      "content": "再见。",
+      "timestamp": 1740950522.5952346
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了预约时间、地点及具体要求，并表达了感谢，表明其需求已得到满足，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，后天上午九点我们会准时到达，如果还有其他需求可以随时联系我们。感谢您的信任，祝您一切顺利。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

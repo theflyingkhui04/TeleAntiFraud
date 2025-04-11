@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约什么项目？",
+      "timestamp": 1740979821.0130398
+    },
+    {
+      "role": "right",
+      "content": "您好，我想了解一下你们的健康检查项目。",
+      "timestamp": 1740979822.2864628
+    },
+    {
+      "role": "left",
+      "content": "我们提供多种健康检查项目，包括常规体检、专项检查等，您具体想了解哪一项？",
+      "timestamp": 1740979828.1139555
+    },
+    {
+      "role": "right",
+      "content": "我主要是想做个全面的体检，看看身体有没有什么问题。",
+      "timestamp": 1740979829.7192028
+    },
+    {
+      "role": "left",
+      "content": "好的，我们的全面体检项目包括血液检查、心电图、B超等多项检查，可以全面评估您的健康状况。您方便预约哪一天？",
+      "timestamp": 1740979838.3067718
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，那我预约下周五吧。需要提前准备什么吗？",
+      "timestamp": 1740979839.510228
+    },
+    {
+      "role": "left",
+      "content": "下周五可以，建议您体检前一天保持清淡饮食，避免剧烈运动，体检当天请空腹。请问您的姓名和联系方式，以便我们为您安排预约。",
+      "timestamp": 1740979845.0831156
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫张伟，电话是13812345678。谢谢。",
+      "timestamp": 1740979846.7731667
+    },
+    {
+      "role": "left",
+      "content": "好的，已为您预约下周五的全面体检，我们会发送确认短信到您的手机，请注意查收。感谢您的预约，祝您健康！",
+      "timestamp": 1740979853.9912803
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的安排，我会留意短信的。祝好！",
+      "timestamp": 1740979855.4626942
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和联系方式，服务方可以为用户安排预约，对话目标已达成。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，已为您预约下周五的全面体检，我们会发送确认短信到您的手机，请注意查收。感谢您的预约，祝您健康！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的安排，我会留意短信的。祝好！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

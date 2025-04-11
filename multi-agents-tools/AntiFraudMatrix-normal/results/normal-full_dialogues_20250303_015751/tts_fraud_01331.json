@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用预约服务，我是您的客服专员，请问您需要预约哪项服务？",
+      "timestamp": 1740968893.9171462
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一个内科检查。",
+      "timestamp": 1740968895.4086382
+    },
+    {
+      "role": "left",
+      "content": "好的，内科检查预约已经为您记录。请问您希望预约的具体日期和时间是什么？",
+      "timestamp": 1740968901.4082625
+    },
+    {
+      "role": "right",
+      "content": "我下周三上午十点方便。",
+      "timestamp": 1740968902.7948716
+    },
+    {
+      "role": "left",
+      "content": "下周三上午十点的时间段内，我们还有空档，可以为您预约。请问您有特殊需求或需要告知医生的信息吗？",
+      "timestamp": 1740968908.270382
+    },
+    {
+      "role": "right",
+      "content": "没有特殊需求，谢谢。",
+      "timestamp": 1740968909.2414305
+    },
+    {
+      "role": "left",
+      "content": "好的，您的预约已成功，下周三上午十点，我们会为您安排内科检查。请您提前十分钟到达医院，以便完成相关手续。您会收到一条确认短信，内含预约编号和详细信息。还有其他可以帮到您的吗？",
+      "timestamp": 1740968917.4876761
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户预约成功，并提供了所有必要的信息（如到达时间、确认短信等）后，主动发出了结束信号。这表明服务方认为对话目标已达成，用户的需求得到了满足，且没有其他需要处理的事项。服务方的意图是礼貌地结束对话，确保用户感到满意并清楚接下来的步骤。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

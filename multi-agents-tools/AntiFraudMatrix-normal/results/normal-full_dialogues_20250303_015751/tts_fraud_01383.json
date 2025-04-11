@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是商场的客服代表，有什么可以帮您的吗？",
+      "timestamp": 1740953038.8747346
+    },
+    {
+      "role": "right",
+      "content": "您好，我只是逛逛，看看有什么新款。",
+      "timestamp": 1740953042.721407
+    },
+    {
+      "role": "left",
+      "content": "好的，我们这周刚上了一批春季新款，包括服装、鞋帽和配饰，都在一楼大厅展出。欢迎您去参观挑选。",
+      "timestamp": 1740953047.4291916
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会去看看的。",
+      "timestamp": 1740953051.153028
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何需要帮助的地方，随时可以联系我。祝您购物愉快。",
+      "timestamp": 1740953056.3258176
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会留意的。祝您工作顺利。",
+      "timestamp": 1740953057.7813816
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示会去参观挑选，并表达了感谢，表明其当前需求已得到满足。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您有任何需要帮助的地方，随时可以联系我。祝您购物愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会留意的。祝您工作顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

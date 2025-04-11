@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自赢创资本的投资顾问李华。我注意到您最近在我们的平台上表现出了对新能源项目的极大兴趣，这是一个非常明智的选择，因为新能源是我们未来发展的大势所趋。不知道您是否方便现在聊一聊？",
+      "timestamp": 1740812827.4720783
+    },
+    {
+      "role": "right",
+      "content": "你好，李华。嗯，我确实对新能源挺感兴趣的，不过我还不太懂这一块。现在聊可以，你有什么好的建议吗？",
+      "timestamp": 1740812829.5763535
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们改天再聊吧，希望您一切顺利，再见。",
+      "timestamp": 1740812835.3408139
+    },
+    {
+      "role": "right",
+      "content": "好的，那我们改天再聊，希望你也有个好心情，再见。",
+      "timestamp": 1740812838.146835
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时即提供了明确的挂断信号（##ENDCALL_SIGNAL##），表明其不再希望继续对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们改天再聊吧，希望您一切顺利，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，那我们改天再聊，希望你也有个好心情，再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

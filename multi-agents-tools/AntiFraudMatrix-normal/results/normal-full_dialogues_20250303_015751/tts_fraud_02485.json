@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么我可以帮您的吗？",
+      "timestamp": 1740965618.3467615
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖。有什么推荐的吗？",
+      "timestamp": 1740965619.4574528
+    },
+    {
+      "role": "left",
+      "content": "我们这里有很多受欢迎的菜品，比如宫保鸡丁、鱼香肉丝和牛肉拉面，都是顾客评价很高的。您有什么口味的偏好吗？我可以为您推荐更合适的选项。",
+      "timestamp": 1740965626.2777526
+    },
+    {
+      "role": "right",
+      "content": "我喜欢吃辣的，有什么特别推荐的吗？",
+      "timestamp": 1740965627.6562889
+    },
+    {
+      "role": "left",
+      "content": "辣菜方面，我们的麻辣香锅和水煮牛肉非常受欢迎，这两道菜都香辣可口，非常下饭。您可以尝试一下。",
+      "timestamp": 1740965631.7569184
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，那就来一份水煮牛肉吧。还有一份酸菜鱼，也挺想吃的。",
+      "timestamp": 1740965632.9729233
+    },
+    {
+      "role": "left",
+      "content": "好的，一份水煮牛肉和一份酸菜鱼已经加入您的订单。还需要加点别的菜或者小食吗？",
+      "timestamp": 1740965637.1134117
+    },
+    {
+      "role": "right",
+      "content": "不用了，这两道菜就够了。对了，能快点送过来吗？我有点饿了。",
+      "timestamp": 1740965638.3480904
+    },
+    {
+      "role": "left",
+      "content": "了解，我会为您尽快安排。预计您的餐点将在三十分钟内送达。如果地址是常用地点，我们会更快送达。请确认您的送餐地址是哪里？",
+      "timestamp": 1740965644.0435286
+    },
+    {
+      "role": "right",
+      "content": "地址是常用地点，上次的地址就行。谢谢。",
+      "timestamp": 1740965645.192016
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计三十分钟内送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740965655.4190657
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美味的餐点。",
+      "timestamp": 1740965656.9171789
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单和送餐地址，服务方也确认了送餐时间，对话目标已达成。",
+  "terminator": "service",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计三十分钟内送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美味的餐点。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是彩票中心，您刚刚中了二等奖，奖金是三十万元。请问您现在方便接听电话吗？",
+      "timestamp": 1740738115.079939
+    },
+    {
+      "role": "right",
+      "content": "方便，方便，真的中奖了？太不可思议了，我得赶紧记下这个好消息。你们需要我提供什么信息吗？",
+      "timestamp": 1740738139.527425
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能在意识到这是一个诈骗电话后，决定主动挂断以避免进一步的损失。用户最初表现出兴奋和愿意提供信息，但随后可能通过进一步思考或识别出诈骗的常见特征，如要求提供敏感信息，从而意识到这是一个骗局。挂断电话是用户采取的一种自我保护措施，以防止个人信息泄露或财务损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

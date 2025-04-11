@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品是您感兴趣的吗？",
+      "timestamp": 1740954036.6078026
+    },
+    {
+      "role": "right",
+      "content": "您好，我看看有什么适合我的东西。这里的咖啡和茶怎么样？",
+      "timestamp": 1740954037.7936869
+    },
+    {
+      "role": "left",
+      "content": "我们这里的咖啡和茶都挺受欢迎的，咖啡有现磨的意式和美式，茶则有各种绿茶、红茶和花草茶，您可以根据自己的口味来选择。",
+      "timestamp": 1740954044.478975
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，我平时喜欢喝点清淡的，有什么推荐的吗？",
+      "timestamp": 1740954045.5038278
+    },
+    {
+      "role": "left",
+      "content": "如果是喜欢清淡口味的话，我推荐您试试我们的茉莉花茶或者柠檬草茶，这两种茶都有淡淡的香气，口感清新，非常适合您的口味。",
+      "timestamp": 1740954049.5198476
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来一杯茉莉花茶吧。谢谢推荐。",
+      "timestamp": 1740954051.271425
+    },
+    {
+      "role": "left",
+      "content": "不客气，您的茉莉花茶我会马上为您准备。如果还有其他需要，请随时告诉我。",
+      "timestamp": 1740954056.878242
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在用户选择了茉莉花茶并表示感谢后，确认了用户的订单，并表达了如果用户有其他需求可以随时告知的意愿。随后，服务方使用了结束信号代码##ENDCALL_SIGNAL##，表明服务方认为对话目标已达成，即用户的需求得到了满足，服务流程已经完成，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

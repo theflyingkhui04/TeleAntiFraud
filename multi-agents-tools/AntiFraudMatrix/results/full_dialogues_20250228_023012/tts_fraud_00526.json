@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自盈富投资的李经理。我们注意到您近期在研究市场投资，想不想了解一下目前最热门的投资项目？",
+      "timestamp": 1740681225.5817463
+    },
+    {
+      "role": "right",
+      "content": "哦，你好你好。投资啊，我最近是听村里人说股票什么的，不太懂。你们有什么好项目吗？",
+      "timestamp": 1740681229.6079993
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们今天就先聊到这里。如果您有任何疑问或感兴趣的投资项目，随时可以联系我。祝您一切顺利，再见。",
+      "timestamp": 1740681233.7005258
+    },
+    {
+      "role": "right",
+      "content": "再见。",
+      "timestamp": 1740681236.7403047
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表明其不再希望继续对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们今天就先聊到这里。如果您有任何疑问或感兴趣的投资项目，随时可以联系我。祝您一切顺利，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

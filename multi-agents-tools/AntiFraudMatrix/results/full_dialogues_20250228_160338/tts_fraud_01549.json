@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行的客服中心，我们注意到您的账户存在异常交易，需要立即核实您的身份信息。请问您方便现在提供一下您的姓名和身份证号码吗？",
+      "timestamp": 1740737919.156756
+    },
+    {
+      "role": "right",
+      "content": "您好，我是张建国。身份证号码是五十一零二一九八零零一零一零一零一零。你们能帮我查一下具体是什么异常交易吗？我最近确实没有进行过什么大额的交易。",
+      "timestamp": 1740737934.7310743
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，张建国先生。我们已经记录了您的信息，会立即调查此事。如果有任何问题，我们会尽快与您联系。再次感谢您的理解和支持。",
+      "timestamp": 1740737955.3435194
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。希望你们能尽快查清楚。",
+      "timestamp": 1740737958.9324913
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗明显成功 - 用户已提供敏感信息（姓名和身份证号码），诈骗者已获取足够信息，可以结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，张建国先生。我们已经记录了您的信息，会立即调查此事。如果有任何问题，我们会尽快与您联系。再次感谢您的理解和支持。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。希望你们能尽快查清楚。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

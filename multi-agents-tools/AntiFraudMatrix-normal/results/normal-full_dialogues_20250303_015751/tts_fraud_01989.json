@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在此，有什么我可以帮助您的吗？",
+      "timestamp": 1740954450.7230177
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从我家到市中心的公交线路。",
+      "timestamp": 1740954454.4291222
+    },
+    {
+      "role": "left",
+      "content": "好的，可以告诉我您家附近的公交站名或大概位置吗？这样我帮您查询更准确的线路。",
+      "timestamp": 1740954460.767043
+    },
+    {
+      "role": "right",
+      "content": "我家在人民路附近，有个公交站叫人民广场站。",
+      "timestamp": 1740954464.652406
+    },
+    {
+      "role": "left",
+      "content": "了解了，从人民广场站到市中心，您可以乘坐公交1路或3路，这两路车都会经过市中心的主要路段。需要具体的到站时间或换乘信息吗？",
+      "timestamp": 1740954470.1416128
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我大概知道怎么走了。",
+      "timestamp": 1740954471.290137
+    },
+    {
+      "role": "left",
+      "content": "已经帮您查好了，从人民广场站乘坐1路或3路公交即可直达市中心。如果您还有其他问题，随时可以咨询。祝您旅途愉快！",
+      "timestamp": 1740954480.0635612
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会注意的。旅途愉快！",
+      "timestamp": 1740954481.8000815
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的公交线路信息，并表示感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "已经帮您查好了，从人民广场站乘坐1路或3路公交即可直达市中心。如果您还有其他问题，随时可以咨询。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会注意的。旅途愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

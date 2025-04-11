@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您想预订哪家餐厅的美食呢？",
+      "timestamp": 1740980970.3204849
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我想订一家附近的中餐馆，有什么推荐的吗？",
+      "timestamp": 1740980972.173008
+    },
+    {
+      "role": "left",
+      "content": "当然可以帮您推荐，附近的中餐馆里，“美味轩”和“老北京风味”都挺受欢迎的，您是否有偏好？或者需要我为您提供更多信息？",
+      "timestamp": 1740980978.757344
+    },
+    {
+      "role": "right",
+      "content": "“美味轩”听起来不错，就这家吧。他们有什么特色菜？",
+      "timestamp": 1740980980.3998322
+    },
+    {
+      "role": "left",
+      "content": "“美味轩”确实不错，他们的招牌菜有宫保鸡丁、清蒸鲈鱼和干煸四季豆，都非常受欢迎。您对这些菜品感兴趣吗？需要我帮您预订吗？",
+      "timestamp": 1740980987.2414033
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁和清蒸鲈鱼都挺好的，就预订这两道菜吧。谢谢。",
+      "timestamp": 1740980989.4833739
+    },
+    {
+      "role": "left",
+      "content": "好的，已经帮您预订了“美味轩”的特色菜，预计三十分钟后送达。如果您有任何其他需求，欢迎随时联系我们。祝您用餐愉快！",
+      "timestamp": 1740980997.0231206
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。",
+      "timestamp": 1740980997.9037743
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了菜品并表示感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，已经帮您预订了“美味轩”的特色菜，预计三十分钟后送达。如果您有任何其他需求，欢迎随时联系我们。祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

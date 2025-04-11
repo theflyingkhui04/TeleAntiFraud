@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，有什么我可以帮您的？",
+      "timestamp": 1740967150.0160756
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从市中心到机场的最快路线。",
+      "timestamp": 1740967151.7912452
+    },
+    {
+      "role": "left",
+      "content": "从市中心到机场最快的路线是通过高速路，全程大约需要三十分钟，不过具体时间还要看实时交通情况。您是想现在出发吗？",
+      "timestamp": 1740967158.1290388
+    },
+    {
+      "role": "right",
+      "content": "是的，我打算现在出发。有什么需要注意的吗？",
+      "timestamp": 1740967159.3663454
+    },
+    {
+      "role": "left",
+      "content": "现在出发的话，建议您使用导航软件实时查看路况，避开拥堵路段。另外，高速路上车速较快，请注意安全驾驶。如果行李较多，出发前请确保车辆后备箱空间足够。祝您一路顺利，安全抵达机场。",
+      "timestamp": 1740967175.6649194
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在提供了详细的路线建议和安全提示后，认为用户已经获得了所需的所有信息，且用户没有进一步的问题或需求。服务方通过提供全面的信息和支持，确保用户能够顺利、安全地到达目的地，因此选择主动结束对话，以避免不必要的等待或信息重复。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的？",
+      "timestamp": 1740975157.5540543
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖。有什么推荐的菜品吗？",
+      "timestamp": 1740975158.4638336
+    },
+    {
+      "role": "left",
+      "content": "我们这周的特色菜品有宫保鸡丁和清蒸鲈鱼，都是顾客评价很高的选择。您感兴趣吗？",
+      "timestamp": 1740975161.862556
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，那就来一份宫保鸡丁吧。还有什么需要搭配的吗？",
+      "timestamp": 1740975162.9759004
+    },
+    {
+      "role": "left",
+      "content": "宫保鸡丁搭配一份米饭和一份凉拌黄瓜会很不错，清新解腻。需要一起加到订单中吗？",
+      "timestamp": 1740975166.3729382
+    },
+    {
+      "role": "right",
+      "content": "好的，就这样吧。还请告诉我总价和预计送达时间。",
+      "timestamp": 1740975167.658069
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单总价是35元，预计送达时间在30到40分钟内。请您确认地址是否正确，以便我们准时送达。",
+      "timestamp": 1740975170.809378
+    },
+    {
+      "role": "right",
+      "content": "地址是XX小区12号楼3单元402室，确认无误。谢谢。",
+      "timestamp": 1740975172.6213126
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，总价35元，预计30到40分钟送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740975183.5223286
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。祝好！",
+      "timestamp": 1740975184.4923627
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "服务方已提供完所有信息，包括菜品选择、总价和预计送达时间，用户也确认了地址，服务目标已达成。",
+  "terminator": "service",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，总价35元，预计30到40分钟送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。祝好！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

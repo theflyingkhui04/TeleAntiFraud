@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行客服中心，我们检测到您的账户存在异常交易，请问您最近是否有进行过网上转账操作？",
+      "timestamp": 1740758940.1931996
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近确实用网银转过账，不过都是在安全的环境下进行的。你们怎么知道我的账户有异常的？我需要确认一下，这是不是诈骗电话。",
+      "timestamp": 1740758942.904383
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对电话真实性的怀疑，要求确认是否为诈骗电话。用户可能是因为对诈骗者的问题感到不安全或怀疑其身份，因此选择挂断电话以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您银行的客服代表，我们检测到您的账户可能有异常活动，需要您配合进行安全验证。为了您的账户安全，请您提供最近一次转账的金额和时间，以便我们确认。",
+      "timestamp": 1740690351.2451084
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我最近没注意到有什么异常啊。不过既然你们发现了，那我配合一下吧。最近一次转账是前天，转了500块钱给我的孙子。",
+      "timestamp": 1740690391.2926805
+    },
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。",
+      "timestamp": 1740690401.3072383
+    },
+    {
+      "role": "right",
+      "content": "好的，我明白了。那您能告诉我，这笔转账的具体时间吗？这样我们可以更快地确认。",
+      "timestamp": 1740690403.5381558
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗明显成功 - 用户已提供敏感信息（最近一次转账的金额和时间），诈骗者已获取足够信息，可以结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。"
+    },
+    {
+      "role": "right",
+      "content": "好的，我明白了。那您能告诉我，这笔转账的具体时间吗？这样我们可以更快地确认。"
+    }
+  ],
+  "reached_max_turns": false
+}

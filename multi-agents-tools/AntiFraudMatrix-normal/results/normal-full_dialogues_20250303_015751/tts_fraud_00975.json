@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临！有什么商品您想了解的吗？",
+      "timestamp": 1740957448.3140848
+    },
+    {
+      "role": "right",
+      "content": "你好，我看看有没有适合的书。你这里有推荐的吗？",
+      "timestamp": 1740957452.7845728
+    },
+    {
+      "role": "left",
+      "content": "当然有！您喜欢哪种类型的书呢？比如小说、科普、历史或者心理学等。",
+      "timestamp": 1740957457.3904707
+    },
+    {
+      "role": "right",
+      "content": "我对心理学挺感兴趣的，有什么新书或者经典推荐吗？",
+      "timestamp": 1740957458.4128072
+    },
+    {
+      "role": "left",
+      "content": "我们这里有一本新书《情绪的科学》，深入浅出地讲解了情绪的机制和管理方法，非常受欢迎。经典方面，《梦的解析》是弗洛伊德的代表作，对心理学发展有深远影响。这两本您看哪本更对您口味？",
+      "timestamp": 1740957468.384951
+    },
+    {
+      "role": "right",
+      "content": "《情绪的科学》听起来挺实用的，我看看这本。",
+      "timestamp": 1740957469.319693
+    },
+    {
+      "role": "left",
+      "content": "好的，这本书现在正好有促销活动，原价六十元，现在只需五十元。您可以到二楼的心理学专区找到它，或者我可以让工作人员帮您拿一本过来。您看哪种方式更方便？",
+      "timestamp": 1740957475.1633294
+    },
+    {
+      "role": "right",
+      "content": "我自己去二楼看看吧，顺便逛逛其他书。谢谢！",
+      "timestamp": 1740957476.146452
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的光临！如果您决定购买《情绪的科学》，可以在收银台享受促销价。希望这本书能给您带来帮助，祝您购物愉快！",
+      "timestamp": 1740957482.961424
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！我会注意的。祝我好运吧！",
+      "timestamp": 1740957484.683729
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表达了感谢，并表示自己会去二楼看看，这表明用户对当前的服务感到满意并且没有进一步的需求。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的光临！如果您决定购买《情绪的科学》，可以在收银台享受促销价。希望这本书能给您带来帮助，祝您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！我会注意的。祝我好运吧！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

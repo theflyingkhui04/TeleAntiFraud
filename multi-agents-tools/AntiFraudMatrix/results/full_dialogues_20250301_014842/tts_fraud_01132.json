@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您儿子的朋友。我们刚刚从学校出来，结果遇到一群小混混，他们把我们围住了，现在情况很紧急，我只能给您打电话。您能帮我吗？",
+      "timestamp": 1740769428.1124582
+    },
+    {
+      "role": "right",
+      "content": "天哪，这太可怕了！你们现在在哪儿？我马上给你转点钱，你们赶紧找个安全的地方。你们受伤了吗？需要我联系警察吗？",
+      "timestamp": 1740769429.8099973
+    },
+    {
+      "role": "left",
+      "content": "好的，谢谢您的理解，我会尽快处理这件事。请您保持电话畅通，我们会联系您的。再见。",
+      "timestamp": 1740769435.166014
+    },
+    {
+      "role": "right",
+      "content": "好的，你们一定要小心。等我转完钱，我会再联系你们的。再见。",
+      "timestamp": 1740769436.5967379
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表明其选择挂断电话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，谢谢您的理解，我会尽快处理这件事。请您保持电话畅通，我们会联系您的。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，你们一定要小心。等我转完钱，我会再联系你们的。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

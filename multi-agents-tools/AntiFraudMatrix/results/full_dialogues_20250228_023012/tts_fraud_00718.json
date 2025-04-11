@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您！我们注意到您的手机号码刚刚被系统随机选中，获得了我们公司举办的大奖赛的二等奖！奖品是一辆全新的豪华轿车和50万元的现金奖励。请告诉我您的姓名和身份证号码，以便我们验证您的身份并安排奖品发放。",
+      "timestamp": 1740683567.5746183
+    },
+    {
+      "role": "right",
+      "content": "谢谢你们的通知，但这听起来太不可思议了。我从来没有参加过这样的抽奖活动。你们能告诉我这是哪个公司的活动吗？还有，为什么我会被选中？",
+      "timestamp": 1740683570.4369898
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的说辞表示怀疑，并要求提供更多信息以验证活动的真实性。用户可能意识到这是一个诈骗电话，因此选择挂断电话以避免进一步的潜在风险。用户的意图是保护自己的个人信息，避免被诈骗者获取敏感数据。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

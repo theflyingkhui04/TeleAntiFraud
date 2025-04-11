@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您需要预订哪个餐厅或有什么特别的需求吗？",
+      "timestamp": 1740977831.1219187
+    },
+    {
+      "role": "right",
+      "content": "不需要预订餐厅，我就是来看看有什么推荐的菜品。",
+      "timestamp": 1740977832.56685
+    },
+    {
+      "role": "left",
+      "content": "好的，我们这里有几道非常受欢迎的菜品，比如宫保鸡丁、鱼香肉丝和清蒸鲈鱼。您对口味有什么偏好吗？",
+      "timestamp": 1740977841.1509845
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来一份吧。辣度可以稍微轻一点。",
+      "timestamp": 1740977843.19424
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁，辣度稍微轻一点。还需要加点别的菜或者小吃吗？",
+      "timestamp": 1740977851.5412428
+    },
+    {
+      "role": "right",
+      "content": "再来一份清蒸鲈鱼吧，谢谢。",
+      "timestamp": 1740977853.017603
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁和一份清蒸鲈鱼。请问需要搭配些饮料或者汤品吗？",
+      "timestamp": 1740977861.1111038
+    },
+    {
+      "role": "right",
+      "content": "来一杯冰红茶吧。",
+      "timestamp": 1740977861.9120014
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁、一份清蒸鲈鱼和一杯冰红茶。您的订单已经记录好了，预计送达时间是三十分钟。还有其他需要帮助的吗？",
+      "timestamp": 1740977870.8510008
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情后，询问了用户是否有其他需要帮助的事项。在用户没有提出进一步需求的情况下，服务方使用了结束标识符'##ENDCALL_SIGNAL##'，表明服务方认为订单处理完成，对话目标已达成，因此选择结束对话。服务方的意图是确保用户的需求得到满足，并礼貌地结束对话，保持良好的服务体验。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

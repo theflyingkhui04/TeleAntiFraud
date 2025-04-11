@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友李明的同事，李明现在出了点事，您能抽空听我说吗？",
+      "timestamp": 1740789990.7274942
+    },
+    {
+      "role": "right",
+      "content": "李明出事了？这是怎么回事？你先别急，慢慢说。",
+      "timestamp": 1740789992.9012244
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方身份或担心朋友李明的情况而选择挂断电话，以直接联系李明或其他熟悉的人确认情况，避免潜在的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

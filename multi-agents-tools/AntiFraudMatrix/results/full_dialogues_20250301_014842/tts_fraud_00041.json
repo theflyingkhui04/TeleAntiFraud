@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您银行的客服代表，这里显示您的账户可能涉及一起非法交易，需要您配合我们进行安全验证。请提供您的身份证号和银行卡号，以便我们尽快处理。",
+      "timestamp": 1740782079.8249872
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我最近都没怎么用银行卡，这可怎么办？你说的这个安全验证要怎么做呢？我得赶紧配合，不然钱没了可就麻烦了。我的身份证号是 XXXXXXXXXXXXX，银行卡号是 XXXXXXXXXXXXXXXX。接下来我该做什么？",
+      "timestamp": 1740782083.2070415
+    },
+    {
+      "role": "left",
+      "content": "好的，我会记录您的信息并尽快处理。感谢您的配合，祝您一切顺利。再见。",
+      "timestamp": 1740782087.7831285
+    },
+    {
+      "role": "right",
+      "content": "好的好的，谢谢你啊。希望你们能赶紧帮我查清楚，我这心里可慌了。再见。",
+      "timestamp": 1740782091.019666
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（身份证号和银行卡号），诈骗明显成功。为了防止进一步的信息泄露或财产损失，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我会记录您的信息并尽快处理。感谢您的配合，祝您一切顺利。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的好的，谢谢你啊。希望你们能赶紧帮我查清楚，我这心里可慌了。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

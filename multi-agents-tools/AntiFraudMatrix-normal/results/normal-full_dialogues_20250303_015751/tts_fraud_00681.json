@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服为您服务，请问有什么问题需要解决？",
+      "timestamp": 1740982570.1493745
+    },
+    {
+      "role": "right",
+      "content": "电脑有点问题，开机后显示蓝屏，不知道是怎么回事。",
+      "timestamp": 1740982572.014153
+    },
+    {
+      "role": "left",
+      "content": "遇到蓝屏问题通常是因为系统错误或硬件故障导致的。我们可以先尝试安全模式启动，看看是否能解决问题。您知道如何进入安全模式吗？",
+      "timestamp": 1740982579.4584925
+    },
+    {
+      "role": "right",
+      "content": "知道，按 F8 键对吧？我试试看。",
+      "timestamp": 1740982580.72376
+    },
+    {
+      "role": "left",
+      "content": "是的，开机时连续按 F8 键，选择“安全模式”启动。如果能成功进入系统，我们可以进一步检查问题。希望这能帮到您。",
+      "timestamp": 1740982587.6340034
+    },
+    {
+      "role": "right",
+      "content": "好的，我试试看。谢谢。",
+      "timestamp": 1740982588.799024
+    },
+    {
+      "role": "left",
+      "content": "不客气，希望问题能顺利解决。如果有其他问题或需要进一步帮助，请随时联系我。祝您顺利解决电脑问题。",
+      "timestamp": 1740982596.9949434
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在用户表示会尝试解决方案并感谢服务方后，确认用户已了解如何操作，并表达了进一步帮助的意愿。服务方认为问题已经得到了初步的解决或用户有了明确的行动方向，因此选择结束对话，以避免不必要的等待和资源占用。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "李先生吗？我是您的邻居王阿姨的儿子小王，您还记得我吧？我刚才接到一个电话，说阿姨在家出了点事，现在在医院，需要立即手术，但费用很高，阿姨的医保卡没带在身上。您能帮忙转点钱过来吗？真的是急用，我这就带阿姨去手术。",
+      "timestamp": 1740687485.096018
+    },
+    {
+      "role": "right",
+      "content": "小王，你等一下，你说的这件事太突然了。阿姨真的在医院吗？你能告诉我她在哪个医院，我马上过去看看。",
+      "timestamp": 1740687486.8293786
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的信息表示怀疑，要求提供更多具体信息（如医院名称）以验证情况的真实性。用户的意图是通过提出具体问题来确认事件的真实性，防止可能的诈骗行为。由于诈骗者没有提供足够的信息来消除用户的疑虑，用户选择挂断电话以保护自己不受骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

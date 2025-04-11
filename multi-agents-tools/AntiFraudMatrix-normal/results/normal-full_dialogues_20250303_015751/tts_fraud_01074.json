@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "请问您想订购什么类型的餐食呢？我们提供中餐、西餐和日料等多种选择。",
+      "timestamp": 1740956306.4888797
+    },
+    {
+      "role": "right",
+      "content": "我想订一份中餐，有什么推荐的吗？",
+      "timestamp": 1740956307.5813775
+    },
+    {
+      "role": "left",
+      "content": "我们推荐的中餐有宫保鸡丁、鱼香肉丝和清蒸鲈鱼，都是顾客评价很高的菜品。您对这些有什么偏好吗？",
+      "timestamp": 1740956311.6359074
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来一份宫保鸡丁吧。还有，能不能加点青菜？",
+      "timestamp": 1740956312.8800626
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁加青菜已经为您加入订单。需要再加点别的配菜或者汤吗？",
+      "timestamp": 1740956316.6553037
+    },
+    {
+      "role": "right",
+      "content": "再来一份酸辣汤吧。这样就齐全了。谢谢。",
+      "timestamp": 1740956318.069586
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，一份宫保鸡丁加青菜，预计三十分钟后送达。感谢您的订餐，如果还有其他需要，请随时联系我们。",
+      "timestamp": 1740956323.3916895
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。",
+      "timestamp": 1740956325.1066587
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表达了感谢，表明其需求已经得到满足。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，一份宫保鸡丁加青菜，预计三十分钟后送达。感谢您的订餐，如果还有其他需要，请随时联系我们。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，恭喜你，你中了本期彩票的一等奖，奖金是一百万元！请提供你的姓名和电话，我们马上为你安排领奖事宜。",
+      "timestamp": 1740789358.0993533
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太意外了！我怎么这么幸运。不过，我需要确认一下，你们是哪家彩票公司？我好像没买过彩票啊。",
+      "timestamp": 1740789362.5736353
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提供的信息产生了怀疑，特别是当用户提到自己没有购买过彩票时，这表明用户开始意识到这可能是一个骗局。用户选择挂断电话，表明其不愿意继续参与可能的诈骗对话，以保护自己的个人信息不被泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

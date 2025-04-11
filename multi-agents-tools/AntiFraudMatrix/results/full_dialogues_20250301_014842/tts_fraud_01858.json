@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自星辰资本的投资顾问小李。最近我们发现了一个非常有潜力的投资项目，年化收益可达百分之三十以上，想了解一下您是否有兴趣参与？",
+      "timestamp": 1740772759.6468718
+    },
+    {
+      "role": "right",
+      "content": "您好，小李。我是老王，一个农民。您说的这个投资项目听起来不错，但我对这些投资不太懂。能具体说说这个项目是做什么的吗？我得好好了解一下。",
+      "timestamp": 1740772763.045322
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到自己对投资项目了解不足，担心被骗，因此选择挂断电话以避免进一步的交流。用户的意图是保护自己不受潜在的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

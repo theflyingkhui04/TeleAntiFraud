@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是社保局，系统显示您的社保卡存在异常使用情况，需要立即核实您的身份信息，以免账户被冻结。请问您现在的社保卡号是多少？",
+      "timestamp": 1740689757.902437
+    },
+    {
+      "role": "right",
+      "content": "喂，真的吗？我的社保卡怎么会有异常？我平时很少用这个卡啊。你能不能先告诉我，具体是什么异常？",
+      "timestamp": 1740689794.905382
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份和请求表示怀疑，并要求提供更多信息以验证诈骗者的真实性。用户可能意识到这是一个诈骗电话，因此选择挂断以避免进一步的潜在风险。用户的意图是保护自己的个人信息，避免被诈骗者获取敏感数据。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

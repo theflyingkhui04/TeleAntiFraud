@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，有什么我可以帮您的吗？",
+      "timestamp": 1740950034.4229887
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从我家到市中心的交通路线。",
+      "timestamp": 1740950035.8486152
+    },
+    {
+      "role": "left",
+      "content": "好的，可以告诉我您家的具体位置或者附近的地标建筑吗？这样我可以为您提供更准确的路线信息。",
+      "timestamp": 1740950039.2982032
+    },
+    {
+      "role": "right",
+      "content": "我家在光明路和幸福路的交叉口，附近有个大商场。",
+      "timestamp": 1740950040.4342916
+    },
+    {
+      "role": "left",
+      "content": "了解了，从光明路和幸福路的交叉口出发，您可以乘坐地铁2号线，在市中心站下车，这是最快捷的方式。如果您更喜欢乘坐公交车，可以乘坐108路到市中心站下车，全程大约需要四十分钟。您觉得哪种方式更合适呢？",
+      "timestamp": 1740950046.606231
+    },
+    {
+      "role": "right",
+      "content": "地铁听起来不错，谢谢你的建议。",
+      "timestamp": 1740950048.1228302
+    },
+    {
+      "role": "left",
+      "content": "如果您选择地铁的话，记得带好地铁卡或者提前准备好电子支付方式。希望我的建议对您有帮助，祝您旅途愉快。",
+      "timestamp": 1740950053.6622405
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。祝你一天愉快。",
+      "timestamp": 1740950057.402229
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户对提供的信息表示满意，并没有进一步的问题或需求。用户通过'地铁听起来不错，谢谢你的建议。'表达了对服务的认可和结束对话的意愿。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您选择地铁的话，记得带好地铁卡或者提前准备好电子支付方式。希望我的建议对您有帮助，祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。祝你一天愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

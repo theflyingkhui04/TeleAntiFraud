@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的邻居李先生。您的儿子出事了，现在被我们控制在这里，您必须马上转账五万元到指定账户，否则后果自负。您听清楚了吗？",
+      "timestamp": 1740779977.977872
+    },
+    {
+      "role": "right",
+      "content": "你是谁？你说的这些我完全不能相信。我儿子现在在学校，怎么会出事？你到底想干什么？我马上报警了！",
+      "timestamp": 1740779979.6871014
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是识破了诈骗者的企图，并对诈骗者的要求表示强烈不满。用户明确表示不相信对方，并威胁要报警，这表明用户已经意识到这是一个诈骗电话，并采取了果断措施来终止对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

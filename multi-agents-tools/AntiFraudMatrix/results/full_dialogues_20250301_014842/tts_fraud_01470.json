@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李华的家属吗？李华现在在我这里，他出事了，你们必须立刻准备五万块钱，否则我就——",
+      "timestamp": 1740770533.7833748
+    },
+    {
+      "role": "right",
+      "content": "你等等，你是谁？李华怎么会出事了？你别急，你说清楚点，我得确认一下。你先告诉我，你们是在哪里？",
+      "timestamp": 1740770536.6298947
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提出不合理的金钱要求后，可能意识到了这是一起诈骗行为。用户试图通过询问具体信息来确认情况的真实性，但诈骗者没有给出具体的回答，这进一步加深了用户的怀疑。因此，用户选择挂断电话，以避免进一步的交流和潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

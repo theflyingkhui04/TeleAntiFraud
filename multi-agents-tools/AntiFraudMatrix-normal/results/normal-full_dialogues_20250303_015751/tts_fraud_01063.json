@@ -1,0 +1,61 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，我可以帮您预订您想吃的餐点，请问有什么可以为您服务的？",
+      "timestamp": 1740938793.740877
+    },
+    {
+      "role": "right",
+      "content": "您好，我想订一份午餐。有什么推荐的吗？",
+      "timestamp": 1740938794.6461246
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们今天推荐的是香煎三文鱼配时蔬和意大利面，还有招牌牛肉汉堡套餐，都很受欢迎。您喜欢哪种口味的呢？",
+      "timestamp": 1740938799.7004652
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我还是选香煎三文鱼吧。可以加一份沙拉吗？",
+      "timestamp": 1740938800.9220982
+    },
+    {
+      "role": "left",
+      "content": "当然可以，香煎三文鱼配时蔬和一份沙拉已经为您准备好，您需要喝点什么吗？我们有鲜榨果汁和各种软饮。",
+      "timestamp": 1740938805.0900214
+    },
+    {
+      "role": "right",
+      "content": "来一杯鲜榨橙汁吧。谢谢。",
+      "timestamp": 1740938805.7579536
+    },
+    {
+      "role": "left",
+      "content": "好的，鲜榨橙汁也已经添加到您的订单中。请问我需要您提供送餐地址和联系方式吗？",
+      "timestamp": 1740938809.784005
+    },
+    {
+      "role": "right",
+      "content": "不用了，我会自己来取。大概几点能准备好？",
+      "timestamp": 1740938810.608453
+    },
+    {
+      "role": "left",
+      "content": "您的餐点大约需要二十到三十分钟的准备时间，如果您现在下单，大概可以在半小时后来取餐。这样可以吗？",
+      "timestamp": 1740938813.6870966
+    },
+    {
+      "role": "right",
+      "content": "好的，半小时后来取餐。谢谢。",
+      "timestamp": 1740938814.9880269
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认了取餐时间和地点后，明确表示了感谢并使用了结束信号'##ENDCALL_SIGNAL##'，表明用户已经获得了所需的信息和服务，对服务表示满意，因此选择结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

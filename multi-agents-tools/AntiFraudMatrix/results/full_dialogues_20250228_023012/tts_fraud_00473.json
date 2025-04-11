@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您，您中得了我们最新一期的超级大奖，奖金高达500万元！",
+      "timestamp": 1740681097.8197527
+    },
+    {
+      "role": "right",
+      "content": "您好，我记得国家彩票中心不会通过电话通知中奖信息。而且我最近也没买过彩票。您是骗子吧？我会立即报警的。",
+      "timestamp": 1740681102.5283868
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户识破了诈骗者的身份，并明确表示会报警。用户对诈骗者的行为感到不满和警惕，因此选择主动挂断电话以避免进一步的诈骗尝试。用户的意图是保护自己不受骗，并采取行动（报警）来应对诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

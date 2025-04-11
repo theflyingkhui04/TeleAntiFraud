@@ -1,0 +1,41 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的老朋友，现在有点紧急的事情需要您的帮助。",
+      "timestamp": 1740691982.8027325
+    },
+    {
+      "role": "right",
+      "content": "哎呀，你好，你是哪位啊？我怎么没听出来。有什么事情这么紧急？",
+      "timestamp": 1740691984.0189264
+    },
+    {
+      "role": "left",
+      "content": "听着，我现在说话不太方便，只能简单说。您儿子现在在我手上，他刚刚出了点意外，需要马上处理。",
+      "timestamp": 1740691990.9349027
+    },
+    {
+      "role": "right",
+      "content": "什么？！你说谁在我手上？（声音突然提高）等等，你怎么知道我儿子的？这听起来不太对劲...",
+      "timestamp": 1740691994.7399788
+    },
+    {
+      "role": "left",
+      "content": "您先冷静一下，我真的没时间解释太多。您儿子现在很安全，但我们需要一笔钱来确保他的安全。请您相信我，这是最快速的解决办法。",
+      "timestamp": 1740692003.6385632
+    },
+    {
+      "role": "right",
+      "content": "（语气变得严肃）等等，你这话说得太奇怪了。我儿子现在明明在学校上课，我早上还和他通过电话。你到底是谁？为什么要编这种谎话？",
+      "timestamp": 1740692008.633014
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

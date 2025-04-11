@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的打车服务助手，可以帮您安排车辆，请告诉我您的上车地点和目的地。",
+      "timestamp": 1740939556.694213
+    },
+    {
+      "role": "right",
+      "content": "好的，我在学校的正门，目的地是市中心的图书馆。麻烦你了。",
+      "timestamp": 1740939558.067328
+    },
+    {
+      "role": "left",
+      "content": "好的，我已经收到您的请求，正在为您安排车辆。大约需要5分钟到达学校正门，请留意车辆信息。有其他需求吗？比如婴儿座椅或大型行李？",
+      "timestamp": 1740939562.8278375
+    },
+    {
+      "role": "right",
+      "content": "不需要，谢谢。我只带了一个小背包。",
+      "timestamp": 1740939563.9269083
+    },
+    {
+      "role": "left",
+      "content": "明白了，您的车辆信息已经确认，司机将在5分钟后到达学校正门。请保持电话畅通，司机将会联系您确认位置。如果有什么问题，随时告诉我。",
+      "timestamp": 1740939568.575141
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的所有需求并提供了完整的车辆安排信息后，主动结束了对话。服务方的意图是确保用户已经获得了所需的所有信息和服务，同时避免不必要的等待和资源浪费，确保服务流程的高效性。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，欢迎预约我们的服务，请问需要预约哪项服务呢？",
+      "timestamp": 1740939759.8221035
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约一下你们的按摩服务。",
+      "timestamp": 1740939760.8822207
+    },
+    {
+      "role": "left",
+      "content": "好的，我们的按摩服务分为多种类型，包括全身放松、深层肌肉放松和特定部位治疗等，您有特别的需求或偏好吗？",
+      "timestamp": 1740939765.2696939
+    },
+    {
+      "role": "right",
+      "content": "我最近工作压力比较大，有点肩颈僵硬，想试试深层肌肉放松。",
+      "timestamp": 1740939766.6335301
+    },
+    {
+      "role": "left",
+      "content": "明白了，深层肌肉放松非常适合缓解肩颈僵硬和工作压力。请问您方便预约哪一天，以及具体的时间段？",
+      "timestamp": 1740939772.2144015
+    },
+    {
+      "role": "right",
+      "content": "这周日的下午两点到四点之间可以吗？",
+      "timestamp": 1740939773.24817
+    },
+    {
+      "role": "left",
+      "content": "周日下午两点到四点的时间段是可以的。请问需要我帮您预约这个时间段吗？",
+      "timestamp": 1740939777.247408
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦你帮我预约这个时间。谢谢。",
+      "timestamp": 1740939778.2733624
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您预约了周日下午两点到四点的深层肌肉放松按摩服务。您的预约编号是123456，请注意查收确认短信。如果需要修改或取消预约，请提前一天联系我们。祝您周末愉快！",
+      "timestamp": 1740939785.9785557
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的安排。收到短信后我会确认的。周末愉快！",
+      "timestamp": 1740939787.3109496
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经成功预约了所需的服务，并表达了感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，已经为您预约了周日下午两点到四点的深层肌肉放松按摩服务。您的预约编号是123456，请注意查收确认短信。如果需要修改或取消预约，请提前一天联系我们。祝您周末愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的安排。收到短信后我会确认的。周末愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

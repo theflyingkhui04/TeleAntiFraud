@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，我是小张。我们发现您的银行卡可能涉及一笔异常交易，为了确保您的资金安全，我们需要您配合进行核实。请问您现在方便吗？",
+      "timestamp": 1740737434.7745264
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我最近确实没怎么用银行卡，你们能帮我查清楚吗？我这人对这些数字可是一窍不通。",
+      "timestamp": 1740737447.9735715
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们会帮您查清楚的。为了确保信息的准确性，我需要您提供一下银行卡的最后四位数字以及开户时预留的手机号码，这样我们可以快速定位您的账户信息。",
+      "timestamp": 1740737468.8218043
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，银行卡最后四位是六七七八，手机号码是……等一下，我找找看。嗯，是一三九零一二三四五六。这样可以吗？",
+      "timestamp": 1740737473.5908773
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们已经记录下您的信息，稍后会有专员与您联系处理此事。请保持手机畅通，再见。",
+      "timestamp": 1740737506.9355829
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，我等你们的电话。再见。",
+      "timestamp": 1740737519.476952
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息，包括银行卡的最后四位数字和手机号码，诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们已经记录下您的信息，稍后会有专员与您联系处理此事。请保持手机畅通，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，我等你们的电话。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

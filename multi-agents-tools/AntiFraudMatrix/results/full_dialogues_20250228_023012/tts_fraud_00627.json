@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家税务局。我们发现您的个人税务信息存在异常，需要立即核实您的身份信息以便进行处理。请问您的姓名和身份证号码是？",
+      "timestamp": 1740686908.2811553
+    },
+    {
+      "role": "right",
+      "content": "喂，等一下，我怎么知道你真的是税务局的？我之前也接到过类似的电话，说是我的信息有问题，结果是诈骗电话。你能不能先告诉我，你们是怎么发现我的信息有问题的？我需要确认一下你的身份。",
+      "timestamp": 1740686911.1828227
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友李明的同事，李明现在遇到点麻烦，他在外地出差时出了点意外，现在需要您的帮助。",
+      "timestamp": 1740685444.4267259
+    },
+    {
+      "role": "right",
+      "content": "李明出事了？你说的是真的吗？他现在怎么样了？你能不能告诉我具体是怎么回事？我得确认一下这是真的，不然我怕上当受骗。",
+      "timestamp": 1740685446.284186
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到对方声称其朋友李明遇到麻烦后，表达了对信息真实性的怀疑，并要求提供更多具体信息以确认情况的真实性。由于诈骗者未能立即提供足够的信息或证据来打消用户的疑虑，用户为了防止可能的诈骗，选择主动挂断电话，以保护自己的安全和财产不受损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

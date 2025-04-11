@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您，您中了我们彩票的大奖，奖金高达五百万！您是不是觉得非常惊喜？",
+      "timestamp": 1740729630.9066505
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？我中了五百万？太不可思议了！我得赶紧确认一下，这真的是我吗？",
+      "timestamp": 1740729634.3477705
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在接到诈骗者声称中奖的信息后，表现出极大的惊讶和怀疑。用户可能在挂断电话后，打算通过官方渠道自行核实信息的真实性，以确认是否真的中奖。用户的意图是避免在未验证信息真实性之前，直接与诈骗者进行进一步的交流，从而减少被骗的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

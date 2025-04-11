@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我们手上，不想他出事的话，马上准备五万块钱，按照我说的做。否则，后果你自己承担。",
+      "timestamp": 1740757271.0143638
+    },
+    {
+      "role": "right",
+      "content": "你是什么人？你为什么要这么说？我儿子在哪里？你最好现在就告诉我，不然我马上报警！",
+      "timestamp": 1740757272.5971088
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者威胁时表现出了强烈的不安和怀疑，要求诈骗者提供更多信息，并明确表示了报警的意图。用户挂断电话可能是为了保护自己和家人的安全，避免进一步的威胁，并可能立即采取行动报警。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

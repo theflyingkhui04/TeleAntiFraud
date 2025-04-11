@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，有什么可以帮助您的？",
+      "timestamp": 1740938908.8747077
+    },
+    {
+      "role": "right",
+      "content": "我不需要打车，谢谢。",
+      "timestamp": 1740938910.1818638
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户明确表示不需要打车服务，并表达了感谢。用户的意图是礼貌地拒绝服务并结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是华夏银行客服中心，我是客服代表李晓。我们检测到您的账户可能有异常活动，为了确保您的资金安全，需要您配合进行一项安全验证。请问您现在方便吗？",
+      "timestamp": 1740748799.0956557
+    },
+    {
+      "role": "right",
+      "content": "您好，李晓。我最近确实没有注意到账户有什么异常，不过为了安全起见，我愿意配合。您需要我怎么配合呢？",
+      "timestamp": 1740748801.7395413
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到这是一起诈骗电话而选择挂断。在对话中，用户虽然表示愿意配合，但在诈骗者发出挂断信号后，用户也立即挂断了电话，这可能表明用户已经识破了诈骗者的意图，或者意识到这是一起不寻常的电话，为了避免进一步的风险，选择立即终止对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

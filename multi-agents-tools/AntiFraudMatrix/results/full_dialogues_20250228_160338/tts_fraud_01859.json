@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问，我们公司最近推出了一款高回报的短期投资产品，年化收益率高达百分之三十，您有兴趣了解一下吗？",
+      "timestamp": 1740731503.466476
+    },
+    {
+      "role": "right",
+      "content": "谢谢您的推荐，但我对这类高收益的投资产品一向很谨慎。能告诉我您的公司具体是哪家吗？我查一查再做决定。",
+      "timestamp": 1740731507.0903063
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对高收益投资产品的谨慎态度，并要求提供具体公司名称以便进一步调查。用户可能怀疑对方的真实性和合法性，因此在得到更多信息之前选择挂断电话，以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，您可以告诉我想点的餐品和送餐地址吗？",
+      "timestamp": 1740976056.8697498
+    },
+    {
+      "role": "right",
+      "content": "好的，我想点一份红烧肉和一份清炒时蔬，还有一碗米饭。送餐地址是光明小区三号楼一单元四零二室。谢谢。",
+      "timestamp": 1740976059.9777431
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经记录，红烧肉、清炒时蔬和一碗米饭，送餐地址是光明小区三号楼一单元四零二室。请问还有其他需要添加的吗？",
+      "timestamp": 1740976066.640762
+    },
+    {
+      "role": "right",
+      "content": "没了，就这样吧。谢谢。",
+      "timestamp": 1740976067.5954726
+    },
+    {
+      "role": "left",
+      "content": "您的订单已经确认，预计将在三十分钟内送达，请保持电话畅通以便骑手联系您。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740976075.339085
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。",
+      "timestamp": 1740976076.4218483
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容，并表示没有其他需要添加的，同时表达了感谢。这表明用户的点餐需求已经得到满足，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的订单已经确认，预计将在三十分钟内送达，请保持电话畅通以便骑手联系您。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

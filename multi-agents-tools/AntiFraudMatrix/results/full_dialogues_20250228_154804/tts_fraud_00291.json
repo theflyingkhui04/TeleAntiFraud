@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，我是你的银行客服代表，我注意到你的账户最近有一些异常活动，需要立即核实。你能提供一下你的身份证号码吗？",
+      "timestamp": 1740737001.05745
+    },
+    {
+      "role": "right",
+      "content": "你好，真的吗？我最近好像没怎么用这个账户啊。不过既然有异常，那我得注意一下。我的身份证号码是……等一下，我找找我的身份证。",
+      "timestamp": 1740737004.815722
+    },
+    {
+      "role": "left",
+      "content": "好的，麻烦你了。为了安全起见，我们也需要尽快确认这些活动，以免你的账户遭受损失。找到后请告诉我，好吗？",
+      "timestamp": 1740737014.3107553
+    },
+    {
+      "role": "right",
+      "content": "好的，我马上就来。",
+      "timestamp": 1740737015.7622864
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在寻找身份证的过程中可能意识到了潜在的诈骗风险，因此选择挂断电话以避免提供敏感信息。这表明用户在最后一刻识破了诈骗企图，采取了保护自己隐私的措施。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

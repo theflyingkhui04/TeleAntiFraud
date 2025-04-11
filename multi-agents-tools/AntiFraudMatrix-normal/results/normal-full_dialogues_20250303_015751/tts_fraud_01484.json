@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想要订什么餐吗？",
+      "timestamp": 1740940174.848354
+    },
+    {
+      "role": "right",
+      "content": "好的，我想订个牛肉炒饭和一份糖醋排骨。还有一瓶冰红茶。",
+      "timestamp": 1740940176.434497
+    },
+    {
+      "role": "left",
+      "content": "好的，您点的是牛肉炒饭、糖醋排骨和一瓶冰红茶，这些都是我们这里的招牌菜，您是需要加餐盒餐具吗？",
+      "timestamp": 1740940181.9022267
+    },
+    {
+      "role": "right",
+      "content": "需要，麻烦您帮我加上。还有，大概多久能送到？",
+      "timestamp": 1740940183.6749058
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您加上了餐盒和餐具。预计送达时间大约是30到40分钟，交通情况会影响具体时间，我会尽快为您安排配送。还有其他需要加的吗？",
+      "timestamp": 1740940188.691094
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情，包括菜品、餐具需求以及预计送达时间后，主动发出了结束信号。这表明服务方认为已经完成了本次服务流程，提供了用户所需的所有信息，并确保用户没有其他需求，因此选择结束对话以避免不必要的等待时间，同时让用户感到服务的高效和专业。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是预约服务中心，请问有什么可以帮助您的？",
+      "timestamp": 1740971703.2058537
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一下明天的体检。",
+      "timestamp": 1740971704.4118485
+    },
+    {
+      "role": "left",
+      "content": "好的，明天的体检时间，我们有上午八点、九点和十点，以及下午两点和三点，您看哪个时间段方便呢？",
+      "timestamp": 1740971711.7306323
+    },
+    {
+      "role": "right",
+      "content": "上午九点可以。",
+      "timestamp": 1740971712.4861023
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您预约了明天上午九点的体检。请问需要预约哪项体检套餐？",
+      "timestamp": 1740971720.979075
+    },
+    {
+      "role": "right",
+      "content": "常规体检套餐就行。",
+      "timestamp": 1740971721.626014
+    },
+    {
+      "role": "left",
+      "content": "好的，常规体检套餐已为您安排好。预约信息会通过短信发送到您的手机上，您记得留意一下。请问还有其他需要帮忙的吗？",
+      "timestamp": 1740971728.0279531
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的体检预约时间和套餐后，再次确认了预约信息的发送方式，并询问用户是否有其他需要帮助的事项。在用户没有进一步的需求后，服务方使用了结束标识符'##ENDCALL_SIGNAL##'，表明服务目标已达成，预约服务完成，可以结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

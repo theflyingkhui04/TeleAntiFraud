@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！这里是国际快递服务中心，我们发现您的包裹在清关时遇到了一些问题，需要您提供一些信息来协助处理。请问您现在方便接听电话吗？",
+      "timestamp": 1740754054.5544474
+    },
+    {
+      "role": "right",
+      "content": "你好，我是小李，现在有点忙，不过可以听你说一下具体情况。这个包裹是我最近寄的吗？",
+      "timestamp": 1740754056.4563026
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到这是一起诈骗电话，或者因为当前确实不方便继续通话而选择挂断。用户在对话中表现出了对电话真实性的疑问（询问包裹是否是自己寄的），这表明用户可能已经开始怀疑来电的合法性。此外，用户提到自己‘现在有点忙’，这也可能是挂断电话的一个直接原因。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

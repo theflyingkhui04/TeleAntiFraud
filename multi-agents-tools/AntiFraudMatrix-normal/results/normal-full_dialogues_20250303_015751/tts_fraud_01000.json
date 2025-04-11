@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的打车服务助手，有什么我可以帮您的吗？",
+      "timestamp": 1740948764.2660043
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约一辆车，今天晚上七点左右从公司回家。",
+      "timestamp": 1740948766.0489914
+    },
+    {
+      "role": "left",
+      "content": "好的，您公司的具体地址是哪里呢？还有，您家的地址也麻烦告诉我一下。",
+      "timestamp": 1740948771.293447
+    },
+    {
+      "role": "right",
+      "content": "公司地址是XX大厦，我家住在YY小区。麻烦你了。",
+      "timestamp": 1740948772.9866495
+    },
+    {
+      "role": "left",
+      "content": "已经记录好了，您的上车地点是XX大厦，目的地是YY小区。今晚七点左右会有车辆在XX大厦等候您。大约需要提前几分钟到达上车地点呢？",
+      "timestamp": 1740948780.566174
+    },
+    {
+      "role": "right",
+      "content": "提前五分钟吧，我会准时出来的。谢谢。",
+      "timestamp": 1740948781.6677413
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您预约了今晚七点从XX大厦到YY小区的车辆。请提前五分钟到达上车地点，司机会在那里等候您。如果有任何变动，请随时联系我。祝您晚上回家一路顺利。谢谢您的使用，再见。",
+      "timestamp": 1740948791.9349864
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，再见。",
+      "timestamp": 1740948793.321471
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了所有必要的信息，并表示会准时到达上车地点。用户在最后一句话中表达了感谢，这通常意味着用户认为对话已经完成，问题得到了解决。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，已经为您预约了今晚七点从XX大厦到YY小区的车辆。请提前五分钟到达上车地点，司机会在那里等候您。如果有任何变动，请随时联系我。祝您晚上回家一路顺利。谢谢您的使用，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

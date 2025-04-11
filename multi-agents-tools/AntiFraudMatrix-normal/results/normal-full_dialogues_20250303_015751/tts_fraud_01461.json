@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，请问您需要订购什么菜品呢？",
+      "timestamp": 1740982657.079181
+    },
+    {
+      "role": "right",
+      "content": "你好，我想看看你们有什么推荐的菜品。",
+      "timestamp": 1740982658.482136
+    },
+    {
+      "role": "left",
+      "content": "我们这里有很多受欢迎的菜品，比如宫保鸡丁、鱼香肉丝和麻辣香锅，都是非常受欢迎的选择。您可以根据自己的口味选择，或者我为您推荐今天特别优惠的菜品，怎么样？",
+      "timestamp": 1740982668.6841881
+    },
+    {
+      "role": "right",
+      "content": "好的，你可以给我推荐今天的特别优惠菜品。",
+      "timestamp": 1740982670.156517
+    },
+    {
+      "role": "left",
+      "content": "今天特别推荐的是蒜香排骨，搭配一份酸辣土豆丝和一份米饭，还有一杯冰镇柠檬水，套餐价格非常优惠，只要38元。听起来怎么样？",
+      "timestamp": 1740982676.44446
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，就按这个套餐来一份吧。",
+      "timestamp": 1740982678.2541187
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您添加了蒜香排骨套餐。请问还需要其他菜品或饮料吗？",
+      "timestamp": 1740982683.9973578
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这个套餐吧。谢谢。",
+      "timestamp": 1740982685.27402
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，蒜香排骨套餐将在30分钟内送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740982693.2890823
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待你们的餐点。",
+      "timestamp": 1740982697.7694743
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了满意的菜品，并明确表示不需要其他菜品或饮料，同时表达了感谢。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，蒜香排骨套餐将在30分钟内送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待你们的餐点。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

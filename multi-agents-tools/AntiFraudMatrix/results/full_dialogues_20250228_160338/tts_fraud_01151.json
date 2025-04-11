@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递客服中心，我们注意到您的包裹在清关时出现了一些问题，需要您提供一些信息以便处理。请问您方便现在处理吗？",
+      "timestamp": 1740735161.7215304
+    },
+    {
+      "role": "right",
+      "content": "您好，快递客服中心。我的包裹有问题啊？那我得赶紧处理。需要我提供什么信息呢？",
+      "timestamp": 1740735174.9131784
+    },
+    {
+      "role": "left",
+      "content": "非常抱歉打扰您了，如果后续有任何问题，我们会再联系您。祝您生活愉快！再见。",
+      "timestamp": 1740735186.082603
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。希望问题能尽快解决。再见。",
+      "timestamp": 1740735198.4146001
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明其选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常抱歉打扰您了，如果后续有任何问题，我们会再联系您。祝您生活愉快！再见。"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。希望问题能尽快解决。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

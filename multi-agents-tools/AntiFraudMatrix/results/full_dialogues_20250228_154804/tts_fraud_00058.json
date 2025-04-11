@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是李警官，我们刚刚接到一起紧急报案，您的家人被不明分子绑架了，现在需要您配合我们的工作，否则后果不堪设想。",
+      "timestamp": 1740748583.3202398
+    },
+    {
+      "role": "right",
+      "content": "李警官，真的吗？我好担心，我该怎么办？请您告诉我该怎么做。",
+      "timestamp": 1740748584.7431686
+    },
+    {
+      "role": "left",
+      "content": "好的，我会尽快处理这件事，感谢您的配合，再见。",
+      "timestamp": 1740748591.081604
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，李警官。请您一定要救救我的家人。再见。",
+      "timestamp": 1740748592.7394245
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中使用了紧急情况的恐吓手段，试图获取用户的信任和配合。然而，诈骗者在用户表现出担忧并愿意配合时，选择了挂断电话，表明诈骗者可能意识到当前的诈骗尝试无法继续或已达到其目的。根据终止条件6，对话已经明显偏离主题，且诈骗者已挂断电话，因此应终止对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我会尽快处理这件事，感谢您的配合，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，李警官。请您一定要救救我的家人。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

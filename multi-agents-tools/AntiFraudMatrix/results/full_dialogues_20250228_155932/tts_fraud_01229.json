@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，请问您是张伟先生吗？",
+      "timestamp": 1740757431.2782922
+    },
+    {
+      "role": "right",
+      "content": "是的，我是张伟。请问有什么事？",
+      "timestamp": 1740757432.185923
+    },
+    {
+      "role": "left",
+      "content": "张先生您好，我们发现您的账户存在异常登录的情况，为确保您的资金安全，我们需要立即核实您的身份信息。请问您现在方便配合我们做一下安全验证吗？",
+      "timestamp": 1740757440.7737808
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在初步接触后立即挂断电话，可能是因为他们发现用户的声音、反应或环境不适合进行进一步的诈骗活动。另一种可能是诈骗者正在进行批量测试，通过初步接触筛选出可能更容易上当的受害者。挂断电话可能是为了避免引起用户的怀疑，同时节省时间和资源，转向下一个目标。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

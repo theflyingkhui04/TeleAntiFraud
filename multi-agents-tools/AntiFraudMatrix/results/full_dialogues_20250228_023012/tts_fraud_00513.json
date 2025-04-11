@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服，我们发现您的包裹里有一些需要特别处理的物品，需要您配合提供一些信息。",
+      "timestamp": 1740689063.2992647
+    },
+    {
+      "role": "right",
+      "content": "您好，我是企业主，平时确实会频繁收发快递。不过，我最近并没有收到任何特别的通知，能麻烦您具体说明一下吗？我需要确认一下这是否真的需要我的配合。",
+      "timestamp": 1740689065.025426
+    },
+    {
+      "role": "left",
+      "content": "当然可以理解，我们确实发现您的包裹里有一些高价值的物品，需要您支付一笔小额的税费才能完成清关，否则包裹可能会被海关扣押。请您提供一下姓名和联系方式，以便我们为您处理。",
+      "timestamp": 1740689075.2705538
+    },
+    {
+      "role": "right",
+      "content": "（冷静地）抱歉，我需要核实一下。首先，我最近并没有寄送过任何高价值物品。其次，即使是正规的清关流程，也不会通过私人电话来处理。您能提供一下您的工号和具体的快递单号吗？我想先确认一下您的身份。",
+      "timestamp": 1740689080.7135897
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

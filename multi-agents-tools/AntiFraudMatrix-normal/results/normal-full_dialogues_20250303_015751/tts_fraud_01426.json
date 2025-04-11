@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我已为您安排了最近的车辆，预计三分钟后到达您的位置。",
+      "timestamp": 1740975359.0968397
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会在门口等。",
+      "timestamp": 1740975360.192416
+    },
+    {
+      "role": "left",
+      "content": "车辆已到达，请随时上车，祝您旅途愉快。",
+      "timestamp": 1740975366.5032923
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，马上过来。",
+      "timestamp": 1740975367.6153316
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示感谢并确认会在门口等待，表明服务请求已得到满足，对话目标达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "车辆已到达，请随时上车，祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，马上过来。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

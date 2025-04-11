@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好！这里是全国彩票中心，恭喜您，您中了我们最新一期的超级大奖，奖金高达500万元！请告诉我您现在的情绪如何？",
+      "timestamp": 1740691072.9618466
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？我中奖了？太不可思议了！我简直不敢相信这是真的！我现在特别激动，心跳都加快了！",
+      "timestamp": 1740691077.2184806
+    },
+    {
+      "role": "left",
+      "content": "好的，非常感谢您的配合，我们会尽快处理您的兑奖事宜。如果有任何问题，我们会再次联系您。祝您生活愉快，再见！",
+      "timestamp": 1740691085.4618058
+    },
+    {
+      "role": "right",
+      "content": "再见！真的太感谢你们了！我等不及要告诉家人这个好消息了！",
+      "timestamp": 1740691089.327496
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表示诈骗者选择挂断电话，因此对话应该终止。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，非常感谢您的配合，我们会尽快处理您的兑奖事宜。如果有任何问题，我们会再次联系您。祝您生活愉快，再见！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见！真的太感谢你们了！我等不及要告诉家人这个好消息了！"
+    }
+  ],
+  "reached_max_turns": false
+}

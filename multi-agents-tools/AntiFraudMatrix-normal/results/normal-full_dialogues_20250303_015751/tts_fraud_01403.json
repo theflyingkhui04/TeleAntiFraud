@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到购物中心，我是您的购物助手，有什么可以帮您的吗？",
+      "timestamp": 1740950715.8034058
+    },
+    {
+      "role": "right",
+      "content": "你好，我想看看男士服装区在哪里。",
+      "timestamp": 1740950716.6697435
+    },
+    {
+      "role": "left",
+      "content": "男士服装区位于商场的三楼，您可以乘坐电梯或楼梯上到三楼，出电梯右转直走到底就是了。需要我带您过去吗？",
+      "timestamp": 1740950724.7789001
+    },
+    {
+      "role": "right",
+      "content": "不用了，我自己过去就行，谢谢。",
+      "timestamp": 1740950725.670388
+    },
+    {
+      "role": "left",
+      "content": "如果您需要任何进一步的帮助，随时可以找我。祝您购物愉快！再见。",
+      "timestamp": 1740950730.1136372
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。",
+      "timestamp": 1740950731.266787
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并明确表示了感谢，对话目标已达成。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您需要任何进一步的帮助，随时可以找我。祝您购物愉快！再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

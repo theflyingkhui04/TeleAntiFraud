@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自速递宝物流的客服代表，您的一个包裹在运输过程中被发现有问题，需要您协助处理。",
+      "timestamp": 1740743594.732551
+    },
+    {
+      "role": "right",
+      "content": "您好，我是工程师老王。我最近确实有网购，但包裹有问题？我需要了解一下具体情况。你们通常是怎么处理这类问题的？",
+      "timestamp": 1740743598.2595577
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对诈骗者身份的怀疑和对情况的谨慎态度，但并未直接表现出强烈的不满或拒绝继续交流的意图。然而，由于双方都使用了挂断信号（##ENDCALL_SIGNAL##），可以推断用户可能是因为对诈骗者的身份存疑，或者认为对话没有实质性的进展而选择挂断电话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

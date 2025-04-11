@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是银行的安全顾问，最近我们发现您的账户有些异常活动，为了确保您的资金安全，我们需要立即采取行动。",
+      "timestamp": 1740732270.3440166
+    },
+    {
+      "role": "right",
+      "content": "喂，您好。真的吗？我的账户有问题？我最近还真没怎么用过银行账户。能麻烦您具体说说是什么问题吗？我有点担心。",
+      "timestamp": 1740732299.0023468
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在接收到诈骗者的信息后，表现出对账户安全的担忧，并请求更多具体信息。然而，诈骗者突然挂断了电话，这可能是诈骗者意识到用户开始怀疑或准备进一步验证信息，因此选择中断对话以避免被识破。用户的意图是寻求更多关于账户异常活动的详细信息，以确保资金安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

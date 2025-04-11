@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是您的银行客服，我们检测到您的账户有异常活动，为了您的资金安全，需要您配合进行身份验证。请问您现在方便吗？",
+      "timestamp": 1740746907.1988509
+    },
+    {
+      "role": "right",
+      "content": "您好，现在方便。请问需要我怎么配合呢？",
+      "timestamp": 1740746908.4118662
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合。首先，请您提供一下您的姓名和身份证后四位数字，我们需要确认您的身份。",
+      "timestamp": 1740746913.4327118
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫李明，身份证后四位是5678。请问接下来需要我做什么？",
+      "timestamp": 1740746917.536866
+    },
+    {
+      "role": "left",
+      "content": "好的，您的信息我已经记录下来了，我们将会进一步核实。如果需要您配合，我们会再次联系您。感谢您的配合，祝您生活愉快。再见。",
+      "timestamp": 1740746926.8806846
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。再见。",
+      "timestamp": 1740746927.6267602
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（身份证后四位），存在明显的诈骗风险。为了保护用户的安全，应立即终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的信息我已经记录下来了，我们将会进一步核实。如果需要您配合，我们会再次联系您。感谢您的配合，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

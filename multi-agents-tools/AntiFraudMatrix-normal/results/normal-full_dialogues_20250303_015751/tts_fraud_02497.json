@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮您的吗？",
+      "timestamp": 1740949557.2644947
+    },
+    {
+      "role": "right",
+      "content": "您好，我想订一份晚餐，有什么推荐的菜品吗？",
+      "timestamp": 1740949558.3022947
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款热门菜品很受顾客欢迎，比如宫保鸡丁、鱼香肉丝和麻婆豆腐，您可以考虑一下。",
+      "timestamp": 1740949565.6803515
+    },
+    {
+      "role": "right",
+      "content": "好的，宫保鸡丁听起来不错，就来一份宫保鸡丁吧。还需要加点别的吗？",
+      "timestamp": 1740949568.0066137
+    },
+    {
+      "role": "left",
+      "content": "宫保鸡丁是个不错的选择。我们还推荐搭配一份蒜蓉西兰花和一份米饭，这样营养更均衡。您看可以吗？",
+      "timestamp": 1740949573.389296
+    },
+    {
+      "role": "right",
+      "content": "好的，就按您的建议来，一份蒜蓉西兰花和一份米饭。谢谢。",
+      "timestamp": 1740949574.6652477
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，宫保鸡丁、蒜蓉西兰花和一份米饭，预计30分钟后送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740949581.2830622
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。",
+      "timestamp": 1740949582.2808983
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了菜品并表示感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，宫保鸡丁、蒜蓉西兰花和一份米饭，预计30分钟后送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

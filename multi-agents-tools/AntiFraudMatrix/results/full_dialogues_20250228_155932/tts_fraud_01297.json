@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你是王小明吧？我是你儿子的朋友，他在外面出了点事，现在被我们扣下了，你赶紧准备两万块钱，不然我们就对他不客气了！",
+      "timestamp": 1740749705.3051565
+    },
+    {
+      "role": "right",
+      "content": "你们到底是谁？我儿子的朋友？我怎么从来没有听说过你？你说他出了事，具体是什么事？你们要我准备两万块钱，这太奇怪了，我得先确认一下。你把电话给我儿子，让他和我说话，我才能相信你。",
+      "timestamp": 1740749708.9850802
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份和要求表示怀疑，并要求提供更多信息以验证情况的真实性。当诈骗者未能提供令人信服的证据时，用户选择挂断电话，以避免进一步的风险。用户的意图是保护自己不受潜在的诈骗行为侵害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

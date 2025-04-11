@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询中心，有什么可以帮您的？",
+      "timestamp": 1740965674.5871217
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下明天早高峰期间，从市区到机场的交通情况。",
+      "timestamp": 1740965676.4386082
+    },
+    {
+      "role": "left",
+      "content": "明天早高峰期间，从市区到机场的交通可能会比较拥堵，建议您提前出发，预留足够的时间。您可以选择地铁或出租车，地铁可能会更准时一些。",
+      "timestamp": 1740965680.6378393
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的建议。我会考虑地铁的。",
+      "timestamp": 1740965681.4793277
+    },
+    {
+      "role": "left",
+      "content": "如果您还有其他问题或需要进一步的帮助，随时可以联系我们。祝您旅途愉快！",
+      "timestamp": 1740965685.4447372
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。旅途愉快！",
+      "timestamp": 1740965686.40435
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经接受了服务方的建议，并表示会考虑地铁出行，对话目标已达成，用户也表达了感谢。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您还有其他问题或需要进一步的帮助，随时可以联系我们。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。旅途愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

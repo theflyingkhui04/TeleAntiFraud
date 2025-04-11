@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，我是你的银行客服代表，我注意到你的账户有异常活动，需要立即处理。你能告诉我你的完整姓名和账户号码吗？",
+      "timestamp": 1740750141.0387251
+    },
+    {
+      "role": "right",
+      "content": "你好，我叫张大山。我的账户号码是……等一下，你们银行怎么会打电话给我要这些信息呢？我平时去银行办业务，都是他们告诉我怎么办的。",
+      "timestamp": 1740750144.0816905
+    },
+    {
+      "role": "left",
+      "content": "张先生，我理解你的顾虑，但这是为了保护你的账户安全。如果你不提供这些信息，我们无法确认你的身份，也就无法帮助你解决问题。你的账户可能已经被盗用了，我们需要尽快采取行动。你希望我们怎么处理呢？",
+      "timestamp": 1740750150.3972487
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在用户表现出怀疑和拒绝提供敏感信息时选择了挂断电话。这表明诈骗者意识到继续对话可能无法成功获取所需信息，因此选择终止对话以避免进一步暴露其诈骗行为。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张伟吗？我是你儿子的朋友小李，他现在出事了，你必须马上听我说。",
+      "timestamp": 1740783205.8782425
+    },
+    {
+      "role": "right",
+      "content": "小李啊，你儿子的朋友，怎么了？他出什么事了？你慢慢说，别急。",
+      "timestamp": 1740783209.7515173
+    },
+    {
+      "role": "left",
+      "content": "张叔叔，真的没时间慢慢说，你儿子现在被几个混混绑架了，他们要求马上拿钱，不然就要对他下手。你必须立即行动，不然就来不及了。",
+      "timestamp": 1740783214.2165835
+    },
+    {
+      "role": "right",
+      "content": "天哪，怎么会这样！你儿子的朋友，你快告诉我，我该怎么做？需要多少钱？我马上准备。",
+      "timestamp": 1740783218.1207693
+    },
+    {
+      "role": "left",
+      "content": "张叔叔，我理解你可能需要时间考虑，但时间真的不等人。这是你儿子的命，你必须马上行动。我不能再等了，你考虑清楚后尽快联系我。再见。",
+      "timestamp": 1740783223.6454093
+    },
+    {
+      "role": "right",
+      "content": "好，好，我马上就去准备，你等我电话。",
+      "timestamp": 1740783225.661393
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表现出明显的恐慌，并且准备按照诈骗者的指示行动，这意味着诈骗明显成功，用户已同意转账或提供敏感信息。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "张叔叔，我理解你可能需要时间考虑，但时间真的不等人。这是你儿子的命，你必须马上行动。我不能再等了，你考虑清楚后尽快联系我。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好，好，我马上就去准备，你等我电话。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是店员小张，有什么商品是您感兴趣的吗？",
+      "timestamp": 1740953691.7133002
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我看看有什么好吃的零食吧。",
+      "timestamp": 1740953692.8805685
+    },
+    {
+      "role": "left",
+      "content": "好的，我们这里有各种口味的薯片、巧克力和坚果，您喜欢哪种口味的呢？",
+      "timestamp": 1740953699.9265141
+    },
+    {
+      "role": "right",
+      "content": "那就来一包原味薯片和一包混合坚果吧。",
+      "timestamp": 1740953701.909328
+    },
+    {
+      "role": "left",
+      "content": "好的，原味薯片和混合坚果已经为您准备好。请问还需要其他商品吗？",
+      "timestamp": 1740953709.82682
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户所需商品后，询问用户是否需要其他商品。在用户没有进一步的需求后，服务方通过提供结束信号代码 '##ENDCALL_SIGNAL##' 表示服务流程已经完成，意图结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的邻居小李，您知道吗？现在有个很紧急的事情需要您的帮助。",
+      "timestamp": 1740757053.313853
+    },
+    {
+      "role": "right",
+      "content": "小李啊，你好。你说的紧急事情是什么？我怎么没听说过？",
+      "timestamp": 1740757054.755321
+    },
+    {
+      "role": "left",
+      "content": "是这样的，您的儿子小明在学校出了点事，现在被坏人控制了，他们要求我们马上支付一笔赎金，不然就会伤害他。您一定要冷静，听我安排。",
+      "timestamp": 1740757062.7219641
+    },
+    {
+      "role": "right",
+      "content": "什么？我儿子被坏人控制了？这怎么可能？你能详细说说吗？我得确认一下。",
+      "timestamp": 1740757064.025089
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到关于儿子被控制的虚假信息后，表现出怀疑和不确定，并要求详细说明以确认信息的真实性。然而，用户可能意识到这是一个诈骗电话，因为信息过于夸张且缺乏可信度，因此选择挂断电话以避免进一步的诈骗行为。用户的意图是保护自己和家人不受诈骗影响，并终止与诈骗者的交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

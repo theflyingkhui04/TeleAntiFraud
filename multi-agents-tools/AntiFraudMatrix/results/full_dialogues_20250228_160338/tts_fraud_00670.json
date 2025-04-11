@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自国家邮政服务的客服代表李明。我们发现您的一个包裹在运输过程中出现问题，需要您配合处理。请问您最近有寄送或接收过包裹吗？",
+      "timestamp": 1740731867.286995
+    },
+    {
+      "role": "right",
+      "content": "您好，李明。最近确实有几个包裹，不过我不太确定是哪一个出了问题。能告诉我具体是什么包裹吗？",
+      "timestamp": 1740731870.6022642
+    },
+    {
+      "role": "left",
+      "content": "当然可以。您的一个包裹内可能含有违禁物品，这需要您立即与我们确认并支付一笔小额处理费，以便我们能够继续为您处理。为了避免不必要的麻烦，您能提供一下您的姓名和联系方式吗？这样我们可以更快地为您解决问题。",
+      "timestamp": 1740731895.9756925
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊。我叫张伟，电话是138XXXX1234。请问需要支付多少处理费？我现在就可以处理。",
+      "timestamp": 1740731925.2838283
+    },
+    {
+      "role": "left",
+      "content": "好的，我明白了。如果您有任何疑问，可以随时联系我们。我们会继续关注这个问题，并尽快给您回复。再见。",
+      "timestamp": 1740731944.3494318
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。希望问题能尽快解决。再见。",
+      "timestamp": 1740731968.2237985
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（姓名和电话号码），并且同意支付处理费，诈骗明显成功。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我明白了。如果您有任何疑问，可以随时联系我们。我们会继续关注这个问题，并尽快给您回复。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。希望问题能尽快解决。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

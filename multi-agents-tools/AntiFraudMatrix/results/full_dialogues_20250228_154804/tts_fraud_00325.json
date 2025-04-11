@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "李阿姨，我是您的邻居小张。您儿子小明出事了，被几个坏人带走了，他们要求我马上联系您，不然就要对小明下手。您一定要相信我，我现在非常着急。",
+      "timestamp": 1740747554.0431623
+    },
+    {
+      "role": "right",
+      "content": "小张，你说什么？小明出事了？这怎么可能？你先别急，告诉我到底发生了什么，我需要马上去报警。",
+      "timestamp": 1740747557.377159
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被绑架后，表现出极度的担忧和焦虑，意图立即采取行动（报警）。用户可能因为情绪激动，急于采取行动而选择挂断电话，以便尽快报警处理。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友张强的同事，张强现在遇到了一些麻烦，他被绑架了，绑匪要求立即支付5万元赎金，不然他们会伤害他。您必须马上帮我，不然就来不及了。",
+      "timestamp": 1740687556.08175
+    },
+    {
+      "role": "right",
+      "content": "什么？张强被绑架了？这怎么可能？你能不能先告诉我具体是怎么回事？我觉得这件事太突然了，我需要先确认一下。",
+      "timestamp": 1740687557.6731508
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的信息表示怀疑，并要求提供更多细节以确认情况的真实性。由于诈骗者未能提供足够的信息来消除用户的疑虑，用户选择挂断电话，以避免进一步的风险。这表明用户可能已经意识到这可能是一起诈骗，并选择不再继续对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "这里是交通咨询服务中心，您可以告诉我需要查询的路线或交通信息，我会尽力帮您解答。",
+      "timestamp": 1740944438.381143
+    },
+    {
+      "role": "right",
+      "content": "好的，我想知道从我家到镇上的农贸市场该怎么走。我家在村东头，靠近老槐树那边。",
+      "timestamp": 1740944440.138755
+    },
+    {
+      "role": "left",
+      "content": "从村东头的老槐树出发，您可以沿着村道直走大约五百米，然后在第一个十字路口右转，继续直走大约一千米，您会看到一条小路向左，那就是通往镇上农贸市场的小道，沿着这条路直走大约八百米就到了。希望这些信息对您有帮助。",
+      "timestamp": 1740944449.314122
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我知道了。这条路我以前也走过，应该没问题。如果遇到什么不清楚的，我再联系你们。",
+      "timestamp": 1740944452.6293528
+    },
+    {
+      "role": "left",
+      "content": "路线信息已经提供给您了，如果还有任何疑问，随时欢迎咨询。祝您旅途愉快，再见。",
+      "timestamp": 1740944458.5658977
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。再见。",
+      "timestamp": 1740944459.5004375
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的路线信息，并明确表示如果遇到不清楚的会再次联系，表明用户对当前提供的信息感到满意且问题已解决。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "路线信息已经提供给您了，如果还有任何疑问，随时欢迎咨询。祝您旅途愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

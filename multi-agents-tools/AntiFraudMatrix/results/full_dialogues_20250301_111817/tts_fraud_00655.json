@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张先生吗？我是李先生的司机小刘，李先生现在出事了，你听我解释。",
+      "timestamp": 1740806487.5448155
+    },
+    {
+      "role": "right",
+      "content": "小刘啊，你说什么？李先生出事了？他怎么了？你能不能详细说说？",
+      "timestamp": 1740806489.4889886
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者提供的信息过于突然且缺乏具体细节，感到不安或怀疑，因此选择挂断电话以避免进一步的风险。用户的意图是中断与诈骗者的联系，防止可能的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

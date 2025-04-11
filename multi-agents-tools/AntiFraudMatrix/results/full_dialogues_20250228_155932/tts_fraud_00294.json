@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李先生吗？我是您的亲戚小张，现在遇到了非常紧急的情况，您能听我说吗？",
+      "timestamp": 1740757681.2227175
+    },
+    {
+      "role": "right",
+      "content": "小张啊，你说吧，出了什么事？别急，慢慢说。",
+      "timestamp": 1740757684.8640985
+    },
+    {
+      "role": "left",
+      "content": "叔叔，我这会儿真的非常着急，我在外地出差，结果被一些地痞流氓给扣住了，他们说要我交赎金才能放我走。我身上没钱，可是他们现在逼得很紧，我只好给您打电话了。您能帮帮我吗？",
+      "timestamp": 1740757693.1023316
+    },
+    {
+      "role": "right",
+      "content": "天哪，这怎么回事啊？你先别着急，我这边想办法。你告诉我，他们要多少钱？我会尽快给你打过去的。但是你得小心点，别让他们知道你联系了我。",
+      "timestamp": 1740757697.519176
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能在挂断前已经意识到这可能是一个诈骗电话，或者用户通过其他方式确认了小张的安全状况，认为这是一起诈骗。用户挂断电话的意图可能是为了避免进一步的诈骗行为，保护自己的财产安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

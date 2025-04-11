@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张先生吗？我是您的儿子小明，我现在被绑架了，他们要我联系您，说如果不支付赎金，他们会对我下手的。您一定要救救我，快点把钱打到他们给的账户上。",
+      "timestamp": 1740743874.1259096
+    },
+    {
+      "role": "right",
+      "content": "小明？你在哪里？别急，我马上报警，他们会帮我们解决这件事的。你一定要保持冷静，不要害怕，警察会找到你的。",
+      "timestamp": 1740743876.047168
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能认为这是诈骗电话，因为通常在绑架情况下，绑匪会要求不要报警。用户选择挂断电话并表示要报警，这表明用户可能识破了诈骗并采取了合理的应对措施。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

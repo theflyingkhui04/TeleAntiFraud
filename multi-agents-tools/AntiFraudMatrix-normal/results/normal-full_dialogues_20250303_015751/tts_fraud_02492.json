@@ -1,0 +1,51 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740968935.2267072
+    },
+    {
+      "role": "right",
+      "content": "您好，我想订个午餐，有什么推荐的吗？",
+      "timestamp": 1740968936.6944528
+    },
+    {
+      "role": "left",
+      "content": "我们今天的午餐推荐有牛肉盖浇饭和鸡肉沙拉，都是很受欢迎的选择。您有特别的口味偏好或饮食限制吗？",
+      "timestamp": 1740968944.3054922
+    },
+    {
+      "role": "right",
+      "content": "我喜欢吃牛肉，那就来份牛肉盖浇饭吧。多少钱一份？",
+      "timestamp": 1740968945.7220604
+    },
+    {
+      "role": "left",
+      "content": "牛肉盖浇饭的价格是35元一份。您需要加点饮料或小菜吗？",
+      "timestamp": 1740968951.7218852
+    },
+    {
+      "role": "right",
+      "content": "不用了，就来一份牛肉盖浇饭。什么时候能送到？",
+      "timestamp": 1740968953.156731
+    },
+    {
+      "role": "left",
+      "content": "您的订单我们会在15到20分钟内送达，请您留意门口的送餐员。需要帮您确认收货地址吗？",
+      "timestamp": 1740968958.8293562
+    },
+    {
+      "role": "right",
+      "content": "好的，地址是xx小区xx号楼。谢谢。",
+      "timestamp": 1740968960.908474
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认了订单详情和送餐时间后，明确表示了感谢并提供了结束信号（##ENDCALL_SIGNAL##）。这表明用户已经获得了所需的服务，对服务感到满意，并且没有进一步的需求或问题。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

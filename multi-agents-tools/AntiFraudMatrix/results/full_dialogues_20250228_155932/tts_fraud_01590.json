@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您中得了一等奖，奖金高达五百万元！请问您现在方便接听电话吗？",
+      "timestamp": 1740747231.9671466
+    },
+    {
+      "role": "right",
+      "content": "您好，真是太惊喜了！我确实方便接听电话。能告诉我具体的细节吗？比如我什么时候可以领奖？",
+      "timestamp": 1740747233.933815
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能出于礼貌回应了诈骗者的电话，并表达了兴趣，但由于诈骗者在首次通话中即提供了挂断信号（##ENDCALL_SIGNAL##），对话实际上在此时已经结束。用户的挂断可能是对诈骗者提前挂断的回应，而非对对话内容的直接反应。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

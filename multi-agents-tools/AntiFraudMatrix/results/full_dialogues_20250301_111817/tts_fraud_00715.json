@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家彩票中心，恭喜您中得了一等奖，奖金高达五百万元！请提供您的个人姓名和身份证号码，以便我们核实身份并安排奖金发放。",
+      "timestamp": 1740804020.311607
+    },
+    {
+      "role": "right",
+      "content": "你好，这听起来太令人意外了。你们怎么会选中我呢？我最近都没有买过彩票。你们能不能先告诉我，我是在哪个渠道中奖的？",
+      "timestamp": 1740804022.87743
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的信息表示怀疑，要求更多细节以验证信息的真实性。在诈骗者未能提供令人信服的解释之前，用户选择挂断电话，表明其对电话的真实性持保留态度，可能是为了防止进一步的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您想订购哪些餐点？",
+      "timestamp": 1740980627.9552696
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我想看看今天的菜单，有哪些推荐的菜品？",
+      "timestamp": 1740980629.1260583
+    },
+    {
+      "role": "left",
+      "content": "今天我们的推荐菜品有红烧狮子头、清蒸鲈鱼和蒜蓉西兰花，都是非常受欢迎的选择。您对这些菜品感兴趣吗？",
+      "timestamp": 1740980633.4593563
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，尤其是红烧狮子头。我来一份红烧狮子头，还有一份蒜蓉西兰花。有没有适合搭配的小菜或汤品？",
+      "timestamp": 1740980635.3560016
+    },
+    {
+      "role": "left",
+      "content": "搭配红烧狮子头和蒜蓉西兰花，您可以选择一份酸辣汤和拍黄瓜小菜，这样既能解腻又能增加口感层次。您觉得如何？",
+      "timestamp": 1740980639.8863225
+    },
+    {
+      "role": "right",
+      "content": "好的，那就这样吧。一份酸辣汤和拍黄瓜小菜。谢谢推荐。",
+      "timestamp": 1740980641.4342773
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经记录好了，一份红烧狮子头、一份蒜蓉西兰花、一份酸辣汤和拍黄瓜小菜。预计三十分钟内送达，如有任何问题请随时联系我们。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740980647.9220812
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的服务，期待美味的餐点。",
+      "timestamp": 1740980649.3573499
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了满意的菜品，并对服务方的推荐表示了感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经记录好了，一份红烧狮子头、一份蒜蓉西兰花、一份酸辣汤和拍黄瓜小菜。预计三十分钟内送达，如有任何问题请随时联系我们。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的服务，期待美味的餐点。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

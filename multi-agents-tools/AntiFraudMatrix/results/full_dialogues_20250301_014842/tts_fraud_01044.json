@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是客服中心，您的订单出现了问题，需要您提供一些个人信息以便我们尽快处理。",
+      "timestamp": 1740769063.4282534
+    },
+    {
+      "role": "right",
+      "content": "好的，能具体说说是哪方面的信息吗？我这边订单确实挺多的，不太记得具体是哪个。",
+      "timestamp": 1740769064.9363606
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一起诈骗行为，因为诈骗者在没有提供具体订单信息的情况下直接要求提供个人信息，这通常是一个明显的诈骗迹象。用户可能出于谨慎考虑，选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

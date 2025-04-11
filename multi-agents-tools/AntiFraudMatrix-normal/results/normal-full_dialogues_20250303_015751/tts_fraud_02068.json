@@ -1,0 +1,66 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，您可以告诉我需要订什么餐吗？",
+      "timestamp": 1740981830.2026925
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份牛肉炒饭和一个糖醋排骨。",
+      "timestamp": 1740981831.2185855
+    },
+    {
+      "role": "left",
+      "content": "好的，您要订的是一份牛肉炒饭和一个糖醋排骨，还需要其他配菜或饮料吗？",
+      "timestamp": 1740981834.7906666
+    },
+    {
+      "role": "right",
+      "content": "不需要了，就这两样。",
+      "timestamp": 1740981835.5979512
+    },
+    {
+      "role": "left",
+      "content": "明白了，您的订单已经记录下来。请问您的送餐地址是哪里？",
+      "timestamp": 1740981838.3041017
+    },
+    {
+      "role": "right",
+      "content": "地址是幸福小区三号楼一单元四零二室。",
+      "timestamp": 1740981839.0812151
+    },
+    {
+      "role": "left",
+      "content": "好的，您的地址是幸福小区三号楼一单元四零二室。请问需要预订什么时间送达？",
+      "timestamp": 1740981845.9260452
+    },
+    {
+      "role": "right",
+      "content": "下午五点半送到就可以了。",
+      "timestamp": 1740981846.907802
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单将在下午五点半送达。请问还有其他特殊要求吗，比如餐具、辣度等？",
+      "timestamp": 1740981851.0660403
+    },
+    {
+      "role": "right",
+      "content": "不需要特殊要求，餐具放一套就好。",
+      "timestamp": 1740981856.069353
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，我们会为您准备好一套餐具。预计下午五点半前送达。如果您有其他问题，可以随时联系我们的客服。祝您用餐愉快！",
+      "timestamp": 1740981861.8496943
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情，包括餐品、送餐地址、送餐时间以及特殊要求后，主动结束了对话。服务方的意图是确保用户的所有需求都已得到满足，并且提供了进一步联系的方式，以确保服务质量。这表明服务流程已经完成，服务方认为对话目标已达成。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

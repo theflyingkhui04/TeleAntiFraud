@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行客户服务中心，我们发现您的账户存在异常交易，需要立即核实您的身份信息，请问您是本人吗？",
+      "timestamp": 1740729921.5448704
+    },
+    {
+      "role": "right",
+      "content": "是的，我是本人。不过，我最近好像没用过银行卡，怎么会有异常交易呢？要不你先告诉我，具体是什么交易？",
+      "timestamp": 1740729930.1954854
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认自己是本人后，对所谓的异常交易表示怀疑，并要求诈骗者提供具体交易详情。然而，诈骗者并未提供具体信息，反而要求用户先核实身份信息，这可能让用户意识到这是一起诈骗行为，因此选择主动挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

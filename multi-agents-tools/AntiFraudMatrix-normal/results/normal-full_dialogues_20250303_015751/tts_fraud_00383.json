@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，有什么可以帮助您的吗？",
+      "timestamp": 1740983664.4115918
+    },
+    {
+      "role": "right",
+      "content": "嗨，你好！我目前不需要打车，不过谢谢你的关心。有什么特别的服务或优惠活动吗？",
+      "timestamp": 1740983668.3795989
+    },
+    {
+      "role": "left",
+      "content": "您好！目前我们有新用户注册立减优惠，还有邀请好友获得双倍积分的活动。您可以查看我们的App获取更多详情。",
+      "timestamp": 1740983675.2348514
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，我会去看看的。谢谢你的推荐！",
+      "timestamp": 1740983676.6996017
+    },
+    {
+      "role": "left",
+      "content": "感谢您的关注，如果您有任何需要，随时欢迎联系我们。祝您生活愉快！再见。",
+      "timestamp": 1740983685.3609462
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！如果有需要我会联系你们的。再见。",
+      "timestamp": 1740983687.3236089
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示感谢并表达了对所提供信息的兴趣，表明用户的问题或需求已经得到满足。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的关注，如果您有任何需要，随时欢迎联系我们。祝您生活愉快！再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！如果有需要我会联系你们的。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

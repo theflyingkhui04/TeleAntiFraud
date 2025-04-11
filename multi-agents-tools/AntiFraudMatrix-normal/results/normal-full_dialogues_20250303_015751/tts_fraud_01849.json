@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，请问您现在需要叫车吗？",
+      "timestamp": 1740981645.5732105
+    },
+    {
+      "role": "right",
+      "content": "谢谢，不过我不需要叫车。我只是来问问附近有没有好的餐馆推荐。",
+      "timestamp": 1740981648.163871
+    },
+    {
+      "role": "left",
+      "content": "好的，虽然我是打车服务，我可以帮您查找附近的餐馆。请问您现在的位置在哪里？",
+      "timestamp": 1740981651.4766006
+    },
+    {
+      "role": "right",
+      "content": "我在市中心的人民公园附近。",
+      "timestamp": 1740981652.3776386
+    },
+    {
+      "role": "left",
+      "content": "人民公园附近有不少好去处。如果您喜欢中餐，可以试试“老北京炸酱面”，口味地道；如果偏好西餐，附近有一家“意式风情餐厅”也挺不错的。您看有没有感兴趣的？",
+      "timestamp": 1740981656.4018216
+    },
+    {
+      "role": "right",
+      "content": "谢谢你的推荐，我听说过“老北京炸酱面”，听说很不错，我就去试试看。",
+      "timestamp": 1740981657.5012608
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的询问，希望您能在人民公园附近找到满意的餐馆。如果需要打车服务，随时欢迎联系我们。祝您用餐愉快！",
+      "timestamp": 1740981663.2443364
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会的。祝你一天愉快！",
+      "timestamp": 1740981672.2986279
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了满意的餐馆推荐，并表示将尝试其中一家。根据终止条件3，用户明确表示感谢并结束对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的询问，希望您能在人民公园附近找到满意的餐馆。如果需要打车服务，随时欢迎联系我们。祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会的。祝你一天愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

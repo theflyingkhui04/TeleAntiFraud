@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，这里是XX快递公司客服中心。我们注意到您有一个重要的包裹由于海关问题被扣留，需要您提供一些信息以便我们协助处理。请问您现在方便接听电话吗？",
+      "timestamp": 1740739269.976807
+    },
+    {
+      "role": "right",
+      "content": "您好，我是小李。我最近确实有一个包裹，不过我不太确定是不是这个。能不能先告诉我包裹的具体信息，比如快递单号和寄件人？这样我确认一下。",
+      "timestamp": 1740739287.185898
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提供的初步信息表示怀疑，要求提供更多具体信息以确认包裹的真实性。由于诈骗者未能提供用户所需的详细信息，用户可能意识到对话存在问题，选择主动挂断电话以避免进一步的潜在诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

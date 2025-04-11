@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，您可以告诉我想订哪家餐厅的餐吗？",
+      "timestamp": 1740953790.4973545
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一家附近评价不错的中餐馆，有什么推荐的吗？",
+      "timestamp": 1740953794.2061527
+    },
+    {
+      "role": "left",
+      "content": "当然，附近的“味轩中餐厅”评价很高，环境和菜品都受到很多顾客的好评，您看是否需要帮您预订这家？",
+      "timestamp": 1740953799.7676964
+    },
+    {
+      "role": "right",
+      "content": "好的，就订这家吧。我想要点一些经典的川菜，有什么推荐的吗？",
+      "timestamp": 1740953804.4629898
+    },
+    {
+      "role": "left",
+      "content": "味轩中餐厅的宫保鸡丁、麻婆豆腐和水煮牛肉都是招牌川菜，非常受欢迎，您可以考虑点这几道菜。需要帮您加到订单里吗？",
+      "timestamp": 1740953808.8040583
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，就点这些吧。另外，你们有送餐时间的限制吗？我打算晚上七点左右吃。",
+      "timestamp": 1740953812.824977
+    },
+    {
+      "role": "left",
+      "content": "这家餐厅的送餐时间是从早上十点到晚上九点半，您订晚上七点完全没有问题。我会帮您备注好送餐时间，确保您的餐点准时送达。还有其他需要帮忙的吗？",
+      "timestamp": 1740953820.3119078
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。那就这样吧。期待今晚的美味。",
+      "timestamp": 1740953821.9389446
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，晚上七点左右会准时送达。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740953830.2846732
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740953831.118916
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表示满意，没有进一步的需求。用户通过‘那就这样吧’表达了结束对话的意愿。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，晚上七点左右会准时送达。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740979686.675146
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖，有什么推荐的吗？",
+      "timestamp": 1740979688.172713
+    },
+    {
+      "role": "left",
+      "content": "您好，我们有很多受欢迎的菜品，比如宫保鸡丁、鱼香肉丝和牛肉拉面。您可以试试这些，口感都很不错。您有什么特别的口味需求吗？",
+      "timestamp": 1740979698.8984551
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我就来一份宫保鸡丁和一份牛肉拉面吧。还需要搭配什么饮料吗？",
+      "timestamp": 1740979701.0392184
+    },
+    {
+      "role": "left",
+      "content": "好的，宫保鸡丁和牛肉拉面都已为您添加到订单中。我们有多种饮料可供选择，比如冰红茶、冰绿茶和可乐，您需要哪一种呢？",
+      "timestamp": 1740979711.1441178
+    },
+    {
+      "role": "right",
+      "content": "来一瓶冰红茶吧，谢谢。",
+      "timestamp": 1740979712.3978791
+    },
+    {
+      "role": "left",
+      "content": "好的，一瓶冰红茶也已添加到您的订单中。请问还需要其他什么吗？如果没有，我将为您确认订单。",
+      "timestamp": 1740979722.192479
+    },
+    {
+      "role": "right",
+      "content": "不需要了，就这样吧。谢谢。",
+      "timestamp": 1740979723.6333685
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包含宫保鸡丁、牛肉拉面和一瓶冰红茶。预计送达时间为30分钟内。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740979735.9532034
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待您的外卖。",
+      "timestamp": 1740979737.38993
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表示不需要其他服务。服务方可以确认订单并结束对话。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包含宫保鸡丁、牛肉拉面和一瓶冰红茶。预计送达时间为30分钟内。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待您的外卖。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

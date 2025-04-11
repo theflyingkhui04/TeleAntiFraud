@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740977957.7173474
+    },
+    {
+      "role": "right",
+      "content": "你好，我想点一份素食套餐，有什么推荐的吗？",
+      "timestamp": 1740977959.0579886
+    },
+    {
+      "role": "left",
+      "content": "我们有几款非常受欢迎的素食套餐，比如清炒时蔬配糙米饭、素食寿司拼盘和烤蔬菜意面，您看哪一款更合您的口味呢？",
+      "timestamp": 1740977966.0606103
+    },
+    {
+      "role": "right",
+      "content": "清炒时蔬配糙米饭听起来不错，就选这个吧。还有其他需要搭配的吗？",
+      "timestamp": 1740977968.9852462
+    },
+    {
+      "role": "left",
+      "content": "这个套餐搭配一碗例汤和一份小沙拉会更加营养均衡，您看需要加吗？另外，我们还有多种饮料可供选择，您要不要一起点一杯？",
+      "timestamp": 1740977976.141855
+    },
+    {
+      "role": "right",
+      "content": "好的，那就加一份例汤和小沙拉。饮料的话，来一杯冰红茶吧。",
+      "timestamp": 1740977979.329045
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经记录好了：清炒时蔬配糙米饭一份，例汤一份，小沙拉一份，冰红茶一杯。还有其他需要加的吗？如果没有，我将为您确认订单。",
+      "timestamp": 1740977990.067558
+    },
+    {
+      "role": "right",
+      "content": "没有了，这样就可以了。谢谢。",
+      "timestamp": 1740977991.1380205
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，一切都很顺利。再见。",
+      "timestamp": 1740977999.7807822
+    },
+    {
+      "role": "left",
+      "content": "谢谢您的订购，您的餐点将在大约30分钟内送达。如果还有其他需要，请随时联系我们。再见。",
+      "timestamp": 1740978002.6266727
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示订单已完成，并表达了感谢，表明对话目标已达成。",
+  "terminator": "right",
+  "conclusion_messages": [
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，一切都很顺利。再见。"
+    },
+    {
+      "role": "left",
+      "content": "谢谢您的订购，您的餐点将在大约30分钟内送达。如果还有其他需要，请随时联系我们。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我们手上，马上准备两百万赎金，否则后果自负！",
+      "timestamp": 1740757087.6726484
+    },
+    {
+      "role": "right",
+      "content": "什么？你们抓走我儿子了？这怎么可能？你们到底是谁？",
+      "timestamp": 1740757088.83209
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对突如其来的威胁和要求时表现出困惑和怀疑，可能认为这是诈骗行为，因此选择立即挂断电话以避免进一步的风险。用户的意图是中断对话，防止可能的诈骗行为继续发展。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

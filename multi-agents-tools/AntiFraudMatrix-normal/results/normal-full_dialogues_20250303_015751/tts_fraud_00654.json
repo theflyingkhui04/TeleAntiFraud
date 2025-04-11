@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您想预订哪家餐厅的餐点呢？",
+      "timestamp": 1740975106.1369328
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一家寿司店的餐点。",
+      "timestamp": 1740975107.4539216
+    },
+    {
+      "role": "left",
+      "content": "好的，我们这里有几家寿司店供您选择，包括“鲜味寿司”、“蓝寿司”和“和风寿司”。您有偏好哪家吗？",
+      "timestamp": 1740975111.6196241
+    },
+    {
+      "role": "right",
+      "content": "“鲜味寿司”听起来不错，就选这家吧。",
+      "timestamp": 1740975112.5220609
+    },
+    {
+      "role": "left",
+      "content": "好的，选择“鲜味寿司”店。请问您想点哪些菜品呢？您可以告诉我具体的名字和数量。",
+      "timestamp": 1740975116.5160942
+    },
+    {
+      "role": "right",
+      "content": "来一份三文鱼寿司，一份金枪鱼寿司，还有一份刺身拼盘。",
+      "timestamp": 1740975117.4619884
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单包括一份三文鱼寿司，一份金枪鱼寿司，还有一份刺身拼盘。请问还需要其他菜品吗？",
+      "timestamp": 1740975121.5196207
+    },
+    {
+      "role": "right",
+      "content": "不用了，这些就够了。谢谢。",
+      "timestamp": 1740975122.2410154
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包括一份三文鱼寿司，一份金枪鱼寿司，还有一份刺身拼盘。预计送达时间为30分钟内。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740975130.2861543
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740975131.041957
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并明确表示不需要其他菜品，同时表达了感谢。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包括一份三文鱼寿司，一份金枪鱼寿司，还有一份刺身拼盘。预计送达时间为30分钟内。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

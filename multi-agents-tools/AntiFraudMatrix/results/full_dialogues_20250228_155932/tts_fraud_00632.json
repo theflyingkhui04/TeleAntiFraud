@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，这里是XX银行客服中心，我们注意到您的账户存在异常交易，需要立即核实您的身份信息以确保资金安全。请问您现在方便接听电话吗？",
+      "timestamp": 1740757950.4499538
+    },
+    {
+      "role": "right",
+      "content": "方便的，你们银行客服怎么称呼？我的账户真的有问题吗？",
+      "timestamp": 1740757952.263189
+    },
+    {
+      "role": "left",
+      "content": "您好，我是客服专员小张，您的账户确实存在几笔可疑交易，为了您的资金安全，我们需要尽快核实您的身份信息。请您提供身份证号后六位和银行卡号后四位，好吗？",
+      "timestamp": 1740757962.0411966
+    },
+    {
+      "role": "right",
+      "content": "好的，小张，你等一下，我找找我的身份证和银行卡。找到后我就告诉你。",
+      "timestamp": 1740757963.2366471
+    },
+    {
+      "role": "left",
+      "content": "女士，由于情况紧急，能否先告知您的姓名和身份证后六位？这样我们可以先帮您进行初步的账户冻结操作，防止资金进一步流失。",
+      "timestamp": 1740757971.8851237
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫李华，身份证后六位是二三四五六七。你们能帮我冻结账户吗？真的太感谢了。",
+      "timestamp": 1740757973.4338331
+    },
+    {
+      "role": "left",
+      "content": "好的，那请您尽快提供相关信息，我们会立即为您处理。感谢您的配合，祝您生活愉快。再见。",
+      "timestamp": 1740757981.4531896
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，再见。",
+      "timestamp": 1740757982.9276705
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（姓名和身份证后六位），诈骗明显成功。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那请您尽快提供相关信息，我们会立即为您处理。感谢您的配合，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

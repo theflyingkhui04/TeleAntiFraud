@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自星光投资的李经理，最近我们发现了一个非常有潜力的投资项目，我想这可能是您一直在寻找的机会。",
+      "timestamp": 1740745379.050399
+    },
+    {
+      "role": "right",
+      "content": "你好，李经理。听起来挺不错的，不过我还在上学，没怎么接触过投资这一块，你能具体讲讲这个项目吗？我对这方面还不是很了解。",
+      "timestamp": 1740745382.422167
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户和诈骗者双方都发出了挂断信号。用户可能出于礼貌回应了诈骗者，但并没有表现出强烈的兴趣或意图深入了解。由于双方都发出了挂断信号，可以推断对话自然结束，没有明显的主导方。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

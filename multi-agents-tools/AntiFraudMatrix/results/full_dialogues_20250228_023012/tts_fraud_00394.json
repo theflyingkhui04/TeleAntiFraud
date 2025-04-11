@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您赢得了我们这次的全国大抽奖，您的彩票号码与我们公布的号码完全匹配，您将获得100万元的大奖！",
+      "timestamp": 1740692382.217408
+    },
+    {
+      "role": "right",
+      "content": "啊？真的吗？我最近没买过彩票啊。你们这个活动是什么时候开始的？我怎么一点印象都没有。",
+      "timestamp": 1740692386.2270412
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们将会尽快处理您的领奖事宜。祝您生活愉快！",
+      "timestamp": 1740692427.1060684
+    },
+    {
+      "role": "right",
+      "content": "等等，我还没说要不要领奖呢。而且你们连个官方网站都没有，就打电话来说中奖了，这也太可疑了吧。我还是先问问朋友比较保险。",
+      "timestamp": 1740692431.0445018
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始后立即提供了明确的挂断信号'##ENDCALL_SIGNAL##'，表明对话已经结束。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们将会尽快处理您的领奖事宜。祝您生活愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "等等，我还没说要不要领奖呢。而且你们连个官方网站都没有，就打电话来说中奖了，这也太可疑了吧。我还是先问问朋友比较保险。"
+    }
+  ],
+  "reached_max_turns": false
+}

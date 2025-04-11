@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服，您的一个包裹在运输途中出现了问题，需要您配合处理一下。",
+      "timestamp": 1740734463.4267194
+    },
+    {
+      "role": "right",
+      "content": "您好，我是工程师张伟。我的包裹出了什么问题？需要我怎么配合？",
+      "timestamp": 1740734465.7332134
+    },
+    {
+      "role": "left",
+      "content": "张先生您好，系统显示您的包裹内有一张价值五十万的银行支票，但需要您支付一千元的税费才能正常派送。请问您方便现在转账吗？",
+      "timestamp": 1740734487.7159064
+    },
+    {
+      "role": "right",
+      "content": "这听起来不太对劲。我从没寄过这么贵重的东西，而且快递公司通常不会要求支付税费。这会不会是诈骗？",
+      "timestamp": 1740734498.7934275
+    },
+    {
+      "role": "left",
+      "content": "张先生，既然您对这个包裹感兴趣，我稍后会通过短信发送具体的转账信息给您。现在我需要处理其他客户的业务，稍后再联系您。祝您工作顺利！",
+      "timestamp": 1740734537.8513505
+    },
+    {
+      "role": "right",
+      "content": "等等，我不确定这是否安全。我需要先核实一下。如果这是真的，我会联系你们的官方客服确认。再见。",
+      "timestamp": 1740734552.0582638
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经识破诈骗行为，并明确表示怀疑和拒绝继续对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "张先生，既然您对这个包裹感兴趣，我稍后会通过短信发送具体的转账信息给您。现在我需要处理其他客户的业务，稍后再联系您。祝您工作顺利！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "等等，我不确定这是否安全。我需要先核实一下。如果这是真的，我会联系你们的官方客服确认。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张伟吗？我是你儿子小张的同学，小王。你儿子现在出事了，他被几个混混给抓走了，你必须马上给我汇款二十万，否则他们不会放过他的。你听到了吗？快点！",
+      "timestamp": 1740759562.4681144
+    },
+    {
+      "role": "right",
+      "content": "小王，你先别急，你说的这些我怎么相信呢？我儿子平时和你关系怎么样？你能不能告诉我具体点儿，他在哪儿出的事，现在在哪儿？我得确认一下，不能随便汇款。",
+      "timestamp": 1740759567.0600765
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的说辞表示怀疑，并要求提供更多具体信息以确认情况的真实性。用户可能意识到这是一个诈骗电话，因此选择挂断以避免进一步的交流和潜在的损失。用户的意图是通过挂断电话来终止对话，防止自己被诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

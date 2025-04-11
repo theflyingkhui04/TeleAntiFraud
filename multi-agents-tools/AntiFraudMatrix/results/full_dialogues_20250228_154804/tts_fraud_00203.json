@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，我是你银行的客服代表，我注意到你的账户有异常活动，为了确保你的资金安全，需要你提供一些信息进行身份验证。",
+      "timestamp": 1740745412.95947
+    },
+    {
+      "role": "right",
+      "content": "你好，我最近确实没用过网银，不过我怎么确定你是银行的客服呢？我怕这是个诈骗电话。你能告诉我你的工号和姓名吗？另外，我也可以直接去银行网点核实。",
+      "timestamp": 1740745415.5496297
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对诈骗电话的警惕性，要求验证对方身份并提出亲自到银行网点核实，这表明用户怀疑对方的真实身份。用户最终挂断电话，可能是为了避免进一步的风险，确保个人信息的安全。用户的意图是保护自己不受潜在的诈骗行为侵害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

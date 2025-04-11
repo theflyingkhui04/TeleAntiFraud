@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李华吗？我是你儿子的朋友，小王。你儿子现在出事了，被几个坏人绑走了，你必须马上准备二十万现金，不然他们会对你儿子不利的。",
+      "timestamp": 1740757598.149647
+    },
+    {
+      "role": "right",
+      "content": "哎呀，天哪，这可怎么办？小王，你能不能告诉我具体点，我儿子现在到底在哪儿？我得赶紧想办法。",
+      "timestamp": 1740757600.645946
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被绑架并要求支付赎金后，表现出极度的焦虑和不安，试图获取更多具体信息。然而，诈骗者并未提供进一步的详细信息，而是立即挂断了电话。用户的意图可能是希望通过获取更多信息来验证这一紧急情况的真实性，但由于诈骗者迅速挂断电话，用户可能感到困惑或怀疑，这可能是用户随后也挂断电话的原因。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自XX投资顾问公司的李经理，我们最近发现您在股市中的投资表现非常稳健，特此联系您，想为您提供一个独家投资机会。",
+      "timestamp": 1740692070.9865587
+    },
+    {
+      "role": "right",
+      "content": "李经理，您好。谢谢您的关注，不过我对这种电话提供的投资机会总是持谨慎态度。你们公司是正规注册的吗？能提供一些详细的资料给我吗？",
+      "timestamp": 1740692073.7715409
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对诈骗者提供的投资机会的谨慎态度，并要求提供公司详细资料以验证其合法性。用户可能怀疑这是一起诈骗电话，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

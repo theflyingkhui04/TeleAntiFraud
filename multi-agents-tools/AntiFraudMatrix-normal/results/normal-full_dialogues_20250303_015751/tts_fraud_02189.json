@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手为您服务，有什么我可以帮您的吗？",
+      "timestamp": 1740983829.430464
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下最近的公交线路有没有什么变化。",
+      "timestamp": 1740983833.2647965
+    },
+    {
+      "role": "left",
+      "content": "您好，最近确实有一些公交线路进行了调整。您能告诉我具体是从哪里出发，到哪里去吗？这样我可以为您提供更准确的信息。",
+      "timestamp": 1740983840.8215585
+    },
+    {
+      "role": "right",
+      "content": "好的，我是从家出发，去市中心。家住在城北的绿园小区。",
+      "timestamp": 1740983842.2490745
+    },
+    {
+      "role": "left",
+      "content": "从绿园小区到市中心的公交线路目前没有大的变动，您可以乘坐3路或者15路公交车直达市中心。如果需要最新的班次时间，建议您可以通过公交公司官网或者相关App查询，这样更准确一些。",
+      "timestamp": 1740983853.0774322
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我会查一下具体的时间表。",
+      "timestamp": 1740983854.2569172
+    },
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，我建议您查询一下最新的班次时间，这样出行会更顺利。希望这些信息对您有帮助，祝您旅途愉快。",
+      "timestamp": 1740983864.275694
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会注意的。祝你也有个愉快的一天。",
+      "timestamp": 1740983866.654242
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已获得所需信息，并表示会自行查询具体时间表，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，我建议您查询一下最新的班次时间，这样出行会更顺利。希望这些信息对您有帮助，祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会注意的。祝你也有个愉快的一天。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

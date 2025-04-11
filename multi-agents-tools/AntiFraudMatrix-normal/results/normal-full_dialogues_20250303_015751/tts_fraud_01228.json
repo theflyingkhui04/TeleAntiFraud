@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，可以帮助您快速叫车，请告诉我您的出发地点和目的地。",
+      "timestamp": 1740945224.2112408
+    },
+    {
+      "role": "right",
+      "content": "好的，我在公园路和青年大街的交叉口，要去市图书馆。麻烦帮我叫一辆车。",
+      "timestamp": 1740945226.8772829
+    },
+    {
+      "role": "left",
+      "content": "好的，我已为您叫了一辆车。大约五分钟后会有司机联系您，请注意接听电话。如果需要进一步帮助，请随时告诉我。",
+      "timestamp": 1740945231.1170106
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在成功为用户叫到车后，确认了用户已了解司机将在五分钟后联系他们，并表达了如果需要进一步帮助可以随时联系。服务方在此时选择结束对话，是因为主要服务目标已经达成，且提供了后续支持的可能性，确保用户感到满意和安心。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

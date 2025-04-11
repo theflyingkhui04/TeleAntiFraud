@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是您的银行客服中心，我们发现您的账户存在异常交易，为了保障您的资金安全，需要您立即提供账户信息以便我们进行核实。",
+      "timestamp": 1740746931.1468601
+    },
+    {
+      "role": "right",
+      "content": "您好，我确实最近没有进行过什么交易，能具体说说哪些是异常的吗？我需要确认一下。",
+      "timestamp": 1740746932.8505538
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在要求诈骗者提供具体的异常交易详情后立即挂断电话，这表明用户可能已经意识到这是一起诈骗行为，或者至少对对方的身份产生了怀疑。用户选择挂断电话，可能是为了避免进一步的风险，或者是因为不愿意继续与对方交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

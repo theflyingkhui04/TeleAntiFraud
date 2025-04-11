@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是紧急热线，您的家人现在在我们手上，如果您想要确保他的安全，必须马上按照我说的做。",
+      "timestamp": 1740803711.6264126
+    },
+    {
+      "role": "right",
+      "content": "你们是谁？为什么会有我的家人？这到底是怎么回事？",
+      "timestamp": 1740803713.1226413
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者提出的要求时，表现出明显的怀疑和不安。用户没有立即相信诈骗者的话，而是要求更多的信息和解释。由于诈骗者没有提供令人信服的证据或解释，用户可能认为这是一起诈骗行为，因此选择主动挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

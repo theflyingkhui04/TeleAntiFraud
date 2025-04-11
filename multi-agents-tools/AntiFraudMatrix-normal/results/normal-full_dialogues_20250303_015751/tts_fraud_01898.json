@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我今天想吃些什么吗？",
+      "timestamp": 1740944037.2245052
+    },
+    {
+      "role": "right",
+      "content": "想吃点清淡的，有什么推荐的吗？",
+      "timestamp": 1740944038.5846293
+    },
+    {
+      "role": "left",
+      "content": "我们有几道非常受欢迎的清淡菜品，比如清蒸鲈鱼、蒜蓉西兰花和番茄蛋花汤，这些都很适合想吃清淡的顾客。您有兴趣尝试一下吗？",
+      "timestamp": 1740944044.991404
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，就来一份清蒸鲈鱼和蒜蓉西兰花吧。汤的话，番茄蛋花汤也来一份。",
+      "timestamp": 1740944046.6839592
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单包括一份清蒸鲈鱼、一份蒜蓉西兰花和一份番茄蛋花汤。请问还需要其他什么吗？比如饮料或者小吃？",
+      "timestamp": 1740944053.116204
+    },
+    {
+      "role": "right",
+      "content": "不用了，这些就够了，谢谢。",
+      "timestamp": 1740944054.075197
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，我们会尽快为您准备。预计送达时间大约是三十分钟。感谢您的订购，如果还有其他需要请随时联系我们。",
+      "timestamp": 1740944059.5799074
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。等餐的时候我就先休息一下。",
+      "timestamp": 1740944061.0691965
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已明确表示订单完成，并表达了感谢，对话目标已达成。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，我们会尽快为您准备。预计送达时间大约是三十分钟。感谢您的订购，如果还有其他需要请随时联系我们。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。等餐的时候我就先休息一下。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

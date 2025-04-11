@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想订什么餐吗？",
+      "timestamp": 1740938901.5614204
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个农家菜，有什么推荐的吗？",
+      "timestamp": 1740938902.7763686
+    },
+    {
+      "role": "left",
+      "content": "我们有几道非常受欢迎的农家菜，比如红烧肉、清蒸鱼和干锅有机菜，您对口味有什么偏好吗？我可以根据您的喜好为您推荐。",
+      "timestamp": 1740938907.9566991
+    },
+    {
+      "role": "right",
+      "content": "我喜欢清淡一些的，那就来个清蒸鱼和干锅有机菜吧。",
+      "timestamp": 1740938909.976481
+    },
+    {
+      "role": "left",
+      "content": "好的，清蒸鱼和干锅有机菜都是非常好的选择，清淡又美味。请问还需要搭配点什么小菜或者汤品吗？",
+      "timestamp": 1740938916.8512273
+    },
+    {
+      "role": "right",
+      "content": "再来个酸菜汤吧。",
+      "timestamp": 1740938918.0820873
+    },
+    {
+      "role": "left",
+      "content": "好的，一份酸菜汤也已经加上了。请问需要喝点什么饮料呢？我们这里有鲜榨果汁、豆浆和各种茶饮。",
+      "timestamp": 1740938924.8384538
+    },
+    {
+      "role": "right",
+      "content": "来杯豆浆吧。",
+      "timestamp": 1740938925.6936753
+    },
+    {
+      "role": "left",
+      "content": "好的，一份豆浆也已经为您加上了。请问还有其他需要添加的吗？如果没有，我将为您确认订单。",
+      "timestamp": 1740938933.9353027
+    },
+    {
+      "role": "right",
+      "content": "没有了，就这些吧。",
+      "timestamp": 1740938934.9057248
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，包括清蒸鱼、干锅有机菜和酸菜汤，还有一杯豆浆。预计三十分钟后送达，如果需要任何帮助，可以随时联系我们。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740938942.030224
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740938943.0011382
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，服务方可以确认订单并结束对话。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，包括清蒸鱼、干锅有机菜和酸菜汤，还有一杯豆浆。预计三十分钟后送达，如果需要任何帮助，可以随时联系我们。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

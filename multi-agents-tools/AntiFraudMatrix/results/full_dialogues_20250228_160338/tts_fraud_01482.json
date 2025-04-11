@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是客服代表小王。我们监测到您的银行卡可能发生了异常交易，为确保您的资金安全，请问您方便接听电话吗？",
+      "timestamp": 1740743231.5763953
+    },
+    {
+      "role": "right",
+      "content": "你好，小王。我确实收到了一条短信，说我的银行卡可能有问题。你们能告诉我具体是什么情况吗？我有点担心。",
+      "timestamp": 1740743235.2715394
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供个人信息之前主动挂断了电话，表明用户可能对来电的真实性产生了怀疑，或者意识到这可能是一个诈骗电话。用户在询问具体问题后立即挂断，显示出用户可能在意识到潜在风险后迅速采取了行动，以保护自己的个人信息和资金安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，请问有什么我可以帮您的？",
+      "timestamp": 1740976091.8193433
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我是李师傅，之前在你们这里办了一张会员卡，今天想查一下卡里的余额。",
+      "timestamp": 1740976094.854865
+    },
+    {
+      "role": "left",
+      "content": "李师傅您好，查询会员卡余额非常简单，麻烦您提供一下会员卡号或者您注册时使用的手机号码，我这边帮您查一下。",
+      "timestamp": 1740976101.9925475
+    },
+    {
+      "role": "right",
+      "content": "好的，我的手机号是13812345678。麻烦你了。",
+      "timestamp": 1740976103.6324065
+    },
+    {
+      "role": "left",
+      "content": "好的，稍等一下，我帮您查询一下。查询结果显示，您的会员卡当前余额为三百二十一元。",
+      "timestamp": 1740976109.3623493
+    },
+    {
+      "role": "right",
+      "content": "谢谢，辛苦了。对了，这个月有没有什么会员活动啊？",
+      "timestamp": 1740976110.7721047
+    },
+    {
+      "role": "left",
+      "content": "这个月我们有会员积分双倍活动，还有部分商品享受会员专属折扣，详细信息您可以登录我们的官网或者手机APP查看，也可以关注我们的官方微信公众号获取最新资讯。",
+      "timestamp": 1740976116.2668068
+    },
+    {
+      "role": "right",
+      "content": "好的，我会留意的。谢谢你的帮助，小张。",
+      "timestamp": 1740976118.232833
+    },
+    {
+      "role": "left",
+      "content": "李师傅，如果您对当前的会员活动感兴趣，可以随时联系我们或者直接到店咨询。感谢您的支持，希望您购物愉快。",
+      "timestamp": 1740976124.8253918
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。",
+      "timestamp": 1740976126.1589286
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并且表达了感谢，表明对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "李师傅，如果您对当前的会员活动感兴趣，可以随时联系我们或者直接到店咨询。感谢您的支持，希望您购物愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

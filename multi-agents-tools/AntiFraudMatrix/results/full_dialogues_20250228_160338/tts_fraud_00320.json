@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！我是国际快递公司的客服人员，我们注意到您有一个重要的国际包裹因为海关问题被暂时扣留了。请问您方便现在处理一下相关手续吗？",
+      "timestamp": 1740735459.7925265
+    },
+    {
+      "role": "right",
+      "content": "啊？我的包裹被扣了？可是我最近没有寄过国际快递啊。会不会是搞错了？",
+      "timestamp": 1740735466.1849568
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何其他问题，可以随时联系我们。我们会尽快处理您的包裹事宜。祝您一天愉快。再见。",
+      "timestamp": 1740735485.2455533
+    },
+    {
+      "role": "right",
+      "content": "等等，我再想想，这到底是怎么回事……再见。",
+      "timestamp": 1740735510.3618803
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中提供了明确的挂断标识符'##ENDCALL_SIGNAL##'，表明其选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您有任何其他问题，可以随时联系我们。我们会尽快处理您的包裹事宜。祝您一天愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "等等，我再想想，这到底是怎么回事……再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

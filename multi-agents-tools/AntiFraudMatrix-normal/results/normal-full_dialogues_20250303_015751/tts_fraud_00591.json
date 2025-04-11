@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我是您的客服小助手，有什么可以帮助您的吗？",
+      "timestamp": 1740939417.3224688
+    },
+    {
+      "role": "right",
+      "content": "你好，我遇到了一点问题，刚才预约的车一直没有来，能帮我查一下吗？",
+      "timestamp": 1740939418.7111034
+    },
+    {
+      "role": "left",
+      "content": "当然可以，麻烦您提供一下您的订单号或者预约时使用的手机号码，我帮您查询一下具体情况。",
+      "timestamp": 1740939423.5400772
+    },
+    {
+      "role": "right",
+      "content": "好的，我的手机号是13812345678。谢谢。",
+      "timestamp": 1740939424.9654615
+    },
+    {
+      "role": "left",
+      "content": "感谢您的耐心等待，我查到了您的订单信息。目前司机正在路上，可能遇到了一些交通拥堵，预计还需要大约十分钟才能到达。您看是否需要我联系司机进一步确认？",
+      "timestamp": 1740939430.9256632
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦你联系一下司机，确认一下具体到达时间。谢谢。",
+      "timestamp": 1740939432.0970094
+    },
+    {
+      "role": "left",
+      "content": "好的，我马上帮您联系司机确认。请稍等片刻，我会尽快给您回复。",
+      "timestamp": 1740939436.7133324
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。",
+      "timestamp": 1740939437.3670132
+    },
+    {
+      "role": "left",
+      "content": "不客气，这是我的职责所在。我已经联系了司机，他会尽快到达。预计还有五分钟就能到达您的上车点。如果有任何变动，司机也会及时与您联系。请您在原地稍作等待，注意安全。",
+      "timestamp": 1740939446.42063
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，我会在原地等待。如果还有其他问题，我会再联系你们。",
+      "timestamp": 1740939447.8880968
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何其他问题或需要进一步的帮助，随时可以联系我们。祝您出行愉快！",
+      "timestamp": 1740939453.6805556
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740939454.7112932
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示会等待司机到达，并提到如果还有其他问题会再联系客服，这表明当前问题已解决，用户对服务表示满意。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您有任何其他问题或需要进一步的帮助，随时可以联系我们。祝您出行愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

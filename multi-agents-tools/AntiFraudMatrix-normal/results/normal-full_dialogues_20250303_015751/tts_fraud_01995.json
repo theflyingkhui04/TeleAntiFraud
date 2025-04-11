@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询员，可以帮您查询路线和交通信息。",
+      "timestamp": 1740983385.951348
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我一般就在村里转转，不怎么出远门。有需要的时候再找你。",
+      "timestamp": 1740983388.8157704
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户结束了对话，原因可能是他们认为当前的交流已经满足了他们的需求或确认了服务方可以提供帮助。用户的意图可能是在表达对服务方的感谢，并且表明目前没有进一步的交通信息需求，但保留了未来需要时再次寻求帮助的可能性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

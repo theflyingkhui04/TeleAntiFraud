@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，欢迎使用打车服务，我已接到您的订单，司机预计5分钟后到达，车牌号是京A12345，师傅会提前给您打电话确认。",
+      "timestamp": 1740972252.1599016
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。车牌号是京A12345，我记住了。",
+      "timestamp": 1740972253.9522712
+    },
+    {
+      "role": "left",
+      "content": "您的车辆已到达指定地点，祝您乘车愉快。如有需要再次使用我们的服务，欢迎随时联系我们。",
+      "timestamp": 1740972265.667906
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。乘车愉快。",
+      "timestamp": 1740972266.9981499
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了车牌号并表示感谢，表明用户已经获得了所需信息，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的车辆已到达指定地点，祝您乘车愉快。如有需要再次使用我们的服务，欢迎随时联系我们。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。乘车愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

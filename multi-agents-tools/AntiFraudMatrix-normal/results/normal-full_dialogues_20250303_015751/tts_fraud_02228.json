@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么我可以帮您的吗？",
+      "timestamp": 1740981500.707136
+    },
+    {
+      "role": "right",
+      "content": "您好，我想买点新鲜的蔬菜。您这儿有什么推荐的吗？",
+      "timestamp": 1740981501.7369459
+    },
+    {
+      "role": "left",
+      "content": "我们今天有新鲜的胡萝卜、西兰花和菠菜，都是早上刚到的，非常新鲜。您可以看看这些品种，都是顾客评价很高的。",
+      "timestamp": 1740981507.9367769
+    },
+    {
+      "role": "right",
+      "content": "好的，我看看这些。这些胡萝卜看起来不错，我来点。西兰花和菠菜也是我家喜欢的，也各来一些吧。",
+      "timestamp": 1740981509.26526
+    },
+    {
+      "role": "left",
+      "content": "好的，我帮您挑一些新鲜的。胡萝卜一斤，西兰花和菠菜各半斤，这样可以吗？",
+      "timestamp": 1740981512.8240151
+    },
+    {
+      "role": "right",
+      "content": "可以，谢谢您。这些蔬菜看着都很新鲜。",
+      "timestamp": 1740981513.5669959
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的夸奖，这些都是我们精心挑选的。如果您需要其他帮助，随时告诉我。",
+      "timestamp": 1740981519.6662257
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户对所选蔬菜满意后，主动结束了对话。这表明服务方认为已经完成了用户的购物需求，提供了满意的服务，并且没有其他需要处理的问题。服务方的意图是礼貌地结束对话，让用户感到被尊重和满意，同时也可以为其他顾客提供服务。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

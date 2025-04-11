@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是银行客户服务中心，我们检测到您的账户可能存在异常交易，需要立即核实您的身份信息，以确保账户安全。请问您现在方便接听电话吗？",
+      "timestamp": 1740688968.5170999
+    },
+    {
+      "role": "right",
+      "content": "你好，我确实收到了一些奇怪的短信，说我的账户有问题。不过，我一般都不会直接相信这种电话，毕竟现在诈骗太多了。你能告诉我，你们怎么确认我是真的账户持有人吗？",
+      "timestamp": 1740688970.5346339
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对电话真实性的怀疑，并询问了确认身份的方法。然而，诈骗者并未给出令人信服的答复，反而直接挂断了电话。这可能是由于诈骗者意识到用户已经产生了怀疑，继续对话可能无法成功实施诈骗，因此选择终止对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

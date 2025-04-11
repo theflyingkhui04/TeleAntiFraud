@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自华夏银行的客服代表李华，请问是张伟先生吗？",
+      "timestamp": 1740773207.9422886
+    },
+    {
+      "role": "right",
+      "content": "是的，我是张伟。不过您怎么知道我的名字？我好像没在华夏银行办过业务啊。",
+      "timestamp": 1740773211.9628265
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认对方身份时表现出警惕，并对对方如何得知其姓名表示疑问。由于用户不记得曾在华夏银行办理过业务，这可能引发了用户的怀疑，认为这是一起诈骗电话，因此选择主动挂断以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

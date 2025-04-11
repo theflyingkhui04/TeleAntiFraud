@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪个项目？",
+      "timestamp": 1740952998.3370495
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我想了解一下体检套餐的具体内容。",
+      "timestamp": 1740953000.41293
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方提供项目选择之前，明确表示了具体的需求，即了解体检套餐的具体内容。然而，服务方在用户表达需求之前就提供了结束信号，这可能是由于系统错误或操作失误。用户随后也提供了结束信号，可能是因为意识到对话已经无法继续，或者认为服务方没有准备好处理其具体需求。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是预约服务的客服专员，有什么可以帮您的？",
+      "timestamp": 1740971836.3276753
+    },
+    {
+      "role": "right",
+      "content": "您好，我想了解一下学校的假期安排。",
+      "timestamp": 1740971837.468056
+    },
+    {
+      "role": "left",
+      "content": "学校的具体假期安排可能会有所不同，您能告诉我您所在的学校名称或所在地区吗？这样我可以为您提供更准确的信息。",
+      "timestamp": 1740971844.0733354
+    },
+    {
+      "role": "right",
+      "content": "我是XX中学的教师，想确认一下今年的寒假时间。",
+      "timestamp": 1740971845.3815038
+    },
+    {
+      "role": "left",
+      "content": "好的，XX中学的寒假时间通常会在每年的一月中旬开始，到二月初结束。您可以查看学校发布的正式通知或联系教务处获取确切的放假和开学日期。需要我帮您查找具体日期吗？",
+      "timestamp": 1740971852.6744654
+    },
+    {
+      "role": "right",
+      "content": "不用了，谢谢。我会去查一下学校的正式通知。",
+      "timestamp": 1740971854.3248472
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您需要进一步的帮助或有其他问题，欢迎随时联系。祝您工作顺利，寒假愉快。再见。",
+      "timestamp": 1740971862.8594422
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740971864.1055322
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并明确表示不再需要进一步的帮助，同时表达了感谢。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您需要进一步的帮助或有其他问题，欢迎随时联系。祝您工作顺利，寒假愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

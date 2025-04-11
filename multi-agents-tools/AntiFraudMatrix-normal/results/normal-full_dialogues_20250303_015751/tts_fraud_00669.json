@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，有什么我可以帮您的吗？",
+      "timestamp": 1740982971.6207633
+    },
+    {
+      "role": "right",
+      "content": "你好，小张，我是李医生。最近工作压力有点大，想咨询一下有没有什么放松的方法。",
+      "timestamp": 1740982974.1455073
+    },
+    {
+      "role": "left",
+      "content": "李医生，您好。工作压力大确实需要适当放松。您可以尝试一些轻松的活动，比如散步、瑜伽或者听一些轻音乐，这些都能帮助您放松心情。如果方便的话，也可以尝试安排一次短途旅行，换个环境对缓解压力也很有帮助。您觉得这些方法怎么样？",
+      "timestamp": 1740982984.4976795
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，我会试试的。谢谢你的建议，小张。",
+      "timestamp": 1740982986.7542725
+    },
+    {
+      "role": "left",
+      "content": "李医生，希望这些建议对您有所帮助。如果还有其他问题或需要进一步的帮助，随时欢迎联系。祝您工作顺利，生活愉快。",
+      "timestamp": 1740982995.0235057
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的关心。再见。",
+      "timestamp": 1740982996.3937557
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示感谢并接受了建议，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "李医生，希望这些建议对您有所帮助。如果还有其他问题或需要进一步的帮助，随时欢迎联系。祝您工作顺利，生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的关心。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

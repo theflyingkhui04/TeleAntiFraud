@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的侄子小杰的朋友，现在情况非常紧急，小杰出事了，被人带走了，他们要求我联系您，必须马上付一笔赎金，否则他们会伤害他。您现在能帮忙吗？",
+      "timestamp": 1740791151.5950685
+    },
+    {
+      "role": "right",
+      "content": "哎呀，这可怎么办，小杰出事了？这太吓人了！你们在哪儿？我该怎么帮你们？我手头没有太多钱，但我会尽力凑一凑的。你们需要多少钱？",
+      "timestamp": 1740791154.6463447
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在得知诈骗者声称其侄子被绑架并要求支付赎金后，表现出明显的担忧和焦虑，但同时也表达了自己手头并不宽裕。用户可能是因为感到恐慌和无助，或者怀疑对方身份的真实性，因此选择了挂断电话以保护自己不受进一步的伤害或诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

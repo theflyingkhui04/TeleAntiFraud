@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自国际投资公司的张先生，我们专业提供高收益低风险的投资项目。最近我们有一个非常好的机会，想和您详细聊一聊。您现在方便吗？",
+      "timestamp": 1740801402.3765373
+    },
+    {
+      "role": "right",
+      "content": "您好，张先生。谢谢您的联系。不过我对这类投资信息一向比较谨慎。您能具体说明一下这个项目的内容和风险吗？另外，我需要知道您公司的详细信息和资质证明。",
+      "timestamp": 1740801405.6340337
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对投资信息的谨慎态度，并要求诈骗者提供更详细的信息和资质证明。用户可能意识到这是一次潜在的诈骗行为，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，这里是某某银行的客服中心，检测到您的一张银行卡有异常交易，为了您的资金安全，需要您配合我们进行身份验证。请问您现在方便吗？",
+      "timestamp": 1740752287.323863
+    },
+    {
+      "role": "right",
+      "content": "你好，我最近确实没怎么用这张卡，不过听到有异常交易还是挺担心的。现在说话有点不方便，能晚一点再联系吗？",
+      "timestamp": 1740752289.4393196
+    },
+    {
+      "role": "left",
+      "content": "好的，我理解您的情况。不过异常交易记录显示就在几分钟前，问题可能比较紧急，晚一点可能会造成更大的损失。您可以先告知我一些基本信息，比如姓名和身份证号，这样我们可以先核实您的身份。您看可以吗？",
+      "timestamp": 1740752300.0390484
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在用户表示不便时，尝试强调紧急性以促使用户提供信息，但用户没有立即配合。诈骗者可能认为继续对话无法立即获取所需信息，选择挂断以节省时间寻找更容易上当的受害者。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

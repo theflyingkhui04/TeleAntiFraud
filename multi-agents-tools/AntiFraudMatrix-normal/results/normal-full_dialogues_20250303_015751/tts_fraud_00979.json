@@ -1,0 +1,106 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是这里的购物顾问，有什么可以帮助您的吗？",
+      "timestamp": 1740946828.5083287
+    },
+    {
+      "role": "right",
+      "content": "您好，我只是随便看看，谢谢。有什么特别推荐的吗？",
+      "timestamp": 1740946830.2745662
+    },
+    {
+      "role": "left",
+      "content": "当然，我们最近有一些新品上市，比如这款春季新款的连衣裙，设计非常时尚，颜色也很适合春天。如果您感兴趣，我可以带您去看一下。",
+      "timestamp": 1740946837.9203486
+    },
+    {
+      "role": "right",
+      "content": "好的，可以带我去看一下那款连衣裙。谢谢。",
+      "timestamp": 1740946839.248086
+    },
+    {
+      "role": "left",
+      "content": "没问题，这边请。我带您去新款区域，您一定会喜欢的。",
+      "timestamp": 1740946844.3118124
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦您了。",
+      "timestamp": 1740946845.14169
+    },
+    {
+      "role": "left",
+      "content": "不客气，这是我的工作。到了，这就是我们最新款的连衣裙，您看这款颜色和款式怎么样？",
+      "timestamp": 1740946850.1723585
+    },
+    {
+      "role": "right",
+      "content": "挺不错的，可以试一下。这款裙子有我的尺码吗？",
+      "timestamp": 1740946851.327962
+    },
+    {
+      "role": "left",
+      "content": "有的，这款裙子尺码很齐全。您穿哪个尺码的？我帮您拿。",
+      "timestamp": 1740946857.9899952
+    },
+    {
+      "role": "right",
+      "content": "我穿 M 码的，谢谢。",
+      "timestamp": 1740946859.2577858
+    },
+    {
+      "role": "left",
+      "content": "好的，我这就去帮您拿 M 码的。请稍等一下。",
+      "timestamp": 1740946863.7009313
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740946864.2665799
+    },
+    {
+      "role": "left",
+      "content": "不客气，您请稍等，我马上回来。",
+      "timestamp": 1740946869.2301376
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦您了。",
+      "timestamp": 1740946871.0262346
+    },
+    {
+      "role": "left",
+      "content": "不麻烦，您稍等片刻就好。裙子拿来了，您可以直接去试衣间试穿。",
+      "timestamp": 1740946878.8474045
+    },
+    {
+      "role": "right",
+      "content": "好的，我这就去试穿。谢谢。",
+      "timestamp": 1740946879.8986676
+    },
+    {
+      "role": "left",
+      "content": "好的，试衣间就在那边。如果需要任何帮助，随时叫我。希望您试穿满意。",
+      "timestamp": 1740946886.6283019
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。",
+      "timestamp": 1740946887.341211
+    },
+    {
+      "role": "left",
+      "content": "不客气，希望您试穿愉快。如果还需要其他帮助，随时告诉我。",
+      "timestamp": 1740946897.3277543
+    }
+  ],
+  "turns": 8,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在用户去试衣间之前提供了所有必要的帮助和支持，包括推荐商品、确认尺码和提供试衣间的方向。服务方使用了结束信号代码 '##ENDCALL_SIGNAL##'，表明他们认为已经完成了本次服务流程，用户也表达了感谢，没有进一步的需求。服务方的意图是礼貌地结束对话，确保用户在试穿时感到满意和舒适。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

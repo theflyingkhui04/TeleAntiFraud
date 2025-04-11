@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是不是张伟？我是你儿子的朋友，刚刚给你儿子打了电话，他说他被几个混混绑架了，现在在一个废弃工厂里，你得赶紧拿钱来救他，不然他们真的会伤害他的！",
+      "timestamp": 1740681859.6285746
+    },
+    {
+      "role": "right",
+      "content": "你先别急，说说清楚，你叫什么名字？你知道我儿子的具体位置吗？他有没有受伤？我需要确认一下这些情况。",
+      "timestamp": 1740681862.3379993
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者的说辞产生了怀疑，要求提供更多具体信息以验证情况的真实性。用户在未得到满意答复的情况下选择挂断电话，表明其对诈骗者的身份和所述事件的真实性持怀疑态度，并希望通过挂断电话来避免进一步的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

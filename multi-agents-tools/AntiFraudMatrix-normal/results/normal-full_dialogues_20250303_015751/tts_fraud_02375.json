@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是预约服务的客服代表，有什么可以帮助您的吗？",
+      "timestamp": 1740965323.2036402
+    },
+    {
+      "role": "right",
+      "content": "您好，我想确认一下我的预约时间。我是下周三上午的，能帮我查一下具体是几点吗？",
+      "timestamp": 1740965324.768828
+    },
+    {
+      "role": "left",
+      "content": "当然可以，请问您可以提供一下预约时使用的手机号码或姓名吗？这样我方便为您查询。",
+      "timestamp": 1740965329.4185927
+    },
+    {
+      "role": "right",
+      "content": "好的，我的手机号码是13812345678，姓名是张华。谢谢。",
+      "timestamp": 1740965331.5539796
+    },
+    {
+      "role": "left",
+      "content": "好的，张华先生，我查到了您的预约信息。您下周三上午的预约时间是九点整。请问还有其他需要确认的事项吗？",
+      "timestamp": 1740965338.6561053
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息后，询问用户是否有其他需要确认的事项。在用户没有进一步的询问或需求的情况下，服务方主动结束了对话，表明服务目标已达成，用户的问题已经得到解决，服务方的意图是确保用户满意并礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

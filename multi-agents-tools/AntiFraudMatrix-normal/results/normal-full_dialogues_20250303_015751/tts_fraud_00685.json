@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服专员小张为您服务，有什么我可以帮您的吗？",
+      "timestamp": 1740983425.7573552
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我想了解一下最近有没有针对教师的优惠活动。",
+      "timestamp": 1740983428.035373
+    },
+    {
+      "role": "left",
+      "content": "您好，我们目前确实有一个针对教师的优惠活动，凭教师资格证可以享受九折优惠，还有一份小礼品相送。您需要了解详情吗？",
+      "timestamp": 1740983432.7171483
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。那我需要怎么操作才能享受这个优惠呢？",
+      "timestamp": 1740983433.9619024
+    },
+    {
+      "role": "left",
+      "content": "您可以在结账时出示教师资格证，我们的工作人员会为您办理九折优惠，并赠送小礼品。如果您是在线购物，可以在订单备注中注明教师身份，并上传教师资格证的照片，我们会审核后给予优惠。",
+      "timestamp": 1740983442.5856285
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的详细解答。我会留意的。",
+      "timestamp": 1740983444.2339685
+    },
+    {
+      "role": "left",
+      "content": "好的，如果还有其他任何问题或需要帮助，随时欢迎联系我们。祝您购物愉快！",
+      "timestamp": 1740983452.7861018
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝你一天愉快！",
+      "timestamp": 1740983454.5070136
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表达了感谢，表明对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果还有其他任何问题或需要帮助，随时欢迎联系我们。祝您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝你一天愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

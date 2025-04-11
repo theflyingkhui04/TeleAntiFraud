@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "李女士吗？我是张经理，我们之前在投资理财方面有过愉快的合作，这次有个内部的高收益投资项目，我觉得非常适合您。",
+      "timestamp": 1740758145.6917384
+    },
+    {
+      "role": "right",
+      "content": "张经理啊，您好。投资理财我一直都很感兴趣，您能具体说说这个项目吗？",
+      "timestamp": 1740758147.3700032
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一次诈骗尝试，或者对诈骗者提供的信息感到怀疑，因此选择挂断电话以避免进一步的风险。用户在对话中表现出初步的兴趣，但在听到诈骗者的介绍后迅速挂断，这表明用户可能已经识破了诈骗者的意图或对诈骗者的身份产生了怀疑。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

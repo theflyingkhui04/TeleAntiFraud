@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您是李华的家人吗？我是他公司的同事，李华现在遇到了非常紧急的情况，您能听我说吗？",
+      "timestamp": 1740780554.509522
+    },
+    {
+      "role": "right",
+      "content": "喂，我是李华的朋友，他怎么了？发生什么事情了？",
+      "timestamp": 1740780555.6525245
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一个诈骗电话，因为诈骗者没有提供具体的紧急情况详情，而是要求用户先确认身份。这种模糊且紧急的开场白是常见的诈骗手法，用户可能识破了这一点，因此选择立即挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

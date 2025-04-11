@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李伟吗？我是你儿子的朋友小张。你儿子现在遇到点麻烦，被一伙人带走了，你必须马上给我打钱，否则他们不会放过他的。",
+      "timestamp": 1740748223.6217585
+    },
+    {
+      "role": "right",
+      "content": "小张？你儿子的朋友？你能具体说说是怎么回事吗？我儿子现在在哪里？我需要去接他。",
+      "timestamp": 1740748227.1413765
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提供的信息产生了怀疑，要求更多具体细节以验证情况的真实性。由于诈骗者未能提供令人信服的详细信息，用户可能认为这是诈骗行为，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

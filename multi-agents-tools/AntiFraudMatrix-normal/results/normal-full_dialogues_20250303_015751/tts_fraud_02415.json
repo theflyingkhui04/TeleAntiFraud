@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品是您感兴趣的吗？",
+      "timestamp": 1740942017.713334
+    },
+    {
+      "role": "right",
+      "content": "你好，我来看看你们的书籍，特别是历史类的。",
+      "timestamp": 1740942020.4125671
+    },
+    {
+      "role": "left",
+      "content": "好的，我们的历史类书籍在三号书架，那边有各种中外历史书籍，您可以过去看看。需要我陪同吗？",
+      "timestamp": 1740942026.445315
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我自己看看就好。如果需要帮忙，我会再找你的。",
+      "timestamp": 1740942027.8060384
+    },
+    {
+      "role": "left",
+      "content": "好的，您慢慢挑选，有任何问题随时找我，我会在收银台附近。希望您能找到心仪的书籍。",
+      "timestamp": 1740942033.5935185
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户已找到所需书籍区域，并告知用户可以随时寻求帮助后，选择结束对话。服务方的意图是让用户能够自由地浏览书籍，同时确保用户知道在需要时可以得到帮助，从而提供一个良好的购物体验。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

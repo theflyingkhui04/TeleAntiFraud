@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自星际投资咨询公司的李明，我们最近发现了一个非常有潜力的投资项目，想邀请您参与。 ",
+      "timestamp": 1740777424.7440789
+    },
+    {
+      "role": "right",
+      "content": "李明先生，您好。谢谢您的邀请，我最近确实对投资比较感兴趣。能具体讲讲这个项目吗？我这段时间正好在寻找新的投资机会。",
+      "timestamp": 1740777426.5244026
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们改天再聊吧，希望您一切顺利，再见。 ",
+      "timestamp": 1740777430.551722
+    },
+    {
+      "role": "right",
+      "content": "好的，那我们改天再聊，希望您一切顺利，再见。",
+      "timestamp": 1740777434.1654444
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，因此应立即终止对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们改天再聊吧，希望您一切顺利，再见。 ##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，那我们改天再聊，希望您一切顺利，再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

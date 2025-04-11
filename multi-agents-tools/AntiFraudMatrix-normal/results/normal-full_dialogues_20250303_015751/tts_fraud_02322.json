@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您需要预订哪家餐厅的餐点呢？",
+      "timestamp": 1740945429.5857775
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我想订一家靠近家的中餐馆，有什么推荐的吗？",
+      "timestamp": 1740945430.6213846
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们这里有一家评价很高的中餐馆“味道堂”，位于您的家附近，口味地道，服务也很周到。您看是否感兴趣？",
+      "timestamp": 1740945434.268477
+    },
+    {
+      "role": "right",
+      "content": "好的，那就订“味道堂”吧。有什么推荐的菜品吗？",
+      "timestamp": 1740945435.2405872
+    },
+    {
+      "role": "left",
+      "content": "“味道堂”最受欢迎的菜品有宫保鸡丁、清蒸鲈鱼和干煸四季豆，这些都是他们的招牌菜。您想尝试哪几道呢？",
+      "timestamp": 1740945442.2280521
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁和干煸四季豆听起来不错，就这两道吧。还需要点个汤，有什么推荐的汤品？",
+      "timestamp": 1740945444.5483937
+    },
+    {
+      "role": "left",
+      "content": "好的，他们家的番茄蛋花汤和紫菜蛋花汤都很受欢迎，口味清淡，营养丰富。您看需要哪一款呢？",
+      "timestamp": 1740945450.4486866
+    },
+    {
+      "role": "right",
+      "content": "那就来个番茄蛋花汤吧。对了，几点能送到？",
+      "timestamp": 1740945454.3800635
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单包括宫保鸡丁、干煸四季豆和番茄蛋花汤。我们会在您下单后立即安排制作，预计在30到40分钟内送达。您看这个时间可以吗？",
+      "timestamp": 1740945461.5906944
+    },
+    {
+      "role": "right",
+      "content": "可以的，谢谢。那我就等送餐了。",
+      "timestamp": 1740945463.1980152
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，我们会尽快为您准备。预计30到40分钟内送达，感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740945472.8062532
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740945473.7901235
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容和送达时间，并表示满意，没有进一步的需求或问题。用户通过‘谢谢’表达了对话的结束。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，我们会尽快为您准备。预计30到40分钟内送达，感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

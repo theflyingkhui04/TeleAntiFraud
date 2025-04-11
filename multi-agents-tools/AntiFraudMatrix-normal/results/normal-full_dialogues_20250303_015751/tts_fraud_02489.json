@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的？",
+      "timestamp": 1740966803.988039
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份晚餐。有什么推荐的吗？",
+      "timestamp": 1740966805.9053195
+    },
+    {
+      "role": "left",
+      "content": "我们今天的特色推荐有麻辣香锅和清蒸海鲈鱼，都是很受欢迎的选择。您喜欢哪种口味的呢？",
+      "timestamp": 1740966813.282743
+    },
+    {
+      "role": "right",
+      "content": "清蒸海鲈鱼听起来不错，就来这个吧。还请帮我加一个蒜蓉西兰花。",
+      "timestamp": 1740966815.695671
+    },
+    {
+      "role": "left",
+      "content": "好的，清蒸海鲈鱼和蒜蓉西兰花已经为您加到订单里了。还需要其他菜品或饮料吗？",
+      "timestamp": 1740966824.0696933
+    },
+    {
+      "role": "right",
+      "content": "不需要了，这样就可以了。麻烦你了。",
+      "timestamp": 1740966825.2573512
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计四十分钟后送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740966833.4785893
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美味的晚餐。",
+      "timestamp": 1740966834.8783665
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表示不需要其他菜品或饮料，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计四十分钟后送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美味的晚餐。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

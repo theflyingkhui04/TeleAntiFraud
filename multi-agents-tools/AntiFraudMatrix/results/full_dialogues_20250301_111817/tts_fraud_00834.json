@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自邮政快递公司的客服代表，这里有一封您的紧急邮件，但需要您支付一笔小额的处理费用才能领取。您可以告诉我您的姓名和地址吗？",
+      "timestamp": 1740815170.2444508
+    },
+    {
+      "role": "right",
+      "content": "您好，我是李建国，地址是上海市浦东新区金桥路一百号。这封邮件很重要吗？是什么内容的？",
+      "timestamp": 1740815172.2006211
+    },
+    {
+      "role": "left",
+      "content": "好的，我会记录您的信息并处理，请您留意后续通知。如果您还有其他问题，可以随时联系我们的客服。再见。",
+      "timestamp": 1740815179.127903
+    },
+    {
+      "role": "right",
+      "content": "好的，我会留意的。谢谢您的帮助。再见。",
+      "timestamp": 1740815180.164836
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和地址，这属于敏感信息。根据终止条件1，诈骗明显成功，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我会记录您的信息并处理，请您留意后续通知。如果您还有其他问题，可以随时联系我们的客服。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，我会留意的。谢谢您的帮助。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

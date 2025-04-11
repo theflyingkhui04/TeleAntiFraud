@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询的助手，可以帮助您规划路线和提供交通信息，有什么我可以帮您的吗？",
+      "timestamp": 1740982315.4026434
+    },
+    {
+      "role": "right",
+      "content": "嗨，我是小李，我需要从市中心开到机场，大概需要多长时间？",
+      "timestamp": 1740982316.7959151
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户小李在询问了从市中心到机场所需的大致时间后立即结束了对话，这可能是因为他只是需要一个快速的时间估计，一旦得到了所需的信息，就认为没有进一步交流的必要。用户的意图是获取具体的时间信息，以帮助他规划行程。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

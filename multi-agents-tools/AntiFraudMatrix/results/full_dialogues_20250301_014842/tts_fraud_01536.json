@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递公司客服中心，您的包裹因海关检查未能按时送达，需要您提供一些信息以便我们协助处理。请问您的姓名和身份证号码是？",
+      "timestamp": 1740788985.3030028
+    },
+    {
+      "role": "right",
+      "content": "哦，快递出了问题啊。我叫李文博，身份证号码是四十一零零一九五四年六月二十二日出生的。你们能帮我解决吗？",
+      "timestamp": 1740788987.1666803
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们会尽快处理您的包裹问题。如果有任何进展，我们会第一时间通知您。再见。",
+      "timestamp": 1740788991.2921925
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。希望问题能快点解决。再见。",
+      "timestamp": 1740788992.9927938
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在获取了用户的姓名和身份证号码后，明确发出了挂断信号。根据终止条件6，对话应被终止。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们会尽快处理您的包裹问题。如果有任何进展，我们会第一时间通知您。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。希望问题能快点解决。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

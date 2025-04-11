@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我可以帮您叫车，请告诉我您的上车地点和目的地。",
+      "timestamp": 1740968649.3114154
+    },
+    {
+      "role": "right",
+      "content": "好的，上车地点是家乐福超市，目的地是天安门广场。谢谢。",
+      "timestamp": 1740968650.84393
+    },
+    {
+      "role": "left",
+      "content": "您稍等，我正在为您查找合适的车辆。预计在三到五分钟内就有司机接单。",
+      "timestamp": 1740968655.4589324
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。",
+      "timestamp": 1740968656.0018482
+    },
+    {
+      "role": "left",
+      "content": "不客气，如果还需要其他帮助，请随时告诉我。车辆接单后，我会立即通知您。",
+      "timestamp": 1740968662.3780694
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认为用户成功查找车辆后，选择结束对话。这表明服务方认为已经完成了用户所需的服务，即帮助用户叫到车。服务方的意图是确保用户知道服务已经完成，并且在用户没有进一步需求的情况下礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

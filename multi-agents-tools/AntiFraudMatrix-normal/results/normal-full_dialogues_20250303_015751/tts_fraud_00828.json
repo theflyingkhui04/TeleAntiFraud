@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，您想订什么餐呢？",
+      "timestamp": 1740948026.5198345
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份牛肉炒饭和一份糖醋排骨。",
+      "timestamp": 1740948027.6293101
+    },
+    {
+      "role": "left",
+      "content": "好的，您想要的牛肉炒饭和糖醋排骨已经为您加入订单，还需要其他菜品吗？",
+      "timestamp": 1740948031.2768817
+    },
+    {
+      "role": "right",
+      "content": "不需要了，就这样。",
+      "timestamp": 1740948031.8202174
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认。请问您的送餐地址是哪里？",
+      "timestamp": 1740948038.33929
+    },
+    {
+      "role": "right",
+      "content": "地址是XX小区12号楼3单元402室。",
+      "timestamp": 1740948039.45863
+    },
+    {
+      "role": "left",
+      "content": "好的，您的地址是XX小区12号楼3单元402室。请问您的联系电话是多少？以便骑手联系您。",
+      "timestamp": 1740948046.6869214
+    },
+    {
+      "role": "right",
+      "content": "电话是13812345678。",
+      "timestamp": 1740948047.7014532
+    },
+    {
+      "role": "left",
+      "content": "好的，您的电话已记录。您的订单预计在30分钟内送达，请留意骑手的联系。如果还有其他需要，请随时告诉我们。",
+      "timestamp": 1740948053.5043051
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情，包括菜品、送餐地址和联系电话后，告知了用户订单的预计送达时间，并表达了如果用户有其他需求可以随时联系的意愿。服务方使用了结束信号代码##ENDCALL_SIGNAL##，表明服务方认为对话目标已达成，即用户所需的服务已经完成，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，有什么问题我可以帮助您解决吗？",
+      "timestamp": 1740958245.7759163
+    },
+    {
+      "role": "right",
+      "content": "你好，小张，我是李明。最近公司有些账目需要核对，想了解一下我们上个月的交易记录。",
+      "timestamp": 1740958249.7932332
+    },
+    {
+      "role": "left",
+      "content": "您好，李明先生，可以帮您查询上个月的交易记录。请您提供一下账号信息和查询的具体时间段，我来为您处理。",
+      "timestamp": 1740958253.6513562
+    },
+    {
+      "role": "right",
+      "content": "好的，我的账号是 123456789，查询时间段是上个月，也就是 9 月 1 日到 30 日。谢谢。",
+      "timestamp": 1740958255.422985
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，我正在为您查询 9 月 1 日至 30 日的交易记录，请稍等片刻。",
+      "timestamp": 1740958262.8548822
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦你了。",
+      "timestamp": 1740958263.6224258
+    },
+    {
+      "role": "left",
+      "content": "您的交易记录已经查询完毕，我会将详细清单发送到您注册的邮箱里，请注意查收。如果还有其他问题，可以随时告诉我。",
+      "timestamp": 1740958272.0000722
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在提供完所需的服务后，即查询并发送了用户的交易记录，使用了结束标识符'##ENDCALL_SIGNAL##'，表明服务方认为问题已经解决，对话目标达成，且没有其他需要处理的事项，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

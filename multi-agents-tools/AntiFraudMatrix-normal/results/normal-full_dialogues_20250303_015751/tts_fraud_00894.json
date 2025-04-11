@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是客服小张，很高兴为您服务，请问有什么我可以帮您的吗？",
+      "timestamp": 1740965959.504241
+    },
+    {
+      "role": "right",
+      "content": "你好，小张，我是李明，最近在准备期末考试，想咨询一下图书馆的开放时间。",
+      "timestamp": 1740965961.0745313
+    },
+    {
+      "role": "left",
+      "content": "李明您好，图书馆的开放时间是每天早上八点到晚上十点，周末也是同样的时间。希望这能帮到您。",
+      "timestamp": 1740965964.4793367
+    },
+    {
+      "role": "right",
+      "content": "谢谢小张，那我明天就去图书馆复习。如果有其他问题，还能联系你吗？",
+      "timestamp": 1740965965.5316415
+    },
+    {
+      "role": "left",
+      "content": "当然可以，如果您有任何其他问题，随时欢迎联系我。祝您复习顺利，考试取得好成绩！",
+      "timestamp": 1740965970.1701362
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的问题已经得到解决，并且用户表达了满意和感谢之后，主动提供了进一步的支持信息，表达了美好的祝愿，随后使用了结束信号代码'##ENDCALL_SIGNAL##'，表明服务方认为对话目标已达成，且希望以积极的方式结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

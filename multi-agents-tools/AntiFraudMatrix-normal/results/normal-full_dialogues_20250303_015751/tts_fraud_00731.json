@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手上线，我可以帮您查询路线、路况等信息，请问您需要咨询什么？",
+      "timestamp": 1740974073.5862496
+    },
+    {
+      "role": "right",
+      "content": "好的，我想知道从我家到市中心的公交线路。我家在北区。",
+      "timestamp": 1740974075.2559385
+    },
+    {
+      "role": "left",
+      "content": "从北区到市中心您可以乘坐公交10路或15路，这两条线路都能直达市中心，您看可以吗？",
+      "timestamp": 1740974080.6076767
+    },
+    {
+      "role": "right",
+      "content": "可以，谢谢。这两条线路哪个更方便一些？",
+      "timestamp": 1740974081.6571908
+    },
+    {
+      "role": "left",
+      "content": "10路公交的班次更频繁，大约每十分钟一班，而且在高峰时段会增加班次，可能更方便一些。15路则每十五分钟一班，但它的路线稍微直一些，可能会节省一些时间。您可以根据自己的时间安排选择。",
+      "timestamp": 1740974088.6847522
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的详细解答。我会选10路的。",
+      "timestamp": 1740974091.4972942
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您选择10路公交，应该会更方便一些。希望这些建议对您有帮助，祝您旅途愉快！",
+      "timestamp": 1740974099.6243284
+    },
+    {
+      "role": "right",
+      "content": "谢谢，旅途愉快。",
+      "timestamp": 1740974101.3281686
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表达了感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您选择10路公交，应该会更方便一些。希望这些建议对您有帮助，祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，旅途愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

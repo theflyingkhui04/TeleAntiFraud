@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是李先生的朋友，他现在遇到了些麻烦，需要您的帮助。",
+      "timestamp": 1740813760.649804
+    },
+    {
+      "role": "right",
+      "content": "真的吗？李先生遇到了什么麻烦？我怎么帮得了他呢？",
+      "timestamp": 1740813763.1126223
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者的身份和李先生遇到的麻烦表示怀疑，但没有明确的证据或信息来确认，因此选择挂断电话以避免潜在的风险。用户的意图是保护自己不受潜在的诈骗行为影响。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

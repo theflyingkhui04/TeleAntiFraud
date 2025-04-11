@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是社保中心，我们发现您的个人信息可能存在安全风险，请问您现在方便接听电话吗？",
+      "timestamp": 1740743158.8582823
+    },
+    {
+      "role": "right",
+      "content": "您好，我刚刚看到来电显示是社保中心，确实感觉有点突然。我最近确实没有收到过任何关于信息风险的通知，能具体说明一下情况吗？我需要确认一下您的身份。",
+      "timestamp": 1740743187.5239549
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在接听电话后，对诈骗者的身份表示怀疑，并要求确认身份。这表明用户对来电的真实性持谨慎态度，可能意识到这通电话可能是诈骗。用户主动挂断电话可能是为了避免进一步的潜在风险，保护自己的个人信息和财产安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

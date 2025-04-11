@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询专员为您服务，请问有什么可以帮助您的？",
+      "timestamp": 1740977946.423965
+    },
+    {
+      "role": "right",
+      "content": "你好，我听说最近有新的公交线路调整，想了解一下具体情况。",
+      "timestamp": 1740977948.26774
+    },
+    {
+      "role": "left",
+      "content": "好的，我可以帮您查询最新的公交线路调整信息。请问您具体想了解哪条线路的变化呢？",
+      "timestamp": 1740977954.8512187
+    },
+    {
+      "role": "right",
+      "content": "我想知道 12 路公交的变动情况。",
+      "timestamp": 1740977955.9679275
+    },
+    {
+      "role": "left",
+      "content": "12路公交最近确实有所调整，主要是在早晚高峰期间增加了班次，同时取消了与地铁重复较多的几站，具体是取消了“人民公园”和“文化广场”两站。其他时间班次和路线保持不变。您可以根据新的时刻表调整出行计划。需要我提供最新的时刻表链接吗？",
+      "timestamp": 1740977965.6931539
+    },
+    {
+      "role": "right",
+      "content": "不用了，谢谢。我晚上回家再看看。",
+      "timestamp": 1740977967.2524278
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您需要最新的12路公交时刻表，可以访问官网或使用公交查询App获取。感谢您的咨询，祝您旅途愉快。",
+      "timestamp": 1740977974.3581283
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。",
+      "timestamp": 1740977975.4964335
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表示晚上回家再查看，没有进一步的问题或需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您需要最新的12路公交时刻表，可以访问官网或使用公交查询App获取。感谢您的咨询，祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

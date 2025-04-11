@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李先生吗？我是您的邻居小张，您知道您儿子现在出事了吗？他被一伙人给绑了，他们要求我们马上准备五十万赎金，不然就要对您儿子下手。您一定要冷静，按照我说的去做。",
+      "timestamp": 1740748246.314906
+    },
+    {
+      "role": "right",
+      "content": "小张，你别急，你说清楚点。我儿子到底怎么了？绑匪有没有留下什么联系方式？我得马上报警。",
+      "timestamp": 1740748248.013931
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的情况后，表现出了一定的警惕性。用户要求诈骗者提供更多的详细信息，并表达了要报警的意图。这表明用户可能已经怀疑这是一起诈骗，并选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

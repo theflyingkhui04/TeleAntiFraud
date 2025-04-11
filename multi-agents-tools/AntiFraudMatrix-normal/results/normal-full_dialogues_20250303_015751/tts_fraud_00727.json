@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，有什么我可以帮您的吗？",
+      "timestamp": 1740969210.5070953
+    },
+    {
+      "role": "right",
+      "content": "你好，我需要查询一下从医院到市中心的路线，最好能避开高峰时段的拥堵。",
+      "timestamp": 1740969212.0617933
+    },
+    {
+      "role": "left",
+      "content": "好的，从医院到市中心的路线，建议您选择走第三大街，然后转入中央大道，这样可以避开高峰时段的拥堵路段。您预计什么时间出发呢？这样我可以给出更具体的建议。",
+      "timestamp": 1740969222.2941854
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我大概会在下午四点左右出发。这个时间点通常交通状况怎么样？",
+      "timestamp": 1740969226.7105286
+    },
+    {
+      "role": "left",
+      "content": "下午四点左右是下班高峰期，但选择第三大街和中央大道通常车流量相对较小。如果您担心交通状况，可以考虑提前半小时出发，这样更有把握避开拥堵。另外，您可以使用实时导航软件，根据实际情况调整路线。这样可以确保您的行程更加顺畅。",
+      "timestamp": 1740969238.089416
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的建议。我会提前出发并使用导航软件。这样应该会顺利些。",
+      "timestamp": 1740969239.551643
+    },
+    {
+      "role": "left",
+      "content": "路线信息已经提供给您了，希望您的旅途愉快。如果有其他问题，随时欢迎咨询。谢谢！",
+      "timestamp": 1740969247.4526742
+    },
+    {
+      "role": "right",
+      "content": "谢谢，非常有用。祝我一路顺利！",
+      "timestamp": 1740969248.5899742
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表示会按照建议行动。用户对服务表示满意，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "路线信息已经提供给您了，希望您的旅途愉快。如果有其他问题，随时欢迎咨询。谢谢！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，非常有用。祝我一路顺利！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

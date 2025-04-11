@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮您的吗？",
+      "timestamp": 1740958761.5195456
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份午餐，有什么推荐的吗？",
+      "timestamp": 1740958765.5773616
+    },
+    {
+      "role": "left",
+      "content": "我们今天的特色推荐是黄焖鸡米饭和蒜蓉西兰花，搭配一份例汤，营养又美味。您看可以吗？",
+      "timestamp": 1740958775.0112936
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，那就来一份黄焖鸡米饭和蒜蓉西兰花吧。还需要加点什么吗？",
+      "timestamp": 1740958776.7177238
+    },
+    {
+      "role": "left",
+      "content": "我们还有一份新鲜的水果拼盘和自制酸奶，非常适合午餐后享用，要不要加一份呢？",
+      "timestamp": 1740958780.7881658
+    },
+    {
+      "role": "right",
+      "content": "好的，加一份水果拼盘吧。谢谢。",
+      "timestamp": 1740958781.6478071
+    },
+    {
+      "role": "left",
+      "content": "好的，您的午餐订单已确认，黄焖鸡米饭和蒜蓉西兰花，我们将尽快为您准备。预计三十分钟后送达，感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740958787.2835379
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待午餐的到来。",
+      "timestamp": 1740958789.233254
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表示了感谢。服务方可以确认订单详情并结束对话。",
+  "terminator": "service",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的午餐订单已确认，黄焖鸡米饭和蒜蓉西兰花，我们将尽快为您准备。预计三十分钟后送达，感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待午餐的到来。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

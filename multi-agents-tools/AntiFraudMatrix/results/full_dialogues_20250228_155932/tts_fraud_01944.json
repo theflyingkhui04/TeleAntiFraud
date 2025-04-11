@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子的朋友，他现在遇到了一些麻烦，需要您的帮助。",
+      "timestamp": 1740753723.7903752
+    },
+    {
+      "role": "right",
+      "content": "您好，您是哪位？我儿子的朋友很多，我记不太清了。他具体遇到了什么麻烦？",
+      "timestamp": 1740753726.2560036
+    },
+    {
+      "role": "left",
+      "content": "我是李明，我们在学校是好朋友。他现在被一帮人困住了，他们说要两万块钱才肯放人。您得赶紧想办法，时间不多了。",
+      "timestamp": 1740753734.397106
+    },
+    {
+      "role": "right",
+      "content": "李明，你先别急，你能详细说说是怎么回事吗？我儿子现在安全吗？你们是在哪里？我得确认一下情况。",
+      "timestamp": 1740753736.3296745
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对情况的怀疑和谨慎，要求诈骗者提供更多详细信息以确认情况的真实性。用户可能意识到对话存在问题，因此选择挂断电话以避免进一步的潜在风险。用户的意图是通过挂断电话来终止可能的诈骗行为，并保护自己的利益。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

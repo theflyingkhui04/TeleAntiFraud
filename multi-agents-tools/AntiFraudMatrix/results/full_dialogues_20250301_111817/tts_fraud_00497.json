@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是紧急呼叫中心，您的家人可能遇到了一些麻烦，我需要您立即配合。",
+      "timestamp": 1740814237.1417327
+    },
+    {
+      "role": "right",
+      "content": "您好，您说我的家人遇到了麻烦？可以具体说明一下吗？我需要确认一下情况。",
+      "timestamp": 1740814240.0803056
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出家人遇到麻烦后，要求具体说明情况，但诈骗者立即挂断了电话。这可能是因为诈骗者意识到用户开始谨慎对待并要求更多细节，为了避免暴露而选择终止对话。用户的意图可能是希望了解更多情况以确认信息的真实性，但并未真正识破诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

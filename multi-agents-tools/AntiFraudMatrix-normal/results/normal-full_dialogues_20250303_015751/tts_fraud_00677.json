@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服为您服务，请问有什么问题需要解决？",
+      "timestamp": 1740968092.0281365
+    },
+    {
+      "role": "right",
+      "content": "您好，最近有点忙，想了解一下怎么调整工作时间。",
+      "timestamp": 1740968093.5928457
+    },
+    {
+      "role": "left",
+      "content": "了解您的需求，如果您是希望通过公司调整工作时间，建议您先查看公司是否有灵活工作时间的政策，或者直接与您的上司沟通您的想法和需求。如果需要具体的指导或模板，我可以为您提供帮助。",
+      "timestamp": 1740968100.6117291
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会先看看公司的政策，然后再和上司谈谈。如果有需要，我会再来咨询的。",
+      "timestamp": 1740968102.5964265
+    },
+    {
+      "role": "left",
+      "content": "如果您有任何其他问题或需要进一步的帮助，随时欢迎联系客服。希望您的工作调整顺利，祝您一切顺利。",
+      "timestamp": 1740968109.8512526
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。祝我好运吧！",
+      "timestamp": 1740968111.1948352
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的建议，并表示会先查看公司政策再与上司沟通，且明确表示如果有需要会再次咨询，表明当前问题已解决。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您有任何其他问题或需要进一步的帮助，随时欢迎联系客服。希望您的工作调整顺利，祝您一切顺利。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。祝我好运吧！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

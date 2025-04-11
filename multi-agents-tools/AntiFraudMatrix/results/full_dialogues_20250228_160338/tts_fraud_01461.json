@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的孩子现在在我们手上，如果你想让他平安回家，就立即准备五十万现金。如果你报警或告诉别人，我们就撕票！",
+      "timestamp": 1740739569.1835022
+    },
+    {
+      "role": "right",
+      "content": "你这是诈骗！我不会上当的，我马上报警！",
+      "timestamp": 1740739586.1420734
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户识破了诈骗者的诈骗行为，并明确表示不会上当，且准备报警。用户意识到对话涉及诈骗，因此选择主动挂断电话以避免进一步的诈骗行为，并采取行动报警。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

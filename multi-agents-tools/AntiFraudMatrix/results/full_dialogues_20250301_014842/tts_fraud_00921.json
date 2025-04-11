@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，恭喜您中得了本期彩票的一等奖，奖金高达五百万元！我是彩票中心的客服小张，负责通知您这个好消息。为了确保奖金能够顺利发放，请问您方便提供一下您的个人信息吗？",
+      "timestamp": 1740787253.5945582
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。这听起来确实是个好消息，不过我得谨慎一些。我之前在新闻上看到过类似的诈骗案例。你能告诉我你们彩票中心的官方联系方式吗？我打算先核实一下。",
+      "timestamp": 1740787255.6052387
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对诈骗的警惕性，要求验证对方身份和官方联系方式，表明用户对当前的通话内容持怀疑态度。用户最终选择挂断电话，可能是为了避免进一步的风险，或者是因为诈骗者无法提供令人信服的验证信息。用户的意图是保护自己不受潜在的诈骗行为侵害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

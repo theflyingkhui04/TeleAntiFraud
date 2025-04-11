@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，有什么我可以帮您的吗？",
+      "timestamp": 1740967394.9518888
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从我家到市中心的公交线路。我家住在幸福小区。",
+      "timestamp": 1740967396.5634637
+    },
+    {
+      "role": "left",
+      "content": "好的，从幸福小区到市中心有多条公交线路可以选择。您可以乘坐公交101路或者202路，这两路车都会直达市中心。您需要具体的时间表或者站点信息吗？",
+      "timestamp": 1740967400.3374262
+    },
+    {
+      "role": "right",
+      "content": "需要的话，可以告诉我大概的发车时间和主要的停靠站点。这样我可以更好地安排行程。",
+      "timestamp": 1740967401.4666293
+    },
+    {
+      "role": "left",
+      "content": "好的，101路和202路的首班车时间都是早上6点，末班车时间是晚上9点，大约每十分钟一班。101路的主要停靠站点包括幸福小区、光明路、文化广场、市政府和市中心。202路的主要停靠站点包括幸福小区、东湖公园、科技大楼、商业街和市中心。希望这些信息对您有帮助。",
+      "timestamp": 1740967408.5661795
+    },
+    {
+      "role": "right",
+      "content": "谢谢你的详细信息，这对我帮助很大。我会根据这些站点和时间来安排我的出行。如果有其他问题，我再联系你。",
+      "timestamp": 1740967411.4282587
+    },
+    {
+      "role": "left",
+      "content": "很高兴能帮到您，如果您还有其他问题，随时欢迎咨询。祝您旅途愉快！",
+      "timestamp": 1740967416.7589939
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740967417.6520383
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢，并明确表示如果需要更多帮助会再次联系，这意味着当前的咨询需求已经满足。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "很高兴能帮到您，如果您还有其他问题，随时欢迎咨询。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

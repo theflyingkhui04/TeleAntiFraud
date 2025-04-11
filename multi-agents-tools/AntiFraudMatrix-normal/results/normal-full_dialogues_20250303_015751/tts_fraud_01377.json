@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询助手，可以帮您查询路线、公交地铁时间表等信息，请问有什么我可以帮您的？",
+      "timestamp": 1740948425.135604
+    },
+    {
+      "role": "right",
+      "content": "好的，能帮我查一下从家到公司的路线吗？我住在龙阳路，公司在徐家汇。",
+      "timestamp": 1740948428.2335086
+    },
+    {
+      "role": "left",
+      "content": "当然可以。从龙阳路到徐家汇有多种出行方式，您可以选择地铁、公交或打车。如果您选择地铁，可以乘坐地铁七号线从龙阳路站到肇嘉浜路站，然后换乘地铁一号线直达徐家汇站。整个行程大约需要四十分钟。",
+      "timestamp": 1740948434.80097
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我知道了。那我明天就试试这个路线。",
+      "timestamp": 1740948436.165371
+    },
+    {
+      "role": "left",
+      "content": "路线信息已经提供给您了，希望对您有帮助。如果还有其他问题，随时欢迎咨询。祝您旅途愉快！",
+      "timestamp": 1740948444.0959258
+    },
+    {
+      "role": "right",
+      "content": "好的，感谢你的帮助。如果需要再联系。",
+      "timestamp": 1740948445.3222501
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的路线信息，并表示满意，没有进一步的问题或需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "路线信息已经提供给您了，希望对您有帮助。如果还有其他问题，随时欢迎咨询。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，感谢你的帮助。如果需要再联系。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

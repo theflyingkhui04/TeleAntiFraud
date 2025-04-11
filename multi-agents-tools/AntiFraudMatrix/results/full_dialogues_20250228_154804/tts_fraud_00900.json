@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您儿子小明的朋友小张，现在他遇到麻烦了，您能听我说吗？",
+      "timestamp": 1740748684.720664
+    },
+    {
+      "role": "right",
+      "content": "小张啊，你是小明的朋友？他怎么了，出什么事了？你慢慢说，我听着呢。",
+      "timestamp": 1740748687.0601249
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提到其儿子遇到麻烦后，可能出于担心或怀疑，选择挂断电话以直接联系其儿子或采取其他措施确认情况。这表明用户可能对诈骗者身份的真实性产生了怀疑，或希望直接从其儿子那里获取信息，而不是通过电话中的诈骗者。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

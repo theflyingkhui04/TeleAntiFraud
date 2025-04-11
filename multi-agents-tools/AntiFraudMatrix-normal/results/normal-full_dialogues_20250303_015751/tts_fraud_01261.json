@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎您使用我们的订餐服务，有什么可以帮助您的吗？",
+      "timestamp": 1740954293.3853004
+    },
+    {
+      "role": "right",
+      "content": "您好，我想订一份快餐，有什么推荐的吗？",
+      "timestamp": 1740954297.3660712
+    },
+    {
+      "role": "left",
+      "content": "我们有几款热门的快餐套餐，比如牛肉汉堡套餐、鸡肉卷套餐和特色炸鸡套餐，每款都包含了饮料和小食，您可以选择您喜欢的口味。您有特别的喜好或要求吗？",
+      "timestamp": 1740954303.6329
+    },
+    {
+      "role": "right",
+      "content": "那就来一个牛肉汉堡套餐吧，加一杯可乐。",
+      "timestamp": 1740954304.8448963
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单是牛肉汉堡套餐加一杯中杯可乐。请问还需要加点什么小食或者额外的调料吗？",
+      "timestamp": 1740954311.448255
+    },
+    {
+      "role": "right",
+      "content": "不需要了，就这样吧。谢谢。",
+      "timestamp": 1740954313.3103435
+    },
+    {
+      "role": "left",
+      "content": "好的，您的牛肉汉堡套餐加中杯可乐已确认，我们将在三十分钟内送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740954318.482847
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740954320.4631534
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了订单，并表达了感谢，表明不再需要额外的服务或信息。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的牛肉汉堡套餐加中杯可乐已确认，我们将在三十分钟内送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自顺丰快递的客服，您的一个包裹在运输过程中被发现有异常情况，需要您配合处理。",
+      "timestamp": 1740817230.5232072
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我最近确实寄了一些东西，不过我不太记得是什么了。你们能查到是什么包裹吗？",
+      "timestamp": 1740817232.1416194
+    },
+    {
+      "role": "left",
+      "content": "可以的，不过为了确认您的身份，我需要您提供一下寄件时使用的手机号码和姓名。这样我才能够为您查询详细的包裹信息。",
+      "timestamp": 1740817239.2828567
+    },
+    {
+      "role": "right",
+      "content": "好的，我理解。我的手机号码是这个，姓名是张老三。你们能查到我的包裹了吗？",
+      "timestamp": 1740817241.4041317
+    },
+    {
+      "role": "left",
+      "content": "好的，那您方便的时候提供一下手机号码和姓名吧，我会为您查询的。如果有其他问题，您可以随时联系我们。再见。",
+      "timestamp": 1740817248.936071
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。希望你能尽快查到我的包裹信息。再见。",
+      "timestamp": 1740817250.9034593
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（手机号码和姓名），诈骗明显成功。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那您方便的时候提供一下手机号码和姓名吧，我会为您查询的。如果有其他问题，您可以随时联系我们。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。希望你能尽快查到我的包裹信息。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

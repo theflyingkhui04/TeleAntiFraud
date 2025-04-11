@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是紧急联络中心，您的家人现在被我们控制了，您需要马上按照我的指示操作，否则我会对您的家人不利。",
+      "timestamp": 1740774120.9643958
+    },
+    {
+      "role": "right",
+      "content": "你这是什么人？你敢威胁我，我马上报警！",
+      "timestamp": 1740774122.0755272
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者威胁其家人后，立即识破了诈骗行为，并表达了强烈的不满和拒绝。用户通过挂断电话的方式明确表示不会继续与诈骗者交流，并威胁要报警。用户的意图是终止对话，避免进一步的骚扰或诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

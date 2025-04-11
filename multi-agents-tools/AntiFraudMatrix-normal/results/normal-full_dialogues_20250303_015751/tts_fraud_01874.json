@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，我是您的客服专员，有什么可以帮助您的？",
+      "timestamp": 1740945069.4619052
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下你们的外卖服务有哪些特别优惠？",
+      "timestamp": 1740945070.808314
+    },
+    {
+      "role": "left",
+      "content": "您好，目前我们有新用户首单立减10元的优惠，还有满50元减10元的全场优惠券，部分商家还有额外的折扣和满减活动，您可以根据需要选择。",
+      "timestamp": 1740945077.0968575
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的详细介绍。那我怎么领取这些优惠券呢？",
+      "timestamp": 1740945078.5277383
+    },
+    {
+      "role": "left",
+      "content": "您可以在我们的App首页点击“领券中心”，选择合适的优惠券领取，或者在下单时直接选择可用的优惠券进行抵扣。",
+      "timestamp": 1740945083.8432918
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的帮助。我会试试看的。",
+      "timestamp": 1740945084.8378525
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的咨询，如果您决定下单，优惠券将自动显示在支付页面。如果有其他问题，欢迎随时联系我们。祝您用餐愉快！",
+      "timestamp": 1740945089.7593334
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的服务。祝我用餐愉快！",
+      "timestamp": 1740945091.6331894
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表达了感谢，表明对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的咨询，如果您决定下单，优惠券将自动显示在支付页面。如果有其他问题，欢迎随时联系我们。祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的服务。祝我用餐愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

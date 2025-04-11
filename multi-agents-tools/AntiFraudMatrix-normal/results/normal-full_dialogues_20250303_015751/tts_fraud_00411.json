@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，您可以告诉我想点什么餐吗？",
+      "timestamp": 1740971103.5113194
+    },
+    {
+      "role": "right",
+      "content": "嗯，我想点个红烧肉和青菜，再来份米饭。你们有这些菜吗？",
+      "timestamp": 1740971105.392973
+    },
+    {
+      "role": "left",
+      "content": "有的，我们这里有红烧肉、清炒时蔬和白米饭，您要的这些菜都可以点。请问需要帮您下单吗？",
+      "timestamp": 1740971111.3162277
+    },
+    {
+      "role": "right",
+      "content": "好的，那帮我下单吧。对了，你们送餐大概需要多久？",
+      "timestamp": 1740971113.1003816
+    },
+    {
+      "role": "left",
+      "content": "您的订单已经成功下单，预计送达时间是30到40分钟。如果遇到交通拥堵可能会稍有延迟，我们会尽量准时送达。请问还有其他需要帮忙的吗？",
+      "timestamp": 1740971120.368649
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的订单并提供了预计送达时间后，询问用户是否有其他需要帮助的事项。用户没有提出进一步的需求。服务方通过使用结束信号代码'##ENDCALL_SIGNAL##'，表明对话目标已达成，服务流程已完成，意在礼貌地结束对话，确保用户满意并避免不必要的等待。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

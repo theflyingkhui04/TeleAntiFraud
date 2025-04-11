@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，有什么问题我可以帮您解决吗？",
+      "timestamp": 1740949824.4273682
+    },
+    {
+      "role": "right",
+      "content": "你好，小张，我想了解一下公司的年假政策。",
+      "timestamp": 1740949825.3346434
+    },
+    {
+      "role": "left",
+      "content": "您好，关于年假政策，根据我们公司规定，员工入职满一年后可享有五天年假，之后每满一年增加一天，最多可累积至十五天。具体的使用规则和申请流程，可以参照员工手册或者直接在内部系统中查看。如果还有其他疑问，我可以为您详细解答。",
+      "timestamp": 1740949830.499323
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的解答。我会去看看员工手册。",
+      "timestamp": 1740949832.1938665
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，关于年假政策的疑问已经解答，如果还有其他问题或需要进一步的帮助，随时欢迎联系客服。祝您工作愉快！",
+      "timestamp": 1740949839.9915135
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。工作愉快！",
+      "timestamp": 1740949841.030477
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的年假政策信息，并表示会查看员工手册，同时表达了感谢，表明用户对服务满意且问题已解决。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，关于年假政策的疑问已经解答，如果还有其他问题或需要进一步的帮助，随时欢迎联系客服。祝您工作愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。工作愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

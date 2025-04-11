@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，我是你的朋友张伟的同事，张伟现在情况非常危急，他在外地出差时被一群不明身份的人绑架了，对方要求立即支付二十万元赎金，否则会伤害他。我现在联系不上其他人，只能找到你，你能不能帮帮他，先转二十万元到这个账户，真的非常紧急。",
+      "timestamp": 1740809668.273568
+    },
+    {
+      "role": "right",
+      "content": "什么？张伟被绑架了？这怎么可能？你真的是他的同事吗？我得确认一下，你能告诉我你是哪个公司的吗？还有，张伟现在具体在什么地方？我得联系他的家人，这样比较稳妥。",
+      "timestamp": 1740809672.3824534
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的信息表示怀疑，并要求提供更多具体信息以确认情况的真实性。用户可能认为情况不正常，需要进一步验证信息的真实性，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

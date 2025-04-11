@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是华夏银行客服中心，我是客服专员小李。我们检测到您的银行卡可能涉及一桩非法交易，为了保护您的财产安全，需要您配合我们进行一次安全验证。请问您现在方便吗？",
+      "timestamp": 1740747806.0531769
+    },
+    {
+      "role": "right",
+      "content": "哦，好的，小李。我刚退休不久，对这些不太熟悉，你能详细说说怎么配合吗？",
+      "timestamp": 1740747808.6371899
+    },
+    {
+      "role": "left",
+      "content": "好的，感谢您的配合，我们会尽快处理这个问题，确保您的账户安全。如果您有任何疑问，可以随时拨打我们的客服热线。祝您生活愉快，再见。",
+      "timestamp": 1740747816.5242703
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你，小李。我会注意的。再见。",
+      "timestamp": 1740747818.2437305
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表示其选择挂断对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，感谢您的配合，我们会尽快处理这个问题，确保您的账户安全。如果您有任何疑问，可以随时拨打我们的客服热线。祝您生活愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你，小李。我会注意的。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

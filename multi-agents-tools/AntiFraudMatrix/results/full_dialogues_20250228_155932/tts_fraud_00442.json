@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的孩子在我的手上，如果不想他出事，马上准备五十万元现金。",
+      "timestamp": 1740744877.9561913
+    },
+    {
+      "role": "right",
+      "content": "你这是在开玩笑吧？我根本没有孩子，而且我也不可能有五十万元现金。你到底是谁？为什么这么说话？这听起来完全不可信。",
+      "timestamp": 1740744881.8546884
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是诈骗者提出了不切实际的要求，且用户明确表示自己没有孩子，也没有能力支付如此高额的赎金。用户的意图是表明自己对这种诈骗行为的反感和不信任，通过挂断电话来终止与诈骗者的进一步交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

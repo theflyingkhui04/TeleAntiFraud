@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车助手，可以帮助您叫车。请问您现在需要叫车吗？",
+      "timestamp": 1740939414.035242
+    },
+    {
+      "role": "right",
+      "content": "暂时不需要，谢谢。我还在朋友家聊天呢。",
+      "timestamp": 1740939415.0289092
+    },
+    {
+      "role": "left",
+      "content": "好的，没问题。如果您决定好了，随时告诉我您需要叫车。我会帮您安排。",
+      "timestamp": 1740939419.7983518
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。需要的时候我会联系你的。",
+      "timestamp": 1740939420.4978933
+    },
+    {
+      "role": "left",
+      "content": "好的，那您继续享受和朋友的时光吧。需要叫车时随时联系我，祝您愉快！",
+      "timestamp": 1740939426.8040094
+    },
+    {
+      "role": "right",
+      "content": "谢谢，你也辛苦了。有事我会联系你。",
+      "timestamp": 1740939428.8913608
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示了感谢，并表明在需要时会主动联系服务方，表明当前对话目标已达成，可以由用户结束对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那您继续享受和朋友的时光吧。需要叫车时随时联系我，祝您愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，你也辛苦了。有事我会联系你。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是你吗？我是你爸爸的朋友，老李，你爸爸现在在我这里，他遇到了一点麻烦，你得马上汇一笔钱过来，不然他会有危险。",
+      "timestamp": 1740799556.1147456
+    },
+    {
+      "role": "right",
+      "content": "老李啊，你先别急，你说我爸爸遇到了麻烦，具体是什么情况？他现在人怎么样？你能不能让我和他通个电话？我得确认一下他的安全。",
+      "timestamp": 1740799558.0150445
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者要求立即汇款，并且提出要与父亲直接通话以确认安全时，可能已经意识到这是一起诈骗。用户挂断电话的意图很可能是为了终止与诈骗者的进一步交流，避免提供任何敏感信息或进行转账。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

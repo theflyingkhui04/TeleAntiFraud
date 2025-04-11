@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想订哪家餐厅的餐吗？",
+      "timestamp": 1740950406.5450594
+    },
+    {
+      "role": "right",
+      "content": "我想订个家常菜，有什么推荐的吗？",
+      "timestamp": 1740950407.6406584
+    },
+    {
+      "role": "left",
+      "content": "我们这里有一家名叫“家乡味道”的餐厅，他们的家常菜非常受欢迎，比如红烧肉、清蒸鱼和宫保鸡丁，您可以考虑一下。需要我帮您下单吗？",
+      "timestamp": 1740950414.6971471
+    },
+    {
+      "role": "right",
+      "content": "好的，就订这家的红烧肉和清蒸鱼吧。谢谢。",
+      "timestamp": 1740950417.012218
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您决定好点什么菜，随时告诉我，我会帮您下单。感谢您的信任，希望您用餐愉快。再见。",
+      "timestamp": 1740950423.7789893
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。",
+      "timestamp": 1740950424.892336
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了想要的菜品，并表示了感谢，表明用户的需求已经得到满足。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您决定好点什么菜，随时告诉我，我会帮您下单。感谢您的信任，希望您用餐愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

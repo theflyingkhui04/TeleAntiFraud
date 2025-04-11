@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "这里是银行客服中心，我们发现您的账户存在异常登录记录，需要立即核实您的身份信息以确保账户安全。请问您最近是否有登录过网上银行？",
+      "timestamp": 1740741942.5991087
+    },
+    {
+      "role": "right",
+      "content": "您好，我确实经常使用网上银行，但最近几天没有登录过。你们是怎么发现的异常呢？我需要提供什么信息来核实我的身份？不过在提供信息之前，我想确认一下您的身份，可以告诉我您的工号和姓名吗？",
+      "timestamp": 1740741958.5489666
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在询问诈骗者身份信息时使用了'##ENDCALL_SIGNAL##'，这表明用户可能对来电的真实性产生了怀疑，并选择主动挂断电话以避免潜在的诈骗风险。用户的意图是通过询问具体的身份信息来验证来电的真实性，但在未得到满意答复或感到不安时，选择终止对话以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

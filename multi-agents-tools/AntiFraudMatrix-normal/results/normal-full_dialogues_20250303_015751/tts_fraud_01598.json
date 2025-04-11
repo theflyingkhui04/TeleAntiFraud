@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是购物中心的客服代表，有什么我可以帮您的吗？",
+      "timestamp": 1740954012.7724695
+    },
+    {
+      "role": "right",
+      "content": "你好，我就是想了解一下你们最近有没有什么促销活动，特别是农产品这一块的。",
+      "timestamp": 1740954014.342688
+    },
+    {
+      "role": "left",
+      "content": "我们目前有一个农产品的特惠活动，新鲜水果和蔬菜全场九折，还有部分商品买一送一，非常划算。您需要了解具体哪些商品的信息呢？",
+      "timestamp": 1740954018.2192924
+    },
+    {
+      "role": "right",
+      "content": "听起来不错。我最近需要买一些苹果和土豆，你能告诉我这些商品的具体价格和质量情况吗？",
+      "timestamp": 1740954019.6744742
+    },
+    {
+      "role": "left",
+      "content": "当然可以。我们的红富士苹果现在是每斤五元，黄心土豆每斤三元，都是从本地农场直采，新鲜度非常高。您可以在我们的线上商城或者来门店选购。您需要了解其他信息吗？",
+      "timestamp": 1740954023.9953487
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的详细介绍。我这周末有空会去你们店里看看。如果有其他需要的，我会再联系你。",
+      "timestamp": 1740954025.571847
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您对苹果和土豆感兴趣，可以随时来选购。感谢您的咨询，祝您购物愉快！",
+      "timestamp": 1740954031.1301792
+    },
+    {
+      "role": "right",
+      "content": "谢谢，周末见。祝你工作顺利。",
+      "timestamp": 1740954033.0704043
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表达了感谢，同时表示如果需要更多帮助会再次联系。这表明用户的查询已经得到解决，对话目标达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您对苹果和土豆感兴趣，可以随时来选购。感谢您的咨询，祝您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，周末见。祝你工作顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

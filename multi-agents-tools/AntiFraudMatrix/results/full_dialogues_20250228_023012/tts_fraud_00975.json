@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我们手上，如果不马上转账10万到指定账户，我们就撕票！",
+      "timestamp": 1740691508.2085721
+    },
+    {
+      "role": "right",
+      "content": "什么？我儿子怎么会在你们手上？你到底是谁？我儿子一直在家里好好的，你别想骗我！我要报警了！",
+      "timestamp": 1740691512.3585663
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是因为识破了诈骗者的威胁，意识到这是诈骗行为。用户明确表示了怀疑，并提到要报警，显示了其拒绝继续与诈骗者交流的意图。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

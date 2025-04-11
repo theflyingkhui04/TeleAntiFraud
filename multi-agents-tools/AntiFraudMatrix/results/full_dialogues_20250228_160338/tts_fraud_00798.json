@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你女儿现在在我们手上，马上准备转账一百万元到这个账户，否则我们就撕票！",
+      "timestamp": 1740737918.430388
+    },
+    {
+      "role": "right",
+      "content": "你们别吓唬我，我哪里有这么多钱啊？你们是不是搞错了？",
+      "timestamp": 1740737930.673774
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为感到极度恐慌和无助，认为自己无法满足诈骗者的要求，因此选择挂断电话以避免进一步的威胁和压力。用户的意图是终止与诈骗者的交流，避免继续受到恐吓。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

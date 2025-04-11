@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，您可以告诉我想点哪家餐厅和需要的餐品吗？",
+      "timestamp": 1740951387.9429376
+    },
+    {
+      "role": "right",
+      "content": "我想点个附近的川菜馆，来个宫保鸡丁和麻婆豆腐。",
+      "timestamp": 1740951389.3341746
+    },
+    {
+      "role": "left",
+      "content": "好的，您点的是宫保鸡丁和麻婆豆腐，还需要别的吗？",
+      "timestamp": 1740951393.091379
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这两样。麻烦你了。",
+      "timestamp": 1740951393.9378731
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经成功提交，预计三十分钟后送达。感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740951400.2292335
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740951400.8815372
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确定了点餐内容，并表示不再需要其他服务，同时表达了感谢。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经成功提交，预计三十分钟后送达。感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

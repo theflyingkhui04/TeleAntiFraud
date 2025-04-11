@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递公司的客服，您的包裹在运输过程中出现了一些问题，需要您尽快处理，否则可能会被退回。请问您现在方便接听电话吗？",
+      "timestamp": 1740688160.5766187
+    },
+    {
+      "role": "right",
+      "content": "好的，我方便接听。请问具体是什么问题呢？我最近确实有一个包裹在途中。不过，我通常会通过官方网站查询包裹信息，你们有官方的联系方式吗？",
+      "timestamp": 1740688198.2495294
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对诈骗者身份的怀疑，要求提供官方联系方式以验证对方身份。用户可能已经意识到这是一起诈骗行为，因此选择主动挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

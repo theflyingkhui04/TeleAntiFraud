@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是打车服务平台，有什么可以帮您的？",
+      "timestamp": 1740973385.5857882
+    },
+    {
+      "role": "right",
+      "content": "您好，我要去镇上的市场，能帮我叫一辆车吗？",
+      "timestamp": 1740973387.2211509
+    },
+    {
+      "role": "left",
+      "content": "好的，可以帮您叫车。请问您现在的位置是哪里？",
+      "timestamp": 1740973393.072455
+    },
+    {
+      "role": "right",
+      "content": "我在村口的老槐树那里。",
+      "timestamp": 1740973394.3171945
+    },
+    {
+      "role": "left",
+      "content": "明白了，我这就为您叫车。请稍等片刻，司机大约五分钟后到达老槐树位置。",
+      "timestamp": 1740973398.1907308
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的上车地点，并告知了预计到达时间后，认为已经完成了用户的需求，即成功叫到了车并提供了必要的信息。因此，服务方选择主动结束对话，以避免不必要的等待或信息重复，同时确保用户能够及时了解服务进展。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

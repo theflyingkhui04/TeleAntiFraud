@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自某某快递公司的客服代表，我们发现您的包裹中可能含有违禁品，需要您配合我们进行进一步的处理。为了确保您的包裹能够顺利送达，请您提供您的姓名和联系电话，好吗？",
+      "timestamp": 1740773467.1870618
+    },
+    {
+      "role": "right",
+      "content": "哦，这是怎么回事？我最近确实寄了一些东西，但我不记得里面有什么违禁品。可能是快递员弄错了。我叫张伟，电话是这个，你们能看到的吧？你们怎么会怀疑我寄的东西有问题呢？",
+      "timestamp": 1740773469.1519332
+    },
+    {
+      "role": "left",
+      "content": "好的，我会记录您的信息并反馈给相关部门。感谢您的配合，如果后续有任何问题，我们会及时与您联系。再见。",
+      "timestamp": 1740773473.8232183
+    },
+    {
+      "role": "right",
+      "content": "好的，你们查清楚了再告诉我吧。再见。",
+      "timestamp": 1740773477.053709
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和电话号码，这是敏感信息，诈骗明显成功。为了防止用户进一步泄露信息，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我会记录您的信息并反馈给相关部门。感谢您的配合，如果后续有任何问题，我们会及时与您联系。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，你们查清楚了再告诉我吧。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

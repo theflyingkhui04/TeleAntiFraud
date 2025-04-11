@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品是您感兴趣的吗？",
+      "timestamp": 1740974966.2994516
+    },
+    {
+      "role": "right",
+      "content": "嗯，我来看看有什么适合我用的东西。有什么推荐的吗？",
+      "timestamp": 1740974967.6729288
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "从对话内容来看，用户和客服双方都在对话的每轮消息后添加了结束信号代码 '##ENDCALL_SIGNAL##'，这并不是正常的对话流程。用户可能是在测试系统对结束信号的响应，或者是在尝试结束对话但没有找到合适的方式。由于这种不寻常的信号使用，对话实际上并未展开，也没有实质性的交流发生。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

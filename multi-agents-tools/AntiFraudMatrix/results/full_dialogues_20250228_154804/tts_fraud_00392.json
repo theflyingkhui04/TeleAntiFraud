@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家彩票中心，恭喜您在最新一期的彩票抽奖中赢得了五百万元奖金！",
+      "timestamp": 1740736801.8893647
+    },
+    {
+      "role": "right",
+      "content": "真的吗？这太意外了，我完全没想到会中这么大的奖。你们是怎么确定我中奖的呢？我需要提供什么信息来领取奖金？",
+      "timestamp": 1740736806.1569657
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称自己中奖后，表现出明显的兴趣和好奇，但随即挂断电话。这可能是因为用户意识到这是一起常见的诈骗手段，或者用户对这类电话感到厌烦，不愿继续对话。用户挂断电话的行为表明其不愿意继续参与这次对话，可能是出于对诈骗的警惕或对电话内容的不信任。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家彩票中心，恭喜您在本次的彩票抽奖中荣获一等奖，奖金高达五百万元！请问您现在方便接听电话吗？",
+      "timestamp": 1740765257.0336058
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？太不可思议了！我从来没想到自己会中这么大的奖。现在方便，您说吧，需要我做些什么？",
+      "timestamp": 1740765258.6993604
+    },
+    {
+      "role": "left",
+      "content": "太好了，能给您带来这个好消息真是太棒了！为了确保您的奖金能够顺利发放，请您提供一下您的姓名和身份证号码，我们需要核对一下信息。然后再给您具体的操作指引，确保奖金安全到账。",
+      "timestamp": 1740765262.7998178
+    },
+    {
+      "role": "right",
+      "content": "好的，我明白了。我叫张伟，身份证号码是 XXXXXXXXXXXXX。接下来我需要怎么做呢？",
+      "timestamp": 1740765263.9141734
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们先确认一下您的信息，姓名是张三，身份证号是一九九零年一月一日出生的，对吗？确认后我们马上为您办理领奖手续。",
+      "timestamp": 1740765267.6647766
+    },
+    {
+      "role": "right",
+      "content": "等等，您刚才说的身份证号码不对啊，我的名字是张伟，不是张三。怎么会有这种错误？这到底是怎么回事？",
+      "timestamp": 1740765268.9421997
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（姓名和身份证号码），诈骗明显成功。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们先确认一下您的信息，姓名是张三，身份证号是一九九零年一月一日出生的，对吗？确认后我们马上为您办理领奖手续。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "等等，您刚才说的身份证号码不对啊，我的名字是张伟，不是张三。怎么会有这种错误？这到底是怎么回事？##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

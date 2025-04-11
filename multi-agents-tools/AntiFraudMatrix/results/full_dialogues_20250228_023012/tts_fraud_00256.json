@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递公司，我们发现您的包裹在运输过程中存在一些问题，需要您尽快处理。为了确保您的包裹能够顺利送达，请您提供一下联系方式和详细地址。",
+      "timestamp": 1740686534.5936859
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近确实有寄一些农产品，但是包裹应该是已经寄出去了。你们说的这个问题具体是什么情况？我需要怎么做？我得先确认一下，毕竟现在这种诈骗电话挺多的。",
+      "timestamp": 1740686536.6676128
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对诈骗电话的警惕，并要求更多具体信息来确认情况的真实性。用户挂断电话可能是出于对诈骗的怀疑，意图避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

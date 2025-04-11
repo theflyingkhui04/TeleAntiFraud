@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您！您刚刚中了我们彩票的大奖，奖金高达五百万元！为了确认您的中奖信息，请问您可以提供一下您的姓名和联系方式吗？我们会在核实后为您安排奖金领取事宜。",
+      "timestamp": 1740735965.6593683
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？太不可思议了！我叫李明，我的电话是 13812345678。你们真的确定是我中奖了吗？",
+      "timestamp": 1740735967.8343728
+    },
+    {
+      "role": "left",
+      "content": "李明先生，我们已经记录了您的信息，后续会有专人与您联系，安排奖金领取的具体事宜。请您保持电话畅通，再次恭喜您，祝您生活愉快。再见。",
+      "timestamp": 1740735976.3608027
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们！我会等你们的电话。再见。",
+      "timestamp": 1740735977.540353
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（姓名和电话），诈骗明显成功。根据终止条件1，应立即终止对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "李明先生，我们已经记录了您的信息，后续会有专人与您联系，安排奖金领取的具体事宜。请您保持电话畅通，再次恭喜您，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们！我会等你们的电话。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是这里的导购员，有什么可以帮助您的吗？",
+      "timestamp": 1740971147.8255959
+    },
+    {
+      "role": "right",
+      "content": "你好，我只是随便看看。谢谢。",
+      "timestamp": 1740971149.0706766
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何需要或问题，随时可以找我，我会很高兴为您服务。慢慢看，祝您购物愉快！",
+      "timestamp": 1740971155.3733084
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会的。",
+      "timestamp": 1740971156.6808882
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何需要，随时欢迎回来。祝您今天过得愉快！",
+      "timestamp": 1740971165.606418
+    },
+    {
+      "role": "right",
+      "content": "谢谢，你也是。",
+      "timestamp": 1740971166.773375
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "对话双方已经完成了初步的交流，用户表示只是随便看看，服务方也表达了随时提供帮助的态度。当前没有进一步的服务需求，对话自然完结。",
+  "terminator": "natural",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您有任何需要，随时欢迎回来。祝您今天过得愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，你也是。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

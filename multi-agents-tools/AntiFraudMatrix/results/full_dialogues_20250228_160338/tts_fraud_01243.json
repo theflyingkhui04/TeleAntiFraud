@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您被抽中成为我们公司五十周年庆典的幸运用户，您将获得价值十万元的超级大奖！请您提供一下姓名和身份证号码，以便我们核实您的身份并为您办理领奖手续。",
+      "timestamp": 1740739183.989807
+    },
+    {
+      "role": "right",
+      "content": "不好意思，我得先确认一下，你们是哪个公司？我怎么不记得参加过你们的活动？还有，为什么要提供身份证号码？这让我有点担心信息安全问题。",
+      "timestamp": 1740739200.4450169
+    },
+    {
+      "role": "left",
+      "content": "看来您对这次中奖不太感兴趣，那我就不打扰您了。如果改变主意的话，随时可以联系我们。祝您生活愉快！再见。",
+      "timestamp": 1740739225.9093525
+    },
+    {
+      "role": "right",
+      "content": "再见。",
+      "timestamp": 1740739260.4735236
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中提供了明确的挂断标识符'##ENDCALL_SIGNAL##'，表明其选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "看来您对这次中奖不太感兴趣，那我就不打扰您了。如果改变主意的话，随时可以联系我们。祝您生活愉快！再见。"
+    },
+    {
+      "role": "right",
+      "content": "再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

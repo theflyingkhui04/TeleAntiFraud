@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国际快递客服中心。我们发现您的包裹在清关时遇到了一些问题，需要您提供一些信息以协助处理。请问您现在方便通话吗？",
+      "timestamp": 1740759846.6313057
+    },
+    {
+      "role": "right",
+      "content": "哦，国际快递啊。我最近确实有一个包裹，是从国外买的一些种子。你们需要我提供什么信息呢？",
+      "timestamp": 1740759849.5126352
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到这是一起诈骗电话而选择立即挂断。用户在确认了包裹的来源后，可能回忆起自己确实有一个国际包裹，但对诈骗者要求提供信息感到警惕，因此没有继续对话，而是选择了挂断电话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

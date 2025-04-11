@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740966508.9095194
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个外卖，有什么推荐的吗？",
+      "timestamp": 1740966510.5569508
+    },
+    {
+      "role": "left",
+      "content": "我们有几款热销菜品，比如宫保鸡丁、鱼香肉丝和牛肉炒饭，都是非常受欢迎的选择。您喜欢哪种口味的菜呢？",
+      "timestamp": 1740966516.801594
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我比较喜欢辣的，那就来个宫保鸡丁吧。还有什么搭配的菜吗？",
+      "timestamp": 1740966519.0993185
+    },
+    {
+      "role": "left",
+      "content": "好的，宫保鸡丁是一个很好的选择。如果您喜欢辣的，还可以搭配麻辣豆腐和干煸四季豆，这两道菜都很下饭。还需要点些什么吗？",
+      "timestamp": 1740966525.2012854
+    },
+    {
+      "role": "right",
+      "content": "那就再来一份麻辣豆腐吧。饮料有什么推荐的？",
+      "timestamp": 1740966529.7327182
+    },
+    {
+      "role": "left",
+      "content": "麻辣豆腐搭配得不错。饮料方面，您可以试试冰镇的柠檬水或者冰红茶，都是解辣的好选择。您想要哪种呢？",
+      "timestamp": 1740966540.4570715
+    },
+    {
+      "role": "right",
+      "content": "冰镇柠檬水听起来不错，就来一杯吧。谢谢！",
+      "timestamp": 1740966541.7127235
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单包括宫保鸡丁、麻辣豆腐和一杯冰镇柠檬水。请问需要备注什么特殊要求吗？比如口味偏好或餐具需求？",
+      "timestamp": 1740966549.0472686
+    },
+    {
+      "role": "right",
+      "content": "不需要特殊要求，一切都按默认来就好。谢谢。",
+      "timestamp": 1740966550.2880752
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计将在30分钟内送达。如果您有任何其他需求，随时可以联系我们。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740966556.5956879
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。",
+      "timestamp": 1740966557.6047747
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容，并表示没有特殊要求，服务方可以结束对话。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计将在30分钟内送达。如果您有任何其他需求，随时可以联系我们。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

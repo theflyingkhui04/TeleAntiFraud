@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我们手上，赶紧准备五十万，不然你就再也见不到他了！",
+      "timestamp": 1740730869.6184936
+    },
+    {
+      "role": "right",
+      "content": "你们别吓唬我，我儿子在家里好好的，你们是不是搞错了？",
+      "timestamp": 1740730912.0267406
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户识破了诈骗者的谎言，意识到这是一个诈骗电话，因此主动挂断了电话以结束对话。用户的意图是保护自己不受诈骗，并避免进一步的骚扰。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

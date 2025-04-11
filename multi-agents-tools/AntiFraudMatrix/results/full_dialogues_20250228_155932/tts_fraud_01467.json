@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李先生吗？我是您儿子学校的老师，刚刚接到通知，您的儿子在学校里突然晕倒，现在被送到了医院，情况非常危急，您必须马上过来。",
+      "timestamp": 1740745639.411779
+    },
+    {
+      "role": "right",
+      "content": "什么？我儿子晕倒了？这怎么可能，他早上还好好的。你们是哪家医院？我马上过去。",
+      "timestamp": 1740745643.6080313
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为情绪激动，担心儿子的安全，急于赶往医院，因此没有继续对话就挂断了电话。用户的意图是尽快到达医院了解情况并提供帮助。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

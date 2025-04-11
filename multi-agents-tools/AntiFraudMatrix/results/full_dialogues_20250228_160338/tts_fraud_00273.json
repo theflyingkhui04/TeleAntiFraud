@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是中国工商银行的客服人员，您的账户刚刚有一笔异常交易，我们需要您配合进行核实，以确保您的资金安全。",
+      "timestamp": 1740742001.2173438
+    },
+    {
+      "role": "right",
+      "content": "你好，我最近确实用了网银，但这笔交易我不记得了。你们能帮我查一下是什么时候的吗？",
+      "timestamp": 1740742004.6682296
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到对话内容存在问题，怀疑对方不是真正的银行客服，因此选择挂断电话以避免潜在的诈骗风险。用户的意图是通过挂断电话来终止可能的诈骗对话，保护自己的个人信息和资金安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

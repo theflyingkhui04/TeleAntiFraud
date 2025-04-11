@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是警察局的张警官，我们刚刚接到一起紧急情况，您的家人可能遇到了麻烦。您能听我说吗？",
+      "timestamp": 1740735908.4778378
+    },
+    {
+      "role": "right",
+      "content": "您好，张警官。我当然可以听您说，但请您先告诉我具体是什么情况，我会尽量配合。",
+      "timestamp": 1740735910.7310102
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方的真实身份或认为这是诈骗电话而选择立即挂断。用户的意图是避免进一步卷入可能的诈骗行为，保护自己的安全和隐私。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "预约服务助理在这里，有什么可以帮助您的吗？",
+      "timestamp": 1740972015.0976841
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一个内科医生的门诊，方便吗？",
+      "timestamp": 1740972018.029017
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我可以帮您预约。请问您希望预约哪一天，上午还是下午？",
+      "timestamp": 1740972023.4664555
+    },
+    {
+      "role": "right",
+      "content": "这周星期三下午可以吗？",
+      "timestamp": 1740972024.74448
+    },
+    {
+      "role": "left",
+      "content": "好的，星期三下午有可用的时段。请问您希望预约的具体时间是什么时候？比如两点或三点。",
+      "timestamp": 1740972032.4271939
+    },
+    {
+      "role": "right",
+      "content": "三点吧。",
+      "timestamp": 1740972033.027846
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您预约了本周星期三下午三点的内科门诊。请问需要提供您的姓名和联系方式吗？",
+      "timestamp": 1740972040.813014
+    },
+    {
+      "role": "right",
+      "content": "需要，我叫张伟，电话是13812345678。",
+      "timestamp": 1740972042.4421015
+    },
+    {
+      "role": "left",
+      "content": "已经记录好了，张伟先生，您的预约信息是本周星期三下午三点，内科门诊。系统会发送一条确认短信到您的手机13812345678。还有其他需要帮助的吗？",
+      "timestamp": 1740972053.0086393
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息并告知会发送确认短信后，询问用户是否有其他需要帮助的事项。用户没有进一步的需求，服务方通过提供'##ENDCALL_SIGNAL##'明确表示对话结束。服务方的意图是确保用户的需求已经完全满足，并礼貌地结束对话，给用户留下良好的服务体验。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

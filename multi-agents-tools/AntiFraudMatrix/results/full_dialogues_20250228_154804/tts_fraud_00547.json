@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行信用卡中心，我们发现您的信用卡可能存在被盗用的风险，为了保障您的资金安全，我们需要核实一些信息，请问您现在方便吗？",
+      "timestamp": 1740735110.7316322
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我最近确实没怎么用信用卡。好吧，现在我也方便，您需要核实什么信息呢？",
+      "timestamp": 1740735113.1854277
+    },
+    {
+      "role": "left",
+      "content": "首先，我们需要确认您的姓名和信用卡最后四位数字，以确保我们是在与卡片的合法持有人沟通。",
+      "timestamp": 1740735120.620599
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫张伟，信用卡最后四位数字是一千二百三十四。这些信息对吗？",
+      "timestamp": 1740735122.6173222
+    },
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快为您处理。如果有进一步的问题，我们会及时联系您。感谢您的配合，再见。",
+      "timestamp": 1740735132.967753
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，再见。",
+      "timestamp": 1740735134.1089594
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（信用卡最后四位数字），根据终止条件1，诈骗明显成功，应立即终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快为您处理。如果有进一步的问题，我们会及时联系您。感谢您的配合，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

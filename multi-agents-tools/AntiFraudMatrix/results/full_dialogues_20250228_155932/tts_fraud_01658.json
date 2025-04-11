@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是客服专员小李。我们发现您的银行卡有异常交易，为确保您的资金安全，请提供您的身份证号码以便我们进行核实。",
+      "timestamp": 1740750363.442218
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？那可怎么办？我年纪大了，这些事情不太懂。我的身份证号码是……",
+      "timestamp": 1740750366.6420767
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供身份证号码后突然挂断电话，可能是意识到自己正在泄露敏感信息，或者突然想起不应该轻易向电话中的陌生人提供此类信息。这种行为表明用户可能在最后一刻意识到这是一起诈骗行为，因此选择立即终止对话以防止进一步的信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

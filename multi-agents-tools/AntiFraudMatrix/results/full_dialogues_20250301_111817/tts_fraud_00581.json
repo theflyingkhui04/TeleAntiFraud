@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自某某银行的客服代表，我看到您的账户近期有一些异常活动，需要您配合我们进行核实。为了您的账户安全，麻烦您提供一下您的身份证号和开户行信息。",
+      "timestamp": 1740801923.2024703
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？这可怎么办啊。我这人对这些事情不太懂，你能帮我解决吗？我身份证号是 XXXXXXXXXXXXX，开户行是某某银行。谢谢啊，你可真是帮了我大忙了。",
+      "timestamp": 1740801925.7727728
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们已经记录了相关信息，会尽快处理并确保您的账户安全。如果后续有任何问题，我们会及时与您联系。再次感谢，祝您生活愉快。再见。",
+      "timestamp": 1740801932.9959807
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，我这心就放下了。再见。",
+      "timestamp": 1740801934.054442
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（身份证号和开户行信息），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们已经记录了相关信息，会尽快处理并确保您的账户安全。如果后续有任何问题，我们会及时与您联系。再次感谢，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，我这心就放下了。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

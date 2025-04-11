@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自顺丰快递的客服，这里有一份您的包裹，但是因为一些原因现在需要您支付额外的处理费用，麻烦您尽快处理，不然包裹可能会被退回。",
+      "timestamp": 1740743424.5218077
+    },
+    {
+      "role": "right",
+      "content": "您好，我是老李，农民出身，对这些快递的事儿不太懂。您说的这个额外费用是怎么回事？我之前都没遇到过这种情况。能不能详细说说？",
+      "timestamp": 1740743449.4236395
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到对话涉及诈骗，因为用户表达了对额外费用的疑惑，并询问详细信息，这表明用户对诈骗者的说法持怀疑态度。用户在询问详细信息后立即挂断电话，可能是为了避免进一步的诈骗尝试，保护自己的财产安全。挂断电话是用户采取的一种自我保护措施，表明用户不愿意继续与诈骗者交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

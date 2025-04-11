@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的邻居小张，我刚刚接到了一个非常紧急的电话，说您的儿子小李被我们这里的黑社会绑架了，他们要求立即支付一百万赎金，不然就要对小李下手。您现在必须马上行动，不然就来不及了。",
+      "timestamp": 1740793736.1629858
+    },
+    {
+      "role": "right",
+      "content": "小张，你先别急，你说的这一切我需要核实一下。你能告诉我这通电话的详细信息吗？比如对方的电话号码或者银行账户？我得先确认这些信息。",
+      "timestamp": 1740793738.5434668
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的信息表示怀疑，并要求提供更多的详细信息以进行核实。在诈骗者未能提供进一步信息的情况下，用户选择挂断电话，以避免进一步的风险。这表明用户可能已经识破了诈骗企图，或是出于谨慎考虑，决定不再继续对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

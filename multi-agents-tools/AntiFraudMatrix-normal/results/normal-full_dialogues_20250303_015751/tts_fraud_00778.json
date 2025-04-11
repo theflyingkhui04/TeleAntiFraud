@@ -1,0 +1,66 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到我们的商店，有什么商品是您特别感兴趣的吗？",
+      "timestamp": 1740947175.7594984
+    },
+    {
+      "role": "right",
+      "content": "你好，我在找一些健康食品，有什么推荐的吗？",
+      "timestamp": 1740947179.3409307
+    },
+    {
+      "role": "left",
+      "content": "我们有一些非常受欢迎的健康食品，比如燕麦、坚果和藜麦，这些都是很好的选择。您对哪一种更感兴趣呢？",
+      "timestamp": 1740947184.5061834
+    },
+    {
+      "role": "right",
+      "content": "燕麦听起来不错，可以推荐一个品牌吗？",
+      "timestamp": 1740947187.1874304
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们这里的桂格燕麦非常受欢迎，它不仅口感好，而且营养价值高，非常适合日常食用。您想要看看这款产品吗？",
+      "timestamp": 1740947193.0980132
+    },
+    {
+      "role": "right",
+      "content": "好的，那就看看桂格燕麦吧。",
+      "timestamp": 1740947194.009792
+    },
+    {
+      "role": "left",
+      "content": "好的，桂格燕麦现在有多种口味，包括原味、蜂蜜坚果味和苹果肉桂味，您更倾向于哪种口味呢？",
+      "timestamp": 1740947198.297059
+    },
+    {
+      "role": "right",
+      "content": "原味吧，简单一些。",
+      "timestamp": 1740947201.590485
+    },
+    {
+      "role": "left",
+      "content": "好的，原味桂格燕麦是我们店里的畅销产品。您可以在我们的健康食品区找到它，或者需要我帮您拿一包吗？",
+      "timestamp": 1740947206.9601474
+    },
+    {
+      "role": "right",
+      "content": "麻烦你帮我拿一包吧。谢谢。",
+      "timestamp": 1740947207.895217
+    },
+    {
+      "role": "left",
+      "content": "不客气，我这就为您拿一包原味桂格燕麦。请您稍等片刻。",
+      "timestamp": 1740947215.3311782
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在用户请求帮助后，主动为用户拿取所需商品，并在确认用户需求后使用了结束信号代码。这表明服务方认为用户的需求已经得到满足，且服务流程已经完成，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服代表，这里显示您的账户出现了一些异常活动，为了您的安全，我们需要尽快核实一些信息。请问您现在方便吗？",
+      "timestamp": 1740759534.610121
+    },
+    {
+      "role": "right",
+      "content": "哦，银行的人啊。我这账户最近也没用，咋就有异常了呢？那您说吧，要核实啥信息？",
+      "timestamp": 1740759540.0661433
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方身份的真实性或对所谓的账户异常活动感到困惑，选择挂断电话以避免潜在的风险。用户的意图是终止与诈骗者的进一步交流，以保护自己的个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

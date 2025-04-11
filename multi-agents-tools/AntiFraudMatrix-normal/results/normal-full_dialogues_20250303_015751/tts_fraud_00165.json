@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是打车服务的客服，有什么可以帮助您的吗？",
+      "timestamp": 1740975499.0045712
+    },
+    {
+      "role": "right",
+      "content": "你好，我刚用你们的打车软件打了一辆车，但是司机好像走错路了。",
+      "timestamp": 1740975500.9764917
+    },
+    {
+      "role": "left",
+      "content": "非常抱歉给您带来不便，我这就帮您联系司机确认情况，请您稍等。同时，可以请您告诉我司机的车牌号或订单号，以便我更快地处理吗？",
+      "timestamp": 1740975507.316583
+    },
+    {
+      "role": "right",
+      "content": "好的，订单号是123456789。",
+      "timestamp": 1740975511.687576
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，我已经联系了司机。司机表示会尽快调整路线，确保尽快到达您的目的地。预计还需要大约十分钟的时间。如果还有其他问题，您可以随时联系我。",
+      "timestamp": 1740975516.2653968
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。",
+      "timestamp": 1740975516.8096235
+    },
+    {
+      "role": "left",
+      "content": "感谢您的理解和耐心等待，如果一切顺利，您的行程应该不会受到太大影响。如果有任何其他问题，欢迎随时联系我们的客服。祝您旅途愉快。",
+      "timestamp": 1740975521.6283865
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740975523.6837533
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示满意并感谢服务方的帮助，问题已得到解决。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的理解和耐心等待，如果一切顺利，您的行程应该不会受到太大影响。如果有任何其他问题，欢迎随时联系我们的客服。祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

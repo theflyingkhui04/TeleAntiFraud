@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行客服中心，我们检测到您的账户有异常交易，请问您最近是否有使用过银行卡进行大额转账或购物？",
+      "timestamp": 1740684263.6174922
+    },
+    {
+      "role": "right",
+      "content": "您好，我确实已经退休了，最近确实没怎么用银行卡。不过，我之前确实有一笔养老金到账，但那应该不算大额交易吧。你们是怎么知道我的信息的？",
+      "timestamp": 1740684265.5002506
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

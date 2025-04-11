@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递客服，我们发现您的包裹可能涉及违禁物品，需要您协助核实处理。请问您方便现在接听吗？",
+      "timestamp": 1740688269.358848
+    },
+    {
+      "role": "right",
+      "content": "哦，您好，我是李老板。我的包裹里怎么会有违禁物品呢？你们是不是搞错了？我这人做事一向小心谨慎的。",
+      "timestamp": 1740688272.6035428
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一个诈骗电话，因为正常的快递公司通常不会通过电话直接询问包裹是否涉及违禁物品，而是会通过官方渠道发送通知。用户在表达了自己的疑惑后选择挂断电话，可能是为了避免进一步的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

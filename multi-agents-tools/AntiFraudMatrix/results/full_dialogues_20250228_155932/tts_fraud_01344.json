@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！这里是国际快递服务中心，我们发现您的包裹因涉及违禁品被海关扣留，需要您立即支付两百元的罚款以确保包裹安全送达。请问您现在方便处理吗？",
+      "timestamp": 1740751525.7420948
+    },
+    {
+      "role": "right",
+      "content": "哦，这事儿可大可小。你们能确定是我的包裹吗？我最近确实寄了几样东西，不过我不记得有违禁品。你们能不能告诉我具体是什么东西被扣留了？我得确认一下。",
+      "timestamp": 1740751528.630098
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对诈骗者所声称的包裹问题的怀疑，要求提供更具体的信息以确认情况的真实性。用户可能已经意识到这是一起诈骗行为，或者至少认为在没有更多信息的情况下不应该继续对话。因此，用户选择主动挂断电话，以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

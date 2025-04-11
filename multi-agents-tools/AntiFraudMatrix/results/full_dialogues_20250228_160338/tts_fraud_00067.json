@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您被选为幸运用户，获得我们公司举办的特别抽奖活动大奖！请提供您的姓名和身份证号码，以便我们核实身份并安排奖金发放。",
+      "timestamp": 1740732116.4369035
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？太棒了！我叫李明，身份证号码是三十七零一二零一九九零一一零一零一零。太感谢你们了，我真是太幸运了！",
+      "timestamp": 1740732151.543381
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，李先生。我们已经核实了您的信息，请保持电话畅通，我们会在24小时内联系您安排奖金领取事宜。祝您生活愉快！",
+      "timestamp": 1740732165.9423358
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们！我真的很开心！期待你们的电话。再见！",
+      "timestamp": 1740732186.754826
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（姓名和身份证号码），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，李先生。我们已经核实了您的信息，请保持电话畅通，我们会在24小时内联系您安排奖金领取事宜。祝您生活愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们！我真的很开心！期待你们的电话。再见！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

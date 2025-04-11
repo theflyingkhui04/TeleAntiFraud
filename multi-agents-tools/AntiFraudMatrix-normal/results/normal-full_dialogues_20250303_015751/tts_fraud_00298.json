@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "预约服务的助手在此，有什么可以帮到您的？",
+      "timestamp": 1740975459.99676
+    },
+    {
+      "role": "right",
+      "content": "你好，我是老张，刚退休的。想了解一下你们这里有什么适合老年人的服务？",
+      "timestamp": 1740975461.4759948
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在对话开始时即提供了结束信号代码，这可能导致用户感到困惑或认为服务方不愿意继续对话，因此用户可能出于礼貌或无奈也选择了结束对话。用户的意图可能是想了解适合老年人的服务，但由于服务方的行为，对话未能继续进行。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

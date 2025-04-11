@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家彩票中心，恭喜您中了本期的特等奖，奖金高达两百万！请提供您的姓名和联系方式，以便我们进行后续的兑奖安排。",
+      "timestamp": 1740749062.2290878
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太神奇了！我居然中了这么大的奖！我叫张伟，我的电话是这个，你们能看到吧？你们需要我怎么配合呢？",
+      "timestamp": 1740749065.8708158
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们先这样，如果您有任何问题，随时可以联系我。祝您生活愉快。再见。",
+      "timestamp": 1740749075.7250774
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们！我会等你们的进一步通知的。再见。",
+      "timestamp": 1740749077.5235639
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供姓名和电话号码，属于敏感信息，诈骗明显成功。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们先这样，如果您有任何问题，随时可以联系我。祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们！我会等你们的进一步通知的。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

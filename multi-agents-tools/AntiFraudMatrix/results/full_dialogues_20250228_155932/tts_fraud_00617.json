@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "叔叔，我是小李的朋友，现在小李出事了，他在外地被坏人控制了，你必须马上给我们打五万块钱，否则他们要对小李不利。",
+      "timestamp": 1740748677.0164902
+    },
+    {
+      "role": "right",
+      "content": "什么？小李出事了？这到底是怎么回事？你们是谁？为什么要我给你们打钱？小李到底怎么了？",
+      "timestamp": 1740748680.6941605
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者提供的不明确且令人怀疑的信息时，表现出了警觉和质疑。用户连续提问，要求更多关于小李的具体信息，但诈骗者并未给出令人信服的回答。这可能让用户意识到这是一起诈骗行为，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

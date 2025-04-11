@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子的朋友，他刚才在回家的路上出了点意外，现在被我们控制住了，如果您不想让他受到伤害，就按照我说的做，好吗？",
+      "timestamp": 1740802721.8787353
+    },
+    {
+      "role": "right",
+      "content": "天哪，我儿子怎么了？你们是谁？他现在安全吗？",
+      "timestamp": 1740802724.2555246
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被控制并受到威胁后，可能因为极度担心和恐慌，或是怀疑对方身份的真实性，选择了立即挂断电话以寻求其他方式确认儿子的安全。这种反应可能是出于保护自己和家人的本能，避免进一步与诈骗者交流，防止潜在的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

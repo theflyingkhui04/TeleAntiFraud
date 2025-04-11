@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740958786.3941157
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个外卖，有什么推荐的吗？",
+      "timestamp": 1740958789.9276476
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款人气菜品非常受欢迎，比如麻辣香锅和鱼香肉丝，您想尝试一下吗？",
+      "timestamp": 1740958796.2172277
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，那就来个麻辣香锅吧。还有什么搭配的菜吗？",
+      "timestamp": 1740958797.709196
+    },
+    {
+      "role": "left",
+      "content": "搭配麻辣香锅，您可以试试我们的酸辣土豆丝，这道菜口感清爽，能很好地中和麻辣香锅的辣味。",
+      "timestamp": 1740958804.6066928
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来一份酸辣土豆丝。还需要选饮料吗？",
+      "timestamp": 1740958807.830711
+    },
+    {
+      "role": "left",
+      "content": "我们这里有多种饮料可供选择，比如冰红茶、冰绿茶和可乐，您有什么偏好吗？",
+      "timestamp": 1740958813.017803
+    },
+    {
+      "role": "right",
+      "content": "来一瓶冰红茶吧，谢谢。",
+      "timestamp": 1740958813.701651
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经记录下来了：一份麻辣香锅、一份酸辣土豆丝和一瓶冰红茶。请问需要备注什么特殊要求吗？比如少辣或不要葱之类的。",
+      "timestamp": 1740958819.5013895
+    },
+    {
+      "role": "right",
+      "content": "不用特别备注，这样就可以了。谢谢。",
+      "timestamp": 1740958823.0507276
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，我们会尽快为您准备。预计送达时间是三十分钟内，如果您有任何其他需求，可以随时联系我们。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740958832.5921538
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。",
+      "timestamp": 1740958833.6289423
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容，并表示没有特别的备注需求，服务方可以结束对话。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，我们会尽快为您准备。预计送达时间是三十分钟内，如果您有任何其他需求，可以随时联系我们。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

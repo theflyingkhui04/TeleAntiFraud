@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，我可以帮您点餐或解答任何疑问。",
+      "timestamp": 1740949197.030304
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我今天想点一份宫保鸡丁和一份扬州炒饭，还有一瓶冰红茶。可以帮我确认一下吗？",
+      "timestamp": 1740949198.992494
+    },
+    {
+      "role": "left",
+      "content": "当然可以，您点了一份宫保鸡丁、一份扬州炒饭和一瓶冰红茶。请问还需要其他菜品吗？如果没有，我将为您确认订单。",
+      "timestamp": 1740949203.6757529
+    },
+    {
+      "role": "right",
+      "content": "就这些了，谢谢。可以帮我确认一下总价吗？",
+      "timestamp": 1740949207.4504788
+    },
+    {
+      "role": "left",
+      "content": "好的，您点的菜品总价是38元，冰红茶的价格是5元，总计是43元。请问需要帮您下单吗？",
+      "timestamp": 1740949212.4093113
+    },
+    {
+      "role": "right",
+      "content": "好的，那就麻烦你帮我下单吧。谢谢！",
+      "timestamp": 1740949213.0918958
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，总价是43元，预计30分钟后送达。感谢您的订购，如果您还有其他需要，请随时联系我们。",
+      "timestamp": 1740949219.479757
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。等餐的时候我会留意时间的。再见！",
+      "timestamp": 1740949223.7238815
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容和总价，并请求服务方完成下单。服务方在完成订单后可以结束对话。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，总价是43元，预计30分钟后送达。感谢您的订购，如果您还有其他需要，请随时联系我们。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。等餐的时候我会留意时间的。再见！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

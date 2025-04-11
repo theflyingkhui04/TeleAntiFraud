@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想订哪家餐厅的餐吗？",
+      "timestamp": 1740981558.718622
+    },
+    {
+      "role": "right",
+      "content": "我想订一下“老北京炸酱面”这家餐厅的餐，他们的炸酱面挺有名的。",
+      "timestamp": 1740981559.9493382
+    },
+    {
+      "role": "left",
+      "content": "好的，老北京炸酱面是一家很受欢迎的餐厅，他们的炸酱面确实很受欢迎。您想订什么样的餐品呢？如果您不确定，我可以为您推荐一些热门菜品。",
+      "timestamp": 1740981563.5745864
+    },
+    {
+      "role": "right",
+      "content": "那就麻烦你推荐几道热门菜品吧。",
+      "timestamp": 1740981564.621481
+    },
+    {
+      "role": "left",
+      "content": "当然可以，除了炸酱面，他们的糖醋排骨、宫保鸡丁和羊肉泡馍也是点单率非常高的菜品，您可以考虑一下。您需要我帮您下单这些菜品吗？",
+      "timestamp": 1740981569.5126362
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来一份炸酱面、一份糖醋排骨和一份宫保鸡丁吧。谢谢。",
+      "timestamp": 1740981570.811077
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您确定要订这些菜品，我可以帮您下单了。请问还有其他需要添加的吗？如果没有，我会立即为您处理订单。",
+      "timestamp": 1740981578.7152286
+    },
+    {
+      "role": "right",
+      "content": "没有了，就这些吧。谢谢你的帮助。",
+      "timestamp": 1740981579.568929
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了要订的餐品，并表示感谢，这表明用户的需求已经得到满足，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您确定要订这些菜品，我可以帮您下单了。请问还有其他需要添加的吗？如果没有，我会立即为您处理订单。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "没有了，就这些吧。谢谢你的帮助。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

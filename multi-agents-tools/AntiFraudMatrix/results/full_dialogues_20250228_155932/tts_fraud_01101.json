@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行客服中心。我们发现您的账户存在异常交易，需要立即核实您的身份信息，以确保账户安全。请问您现在方便接听电话吗？",
+      "timestamp": 1740753279.1434836
+    },
+    {
+      "role": "right",
+      "content": "哦，好的，我现在可以接电话。请问有什么问题呢？",
+      "timestamp": 1740753280.167945
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出需要核实身份信息后，可能意识到这是一个潜在的诈骗电话，因此主动挂断了电话。用户的意图是避免提供敏感信息，保护自己的账户安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

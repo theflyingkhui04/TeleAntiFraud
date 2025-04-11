@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询员在这里，您可以告诉我需要了解的路线或者交通信息，我会尽力帮您解答。",
+      "timestamp": 1740944258.4996214
+    },
+    {
+      "role": "right",
+      "content": "好的，我想了解一下从市中心到机场的路线，最好能避开高峰时段的拥堵。",
+      "timestamp": 1740944265.9405756
+    },
+    {
+      "role": "left",
+      "content": "从市中心到机场，建议您可以选择走机场高速，这是最直接的路线。为避开高峰时段，您可以考虑在早上七点之前或者晚上六点之后出发。如果可能的话，您还可以选择地铁，这样可以避免路面交通的影响。",
+      "timestamp": 1740944271.9818044
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会考虑地铁的选项。还有，地铁的运营时间是多久？",
+      "timestamp": 1740944273.1140552
+    },
+    {
+      "role": "left",
+      "content": "地铁的运营时间一般是早上五点半到晚上十一点半，具体时间可能会根据不同的线路有所调整。您可以提前查一下具体的线路时间表，以确保顺利出行。",
+      "timestamp": 1740944278.3064854
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我会提前查一下时间表。",
+      "timestamp": 1740944279.1918964
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您选择地铁出行，记得提前查好时间表。祝您旅途愉快，如果还有其他问题，欢迎随时咨询。",
+      "timestamp": 1740944282.9058826
+    },
+    {
+      "role": "right",
+      "content": "谢谢，有问题我会再联系。祝你一天愉快。",
+      "timestamp": 1740944284.1345155
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示感谢并提到会提前查看时间表，这意味着用户已经获得了所需的信息，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您选择地铁出行，记得提前查好时间表。祝您旅途愉快，如果还有其他问题，欢迎随时咨询。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，有问题我会再联系。祝你一天愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的银行客服代表，我们发现您的账户有异常活动，为了您的安全，需要您立即提供一些信息以便我们进行核实。",
+      "timestamp": 1740753240.4001849
+    },
+    {
+      "role": "right",
+      "content": "您好，我退休了，平时不怎么用银行账户。不过您说有异常活动，这让我有点担心。请问您能告诉我具体是怎么回事吗？我得先确认一下这是真的。",
+      "timestamp": 1740753242.4155042
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对电话真实性的怀疑，并要求诈骗者提供具体的信息以确认电话的真实性。诈骗者没有提供具体的异常活动详情，而是直接要求用户提供敏感信息，这引发了用户的警觉，导致用户主动挂断电话。用户的意图是避免可能的诈骗风险，保护个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

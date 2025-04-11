@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，请问有什么问题需要我帮助解决呢？",
+      "timestamp": 1740980936.5029676
+    },
+    {
+      "role": "right",
+      "content": "小张，我最近看到账单上有一些我不太明白的费用，能帮我查一下吗？",
+      "timestamp": 1740980938.8724086
+    },
+    {
+      "role": "left",
+      "content": "当然可以，麻烦您提供一下账单上的具体时间和费用项目，我来帮您核实。",
+      "timestamp": 1740980943.5302851
+    },
+    {
+      "role": "right",
+      "content": "好的，是上个月的账单，日期是10号，有一笔四百八十五元的费用，我不记得这笔费用了。",
+      "timestamp": 1740980945.3944592
+    },
+    {
+      "role": "left",
+      "content": "好的，我这就为您查询。请您稍等片刻。##WAIT_SIGNAL##",
+      "timestamp": 1740980949.3190882
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦你了。",
+      "timestamp": 1740980950.0568478
+    },
+    {
+      "role": "left",
+      "content": "已经查到了，这笔四百八十五元的费用是您在某某商城购买电子产品时产生的消费。请问您还记得这笔消费吗？",
+      "timestamp": 1740980955.3852758
+    },
+    {
+      "role": "right",
+      "content": "哦，想起来了，当时确实买了一个新的耳机。谢谢你的帮助，小张。",
+      "timestamp": 1740980956.8237796
+    },
+    {
+      "role": "left",
+      "content": "如果您对这笔消费还有疑问，或者需要进一步的帮助，可以随时联系我。感谢您的配合，祝您生活愉快。",
+      "timestamp": 1740980961.7855225
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的耐心服务。祝你工作顺利。",
+      "timestamp": 1740980962.7401514
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经找到了账单中不明确费用的原因，并表示感谢，表明问题已经解决，用户满意。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您对这笔消费还有疑问，或者需要进一步的帮助，可以随时联系我。感谢您的配合，祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的耐心服务。祝你工作顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

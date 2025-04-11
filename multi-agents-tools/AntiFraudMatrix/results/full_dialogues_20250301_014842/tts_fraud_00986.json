@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某宝客服，我们发现您的账户存在异常操作，为了保障您的账户安全，需要您配合我们进行核实。请问您现在方便吗？",
+      "timestamp": 1740779321.1730402
+    },
+    {
+      "role": "right",
+      "content": "您好，我前几天确实在某宝上购物了，不过账户应该没有问题。你们是怎么发现的异常操作呢？我需要怎么配合你们核实？",
+      "timestamp": 1740779322.8684275
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在询问了异常操作的具体情况后立即挂断电话，这可能是因为用户怀疑这是诈骗电话，不愿意进一步透露个人信息或参与对话。用户的意图是终止与诈骗者的交流，避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

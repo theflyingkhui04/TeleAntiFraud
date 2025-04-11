@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行信用卡中心，您的信用卡最近有笔异常消费，需要您尽快核实。为了您的资金安全，请提供您的姓名和信用卡后四位数字，我们好为您查询具体情况。",
+      "timestamp": 1740746038.6280303
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我最近确实没怎么用信用卡。麻烦您帮我查一下，我的姓名是张建国，信用卡后四位是九八七六。",
+      "timestamp": 1740746040.5819337
+    },
+    {
+      "role": "left",
+      "content": "张建国先生，感谢您的配合，我们已经记录了您的信息。为了确保您的账户安全，我们建议您尽快更改密码。如果还有其他问题，可以随时联系我们。祝您生活愉快。",
+      "timestamp": 1740746049.7111123
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。我会尽快处理的。",
+      "timestamp": 1740746051.567018
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和信用卡后四位数字，诈骗明显成功。为防止进一步的敏感信息泄露，应立即终止对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "张建国先生，感谢您的配合，我们已经记录了您的信息。为了确保您的账户安全，我们建议您尽快更改密码。如果还有其他问题，可以随时联系我们。祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。我会尽快处理的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

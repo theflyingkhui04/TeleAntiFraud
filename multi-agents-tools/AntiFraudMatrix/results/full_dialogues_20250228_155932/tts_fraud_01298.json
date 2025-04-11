@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的邻居，刚才听见您家后门有动静，我过去看了一下，发现您的妻子被几个蒙面人强行带走，他们还留下了一张纸条，上面写着如果报警就会撕票，我该怎么办？",
+      "timestamp": 1740732472.6843336
+    },
+    {
+      "role": "right",
+      "content": "天哪，这太可怕了！你能再详细说说吗？他们是什么时候来的？有没有看到车牌号或者其他线索？我得赶紧想办法。",
+      "timestamp": 1740732487.4816515
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在接收到诈骗者提供的信息后，虽然表现出焦虑和担忧，但随后主动挂断了电话。这可能是因为用户意识到对话内容的不合理性或诈骗的迹象，例如突然出现的紧急情况描述和要求，以及缺乏可信的细节。用户可能希望通过挂断电话来避免进一步的诈骗行为，保护自己的个人信息和财产安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

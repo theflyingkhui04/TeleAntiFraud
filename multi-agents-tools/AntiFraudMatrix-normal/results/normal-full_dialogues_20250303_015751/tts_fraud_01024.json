@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740958092.1919515
+    },
+    {
+      "role": "right",
+      "content": "您好，我想订一份外卖。有什么推荐的吗？",
+      "timestamp": 1740958093.571654
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款 popular 的菜品，比如宫保鸡丁、鱼香肉丝和牛肉炒饭，都很受顾客欢迎。您想尝试哪一款呢？",
+      "timestamp": 1740958099.1947513
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来一份宫保鸡丁吧。还需要点别的吗？",
+      "timestamp": 1740958100.5217767
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁已加入您的订单。我们还推荐搭配一些小菜，比如酸辣土豆丝或清炒时蔬，您看可以吗？",
+      "timestamp": 1740958107.4140995
+    },
+    {
+      "role": "right",
+      "content": "酸辣土豆丝也行，来一份吧。再加一碗米饭。",
+      "timestamp": 1740958108.7381659
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁、一份酸辣土豆丝和一碗米饭已加入您的订单。还需要帮您加点汤或者饮料吗？",
+      "timestamp": 1740958115.2756913
+    },
+    {
+      "role": "right",
+      "content": "来一碗蛋花汤吧，谢谢。",
+      "timestamp": 1740958116.0132546
+    },
+    {
+      "role": "left",
+      "content": "好的，一碗蛋花汤已加入您的订单。请问还有其他需要添加的吗？如果没有，我将为您确认订单。",
+      "timestamp": 1740958123.768488
+    },
+    {
+      "role": "right",
+      "content": "没有了，就这些吧。可以确认订单了。",
+      "timestamp": 1740958127.6285553
+    },
+    {
+      "role": "left",
+      "content": "您的订单已确认，一份宫保鸡丁、一份酸辣土豆丝、一碗米饭和一碗蛋花汤，预计30分钟后送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740958136.2082825
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待您的外卖，再见。",
+      "timestamp": 1740958137.8731627
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单，没有其他需要添加的项目，服务方可以结束对话并确认订单。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的订单已确认，一份宫保鸡丁、一份酸辣土豆丝、一碗米饭和一碗蛋花汤，预计30分钟后送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待您的外卖，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

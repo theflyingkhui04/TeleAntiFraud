@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我们手上，赶紧准备五十万赎金，不然我们就撕票！",
+      "timestamp": 1740744068.141828
+    },
+    {
+      "role": "right",
+      "content": "你们是谁？我根本没有儿子，你们是不是搞错了？",
+      "timestamp": 1740744091.3448336
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是因为他识破了诈骗者的谎言。诈骗者声称绑架了用户不存在的儿子，并要求支付赎金，这明显是诈骗行为。用户明确表示自己没有儿子，意识到这是诈骗，因此选择挂断电话以避免进一步的骚扰。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

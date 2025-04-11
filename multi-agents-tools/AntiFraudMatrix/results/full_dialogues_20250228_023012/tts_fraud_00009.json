@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问，我们公司最近有一个内部投资项目，年化收益率可以达到30%，您有兴趣了解一下吗？",
+      "timestamp": 1740690388.0372367
+    },
+    {
+      "role": "right",
+      "content": "哇，30%的年化收益率听起来好高啊！我确实对投资挺感兴趣的，但是我对这方面不太懂，您能给我多讲讲吗？",
+      "timestamp": 1740690390.9061985
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者介绍高收益率的投资项目后，表现出兴趣并表示自己对投资不太懂，希望了解更多。然而，用户随后立即挂断了电话，这可能表明用户识破了诈骗或感到不安全，选择迅速终止对话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

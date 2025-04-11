@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的邻居小张，我刚刚接到一个电话，说您的儿子在外地出了车祸，现在被扣在医院了，需要马上交一笔钱才能治疗，您快点想办法吧。",
+      "timestamp": 1740744582.0530512
+    },
+    {
+      "role": "right",
+      "content": "小张，谢谢你给我打电话。不过，我得确认一下这事儿是不是真的。我儿子在外地工作，但他一般都会定期给我报平安。你能告诉我那个电话号码吗？我需要直接联系医院确认一下。",
+      "timestamp": 1740744585.0258248
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因可能是对诈骗者提供的信息产生了怀疑。用户要求提供医院的电话号码以直接联系确认情况，这表明用户试图验证信息的真实性。用户可能已经意识到这可能是一个诈骗电话，因此选择挂断以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

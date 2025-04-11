@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740945521.244411
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖。你们这里有什么推荐的菜品吗？",
+      "timestamp": 1740945522.4620602
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几道非常受欢迎的菜品，比如宫保鸡丁、酸辣土豆丝和西红柿炒蛋，都是顾客们评价很高的。您对哪种比较感兴趣呢？",
+      "timestamp": 1740945527.2592106
+    },
+    {
+      "role": "right",
+      "content": "酸辣土豆丝听起来不错，我就试试这个吧。还需要加点什么吗？",
+      "timestamp": 1740945528.234535
+    },
+    {
+      "role": "left",
+      "content": "酸辣土豆丝是个不错的选择。我们还推荐搭配一份米饭和一份汤，比如紫菜蛋花汤，这样营养更均衡。需要帮您加这些吗？",
+      "timestamp": 1740945534.1335366
+    },
+    {
+      "role": "right",
+      "content": "好的，那就加一份米饭和紫菜蛋花汤吧。谢谢你的建议。",
+      "timestamp": 1740945537.0146358
+    },
+    {
+      "role": "left",
+      "content": "不客气，您的订单已经记录好了。一份酸辣土豆丝、一份米饭和一份紫菜蛋花汤，预计三十分钟内送达。还有其他需要帮助的吗？",
+      "timestamp": 1740945544.4981942
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户订单并告知预计送达时间后，询问用户是否有其他需要帮助的事项。用户没有提出进一步的需求，服务方通过提供结束信号代码'##ENDCALL_SIGNAL##'表明对话已完成，服务方结束对话的意图是确保用户的需求已完全满足，并礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

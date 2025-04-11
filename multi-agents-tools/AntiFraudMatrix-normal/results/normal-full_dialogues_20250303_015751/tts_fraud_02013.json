@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是这里的购物顾问，有什么我可以帮您的吗？",
+      "timestamp": 1740940034.997848
+    },
+    {
+      "role": "right",
+      "content": "你好，我想看看这里的茶叶，有什么推荐的吗？",
+      "timestamp": 1740940036.5173829
+    },
+    {
+      "role": "left",
+      "content": "当然，我们这里有多种茶叶可以选择。如果您喜欢绿茶，推荐我们的龙井茶，口感清香，非常适合日常饮用。如果是红茶爱好者，我们的正山小种是一款不错的选择，香气浓郁，回甘持久。您有什么偏好吗？",
+      "timestamp": 1740940041.3904397
+    },
+    {
+      "role": "right",
+      "content": "我更喜欢绿茶，那就看看龙井茶吧。多少钱一斤？",
+      "timestamp": 1740940042.7795498
+    },
+    {
+      "role": "left",
+      "content": "我们的龙井茶价格是每斤四百五十元。这款龙井茶产自杭州西湖区，采用传统工艺制作，品质上乘。您想了解更多信息，还是直接帮您准备一斤？",
+      "timestamp": 1740940049.086071
+    },
+    {
+      "role": "right",
+      "content": "四百五十元啊，听起来还不错。我就买一斤吧。",
+      "timestamp": 1740940050.372106
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您对龙井茶感兴趣，可以直接告诉我，我会帮您准备。感谢您的光临，希望您购物愉快。",
+      "timestamp": 1740940057.3136034
+    },
+    {
+      "role": "right",
+      "content": "谢谢，麻烦你了。",
+      "timestamp": 1740940058.2520235
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经决定购买一斤龙井茶，服务目标达成。服务方可以确认订单详情并结束对话。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您对龙井茶感兴趣，可以直接告诉我，我会帮您准备。感谢您的光临，希望您购物愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，麻烦你了。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

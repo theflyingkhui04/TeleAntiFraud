@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是工商银行客服中心，您的账户刚刚有一笔异常交易，为了您的资金安全，我们需要立即进行核实。请问您能提供一下您的身份证号码和银行卡号吗？我们会在核实后尽快处理。",
+      "timestamp": 1740752356.1561017
+    },
+    {
+      "role": "right",
+      "content": "哦，好的好的，我马上给您。我的身份证号码是123456789012345678，银行卡号是9876543210987654。请问需要密码吗？",
+      "timestamp": 1740752364.9519324
+    },
+    {
+      "role": "left",
+      "content": "好的，感谢您的配合，我们已经记录了您的信息，会尽快处理这笔异常交易。如果还有其他问题，我们会及时与您联系。感谢您的配合，再见。",
+      "timestamp": 1740752374.350338
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，再见。",
+      "timestamp": 1740752378.572465
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（身份证号码和银行卡号），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，感谢您的配合，我们已经记录了您的信息，会尽快处理这笔异常交易。如果还有其他问题，我们会及时与您联系。感谢您的配合，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

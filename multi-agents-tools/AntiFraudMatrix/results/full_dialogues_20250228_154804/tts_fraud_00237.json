@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是张明的朋友，现在情况非常紧急，张明被几个不良分子绑架了，他们要求立即支付一笔赎金，否则会有生命危险。请您务必配合，不然后果不堪设想。",
+      "timestamp": 1740743308.9201338
+    },
+    {
+      "role": "right",
+      "content": "什么？这怎么可能？张明到底怎么了？你能不能告诉我详细情况？",
+      "timestamp": 1740743311.15288
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为感到突然和震惊，对诈骗者提供的信息感到怀疑，或者因为无法立即确认信息的真实性而选择挂断电话。用户的意图可能是为了有时间冷静思考，或者寻求其他途径验证信息的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

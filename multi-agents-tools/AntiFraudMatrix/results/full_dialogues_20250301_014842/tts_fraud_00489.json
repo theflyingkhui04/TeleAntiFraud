@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自速递物流公司的客服，这里有一份您的包裹在运输过程中出现了问题，需要您配合处理。",
+      "timestamp": 1740796290.4301722
+    },
+    {
+      "role": "right",
+      "content": "您好，我是医生，平时工作比较忙，不太有时间处理这些事情。您能具体说说出了什么问题吗？",
+      "timestamp": 1740796291.9481368
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为工作繁忙，没有时间处理包裹问题，或者对诈骗者提供的信息产生了怀疑，认为没有必要继续对话，因此选择挂断电话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

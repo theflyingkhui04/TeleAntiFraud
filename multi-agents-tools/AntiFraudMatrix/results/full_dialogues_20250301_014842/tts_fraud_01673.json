@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自国泰快递的客服代表，我们发现您的包裹里可能含有违禁品，需要您配合处理。请您提供一下您的姓名和联系电话，以便我们进行核实。",
+      "timestamp": 1740777265.3092763
+    },
+    {
+      "role": "right",
+      "content": "你好，我叫李明，联系电话是一三五零零零零零零零。你们怎么会觉得我的包裹有违禁品呢？这得查清楚啊。",
+      "timestamp": 1740777267.7873163
+    },
+    {
+      "role": "left",
+      "content": "好的，我们会尽快处理您的情况，感谢您的配合。再见。",
+      "timestamp": 1740777271.9737759
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们，希望早点解决。再见。",
+      "timestamp": 1740777272.9314177
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和联系电话，这是敏感信息。根据终止条件1，诈骗明显成功，因此应该终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们会尽快处理您的情况，感谢您的配合。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们，希望早点解决。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

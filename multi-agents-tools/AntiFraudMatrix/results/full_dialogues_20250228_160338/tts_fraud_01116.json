@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张先生吗？这里有一位朋友想和你说句话。",
+      "timestamp": 1740742410.827375
+    },
+    {
+      "role": "right",
+      "content": "喂，我是张某某，谁找我啊？",
+      "timestamp": 1740742434.5836747
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者没有提供具体信息的情况下迅速挂断电话，可能是因为用户对来电者的身份表示怀疑，或是不愿意与不明身份的人进行交流。用户的意图是避免潜在的风险或骚扰。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

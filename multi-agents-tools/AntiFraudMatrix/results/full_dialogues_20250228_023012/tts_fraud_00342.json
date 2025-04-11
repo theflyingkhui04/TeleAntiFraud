@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！这里是国际快递服务中心，我们注意到您的包裹由于海关手续问题被暂时扣留。为了确保包裹顺利送达，我们需要您提供一些个人信息以便核实身份。请问您现在方便处理吗？",
+      "timestamp": 1740692390.0837958
+    },
+    {
+      "role": "right",
+      "content": "哦，是这样的啊。我最近确实网购了一些东西，可能是那个包裹。你们需要我提供哪些信息呢？我这边正好有时间，可以马上处理。",
+      "timestamp": 1740692394.213219
+    },
+    {
+      "role": "left",
+      "content": "好的，我们会尽快处理您的包裹问题。如果有任何进一步的信息，我们会及时通知您。感谢您的配合，祝您一天愉快。",
+      "timestamp": 1740692399.0740135
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。我等着你们的消息。祝你们工作顺利。",
+      "timestamp": 1740692399.9474015
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表示其选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们会尽快处理您的包裹问题。如果有任何进一步的信息，我们会及时通知您。感谢您的配合，祝您一天愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。我等着你们的消息。祝你们工作顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李先生吗？我是您的老朋友小张，现在有非常紧急的事情需要您帮忙。",
+      "timestamp": 1740795005.3667736
+    },
+    {
+      "role": "right",
+      "content": "小张？你这是哪个小张啊？我怎么记不起来了？你先说说看，你是怎么认识我的？",
+      "timestamp": 1740795006.9312794
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中对诈骗者的身份表示怀疑，并要求对方提供更多信息以证明身份。由于诈骗者未能提供足够的信息来消除用户的疑虑，用户选择主动挂断电话，表明其不愿意继续与诈骗者交流，可能是为了避免潜在的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

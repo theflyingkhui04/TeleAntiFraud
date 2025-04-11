@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我已为您安排了最近的司机，大约需要五分钟左右到达，请问您的上车地点是哪里？",
+      "timestamp": 1740939057.5155597
+    },
+    {
+      "role": "right",
+      "content": "好的，我在公司门口等。谢谢。",
+      "timestamp": 1740939058.8254745
+    },
+    {
+      "role": "left",
+      "content": "好的，司机将在公司门口接您，车牌号是京A12345，师傅会提前联系您，请保持手机畅通。如果还有其他需求，请随时告诉我。",
+      "timestamp": 1740939064.8493593
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的上车地点，并提供了司机的到达时间和车牌号等必要信息后，主动结束了对话。服务方的意图是确保用户已经获得了所有需要的信息，且打车服务流程已经顺利完成，因此不再需要继续对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

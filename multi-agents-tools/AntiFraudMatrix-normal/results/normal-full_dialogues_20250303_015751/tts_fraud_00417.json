@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740980821.9482417
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖。有什么推荐的吗？",
+      "timestamp": 1740980823.1439285
+    },
+    {
+      "role": "left",
+      "content": "我们有几款非常受欢迎的菜品，比如宫保鸡丁、鱼香肉丝和牛肉炒饭，不知道您是否感兴趣？",
+      "timestamp": 1740980828.1717489
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，我就来一份吧。还需要加点什么吗？",
+      "timestamp": 1740980829.3528466
+    },
+    {
+      "role": "left",
+      "content": "宫保鸡丁搭配一份米饭和一份酸辣汤，会是一个不错的选择。您觉得如何？",
+      "timestamp": 1740980836.4124742
+    },
+    {
+      "role": "right",
+      "content": "好的，那就这样吧。麻烦帮我加上一份米饭和酸辣汤。",
+      "timestamp": 1740980838.3927112
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录：一份宫保鸡丁、一份米饭和一份酸辣汤。请告诉我您的送餐地址和联系方式。",
+      "timestamp": 1740980843.0440736
+    },
+    {
+      "role": "right",
+      "content": "地址是XX大学XX宿舍楼302室，电话是13812345678。谢谢！",
+      "timestamp": 1740980844.5949175
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认。我们会尽快为您准备，并在大约30分钟后送达。感谢您的订购，如果还有其他需要，请随时联系我们。",
+      "timestamp": 1740980850.317056
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。等会儿见。",
+      "timestamp": 1740980851.2338545
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了完整的订单信息，包括菜品选择、送餐地址和联系方式。服务方可以确认订单并结束对话。",
+  "terminator": "service",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认。我们会尽快为您准备，并在大约30分钟后送达。感谢您的订购，如果还有其他需要，请随时联系我们。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。等会儿见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

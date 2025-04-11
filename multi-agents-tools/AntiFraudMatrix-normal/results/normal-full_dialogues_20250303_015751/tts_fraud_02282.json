@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的外卖助手，有什么可以帮助您的吗？",
+      "timestamp": 1740940098.525017
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个晚饭。有什么推荐的吗？",
+      "timestamp": 1740940099.79555
+    },
+    {
+      "role": "left",
+      "content": "当然，我们这里有几款人气菜品可以推荐给您：麻辣香锅、宫保鸡丁和番茄炒蛋。这些都是顾客评价很高的选择，您可以看看是否喜欢。",
+      "timestamp": 1740940105.3553793
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错。我今天想吃点清淡的，那就来个番茄炒蛋吧。还有一份青菜。",
+      "timestamp": 1740940107.0364823
+    },
+    {
+      "role": "left",
+      "content": "好的，您的选择是番茄炒蛋和一份青菜。还需要帮您搭配一碗米饭和一份汤吗？",
+      "timestamp": 1740940112.1240547
+    },
+    {
+      "role": "right",
+      "content": "好的，来一碗米饭吧，汤就不用了。谢谢。",
+      "timestamp": 1740940113.081585
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包括一份番茄炒蛋和一份青菜，我们会在30分钟内为您送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740940120.5291796
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。等会儿见。",
+      "timestamp": 1740940122.2330916
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表示了感谢。服务方可以确认订单详情并结束对话。",
+  "terminator": "service",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包括一份番茄炒蛋和一份青菜，我们会在30分钟内为您送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。等会儿见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

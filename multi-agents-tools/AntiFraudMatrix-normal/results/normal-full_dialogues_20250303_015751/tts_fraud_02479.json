@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740939327.386798
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个外卖，有什么推荐的吗？",
+      "timestamp": 1740939328.97397
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款热门菜品很受好评，比如麻辣香锅、招牌炒饭和牛肉拉面，您可以看看是否有喜欢的。需要我帮您详细介绍吗？",
+      "timestamp": 1740939334.5902462
+    },
+    {
+      "role": "right",
+      "content": "不用了，我看看这三样哪个合适。麻辣香锅听起来不错，给我来一份吧。还需要点什么饮料或者小菜吗？",
+      "timestamp": 1740939336.6976771
+    },
+    {
+      "role": "left",
+      "content": "好的，一份麻辣香锅已经加入您的订单。我们这里有冰红茶、冰柠檬水和酸梅汤等饮料，小菜有凉拌黄瓜、泡椒凤爪等，您可以选择搭配。需要推荐几样吗？",
+      "timestamp": 1740939347.0430048
+    },
+    {
+      "role": "right",
+      "content": "给我来一杯冰红茶，再加一份凉拌黄瓜吧。这样就齐全了。谢谢。",
+      "timestamp": 1740939349.1634247
+    },
+    {
+      "role": "left",
+      "content": "好的，一份麻辣香锅已经为您准备好，预计三十分钟内送达。如果您需要饮料或小菜，可以随时联系我添加。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740939356.6233196
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待美味的外卖。",
+      "timestamp": 1740939357.7619123
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表示感谢，表明用户对当前的服务满意且没有进一步的需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，一份麻辣香锅已经为您准备好，预计三十分钟内送达。如果您需要饮料或小菜，可以随时联系我添加。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待美味的外卖。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

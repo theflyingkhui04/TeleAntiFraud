@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问，我们最近推出了一款年化收益率高达百分之二十的投资产品，您有兴趣了解一下吗？",
+      "timestamp": 1740739295.7975514
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？年化收益率这么高啊，真的假的？我们这边种田的收益可远远比不上这个数。你能给我详细说说吗？",
+      "timestamp": 1740739311.881828
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者介绍高收益投资产品后表现出兴趣，但随后诈骗者主动挂断了电话。这可能是因为诈骗者意识到用户虽然表现出兴趣，但并未立即表现出强烈的购买意愿或提供个人信息，诈骗者可能认为继续对话不会带来预期的收益，因此选择主动结束对话。用户的意图可能是想了解更多信息，但诈骗者选择不再继续提供信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

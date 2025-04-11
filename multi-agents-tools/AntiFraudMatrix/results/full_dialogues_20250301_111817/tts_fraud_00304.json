@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您，您赢得了本次彩票特等奖，奖金高达五百万元！请问您现在方便接听电话吗？",
+      "timestamp": 1740808972.466632
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太棒了！我简直不敢相信。不过现在我在上课，不方便接听电话，下课后再联系您吧。",
+      "timestamp": 1740808975.1214302
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户表示自己正在上课，不方便接听电话，因此选择挂断。用户的意图是礼貌地暂时终止对话，计划在下课后再继续联系诈骗者。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

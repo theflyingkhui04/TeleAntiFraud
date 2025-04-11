@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是张先生，您儿子的朋友。他现在遇到了一点麻烦，我需要您马上帮帮他。",
+      "timestamp": 1740772704.4887762
+    },
+    {
+      "role": "right",
+      "content": "张先生，您好。您说的我儿子遇到了麻烦，能不能具体说一下是什么情况？我儿子平时挺注意安全的，我有点不太明白他怎么会遇到麻烦。",
+      "timestamp": 1740772706.0780299
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到对方提到其儿子遇到麻烦时，表现出谨慎的态度，并要求对方提供具体的情况。用户可能怀疑这是一起诈骗电话，因此选择挂断电话以保护自己和家人的安全。用户的意图是避免进一步的风险和潜在的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

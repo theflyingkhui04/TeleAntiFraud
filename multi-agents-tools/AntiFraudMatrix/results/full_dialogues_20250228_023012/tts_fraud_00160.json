@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好，这里是XX快递客服中心。我们注意到您的包裹在清关时遇到了一些问题，需要您提供一些信息以便我们协助处理。请问您方便接听电话吗？",
+      "timestamp": 1740681365.799532
+    },
+    {
+      "role": "right",
+      "content": "喂，你好，我是小李。你们说我有包裹在清关有问题？这听起来有点奇怪，我最近好像没买什么需要清关的东西啊。你们真的确定是我的包裹吗？",
+      "timestamp": 1740681369.6508756
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份和包裹信息表示怀疑，意识到这可能是一个诈骗电话，因此选择挂断电话以避免进一步的潜在风险。用户的意图是保护自己的个人信息和财产安全，拒绝继续与诈骗者交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

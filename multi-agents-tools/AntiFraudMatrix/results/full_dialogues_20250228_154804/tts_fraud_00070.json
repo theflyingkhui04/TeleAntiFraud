@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是客服代表小李。我们发现您的银行卡可能涉及一桩非法交易，为了您的资金安全，需要您配合我们进行核实。请问您现在方便吗？",
+      "timestamp": 1740750168.783852
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？我最近都没怎么用这张卡，怎么会涉及非法交易呢？我得赶紧配合你们查清楚，不然我这钱不就没了？我现在挺方便的，你说吧，需要我做些什么？",
+      "timestamp": 1740750173.3539321
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提到银行卡涉及非法交易时表现出了明显的担忧和配合意愿，但随后用户和诈骗者都提供了挂断信号（##ENDCALL_SIGNAL##）。这可能是因为用户意识到这是一起诈骗电话，或者用户在恐慌中决定先挂断电话，自行核实情况。另一种可能是通话过程中出现了技术问题，导致双方同时挂断。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

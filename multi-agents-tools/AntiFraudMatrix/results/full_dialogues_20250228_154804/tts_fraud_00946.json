@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服代表，李晓晓。我们发现您的账户有些异常交易，为了您的安全，需要进行身份验证。请您提供一下您的姓名和身份证号，好吗？",
+      "timestamp": 1740732090.2253735
+    },
+    {
+      "role": "right",
+      "content": "您好，李晓晓小姐。我叫张伟，身份证号是三十七零一零二一九五四年六月十一日出生。不过，我有几个问题想先问一下。你们银行最近有没有遇到类似的情况？还有，为什么你们一直没有给我打电话，而是突然发短信？我有点担心。",
+      "timestamp": 1740732097.599971
+    },
+    {
+      "role": "left",
+      "content": "好的，我会记录下来并尽快处理。感谢您的配合，再见。",
+      "timestamp": 1740732108.3020847
+    },
+    {
+      "role": "right",
+      "content": "等等，您还没有回答我的问题呢。我怎么知道您是真的银行客服？我需要确认一下。",
+      "timestamp": 1740732110.01321
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（姓名和身份证号），诈骗明显成功。尽管用户表示有疑问，但敏感信息已经泄露，应立即终止对话以防止进一步的损失。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我会记录下来并尽快处理。感谢您的配合，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "等等，您还没有回答我的问题呢。我怎么知道您是真的银行客服？我需要确认一下。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

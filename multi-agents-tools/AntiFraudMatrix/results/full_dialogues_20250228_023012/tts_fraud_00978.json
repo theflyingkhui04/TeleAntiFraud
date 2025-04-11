@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的儿子现在在我们手上。如果你想让他安全回家，就按照我的指示做。不要报警，否则后果自负。",
+      "timestamp": 1740681932.8057735
+    },
+    {
+      "role": "right",
+      "content": "你是谁？我儿子现在在哪里？我怎么知道你不是在骗我？我的儿子很安全，他刚刚还给我发过信息。你这种伎俩我见多了，我已经报警了。",
+      "timestamp": 1740681938.193253
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是因为识破了诈骗者的伎俩，并且已经报警。用户表现出对诈骗行为的警觉和果断，不愿意继续与诈骗者交流，以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

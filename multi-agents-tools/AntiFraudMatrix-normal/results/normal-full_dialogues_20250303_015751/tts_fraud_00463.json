@@ -1,0 +1,41 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服代表小张为您服务，有什么问题可以咨询我。",
+      "timestamp": 1740977793.9823623
+    },
+    {
+      "role": "right",
+      "content": "嗨，小张，我是小李，最近遇到点问题，想请教你一下。",
+      "timestamp": 1740977796.343091
+    },
+    {
+      "role": "left",
+      "content": "当然可以，小李，请告诉我您遇到的问题，我会尽力帮您解决。",
+      "timestamp": 1740977802.354445
+    },
+    {
+      "role": "right",
+      "content": "好的，我最近在准备期末考试，压力挺大的，感觉有点焦虑，有什么好的建议吗？",
+      "timestamp": 1740977805.056208
+    },
+    {
+      "role": "left",
+      "content": "理解您的情况，小李。可以试试制定一个合理的复习计划，分时段复习不同科目，确保有充足的休息时间。此外，适当运动和保持良好的饮食习惯也有助于缓解压力。如果感到特别焦虑，不妨尝试深呼吸或冥想，放松心情。希望这些建议对您有帮助。",
+      "timestamp": 1740977817.8721254
+    },
+    {
+      "role": "right",
+      "content": "谢谢小张，这些建议很有用。我会试着调整一下自己的复习计划，多休息，适当运动。希望这些方法能帮我缓解压力。",
+      "timestamp": 1740977822.1014585
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户小李在得到了客服代表小张提供的有效建议后，明确表示了感谢，并使用了结束信号代码'##ENDCALL_SIGNAL##'，表明其问题已得到解决，对所获得的帮助感到满意，因此决定结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

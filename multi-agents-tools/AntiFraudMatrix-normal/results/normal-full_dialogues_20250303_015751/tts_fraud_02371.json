@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约什么服务呢？",
+      "timestamp": 1740942984.3424482
+    },
+    {
+      "role": "right",
+      "content": "您好，我想了解一下你们的维修服务，具体是关于家电维修的。",
+      "timestamp": 1740942985.4452417
+    },
+    {
+      "role": "left",
+      "content": "好的，我们提供各种家电维修服务，包括冰箱、洗衣机、空调等。请问您需要预约哪一种家电的维修服务？",
+      "timestamp": 1740942990.0577233
+    },
+    {
+      "role": "right",
+      "content": "我家的洗衣机出了问题，希望能尽快安排维修。",
+      "timestamp": 1740942990.697391
+    },
+    {
+      "role": "left",
+      "content": "了解了，我们会尽快为您安排洗衣机维修服务。请问您方便预约哪一天进行维修呢？",
+      "timestamp": 1740943000.2554216
+    },
+    {
+      "role": "right",
+      "content": "明天可以吗？希望不要影响到日常生活。",
+      "timestamp": 1740943001.0665715
+    },
+    {
+      "role": "left",
+      "content": "明天是可以的，我们通常的工作时间是上午九点到下午六点。请问您希望我们什么时间上门服务？",
+      "timestamp": 1740943008.6954875
+    },
+    {
+      "role": "right",
+      "content": "上午十点左右吧，那个时间比较方便。",
+      "timestamp": 1740943012.5146756
+    },
+    {
+      "role": "left",
+      "content": "好的，我们会在明天上午十点左右派维修师傅上门服务。请您保持电话畅通，以便我们联系。您的预约编号是123456，稍后我们会发送确认短信，请注意查收。",
+      "timestamp": 1740943018.8107495
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的维修服务需求、预约时间和联系方式后，提供了预约编号并告知用户会发送确认短信。服务方使用了结束标识符'##ENDCALL_SIGNAL##'，表明服务流程已经完成，所有必要的信息和服务安排都已经提供给用户，因此服务方选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

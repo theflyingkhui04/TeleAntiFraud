@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递客服中心。我们发现您的包裹因海关问题被扣留，需要您提供身份信息以便处理，请问方便提供您的姓名和身份证号码吗？",
+      "timestamp": 1740684367.0556574
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我最近确实有一个包裹，但我不太清楚具体是怎么回事。你们能帮我解决吗？",
+      "timestamp": 1740684371.5662522
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者要求提供敏感信息时表现出犹豫，并主动挂断电话，表明用户可能意识到对话存在风险，选择终止对话以保护个人信息。用户的意图是避免泄露敏感信息，并终止与诈骗者的进一步交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是来自某银行的客服代表，我姓李。我们发现您的账户存在异常活动，需要您配合进行身份验证，以确保您的资金安全。您现在方便吗？",
+      "timestamp": 1740730610.1925056
+    },
+    {
+      "role": "right",
+      "content": "啊，你好，小李。我最近确实没怎么用我的银行卡，不过你说的账户异常活动让我有点担心。我需要做些什么呢？",
+      "timestamp": 1740730636.1200218
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出账户存在异常活动后表现出担忧，但随后主动挂断了电话。这表明用户可能对诈骗者的身份或所提供的信息产生了怀疑，或者意识到这是一个潜在的诈骗电话。用户挂断电话的意图可能是为了避免进一步的潜在风险，保护自己的个人信息和资金安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到我们的购物中心，有什么可以帮助您的吗？",
+      "timestamp": 1740966702.543546
+    },
+    {
+      "role": "right",
+      "content": "你好，我想买一些日常用品，能给我指个方向吗？",
+      "timestamp": 1740966703.8631287
+    },
+    {
+      "role": "left",
+      "content": "当然可以，日常用品区位于商场的三楼，您可以乘坐电梯直达。那里有各种日用品供您选择。需要我帮您带路吗？",
+      "timestamp": 1740966709.559096
+    },
+    {
+      "role": "right",
+      "content": "不用了，我知道怎么去。谢谢你的帮助！",
+      "timestamp": 1740966711.2313402
+    },
+    {
+      "role": "left",
+      "content": "您的需求我已经了解了，三楼日常用品区有您需要的商品。如果有什么其他需要帮助的，随时告诉我。祝您购物愉快！",
+      "timestamp": 1740966717.3846133
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！我会自己逛逛的。",
+      "timestamp": 1740966718.5533068
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并明确表示感谢，表明问题已解决且不再需要进一步的帮助。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的需求我已经了解了，三楼日常用品区有您需要的商品。如果有什么其他需要帮助的，随时告诉我。祝您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！我会自己逛逛的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

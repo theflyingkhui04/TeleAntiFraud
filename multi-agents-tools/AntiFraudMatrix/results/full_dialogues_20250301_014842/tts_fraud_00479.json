@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是您的银行客服中心，我是客服代表小李。我们发现您的账户存在异常交易，为了保障您的资金安全，需要您提供一些信息进行身份验证。请问您现在方便吗？",
+      "timestamp": 1740774919.1299012
+    },
+    {
+      "role": "right",
+      "content": "小李，你好。你说的账户异常交易具体是什么情况？我最近确实没怎么用这张卡，但我还是需要了解更多细节。",
+      "timestamp": 1740774920.88382
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对账户异常交易的具体情况有疑问，并希望了解更多细节。然而，诈骗者并未提供具体信息，而是直接要求用户提供个人信息进行身份验证。这种情况下，用户可能怀疑对方的真实身份，因此选择挂断电话以保护个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是银行客服中心，我们检测到您的账户存在异常交易，需要立即核实信息，请问您是本人吗？",
+      "timestamp": 1740754611.217519
+    },
+    {
+      "role": "right",
+      "content": "您好，我是本人。请问我的账户有什么问题吗？我最近确实没有进行过什么大的交易，会不会是有人盗用了我的账户？",
+      "timestamp": 1740754613.1846879
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者首次提出账户异常后立即挂断电话，可能是因为用户怀疑这是诈骗电话，或者用户不愿意在电话中讨论敏感的账户信息。用户的意图可能是避免潜在的风险，保护个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

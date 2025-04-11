@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，可以帮助您叫车、查询路线等，有什么可以帮您的吗？",
+      "timestamp": 1740967951.5866308
+    },
+    {
+      "role": "right",
+      "content": "好的，我要从公司出发，去一个客户那里。地址是上海市徐汇区漕溪路253号，能帮我叫一辆车吗？",
+      "timestamp": 1740967954.5101297
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您叫了一辆车。司机大约5分钟后到达，请在公司门口等候。司机电话是13800138000，您可以联系确认。如果需要其他帮助，请告诉我。",
+      "timestamp": 1740967962.8463962
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在为用户成功叫车并提供了司机到达时间及联系方式后，确认用户已获得所需服务，且没有其他需要帮助的事项，因此选择结束对话。服务方的意图是确保用户满意并高效地完成服务流程。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

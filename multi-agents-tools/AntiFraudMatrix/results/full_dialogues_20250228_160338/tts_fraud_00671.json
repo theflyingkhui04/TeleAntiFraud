@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自顺丰快递的客服，您的一个包裹在运输过程中被发现含有违禁品，需要您支付一笔罚款才能继续派送。这是一笔紧急的事情，麻烦您尽快处理。",
+      "timestamp": 1740732909.5621781
+    },
+    {
+      "role": "right",
+      "content": "哎呀，这可怎么办？我最近确实有一个包裹，会不会是哪个地方搞错了？我该怎么处理呢？",
+      "timestamp": 1740732912.4872677
+    },
+    {
+      "role": "left",
+      "content": "您需要先支付罚款才能继续处理包裹。请提供您的银行卡号和验证码，我们会帮您直接从账户扣除罚款。请尽快操作，否则包裹可能会被退回。",
+      "timestamp": 1740732963.698759
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在用户表现出疑虑但未明确拒绝的情况下选择挂断电话，可能是为了避免进一步的质疑导致诈骗失败，也可能是已经尝试过多次类似的诈骗手法，认为此次尝试成功的可能性较低，因此选择放弃并寻找下一个目标。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

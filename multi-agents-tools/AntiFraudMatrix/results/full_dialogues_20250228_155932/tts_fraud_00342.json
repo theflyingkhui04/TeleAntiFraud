@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "张女士，您好，我是来自寰宇投资的李经理。最近我们发现了一个非常有潜力的投资项目，预计回报率非常高，想请您了解一下。",
+      "timestamp": 1740753725.0091927
+    },
+    {
+      "role": "right",
+      "content": "你好，李经理。我是学生，目前没有什么闲钱可以进行大额投资。不过，能具体说说这个项目的情况吗？我对投资还是挺感兴趣的。",
+      "timestamp": 1740753728.6891942
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对投资的兴趣，但同时也明确表示自己是学生，目前没有大额闲钱进行投资。用户挂断电话可能是出于礼貌，认为继续对话不会带来实际的投资机会，或者是为了结束一个不感兴趣或认为没有必要继续的对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

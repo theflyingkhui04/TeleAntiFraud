@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您中得了本周的超级大奖，奖金高达500万元！请提供您的姓名和联系方式，以便我们进行后续的兑奖程序。",
+      "timestamp": 1740685275.6047196
+    },
+    {
+      "role": "right",
+      "content": "啊？国家彩票中心？可是我最近根本没买过彩票啊。你们怎么知道我的联系方式的？这个中奖信息是不是有点可疑？",
+      "timestamp": 1740685280.0575237
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份和信息表示怀疑，意识到这可能是一个诈骗电话。用户通过询问自己最近没有购买彩票以及质疑中奖信息的可疑性，表明了对诈骗的警觉。随后，用户主动挂断了电话，表明其拒绝继续与诈骗者交流，并选择终止对话以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

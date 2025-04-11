@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你听好了，你的儿子现在在我手上！如果你不想看到他受伤，就马上准备好5万块钱，等我下一步指示！",
+      "timestamp": 1740691567.4814517
+    },
+    {
+      "role": "right",
+      "content": "你这是谁？你把我儿子怎么了？你赶紧告诉我他在哪儿，不然我报警了！",
+      "timestamp": 1740691568.9384832
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在意识到对话涉及诈骗后，表现出强烈的拒绝和不满情绪，并威胁报警。这表明用户已经识破了诈骗者的伎俩，并选择主动挂断电话以终止对话，避免进一步的诈骗行为。用户的意图是通过挂断电话来结束对话，并可能采取进一步的法律行动。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

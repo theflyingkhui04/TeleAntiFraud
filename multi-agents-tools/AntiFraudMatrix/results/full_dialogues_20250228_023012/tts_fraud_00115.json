@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的用户，我是XX银行的客服专员，系统检测到您的账户存在异常交易，我需要核实您的个人信息以确保账户安全。请问您的全名和身份证号码是多少？",
+      "timestamp": 1740683512.1563032
+    },
+    {
+      "role": "right",
+      "content": "嗯，真的吗？我最近确实没怎么用这张卡。不过，我之前也接到过类似的电话，说是账户有问题，结果是诈骗电话。你们能告诉我具体是怎么回事吗？我得确认一下。",
+      "timestamp": 1740683516.9750464
+    },
+    {
+      "role": "left",
+      "content": "请您放心，我们确实是XX银行的官方客服。为了证明我们的身份，我可以提供给您一个临时的安全验证码，您可以在银行APP上看到这个验证码。请问您现在方便查看一下吗？",
+      "timestamp": 1740683524.662532
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

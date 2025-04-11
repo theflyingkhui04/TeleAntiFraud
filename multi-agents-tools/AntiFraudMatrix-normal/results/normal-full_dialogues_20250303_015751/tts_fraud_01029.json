@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740941213.9954731
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份晚餐，有什么推荐的吗？",
+      "timestamp": 1740941217.7506108
+    },
+    {
+      "role": "left",
+      "content": "我们今天推荐的晚餐有麻辣香锅和招牌牛肉面，都非常受欢迎，您看是否有兴趣尝试一下？",
+      "timestamp": 1740941223.487988
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我比较喜欢麻辣香锅，来一份吧。另外，有没有什么好喝的饮料推荐？",
+      "timestamp": 1740941225.5022361
+    },
+    {
+      "role": "left",
+      "content": "好的，为您准备一份麻辣香锅。我们这里有冰镇柠檬茶和冰红茶，都是非常解辣的好选择，您看需要来一杯吗？",
+      "timestamp": 1740941230.7862625
+    },
+    {
+      "role": "right",
+      "content": "那来一杯冰镇柠檬茶吧，谢谢。",
+      "timestamp": 1740941231.627554
+    },
+    {
+      "role": "left",
+      "content": "不客气，您的订单已经确认，一份麻辣香锅加一杯冰镇柠檬茶。预计将在30分钟左右送达，地址是上次的送餐地址吗？",
+      "timestamp": 1740941238.0545058
+    },
+    {
+      "role": "right",
+      "content": "是的，还是上次的那个地址。谢谢，辛苦了。",
+      "timestamp": 1740941238.9911275
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，麻辣香锅和冰镇柠檬茶将在30分钟左右送达上次的地址。如果您有任何其他需求，欢迎随时联系我们。谢谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740941247.7642238
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。",
+      "timestamp": 1740941249.2756143
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单，并且表示了感谢，没有进一步的需求。根据终止条件3，用户明确表示感谢并结束对话，因此应该由用户来结束对话。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，麻辣香锅和冰镇柠檬茶将在30分钟左右送达上次的地址。如果您有任何其他需求，欢迎随时联系我们。谢谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

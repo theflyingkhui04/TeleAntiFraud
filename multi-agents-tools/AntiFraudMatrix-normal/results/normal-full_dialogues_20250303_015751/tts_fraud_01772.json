@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询客服，可以为您提供路线规划、路况查询等服务，请问您需要什么帮助？",
+      "timestamp": 1740970199.9576745
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从我家到市中心的路线，大概需要多长时间。我家地址是XX路XX号。",
+      "timestamp": 1740970201.804469
+    },
+    {
+      "role": "left",
+      "content": "了解您的出发点是XX路XX号，目的地是市中心。通常情况下，这段路程大约需要三十分钟，但具体时间会根据实时交通情况有所不同。建议您出发前查看一下实时地图，以获取最新的路况信息。还有其他方面需要帮助的吗？",
+      "timestamp": 1740970208.7886503
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在提供了用户所需的路线和时间信息后，进一步询问用户是否需要其他帮助。在用户没有回应的情况下，服务方通过使用结束信号代码'##ENDCALL_SIGNAL##'表明对话已结束。服务方的意图是确保用户的问题已经得到解决，并且没有其他需要帮助的地方，从而自然地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

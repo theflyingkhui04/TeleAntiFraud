@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是您的银行客服，我们发现您的账户有异常活动，需要立即处理，以防止资金损失。为了您的安全，请提供您的身份证号码以便我们核实身份。",
+      "timestamp": 1740817012.3052783
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我的账户有异常活动？那可怎么办呀。好的，我配合你们的工作。我的身份证号码是……",
+      "timestamp": 1740817015.3422017
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供身份证号码后突然挂断电话，可能是因为意识到自己正在泄露敏感信息，或者突然意识到这可能是一个诈骗电话。用户的意图可能是为了避免进一步的信息泄露或资金损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

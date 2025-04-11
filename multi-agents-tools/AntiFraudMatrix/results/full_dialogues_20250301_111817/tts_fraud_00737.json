@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "大哥，我是小张的朋友，小张现在出事了，你听我慢慢说。",
+      "timestamp": 1740810173.6566103
+    },
+    {
+      "role": "right",
+      "content": "小张出事了？你先别急，慢慢说，他到底怎么了？",
+      "timestamp": 1740810175.5601034
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提到‘小张出事了’后，表现出关心并要求进一步解释。然而，诈骗者并未给出具体信息，而是立即挂断了电话。这可能是因为诈骗者意识到用户可能已经识破了诈骗企图，或者诈骗者认为用户的态度不够配合，因此选择终止对话。用户的挂断可能是对诈骗者突然挂断的回应，表示对对方的不信任或不满。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约什么项目？",
+      "timestamp": 1740951986.3338215
+    },
+    {
+      "role": "right",
+      "content": "好的，我想预约一个健康检查。",
+      "timestamp": 1740951987.1723936
+    },
+    {
+      "role": "left",
+      "content": "好的，健康检查预约可以安排，您希望预约的具体日期和时间是什么？",
+      "timestamp": 1740951993.6032495
+    },
+    {
+      "role": "right",
+      "content": "下周五上午九点可以吗？",
+      "timestamp": 1740951994.852036
+    },
+    {
+      "role": "left",
+      "content": "下周五上午九点的时间段是可以的，我们为您预约成功。请问您需要提供姓名和联系方式以便确认吗？",
+      "timestamp": 1740952002.5635965
+    },
+    {
+      "role": "right",
+      "content": "需要，我的名字是李建国，电话是13800138000。",
+      "timestamp": 1740952004.1612272
+    },
+    {
+      "role": "left",
+      "content": "李建国先生，您的预约信息已记录，我们会在下周五上午九点为您安排健康检查。稍后您会收到一条确认短信。如果您有任何变动，请提前联系我们。",
+      "timestamp": 1740952009.6018288
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息并告知用户会收到确认短信后，主动结束了对话。服务方的意图是确保用户了解预约详情，并提醒用户如果有变动需要提前联系。此时，服务目标已达成，预约流程已完成，因此服务方选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

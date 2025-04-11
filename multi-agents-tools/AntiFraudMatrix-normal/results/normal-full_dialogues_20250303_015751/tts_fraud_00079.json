@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是预约服务的客服专员，有什么可以帮您的？",
+      "timestamp": 1740950843.8414767
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下预约的具体流程。",
+      "timestamp": 1740950845.013134
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话开始后立即提供了结束信号代码，这可能是因为用户误操作或突然改变主意，不再需要了解预约的具体流程。用户的意图可能是想结束当前对话，但并不一定表示对服务的不满或问题已解决。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

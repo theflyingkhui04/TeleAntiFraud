@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李华吗？我是你儿子的同学王强，他现在出事了，被一伙人带走了，你必须马上给我转一万块钱，不然我怕他们会对他不利。",
+      "timestamp": 1740811958.6190116
+    },
+    {
+      "role": "right",
+      "content": "王强，你先别急，你说的是真的吗？我儿子现在到底怎么样了？我需要马上去做些什么？",
+      "timestamp": 1740811960.212488
+    },
+    {
+      "role": "left",
+      "content": "我告诉你了，这是真的！你儿子现在还好，但是他们要求我们马上交钱，不然就会对他下手。你快点，我这儿也没多少时间了，我得赶紧联系你。你把钱打到这个账号上：六二二二…… ",
+      "timestamp": 1740811969.857443
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在提供银行账号后主动挂断电话，可能是为了制造紧迫感，使用户在没有时间思考的情况下尽快转账。此外，挂断电话也可以避免用户进一步提问，减少暴露诈骗风险的可能性。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

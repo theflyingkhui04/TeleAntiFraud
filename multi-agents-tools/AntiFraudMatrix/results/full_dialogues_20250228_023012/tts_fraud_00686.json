@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问，我们公司最近有一个非常不错的投资项目，年收益率高达20%，不知道您有没有兴趣了解一下？",
+      "timestamp": 1740692599.6732144
+    },
+    {
+      "role": "right",
+      "content": "您好，谢谢您的推荐。我退休了，对投资理财确实有些兴趣，但说实话，我对这种高收益的项目总是有些顾虑。毕竟天上不会掉馅饼，风险也一定不小。能不能详细介绍一下这个项目的具体情况和风险？",
+      "timestamp": 1740692602.1173432
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在表达出对高收益投资项目的顾虑后，可能意识到这是一次潜在的诈骗尝试，因此选择主动挂断电话以避免进一步的风险。用户的意图是保护自己的财务安全，避免被诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

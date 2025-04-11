@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您，您刚刚购买的彩票中了今年的一等奖，奖金高达五百万元！为了确保您的权益，请问您能提供一下您的姓名和联系方式吗？我们需要为您核实身份并安排奖金发放。",
+      "timestamp": 1740738086.858436
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？太神奇了！我一直梦想能中这么大的奖。我是张阿姨，我的电话是138-1234-5678。你们需要我提供什么信息来确认我的身份呢？",
+      "timestamp": 1740738089.385686
+    },
+    {
+      "role": "left",
+      "content": "张阿姨，我们已经记录了您的信息，接下来我们会进行核实，并在两个工作日内与您联系，安排奖金发放的具体事宜。请您保持电话畅通，再次恭喜您中得大奖！",
+      "timestamp": 1740738096.9168756
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，我会等你们的电话的。谢谢你们，真是太幸运了！",
+      "timestamp": 1740738099.2791703
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（姓名和电话号码），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "张阿姨，我们已经记录了您的信息，接下来我们会进行核实，并在两个工作日内与您联系，安排奖金发放的具体事宜。请您保持电话畅通，再次恭喜您中得大奖！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，我会等你们的电话的。谢谢你们，真是太幸运了！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

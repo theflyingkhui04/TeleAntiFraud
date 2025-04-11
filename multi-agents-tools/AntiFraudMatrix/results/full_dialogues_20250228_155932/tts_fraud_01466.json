@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你听好了，你的儿子现在在我手上，如果不马上汇款五十万到指定账户，我就撕票！如果你敢报警，后果自负！现在就按照我说的做，否则你永远见不到他了！",
+      "timestamp": 1740748348.821819
+    },
+    {
+      "role": "right",
+      "content": "你别吓我，我儿子到底在哪里？你要是真的绑架了他，我马上报警，你们跑不掉的！",
+      "timestamp": 1740748351.176429
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者的威胁时表现出了强烈的不安和怀疑。用户要求确认儿子的位置，并明确表示如果情况属实将报警处理，这表明用户并不相信诈骗者的话，并且不愿意按照诈骗者的要求行事。用户最终挂断电话，可能是为了中断与诈骗者的联系，避免进一步的骚扰或诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

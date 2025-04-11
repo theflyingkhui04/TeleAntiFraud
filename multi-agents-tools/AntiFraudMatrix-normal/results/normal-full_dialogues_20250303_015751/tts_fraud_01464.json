@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，我将帮您完成订餐，有什么可以帮到您的吗？",
+      "timestamp": 1740939700.5858204
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份午餐，有什么推荐的吗？",
+      "timestamp": 1740939702.188642
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们今天的推荐菜品有宫保鸡丁、鱼香肉丝和蒜蓉西兰花，这些都是很受欢迎的选择。您有什么偏好吗？",
+      "timestamp": 1740939707.826287
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来一份宫保鸡丁吧。还有什么其他的搭配吗？",
+      "timestamp": 1740939709.5551364
+    },
+    {
+      "role": "left",
+      "content": "好的，宫保鸡丁一份。我们还推荐搭配一份米饭和一份例汤，这样营养更均衡。您看怎么样？",
+      "timestamp": 1740939714.629392
+    },
+    {
+      "role": "right",
+      "content": "可以，就来一份米饭和例汤吧。谢谢。",
+      "timestamp": 1740939716.18269
+    },
+    {
+      "role": "left",
+      "content": "不客气，您的订单已确认：宫保鸡丁一份、米饭一份和例汤一份。预计送达时间为30分钟内。如果需要其他帮助，随时告诉我。",
+      "timestamp": 1740939722.6193402
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户订单并提供预计送达时间后，主动结束了对话。这表明服务方认为已经完成了用户的需求，即帮助用户成功订餐，并提供了必要的信息。服务方的意图是确保用户满意并结束本次服务流程。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

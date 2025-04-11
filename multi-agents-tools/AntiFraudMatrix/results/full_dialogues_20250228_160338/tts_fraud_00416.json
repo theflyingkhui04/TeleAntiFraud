@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX彩票中心的客服，您最近是否购买过我们的彩票？我们发现您的号码中了二等奖，奖金是五十万元。为了确认您的身份，请您提供一下您的姓名和身份证号码。",
+      "timestamp": 1740729926.7268958
+    },
+    {
+      "role": "right",
+      "content": "您好，我确实买过你们的彩票，但我觉得这种情况还是先确认一下比较好。你们能提供一下我的中奖号码和购买日期吗？这样我可以核对一下。",
+      "timestamp": 1740729939.425832
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的要求持怀疑态度，并要求提供更多信息以进行核对。用户可能意识到这是一个诈骗电话，因此选择挂断以避免提供个人信息或进一步的诈骗行为。用户的意图是保护自己的隐私和财产安全，通过挂断电话来终止潜在的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，我是来自【某知名投资平台】的客服经理，我注意到您最近在我们平台上的投资表现非常出色，恭喜您！",
+      "timestamp": 1740792731.2417614
+    },
+    {
+      "role": "right",
+      "content": "你好，谢谢你的夸奖。我确实投了一些资金，但没想到会有这么好的回报。你们平台真的很专业。能告诉我接下来有什么建议吗？",
+      "timestamp": 1740792733.554362
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们会尽快处理您的账户信息，有任何进展会第一时间通知您。祝您生活愉快！",
+      "timestamp": 1740792740.2126946
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。期待你们的好消息。祝好！",
+      "timestamp": 1740792743.984291
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表示不再继续对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们会尽快处理您的账户信息，有任何进展会第一时间通知您。祝您生活愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。期待你们的好消息。祝好！"
+    }
+  ],
+  "reached_max_turns": false
+}

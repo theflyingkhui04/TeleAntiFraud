@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是某投资顾问公司的张经理，最近我们发现您在金融投资方面有很大的潜力，特地联系您，想了解一下您是否有兴趣参与我们最新推出的高收益投资项目？",
+      "timestamp": 1740807766.5597887
+    },
+    {
+      "role": "right",
+      "content": "谢谢您的联系，张经理。听您这么一说，我还真挺感兴趣的。您能具体介绍一下这个投资项目吗？",
+      "timestamp": 1740807769.0297418
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对诈骗者提供的投资项目的兴趣，但双方的对话在诈骗者描述项目之前突然结束。由于双方都使用了结束信号代码（##ENDCALL_SIGNAL##），这表明对话的结束可能是由于外部因素，如电话连接问题或用户临时有事需要处理。用户的意图可能并不是因为识破了诈骗，而是由于其他原因不得不中断对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

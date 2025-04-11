@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某宝客服，我们发现您的账户存在异常，需要您配合我们验证一下信息。为了您的账户安全，请提供一下您的身份证号码和手机号码。",
+      "timestamp": 1740799562.8014855
+    },
+    {
+      "role": "right",
+      "content": "您好，我有点担心，账户异常听起来挺严重的。不过，我以前也遇到过类似的情况，最后发现是误会。你们能告诉我具体是怎么回事吗？",
+      "timestamp": 1740799564.554911
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方的真实身份和意图，担心个人信息安全，因此选择主动挂断电话以避免潜在的风险。用户的意图是保护自己的隐私和账户安全，不轻易透露个人信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

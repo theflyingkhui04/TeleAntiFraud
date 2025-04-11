@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您是李明的家属吗？我是刑警队的张警官，李先生现在在我们这里，情况很紧急，您需要立刻配合我们的行动。",
+      "timestamp": 1740735814.6696486
+    },
+    {
+      "role": "right",
+      "content": "啊？李明怎么了？我是他妻子。张警官您好，请问发生了什么事？需要我怎么配合？",
+      "timestamp": 1740735833.696123
+    },
+    {
+      "role": "left",
+      "content": "李先生因为涉嫌一起严重的经济案件被我们带回来协助调查，现在他的安全受到威胁，我们需要您立即准备二十万人民币来保释他。请您尽快转账到这个账户：6222 0213 4567 8901。",
+      "timestamp": 1740735873.710012
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在提供了银行账户信息后主动挂断电话，可能是为了给用户制造紧迫感，促使用户在没有进一步询问或核实的情况下尽快转账。此外，诈骗者可能已经完成了诈骗的关键步骤，即提供了转账账户，认为没有必要继续对话，以免用户产生怀疑或提出更多问题。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

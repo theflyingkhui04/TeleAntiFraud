@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！我们注意到您的快递包裹遇到了一些清关问题，需要您提供身份信息以完成验证。请问您现在方便处理吗?",
+      "timestamp": 1740688603.4903836
+    },
+    {
+      "role": "right",
+      "content": "抱歉，我不记得最近有任何需要清关的快递。而且，你们是怎么知道我的电话的？这听起来不太对劲。我会直接联系我的快递公司确认的。",
+      "timestamp": 1740688608.4926746
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是怀疑这是一起诈骗行为。用户表示不记得有需要清关的快递，并对诈骗者如何获取其电话号码表示质疑。用户明确表示将直接联系自己的快递公司进行确认，表明其已经识破了诈骗企图，不再愿意继续与诈骗者交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

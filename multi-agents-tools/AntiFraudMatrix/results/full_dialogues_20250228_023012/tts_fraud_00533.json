@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是银行客服中心，您的账户可能出现了安全问题，我们需要立即采取措施保护您的资金安全。请问您现在方便接听电话吗？",
+      "timestamp": 1740681637.0208535
+    },
+    {
+      "role": "right",
+      "content": "哦，您好，我现在挺方便的。你说我的账户有安全问题？那可怎么办啊？",
+      "timestamp": 1740681638.9357743
+    },
+    {
+      "role": "left",
+      "content": "是的，我们检测到您的账户在境外有异常登录记录。为了避免资金损失，请您立即提供账户密码和验证码，我们会帮您冻结账户并进行安全升级。",
+      "timestamp": 1740681651.1252394
+    },
+    {
+      "role": "right",
+      "content": "真的吗？那可太吓人了。不过我不是很懂这些，你能帮我解决真是太好了。那我的账户密码是123456，验证码刚刚收到了，是7890。你帮我处理一下吧。",
+      "timestamp": 1740681653.8882184
+    },
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。",
+      "timestamp": 1740681661.5067072
+    },
+    {
+      "role": "right",
+      "content": "好的，我等一下再看看有没有新的验证码。谢谢你这么快帮我处理，我心里踏实多了。",
+      "timestamp": 1740681665.7691672
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（账户密码和验证码），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。"
+    },
+    {
+      "role": "right",
+      "content": "好的，我等一下再看看有没有新的验证码。谢谢你这么快帮我处理，我心里踏实多了。"
+    }
+  ],
+  "reached_max_turns": false
+}

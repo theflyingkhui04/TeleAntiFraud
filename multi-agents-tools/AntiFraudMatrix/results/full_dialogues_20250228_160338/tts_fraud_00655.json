@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服，您的包裹在运输过程中发现了一些问题，需要您配合处理。",
+      "timestamp": 1740731363.0185485
+    },
+    {
+      "role": "right",
+      "content": "您好，客服小姐，我的包裹出了什么问题呢？",
+      "timestamp": 1740731364.3995638
+    },
+    {
+      "role": "left",
+      "content": "您的包裹中疑似含有违禁品，需要进行进一步检查。为了您的安全，我们需要您提供一些信息并支付一笔小额检查费用。",
+      "timestamp": 1740731387.4658618
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊，那我需要提供哪些信息呢？检查费用是多少呢？",
+      "timestamp": 1740731392.5603716
+    },
+    {
+      "role": "left",
+      "content": "我们需要您的姓名、身份证号以及包裹单号。检查费用是两百元整，请您尽快处理，否则包裹可能会被海关扣押。",
+      "timestamp": 1740731407.2290423
+    },
+    {
+      "role": "right",
+      "content": "好的，我的姓名是张伟，身份证号是xxxxxxxxxxxxxxxxxx，包裹单号是xxxxxxxxxxxx。两百元的检查费用，我该怎么支付呢？",
+      "timestamp": 1740731421.3894975
+    },
+    {
+      "role": "left",
+      "content": "很抱歉打扰您，由于您的配合态度不够积极，我们暂时无法继续处理您的包裹问题。请您稍后联系我们客服专线进行详细咨询。再见。",
+      "timestamp": 1740731456.5183973
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊，那我马上去处理。不过您能再给我一次机会吗？我真的想知道我的包裹出了什么问题。",
+      "timestamp": 1740731463.4923007
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息，包括姓名、身份证号和包裹单号，诈骗明显成功。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "很抱歉打扰您，由于您的配合态度不够积极，我们暂时无法继续处理您的包裹问题。请您稍后联系我们客服专线进行详细咨询。再见。"
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊，那我马上去处理。不过您能再给我一次机会吗？我真的想知道我的包裹出了什么问题。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

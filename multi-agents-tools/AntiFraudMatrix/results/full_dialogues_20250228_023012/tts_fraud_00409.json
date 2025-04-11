@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，请问是[受害者姓名]先生/女士吗？我是你儿子/女儿的朋友，他/她现在在我手上，如果你想确保他/她安全的话，请立刻准备五万元现金，不要报警，否则后果自负。",
+      "timestamp": 1740689746.3915763
+    },
+    {
+      "role": "right",
+      "content": "你是谁？我儿子现在在哪里？我马上报警！",
+      "timestamp": 1740689750.8610303
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者的要求后，立即识破了诈骗企图，并表达了强烈的不满和拒绝。用户提到要报警，表明他/她不仅不愿意配合诈骗者的要求，还准备采取法律手段应对。用户主动挂断电话，表明其不愿意继续与诈骗者交流，以避免进一步的风险或浪费时间。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

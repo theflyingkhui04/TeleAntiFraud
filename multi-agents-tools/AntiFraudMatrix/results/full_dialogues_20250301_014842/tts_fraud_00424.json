@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，检测到您的账户有异常交易，为了您的资金安全，请您提供一下身份证号码以便我们核实身份。",
+      "timestamp": 1740791591.0042686
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近确实没有进行过什么大额交易。不过，为了安全起见，我还是亲自去银行一趟吧，这样更放心一些。",
+      "timestamp": 1740791592.6895657
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到对方要求提供敏感信息（身份证号码），出于安全考虑，选择亲自前往银行进行核实，以避免潜在的诈骗风险。用户通过挂断电话表达了对当前对话的不信任和拒绝继续交流的意图。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

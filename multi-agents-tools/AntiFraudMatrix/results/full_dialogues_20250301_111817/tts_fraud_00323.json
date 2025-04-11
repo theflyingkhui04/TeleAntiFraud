@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李涛先生吗？我是你的朋友小刘的同事，小刘现在遇到了非常紧急的情况，需要你立即帮忙。",
+      "timestamp": 1740801045.7489848
+    },
+    {
+      "role": "right",
+      "content": "小刘怎么了？他出什么事了？我最近也没见到他，你能详细说说吗？",
+      "timestamp": 1740801048.0762925
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者提供的信息不足以引起其信任或兴趣，或者用户怀疑这是一个诈骗电话，因此选择主动挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

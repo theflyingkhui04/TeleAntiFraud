@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，请问您需要点什么餐呢？",
+      "timestamp": 1740973025.0923288
+    },
+    {
+      "role": "right",
+      "content": "你好，我看看菜单，点个红烧肉和清炒西兰花吧。还需要什么饮料吗？",
+      "timestamp": 1740973028.2579918
+    },
+    {
+      "role": "left",
+      "content": "好的，您点了一份红烧肉和一份清炒西兰花，饮料需要什么品种呢？我们这里有可乐、雪碧和橙汁等选择。",
+      "timestamp": 1740973035.811343
+    },
+    {
+      "role": "right",
+      "content": "来杯橙汁吧，谢谢。",
+      "timestamp": 1740973036.8206518
+    },
+    {
+      "role": "left",
+      "content": "好的，橙汁已为您添加到订单中。请问您的送餐地址是哪里？还有其他需要的餐具或调料吗？",
+      "timestamp": 1740973043.2868638
+    },
+    {
+      "role": "right",
+      "content": "送餐地址是幸福小区二号楼三单元四零二室。餐具要一套，调料不用了。谢谢。",
+      "timestamp": 1740973045.1141963
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包括一份红烧肉、一份清炒西兰花和一杯橙汁，餐具一套，送餐地址是幸福小区二号楼三单元四零二室。预计送达时间是三十分钟内。如果有什么问题，我们会及时与您联系。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740973053.6771545
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情后，提供了预计送达时间，并表达了感谢和祝福。服务方使用了结束标识符'##ENDCALL_SIGNAL##'，表明订单处理完成，服务目标已达成，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

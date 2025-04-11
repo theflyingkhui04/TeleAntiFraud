@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自XXX银行的客服代表，我们发现您的账户有异常活动，为了保障您的账户安全，请您提供一下身份证号以便我们进行身份验证。",
+      "timestamp": 1740691210.6668966
+    },
+    {
+      "role": "right",
+      "content": "你好，我最近确实收到了一些奇怪的短信，说我的账户有问题。你能告诉我具体是什么异常吗？我需要提供身份证号来验证吗？",
+      "timestamp": 1740691215.4726357
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者的身份和请求产生了怀疑，尤其是在被要求提供敏感信息（身份证号）时。用户挂断电话可能是为了保护自己的个人信息，避免潜在的风险。用户的意图是终止与诈骗者的进一步交流，防止个人信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

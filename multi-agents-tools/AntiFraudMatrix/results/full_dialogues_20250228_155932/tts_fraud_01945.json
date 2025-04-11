@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你家里的亲人现在在我们手上，如果你想要他平安无事，就听我接下来的话。",
+      "timestamp": 1740750655.59979
+    },
+    {
+      "role": "right",
+      "content": "你这是什么人啊，你有没有搞错，我家人都好好的，你别吓唬我。你到底是谁，为什么说这种话？",
+      "timestamp": 1740750659.7659335
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为感到受到威胁和恐惧，同时怀疑对方身份的真实性，选择挂断电话以保护自己和家人的安全。用户的意图是终止与诈骗者的进一步交流，避免落入诈骗陷阱。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

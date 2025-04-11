@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，您可以告诉我想点哪家餐厅的餐品吗？",
+      "timestamp": 1740983713.0791388
+    },
+    {
+      "role": "right",
+      "content": "你好，我想点一家附近的中餐馆，有什么推荐的吗？",
+      "timestamp": 1740983716.2188416
+    },
+    {
+      "role": "left",
+      "content": "您好，附近的中餐馆有“风味轩”和“福满楼”，两家的评价都不错，您有特别想吃的菜品吗？我可以根据您的口味推荐一家。",
+      "timestamp": 1740983721.6737688
+    },
+    {
+      "role": "right",
+      "content": "那就推荐一家吧，我比较喜欢清淡一些的菜。",
+      "timestamp": 1740983723.2456365
+    },
+    {
+      "role": "left",
+      "content": "推荐您尝试“风味轩”，那里的菜品以清淡为主，口味很受欢迎。想点些什么菜呢？我可以帮您下单。",
+      "timestamp": 1740983729.077433
+    },
+    {
+      "role": "right",
+      "content": "好的，那就“风味轩”吧。我想点个清蒸鱼和白灼菜心，再来一份酸辣汤。",
+      "timestamp": 1740983730.8312378
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您记录了清蒸鱼、白灼菜心和酸辣汤。还需要其他菜品或饮料吗？",
+      "timestamp": 1740983739.1902018
+    },
+    {
+      "role": "right",
+      "content": "不用了，这些就够了。谢谢。",
+      "timestamp": 1740983741.4887938
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认。清蒸鱼、白灼菜心和酸辣汤，预计三十分钟后送达。感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740983749.167275
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。",
+      "timestamp": 1740983750.7597437
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表达了对服务的满意，并且不再需要其他菜品或饮料，服务目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认。清蒸鱼、白灼菜心和酸辣汤，预计三十分钟后送达。感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

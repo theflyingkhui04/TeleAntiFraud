@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是中行客服，我们发现您的账户有异常登录，为了保障您的资金安全，需要您提供一些信息进行身份验证。",
+      "timestamp": 1740787856.713384
+    },
+    {
+      "role": "right",
+      "content": "喂，您好，我的账户有异常登录？这听起来挺严重的，我需要做些什么呢？",
+      "timestamp": 1740787858.0530035
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到这是一个诈骗电话而选择立即挂断。在对话中，诈骗者声称是银行客服并提到账户异常登录，要求用户提供信息进行身份验证。这种情况下，用户可能已经识破了诈骗者的意图，或者出于谨慎考虑，选择不继续对话，以保护自己的个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

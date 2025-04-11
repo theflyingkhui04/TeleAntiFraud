@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是\"幸运之星\"彩票管理中心，恭喜您中了我们的特等奖，奖金高达五百万元！请问您方便接听电话吗？",
+      "timestamp": 1740759581.6680613
+    },
+    {
+      "role": "right",
+      "content": "喂？您好，我是张明。真的中了五百万元？这太意外了，我完全没听说过这个活动。",
+      "timestamp": 1740759584.9330468
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者的身份和所声称的中奖信息感到怀疑，由于突然接到这样的电话且对活动完全不知情，用户可能认为这是诈骗电话，因此选择主动挂断以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

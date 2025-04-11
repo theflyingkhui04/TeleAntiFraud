@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，有什么我可以帮您的？",
+      "timestamp": 1740952381.5912642
+    },
+    {
+      "role": "right",
+      "content": "嗨，我在准备一个关于城市交通的报告，想了解一下最近有哪些改善措施。能给我提供一些信息吗？",
+      "timestamp": 1740952384.1588926
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话开始阶段即提供了结束信号代码 '##ENDCALL_SIGNAL##'，这表明用户可能出于测试或误操作的原因结束了对话。用户的意图是咨询关于城市交通改善措施的信息，但由于对话被立即结束，这一意图未能得到实现。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

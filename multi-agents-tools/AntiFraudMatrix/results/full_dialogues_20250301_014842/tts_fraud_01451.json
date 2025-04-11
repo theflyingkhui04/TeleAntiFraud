@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张伟吗？我是你儿子的同学李华，你儿子现在在我这，他出事了，你必须马上给我打一笔钱过来，否则我可不保证他的安全。你准备好了吗？",
+      "timestamp": 1740786387.0384965
+    },
+    {
+      "role": "right",
+      "content": "李华？你这是怎么回事？我儿子怎么会在你那？你先说清楚，别急着要钱。你到底是谁？我得确认一下。",
+      "timestamp": 1740786388.7783465
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能怀疑对方身份的真实性，对诈骗者的要求感到不信任和警惕，因此选择挂断电话以避免进一步的风险。用户的意图是终止与诈骗者的交流，防止可能的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

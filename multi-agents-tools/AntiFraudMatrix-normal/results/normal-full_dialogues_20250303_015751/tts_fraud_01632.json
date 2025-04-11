@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，可以帮助您快速叫车。请问您现在需要叫车吗？",
+      "timestamp": 1740947325.6082995
+    },
+    {
+      "role": "right",
+      "content": "好的，我现在需要叫车。麻烦帮我叫一辆去市中心的车。",
+      "timestamp": 1740947326.951134
+    },
+    {
+      "role": "left",
+      "content": "好的，我这就为您叫车。请问您的具体位置是哪里？以便司机更快找到您。",
+      "timestamp": 1740947330.8043551
+    },
+    {
+      "role": "right",
+      "content": "我在人民广场附近，麻烦司机过来接我。",
+      "timestamp": 1740947334.6871762
+    },
+    {
+      "role": "left",
+      "content": "明白了，我已为您叫了一辆车。司机大约10分钟后到达人民广场，请您留意手机上的司机信息和车牌号。如果您有任何问题，可以随时联系我。",
+      "timestamp": 1740947341.061982
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在成功为用户叫到车后，提供了司机到达的预计时间和注意事项，并明确表示用户可以随时联系他们。这表明服务目标已经达成，用户的问题得到了解决。服务方使用了结束标识符'##ENDCALL_SIGNAL##'，表明他们认为对话已经完成，可以结束了。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

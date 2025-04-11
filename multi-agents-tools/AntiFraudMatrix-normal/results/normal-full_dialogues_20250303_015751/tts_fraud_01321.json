@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪一项服务呢？",
+      "timestamp": 1740955079.9756594
+    },
+    {
+      "role": "right",
+      "content": "我想了解一下你们的具体服务项目。",
+      "timestamp": 1740955080.7929227
+    },
+    {
+      "role": "left",
+      "content": "我们提供多种服务项目，包括美容护理、健康咨询、家政服务等，您具体对哪一项感兴趣呢？",
+      "timestamp": 1740955084.5374193
+    },
+    {
+      "role": "right",
+      "content": "我对健康咨询感兴趣。",
+      "timestamp": 1740955085.299925
+    },
+    {
+      "role": "left",
+      "content": "好的，我们的健康咨询服务由专业医师提供，涵盖营养指导、运动建议、常见疾病预防等多个方面，您希望预约哪一类咨询呢？",
+      "timestamp": 1740955089.1667674
+    },
+    {
+      "role": "right",
+      "content": "我想预约营养指导。",
+      "timestamp": 1740955089.6081467
+    },
+    {
+      "role": "left",
+      "content": "了解了，营养指导服务通常需要大约一个小时，您可以选择合适的时间段，我们目前有明天上午10点和下午3点两个时间段可供选择，您看哪个时间段方便？",
+      "timestamp": 1740955094.9689448
+    },
+    {
+      "role": "right",
+      "content": "明天上午10点方便。",
+      "timestamp": 1740955095.8442872
+    },
+    {
+      "role": "left",
+      "content": "好的，已为您预约明天上午10点的营养指导服务，您的预约编号是12345，请保持手机畅通，我们将提前发送确认短信。如果有任何变动，请随时联系我们。",
+      "timestamp": 1740955102.6031578
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息并提供了预约编号后，主动结束了对话。服务方的意图是确保用户已经获得了所有必要的信息，并且预约流程已经顺利完成，因此认为对话可以结束了。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

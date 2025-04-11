@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是您的银行客服，我们发现您的账户有异常交易，请问您最近是否丢失了银行卡或进行了大额转账？",
+      "timestamp": 1740744493.3120532
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近确实没有丢失银行卡，也没有进行过大额转账。不过，为了安全起见，我需要确认一下，您能告诉我您的工号和姓名吗？这样我也可以记录一下。",
+      "timestamp": 1740744498.0009465
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方的真实身份而选择挂断电话。用户要求提供工号和姓名以进行验证，这表明用户对来电者的身份持谨慎态度。由于诈骗者在用户提出验证要求后立即挂断电话，这可能是因为诈骗者不愿意或无法提供这些信息，从而选择终止对话以避免被识破。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

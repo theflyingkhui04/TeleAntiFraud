@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是这里的服务员，请问有什么可以帮您的？",
+      "timestamp": 1740942927.2696273
+    },
+    {
+      "role": "right",
+      "content": "你好，我想点一份牛排和一份沙拉，牛排要五分熟。还有一杯冰水，谢谢。",
+      "timestamp": 1740942930.2794125
+    },
+    {
+      "role": "left",
+      "content": "好的，您点了一份五分熟的牛排、一份沙拉和一杯冰水，马上为您安排。还有其他需要的吗？",
+      "timestamp": 1740942939.069288
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的点餐内容后，询问了用户是否有其他需要。在用户没有进一步的需求后，服务方使用了结束信号代码 ##ENDCALL_SIGNAL##，表明服务方认为对话目标已达成，即用户的点餐需求已经完全满足，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

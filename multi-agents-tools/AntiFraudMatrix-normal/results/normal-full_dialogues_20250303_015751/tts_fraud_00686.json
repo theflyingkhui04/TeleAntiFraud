@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，有什么可以帮到您的吗？",
+      "timestamp": 1740949628.1769462
+    },
+    {
+      "role": "right",
+      "content": "你好，小张，我想了解一下最近的促销活动。",
+      "timestamp": 1740949631.9758515
+    },
+    {
+      "role": "left",
+      "content": "您好，目前我们有几个促销活动正在进行中，比如满二百减五十、部分商品五折等，您具体感兴趣哪一类商品？我可以为您详细介绍。",
+      "timestamp": 1740949636.9562497
+    },
+    {
+      "role": "right",
+      "content": "好的，我对电子产品比较感兴趣，你能帮我看看有什么优惠吗？",
+      "timestamp": 1740949638.0637906
+    },
+    {
+      "role": "left",
+      "content": "当然可以。电子产品方面，我们有几款热门的智能手机和笔记本电脑正在参与促销，比如XX品牌智能手机直降三百元，还有XX品牌笔记本电脑特价优惠，您可以通过这个链接查看详细信息：[链接]。需要我再帮您筛选一下吗？",
+      "timestamp": 1740949644.6190462
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我看看链接里的信息。如果有问题我会再联系你。",
+      "timestamp": 1740949646.0575023
+    },
+    {
+      "role": "left",
+      "content": "好的，希望这些信息对您有帮助。如果还有其他问题，欢迎随时联系我们。祝您购物愉快！再见。",
+      "timestamp": 1740949654.9364414
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。",
+      "timestamp": 1740949655.915069
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示会查看提供的链接，并提到如果有问题会再联系服务方，这表明用户当前的需求已经得到满足，且没有进一步的问题需要解决。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，希望这些信息对您有帮助。如果还有其他问题，欢迎随时联系我们。祝您购物愉快！再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

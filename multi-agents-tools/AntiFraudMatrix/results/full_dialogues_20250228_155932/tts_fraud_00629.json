@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您是李明的家人吗？我是李明的同事，他现在出事了，情况非常紧急，你们必须马上过来，或者转一笔钱过来救他，不然他会有生命危险。",
+      "timestamp": 1740755665.7085648
+    },
+    {
+      "role": "right",
+      "content": "啊，李明出事了？天哪，他现在在哪儿？你们在哪个医院？我马上过去。需要转多少钱？你给我个账号，我立刻就转。",
+      "timestamp": 1740755670.410535
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们先这样，如果有什么变动我会再联系您，希望您能尽快处理这件事。再见。",
+      "timestamp": 1740755675.3866646
+    },
+    {
+      "role": "right",
+      "content": "再见。（挂断电话后）这...这不会是骗子吧？不过万一是真的呢？我还是先打个电话问问李明吧。",
+      "timestamp": 1740755680.3844972
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表明其选择挂断对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们先这样，如果有什么变动我会再联系您，希望您能尽快处理这件事。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。（挂断电话后）这...这不会是骗子吧？不过万一是真的呢？我还是先打个电话问问李明吧。"
+    }
+  ],
+  "reached_max_turns": false
+}

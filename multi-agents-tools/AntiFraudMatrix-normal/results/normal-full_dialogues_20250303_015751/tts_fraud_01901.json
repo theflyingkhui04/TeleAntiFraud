@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您想预订哪家餐厅的美食呢？",
+      "timestamp": 1740950784.8423765
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个中餐，有什么推荐的吗？",
+      "timestamp": 1740950786.045772
+    },
+    {
+      "role": "left",
+      "content": "您好，我们这里有几家非常受欢迎的中餐厅，比如“老北京烤鸭店”、“川味轩”和“江南小厨”，您对哪种口味更感兴趣呢？",
+      "timestamp": 1740950791.6837804
+    },
+    {
+      "role": "right",
+      "content": "我对川菜比较感兴趣，就订“川味轩”吧。",
+      "timestamp": 1740950792.900791
+    },
+    {
+      "role": "left",
+      "content": "好的，川味轩是我们的明星餐厅之一，他们的麻辣香锅和水煮鱼非常受好评。您想预订这些经典菜品吗，还是有其他需要推荐的？",
+      "timestamp": 1740950798.6936548
+    },
+    {
+      "role": "right",
+      "content": "那就来个水煮鱼吧，还有一份宫保鸡丁。",
+      "timestamp": 1740950799.690067
+    },
+    {
+      "role": "left",
+      "content": "好的，水煮鱼和宫保鸡丁都已加入您的订单。还需要点些其他菜品或饮品吗？",
+      "timestamp": 1740950804.2714384
+    },
+    {
+      "role": "right",
+      "content": "再来一份拌凉粉吧，饮品就来一杯冰红茶。",
+      "timestamp": 1740950805.4895444
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认：水煮鱼一份、宫保鸡丁一份、拌凉粉一份，以及冰红茶一杯。请问有特殊的要求或备注吗？比如口味偏淡或不要辣？",
+      "timestamp": 1740950810.7502267
+    },
+    {
+      "role": "right",
+      "content": "不用了，就按常规口味来吧。谢谢。",
+      "timestamp": 1740950812.8003745
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认。预计在30分钟左右送达，如果您有任何其他需求，可以随时联系我们。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740950820.2105186
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740950823.8257678
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单，并表示没有其他特殊要求。服务方可以结束对话，确认订单详情并感谢用户的订购。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认。预计在30分钟左右送达，如果您有任何其他需求，可以随时联系我们。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

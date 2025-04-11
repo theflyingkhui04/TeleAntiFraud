@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮您的吗？",
+      "timestamp": 1740981707.5202234
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份午餐，有什么推荐的吗？",
+      "timestamp": 1740981708.442243
+    },
+    {
+      "role": "left",
+      "content": "我们今天的推荐菜有宫保鸡丁、鱼香肉丝和清蒸鲈鱼，搭配米饭或面条，您看中意哪一款呢？",
+      "timestamp": 1740981714.8501003
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来一份宫保鸡丁配米饭吧。还有什么饮料推荐？",
+      "timestamp": 1740981716.0846167
+    },
+    {
+      "role": "left",
+      "content": "宫保鸡丁配米饭是个不错的选择。我们这里推荐柠檬水和冰红茶，清新解腻，您想要尝试一下吗？",
+      "timestamp": 1740981718.919328
+    },
+    {
+      "role": "right",
+      "content": "好的，来一杯冰红茶吧。谢谢。",
+      "timestamp": 1740981719.599544
+    },
+    {
+      "role": "left",
+      "content": "好的，您的宫保鸡丁配米饭和柠檬水已记录，预计30分钟后送达。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740981723.9680948
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待品尝。",
+      "timestamp": 1740981724.6813967
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了菜品和饮料，并表示感谢，表明用户对服务满意且无需进一步帮助。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的宫保鸡丁配米饭和柠檬水已记录，预计30分钟后送达。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待品尝。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生/女士，我是您儿子的朋友，他现在遇到了点麻烦，需要您的帮助。",
+      "timestamp": 1740806767.275286
+    },
+    {
+      "role": "right",
+      "content": "你好，你是哪位？我儿子怎么了？能具体说说吗？我得确认一下。",
+      "timestamp": 1740806769.3288145
+    },
+    {
+      "role": "left",
+      "content": "我是他的同学小李，他刚才在学校附近被几个不良青年围住了，现在情况很紧急，您得赶紧汇一笔钱过来，我们才能想办法救他出来。",
+      "timestamp": 1740806774.5955899
+    },
+    {
+      "role": "right",
+      "content": "小李，你先别急，我得确认一下。我儿子的手机呢？他为什么不自己打电话给我？你给我具体说说他在哪儿，我马上过去。",
+      "timestamp": 1740806778.2605824
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的说法表示怀疑，要求提供更多具体信息以确认情况的真实性。用户提出合理疑问，如为什么儿子不自己打电话，以及要求提供具体位置，显示用户保持警觉并试图验证信息的真实性。最终用户选择挂断电话，可能是认为对方无法提供令人信服的证据，或者怀疑这是一个诈骗电话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

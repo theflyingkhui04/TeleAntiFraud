@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家彩票中心的客服，恭喜您中得本期彩票大奖，奖金高达五百万元！为了确保奖金能够顺利发放，请问您能提供一下您的姓名和联系方式吗？我们会在核对信息后安排奖金发放。",
+      "timestamp": 1740774463.3495297
+    },
+    {
+      "role": "right",
+      "content": "您好，我是一名教师，平时很少买彩票。突然接到这样的电话，我有点怀疑这是否是真实的。能否麻烦您提供一下具体的中奖信息和凭证，让我确认一下？谢谢。",
+      "timestamp": 1740774465.7365413
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在接到诈骗者的电话后，表现出了谨慎的态度，并要求提供具体的中奖信息和凭证以确认真实性。用户随后主动挂断电话，这表明用户可能怀疑这是一起诈骗电话，并选择通过挂断电话来保护自己不受进一步的欺骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，欢迎使用我们的订餐服务，请问有什么可以帮助您的？",
+      "timestamp": 1740982814.517476
+    },
+    {
+      "role": "right",
+      "content": "您好，我想订一份晚餐，有什么推荐的吗？",
+      "timestamp": 1740982816.2171197
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们今天的特色推荐有宫保鸡丁、清蒸鱼和素炒四季豆，这些都非常受欢迎。您有什么口味偏好或需求吗？",
+      "timestamp": 1740982823.7375731
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，我就来一份宫保鸡丁吧。另外，还有一份小炒肉和一碗青菜。",
+      "timestamp": 1740982826.9637716
+    },
+    {
+      "role": "left",
+      "content": "好的，您点了一份宫保鸡丁、一份小炒肉和一碗青菜。还需要帮您搭配什么饮料或汤品吗？",
+      "timestamp": 1740982834.55834
+    },
+    {
+      "role": "right",
+      "content": "来一碗番茄蛋汤吧，饮料的话，来一杯冰红茶。",
+      "timestamp": 1740982835.6742477
+    },
+    {
+      "role": "left",
+      "content": "好的，您点的餐品包括一份宫保鸡丁、一份小炒肉、一碗青菜和一碗番茄蛋汤，还有一杯冰红茶。请问需要什么时间送达呢？",
+      "timestamp": 1740982842.6258354
+    },
+    {
+      "role": "right",
+      "content": "大概六点半左右送到家里吧。谢谢。",
+      "timestamp": 1740982843.7057164
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经记录完毕，预计在30分钟后送达。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740982848.2425294
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美味的晚餐。",
+      "timestamp": 1740982849.8896732
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单详情，并且指定了送达时间和地点，同时表达了感谢，表明对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经记录完毕，预计在30分钟后送达。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美味的晚餐。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

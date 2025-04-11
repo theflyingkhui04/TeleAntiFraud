@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，有什么可以帮助您的吗？",
+      "timestamp": 1740965324.5092642
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下你们的服务范围，还有怎么使用这个打车软件。",
+      "timestamp": 1740965326.0883164
+    },
+    {
+      "role": "left",
+      "content": "我们的服务覆盖了全国多个城市，您可以通过我们的软件轻松叫车。使用方法很简单，首先下载我们的APP，注册账号后，在首页输入目的地，选择车型，点击叫车就可以了。您现在注册还有新用户优惠哦。有其他问题吗？",
+      "timestamp": 1740965332.8169484
+    },
+    {
+      "role": "right",
+      "content": "听起来挺方便的。那我注册之后，怎么支付车费呢？",
+      "timestamp": 1740965334.4344854
+    },
+    {
+      "role": "left",
+      "content": "注册后，您可以在APP的“我的”页面设置支付方式，支持微信支付、支付宝等多种支付方式。行程结束后，您可以直接通过设定的支付方式付款，非常便捷。如果还有其他疑问，随时告诉我。",
+      "timestamp": 1740965341.9768052
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的详细解答。我这就去下载APP试试。",
+      "timestamp": 1740965344.1147954
+    },
+    {
+      "role": "left",
+      "content": "一切都很清楚了，如果您有任何问题或需要帮助，随时欢迎联系我们。祝您使用愉快，谢谢！",
+      "timestamp": 1740965353.6343842
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我会试一试的。祝我好运吧！",
+      "timestamp": 1740965355.2867591
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示满意并感谢服务方的解答，明确表达了将去尝试使用服务的意图，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "一切都很清楚了，如果您有任何问题或需要帮助，随时欢迎联系我们。祝您使用愉快，谢谢！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我会试一试的。祝我好运吧！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

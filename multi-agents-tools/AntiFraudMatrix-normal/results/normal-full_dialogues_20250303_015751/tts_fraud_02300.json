@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您需要预订哪个餐厅的餐点呢？",
+      "timestamp": 1740972328.2478936
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预订一家评价不错的中餐馆，有什么推荐吗？",
+      "timestamp": 1740972329.8050017
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们这里有一家名为“味之轩”的中餐馆，口碑非常好，提供地道的川菜和粤菜，您看是否感兴趣？",
+      "timestamp": 1740972336.705112
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，那就预订“味之轩”吧。我想点一些经典菜品，有什么推荐的吗？",
+      "timestamp": 1740972338.7136059
+    },
+    {
+      "role": "left",
+      "content": "“味之轩”的宫保鸡丁和清蒸鲈鱼非常受欢迎，另外他们的蒜蓉西兰花也是不错的选择。您看这些菜品是否符合您的口味？",
+      "timestamp": 1740972346.1572115
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来一份宫保鸡丁、清蒸鲈鱼和蒜蓉西兰花。这些都是我喜欢的菜。什么时候可以送到？",
+      "timestamp": 1740972348.293025
+    },
+    {
+      "role": "left",
+      "content": "您的订单已经记录下来了，预计送达时间为三十到四十分钟。如果地址是常去的地点，我们可以加快配送速度。请您确认一下送餐地址，我们好尽快为您安排。",
+      "timestamp": 1740972354.856784
+    },
+    {
+      "role": "right",
+      "content": "地址是常去的，你们可以按上次的地址送。谢谢。",
+      "timestamp": 1740972356.7683384
+    },
+    {
+      "role": "left",
+      "content": "您的订单已确认，宫保鸡丁、清蒸鲈鱼和蒜蓉西兰花，预计三十到四十分钟内送达。感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740972366.639887
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待美味的晚餐。",
+      "timestamp": 1740972368.2524655
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了送餐地址，并表示感谢，表明用户对服务满意且无需进一步的帮助。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的订单已确认，宫保鸡丁、清蒸鲈鱼和蒜蓉西兰花，预计三十到四十分钟内送达。感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待美味的晚餐。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

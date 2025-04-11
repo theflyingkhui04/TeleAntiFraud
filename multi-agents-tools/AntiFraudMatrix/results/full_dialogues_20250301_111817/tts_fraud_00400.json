@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是建行客服中心，我是客服代表张薇，您的账户刚刚发生了一笔两千五百元的转账交易，我们需要核实这笔交易是否由您本人操作。请您提供一下您的姓名和身份证号码以便我们进行核对。",
+      "timestamp": 1740805949.0312374
+    },
+    {
+      "role": "right",
+      "content": "你好，张薇，我叫李明，我的身份证号码是三十七零一零二一九九五零六零一零六零五。这笔转账交易确实是我本人操作的。",
+      "timestamp": 1740805951.979103
+    },
+    {
+      "role": "left",
+      "content": "好的，李明先生，感谢您的配合，我们已经记录了相关信息。如果还有什么问题，我们会再次联系您。祝您生活愉快。",
+      "timestamp": 1740805958.925571
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，如果有什么问题我会再联系你们。祝好。",
+      "timestamp": 1740805961.2763746
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（姓名和身份证号码），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，李明先生，感谢您的配合，我们已经记录了相关信息。如果还有什么问题，我们会再次联系您。祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，如果有什么问题我会再联系你们。祝好。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

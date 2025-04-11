@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自国际快递公司的客服专员，您的一个包裹在运输过程中遇到了一些问题，需要您的协助解决。",
+      "timestamp": 1740688448.0236645
+    },
+    {
+      "role": "right",
+      "content": "您好，我是李工。我的包裹出了什么问题？需要我怎么帮忙？",
+      "timestamp": 1740688450.1128094
+    },
+    {
+      "role": "left",
+      "content": "李先生您好，我们发现您的包裹中包含了一些疑似违禁物品，可能涉及海关税务问题。为了确保您的包裹能顺利送达，您需要支付一笔2000元的保证金。",
+      "timestamp": 1740688493.4207377
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者可能意识到用户对支付保证金的要求产生了怀疑或犹豫，继续对话可能会暴露诈骗行为，因此选择主动挂断电话以避免进一步的风险。诈骗者的意图可能是通过制造紧迫感和压力，诱使用户在未充分思考的情况下支付保证金，从而达到诈骗的目的。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

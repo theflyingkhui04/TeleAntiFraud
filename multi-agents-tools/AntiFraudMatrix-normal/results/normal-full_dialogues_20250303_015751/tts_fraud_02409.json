@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在此，您需要了解哪条路线的信息呢？",
+      "timestamp": 1740948921.7768617
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从市中心到火车站的路线，最好是公交或者地铁。",
+      "timestamp": 1740948923.8122196
+    },
+    {
+      "role": "left",
+      "content": "从市中心到火车站，您可以选择乘坐地铁二号线，从市中心站上车，到火车站下车，全程大约需要十五分钟。如果您选择公交，可以乘坐5路或10路公交车，全程大约需要三十分钟。您认为哪种方式更合适呢？",
+      "timestamp": 1740948929.5475087
+    },
+    {
+      "role": "right",
+      "content": "谢谢你的详细信息。我觉得地铁更方便一些，十五分钟也更快。那我直接去地铁站就可以了对吧？",
+      "timestamp": 1740948933.3263555
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您选择地铁或公交，路线我已经帮您规划好了。希望您的旅途愉快，如果还有其他问题，随时欢迎咨询。谢谢！",
+      "timestamp": 1740948938.8678956
+    },
+    {
+      "role": "right",
+      "content": "好的，非常感谢！祝我一路顺利。",
+      "timestamp": 1740948939.9894142
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表达了对所提供信息的满意。用户暗示不再需要进一步的帮助。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您选择地铁或公交，路线我已经帮您规划好了。希望您的旅途愉快，如果还有其他问题，随时欢迎咨询。谢谢！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，非常感谢！祝我一路顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

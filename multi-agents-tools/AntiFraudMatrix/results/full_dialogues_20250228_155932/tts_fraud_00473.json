@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递客服中心，我注意到您的包裹因海关问题被扣留，需要您提供一些信息来协助处理。请问您方便现在处理吗？",
+      "timestamp": 1740756979.9488173
+    },
+    {
+      "role": "right",
+      "content": "你好，我是医生，平时工作挺忙的。这个包裹是我最近买的吗？我记得最近没有买什么东西需要从国外寄过来。能告诉我具体是什么包裹吗？",
+      "timestamp": 1740756981.8483818
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑这是诈骗电话而选择挂断。用户提到自己是医生，工作繁忙，且不记得最近有从国外购买物品，这表明用户对电话内容的真实性产生了怀疑。用户通过询问具体包裹信息来验证电话的真实性，但诈骗者并未提供具体信息，这进一步加深了用户的怀疑，最终导致用户选择挂断电话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

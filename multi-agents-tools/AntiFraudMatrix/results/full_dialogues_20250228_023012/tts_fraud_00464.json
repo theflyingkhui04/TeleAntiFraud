@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是银行安全部门的林经理。我们检测到您的账户存在异常交易，需要立即核实您的身份信息以确保资金安全。请问您方便配合吗？",
+      "timestamp": 1740681133.9920986
+    },
+    {
+      "role": "right",
+      "content": "您好，林经理。谢谢您的提醒，但我想先确认一下，您能告诉我具体的异常交易情况吗？这样我可以更好地配合。",
+      "timestamp": 1740681136.6476083
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出需要核实身份信息后，表现出谨慎态度，要求提供具体的异常交易情况以进行确认。这表明用户可能对诈骗者的身份和意图产生了怀疑，决定通过挂断电话来避免进一步的潜在风险。用户的意图是通过挂断电话来终止对话，保护自己的个人信息和资金安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

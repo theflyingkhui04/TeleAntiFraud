@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我可以帮您安排车辆，请问您需要叫车吗？",
+      "timestamp": 1740955846.8563166
+    },
+    {
+      "role": "right",
+      "content": "好的，我需要叫一辆车。我要从家出发去公司。家里地址是上海市浦东新区XX路XX号，公司地址是上海市徐汇区XX路XX号。谢谢。",
+      "timestamp": 1740955848.7372746
+    },
+    {
+      "role": "left",
+      "content": "感谢您的信息，已经为您预约了一辆车。预计十分钟后到达，请您在指定地点等候。如果途中有任何问题，可以随时联系我。祝您行程顺利。",
+      "timestamp": 1740955853.2943583
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认为用户成功预约车辆后，提供了预计到达时间、等候地点以及后续支持信息，表明服务已经完成。使用结束信号代码##ENDCALL_SIGNAL##表明服务方认为对话目标已达成，且用户没有进一步的问题或需求，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

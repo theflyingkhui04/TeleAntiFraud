@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临！有什么商品您感兴趣的，我可以帮您详细介绍。",
+      "timestamp": 1740978334.274082
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我随便看看。有什么推荐的吗？",
+      "timestamp": 1740978335.7067285
+    },
+    {
+      "role": "left",
+      "content": "我们目前有几个热销商品，比如新款的智能手表和无线蓝牙耳机，都很受欢迎。您对电子产品感兴趣吗？",
+      "timestamp": 1740978342.8310354
+    },
+    {
+      "role": "right",
+      "content": "挺感兴趣的，智能手表有什么特别的功能吗？",
+      "timestamp": 1740978344.471291
+    },
+    {
+      "role": "left",
+      "content": "这款智能手表支持健康监测，包括心率、血压和血氧饱和度的测量，还有睡眠分析功能。此外，它还能连接手机接收通知，支持多种运动模式，非常适合注重健康和运动的朋友。",
+      "timestamp": 1740978352.850572
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，能连接手机这点挺方便的。这款手表的价格是多少？",
+      "timestamp": 1740978354.7055058
+    },
+    {
+      "role": "left",
+      "content": "这款智能手表的售价是1299元，现在购买还有优惠活动，可以享受九五折，折后价是1234元。是否需要了解一下其他信息？",
+      "timestamp": 1740978364.1137347
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的详细介绍。我再考虑一下，确定了再联系你。",
+      "timestamp": 1740978366.396847
+    },
+    {
+      "role": "left",
+      "content": "如果您对这款智能手表感兴趣，可以随时来店体验或在线下单。感谢您的关注，希望您购物愉快！再见。",
+      "timestamp": 1740978375.596304
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。",
+      "timestamp": 1740978377.168693
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示已经获得了所需的信息，并表示会再考虑，明确表达了结束对话的意愿。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您对这款智能手表感兴趣，可以随时来店体验或在线下单。感谢您的关注，希望您购物愉快！再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

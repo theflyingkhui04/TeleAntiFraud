@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，欢迎使用打车服务，我可以帮您快速安排一辆车。请告诉我您的上车地点和目的地。",
+      "timestamp": 1740949172.927688
+    },
+    {
+      "role": "right",
+      "content": "好的，上车地点是公司门口，目的地是机场。谢谢。",
+      "timestamp": 1740949174.4539893
+    },
+    {
+      "role": "left",
+      "content": "明白了，您的上车地点是公司门口，目的地是机场。请稍等，我帮您安排车辆。预计等待时间大约是5分钟，司机接单后会尽快联系您。",
+      "timestamp": 1740949184.1149743
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会在公司门口等。",
+      "timestamp": 1740949185.1669607
+    },
+    {
+      "role": "left",
+      "content": "好的，司机已经接单，预计5分钟后到达公司门口。请您留意司机的联系，祝您旅途愉快。",
+      "timestamp": 1740949190.5216541
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的上车地点和目的地后，成功为用户安排了车辆，并告知了预计等待时间和司机接单的情况。服务方认为已经完成了用户的需求，提供了完整的服务流程，因此选择结束对话。服务方的意图是确保用户获得所需的服务，并在服务完成后礼貌地结束对话，让用户感到满意。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

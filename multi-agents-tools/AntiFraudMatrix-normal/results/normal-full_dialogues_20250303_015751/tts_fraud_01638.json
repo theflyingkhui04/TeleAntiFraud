@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，已经为您安排了最近的车辆，大约需要五分钟到达您的位置。",
+      "timestamp": 1740978026.0794275
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我在这儿等车。",
+      "timestamp": 1740978027.9221663
+    },
+    {
+      "role": "left",
+      "content": "不客气，如果您有任何其他需求，可以随时告诉我，祝您行程愉快。",
+      "timestamp": 1740978039.1117613
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户没有其他需求，并且车辆已经安排妥当后，选择结束对话。服务方的意图是确保用户满意并结束本次服务，同时表达良好的祝愿，保持专业和友好的态度。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

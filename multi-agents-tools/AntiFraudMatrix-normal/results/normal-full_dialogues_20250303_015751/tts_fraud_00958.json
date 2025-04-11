@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询服务中心，有什么我可以帮您的吗？",
+      "timestamp": 1740944716.9817243
+    },
+    {
+      "role": "right",
+      "content": "您好，我想了解一下从市中心到机场的交通方式，有哪些选择？",
+      "timestamp": 1740944718.990917
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户和客服都提供了结束信号代码（##ENDCALL_SIGNAL##），但实际上对话并未达到可以结束的条件。用户提出了具体的问题，即了解从市中心到机场的交通方式，而服务方尚未提供相关信息。这表明可能存在误解或技术问题，导致对话过早结束。用户的意图是获取交通信息，但对话未能继续以满足其需求。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

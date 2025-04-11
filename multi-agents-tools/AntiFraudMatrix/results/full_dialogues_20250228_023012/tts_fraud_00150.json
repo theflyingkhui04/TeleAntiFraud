@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您儿子的老师，现在他被一群不良少年挟持了，他们要求立即支付一笔赎金，不然会对他不利。您必须马上行动，时间非常紧迫。",
+      "timestamp": 1740691207.0125425
+    },
+    {
+      "role": "right",
+      "content": "天哪，这太可怕了！您能告诉我具体是怎么回事吗？我需要确认一下，毕竟这种事情太严重了，我得确保是真的。",
+      "timestamp": 1740691211.1160023
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被挟持并要求支付赎金后，表现出极度的担忧和震惊。然而，用户并没有立即相信诈骗者的话，而是要求进一步确认情况的真实性。这表明用户对诈骗者的说法持怀疑态度，并希望通过进一步的确认来判断事情的真伪。最终，用户选择挂断电话，可能是为了避免在没有进一步确认的情况下继续对话，从而减少被骗的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

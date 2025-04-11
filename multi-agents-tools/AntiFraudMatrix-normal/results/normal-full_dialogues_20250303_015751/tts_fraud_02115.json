@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想订什么餐吗？",
+      "timestamp": 1740946155.7630262
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份牛肉炒饭和一份糖醋排骨，还有一碗例汤。这些都能送到家吗？",
+      "timestamp": 1740946157.3975728
+    },
+    {
+      "role": "left",
+      "content": "当然可以，您订购的牛肉炒饭、糖醋排骨和一碗例汤都可以送到您家。请问您的具体地址是？",
+      "timestamp": 1740946160.8782582
+    },
+    {
+      "role": "right",
+      "content": "好的，我的地址是XX路XX号XX小区。请问大概什么时候能送到？",
+      "timestamp": 1740946162.7119257
+    },
+    {
+      "role": "left",
+      "content": "您的订单我们已经记录，预计送达时间是30到40分钟。如果途中遇到特殊情况，我们会及时与您联系。请问还有其他需要备注的信息吗？比如口味偏好或餐具需求。",
+      "timestamp": 1740946169.0678093
+    },
+    {
+      "role": "right",
+      "content": "不需要特别备注，一切按常规来就行。谢谢你们的服务。",
+      "timestamp": 1740946170.2336981
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计30到40分钟内送达。如果有任何问题，我们会及时联系您。感谢您的订购，祝您用餐愉快。再见。",
+      "timestamp": 1740946177.9800935
+    },
+    {
+      "role": "right",
+      "content": "再见。谢谢。",
+      "timestamp": 1740946181.3653278
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了所有必要的信息，包括订餐内容、地址和送达时间，并表示没有其他特别要求，同时表达了对服务的感谢。这表明用户的订餐需求已经得到满足，对话目标达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计30到40分钟内送达。如果有任何问题，我们会及时联系您。感谢您的订购，祝您用餐愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

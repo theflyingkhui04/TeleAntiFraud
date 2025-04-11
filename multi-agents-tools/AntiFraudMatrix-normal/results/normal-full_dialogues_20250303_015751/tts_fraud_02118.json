@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想点什么，我会帮您完成订单。",
+      "timestamp": 1740979857.8910818
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我想看看你们有什么推荐的菜式。",
+      "timestamp": 1740979858.965503
+    },
+    {
+      "role": "left",
+      "content": "我们这里有很多受欢迎的菜式，比如宫保鸡丁、鱼香肉丝和麻婆豆腐，都是非常经典的选择。您有特别偏好的口味吗？比如辣的、酸的或者是清淡一些的？",
+      "timestamp": 1740979867.5763526
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我平时喜欢稍微有点辣的。那就来一份宫保鸡丁和麻婆豆腐吧。",
+      "timestamp": 1740979870.0808375
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁和一份麻婆豆腐，都按中辣处理，对吗？还需要点别的吗？比如凉菜或者汤？",
+      "timestamp": 1740979878.8247766
+    },
+    {
+      "role": "right",
+      "content": "中辣可以，再加一份酸辣汤吧。这样就可以了。谢谢。",
+      "timestamp": 1740979881.06463
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经记录下来了，宫保鸡丁和麻婆豆腐，都按中辣处理。我们会尽快为您准备好。如果您还有其他需要，随时可以联系我们。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740979891.1902494
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。用餐愉快。",
+      "timestamp": 1740979892.2214336
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了点餐内容，并表示‘这样就可以了。谢谢。’，表明用户对服务满意且没有进一步的需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经记录下来了，宫保鸡丁和麻婆豆腐，都按中辣处理。我们会尽快为您准备好。如果您还有其他需要，随时可以联系我们。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。用餐愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

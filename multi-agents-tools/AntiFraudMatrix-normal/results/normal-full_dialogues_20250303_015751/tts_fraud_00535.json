@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询员，可以帮您查询路况、规划路线，请告诉我您的出发地和目的地。",
+      "timestamp": 1740957251.3141797
+    },
+    {
+      "role": "right",
+      "content": "好的，我从家出发，去市中心的购物中心。能帮我查一下最快路线吗？",
+      "timestamp": 1740957252.6352808
+    },
+    {
+      "role": "left",
+      "content": "当然可以。从您家出发到市中心购物中心，最快路线是先沿主干道行驶，然后在第二个路口右转进入高架路，全程大约需要二十五分钟，取决于实时交通状况。建议您出发前再查看一下实时路况，以免遇到拥堵。",
+      "timestamp": 1740957260.7261574
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助！我会注意的。",
+      "timestamp": 1740957262.008077
+    },
+    {
+      "role": "left",
+      "content": "路线信息已提供，祝您旅途愉快，如果还有其他问题，随时欢迎咨询。",
+      "timestamp": 1740957266.513422
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见！",
+      "timestamp": 1740957267.2537384
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的路线信息，并表达了感谢，表明服务目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "路线信息已提供，祝您旅途愉快，如果还有其他问题，随时欢迎咨询。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的邻居张大叔，您的儿子刚刚出事了，现在在医院，情况很危急，需要您马上汇款支付医疗费用，不然医院不给救治。您能立刻把钱转到我的账户吗？",
+      "timestamp": 1740777593.4184678
+    },
+    {
+      "role": "right",
+      "content": "张大叔，您说的是真的吗？我儿子怎么会出事的？他是不是在我公司那边？您能告诉我具体是在哪家医院吗？我马上赶过去。还有，您为什么让我把钱转到您的账户，而不是直接交给医院呢？这有点不太对劲吧。",
+      "timestamp": 1740777599.146086
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的信息表示怀疑，并提出了合理的疑问，如为什么需要将钱转给诈骗者而非直接支付给医院。用户可能已经意识到这是一起诈骗行为，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

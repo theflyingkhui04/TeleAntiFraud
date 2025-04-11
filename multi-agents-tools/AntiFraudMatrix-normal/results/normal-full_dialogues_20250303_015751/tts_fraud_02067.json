@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮您的？",
+      "timestamp": 1740967300.1072812
+    },
+    {
+      "role": "right",
+      "content": "我想订个外卖，有什么推荐的吗？",
+      "timestamp": 1740967301.2816043
+    },
+    {
+      "role": "left",
+      "content": "我们有几款热销菜品，比如宫保鸡丁、鱼香肉丝和麻辣香锅，这些都是顾客评价很好的选择。您有兴趣尝试一下吗？",
+      "timestamp": 1740967305.269284
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来一份吧。还有别的需要搭配的吗？",
+      "timestamp": 1740967306.873201
+    },
+    {
+      "role": "left",
+      "content": "宫保鸡丁搭配一份米饭和一份凉拌黄瓜会非常爽口，您看可以吗？如果您喜欢汤品，也可以加一份番茄蛋花汤。",
+      "timestamp": 1740967310.297489
+    },
+    {
+      "role": "right",
+      "content": "好的，就按您说的来，一份宫保鸡丁、一份米饭和一份凉拌黄瓜。谢谢。",
+      "timestamp": 1740967311.930748
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已包含一份宫保鸡丁、一份米饭和一份凉拌黄瓜。预计30分钟后送达，如有任何问题欢迎随时联系我们。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740967316.2022893
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待外卖的到来。",
+      "timestamp": 1740967317.0290034
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了点餐内容，并表达了感谢，表明用户对当前的服务满意且没有进一步的需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已包含一份宫保鸡丁、一份米饭和一份凉拌黄瓜。预计30分钟后送达，如有任何问题欢迎随时联系我们。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待外卖的到来。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

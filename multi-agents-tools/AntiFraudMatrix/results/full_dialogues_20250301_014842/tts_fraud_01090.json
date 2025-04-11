@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您成为我们这期彩票特别活动的幸运得主，您将获得一百万元的奖金。我需要确认一下，您是不是李先生？",
+      "timestamp": 1740773294.7925384
+    },
+    {
+      "role": "right",
+      "content": "是的，我是李先生。真的吗？这太意外了，我怎么这么幸运呢？你们是哪家彩票公司啊？",
+      "timestamp": 1740773296.9828944
+    },
+    {
+      "role": "left",
+      "content": "是的，没错，您真的非常幸运。我们是全国知名的彩票公司，这次活动是为了庆祝我们成立二十周年。为了确保您的信息准确无误，我需要核对一下您的身份证号码，请问可以提供吗？",
+      "timestamp": 1740773304.6914656
+    },
+    {
+      "role": "right",
+      "content": "真的太好了，那我当然愿意配合。我的身份证号码是四十一零零一九七八一零一零一零一零。你们会怎么联系我领取奖金呢？",
+      "timestamp": 1740773306.4378963
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们会尽快为您处理相关事宜。如果有任何问题，我们会再次联系您。祝您生活愉快，再见。",
+      "timestamp": 1740773311.514694
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。希望一切顺利，再见。",
+      "timestamp": 1740773314.9756749
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（身份证号码），诈骗明显成功。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们会尽快为您处理相关事宜。如果有任何问题，我们会再次联系您。祝您生活愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。希望一切顺利，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

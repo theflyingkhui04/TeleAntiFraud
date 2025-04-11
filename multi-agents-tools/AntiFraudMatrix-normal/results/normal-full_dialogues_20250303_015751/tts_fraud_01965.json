@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服专员小李为您服务，有什么可以帮助您的吗？",
+      "timestamp": 1740972657.7829916
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下你们这里有没有适合老年人的优惠活动。",
+      "timestamp": 1740972659.1210656
+    },
+    {
+      "role": "left",
+      "content": "我们确实有一些针对老年人的优惠活动，比如每周三的老年人专属折扣日，您可以享受部分服务的五折优惠。您需要了解哪些具体的服务项目呢？",
+      "timestamp": 1740972665.3048952
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。那餐饮方面有优惠吗？",
+      "timestamp": 1740972666.5538013
+    },
+    {
+      "role": "left",
+      "content": "有的，老年人在我们的餐厅用餐，可以享受九折优惠，而且每周三还有额外的折扣。您需要预订吗？",
+      "timestamp": 1740972670.9280696
+    },
+    {
+      "role": "right",
+      "content": "不需要预订，谢谢。那我就周三过来试试。还有别的需要注意的吗？",
+      "timestamp": 1740972673.3261645
+    },
+    {
+      "role": "left",
+      "content": "如果您需要预订或有其他问题，随时可以联系我们。感谢您的咨询，祝您生活愉快。",
+      "timestamp": 1740972680.0842779
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。祝你也有个愉快的一天。",
+      "timestamp": 1740972682.0205522
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表示将在特定时间使用服务，没有进一步的问题或需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您需要预订或有其他问题，随时可以联系我们。感谢您的咨询，祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。祝你也有个愉快的一天。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

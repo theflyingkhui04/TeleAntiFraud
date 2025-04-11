@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "打车服务助手为您服务，需要帮您叫车吗？",
+      "timestamp": 1740939788.6490893
+    },
+    {
+      "role": "right",
+      "content": "需要的，我一会儿要去市区办点事。",
+      "timestamp": 1740939789.8470333
+    },
+    {
+      "role": "left",
+      "content": "好的，请问您现在的位置和目的地是哪里？方便的话，也告诉我大概什么时候出发。",
+      "timestamp": 1740939794.6950028
+    },
+    {
+      "role": "right",
+      "content": "我现在在北山路，目的地是市中心的人民广场，大概二十分钟后出发。",
+      "timestamp": 1740939796.633999
+    },
+    {
+      "role": "left",
+      "content": "明白了，我会为您叫一辆出租车，预计二十分钟后到达北山路，车号和司机信息稍后会发短信通知您。请问还有其他要求吗，比如车型或者不吸烟？",
+      "timestamp": 1740939802.4194365
+    },
+    {
+      "role": "right",
+      "content": "不用了，普通的出租车就行，不吸烟的就好。谢谢。",
+      "timestamp": 1740939803.6573162
+    },
+    {
+      "role": "left",
+      "content": "您的车辆已经安排好了，二十分钟后会到达北山路。车号和司机信息稍后会通过短信发送给您。如果一切顺利，请记得给司机五星好评哦。祝您办事顺利，旅途愉快。",
+      "timestamp": 1740939812.9117076
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，我会的。",
+      "timestamp": 1740939815.3423789
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的服务，并表达了感谢，表明对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的车辆已经安排好了，二十分钟后会到达北山路。车号和司机信息稍后会通过短信发送给您。如果一切顺利，请记得给司机五星好评哦。祝您办事顺利，旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，我会的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

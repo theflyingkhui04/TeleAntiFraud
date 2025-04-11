@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！这里是国际邮政服务中心。我们发现您有一个来自海外的包裹被扣留，需要您提供一些信息以便我们处理。请问您现在方便通话吗？",
+      "timestamp": 1740739569.069901
+    },
+    {
+      "role": "right",
+      "content": "哦，你好。我这里确实有一个包裹，不过我一直没空去取。你们能帮我处理吗？",
+      "timestamp": 1740739582.7598925
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到这是一起诈骗电话而选择立即挂断。用户在确认对方是关于包裹处理的机构后，可能回忆起自己确实有一个未取的包裹，但随即意识到正常的邮政服务不会通过电话要求提供个人信息，因此决定不再继续对话，以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

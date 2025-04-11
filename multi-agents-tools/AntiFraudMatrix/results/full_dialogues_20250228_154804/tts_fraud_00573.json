@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的儿子的学校老师，现在他出事了，需要您立即提供帮助。请您不要挂断电话，听我说明情况。",
+      "timestamp": 1740730966.8539097
+    },
+    {
+      "role": "right",
+      "content": "老师，您先别急，慢慢说，我儿子怎么了？我马上过来。",
+      "timestamp": 1740730968.7723644
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一个诈骗电话，因为诈骗者在对话开始时就要求用户不要挂断电话，这通常是一个警示信号。用户虽然表面上表示会过来，但实际上选择了挂断电话，表明用户可能已经识破了诈骗者的意图，不愿意继续对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

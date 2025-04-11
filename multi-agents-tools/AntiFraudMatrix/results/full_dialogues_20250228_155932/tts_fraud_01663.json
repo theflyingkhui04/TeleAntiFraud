@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！这里是顺丰速运客服中心。我们发现您的包裹在海关检查时出现了一些问题，需要您立即处理，请问您现在方便通话吗？",
+      "timestamp": 1740751249.4787855
+    },
+    {
+      "role": "right",
+      "content": "你好，方便的，你说吧，是什么问题？",
+      "timestamp": 1740751250.6517246
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到这是一通诈骗电话，或者认为这通电话是骚扰电话而选择挂断。用户在确认对方是顺丰速运客服后，可能通过其他渠道核实了信息，发现并无异常，因此决定挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

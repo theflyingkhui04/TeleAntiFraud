@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你好，我是你的亲戚小李，现在遇到了点麻烦，你听我说，我被人绑架了，他们要求支付赎金才能放了我。你一定要相信我，我现在非常危险。",
+      "timestamp": 1740784825.2588959
+    },
+    {
+      "role": "right",
+      "content": "小李，你先别急，你在哪里？我怎么联系你？你确定是小李吗？我得确认一下，因为这种事情太严重了，我得确保是你。",
+      "timestamp": 1740784828.136299
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称被绑架并要求支付赎金后，表现出谨慎的态度，要求确认对方身份。用户可能怀疑这是一起诈骗，因此选择挂断电话以避免进一步的风险。用户的意图是保护自己不受潜在的诈骗行为侵害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

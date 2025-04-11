@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是预约服务的客服代表，可以帮助您预约相关服务，您需要预约什么服务呢？",
+      "timestamp": 1740982128.2132874
+    },
+    {
+      "role": "right",
+      "content": "好的，我想预约一个商务咨询，具体是什么时间可以安排？",
+      "timestamp": 1740982129.1177127
+    },
+    {
+      "role": "left",
+      "content": "商务咨询我们可以为您安排在本周三或本周五的上午十点，这两个时间段您看哪个更合适呢？",
+      "timestamp": 1740982133.2261584
+    },
+    {
+      "role": "right",
+      "content": "周三上午十点可以，那就定在这个时间吧。谢谢。",
+      "timestamp": 1740982135.2485244
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的预约，我们已经为您安排了本周五上午十点的商务咨询服务，稍后您会收到确认短信。如果还有其他需要帮助的事项，随时欢迎联系我们。祝您有美好的一天！再见。",
+      "timestamp": 1740982140.9951603
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的安排。祝您一天愉快。再见。",
+      "timestamp": 1740982143.0689602
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了预约时间，并表示感谢，这表明用户的预约需求已经得到满足，对话目标达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的预约，我们已经为您安排了本周五上午十点的商务咨询服务，稍后您会收到确认短信。如果还有其他需要帮助的事项，随时欢迎联系我们。祝您有美好的一天！再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的安排。祝您一天愉快。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好，我是邮政快递公司的客服人员。我们发现您有一个重要的国际包裹正在等待派送，但需要您提供一些额外的信息以完成清关手续。请问您现在方便接听电话吗？",
+      "timestamp": 1740740892.9826422
+    },
+    {
+      "role": "right",
+      "content": "您好，我确实有一个国际包裹，但这几天我都在忙农活，没怎么关注。这个包裹是从哪儿来的？我需要提供什么信息？",
+      "timestamp": 1740740915.8373528
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为正在忙于农活，没有时间或精力继续对话，或者对提供个人信息有所顾虑，因此选择挂断电话。用户的意图可能是暂时避开对话，以便有时间考虑或核实情况后再做决定。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

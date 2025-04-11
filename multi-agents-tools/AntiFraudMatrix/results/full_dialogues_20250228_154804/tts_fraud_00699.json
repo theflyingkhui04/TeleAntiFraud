@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服代表，小李。我们发现您的账户可能涉及一起未经授权的交易，需要您配合我们确认一些信息，以确保您的账户安全。",
+      "timestamp": 1740748026.1948493
+    },
+    {
+      "role": "right",
+      "content": "您好，小李。我最近确实没有进行过什么大额交易，不过我得小心一些。你们怎么会发现这个问题的？",
+      "timestamp": 1740748028.9560153
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了谨慎的态度，询问了更多关于交易发现的细节，这表明用户对诈骗者提供的信息持怀疑态度。用户主动挂断电话可能是为了避免进一步的风险，表明用户可能已经识破了诈骗企图或至少对对方的身份产生了怀疑。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

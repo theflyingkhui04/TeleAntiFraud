@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "打车服务已为您准备就绪，请告诉我您的目的地和当前位置。",
+      "timestamp": 1740952312.4597583
+    },
+    {
+      "role": "right",
+      "content": "好的，我在人民广场，目的地是静安寺。",
+      "timestamp": 1740952313.6335382
+    },
+    {
+      "role": "left",
+      "content": "好的，已为您匹配到附近的司机。预计3分钟内到达人民广场，请注意保持电话畅通。",
+      "timestamp": 1740952319.1432033
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的出发地和目的地，并告知用户已成功匹配到司机及预计到达时间后，认为服务已经完成，用户无需进一步的帮助，因此选择结束对话。服务方的意图是确保用户清楚地了解当前的服务状态，并在服务完成后礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

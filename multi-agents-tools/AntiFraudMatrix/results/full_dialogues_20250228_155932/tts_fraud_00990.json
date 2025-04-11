@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！这里是国际快递服务中心。我们发现您的包裹因包含违禁物品被海关扣留，需要您立即支付两百元的处理费用以避免进一步的法律问题。请问您现在方便处理吗？",
+      "timestamp": 1740754718.0014825
+    },
+    {
+      "role": "right",
+      "content": "您好，我是农民，平时很少收到国际包裹，这是怎么回事？我需要确定一下这个包裹是不是我的，还有为什么会有违禁物品？",
+      "timestamp": 1740754719.6294572
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为对诈骗者所述情况感到怀疑和不确定，特别是提到自己很少收到国际包裹，因此选择挂断电话以避免进一步的交流。用户的意图可能是想先自行核实信息，或者直接避免潜在的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

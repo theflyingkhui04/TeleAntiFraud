@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的用户，您好，这里是支付宝客服中心。我们注意到您的账号存在异常登录行为，为确保您的资金安全，请立即提供您的身份证号码和支付宝密码进行验证。",
+      "timestamp": 1740682674.6716418
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？那可麻烦了。我该怎么验证呢？你们能帮我处理吗？",
+      "timestamp": 1740682678.816996
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们一定会帮您解决这个问题。为了确认您的身份，请您提供身份证号码和支付宝密码，这样我们才能进一步处理。时间紧迫，麻烦您尽快提供。",
+      "timestamp": 1740682721.8130398
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，我这就找找我的身份证。我的支付宝密码我记在了一个小本子里，我马上去找。你们等一下啊。",
+      "timestamp": 1740682723.293476
+    },
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。",
+      "timestamp": 1740682733.7885253
+    },
+    {
+      "role": "right",
+      "content": "好的，我这就去找。你们等我一下，我马上就回来。",
+      "timestamp": 1740682734.782316
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗明显成功 - 用户已同意提供敏感信息（身份证号码和支付宝密码），诈骗者已获取足够信息，继续对话可能导致实际损失。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。"
+    },
+    {
+      "role": "right",
+      "content": "好的，我这就去找。你们等我一下，我马上就回来。"
+    }
+  ],
+  "reached_max_turns": false
+}

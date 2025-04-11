@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，帮您快速找到合适的车辆。请告诉我您的当前位置和目的地，我将为您安排一辆车。",
+      "timestamp": 1740983623.2779431
+    },
+    {
+      "role": "right",
+      "content": "好的，我在家，地址是上海市浦东新区世纪公园附近，目的地是上海虹桥火车站。麻烦帮我安排一辆车。",
+      "timestamp": 1740983626.100294
+    },
+    {
+      "role": "left",
+      "content": "好的，已经收到您的信息。正在为您匹配合适的车辆，预计三到五分钟内会有司机与您联系确认行程。请您保持手机畅通。",
+      "timestamp": 1740983633.2260976
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会留意手机的。",
+      "timestamp": 1740983634.3044548
+    },
+    {
+      "role": "left",
+      "content": "您的车辆已经安排好了，预计三到五分钟内到达。请您注意查看手机，司机将与您联系确认行程。感谢您的使用，祝您旅途愉快。",
+      "timestamp": 1740983645.3014777
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。旅途愉快。",
+      "timestamp": 1740983646.7313027
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "服务方已经提供了所需的信息和服务，用户也表示会留意手机，对话目标已经达成。",
+  "terminator": "service",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的车辆已经安排好了，预计三到五分钟内到达。请您注意查看手机，司机将与您联系确认行程。感谢您的使用，祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。旅途愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

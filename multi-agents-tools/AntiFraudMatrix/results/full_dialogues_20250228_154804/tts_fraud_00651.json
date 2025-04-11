@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的邻居张阿姨，您女儿刚刚在我这里玩，现在她出了点事，我需要您马上过来一趟。",
+      "timestamp": 1740746564.9845827
+    },
+    {
+      "role": "right",
+      "content": "张阿姨，你说什么？我女儿出事了？她现在怎么样了？我马上过去，你先别挂电话，告诉我具体地址。",
+      "timestamp": 1740746568.7027822
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为担心女儿的安全，急于赶往现场，因此没有等待诈骗者提供具体地址就挂断了电话。用户的意图是尽快到达现场，确保女儿的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

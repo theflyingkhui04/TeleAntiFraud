@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您儿子的同学，他在外面遇到了点麻烦，现在被几个坏人控制了，他们要我马上给您打电话，不然就要对他下手。您现在必须按照我说的做，才能确保他的安全。您听清楚了吗？",
+      "timestamp": 1740748068.7020822
+    },
+    {
+      "role": "right",
+      "content": "你等等，你先别急，你叫什么名字？你先告诉我你是谁，我儿子叫什么名字，你认识他多久了？",
+      "timestamp": 1740748072.128794
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者提出的具体要求时，选择通过提问来验证对方的身份。当诈骗者没有提供足够的信息来证明其身份的真实性时，用户可能已经意识到这是一起诈骗行为，因此选择挂断电话以保护自己不受进一步的欺骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

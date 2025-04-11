@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是顺丰快递公司的客服，您最近有一个包裹被我们发现可能涉及到违禁品，需要您配合我们进行调查，否则包裹将被扣押。请问您能提供一下您的姓名和联系电话吗？",
+      "timestamp": 1740770855.8067822
+    },
+    {
+      "role": "right",
+      "content": "啊，真有这样的事情吗？我最近确实有一个包裹，不过我也不知道里面有什么违禁品。我叫张建国，电话是一三五零一二三四五，你们查一下吧。",
+      "timestamp": 1740770858.7409573
+    },
+    {
+      "role": "left",
+      "content": "张建国先生，感谢您的配合，我们将会进一步调查此事。如果需要您提供更多信息，我们会再次联系您。祝您有个愉快的一天。再见。",
+      "timestamp": 1740770864.7378082
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。希望不会有太大问题。再见。",
+      "timestamp": 1740770868.737046
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和电话号码，属于敏感信息，诈骗明显成功。根据终止条件1，应立即终止对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "张建国先生，感谢您的配合，我们将会进一步调查此事。如果需要您提供更多信息，我们会再次联系您。祝您有个愉快的一天。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。希望不会有太大问题。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

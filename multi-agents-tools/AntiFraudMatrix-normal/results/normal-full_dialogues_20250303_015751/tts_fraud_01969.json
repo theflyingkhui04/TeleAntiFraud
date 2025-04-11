@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的预约服务专员，可以帮助您预约相关服务，您需要预约什么服务呢？",
+      "timestamp": 1740976012.1790025
+    },
+    {
+      "role": "right",
+      "content": "好的，我想预约一个理发服务。",
+      "timestamp": 1740976013.370142
+    },
+    {
+      "role": "left",
+      "content": "好的，理发服务预约时间是什么时候呢？我们可以提供早上的9点到12点，下午的1点到6点，您看哪个时间段方便？",
+      "timestamp": 1740976018.1825104
+    },
+    {
+      "role": "right",
+      "content": "下午两点半可以吗？",
+      "timestamp": 1740976018.9305153
+    },
+    {
+      "role": "left",
+      "content": "下午两点半可以，我们为您预约了这个时间段。请问需要预约到哪个理发店呢？我们有合作的几家理发店，分别位于市中心、东区和西区。",
+      "timestamp": 1740976024.1725774
+    },
+    {
+      "role": "right",
+      "content": "市中心的那家就行。",
+      "timestamp": 1740976024.9596553
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您预约了位于市中心的理发店，预约时间是下午两点半。稍后我们会通过短信发送预约确认信息，包括预约编号和具体地址。还有其他需要帮助的吗？",
+      "timestamp": 1740976034.2439044
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息后，提供了详细的预约详情，并告知用户会通过短信发送预约确认信息。服务方询问用户是否有其他需要帮助的事项，用户没有回应，服务方在此时使用了结束信号'##ENDCALL_SIGNAL##'，表明服务方认为预约服务已经完成，用户的需求得到了满足，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

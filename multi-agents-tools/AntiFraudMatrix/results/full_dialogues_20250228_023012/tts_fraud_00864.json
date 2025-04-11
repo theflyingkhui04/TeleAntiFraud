@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是银行客服中心，我们检测到您的账户存在异常交易，请问您最近是否进行过网上支付？",
+      "timestamp": 1740684369.6350718
+    },
+    {
+      "role": "right",
+      "content": "哦，您好。我最近确实用网银买了一些书，但没有其他的交易。您能帮我查一下具体是什么异常吗？",
+      "timestamp": 1740684370.9917452
+    },
+    {
+      "role": "left",
+      "content": "根据我们的记录，您在上周五有一笔异常的跨境转账，金额高达5万元。这可能涉及到您的账户信息被盗用，请您立刻提供身份证号码和银行卡号以便我们进行验证。",
+      "timestamp": 1740684377.905019
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者可能意识到用户对提供敏感信息表现出犹豫或怀疑，继续对话可能会增加被识破的风险。挂断电话可能是为了避免进一步暴露诈骗行为，同时保留未来再次尝试的机会。诈骗者的意图是通过制造紧急情况诱导用户提供敏感信息，但在察觉到用户可能产生怀疑时选择暂时撤退。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

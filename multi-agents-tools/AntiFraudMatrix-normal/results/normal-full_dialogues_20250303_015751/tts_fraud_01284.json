@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我需要订购哪家餐厅的餐点吗？",
+      "timestamp": 1740972269.2716608
+    },
+    {
+      "role": "right",
+      "content": "好，我想订一家附近的中餐厅，有什么推荐的吗？",
+      "timestamp": 1740972270.8668995
+    },
+    {
+      "role": "left",
+      "content": "当然，附近有一家口碑很好的中餐厅叫做“老北京风味”，您想试试看吗？他们家的特色菜有宫保鸡丁、鱼香肉丝和北京烤鸭。",
+      "timestamp": 1740972276.249648
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，就订这家吧。来一份宫保鸡丁和一份北京烤鸭。",
+      "timestamp": 1740972278.4811156
+    },
+    {
+      "role": "left",
+      "content": "好的，您要订一份宫保鸡丁和一份北京烤鸭。还需要其他菜品或者饮料吗？",
+      "timestamp": 1740972285.701662
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这两样。谢谢。",
+      "timestamp": 1740972286.686396
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，宫保鸡丁和北京烤鸭会在大约30分钟后送达。感谢您的订购，如果还有其他需要，请随时联系我们。再见。",
+      "timestamp": 1740972294.5215755
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。",
+      "timestamp": 1740972295.4013016
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表达了感谢，表明不再需要其他服务。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，宫保鸡丁和北京烤鸭会在大约30分钟后送达。感谢您的订购，如果还有其他需要，请随时联系我们。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

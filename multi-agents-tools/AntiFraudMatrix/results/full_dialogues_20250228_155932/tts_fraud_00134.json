@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某宝客服中心，您的订单出现了问题，我们需要您配合处理一下。为了避免您的利益受损，请您尽快提供一下订单号和联系电话，好吗？",
+      "timestamp": 1740748660.3234742
+    },
+    {
+      "role": "right",
+      "content": "好的，我最近确实买了一些东西，你们能帮我解决就好。我的订单号是一二三四五六七，电话是这个号码，你们可以直接联系我。接下来我需要做些什么呢？",
+      "timestamp": 1740748665.0880044
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们已经记录了您的信息，会尽快为您处理。如果需要进一步操作，我们会通过电话联系您。再次感谢，祝您生活愉快。再见。",
+      "timestamp": 1740748672.2349858
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，希望问题能尽快解决。再见。",
+      "timestamp": 1740748674.0177803
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（订单号和联系电话），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们已经记录了您的信息，会尽快为您处理。如果需要进一步操作，我们会通过电话联系您。再次感谢，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，希望问题能尽快解决。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

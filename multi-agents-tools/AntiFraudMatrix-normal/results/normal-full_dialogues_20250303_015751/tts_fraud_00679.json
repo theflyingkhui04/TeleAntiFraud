@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，有什么问题我可以帮您解决？",
+      "timestamp": 1740949695.0907288
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我最近家里的网络有点不稳定，想了解一下是不是线路问题。",
+      "timestamp": 1740949696.4871538
+    },
+    {
+      "role": "left",
+      "content": "您好，网络不稳定可能由多种原因造成，包括线路问题、设备故障或信号干扰等。我们可以先检查一下您的线路和设备情况。您方便时可以尝试重启路由器和调制解调器，如果问题依旧存在，我建议您联系我们的技术人员上门检查。",
+      "timestamp": 1740949708.1973298
+    },
+    {
+      "role": "right",
+      "content": "好的，我会试试重启设备。如果还是不行，再联系你们的技术人员。谢谢。",
+      "timestamp": 1740949709.9597607
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，如果重启后问题仍然存在，请随时联系我们的技术支持团队。希望您的网络问题能够尽快解决。祝您生活愉快。",
+      "timestamp": 1740949718.3772635
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。希望问题能尽快解决。生活愉快。",
+      "timestamp": 1740949720.2895832
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示将尝试重启设备，并在问题未解决时联系技术人员，同时表达了感谢，表明用户的问题已得到初步解决，且用户有结束对话的意向。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，如果重启后问题仍然存在，请随时联系我们的技术支持团队。希望您的网络问题能够尽快解决。祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。希望问题能尽快解决。生活愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

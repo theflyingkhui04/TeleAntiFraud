@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你好，我是张伟的朋友，现在情况非常紧急，张伟被一伙人扣住了，他们要求我们支付赎金才能放人。你必须马上把钱转过来，不然他们就要动手了。",
+      "timestamp": 1740751813.7148952
+    },
+    {
+      "role": "right",
+      "content": "你好，这听起来太突然了，我需要确认一下这是真的。你能告诉我你是谁吗？还有，张伟现在在哪里？我需要更多的信息才能相信你。",
+      "timestamp": 1740751816.136935
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者要求立即转账的情况下，表现出谨慎的态度，要求提供更多的信息以确认情况的真实性。用户的意图是避免在没有足够证据的情况下进行转账，以防止可能的诈骗。用户挂断电话可能是出于对诈骗的怀疑，认为继续对话无法获得可信的信息，或者认为直接与张伟本人联系更为安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！这里是国际快递服务中心。我们发现您的包裹因清关问题被扣留，需要您支付一笔500元的手续费以确保包裹顺利送达。请问您现在方便处理吗？",
+      "timestamp": 1740681154.1447825
+    },
+    {
+      "role": "right",
+      "content": "您好，国际快递服务中心。这个包裹是我最近购买的吗？我最近没有买什么东西需要国际快递啊。这个手续费是怎么回事？能详细解释一下吗？",
+      "timestamp": 1740681156.8019307
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者的身份和手续费的要求产生了怀疑，因为用户表示最近没有购买需要国际快递的物品，这表明用户对诈骗者的说法持谨慎态度。用户挂断电话可能是为了避免进一步的风险，或者是因为感觉到了诈骗的可能性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

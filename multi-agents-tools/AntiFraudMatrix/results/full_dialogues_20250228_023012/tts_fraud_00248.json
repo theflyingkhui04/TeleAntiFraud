@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递客服，我们发现您的包裹在海关被扣留，需要您提供身份证信息以便核实身份并处理相关手续。请问方便现在提供吗？",
+      "timestamp": 1740682833.815336
+    },
+    {
+      "role": "right",
+      "content": "不好意思，我需要先确认一下。请问您能提供包裹的具体信息吗？比如快递单号和发货时间？还有，您是怎么知道我的联系方式的？",
+      "timestamp": 1740682838.3236828
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对诈骗者身份的怀疑，要求提供更多具体信息以验证对方身份。用户可能意识到这是一起诈骗行为，因此选择挂断电话以避免进一步的风险。用户的意图是保护个人信息不被泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

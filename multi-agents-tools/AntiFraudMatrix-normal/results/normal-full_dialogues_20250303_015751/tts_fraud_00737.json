@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手为您服务，有什么我可以帮您的吗？",
+      "timestamp": 1740945333.5378551
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从市中心到机场的最快路线。",
+      "timestamp": 1740945335.2585871
+    },
+    {
+      "role": "left",
+      "content": "从市中心到机场最快的路线是通过高速路，全程大约需要四十分钟，如果遇到早高峰时段可能会稍微延长一些。您现在出发吗？",
+      "timestamp": 1740945346.6228256
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我大概半小时后出发。路上需要注意什么吗？",
+      "timestamp": 1740945347.9850347
+    },
+    {
+      "role": "left",
+      "content": "半小时后出发的话，建议您提前查看一下实时路况，避开可能的拥堵路段。另外，注意高速路上的限速标志，确保行车安全。祝您一路顺利！",
+      "timestamp": 1740945354.4858036
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在提供了详细的路线信息和出行建议后，用户表示满意并准备出发。服务方通过使用结束信号代码'##ENDCALL_SIGNAL##'表明对话目标已达成，且认为已为用户提供充分的帮助，没有进一步交流的必要。服务方的意图是礼貌地结束对话，确保用户满意并安全出行。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

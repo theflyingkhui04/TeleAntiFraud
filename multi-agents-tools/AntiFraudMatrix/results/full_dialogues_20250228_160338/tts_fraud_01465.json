@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我手上，想要他平安无事，就马上准备五十万现金，不要报警，否则后果自负！",
+      "timestamp": 1740733880.023954
+    },
+    {
+      "role": "right",
+      "content": "你这是诈骗吧？我儿子现在就在家，你再胡说八道，我就报警了！",
+      "timestamp": 1740733886.4266095
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是因为识破了诈骗者的谎言。当诈骗者声称用户儿子被绑架时，用户明确表示儿子就在家中，因此判断这是诈骗行为。用户表达了强烈的不满，并威胁要报警，表明其拒绝继续与诈骗者交流的意图。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

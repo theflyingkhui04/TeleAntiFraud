@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，有什么可以帮助您的吗？",
+      "timestamp": 1740972656.0491664
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份午餐，有什么推荐的吗？",
+      "timestamp": 1740972657.4035275
+    },
+    {
+      "role": "left",
+      "content": "我们今天推荐的午餐有宫保鸡丁饭和西红柿牛腩面，都是很受欢迎的选择，您看哪一款更合您的口味呢？",
+      "timestamp": 1740972663.2339575
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁饭听起来不错，就来一份宫保鸡丁饭吧。还有什么搭配的饮料吗？",
+      "timestamp": 1740972665.4526992
+    },
+    {
+      "role": "left",
+      "content": "宫保鸡丁饭搭配冰镇柠檬茶或是冰红茶都很不错，您想要哪种呢？",
+      "timestamp": 1740972669.95086
+    },
+    {
+      "role": "right",
+      "content": "那就来一杯冰镇柠檬茶吧。对了，大概多久能送到？",
+      "timestamp": 1740972671.326667
+    },
+    {
+      "role": "left",
+      "content": "您的订单预计在30到40分钟内送达，我们会尽快为您安排配送。还需要其他帮助吗？",
+      "timestamp": 1740972679.1123898
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。没有其他需要了，麻烦你们了。",
+      "timestamp": 1740972680.7075276
+    },
+    {
+      "role": "left",
+      "content": "好的，您的宫保鸡丁饭和冰镇柠檬茶已下单成功，预计30到40分钟内送达。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740972688.778679
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待享用美食。",
+      "timestamp": 1740972690.1479096
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单，并表示没有其他需要，同时表达了感谢。这表明对话目标已达成，用户对服务满意。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的宫保鸡丁饭和冰镇柠檬茶已下单成功，预计30到40分钟内送达。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待享用美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

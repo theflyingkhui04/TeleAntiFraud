@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李华的家属吗？我是小李，李华的朋友。他现在出事了，被一帮人扣着，急需一笔钱才能脱身。你们快点准备两万块，我们银行账号是六二二二零八零一九九七八六五四三二一，记住，速度快点，不然小李真的有危险。",
+      "timestamp": 1740773041.776597
+    },
+    {
+      "role": "right",
+      "content": "啊，你说什么？李华出事了？天哪，这太突然了。两万块钱，我们得赶紧想办法。你能告诉我具体是怎么回事吗？他现在安全吗？",
+      "timestamp": 1740773043.7202048
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提供的银行账号后，可能意识到了这是一起诈骗行为。用户虽然表现出了一定的担忧和紧张，但在诈骗者提供银行账号后迅速挂断电话，表明用户可能已经识破了诈骗者的意图，不愿意继续参与对话，以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

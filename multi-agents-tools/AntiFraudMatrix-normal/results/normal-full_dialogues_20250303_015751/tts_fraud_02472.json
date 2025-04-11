@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740955508.4021811
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖。有什么推荐的吗？",
+      "timestamp": 1740955509.4646287
+    },
+    {
+      "role": "left",
+      "content": "我们今天的特色推荐有宫保鸡丁和麻辣香锅，都非常受欢迎。您对口味有什么特别的偏好吗？我可以根据您的喜好为您推荐。",
+      "timestamp": 1740955514.5642846
+    },
+    {
+      "role": "right",
+      "content": "我喜欢吃辣，就来一份麻辣香锅吧。",
+      "timestamp": 1740955516.3414338
+    },
+    {
+      "role": "left",
+      "content": "好的，麻辣香锅已经为您加入订单。还需要搭配其他菜品或者饮品吗？",
+      "timestamp": 1740955520.4588969
+    },
+    {
+      "role": "right",
+      "content": "来一份米饭和一瓶冰红茶吧。",
+      "timestamp": 1740955522.0460641
+    },
+    {
+      "role": "left",
+      "content": "好的，一份米饭和一瓶冰红茶已加入您的订单。请确认收货地址和联系电话，以便我们尽快为您配送。",
+      "timestamp": 1740955530.970895
+    },
+    {
+      "role": "right",
+      "content": "地址是天成小区12号楼3单元402室，电话是13812345678。",
+      "timestamp": 1740955532.567202
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认。预计送达时间为30到40分钟内。如果出现任何问题，我们会及时与您联系。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740955538.9933944
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情后，提供了预计送达时间，并表达了感谢和祝福。服务方使用了结束信号代码'##ENDCALL_SIGNAL##'，表明订单处理已完成，服务目标达成，对话可以自然结束。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

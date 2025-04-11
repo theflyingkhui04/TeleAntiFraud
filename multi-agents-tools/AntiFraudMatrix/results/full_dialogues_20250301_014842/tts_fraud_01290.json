@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XXXX的工作人员，很抱歉打扰您，但情况非常紧急。您的儿子在一个小时前被我们控制住了，现在他的安全完全取决于您的合作。请您保持冷静，听从我们的指示。",
+      "timestamp": 1740770364.5592747
+    },
+    {
+      "role": "right",
+      "content": "你们是谁？我儿子怎么会被你们控制住？这到底是怎么回事？你们要是敢伤害我儿子，我绝对不放过你们！你们到底想干什么？",
+      "timestamp": 1740770367.2876897
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被控制后，表现出强烈的不安和愤怒，同时对诈骗者的真实身份和意图表示怀疑。用户可能认为这是诈骗行为，或者即使在极度担心的情况下，也选择了挂断电话以保护自己和家人的安全。用户的意图是终止与诈骗者的进一步交流，以避免可能的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的先生/女士，您好！我是XX投资公司的理财顾问。我们公司最近推出了一款高回报的理财产品，年化收益率可达20%以上，请问您有兴趣了解一下吗？",
+      "timestamp": 1740689995.8021855
+    },
+    {
+      "role": "right",
+      "content": "哦，20%的回报听起来不错。不过我年纪大了，不太懂这些投资的事情。你们公司的这款产品风险大不大？我得考虑一下。",
+      "timestamp": 1740690033.1319633
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为对高回报投资产品的风险感到担忧，且表示自己对投资不太了解，需要时间考虑，因此选择挂断电话。这表明用户在面对潜在的高风险投资时保持了谨慎的态度，可能需要进一步了解或咨询其他人的意见后再做决定。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

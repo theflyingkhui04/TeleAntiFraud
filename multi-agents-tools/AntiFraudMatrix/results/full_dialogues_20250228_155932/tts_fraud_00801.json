@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是客服中心，我是小李，我们收到您的投诉，关于最近的订单问题，现在为您处理。为了确认您的身份，请提供您的姓名和订单号。",
+      "timestamp": 1740754828.3322768
+    },
+    {
+      "role": "right",
+      "content": "你好，小李。我是张明，订单号是一二三四五六七。不过，我最近确实遇到了一些问题，你们是怎么知道的？",
+      "timestamp": 1740754831.3050473
+    },
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快为您处理。感谢您的配合，祝您生活愉快，再见。",
+      "timestamp": 1740754839.5929666
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。不过，我怎么感觉有点不太对劲呢，还是先打个电话确认一下吧。",
+      "timestamp": 1740754845.0580518
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和订单号，这可能被用于进一步的诈骗行为。为了防止诈骗者获取更多敏感信息，建议由用户明确表示拒绝继续对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快为您处理。感谢您的配合，祝您生活愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。不过，我怎么感觉有点不太对劲呢，还是先打个电话确认一下吧。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

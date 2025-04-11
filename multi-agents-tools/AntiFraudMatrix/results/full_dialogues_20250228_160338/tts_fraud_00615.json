@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友小李的同事，小李现在遇到麻烦了，他被绑架了，情况非常紧急，您能帮忙吗？",
+      "timestamp": 1740730244.1193585
+    },
+    {
+      "role": "right",
+      "content": "天哪，小李被绑架了？这太可怕了！我该怎么做才能帮到他？你有什么具体的要求吗？",
+      "timestamp": 1740730247.6493433
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到小李被绑架的消息后表现出强烈的情绪反应，并询问具体要求，这表明用户可能意识到这是一个诈骗电话。用户可能希望通过询问具体要求来确认对方的真实意图，或者在意识到诈骗后选择挂断电话以保护自己。挂断信号##ENDCALL_SIGNAL##表明用户主动终止了对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

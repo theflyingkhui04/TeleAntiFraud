@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您被随机选中成为本期彩票大奖的幸运得主！您的号码是特别挑选的，奖金额度高达50万元。请问您方便接听电话领取奖金吗？",
+      "timestamp": 1740682018.1021593
+    },
+    {
+      "role": "right",
+      "content": "等等，这听起来太可疑了。我从来没买过彩票，怎么会被选中？而且你们是怎么知道我的电话号码的？这该不会是诈骗电话吧？我建议你们不要再打来了。",
+      "timestamp": 1740682023.5694244
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对电话的怀疑，指出自己从未购买过彩票，并质疑对方如何获取其电话号码，认为这可能是诈骗电话。用户明确表示不再希望继续接听此类电话，因此主动挂断了电话，以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

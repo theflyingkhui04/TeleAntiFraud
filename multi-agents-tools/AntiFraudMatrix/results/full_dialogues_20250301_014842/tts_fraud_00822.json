@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自速递服务公司的客服代表，您的包裹在最近的检查中发现有异常，请问您是否最近有快递需要接收？",
+      "timestamp": 1740795034.9739509
+    },
+    {
+      "role": "right",
+      "content": "您好，最近确实有一个包裹在等我，不过我一般都会收到通知的。这个包裹有什么问题吗？",
+      "timestamp": 1740795038.7516959
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何疑问，请随时联系我们。我会记录您的信息并处理。祝您有美好的一天。再见。",
+      "timestamp": 1740795043.4046562
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。如果真的有问题，我会再联系您的。再见。",
+      "timestamp": 1740795047.2265677
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始后立即提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明他选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您有任何疑问，请随时联系我们。我会记录您的信息并处理。祝您有美好的一天。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。如果真的有问题，我会再联系您的。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

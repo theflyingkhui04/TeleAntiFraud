@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子的朋友李明，他现在出事了，我需要您立刻帮忙。",
+      "timestamp": 1740737366.0970104
+    },
+    {
+      "role": "right",
+      "content": "李明？你等等，你说我儿子出事了？他怎么了？你先别急，慢慢说清楚。",
+      "timestamp": 1740737368.2829413
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到对方声称其儿子出事时，可能因为感到震惊、担心或怀疑对方的真实身份，选择了挂断电话以核实情况或直接拒绝进一步的沟通。这表明用户可能对诈骗者的身份表示怀疑，或希望先通过其他方式确认信息的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

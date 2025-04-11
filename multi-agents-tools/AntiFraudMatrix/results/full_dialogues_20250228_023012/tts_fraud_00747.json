@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递客服中心，请问是XX先生/女士吗？我们发现您的包裹在清关时出现了一些问题，需要您配合处理一下。请问您现在方便接听电话吗？",
+      "timestamp": 1740692171.4294827
+    },
+    {
+      "role": "right",
+      "content": "您好，我是。请问具体是什么问题呢？我最近确实有一个包裹在寄送中。",
+      "timestamp": 1740692173.529884
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认自己确实是包裹的收件人后，可能意识到对方提供的信息过于模糊或不专业，或者用户可能已经意识到这是一起诈骗尝试，因此选择立即挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

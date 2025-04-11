@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的老朋友张伟，您还记得我吧？我有个非常紧急的事情需要跟您说。",
+      "timestamp": 1740738923.5586116
+    },
+    {
+      "role": "right",
+      "content": "啊？张伟？不好意思，我最近记性不太好，你是哪位张伟啊？不过既然是老朋友，有什么事你说吧。",
+      "timestamp": 1740738943.9388173
+    },
+    {
+      "role": "left",
+      "content": "哎呀，真是不好意思，我突然想起还有个紧急会议要参加，改天再聊吧，您多保重。再见。",
+      "timestamp": 1740738978.335989
+    },
+    {
+      "role": "right",
+      "content": "好的，你忙你的，改天再联系。再见。",
+      "timestamp": 1740738979.680078
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表示诈骗者选择挂断。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "哎呀，真是不好意思，我突然想起还有个紧急会议要参加，改天再聊吧，您多保重。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，你忙你的，改天再联系。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

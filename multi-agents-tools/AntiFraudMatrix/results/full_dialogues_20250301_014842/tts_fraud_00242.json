@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，我是国家彩票中心的工作人员，恭喜您中了本期彩票的大奖，奖金高达五百万！请您提供一下您的姓名和联系方式，我们好为您办理领奖手续。",
+      "timestamp": 1740770641.2321658
+    },
+    {
+      "role": "right",
+      "content": "哇，真的假的？我好像没买过彩票啊。不过这真是个好消息！我叫张伟，你可以联系我的手机号码是一三六一二三六七八九零。我需要做什么呢？",
+      "timestamp": 1740770644.4160812
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到这是一起诈骗电话而选择挂断。尽管用户最初表现出兴奋并提供了个人信息，但随后的挂断可能是因为用户意识到这是一起常见的诈骗手法，即声称中奖以获取个人信息。用户的挂断意图是为了避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

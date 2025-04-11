@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是预约服务专员，有什么可以帮您的吗？",
+      "timestamp": 1740975843.3641715
+    },
+    {
+      "role": "right",
+      "content": "你好，我最近想了解一下你们的服务项目，能给我介绍一下吗？",
+      "timestamp": 1740975845.2966897
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在对话开始时就提供了结束信号代码，这可能是系统错误或服务方误操作。用户则表达了对服务项目的兴趣，并未表现出结束对话的意图。由于服务方提前结束了对话，用户没有机会进一步了解服务信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

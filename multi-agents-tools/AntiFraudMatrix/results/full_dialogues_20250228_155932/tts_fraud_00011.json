@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自鼎盛投资的张经理，最近我们发现有一个非常好的投资项目，回报率非常高，我想您一定会有兴趣。",
+      "timestamp": 1740747487.0775893
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？是什么样的投资项目啊？我最近正好想找点赚钱的机会呢。",
+      "timestamp": 1740747491.1519682
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何疑问，可以随时联系我。祝您生活愉快，再见。",
+      "timestamp": 1740747496.8264017
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢张经理，我会考虑的。再见。",
+      "timestamp": 1740747498.5443156
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明其不再希望继续对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您有任何疑问，可以随时联系我。祝您生活愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢张经理，我会考虑的。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

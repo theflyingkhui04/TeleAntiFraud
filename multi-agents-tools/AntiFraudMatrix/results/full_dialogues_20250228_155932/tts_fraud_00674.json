@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自某某投资顾问公司的李经理，我们最近发现您可能对一种新的高收益投资机会感兴趣。不知道您是否有时间了解一下？",
+      "timestamp": 1740733863.882077
+    },
+    {
+      "role": "right",
+      "content": "您好，李经理，我是教书的，平时工作挺忙的，不过我对投资确实有点兴趣。不过，最近我也听说了不少投资骗局，您能介绍一下您公司的情况和这个投资的具体内容吗？我需要确保这是安全的。",
+      "timestamp": 1740733868.538174
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者的介绍感到怀疑，或者意识到这可能是一个骗局，因此选择挂断电话以避免进一步的潜在风险。用户在对话中提到了对投资骗局的担忧，这表明用户对诈骗者的提议持谨慎态度。挂断电话可能是用户采取的一种自我保护措施，以避免被骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

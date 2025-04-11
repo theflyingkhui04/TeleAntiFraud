@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李女士吗？我是您的儿子小杰的同学小明，刚刚我在学校看见小杰被几个高年级的学生带走了，他们看起来很凶，我偷偷听到他们说要把小杰带到一个偏僻的地方。我真的很担心，您得赶紧想办法救他。",
+      "timestamp": 1740748131.9523814
+    },
+    {
+      "role": "right",
+      "content": "小明，谢谢你告诉我，我得赶紧想办法。你能再给我详细描述一下他们带小杰走的方向吗？我得马上去找他。",
+      "timestamp": 1740748133.8276172
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对诈骗者提供的信息的担忧，并试图获取更多信息以便采取行动。然而，用户最终挂断了电话，这可能是因为用户意识到这可能是一个诈骗电话，或者因为用户认为通过这种方式无法获得足够的信息来确认情况的真实性。用户的意图可能是避免进一步的交流，以防止潜在的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，您可以告诉我需要点什么吗？",
+      "timestamp": 1740944330.3596342
+    },
+    {
+      "role": "right",
+      "content": "好的，我想点一份牛肉炒饭和一份糖醋排骨，还有一杯冰红茶。谢谢。",
+      "timestamp": 1740944334.7636652
+    },
+    {
+      "role": "left",
+      "content": "好的，您点的是一份牛肉炒饭、一份糖醋排骨和一杯冰红茶，确认一下送餐地址和联系方式可以吗？",
+      "timestamp": 1740944339.9109447
+    },
+    {
+      "role": "right",
+      "content": "地址是阳光小区三期十号楼二单元三零二室，电话是一三八零零一三八零零零。对了，麻烦尽量在下午一点半之前送到，谢谢。",
+      "timestamp": 1740944342.8328705
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，送餐地址是阳光小区三期十号楼二单元三零二室，电话是一三八零零一三八零零零，我们会在下午一点半之前送到。还有其他需要帮忙的吗？",
+      "timestamp": 1740944348.2937155
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情、送餐地址、联系方式以及送达时间后，询问用户是否还有其他需要帮助的事项。在用户没有进一步的需求后，服务方使用了结束信号代码##ENDCALL_SIGNAL##，表明服务方认为对话目标已达成，订单信息已确认，服务流程已完成，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某宝客服中心，我们发现您的账户存在异常，为了避免您的财产受到损失，请您提供一下账户的手机号码以便我们进行核实。",
+      "timestamp": 1740751505.6225119
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我的账户有问题？那我得配合你们核实一下。我的手机号码是一三八零零一三八零零零。你们需要我做些什么呢？",
+      "timestamp": 1740751507.94696
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们已经记录了您的信息，后续会进行处理。如果还有其他问题，我们会及时与您联系。祝您生活愉快。",
+      "timestamp": 1740751514.2921524
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。希望我的账户没事。祝你们工作顺利。",
+      "timestamp": 1740751515.7173932
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（手机号码），诈骗明显成功。根据终止条件1，应立即终止对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们已经记录了您的信息，后续会进行处理。如果还有其他问题，我们会及时与您联系。祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。希望我的账户没事。祝你们工作顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

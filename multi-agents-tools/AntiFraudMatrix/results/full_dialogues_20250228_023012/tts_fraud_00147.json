@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你最近是不是把儿子送到外地读书了？现在他出事了，急需用钱！",
+      "timestamp": 1740687698.0813696
+    },
+    {
+      "role": "right",
+      "content": "什么？我儿子？他哪儿出事了？你能不能说清楚一点？",
+      "timestamp": 1740687735.0083141
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提到儿子出事并急需用钱时，可能感到极度担忧和困惑，但同时也对诈骗者的信息产生了怀疑。用户要求诈骗者提供更详细的信息，但诈骗者并未给出具体解释，而是直接挂断了电话。这表明用户可能意识到了这是一个诈骗电话，因此选择挂断以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

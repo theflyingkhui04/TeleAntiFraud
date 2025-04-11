@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是国家彩票中心。恭喜您，您中了本期彩票的一等奖，奖金高达五百万元！我是您的客服专员，可以帮您完成领奖流程。",
+      "timestamp": 1740737838.7830446
+    },
+    {
+      "role": "right",
+      "content": "您好，五百万元？这听起来太不可思议了。我平时都不怎么买彩票的，怎么就中了这么大的奖呢？能不能告诉我具体的中奖情况和领奖流程？",
+      "timestamp": 1740737845.0752478
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到中奖信息后表示怀疑，并要求了解更多具体信息。然而，诈骗者并未提供进一步的详细信息，而是直接挂断了电话。这表明用户可能对诈骗者的身份和中奖信息产生了怀疑，而诈骗者在意识到用户有所警惕后选择了主动结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

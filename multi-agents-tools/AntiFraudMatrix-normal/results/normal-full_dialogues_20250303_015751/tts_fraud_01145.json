@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询员，可以为您提供路线规划、路况信息等服务，请问有什么可以帮助您的吗？",
+      "timestamp": 1740978667.8456771
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦您帮我查一下从市中心医院到国际机场的最佳路线，包括预计时间和路况。谢谢。",
+      "timestamp": 1740978671.0034184
+    },
+    {
+      "role": "left",
+      "content": "从市中心医院到国际机场，建议您走高速路，全程大约五十公里，预计需要四十到五十分钟，平峰时段路况较好，基本不会有拥堵。如果遇到高峰期，可能需要额外预留一些时间。",
+      "timestamp": 1740978680.7616696
+    },
+    {
+      "role": "right",
+      "content": "谢谢您的建议，我会选择走高速路。如果有突发情况，比如交通事故或修路，会提前通知我吗？",
+      "timestamp": 1740978684.115686
+    },
+    {
+      "role": "left",
+      "content": "会的，您可以通过导航软件实时关注路况信息，如果遇到突发情况，导航软件会及时提示并提供绕行建议。此外，您也可以关注交通广播或相关社交媒体平台，获取最新的交通动态。",
+      "timestamp": 1740978696.801483
+    },
+    {
+      "role": "right",
+      "content": "好的，我会留意这些渠道。再次感谢您的帮助。",
+      "timestamp": 1740978698.4094036
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，路线信息已提供，祝您旅途愉快。如果还有其他问题，欢迎随时联系。",
+      "timestamp": 1740978707.4531927
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740978708.5593681
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已获得所需信息，并表达了感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，路线信息已提供，祝您旅途愉快。如果还有其他问题，欢迎随时联系。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

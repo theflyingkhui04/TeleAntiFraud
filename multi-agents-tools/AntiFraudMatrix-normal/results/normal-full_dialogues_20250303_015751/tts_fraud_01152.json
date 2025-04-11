@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手为您服务，请问有什么可以帮助您的？",
+      "timestamp": 1740981452.4036634
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下最近的公交线路调整情况。",
+      "timestamp": 1740981453.3309078
+    },
+    {
+      "role": "left",
+      "content": "您好，最近确实有一些公交线路有所调整。请问您具体想了解哪一条线路的信息？这样我可以为您提供更详细的内容。",
+      "timestamp": 1740981457.287405
+    },
+    {
+      "role": "right",
+      "content": "好的，我想了解一下12路公交的最新路线和停靠站。",
+      "timestamp": 1740981458.5182533
+    },
+    {
+      "role": "left",
+      "content": "12路公交最近的调整主要包括新增了两个站点：科技园区和文化中心。具体的停靠站顺序为：火车站、市医院、市政府、科技园区、文化中心、终点站。您可以在这些站点上车或下车。需要其他信息吗？",
+      "timestamp": 1740981463.7962625
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我知道了。新增的这两个站点方便了不少，挺好的。没其他问题了。",
+      "timestamp": 1740981465.1208627
+    },
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，12路公交的最新路线信息已经提供给您。希望对您有所帮助，祝您旅途愉快。",
+      "timestamp": 1740981471.2711582
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。旅途愉快。",
+      "timestamp": 1740981472.3125722
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示已获得所需信息，并没有其他问题，明确表示感谢。根据终止条件2和3，对话目标已达成，用户已表示满意。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，12路公交的最新路线信息已经提供给您。希望对您有所帮助，祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。旅途愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

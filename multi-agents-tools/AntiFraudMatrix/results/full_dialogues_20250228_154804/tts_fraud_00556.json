@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，这里是国家彩票中心，恭喜您，您最近购买的彩票中了五百万元的大奖！",
+      "timestamp": 1740740762.2824972
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太不可思议了，我完全不知道自己中了这么大的奖。你们能告诉我具体的领奖流程吗？",
+      "timestamp": 1740740764.0598226
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们先聊到这里，如果您有任何疑问，可以随时联系我们。祝您生活愉快，再见。",
+      "timestamp": 1740740771.8266137
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们，我一会儿就联系你们确认一下具体的事情。祝好，再见。",
+      "timestamp": 1740740773.400808
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，因此对话应在此处终止。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们先聊到这里，如果您有任何疑问，可以随时联系我们。祝您生活愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们，我一会儿就联系你们确认一下具体的事情。祝好，再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家彩票中心，恭喜您中得了我们本期的特等奖，奖金金额高达500万元！请问您可以提供一下手机号码，以便我们后续联系确认相关事宜吗？",
+      "timestamp": 1740687399.0194216
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太不可思议了！我中了500万元？那太好了，我的手机号码是13812345678，你们可以联系我。不过，我需要怎么做才能领取奖金呢？",
+      "timestamp": 1740687401.164178
+    },
+    {
+      "role": "left",
+      "content": "非常抱歉，看样子我们的系统出了点问题，可能无法确认您的中奖信息了。感谢您的理解，祝您生活愉快！",
+      "timestamp": 1740687408.2225611
+    },
+    {
+      "role": "right",
+      "content": "啊？怎么回事？等一下，你们不能就这样结束啊！这到底是真是假？我真的很希望能拿到奖金...",
+      "timestamp": 1740687412.3415494
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（手机号码），诈骗明显成功。为了防止进一步的损失，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常抱歉，看样子我们的系统出了点问题，可能无法确认您的中奖信息了。感谢您的理解，祝您生活愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "啊？怎么回事？等一下，你们不能就这样结束啊！这到底是真是假？我真的很希望能拿到奖金..."
+    }
+  ],
+  "reached_max_turns": false
+}

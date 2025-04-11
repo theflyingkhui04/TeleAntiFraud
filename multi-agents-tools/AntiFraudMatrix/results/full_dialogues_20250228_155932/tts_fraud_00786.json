@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我们手上，马上准备转账五十万到这个账户，否则后果自负！",
+      "timestamp": 1740759090.1801593
+    },
+    {
+      "role": "right",
+      "content": "你们到底是谁？我儿子怎么会……你们别吓我，我需要见到他，确认他安全才行。",
+      "timestamp": 1740759094.9422266
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者威胁后表现出明显的焦虑和不安，但并未立即屈服于威胁。用户要求确认儿子的安全，这表明用户对诈骗者的说法持怀疑态度，并试图获取更多信息以验证情况的真实性。然而，诈骗者直接挂断了电话，没有给用户进一步交流的机会。这可能是诈骗者意识到用户并未轻易上当，继续对话可能会暴露诈骗行为，因此选择终止对话以避免风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

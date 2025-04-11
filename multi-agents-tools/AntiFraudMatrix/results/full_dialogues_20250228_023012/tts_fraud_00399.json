@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行客服中心，我是小李。我们检测到您的账户有异常活动，为了避免资金损失，请您提供身份证号以便我们核对身份信息。",
+      "timestamp": 1740681782.166906
+    },
+    {
+      "role": "right",
+      "content": "嗯，真的吗？我最近确实没怎么用这张卡，不过你们怎么知道是我的账户有异常的？",
+      "timestamp": 1740681783.5394163
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者要求提供身份证号后，可能意识到了潜在的诈骗风险，因此选择立即挂断电话以保护个人信息安全。用户的意图是避免进一步的交流可能导致个人信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

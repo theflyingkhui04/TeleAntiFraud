@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的孩子在我的手上，立刻准备五万块钱，不要报警，否则后果自负！",
+      "timestamp": 1740758083.560733
+    },
+    {
+      "role": "right",
+      "content": "你、你这是什么意思？我孩子怎么会在你手上？你别吓我，我得先确认一下情况。你先别挂电话，我得和家里人联系一下。",
+      "timestamp": 1740758087.1930373
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其孩子在对方手上后，表现出明显的恐慌和不确定。用户试图通过要求与家人联系来确认情况的真实性，这表明用户可能怀疑对方的真实性，但同时也担心孩子的真实安全。用户挂断电话可能是为了立即采取行动确认孩子的安全状况，而不是继续与诈骗者对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

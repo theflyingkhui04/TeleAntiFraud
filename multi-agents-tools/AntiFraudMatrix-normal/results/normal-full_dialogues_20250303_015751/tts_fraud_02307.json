@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想要预订哪家餐厅和什么菜品吗？",
+      "timestamp": 1740981912.699033
+    },
+    {
+      "role": "right",
+      "content": "好的，我想预订一家靠近我住处的意大利餐厅，菜品的话，来一份海鲜意面和一个烤鸡胸。",
+      "timestamp": 1740981914.7958996
+    },
+    {
+      "role": "left",
+      "content": "好的，我为您找到了一家评价很好的意大利餐厅，地址是您住处附近的阳光广场三楼。您预订的菜品是海鲜意面和烤鸡胸，还需要帮您预订饮料或甜点吗？",
+      "timestamp": 1740981922.8408477
+    },
+    {
+      "role": "right",
+      "content": "不需要了，就这样吧。谢谢。",
+      "timestamp": 1740981923.5778396
+    },
+    {
+      "role": "left",
+      "content": "您的预订已经完成，预计三十分钟后送达。如果您有任何其他需求，欢迎随时联系我们。感谢您的支持，祝您用餐愉快。",
+      "timestamp": 1740981927.3570166
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的服务，期待美食。",
+      "timestamp": 1740981928.1829839
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经明确表示不需要进一步的帮助，并表达了感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的预订已经完成，预计三十分钟后送达。如果您有任何其他需求，欢迎随时联系我们。感谢您的支持，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的服务，期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

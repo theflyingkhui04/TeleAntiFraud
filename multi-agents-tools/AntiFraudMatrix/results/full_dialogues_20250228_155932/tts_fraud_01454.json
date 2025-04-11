@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生吗？我是张先生的司机，非常抱歉给您打电话带来困扰，但我现在处在一个非常紧急的情况中。张先生在回家的路上出了点意外，现在被几个不明身份的人扣押了，他们要求我们支付一笔赎金才能放人。您能理解这种情况的紧急性吗？",
+      "timestamp": 1740732703.8506758
+    },
+    {
+      "role": "right",
+      "content": "什么？张先生被扣押了？这不可能！我昨天还和张先生一起吃饭。你打错电话了吧？我建议你马上报警，这种事情怎么能私下解决。",
+      "timestamp": 1740732722.407749
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因很可能是怀疑诈骗者所说的情况不真实。用户提到昨天还与张先生一起吃饭，认为张先生被扣押的情况不可能发生，因此对诈骗者的说法表示质疑。用户建议诈骗者报警，表明其认为这是诈骗行为，并不愿意继续参与对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

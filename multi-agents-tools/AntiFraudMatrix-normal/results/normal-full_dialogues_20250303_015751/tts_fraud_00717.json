@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是客服小张，可以帮助您完成预约服务，请问您需要预约什么服务呢？",
+      "timestamp": 1740943895.6373305
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一下车辆保养，具体时间看你们的安排。",
+      "timestamp": 1740943897.5072658
+    },
+    {
+      "role": "left",
+      "content": "好的，车辆保养服务我们这里可以帮您安排。请问您方便提供一下车牌号和联系方式，以便我们为您安排合适的预约时间吗？",
+      "timestamp": 1740943902.2311318
+    },
+    {
+      "role": "right",
+      "content": "车牌号是京A12345，手机号是13812345678。",
+      "timestamp": 1740943903.5818007
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，京A12345和13812345678已记录。我们这边会为您安排最近的保养时间，通常是预约后的两到三个工作日内，您看这样可以吗？",
+      "timestamp": 1740943909.3923905
+    },
+    {
+      "role": "right",
+      "content": "可以，那就这样安排吧。谢谢。",
+      "timestamp": 1740943910.3166032
+    },
+    {
+      "role": "left",
+      "content": "好的，您的车辆保养预约已成功安排，我们会在确认具体时间后通过短信通知您。感谢您的信任与支持，祝您生活愉快。",
+      "timestamp": 1740943918.1234179
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您工作顺利。",
+      "timestamp": 1740943919.1933212
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经同意了服务方提供的预约安排，并表达了感谢，表明用户对当前服务感到满意且无需进一步的帮助。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的车辆保养预约已成功安排，我们会在确认具体时间后通过短信通知您。感谢您的信任与支持，祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您工作顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

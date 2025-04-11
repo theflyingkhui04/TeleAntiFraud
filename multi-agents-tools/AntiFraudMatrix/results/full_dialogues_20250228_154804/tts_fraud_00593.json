@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服中心。我们发现您有一个包裹存在异常情况，需要您配合处理。为了保障您的权益，请您提供一下姓名和联系电话，好吗？",
+      "timestamp": 1740741677.1049838
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫张华，电话是这个，您是说我的包裹有问题吗？具体是什么问题呢？",
+      "timestamp": 1740741678.4991271
+    },
+    {
+      "role": "left",
+      "content": "好的，感谢您的配合，我们会尽快处理这个问题。如果还有其他疑问，您可以随时联系我们。再见。",
+      "timestamp": 1740741686.2643416
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，我会等你们的消息。再见。",
+      "timestamp": 1740741687.819779
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和联系电话，属于敏感信息。根据终止条件1，诈骗明显成功，应立即终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，感谢您的配合，我们会尽快处理这个问题。如果还有其他疑问，您可以随时联系我们。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，我会等你们的消息。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

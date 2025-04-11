@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某知名电商平台的客服中心，我是客服专员小李。我们刚刚收到您的一笔退款申请，但系统显示您的银行账户信息有误，导致退款无法完成。为了不影响您的退款进度，麻烦您提供一下正确的银行卡号和开户行信息，好吗？",
+      "timestamp": 1740765894.7128267
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我确实申请了退款，但是我的银行账户信息应该是对的啊。你们能再帮我查一下吗？我之前用这个账户收过好几次退款了。",
+      "timestamp": 1740765896.8328495
+    },
+    {
+      "role": "left",
+      "content": "好的，我理解您的担忧。请您稍等一下，我来帮您核实一下。稍等片刻，我马上回来。",
+      "timestamp": 1740765901.0880713
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者可能意识到用户对银行账户信息的正确性表示怀疑，并且要求再次核实，这可能增加了诈骗被识破的风险。为了防止用户进一步质疑或采取防范措施，诈骗者选择主动挂断电话，避免暴露诈骗行为。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

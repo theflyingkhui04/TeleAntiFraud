@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是客服代表小李。我们发现您的银行卡可能存在异常交易，为了保障您的资金安全，需要您配合我们进行核实。请问您现在方便吗？",
+      "timestamp": 1740806800.4884162
+    },
+    {
+      "role": "right",
+      "content": "您好，小李。我确实收到了几条短信通知，说是我的银行卡有异常。不过，我先要确认一下您的身份，毕竟这种事情涉及我的隐私和财务安全。您能告诉我，我的银行卡的后四位数字是多少吗？",
+      "timestamp": 1740806804.380991
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了高度的警惕性，要求诈骗者提供其银行卡的后四位数字以验证身份。这表明用户已经意识到可能存在诈骗风险，并采取了防范措施。用户挂断电话可能是为了避免进一步的风险，确保自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

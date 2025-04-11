@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！我是国际快递公司的客服代表。我们发现您的包裹在海关被扣留，需要您提供身份信息以便进行清关处理。请问您现在方便接听电话吗？",
+      "timestamp": 1740685840.1168478
+    },
+    {
+      "role": "right",
+      "content": "您好，我方便接听电话。请问我的包裹出了什么问题？",
+      "timestamp": 1740685842.0386484
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了电话，可能是由于意识到对话内容存在诈骗嫌疑，或者对诈骗者的身份和意图产生了怀疑。用户在诈骗者提出需要提供身份信息时，可能察觉到了潜在的风险，因此选择立即终止对话以保护自己的个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

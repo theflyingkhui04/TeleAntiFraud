@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国际快递服务公司，我们发现您的包裹里可能含有违禁品，需要您立即处理。请您提供一些个人信息，以便我们进行核实。",
+      "timestamp": 1740751356.7792327
+    },
+    {
+      "role": "right",
+      "content": "您好，我是医生，平时也很关注这方面的信息。你们怎么知道我的包裹里有违禁品？能具体说明一下吗？",
+      "timestamp": 1740751359.4718168
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方的身份和信息的真实性，选择挂断电话以避免潜在的风险。用户自称是医生，可能对这类诈骗手法有一定的敏感度，因此在对方未能提供具体说明的情况下，选择主动结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

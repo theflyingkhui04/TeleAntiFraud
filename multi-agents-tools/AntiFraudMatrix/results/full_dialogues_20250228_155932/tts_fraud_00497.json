@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服中心，您的包裹在运输过程中出现了问题，需要您配合处理一下，可以吗？",
+      "timestamp": 1740757752.0645218
+    },
+    {
+      "role": "right",
+      "content": "您好，我是教师，最近确实有一个包裹在运输中。请问具体是什么问题呢？我需要怎么配合？不过，我之前也遇到过这种电话，希望您能提供一些详细的证明，比如我的订单号或者包裹的详细信息，这样我才能确认。",
+      "timestamp": 1740757757.3820903
+    },
+    {
+      "role": "left",
+      "content": "很抱歉给您带来不便，您的包裹因为内含违禁物品被海关扣留，需要您支付两千元的罚款才能放行。请您尽快处理，否则包裹将被销毁。",
+      "timestamp": 1740757766.8902698
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在用户要求提供详细证明信息时选择了挂断电话。这可能是因为诈骗者无法提供具体的订单号或包裹详细信息，担心进一步的对话会暴露其诈骗行为，从而选择终止对话以避免被识破。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

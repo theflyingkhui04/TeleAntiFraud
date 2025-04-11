@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是快递公司客服中心，请问您是张三先生吗？我们发现您的包裹在海关被扣留，需要您提供一些信息以便处理。",
+      "timestamp": 1740729949.6755943
+    },
+    {
+      "role": "right",
+      "content": "您好，我是张三。我的包裹被扣留了？这是怎么回事？需要我提供什么信息呢？",
+      "timestamp": 1740729953.1455574
+    },
+    {
+      "role": "left",
+      "content": "根据海关的通知，您的包裹内有违禁品，需要您提供身份信息和相关证明文件以便我们处理。请问您的身份证号码是多少？",
+      "timestamp": 1740729966.8076844
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者挂断电话的原因可能是用户表现出配合的态度，诈骗者认为可以继续进行诈骗，但在询问身份证号码时，可能意识到用户可能会提供敏感信息，因此选择挂断电话以避免被追踪或被识破。诈骗者的意图是通过获取用户的身份信息来实施诈骗，但在关键时刻选择终止对话以保护自己。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

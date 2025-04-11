@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问，我们公司最近有一个高回报的投资项目，您有兴趣了解一下吗？这个项目风险很低，收益却能达到每月百分之二十以上。",
+      "timestamp": 1740743335.7124698
+    },
+    {
+      "role": "right",
+      "content": "你好，我是医生，平时工作比较忙，不太关注投资。不过你说的这个项目听起来回报率确实很高，我有点怀疑。你们能提供具体的项目资料和公司的详细信息吗？还有，这么高的回报率，风险真的有那么低吗？",
+      "timestamp": 1740743350.8984263
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提供的项目回报率后表示怀疑，并要求提供具体的项目资料和公司详细信息。用户挂断电话可能是因为对诈骗者的说法持怀疑态度，认为对方的要求不合理或对方可能是诈骗者。用户的意图是避免进一步的风险，选择终止对话以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

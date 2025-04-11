@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！我是国际快递公司的客服，我们发现您的包裹在过海关时遇到了一些问题，需要您提供一些信息以便我们协助处理。请问您现在方便通话吗？",
+      "timestamp": 1740686562.6317873
+    },
+    {
+      "role": "right",
+      "content": "您好，我这边现在挺忙的，不过我可以抽几分钟时间。能告诉我具体是什么问题吗？",
+      "timestamp": 1740686564.2698894
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者提供的信息不够具体或可信度不高，导致用户对通话内容产生了怀疑，因此选择挂断电话以避免潜在的风险。用户的意图是终止与诈骗者的进一步交流，保护个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

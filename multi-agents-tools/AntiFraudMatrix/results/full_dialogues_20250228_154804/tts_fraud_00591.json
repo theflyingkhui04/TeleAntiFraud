@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国际快递公司的客服，您的一个包裹在海关被扣押了，需要您支付一笔额外的税费才能放行。您可以提供一下您的姓名和联系方式吗？我们需要核对信息。",
+      "timestamp": 1740748513.0058832
+    },
+    {
+      "role": "right",
+      "content": "您好，我叫张丽，联系电话是这个号码。我有一个包裹吗？怎么会被扣押了呢？能告诉我具体是什么包裹吗？",
+      "timestamp": 1740748514.665209
+    },
+    {
+      "role": "left",
+      "content": "好的，我们会尽快处理您的信息。感谢您的配合，祝您有美好的一天。再见。",
+      "timestamp": 1740748520.6296082
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，希望我的包裹能尽快送来。再见。",
+      "timestamp": 1740748521.4784272
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和联系电话，但诈骗者尚未获取更多敏感信息或要求用户进行转账。目前对话没有进入僵局，也没有偏离主题，用户也未明确拒绝继续对话。因此，对话应继续，以便用户能够进一步意识到潜在的诈骗风险。",
+  "terminator": "",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们会尽快处理您的信息。感谢您的配合，祝您有美好的一天。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，希望我的包裹能尽快送来。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询助手，可以帮您规划路线、查询交通情况或解答任何相关问题。",
+      "timestamp": 1740945652.0698729
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。如果有需要我会联系你。",
+      "timestamp": 1740945653.6849117
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方自我介绍并表示可以提供帮助后，表达了感谢并明确表示如果有需要会再次联系。这表明用户当前没有具体的问题或需求，对服务方的服务表示认可，但认为无需继续对话。用户通过提供明确的结束信号代码'##ENDCALL_SIGNAL##'，表达了结束对话的意图。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

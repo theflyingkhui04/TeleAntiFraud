@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自顺丰快递的客服，您的包裹在运输过程中被发现有违禁品，需要您支付一笔罚款才能继续运送。请问您能提供一下联系方式和地址吗？我们这边会记录并为您处理。",
+      "timestamp": 1740773216.6058478
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近确实有一个包裹，但我不记得里面有什么违禁品。您能告诉我具体是什么东西吗？还有，你们为什么需要我的联系方式和地址？这听起来不太对劲。",
+      "timestamp": 1740773218.7354412
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对诈骗者要求提供敏感信息的警惕，并对快递公司需要这些信息的合理性表示怀疑。用户可能已经意识到这是一起诈骗行为，因此选择主动挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

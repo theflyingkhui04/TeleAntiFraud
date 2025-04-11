@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小李为您服务，有什么问题我可以帮您解决呢？",
+      "timestamp": 1740973421.6903143
+    },
+    {
+      "role": "right",
+      "content": "你好，小李。我是小张，我们公司最近的订单有点问题，想了解一下具体情况。",
+      "timestamp": 1740973423.9713602
+    },
+    {
+      "role": "left",
+      "content": "您好，小张，很高兴为您服务。请您提供一下订单号或者相关的订单信息，我来帮您查询一下。",
+      "timestamp": 1740973430.114629
+    },
+    {
+      "role": "right",
+      "content": "好的，订单号是20231012456789，麻烦你查一下。",
+      "timestamp": 1740973432.5678267
+    },
+    {
+      "role": "left",
+      "content": "感谢您的耐心等待，小张。我查到了您的订单，目前显示您的订单已经发货，预计三到五个工作日内到达。您还有其他方面需要了解的吗？",
+      "timestamp": 1740973438.8768425
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。另外，我想确认一下，这次的物流是由哪家公司负责的？",
+      "timestamp": 1740973440.4482465
+    },
+    {
+      "role": "left",
+      "content": "小张，您的订单是由顺丰速运负责的。您可以在顺丰官网或者使用顺丰速运的APP查询具体的物流信息。需要我提供更多的帮助吗？",
+      "timestamp": 1740973446.2361107
+    },
+    {
+      "role": "right",
+      "content": "不需要了，谢谢你的帮助，小李。我会自己查一下物流信息。如果有问题再联系你们。",
+      "timestamp": 1740973448.2734072
+    },
+    {
+      "role": "left",
+      "content": "小张，如果需要进一步的帮助，您可以随时联系我们。感谢您对我们的支持，祝您一切顺利。",
+      "timestamp": 1740973452.4725492
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。",
+      "timestamp": 1740973453.4983747
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示感谢并结束对话，表示无需进一步帮助。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "小张，如果需要进一步的帮助，您可以随时联系我们。感谢您对我们的支持，祝您一切顺利。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

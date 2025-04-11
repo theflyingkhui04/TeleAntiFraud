@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国际快递服务公司，我们发现您的包裹里有一笔意外之财，但需要您支付一笔税费才能领取。请问您能提供一下您的联系方式和地址吗？我们好为您处理后续事宜。",
+      "timestamp": 1740752830.698115
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？那太好了，我一直希望有这种好事。你们能帮我处理吗？我的联系方式是……（提供电话号码），地址是……（提供家庭地址）。需要我做些什么吗？",
+      "timestamp": 1740752833.1071556
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们会尽快处理您的包裹事宜。如果一切顺利，我们会第一时间通知您。祝您生活愉快。再见。",
+      "timestamp": 1740752841.1962848
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，期待好消息。再见。",
+      "timestamp": 1740752842.7649548
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（电话号码和家庭地址），诈骗明显成功。为了防止进一步的损失，应立即终止对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们会尽快处理您的包裹事宜。如果一切顺利，我们会第一时间通知您。祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，期待好消息。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

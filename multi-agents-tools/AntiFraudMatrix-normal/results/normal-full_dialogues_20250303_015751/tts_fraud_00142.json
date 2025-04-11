@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是店员小张，有什么商品您想了解的吗？",
+      "timestamp": 1740944285.9934542
+    },
+    {
+      "role": "right",
+      "content": "嗨，小张。我在找一些学习用品，比如笔记本和笔。有推荐的吗？",
+      "timestamp": 1740944293.7221365
+    },
+    {
+      "role": "left",
+      "content": "当然，我们这里有几种不同款式的笔记本和笔，您是更倾向于经典款还是有特殊设计的？",
+      "timestamp": 1740944297.3739042
+    },
+    {
+      "role": "right",
+      "content": "经典款就行，简洁点的。多少钱？",
+      "timestamp": 1740944298.4461248
+    },
+    {
+      "role": "left",
+      "content": "我们有一套经典款的笔记本加笔套装，价格是 25 元，性价比很高。您需要看看样品吗？",
+      "timestamp": 1740944302.4458263
+    },
+    {
+      "role": "right",
+      "content": "好的，可以看看样品。谢谢。",
+      "timestamp": 1740944303.0495882
+    },
+    {
+      "role": "left",
+      "content": "不客气，我这就给您拿样品来看看。请您稍等一下。",
+      "timestamp": 1740944306.3932729
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740944307.9800181
+    },
+    {
+      "role": "left",
+      "content": "样品已经拿来了，您看看这款笔记本的封面是纯色的，内页是横线设计，笔是中性笔，书写流畅。您觉得怎么样？",
+      "timestamp": 1740944314.893253
+    },
+    {
+      "role": "right",
+      "content": "看起来不错，我就要这个了。谢谢。",
+      "timestamp": 1740944316.6669838
+    },
+    {
+      "role": "left",
+      "content": "如果您满意的话，这套经典款的笔记本和笔套装非常适合您。感谢您的光顾，如果您需要购买，可以直接告诉我。祝您学习顺利，生活愉快。",
+      "timestamp": 1740944325.4491036
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢小张。我会买的。学习顺利，再见。",
+      "timestamp": 1740944326.4171932
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了商品，并表达了感谢，表明对话目标已达成，用户对服务满意。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您满意的话，这套经典款的笔记本和笔套装非常适合您。感谢您的光顾，如果您需要购买，可以直接告诉我。祝您学习顺利，生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢小张。我会买的。学习顺利，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的打车服务助手，有什么可以帮助您的吗？",
+      "timestamp": 1740940483.4962008
+    },
+    {
+      "role": "right",
+      "content": "你好，我想确认一下我的车什么时候到。",
+      "timestamp": 1740940484.5902958
+    },
+    {
+      "role": "left",
+      "content": "好的，能麻烦您提供一下订单号或者您的手机号码吗？这样我可以帮您查询。",
+      "timestamp": 1740940488.7924907
+    },
+    {
+      "role": "right",
+      "content": "订单号是12345678。",
+      "timestamp": 1740940492.354403
+    },
+    {
+      "role": "left",
+      "content": "好的，让我查一下……您的车辆预计在大约五分钟内到达，请留意外面的车辆。如果有任何变动，司机将及时与您联系。",
+      "timestamp": 1740940495.8662925
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740940497.517819
+    },
+    {
+      "role": "left",
+      "content": "好的，您的车辆预计很快就会到达，请您耐心等待。如果需要任何进一步的帮助，随时可以联系我。感谢您的使用，祝您旅途愉快。",
+      "timestamp": 1740940503.5963762
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740940504.5014446
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表示了感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的车辆预计很快就会到达，请您耐心等待。如果需要任何进一步的帮助，随时可以联系我。感谢您的使用，祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

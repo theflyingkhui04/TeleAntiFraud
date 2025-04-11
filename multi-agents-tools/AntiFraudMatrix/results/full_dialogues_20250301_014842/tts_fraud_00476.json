@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是客服代表小李。我们检测到您的账户有异常交易活动，为了确保您的资金安全，需要您配合我们进行核实。您可以告诉我您的全名和身份证号吗？我们需要核对一下。",
+      "timestamp": 1740779763.5739043
+    },
+    {
+      "role": "right",
+      "content": "你好，小李。我确实是在这家银行有账户。不过，我最近没有进行过什么大额交易。你们怎么确定是我的账户有异常呢？另外，为了安全起见，我能不能直接去银行网点处理这个问题？",
+      "timestamp": 1740779765.935984
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对诈骗者身份和请求的怀疑，提出了合理的疑问，并提出了直接去银行网点处理问题的建议。用户挂断电话的原因可能是为了防止个人信息泄露，避免潜在的诈骗风险，显示了用户对安全性的重视和对诈骗行为的警觉。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

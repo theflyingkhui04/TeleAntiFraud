@@ -1,0 +1,41 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到我们的店铺，有什么商品您感兴趣的吗？",
+      "timestamp": 1740975258.3566482
+    },
+    {
+      "role": "right",
+      "content": "你好，我来看看你们的农产品，有什么新鲜的吗？",
+      "timestamp": 1740975259.6324475
+    },
+    {
+      "role": "left",
+      "content": "我们这里有新鲜的有机蔬菜和水果，比如小番茄、黄瓜、苹果和橙子，都是今天刚到的，非常新鲜。您需要看看哪些？",
+      "timestamp": 1740975264.6715639
+    },
+    {
+      "role": "right",
+      "content": "小番茄和黄瓜听起来不错，可以给我看看吗？",
+      "timestamp": 1740975265.9880579
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我这就给您拿一些过来。请您稍等一下。",
+      "timestamp": 1740975270.7060678
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740975271.6648045
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方表示会拿小番茄和黄瓜过来后，选择了结束对话。这可能是因为用户已经得到了自己想要了解的信息，或者用户可能只是想确认这些商品是否有售，而不需要进一步的服务。用户的意图可能是确认商品的可用性，而不是立即购买。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

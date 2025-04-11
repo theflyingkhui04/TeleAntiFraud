@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮助您的吗？",
+      "timestamp": 1740950330.3921282
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份午餐，有什么推荐的吗？",
+      "timestamp": 1740950331.298539
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们今天推荐的午餐有牛肉炒饭和鸡肉沙拉，非常受欢迎。您喜欢哪种？",
+      "timestamp": 1740950337.2329965
+    },
+    {
+      "role": "right",
+      "content": "那就来一份牛肉炒饭吧。什么时候能送到？",
+      "timestamp": 1740950338.1448257
+    },
+    {
+      "role": "left",
+      "content": "好的，您的牛肉炒饭已经下单了。预计在三十分钟内送达。如果有任何变化，我们会及时通知您。还需要其他服务吗？",
+      "timestamp": 1740950343.1492462
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的订单后，提供了预计送达时间，并询问用户是否需要其他服务。用户没有进一步的需求，服务方通过提供结束信号代码'##ENDCALL_SIGNAL##'来表示对话已经完成，服务目标达成，可以自然结束。服务方的意图是确保用户满意并完成服务流程。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

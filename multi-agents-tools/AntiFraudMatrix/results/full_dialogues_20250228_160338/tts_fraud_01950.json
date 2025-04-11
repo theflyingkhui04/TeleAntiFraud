@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的女儿现在在我们手上，如果你不想她出事，就赶紧准备五万块钱赎金。别报警，否则就等着给她收尸吧！",
+      "timestamp": 1740741539.6498544
+    },
+    {
+      "role": "right",
+      "content": "你等一下，我女儿不是一直在外地工作吗？怎么会被你们抓到？这中间肯定有什么误会，你们能不能先让我跟女儿通个电话，确认一下情况？",
+      "timestamp": 1740741554.8238845
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出怀疑和不安，对诈骗者提供的信息表示质疑，并要求与女儿直接通话以确认情况。这表明用户可能已经意识到这是一个诈骗电话，或者至少对诈骗者的说法持高度怀疑态度。用户主动挂断电话，可能是为了避免进一步的骚扰或风险，同时也表明了其不愿意继续参与对话的意图。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

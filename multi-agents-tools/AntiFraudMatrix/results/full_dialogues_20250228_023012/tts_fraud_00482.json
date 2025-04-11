@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，这里是XX银行客服中心，我们检测到您的账户存在异常交易，需要立即核实您的身份信息，以确保您的资金安全。请问您现在方便接听电话吗？",
+      "timestamp": 1740681185.664588
+    },
+    {
+      "role": "right",
+      "content": "您好，我现在在工作，不太方便接电话。不过我可以抽空打回去，您能告诉我一个联系方式吗？不过在那之前，我得确认一下您的身份，毕竟安全第一，对吧？",
+      "timestamp": 1740681190.6518521
+    },
+    {
+      "role": "left",
+      "content": " Understand your concern, but for security reasons, we can't provide our contact number directly. However, I can assure you that this is a legitimate call from XX Bank. To expedite the verification process, can you please confirm the last four digits of your social security number? This will help us verify your identity quickly and ensure that we're speaking with the right person. We need to act fast to secure your account.",
+      "timestamp": 1740681202.0177748
+    },
+    {
+      "role": "right",
+      "content": "抱歉，我不会提供任何个人信息，尤其是社保号码。我建议您通过官方渠道联系我，比如我亲自去银行柜台或者通过官方网站留言。如果真的是银行，应该有正规的联系方式吧？我感觉这通电话有点可疑。",
+      "timestamp": 1740681210.3980618
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是怀疑来电的合法性，不愿意提供个人信息，尤其是敏感信息如社保号码。用户表现出强烈的隐私保护意识，并建议通过官方渠道进行联系，以确保沟通的安全性和合法性。用户的意图是终止与诈骗者的对话，避免个人信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

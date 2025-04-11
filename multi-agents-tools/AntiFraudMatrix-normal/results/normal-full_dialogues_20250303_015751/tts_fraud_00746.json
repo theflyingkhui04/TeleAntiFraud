@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在此，有什么可以帮助您的？",
+      "timestamp": 1740982807.8843694
+    },
+    {
+      "role": "right",
+      "content": "我就是想了解一下，最近村里到镇上的路修好了没？",
+      "timestamp": 1740982809.4033556
+    },
+    {
+      "role": "left",
+      "content": "目前村里到镇上的路段已经修缮完毕，您可以正常通行了。还有其他需要了解的吗？",
+      "timestamp": 1740982818.4007983
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户所需信息已提供完毕，并询问是否有其他需要帮助的事项后，收到了用户的无进一步需求的暗示。因此，服务方选择主动结束对话，以避免不必要的等待或冗余交流，同时确保用户的问题已得到解决。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

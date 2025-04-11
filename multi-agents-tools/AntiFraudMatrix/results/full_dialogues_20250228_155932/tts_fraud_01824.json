@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！这里是国际快递服务中心。我们发现您有一个重要包裹由于关税问题被海关扣留，需要您立即提供个人信息以完成清关手续。请问您现在方便处理吗？",
+      "timestamp": 1740744520.3069246
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我最近确实没有收到什么包裹啊。你们是怎么知道我的信息的？我得确认一下这是真的。",
+      "timestamp": 1740744522.377015
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能怀疑这是一起诈骗行为，因为用户提到最近没有收到包裹，并且对诈骗者如何获取其信息表示了疑问。用户挂断电话的意图是为了避免进一步的风险，同时自行确认信息的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

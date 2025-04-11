@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行客服中心，我们检测到您的账户存在异常交易，需要立即核实您的身份信息以保障您的资金安全。请问您现在方便接听电话吗？",
+      "timestamp": 1740736014.1107912
+    },
+    {
+      "role": "right",
+      "content": "您好，我方便接听电话。不过，我之前没有收到过任何关于账户异常的通知。你们是怎么知道我的信息的？",
+      "timestamp": 1740736027.8102376
+    },
+    {
+      "role": "left",
+      "content": "根据我们的系统显示，您的账户在过去24小时内有多次跨行转账记录，为了您的资金安全，我们需要立即确认这些交易是否为您本人操作。请问您最近有进行大额转账吗？",
+      "timestamp": 1740736064.5955539
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在用户表现出怀疑和询问信息来源时选择了挂断电话。这可能是因为诈骗者意识到用户对诈骗行为有所警觉，继续对话可能会暴露骗局，因此选择终止对话以避免进一步的风险。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

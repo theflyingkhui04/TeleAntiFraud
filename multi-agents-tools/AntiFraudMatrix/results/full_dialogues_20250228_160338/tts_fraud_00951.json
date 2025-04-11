@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的儿子现在在我们手上，如果不立刻转账五十万到指定账户，我们就撕票！",
+      "timestamp": 1740734445.3165123
+    },
+    {
+      "role": "right",
+      "content": "你们在说什么，我根本就没有儿子，你们肯定搞错了。快把电话挂了，这种玩笑一点都不好笑。",
+      "timestamp": 1740734472.594753
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户意识到对话涉及诈骗，明确表示自己没有儿子，并要求对方挂断电话。用户表现出对诈骗行为的强烈不满和拒绝，因此主动挂断了电话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

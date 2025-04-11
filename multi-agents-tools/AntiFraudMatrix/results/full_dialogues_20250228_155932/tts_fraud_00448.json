@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你是XXX（用户的名字）吗？我是公安局的，你儿子现在在我们手上，不想他出事的话，赶紧准备五十万赎金，不要报警，后果自负！",
+      "timestamp": 1740759421.1529963
+    },
+    {
+      "role": "right",
+      "content": "什么？你再说一遍，我儿子怎么了？你们是谁？",
+      "timestamp": 1740759422.355435
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被挟持并要求支付赎金后，表现出明显的困惑和怀疑。用户要求诈骗者重复信息，表明其可能没有立即相信诈骗者的说法，或者想要确认信息的真实性。用户随后挂断电话，可能是出于保护自己和家人的安全，避免进一步接触潜在的危险情况，或者是因为意识到这可能是一个诈骗电话而选择终止对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

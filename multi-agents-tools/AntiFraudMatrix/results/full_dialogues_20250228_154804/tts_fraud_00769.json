@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问，我们有一个内部投资项目收益率高达百分之二十，您有兴趣了解一下吗？",
+      "timestamp": 1740737047.7140498
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？百分之二十的收益听起来确实不错。我平时就喜欢了解一下投资的事情。你们这个项目具体是做什么的呢？",
+      "timestamp": 1740737050.4248435
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者的提议产生了兴趣，但出于谨慎考虑，选择挂断电话以进一步查证信息的真实性。用户挂断电话的行为可能表明其意识到需要更多时间来评估这一投资机会，而不是立即做出决定。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

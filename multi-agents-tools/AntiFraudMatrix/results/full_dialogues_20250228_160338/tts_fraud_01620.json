@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我们手上，他刚刚被我们绑架了。如果你想让他平安回来，马上准备五十万现金，不要报警，否则你永远见不到他了。",
+      "timestamp": 1740734745.9141634
+    },
+    {
+      "role": "right",
+      "content": "天哪，你们到底是谁？你们真的绑架了我儿子？我该怎么办？",
+      "timestamp": 1740734758.618116
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称绑架了其儿子并要求支付赎金后，表现出极度的惊恐和不安。用户可能因为无法立即确认信息的真实性，感到极度恐慌和无助，选择挂断电话以寻求其他帮助或核实情况。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

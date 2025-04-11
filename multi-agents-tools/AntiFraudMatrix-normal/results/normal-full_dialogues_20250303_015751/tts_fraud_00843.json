@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮助您的吗？",
+      "timestamp": 1740951290.473544
+    },
+    {
+      "role": "right",
+      "content": "您好，我想订一份午餐，有什么推荐的吗？",
+      "timestamp": 1740951292.1097736
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们今天的午餐特推是黑椒牛肉饭和香辣鸡肉面，都很受欢迎。您看哪一款更合您的口味呢？",
+      "timestamp": 1740951297.803245
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，那我就来一份黑椒牛肉饭吧。还需要点些什么吗？",
+      "timestamp": 1740951300.0974832
+    },
+    {
+      "role": "left",
+      "content": "黑椒牛肉饭是个不错的选择，我们还有新鲜的水果沙拉和招牌柠檬茶，您可以搭配一份，这样营养更均衡。需要来一份沙拉和一杯柠檬茶吗？",
+      "timestamp": 1740951306.678878
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来一份水果沙拉和一杯柠檬茶吧。谢谢。",
+      "timestamp": 1740951311.3663006
+    },
+    {
+      "role": "left",
+      "content": "好的，您的黑椒牛肉饭、水果沙拉和柠檬茶已成功下单，预计30分钟后送达。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740951318.6159995
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！期待您的送达。",
+      "timestamp": 1740951319.52573
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表示感谢，表明用户对当前的服务感到满意，没有进一步的需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的黑椒牛肉饭、水果沙拉和柠檬茶已成功下单，预计30分钟后送达。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！期待您的送达。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

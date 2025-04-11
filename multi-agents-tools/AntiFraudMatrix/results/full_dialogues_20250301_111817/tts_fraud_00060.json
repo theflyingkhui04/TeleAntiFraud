@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您儿子的朋友，他现在遇到了很大的麻烦，被几个坏人带走了，您必须马上帮我，不然他们会对他下手的。",
+      "timestamp": 1740813722.2743528
+    },
+    {
+      "role": "right",
+      "content": "什么？你说什么？我儿子被坏人带走了？这怎么可能？你快告诉我，他现在在哪里？我马上去救他。",
+      "timestamp": 1740813725.2635243
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被绑架后，可能因为极度震惊、恐慌或怀疑对方身份的真实性，选择了立即挂断电话。用户的意图可能是为了尽快联系其他可信的渠道（如直接联系儿子或报警）以确认情况的真实性，而不是继续与诈骗者对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

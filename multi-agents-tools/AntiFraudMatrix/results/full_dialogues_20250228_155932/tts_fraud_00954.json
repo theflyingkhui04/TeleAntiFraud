@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你听好了，你的儿子现在在我手上！他刚刚被我的人绑架了，如果你敢报警或者告诉别人，他就会立刻消失！",
+      "timestamp": 1740732401.3088398
+    },
+    {
+      "role": "right",
+      "content": "你别吓我，我儿子现在在学校，不可能被绑架的。你肯定是搞错了。你到底是谁？为什么这么吓唬我？",
+      "timestamp": 1740732416.2968667
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是诈骗者使用了恐吓和威胁的手段，试图让用户相信其儿子被绑架。用户通过确认儿子的安全在学校，识破了诈骗者的谎言，并对诈骗者的恐吓表示不满和拒绝。用户的意图是终止与诈骗者的对话，避免进一步受到骚扰或恐吓。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

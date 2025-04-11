@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，您可以告诉我需要预约的服务项目和时间吗？",
+      "timestamp": 1740976986.148688
+    },
+    {
+      "role": "right",
+      "content": "好的，我想预约一下维修服务，看看家里的供暖系统。时间方面，下周一上午九点怎么样？",
+      "timestamp": 1740976988.7083886
+    },
+    {
+      "role": "left",
+      "content": "下周一上午九点的时间可以安排，我会为您预约专业的维修师傅上门服务。请问您的联系电话和详细地址可以提供一下吗？",
+      "timestamp": 1740976996.3452792
+    },
+    {
+      "role": "right",
+      "content": "联系电话是138xxxx5678，地址是XX区XX路123号。谢谢。",
+      "timestamp": 1740976998.8305447
+    },
+    {
+      "role": "left",
+      "content": "您的预约信息已确认，下周一上午九点我们的维修师傅会准时上门。预约成功后，您将收到短信确认。如果有任何变动，我们会提前与您联系。感谢您的预约，祝您生活愉快。再见。",
+      "timestamp": 1740977011.1271749
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的服务。再见。",
+      "timestamp": 1740977012.781097
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "服务方已收集到所有必要的预约信息，包括服务项目、时间、联系电话和地址，预约流程已完成。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的预约信息已确认，下周一上午九点我们的维修师傅会准时上门。预约成功后，您将收到短信确认。如果有任何变动，我们会提前与您联系。感谢您的预约，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的服务。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

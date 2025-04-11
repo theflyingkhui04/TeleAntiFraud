@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！我是国际快递公司的工作人员。我们发现您的包裹在清关时遇到了一些问题，需要您提供一些个人信息以便我们协助处理。请问您现在方便接听电话吗？",
+      "timestamp": 1740780646.3191922
+    },
+    {
+      "role": "right",
+      "content": "您好，我是老张。我最近确实寄了一些农产品给亲戚，但没听说有什么问题。你们为什么要我的个人信息？这听起来不太对劲。你们是正规的快递公司吗？",
+      "timestamp": 1740780648.0212982
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户老张在对话中表现出了对诈骗者身份的怀疑，要求验证对方是否为正规快递公司。由于诈骗者未能提供足够的信任证据，用户出于安全考虑，选择了挂断电话，以避免可能的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

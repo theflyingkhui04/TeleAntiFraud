@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！我是邮政快递的客服代表，我们发现您的包裹在清关时遇到了一些问题，需要您提供一些信息来协助处理。请问您现在方便接听电话吗？",
+      "timestamp": 1740688618.7672493
+    },
+    {
+      "role": "right",
+      "content": "您好，我在忙农活呢，不过您说的这个问题挺重要的，我得了解一下。您能告诉我具体是什么问题吗？",
+      "timestamp": 1740688656.3657482
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为正在忙于农活，无法继续详细对话，但对包裹问题表示关注。用户挂断电话可能是为了结束当前不便的通话环境，而非拒绝解决问题。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

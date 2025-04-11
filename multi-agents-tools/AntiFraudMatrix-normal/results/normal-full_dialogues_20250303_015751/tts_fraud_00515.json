@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询服务中心，有什么我可以帮您的？",
+      "timestamp": 1740968651.3709972
+    },
+    {
+      "role": "right",
+      "content": "你好，我想问一下最近村里到镇上的公交线路有没有什么变动？",
+      "timestamp": 1740968652.7964742
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方问候后立即提供了具体的问题，表明用户有明确的咨询目的。然而，服务方在用户提问后立即提供了结束信号，这可能是一个误操作。用户没有收到服务方对问题的回应，因此用户可能感到困惑或不满，但用户也随即提供了结束信号，这可能是用户意识到对话可能无法继续，或是对服务方的快速结束信号做出的反应。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

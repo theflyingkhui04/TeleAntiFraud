@@ -1,0 +1,76 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品您想了解的吗？",
+      "timestamp": 1740950353.6921573
+    },
+    {
+      "role": "right",
+      "content": "嗯，看看有什么适合办公室用的文具吧。",
+      "timestamp": 1740950354.8747394
+    },
+    {
+      "role": "left",
+      "content": "好的，我们这里有各种办公文具，比如文件夹、笔、便签纸等，您具体需要哪一类？",
+      "timestamp": 1740950361.17491
+    },
+    {
+      "role": "right",
+      "content": "给我推荐一些好用的笔吧。",
+      "timestamp": 1740950361.7978678
+    },
+    {
+      "role": "left",
+      "content": "当然可以。我们有几款非常受欢迎的签字笔，书写流畅，握感舒适。还有一款自动铅笔，笔芯不易折断，非常适合办公室使用。您想要试一试吗？",
+      "timestamp": 1740950372.2719553
+    },
+    {
+      "role": "right",
+      "content": "可以，拿几支给我看看。",
+      "timestamp": 1740950373.5399086
+    },
+    {
+      "role": "left",
+      "content": "好的，我马上给您拿几款样品来看看。稍等一下。",
+      "timestamp": 1740950378.5146284
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740950379.881852
+    },
+    {
+      "role": "left",
+      "content": "不客气，这是几款我们的热门笔类产品，您可以试试看哪一款更符合您的需求。",
+      "timestamp": 1740950385.7934003
+    },
+    {
+      "role": "right",
+      "content": "这些笔看起来都不错，我试试看。",
+      "timestamp": 1740950389.4054434
+    },
+    {
+      "role": "left",
+      "content": "好的，请慢慢试，如果需要任何帮助，随时告诉我。",
+      "timestamp": 1740950393.0270233
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740950393.5702314
+    },
+    {
+      "role": "left",
+      "content": "您太客气了，如果试完了有任何疑问或者需要更多建议，尽管告诉我。",
+      "timestamp": 1740950400.2698581
+    }
+  ],
+  "turns": 5,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在用户试用产品时，提供了充分的帮助和支持，并表达了随时准备解答用户疑问或提供进一步建议的态度。随后，服务方通过使用结束信号代码'##ENDCALL_SIGNAL##'，表明了对话已经完成服务流程，达到了服务目标，同时避免占用用户更多时间，体现了专业和礼貌。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

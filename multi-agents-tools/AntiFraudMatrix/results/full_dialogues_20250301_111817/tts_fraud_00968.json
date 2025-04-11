@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是工商银行的客服代表，我姓王。我们发现您的账户可能涉及一笔异常交易，需要您尽快核实。为了您的资金安全，请提供您的身份证号码，我们好为您查询。",
+      "timestamp": 1740803138.4150908
+    },
+    {
+      "role": "right",
+      "content": "您好，王小姐。感谢您的提醒，但我最近没有进行过什么大额交易。为了安全起见，我还是先去银行网点查一下吧。你们银行的客服电话是多少？我核实一下您的身份。",
+      "timestamp": 1740803142.4166317
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对诈骗者身份的怀疑，并提出了核实对方身份的要求。用户选择挂断电话，可能是出于对潜在诈骗行为的警惕，意图避免进一步的风险。用户挂断电话的行为表明其不愿意在未确认对方身份的情况下继续对话，体现了自我保护意识。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

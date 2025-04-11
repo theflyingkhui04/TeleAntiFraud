@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，已经为您叫了一辆车，预计三分钟后到达您的位置。",
+      "timestamp": 1740958276.6428115
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740958280.339483
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方告知已成功叫车并提供预计到达时间后，表达了感谢并使用了结束信号代码'##ENDCALL_SIGNAL##'，表明用户对服务满意，且认为无需进一步交流，对话目标已达成。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

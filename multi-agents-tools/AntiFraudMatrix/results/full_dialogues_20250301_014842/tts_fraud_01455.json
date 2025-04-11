@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是李明的朋友，现在有个非常紧急的事情需要您的帮助。李明现在在我这里，但他遇到了一点麻烦，需要您立即转账一笔钱过来。请您务必相信我，时间非常紧迫。",
+      "timestamp": 1740781919.4068484
+    },
+    {
+      "role": "right",
+      "content": "您是哪位？李明怎么会突然遇到麻烦了？我需要确认一下，能告诉我您是怎么认识李明的吗？",
+      "timestamp": 1740781920.959588
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了警惕性，要求诈骗者提供更多的信息以确认对方的身份和李明的情况。用户可能怀疑这是一起诈骗，因此在诈骗者未能提供足够的信息前选择了挂断电话，以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到我们的店铺，有什么商品您想了解的吗？",
+      "timestamp": 1740940680.5956004
+    },
+    {
+      "role": "right",
+      "content": "你好，我来看看你们的书籍。有什么推荐的吗？",
+      "timestamp": 1740940682.6465046
+    },
+    {
+      "role": "left",
+      "content": "我们这里有最新的畅销书和经典文学作品，您对哪个类别感兴趣？",
+      "timestamp": 1740940689.337191
+    },
+    {
+      "role": "right",
+      "content": "我对历史和传记类的书比较感兴趣。有什么新书推荐吗？",
+      "timestamp": 1740940691.3286912
+    },
+    {
+      "role": "left",
+      "content": "最近我们进了一批新书，其中《改变世界的历史瞬间》和《名人传记精选》非常受欢迎，您有兴趣看看吗？",
+      "timestamp": 1740940697.3927603
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，我可以看看《改变世界的历史瞬间》这本书吗？",
+      "timestamp": 1740940698.4680681
+    },
+    {
+      "role": "left",
+      "content": "当然可以，这本书就在这边的书架上，我带您过去。",
+      "timestamp": 1740940703.1584117
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740940704.8110125
+    },
+    {
+      "role": "left",
+      "content": "不客气，这是我们的服务。请跟我来。",
+      "timestamp": 1740940711.2489443
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在引导用户到达所需书籍位置后，认为已经完成了本次服务任务，用户也没有表现出进一步的需求或疑问。因此，服务方选择结束对话，意在礼貌地结束服务，给用户留下良好的印象，同时也为服务方节省时间，以便可以去帮助其他顾客。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

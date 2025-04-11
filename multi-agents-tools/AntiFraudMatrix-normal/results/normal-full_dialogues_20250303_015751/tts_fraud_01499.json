@@ -1,0 +1,61 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮助您的吗？",
+      "timestamp": 1740943092.4445674
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份午餐，有什么推荐吗？",
+      "timestamp": 1740943093.33688
+    },
+    {
+      "role": "left",
+      "content": "我们今天推荐的午餐有招牌牛肉饭和海鲜意大利面，都是非常受欢迎的选择。您感兴趣吗？",
+      "timestamp": 1740943096.5599568
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我想要试试海鲜意大利面。可以加点蒜蓉面包吗？",
+      "timestamp": 1740943098.5307677
+    },
+    {
+      "role": "left",
+      "content": "当然可以，海鲜意大利面搭配蒜蓉面包是个不错的选择。还需要其他什么吗？比如饮料或甜点？",
+      "timestamp": 1740943103.06568
+    },
+    {
+      "role": "right",
+      "content": "来一杯冰红茶吧，甜点的话，有什么推荐的吗？",
+      "timestamp": 1740943103.7883499
+    },
+    {
+      "role": "left",
+      "content": "我们的提拉米苏和巧克力慕斯都很好评，您看哪一个更对您的口味？",
+      "timestamp": 1740943110.67506
+    },
+    {
+      "role": "right",
+      "content": "提拉米苏听起来不错，就来一份提拉米苏吧。",
+      "timestamp": 1740943111.8745008
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单包括海鲜意大利面、蒜蓉面包、冰红茶和提拉米苏。请问需要备注什么特殊要求吗？比如少盐或无糖？",
+      "timestamp": 1740943120.6374242
+    },
+    {
+      "role": "right",
+      "content": "不需要特别备注，这样就可以了。谢谢。",
+      "timestamp": 1740943124.7188892
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认订单内容后，明确表示了感谢，并使用了结束对话的信号代码'##ENDCALL_SIGNAL##'。这表明用户对服务感到满意，订单需求已完全满足，没有进一步的交流需求。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

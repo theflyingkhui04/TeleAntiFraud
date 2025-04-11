@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您需要预订哪个餐厅的餐点呢？",
+      "timestamp": 1740958674.9611337
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预订一下老北京烤鸭店的餐点。",
+      "timestamp": 1740958677.0561032
+    },
+    {
+      "role": "left",
+      "content": "好的，老北京烤鸭店是我们合作的优质餐厅之一。请问您想预订哪些菜品呢？",
+      "timestamp": 1740958680.866073
+    },
+    {
+      "role": "right",
+      "content": "我想订一份烤鸭，还有一份炒时蔬。",
+      "timestamp": 1740958684.8675482
+    },
+    {
+      "role": "left",
+      "content": "好的，一份烤鸭和一份炒时蔬已经为您加入订单。请问还需要预订其他菜品吗？",
+      "timestamp": 1740958690.1377332
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这两样。对了，你们那里有甜点吗？",
+      "timestamp": 1740958692.2357237
+    },
+    {
+      "role": "left",
+      "content": "有的，老北京烤鸭店提供多种甜点，比如豆沙包、椰奶西米露等。您想预订哪一种呢？",
+      "timestamp": 1740958697.0577183
+    },
+    {
+      "role": "right",
+      "content": "那就来一份豆沙包吧。",
+      "timestamp": 1740958698.5721903
+    },
+    {
+      "role": "left",
+      "content": "好的，一份豆沙包已经为您加入订单。请问您的订单还需要其他调整吗？",
+      "timestamp": 1740958703.134059
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这些吧。谢谢。",
+      "timestamp": 1740958706.5001667
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包括一份烤鸭、一份炒时蔬和一份豆沙包。预计送达时间为三十分钟内。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740958714.4709363
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。祝我用餐愉快！",
+      "timestamp": 1740958715.4420915
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了菜品的选择，并明确表示不需要其他服务，同时表达了感谢。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包括一份烤鸭、一份炒时蔬和一份豆沙包。预计送达时间为三十分钟内。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。祝我用餐愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

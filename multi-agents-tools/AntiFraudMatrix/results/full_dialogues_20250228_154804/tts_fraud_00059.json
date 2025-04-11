@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李明吗？我是你的表哥张伟，现在情况非常紧急，你听我说。",
+      "timestamp": 1740741994.2596898
+    },
+    {
+      "role": "right",
+      "content": "喂，表哥，怎么了？出什么事了？你慢慢说，我听着呢。",
+      "timestamp": 1740741996.917135
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者突然挂断电话而感到困惑或警觉，导致用户也选择了挂断电话。用户的意图可能是出于自我保护，避免进一步的交流可能带来的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

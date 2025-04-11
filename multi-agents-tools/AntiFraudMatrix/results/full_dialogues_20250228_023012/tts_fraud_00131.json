@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您被选中为本期幸运抽奖的特别获奖者！您将获得一笔丰厚的奖金，但需要先提供一些个人信息以便我们核实身份。请告诉我您的全名和身份证号码，这样我们就可以为您办理领奖手续了。",
+      "timestamp": 1740685269.9930534
+    },
+    {
+      "role": "right",
+      "content": "哇，真的假的？我竟然中奖了！不过，我之前好像没有参加过这样的抽奖活动啊。你们能告诉我这是哪个活动吗？我需要确认一下。",
+      "timestamp": 1740685274.8441868
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的要求表示怀疑，并试图确认活动的真实性。用户可能意识到这是一个诈骗电话，因此选择主动挂断以避免提供个人信息。用户的意图是保护自己的隐私和安全，避免成为诈骗的受害者。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

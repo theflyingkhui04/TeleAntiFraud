@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您中得本期彩票特等奖，奖金高达一百万元！请问您现在方便接听电话吗？",
+      "timestamp": 1740743110.7849429
+    },
+    {
+      "role": "right",
+      "content": "不好意思，我从来不买彩票。你们这种骗局我见多了，我这就报警。",
+      "timestamp": 1740743126.4674225
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是明确识破了诈骗者的骗局，并表达了强烈的不满和拒绝继续交流的意图。用户提到自己从不购买彩票，并且表示见过类似的骗局，甚至威胁要报警，显示了其对诈骗行为的高度警觉和反感。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

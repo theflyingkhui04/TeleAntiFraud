@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！这里是国际快递服务中心。我们发现您有一个来自海外的重要包裹被海关扣留，需要您提供身份信息和支付五百元的清关费用。请问您方便现在处理吗？",
+      "timestamp": 1740750709.0398989
+    },
+    {
+      "role": "right",
+      "content": "您好，国际快递服务中心。请问你们能提供包裹的详细信息吗？比如寄件人和包裹内容？我需要确认一下这个包裹是不是真的。",
+      "timestamp": 1740750712.0013304
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在要求提供包裹的详细信息以确认包裹的真实性后，诈骗者未能继续提供具体信息，导致用户怀疑这是一起诈骗行为。用户挂断电话的意图可能是为了中断与诈骗者的联系，保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

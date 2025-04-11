@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国际快递服务公司，我们注意到您有一个包裹在运送过程中遇到了一些问题。请问您方便接听几分钟吗？",
+      "timestamp": 1740756407.8734581
+    },
+    {
+      "role": "right",
+      "content": "你好，我方便。你说我的包裹有问题？发生了什么事情？",
+      "timestamp": 1740756409.0336936
+    },
+    {
+      "role": "left",
+      "content": "是这样的，您的包裹在通过海关时被发现可能含有违禁品，现在需要您支付一笔罚款，否则包裹将被海关扣押。为了确保您的包裹能够顺利送达，我们需要您尽快处理。",
+      "timestamp": 1740756417.3078861
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊，那我该怎么办呢？罚款需要多少钱？",
+      "timestamp": 1740756418.5041032
+    },
+    {
+      "role": "left",
+      "content": "罚款金额是一百五十元。请您通过我们的安全支付链接进行支付，支付完成后我们会立即处理您的包裹，确保它能够尽快送到您手中。您可以现在就进行支付吗？",
+      "timestamp": 1740756425.41177
+    },
+    {
+      "role": "right",
+      "content": "好的，我明白了。那我这就去支付。你把支付链接发给我吧。",
+      "timestamp": 1740756426.6491733
+    },
+    {
+      "role": "left",
+      "content": "好的，我会将支付链接发给您。请您尽快完成支付，如果有任何问题，可以随时联系我们。感谢您的配合，祝您愉快。再见。",
+      "timestamp": 1740756435.591207
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我会尽快处理的。再见。",
+      "timestamp": 1740756436.7673974
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗明显成功 - 用户已同意支付罚款并请求支付链接，表明诈骗者已获取足够信息。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我会将支付链接发给您。请您尽快完成支付，如果有任何问题，可以随时联系我们。感谢您的配合，祝您愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我会尽快处理的。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

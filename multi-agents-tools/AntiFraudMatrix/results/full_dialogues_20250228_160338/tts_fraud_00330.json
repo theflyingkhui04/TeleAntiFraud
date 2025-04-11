@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰速运客服中心，我们发现您的包裹在运输过程中被海关扣留了，里面可能含有违禁品，需要您配合处理。",
+      "timestamp": 1740736858.8985636
+    },
+    {
+      "role": "right",
+      "content": "您好，我的包裹怎么会被扣留呢？我最近确实有网购了一些东西，但都是日常生活用品，应该不会有违禁品吧。能告诉我具体是哪个包裹吗？",
+      "timestamp": 1740736862.1863494
+    },
+    {
+      "role": "left",
+      "content": "根据系统记录，您最近购买了一部手机，海关怀疑里面可能安装了非法软件。您需要立即支付二百元的检查费用，否则您的包裹可能会被销毁。",
+      "timestamp": 1740736898.7888484
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者可能因为用户对包裹内容的详细询问感到警惕，担心进一步的对话会暴露其诈骗行为，因此选择主动挂断电话以避免风险。诈骗者的意图是防止用户进一步质疑，从而降低诈骗成功的可能性。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

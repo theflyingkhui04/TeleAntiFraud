@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，这里是某某警察局，非常抱歉打扰您，但我们遇到了一个非常紧急的情况，您的儿子目前处于危险之中。我需要您立刻配合我们，否则可能会有不可预料的后果。您听到了吗？",
+      "timestamp": 1740744805.670293
+    },
+    {
+      "role": "right",
+      "content": "什么？我的儿子怎么了？你们是警察？我需要知道他现在在哪里，他安全吗？",
+      "timestamp": 1740744807.717649
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者的紧急语气和对儿子安全的担忧而感到恐慌，导致其在未获得足够信息的情况下选择挂断电话。用户的意图可能是为了立即寻找其他方式确认儿子的安全，而不是继续与诈骗者对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

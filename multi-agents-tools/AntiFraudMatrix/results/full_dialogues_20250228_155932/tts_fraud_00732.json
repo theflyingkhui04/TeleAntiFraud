@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您银行的客服代表，最近我们发现您的账户有些异常活动，需要您配合我们进行核实，以确保您的账户安全。",
+      "timestamp": 1740744925.8918607
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我的账户有问题？那我该怎么办呢？",
+      "timestamp": 1740744927.2739315
+    },
+    {
+      "role": "left",
+      "content": "首先，请您不要担心。为了您的安全，我们需要确认一些个人信息。请您提供一下您的全名和出生日期，好吗？这将帮助我们快速核实您的身份。",
+      "timestamp": 1740744934.671014
+    },
+    {
+      "role": "right",
+      "content": "好的，我的全名是张晓晓，出生日期是一九九四年十月十日。接下来需要我做什么？",
+      "timestamp": 1740744936.5564022
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，张晓晓女士。我们已经记录了您的信息，会尽快处理这个问题。如果需要进一步的行动，我们会及时联系您。祝您一切顺利。再见。",
+      "timestamp": 1740744944.6806164
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。希望我的账户没有问题。再见。",
+      "timestamp": 1740744947.506981
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（全名和出生日期），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，张晓晓女士。我们已经记录了您的信息，会尽快处理这个问题。如果需要进一步的行动，我们会及时联系您。祝您一切顺利。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。希望我的账户没有问题。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的投资者，您好！我是XX投资公司的理财顾问，我们公司最近推出了一款高回报的理财产品，年化收益率可达20%，您有兴趣了解一下吗？",
+      "timestamp": 1740689937.6104965
+    },
+    {
+      "role": "right",
+      "content": "您好，谢谢您的来电。我目前没有工作，手头的资金也不多，不太适合进行大额投资。再说，这么高的收益率，听起来有点不靠谱。你们公司是正规的吗？能提供一些证明文件吗？",
+      "timestamp": 1740689975.5879135
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对高收益率的怀疑，并质疑了公司的正规性，要求提供证明文件。这表明用户对诈骗者提供的信息持怀疑态度，且不愿意进行进一步的交流。用户挂断电话的原因可能是为了避免进一步的骚扰或诈骗，表明其已经识破了诈骗者的意图。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

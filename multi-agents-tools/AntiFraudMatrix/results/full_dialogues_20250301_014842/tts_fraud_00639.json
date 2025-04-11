@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我们检测到您的银行卡可能发生了可疑交易，为了保障您的资金安全，我们需要对您的账户进行核实。请问您现在方便接听电话吗？",
+      "timestamp": 1740766197.9915977
+    },
+    {
+      "role": "right",
+      "content": "您好，我现在挺方便的，可以接听电话。请问有什么问题吗？",
+      "timestamp": 1740766199.1637144
+    },
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快处理。感谢您的配合，再见。",
+      "timestamp": 1740766203.9242926
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，再见。",
+      "timestamp": 1740766204.5423465
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明对话已经结束。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快处理。感谢您的配合，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

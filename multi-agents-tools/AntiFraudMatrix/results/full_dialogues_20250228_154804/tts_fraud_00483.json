@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是华夏银行客服中心，我是客服代表小李。我们发现您的银行账户有一笔可疑交易，需要您立即确认。请问您现在方便接听电话吗？",
+      "timestamp": 1740739505.3310306
+    },
+    {
+      "role": "right",
+      "content": "您好，小李，我是医生，平时工作比较忙，但既然您说有可疑交易，我还是想了解一下。请问具体是什么情况？",
+      "timestamp": 1740739508.2589715
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到这是一起诈骗电话而选择立即挂断。用户在对话中表达了对电话内容的关注，但诈骗者在用户询问具体情况前就挂断了电话，这可能让用户感到不寻常，从而怀疑对方的真实身份。然而，根据提供的对话历史，实际上是用户先挂断了电话，这表明用户可能在意识到这是诈骗后，选择了立即终止对话，以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

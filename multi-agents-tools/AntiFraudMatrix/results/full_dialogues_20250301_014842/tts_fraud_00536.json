@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是工商银行客服中心，我们发现您的账户有异常交易，请问您最近是否有进行过大额转账或购物？",
+      "timestamp": 1740789981.8635094
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我最近确实用银行卡买了一些东西，但都是平时的开销，没有什么大额的。你们能帮我查一下具体是什么异常吗？",
+      "timestamp": 1740789986.3714817
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其账户有异常交易后，可能出于警惕性或怀疑对方身份的真实性，选择了立即挂断电话，以避免进一步的交流和潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

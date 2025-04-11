@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服代表小张为您服务，有什么问题我可以帮您解决？",
+      "timestamp": 1740953006.4194968
+    },
+    {
+      "role": "right",
+      "content": "你好，小张，我是李医生，想咨询一下最近的健康保险理赔流程。",
+      "timestamp": 1740953007.5451086
+    },
+    {
+      "role": "left",
+      "content": "李医生，您好！关于健康保险理赔流程，您可以先准备好相关的医疗证明、费用清单和保险单，然后提交给保险公司。您可以通过线上平台或直接到保险公司柜台办理。具体步骤和所需材料，不同保险公司可能有所差异，您是否需要我提供某家保险公司的详细流程？",
+      "timestamp": 1740953012.8008406
+    },
+    {
+      "role": "right",
+      "content": "好的，我明白了。如果需要更详细的流程，我会再联系你。谢谢。",
+      "timestamp": 1740953014.299287
+    },
+    {
+      "role": "left",
+      "content": "李医生，如果您还有其他问题或需要进一步的帮助，随时可以联系我。希望这些信息对您有所帮助，祝您一切顺利。",
+      "timestamp": 1740953019.3843381
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。再见。",
+      "timestamp": 1740953023.335063
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示已获得所需信息，并明确表示感谢，没有进一步的问题。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "李医生，如果您还有其他问题或需要进一步的帮助，随时可以联系我。希望这些信息对您有所帮助，祝您一切顺利。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

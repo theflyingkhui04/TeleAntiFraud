@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740958820.030869
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我想订一份晚餐。有什么推荐的吗？",
+      "timestamp": 1740958821.9563487
+    },
+    {
+      "role": "left",
+      "content": "我们今天的特色菜有宫保鸡丁和清蒸鲈鱼，都非常受欢迎。您感兴趣的话，我可以为您下单。",
+      "timestamp": 1740958828.2208872
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来一份宫保鸡丁吧。还有什么配菜推荐吗？",
+      "timestamp": 1740958829.674092
+    },
+    {
+      "role": "left",
+      "content": "搭配宫保鸡丁，您可以试试我们的酸辣土豆丝和蒜蓉西兰花，都是不错的配菜。您需要加一份吗？",
+      "timestamp": 1740958834.7479885
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来一份酸辣土豆丝吧。还有一份米饭。",
+      "timestamp": 1740958836.9019961
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁、一份酸辣土豆丝和一份米饭，还需要其他什么吗？",
+      "timestamp": 1740958843.1892357
+    },
+    {
+      "role": "right",
+      "content": "暂时就这样，谢谢。对了，大概多久能送到？",
+      "timestamp": 1740958844.2465453
+    },
+    {
+      "role": "left",
+      "content": "您的订单预计在30到40分钟内送达。如果您有特殊的时间要求，请告诉我。",
+      "timestamp": 1740958850.0409448
+    },
+    {
+      "role": "right",
+      "content": "好的，30到40分钟没问题。谢谢。",
+      "timestamp": 1740958851.0350087
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计30到40分钟内送达。感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740958856.2756882
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740958860.13997
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容，并对送达时间表示满意，没有进一步的需求或问题。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计30到40分钟内送达。感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

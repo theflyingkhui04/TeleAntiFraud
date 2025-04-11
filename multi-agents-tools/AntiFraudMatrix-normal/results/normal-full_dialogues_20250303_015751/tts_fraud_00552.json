@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品您感兴趣的吗？",
+      "timestamp": 1740980697.9379952
+    },
+    {
+      "role": "right",
+      "content": "嗯，我对你们的智能手表挺感兴趣的。能给我介绍一下吗？",
+      "timestamp": 1740980699.7659914
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "在这个对话片段中，用户表达了对智能手表的兴趣，并请求了更多信息。然而，对话突然结束，可能是由于外部因素（如用户突然有急事）或技术问题（如网络中断）。用户的意图似乎是希望继续对话以获取更多关于智能手表的信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

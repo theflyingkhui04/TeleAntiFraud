@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是您的购物顾问，有什么可以帮您的吗？",
+      "timestamp": 1740973080.592447
+    },
+    {
+      "role": "right",
+      "content": "你好，我就是随便看看，有什么推荐的吗？",
+      "timestamp": 1740973081.9958017
+    },
+    {
+      "role": "left",
+      "content": "当然，最近我们店里的热销商品有春季新款的轻薄风衣和复古牛仔裤，很多顾客都反馈不错，您可以看看。",
+      "timestamp": 1740973089.4933589
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，那轻薄风衣有哪些颜色和款式呢？",
+      "timestamp": 1740973090.8196115
+    },
+    {
+      "role": "left",
+      "content": "这款轻薄风衣有经典的黑色、米白色和淡蓝色三种颜色，款式方面有简约的单排扣设计和时尚的双排扣设计，您可以根据自己的喜好选择。",
+      "timestamp": 1740973096.3737214
+    },
+    {
+      "role": "right",
+      "content": "好的，我看看淡蓝色的双排扣风衣。",
+      "timestamp": 1740973097.8471239
+    },
+    {
+      "role": "left",
+      "content": "好的，淡蓝色的双排扣风衣非常适合春天穿着，清新又不失优雅。您可以在商品页面上找到这款风衣的详细信息和图片。需要我为您提供链接吗？",
+      "timestamp": 1740973104.161354
+    },
+    {
+      "role": "right",
+      "content": "不用了，我自己看看就行。谢谢你的推荐。",
+      "timestamp": 1740973105.4299092
+    },
+    {
+      "role": "left",
+      "content": "如果您有任何疑问或需要进一步的帮助，随时欢迎咨询。祝您购物愉快，感谢您的光临！",
+      "timestamp": 1740973114.2265065
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会慢慢看的。",
+      "timestamp": 1740973115.3481252
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢并表示不需要进一步的帮助，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您有任何疑问或需要进一步的帮助，随时欢迎咨询。祝您购物愉快，感谢您的光临！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会慢慢看的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

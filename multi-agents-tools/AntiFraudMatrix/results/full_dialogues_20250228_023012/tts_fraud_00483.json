@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行，我们检测到您的账户存在异常交易，需要立即核实您的身份信息以保障您的资金安全。请问您方便提供一下您的全名和身份证号码吗？",
+      "timestamp": 1740691027.331742
+    },
+    {
+      "role": "right",
+      "content": "您好，我理解你们需要确认我的身份，但在此之前，我需要确认一下你们的身份。能告诉我您的姓名和工号吗？另外，能否提供一下我账户的具体异常情况？这样我可以更好地配合你们的工作。",
+      "timestamp": 1740691033.2704887
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

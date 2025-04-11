@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自**财富投资咨询**的张经理，最近我们的投资组合表现非常出色，尤其是新能源和高科技领域，收益远超市场平均水平。您是否有兴趣了解一下？",
+      "timestamp": 1740812562.793305
+    },
+    {
+      "role": "right",
+      "content": "您好，张经理。感谢您的推荐，但我对这类投资一向比较谨慎。能否请您先提供一些详细的信息，比如具体的项目和预期收益，以及你们公司的资质和历史业绩？这样我才能更好地评估。",
+      "timestamp": 1740812565.1523793
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出谨慎的态度，并要求提供更详细的信息以进行评估。用户可能认为在没有获得足够信息的情况下，不宜继续深入讨论或做出投资决定，因此选择挂断电话，以避免进一步的交流。这表明用户可能识破了诈骗企图或至少对诈骗者的身份和意图持怀疑态度。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

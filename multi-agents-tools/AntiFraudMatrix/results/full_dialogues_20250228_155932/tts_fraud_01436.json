@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是xx银行的客服中心，我是小李。我们检测到您的银行卡可能涉及一笔异常交易，为了您的资金安全，请问您现在方便接听电话吗？",
+      "timestamp": 1740753854.4569945
+    },
+    {
+      "role": "right",
+      "content": "您好，小李。我这边确实方便接听电话。不过，我需要确认一下，你们银行的电话号码是多少？我这边记录的是一个固定的客服热线，我先核实一下。",
+      "timestamp": 1740753856.5437663
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在接听电话后，立即要求确认诈骗者提供的电话号码，显示出对诈骗行为的警觉性。用户可能怀疑诈骗者的身份，并希望通过核实电话号码来确认对方是否为真正的银行客服。用户的行为表明其意图是验证对方的真实性，以避免成为诈骗的受害者。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，可以帮助您叫车、查询路况等，请问您现在需要什么帮助？",
+      "timestamp": 1740983816.3882306
+    },
+    {
+      "role": "right",
+      "content": "哦，你好。我今天打算去市中心转转，你能帮我叫一辆车吗？",
+      "timestamp": 1740983817.5946975
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我已经为您叫了一辆车。大约需要十分钟左右到达您的位置。请问您的具体地址是哪里，方便我告知司机？",
+      "timestamp": 1740983824.9468665
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我住在阳光花园小区，门口接我就行。",
+      "timestamp": 1740983831.1954446
+    },
+    {
+      "role": "left",
+      "content": "好的，我已将您的地址告知司机，车辆将在大约十分钟内到达阳光花园小区门口。请问您还有其他需求或注意事项吗？",
+      "timestamp": 1740983839.532134
+    },
+    {
+      "role": "right",
+      "content": "没有了，谢谢你的帮助。到时候见。",
+      "timestamp": 1740983841.2686877
+    },
+    {
+      "role": "left",
+      "content": "一切安排妥当了，车辆大约十分钟内到达阳光花园小区门口。祝您旅途愉快，感谢使用我们的打车服务。",
+      "timestamp": 1740983850.067935
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。旅途愉快。",
+      "timestamp": 1740983852.4607255
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢并确认没有其他需求，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "一切安排妥当了，车辆大约十分钟内到达阳光花园小区门口。祝您旅途愉快，感谢使用我们的打车服务。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。旅途愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

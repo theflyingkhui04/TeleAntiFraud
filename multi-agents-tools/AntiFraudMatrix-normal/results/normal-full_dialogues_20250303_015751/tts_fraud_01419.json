@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的打车服务助手，有什么可以帮助您的吗？",
+      "timestamp": 1740938847.8756878
+    },
+    {
+      "role": "right",
+      "content": "您好，我想了解一下明天早上七点从家到公司打车大概需要多少时间。",
+      "timestamp": 1740938849.0996947
+    },
+    {
+      "role": "left",
+      "content": "好的，能告诉我您家和公司的具体地址吗？这样我可以为您提供更准确的预估时间。",
+      "timestamp": 1740938852.63701
+    },
+    {
+      "role": "right",
+      "content": "家在人民路123号，公司在中山路456号。谢谢。",
+      "timestamp": 1740938854.6024108
+    },
+    {
+      "role": "left",
+      "content": "谢谢您的信息。根据目前的路况，明天早上七点从人民路123号到中山路456号预计需要大约30分钟的车程。如果路况较好，时间可能会更短一些。您需要我为您叫车吗？",
+      "timestamp": 1740938862.0961597
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。那我明天早上六点四十五分再联系您叫车吧。",
+      "timestamp": 1740938868.203418
+    },
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，我这边就先帮您确认这些信息了。如果有需要，您可以随时联系我。祝您明天出行顺利，旅途愉快。",
+      "timestamp": 1740938874.920604
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。明天见。",
+      "timestamp": 1740938876.0794065
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并且明确表示了下一步的计划，即在需要时再次联系服务方。这表明当前对话目标已达成，用户对服务表示满意。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，我这边就先帮您确认这些信息了。如果有需要，您可以随时联系我。祝您明天出行顺利，旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。明天见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

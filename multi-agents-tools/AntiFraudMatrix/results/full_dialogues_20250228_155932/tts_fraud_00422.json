@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您开户行客服中心的工作人员张伟，我们刚刚监测到您的账户有异常交易，为了避免资金损失，请您配合我们进行安全验证。",
+      "timestamp": 1740751847.7653291
+    },
+    {
+      "role": "right",
+      "content": "您好，张伟先生，我确实有一段时间没有工作了，所以账户里的钱对我来说很重要。不过，我之前在新闻上看到过类似的诈骗手法，所以想确认一下，您能告诉我具体的异常交易是什么吗？另外，我应该怎么办？",
+      "timestamp": 1740751853.6012597
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对诈骗手法的警觉，并要求诈骗者提供具体的异常交易信息。诈骗者没有提供具体的异常交易信息，而是直接挂断了电话，这表明诈骗者可能意识到用户已经识破了诈骗手法，因此选择终止对话。用户的意图是通过提问来验证对方的身份，确保自己的资金安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

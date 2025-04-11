@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，您想订购哪家餐厅的美食呢？",
+      "timestamp": 1740977251.5694284
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一家附近的中餐馆，有什么推荐吗？",
+      "timestamp": 1740977253.0744815
+    },
+    {
+      "role": "left",
+      "content": "当然，附近有一家口碑很好的“老北京家常菜”，他们的招牌菜有宫保鸡丁和鱼香肉丝，您感兴趣吗？",
+      "timestamp": 1740977261.1556997
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，就订这家吧。宫保鸡丁和鱼香肉丝各来一份。",
+      "timestamp": 1740977264.0695236
+    },
+    {
+      "role": "left",
+      "content": "好的，为您记录下来了。还需要加点什么小菜或饮料吗？",
+      "timestamp": 1740977271.722326
+    },
+    {
+      "role": "right",
+      "content": "再来一份酸辣土豆丝，一瓶冰红茶吧。",
+      "timestamp": 1740977272.940465
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已包括宫保鸡丁、鱼香肉丝、酸辣土豆丝和一瓶冰红茶。请问还有其他需要加的吗？",
+      "timestamp": 1740977279.1801772
+    },
+    {
+      "role": "right",
+      "content": "没有了，就这些吧。谢谢。",
+      "timestamp": 1740977280.6174884
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计30分钟后送达。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740977287.8756945
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740977289.266903
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容，并表达了感谢，表明用户对当前服务满意且没有进一步的需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计30分钟后送达。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，我是客服代表小张。我们发现您的账户可能涉及一桩诈骗案，为了避免您的资金受到损失，需要您配合我们进行身份验证。您能提供一下您的身份证号码吗？",
+      "timestamp": 1740796706.9855072
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。这种情况听起来有点严重，我能问一下具体的诈骗案是什么情况吗？我最近没有接到任何可疑的电话或邮件。",
+      "timestamp": 1740796708.6577194
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提到账户涉及诈骗案后，表现出谨慎的态度，并要求了解更多具体信息。然而，在诈骗者未能提供进一步的详细信息之前，用户选择了挂断电话。这表明用户可能怀疑对方的真实身份，不愿意在没有更多信息的情况下提供个人敏感信息，从而选择终止对话以保护自己的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

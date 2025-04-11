@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友李华的同事，李华现在遇到了一些麻烦，需要您的帮助。您可以先提供一个转账账号，我们好立刻把赎金转过去，这样李华就能安全回来了。时间很紧迫，您能配合一下吗？",
+      "timestamp": 1740745766.560102
+    },
+    {
+      "role": "right",
+      "content": "李华的同事？李华怎么了？你说的赎金是怎么回事？这听起来有点不对劲，我得先确认一下。你能不能告诉我你在哪个单位工作，我好联系李华的其他同事确认一下？",
+      "timestamp": 1740745771.3240964
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者要求提供转账账号并提到赎金时，产生了怀疑。用户要求提供更多关于诈骗者身份的信息以验证其真实性，但诈骗者并未提供足够的信息让用户信服。用户挂断电话的意图是避免进一步的风险，并可能自行联系李华或其他同事确认情况。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

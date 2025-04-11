@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国通快递客服中心，您的包裹在运输过程中出现了问题，需要您配合处理一下。您现在方便吗？",
+      "timestamp": 1740729960.1491745
+    },
+    {
+      "role": "right",
+      "content": "啊，我的包裹出问题了吗？我最近确实有个包裹在路上。请问是什么问题呢？",
+      "timestamp": 1740729966.8470738
+    },
+    {
+      "role": "left",
+      "content": "很抱歉通知您，我们发现您的包裹中被误装了一个价值五千元的贵重物品。为了确保物品安全，需要您提供一些个人信息进行核实。您能把姓名和身份证号告诉我们吗？",
+      "timestamp": 1740729986.965909
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者挂断电话的原因可能是用户没有立即提供个人信息，或者诈骗者意识到用户可能开始怀疑。诈骗者的意图是通过制造紧急情况来获取用户的敏感信息，如姓名和身份证号。当用户没有立即配合时，诈骗者可能选择挂断电话以避免进一步的怀疑或暴露。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

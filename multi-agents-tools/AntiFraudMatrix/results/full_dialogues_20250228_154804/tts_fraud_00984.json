@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，我是客服代表小李。我们检测到您的账户有异常活动，为了您的资金安全，请您提供一下身份证号码，我们将为您进行核实。",
+      "timestamp": 1740747550.9918418
+    },
+    {
+      "role": "right",
+      "content": "您好，小李。谢谢您的提醒，但我最近没有进行过任何异常的交易。为了安全起见，我需要先确认一下您的身份。您可以告诉我您的工号和我账户的后四位数字吗？这样我就能确定是你们银行的客服了。",
+      "timestamp": 1740747557.3004913
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出高度的安全意识，要求诈骗者提供工号和账户后四位数字以确认身份。由于诈骗者可能无法提供这些信息，用户可能意识到这是一起诈骗行为，因此选择主动挂断电话以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

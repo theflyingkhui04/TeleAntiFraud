@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，这里是XX银行客服中心。我们检测到您的账户存在异常交易，需要立即核实您的身份信息以确保账户安全。请问您的姓名和身份证号码是？",
+      "timestamp": 1740687057.8022048
+    },
+    {
+      "role": "right",
+      "content": "啊，这个...我叫李建国，身份证号码是340211197512250012。不过我记得前几天才查过账户，没什么问题啊。",
+      "timestamp": 1740687062.1711483
+    },
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。",
+      "timestamp": 1740687072.779895
+    },
+    {
+      "role": "right",
+      "content": "您能告诉我具体是什么异常吗？我这边没看到任何通知。",
+      "timestamp": 1740687076.5559018
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在获取了用户的姓名和身份证号码后明确表示结束通话，用户已经提供了敏感信息，存在明显的诈骗风险。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。"
+    },
+    {
+      "role": "right",
+      "content": "您能告诉我具体是什么异常吗？我这边没看到任何通知。"
+    }
+  ],
+  "reached_max_turns": false
+}

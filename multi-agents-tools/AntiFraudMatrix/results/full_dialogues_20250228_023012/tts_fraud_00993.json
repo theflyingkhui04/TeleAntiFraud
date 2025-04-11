@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是速递物流客服中心，我们发现您的包裹中可能含有违禁品，需要您配合处理，否则包裹可能会被扣押。麻烦您提供一下姓名和联系方式，我们好为您记录处理。",
+      "timestamp": 1740690097.0936277
+    },
+    {
+      "role": "right",
+      "content": "您好，我叫张老三。你们说我的包裹有问题，这到底是怎么回事？我最近确实寄了一些土特产给亲戚，会不会是这个原因？你们能不能具体说说，我好配合处理。不过，你们得先告诉我，你们是怎么知道我的信息的？",
+      "timestamp": 1740690099.5604098
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供了姓名后，对诈骗者如何获取其个人信息表示怀疑，这表明用户可能意识到了潜在的诈骗风险，因此选择挂断电话以避免进一步的信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

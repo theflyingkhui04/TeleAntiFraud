@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，有什么可以帮助您的？",
+      "timestamp": 1740939075.7787588
+    },
+    {
+      "role": "right",
+      "content": "我不太需要，谢谢。我平时都是自己做饭。",
+      "timestamp": 1740939077.212164
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户明确表示了自己不需要外卖服务，因为平时习惯自己做饭。用户的意图是礼貌地拒绝服务，并结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您被选中为本期幸运抽奖的中奖者，您中了二等奖，奖金高达50万元！请提供您的姓名和身份证号码，以便我们核实身份并安排奖金发放。",
+      "timestamp": 1740688977.8631442
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太惊喜了！我最近工作压力很大，这个奖金真是雪中送炭啊。不过，我需要提供身份证号码吗？这会不会有什么风险？",
+      "timestamp": 1740688982.577658
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到需要提供身份证号码时产生了警惕，担心个人信息安全，因此选择挂断电话以避免潜在的风险。这表明用户对个人信息保护有一定的意识，意识到直接提供敏感信息可能会导致诈骗或其他安全问题。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

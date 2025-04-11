@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是快递公司的客服，我们发现您的包裹被海关扣留了，需要您提供身份信息以便核实并支付相关费用。请问您方便现在处理吗？",
+      "timestamp": 1740681167.5639026
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？那怎么办啊，我最近确实有个包裹一直在路上。你们能帮我解决这个问题吗？",
+      "timestamp": 1740681171.9066062
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出需要提供身份信息以便核实并支付相关费用后，可能意识到这是一个诈骗电话，因此选择主动挂断电话以避免进一步的诈骗行为。用户的意图是保护自己的个人信息和财产安全，避免受到诈骗的侵害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

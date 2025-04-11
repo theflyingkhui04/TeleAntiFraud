@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，您可以告诉我想要订购的餐厅和菜品吗？",
+      "timestamp": 1740944643.1462781
+    },
+    {
+      "role": "right",
+      "content": "好的，我想订一家叫“老北京炸酱面”的餐厅，来一份炸酱面和一份凉拌黄瓜。",
+      "timestamp": 1740944644.641323
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录。请问需要什么时间送达呢？",
+      "timestamp": 1740944648.018454
+    },
+    {
+      "role": "right",
+      "content": "下午两点左右送到，谢谢。",
+      "timestamp": 1740944648.7627883
+    },
+    {
+      "role": "left",
+      "content": "好的，下午两点左右送达。请问您的送餐地址是哪里？",
+      "timestamp": 1740944651.7350585
+    },
+    {
+      "role": "right",
+      "content": "送到这个地址：北京市朝阳区建国路88号。",
+      "timestamp": 1740944655.5762286
+    },
+    {
+      "role": "left",
+      "content": "好的，送餐地址已记录。您的订单详情：老北京炸酱面餐厅，炸酱面一份，凉拌黄瓜一份，预计下午两点左右送达北京市朝阳区建国路88号。请问还有其他需要补充的吗？",
+      "timestamp": 1740944659.9181292
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情，包括餐厅名称、菜品、送餐时间和地址后，再次向用户确认了订单信息，并询问是否有其他需要补充的。用户没有提出其他需求，服务方通过提供结束信号代码##ENDCALL_SIGNAL##表明订单处理已完成，服务目标已达成，因此选择结束对话。服务方的意图是确保用户对订单信息满意，并在确认无误后礼貌地结束对话，以避免不必要的等待或重复确认。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

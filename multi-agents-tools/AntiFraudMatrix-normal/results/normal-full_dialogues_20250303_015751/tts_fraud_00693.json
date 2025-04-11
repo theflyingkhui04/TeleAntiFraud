@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪一项服务，以及预约的具体时间？",
+      "timestamp": 1740976653.5842605
+    },
+    {
+      "role": "right",
+      "content": "我需要预约心理咨询服务，时间最好是下周三下午三点。",
+      "timestamp": 1740976655.51922
+    },
+    {
+      "role": "left",
+      "content": "好的，下周三下午三点的心理咨询服务已经为您预约成功。请问您需要提供姓名和联系方式以便我们确认预约吗？",
+      "timestamp": 1740976661.794294
+    },
+    {
+      "role": "right",
+      "content": "需要，我的姓名是李明，手机号码是13812345678。",
+      "timestamp": 1740976665.0730617
+    },
+    {
+      "role": "left",
+      "content": "李明先生，您的预约信息已记录，预约时间为下周三下午三点。我们会通过您提供的手机号码发送确认短信。还有其他事项需要帮助吗？",
+      "timestamp": 1740976675.3708255
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息并告知会通过短信发送确认后，询问用户是否有其他需要帮助的事项。用户没有回应其他需求，服务方通过提供'##ENDCALL_SIGNAL##'明确表示对话可以结束。服务方的意图是确保用户的所有需求都已得到满足，并礼貌地结束对话，以保持良好的服务体验。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

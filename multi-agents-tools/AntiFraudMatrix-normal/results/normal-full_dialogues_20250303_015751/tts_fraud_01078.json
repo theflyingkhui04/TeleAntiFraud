@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "请问您今天想点些什么呢？我们这里有多种菜品可供选择。",
+      "timestamp": 1740957052.2497382
+    },
+    {
+      "role": "right",
+      "content": "好的，给我来一份牛肉炒饭和一份清蒸鱼吧。有什么推荐的汤吗？",
+      "timestamp": 1740957053.8889823
+    },
+    {
+      "role": "left",
+      "content": "好的，牛肉炒饭和清蒸鱼都已添加到您的订单中。我们推荐的汤品有西红柿蛋汤和玉米排骨汤，您看需要来一份吗？",
+      "timestamp": 1740957057.8589542
+    },
+    {
+      "role": "right",
+      "content": "来一份玉米排骨汤吧。谢谢。",
+      "timestamp": 1740957059.6752994
+    },
+    {
+      "role": "left",
+      "content": "好的，一份玉米排骨汤也已加入您的订单。请问还需要其他什么吗？或者您是否需要饮料？",
+      "timestamp": 1740957067.2516978
+    },
+    {
+      "role": "right",
+      "content": "不用了，这些就够了。谢谢。",
+      "timestamp": 1740957067.996027
+    },
+    {
+      "role": "left",
+      "content": "感谢您的订单，预计30分钟内送达，祝您用餐愉快！",
+      "timestamp": 1740957074.158407
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待享用美食。",
+      "timestamp": 1740957075.1763492
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并明确表示不再需要其他服务，同时表达了感谢。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的订单，预计30分钟内送达，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待享用美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

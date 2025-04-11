@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您是张先生吗？我是您的邻居小李，不知道您现在方便说话吗？",
+      "timestamp": 1740746570.8119798
+    },
+    {
+      "role": "right",
+      "content": "小李啊，你好。我这边正准备上课，有什么急事吗？",
+      "timestamp": 1740746572.6443944
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在得知对方是自称邻居的小李后，可能认为这不是一个紧急或重要的事项，尤其是在自己正准备上课的情况下。用户挂断电话的意图可能是为了尽快结束对话，以便按时开始课程。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

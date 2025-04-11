@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮您的？",
+      "timestamp": 1740941165.415964
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我想订个外卖。你们有什么推荐的吗？",
+      "timestamp": 1740941166.5548112
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话开始后立即使用了结束信号代码 '##ENDCALL_SIGNAL##'，这可能是用户误操作或测试系统反应。尽管用户随后提出了订餐请求，但紧接着又使用了结束信号代码，表明用户可能意识到自己的操作错误或决定不再继续对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

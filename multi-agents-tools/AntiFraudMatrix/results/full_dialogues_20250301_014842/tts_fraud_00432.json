@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是华夏银行客服中心，我是客服代表小李。我们发现您的银行账户存在异常交易，为了确保您的资金安全，需要您配合我们进行身份验证。请问您现在方便吗？",
+      "timestamp": 1740780117.5447736
+    },
+    {
+      "role": "right",
+      "content": "您好，小李。我刚刚确实收到一条短信，说我的账户有异常，但我不确定是不是真的。你们能告诉我具体是什么问题吗？我需要验证一下。",
+      "timestamp": 1740780120.593383
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对电话真实性的怀疑，并要求了解更多具体信息以验证电话的真实性。然而，诈骗者在用户提出疑问之前就已经挂断了电话，这可能是因为诈骗者意识到用户已经产生了怀疑，继续对话可能无法成功实施诈骗。用户的意图是希望了解更多详细信息以确认电话的真实性，但诈骗者提前挂断了电话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，我是小张。我们检测到您的银行账户有异常交易，需要您配合我们进行安全核实，以防止您的财产遭受损失。您现在方便吗？",
+      "timestamp": 1740816819.5484428
+    },
+    {
+      "role": "right",
+      "content": "你好小张，我这边确实有时间。不过，我之前没接到过银行的这种电话，你能不能告诉我具体是怎么回事？",
+      "timestamp": 1740816822.173
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为对诈骗者身份存疑，担心是诈骗电话，因此选择挂断以保护自己的信息安全。用户的意图是避免潜在的风险，不继续与对方交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

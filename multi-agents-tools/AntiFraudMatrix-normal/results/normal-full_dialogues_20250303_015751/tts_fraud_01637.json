@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是打车服务平台的客服，很高兴为您服务。请告诉我您的出发地和目的地。",
+      "timestamp": 1740940148.301989
+    },
+    {
+      "role": "right",
+      "content": "您好，我从家出发，地址是上海市浦东新区张江高科路1688号，目的地是上海虹桥火车站。麻烦帮我安排一辆车。",
+      "timestamp": 1740940150.306657
+    },
+    {
+      "role": "left",
+      "content": "好的，我已收到您的信息。正在为您安排车辆，大约需要十分钟左右到达您的出发地。请保持手机畅通，司机将会联系您确认具体位置。",
+      "timestamp": 1740940154.581209
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的出发地和目的地后，迅速为用户安排了车辆，并告知了预计到达时间。服务方提供的信息已经满足了用户的需求，且明确告知用户保持手机畅通以便司机联系。因此，服务方认为对话目标已达成，选择主动结束对话，以避免不必要的等待和资源占用。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

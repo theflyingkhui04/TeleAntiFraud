@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服代表，我们发现您的账户可能遭受了非法活动，需要立即采取行动。为了您的安全，请提供您的完整姓名和出生日期，以便我们核实您的身份。",
+      "timestamp": 1740684974.9510145
+    },
+    {
+      "role": "right",
+      "content": "您好，我的名字是李明，出生日期是1997年3月15日。不过，我有点担心这是诈骗，您能告诉我更多关于这个非法活动的信息吗？",
+      "timestamp": 1740684976.9319463
+    },
+    {
+      "role": "left",
+      "content": "很抱歉打扰您，我们会尽快处理这个问题。如果您有任何疑问，随时可以联系我们的客服热线。祝您生活愉快！",
+      "timestamp": 1740684984.743474
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。我会留意的。如果有什么情况，我会联系你们的客服。",
+      "timestamp": 1740684988.9621835
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息，且表达了对诈骗的担忧。为了防止进一步的敏感信息泄露，应由用户结束对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "很抱歉打扰您，我们会尽快处理这个问题。如果您有任何疑问，随时可以联系我们的客服热线。祝您生活愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。我会留意的。如果有什么情况，我会联系你们的客服。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

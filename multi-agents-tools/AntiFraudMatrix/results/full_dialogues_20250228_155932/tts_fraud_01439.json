@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行客户服务中心，我们检测到您的账户存在异常交易，需要立即核实您的身份信息以确保账户安全。请问您现在方便通话吗？",
+      "timestamp": 1740759145.257177
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近确实没有进行过什么大额交易。不过，为了安全起见，我需要先确认一下您的身份，可以告诉我您的工号和姓名吗？另外，我也会直接拨打银行的客服电话来核实情况。",
+      "timestamp": 1740759147.6075103
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了高度的警惕性和安全意识，要求诈骗者提供工号和姓名，并表示会直接拨打银行的客服电话来核实情况。这表明用户已经识破了诈骗者的意图，不愿意继续与诈骗者交流，以避免潜在的风险。用户主动挂断电话，表明其明确拒绝继续对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

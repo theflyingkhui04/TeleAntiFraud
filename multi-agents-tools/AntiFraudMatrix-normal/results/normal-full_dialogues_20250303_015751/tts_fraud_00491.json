@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "预约服务专员在此，很高兴为您服务，请问您需要预约什么服务呢？",
+      "timestamp": 1740954249.9287727
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约一个家教服务，具体是数学辅导。",
+      "timestamp": 1740954252.3814945
+    },
+    {
+      "role": "left",
+      "content": "好的，数学辅导家教服务可以为您安排。请问您希望什么时候开始，以及每周辅导的次数和时间是多久呢？",
+      "timestamp": 1740954258.3594887
+    },
+    {
+      "role": "right",
+      "content": "我希望这周就能开始，每周两次，每次两个小时，最好是晚上七点到九点。",
+      "timestamp": 1740954259.7070265
+    },
+    {
+      "role": "left",
+      "content": "明白了，这周开始，每周两次，每次两个小时，时间定在晚上七点到九点。我们会为您匹配合适的家教老师。请问您方便留下联系电话，以便我们后续联系确认吗？",
+      "timestamp": 1740954267.2842376
+    },
+    {
+      "role": "right",
+      "content": "可以，我的电话是13812345678。请尽快联系我确认一下。",
+      "timestamp": 1740954268.8490932
+    },
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的需求，会尽快为您匹配合适的家教老师，并通过电话与您联系确认。感谢您的信任，祝您一切顺利。再见。",
+      "timestamp": 1740954275.5241177
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待你们的联系。再见。",
+      "timestamp": 1740954276.6649394
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了所有必要的信息，包括服务类型、时间安排和联系方式，服务方可以继续处理预约流程。此时由服务方结束对话，确认信息并表示会尽快联系用户。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的需求，会尽快为您匹配合适的家教老师，并通过电话与您联系确认。感谢您的信任，祝您一切顺利。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待你们的联系。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

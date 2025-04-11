@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到我们的商店，有什么我可以帮您的吗？",
+      "timestamp": 1740970977.613965
+    },
+    {
+      "role": "right",
+      "content": "你好，我想看看你们的工具套装，有什么推荐的吗？",
+      "timestamp": 1740970979.135616
+    },
+    {
+      "role": "left",
+      "content": "我们这里有一款非常受欢迎的多功能工具套装，包含螺丝刀、钳子、剪刀等多种工具，非常适合家庭日常使用。您想要了解更多信息吗？",
+      "timestamp": 1740970988.4050221
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，这款套装的价格是多少？",
+      "timestamp": 1740970989.51758
+    },
+    {
+      "role": "left",
+      "content": "这款多功能工具套装的售价是198元，非常适合性价比高的选择。您觉得这个价格合适吗？",
+      "timestamp": 1740970997.9325018
+    },
+    {
+      "role": "right",
+      "content": "可以，我考虑一下。谢谢。",
+      "timestamp": 1740970998.8712146
+    },
+    {
+      "role": "left",
+      "content": "如果您对这款工具套装感兴趣，可以直接在我们的网站上购买，或者来店里试用。感谢您的咨询，希望您购物愉快！",
+      "timestamp": 1740971006.9901543
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。会考虑的。",
+      "timestamp": 1740971008.3510816
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表达了对产品价格的认可，并表示会考虑购买，同时向服务方表示了感谢，这通常意味着用户已经获得了所需的信息，对话可以由用户自然结束。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您对这款工具套装感兴趣，可以直接在我们的网站上购买，或者来店里试用。感谢您的咨询，希望您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。会考虑的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

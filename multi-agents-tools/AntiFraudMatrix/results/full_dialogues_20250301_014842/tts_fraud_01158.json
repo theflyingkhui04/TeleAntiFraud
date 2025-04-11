@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递服务热线，我们刚刚接到通知，您有一个包裹在海关被扣留了，需要支付一笔税费才能放行。请您尽快与我们联系处理，否则您的包裹可能会被退回。",
+      "timestamp": 1740782243.6123805
+    },
+    {
+      "role": "right",
+      "content": "哎呀，这可怎么办？我最近确实网购了一些东西，但没想到会有这样的事。这税费需要多少钱呢？我得赶紧处理，不然东西被退回去多麻烦啊。",
+      "timestamp": 1740782245.4744031
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提及包裹被扣留需要支付税费时，可能因为感到突然且不确定情况的真实性，产生了警觉或不安，进而选择挂断电话以避免潜在的风险。用户的意图可能是为了自我保护，防止进一步的信息泄露或财务损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

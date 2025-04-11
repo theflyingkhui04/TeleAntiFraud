@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我手上，不想他出事的话，立刻准备50万现金，不许报警！",
+      "timestamp": 1740685523.5441446
+    },
+    {
+      "role": "right",
+      "content": "你先等等，你说什么？你把我儿子怎么样了？我得确认一下他是真的在你那儿。你能不能先告诉我他在哪儿，他现在怎么样了？",
+      "timestamp": 1740685526.4508848
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对诈骗者声称控制其儿子的怀疑，并要求进一步确认信息。用户可能意识到这是诈骗行为，并选择通过挂断电话来终止对话，以避免进一步的诈骗尝试。用户的意图可能是保护自己和家人免受潜在的诈骗威胁。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

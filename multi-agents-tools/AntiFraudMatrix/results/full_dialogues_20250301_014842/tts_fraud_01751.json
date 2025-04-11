@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您，您在我们最新一期的彩票活动中获得了特等奖，奖金高达五百万元！这是您的幸运号码，对吗？",
+      "timestamp": 1740781147.9754102
+    },
+    {
+      "role": "right",
+      "content": "您好，真的吗？我竟然中了这么大的奖！这真是太意外了。不过，我得确认一下，你们是怎么联系到我的？我的电话号码和信息怎么会到你们那里呢？",
+      "timestamp": 1740781150.245409
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们下次再联系，祝您一切顺利，再见。",
+      "timestamp": 1740781156.5084553
+    },
+    {
+      "role": "right",
+      "content": "好的，那下次再聊，您也祝您顺利，再见。",
+      "timestamp": 1740781157.408075
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表示诈骗者选择挂断电话，因此对话应该终止。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们下次再联系，祝您一切顺利，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，那下次再聊，您也祝您顺利，再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

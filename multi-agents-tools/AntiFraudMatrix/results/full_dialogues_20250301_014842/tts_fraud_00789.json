@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的儿子的朋友，李明。您儿子现在出事了，被一些不法分子绑架了，您必须立刻给我打一笔赎金，不然他们会对您儿子不利。您现在能过来见个面吗？我在您家附近的公园等您。",
+      "timestamp": 1740775163.3584955
+    },
+    {
+      "role": "right",
+      "content": "你等等，你说你是李明？我儿子的朋友？你为什么给我打电话，我儿子的电话呢？你先告诉我他现在怎么样了，我怎么知道你是不是真的？",
+      "timestamp": 1740775165.3176925
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的信息表示怀疑，并要求更多证据来证明其身份和所说的情况。用户可能已经意识到这是一起诈骗，或者至少对诈骗者的说法感到非常不信任，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

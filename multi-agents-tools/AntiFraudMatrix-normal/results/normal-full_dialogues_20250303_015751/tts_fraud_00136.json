@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品您想了解的吗？",
+      "timestamp": 1740953344.6791198
+    },
+    {
+      "role": "right",
+      "content": "你好，你们这有新鲜的蔬菜水果吗？",
+      "timestamp": 1740953346.7229278
+    },
+    {
+      "role": "left",
+      "content": "我们这里有新鲜的蔬菜和水果，都是每天早上进货的，确保新鲜。您有什么具体的需求吗？",
+      "timestamp": 1740953353.664602
+    },
+    {
+      "role": "right",
+      "content": "好的，那给我来点西红柿和黄瓜吧。多少钱一斤？",
+      "timestamp": 1740953355.5957682
+    },
+    {
+      "role": "left",
+      "content": "西红柿是三块五一斤，黄瓜是两块五一斤。您需要各买多少斤呢？",
+      "timestamp": 1740953359.2604594
+    },
+    {
+      "role": "right",
+      "content": "各来两斤吧。",
+      "timestamp": 1740953360.059378
+    },
+    {
+      "role": "left",
+      "content": "好的，两斤西红柿和两斤黄瓜，总共是十二块钱。您可以通过线上支付或者到店支付，方便吗？",
+      "timestamp": 1740953365.333657
+    },
+    {
+      "role": "right",
+      "content": "行，我扫码支付。",
+      "timestamp": 1740953368.4735672
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经准备好了。如果您选择线上支付，可以直接在我们的小程序中完成支付；如果选择到店支付，我们的店员会为您准备好商品。感谢您的购买，希望您购物愉快！",
+      "timestamp": 1740953373.2430172
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740953373.9252052
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了购买，并选择了支付方式，表明对话目标已达成，用户没有进一步的需求。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经准备好了。如果您选择线上支付，可以直接在我们的小程序中完成支付；如果选择到店支付，我们的店员会为您准备好商品。感谢您的购买，希望您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

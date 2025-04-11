@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李明的家属吗？这里是有紧急情况。",
+      "timestamp": 1740789634.8627298
+    },
+    {
+      "role": "right",
+      "content": "我是李明的朋友，你是哪位？为什么会打给我？李明现在怎么样了？",
+      "timestamp": 1740789636.1561594
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑电话的真实性而选择挂断。在对话中，用户询问了诈骗者的身份以及李明的情况，但诈骗者没有给出具体信息，这可能让用户感到不安或怀疑对方的意图。用户挂断电话表明他不愿意继续与诈骗者交流，可能是为了避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

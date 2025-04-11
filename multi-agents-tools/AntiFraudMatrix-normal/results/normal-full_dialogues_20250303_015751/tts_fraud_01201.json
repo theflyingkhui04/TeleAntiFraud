@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我是您的客服助理，请告诉我您的出发地点和目的地。",
+      "timestamp": 1740969721.1376958
+    },
+    {
+      "role": "right",
+      "content": "好的，我从家出发，地址是上海市浦东新区世纪公园附近，目的地是陆家嘴的上海中心大厦。",
+      "timestamp": 1740969722.6339824
+    },
+    {
+      "role": "left",
+      "content": "已为您记录，从上海市浦东新区世纪公园附近到陆家嘴的上海中心大厦，稍等一下我帮您安排车辆。",
+      "timestamp": 1740969727.925453
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在记录了用户的出发地和目的地后，表示将为用户安排车辆。服务方可能认为在这个阶段，已经完成了初步的服务任务，即记录用户的行程信息，并准备进行下一步操作（如调度车辆）。因此，服务方可能认为此时是一个合适的时机来结束对话，让用户等待进一步的通知，而不是继续对话等待车辆安排的确认。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

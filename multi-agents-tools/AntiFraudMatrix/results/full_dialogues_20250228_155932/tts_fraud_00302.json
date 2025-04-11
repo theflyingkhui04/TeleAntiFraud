@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是客服代表小李。我们检测到您的账户有异常活动，为了您的资金安全，我们需要立即采取措施。请问您现在方便吗？",
+      "timestamp": 1740753756.7707918
+    },
+    {
+      "role": "right",
+      "content": "你好，小李，我最近确实看到账户有些变动，但不确定是不是异常。你能具体说说是什么情况吗？我这边方便听。",
+      "timestamp": 1740753759.2666469
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方身份或对话内容的真实性而选择主动挂断电话。用户在对话中表现出对账户变动的关注，但没有立即提供敏感信息，这表明用户可能对诈骗者的真实身份有所警惕。挂断电话可能是为了避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

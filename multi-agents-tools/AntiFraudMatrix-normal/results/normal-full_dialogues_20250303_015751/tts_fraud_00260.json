@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，有什么问题我可以帮您解决呢？",
+      "timestamp": 1740967273.5380912
+    },
+    {
+      "role": "right",
+      "content": "你好，小张，我是李老师。最近在准备一些教学资料，想了解一下有没有什么好的在线资源或者工具推荐？",
+      "timestamp": 1740967275.1953042
+    },
+    {
+      "role": "left",
+      "content": "李老师，您好！关于教学资料，我推荐您可以试试 Khan Academy 和 Coursera，这两个平台上有大量的免费课程和资料。另外，使用 Google Scholar 可以找到很多学术文章和研究资料，对教学内容的深化很有帮助。如果您需要制作教学视频，Camtasia 和 OBS Studio 都是非常好的选择。希望这些信息对您有帮助。还有其他方面需要我帮忙的吗？",
+      "timestamp": 1740967282.6635664
+    },
+    {
+      "role": "right",
+      "content": "谢谢小张，这些资源听起来都很不错。我会去试试看的。如果有其他问题，我再联系你。谢谢你的帮助！",
+      "timestamp": 1740967284.2203197
+    },
+    {
+      "role": "left",
+      "content": "李老师，很高兴能帮到您。如果今后还有其他问题或需要进一步的帮助，随时欢迎联系。祝您教学顺利！",
+      "timestamp": 1740967290.288671
+    },
+    {
+      "role": "right",
+      "content": "谢谢，希望一切顺利。再见！",
+      "timestamp": 1740967291.196982
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示满意并感谢服务方提供的信息，同时明确表示如果有其他问题会再次联系，这表明当前的对话目标已经达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "李老师，很高兴能帮到您。如果今后还有其他问题或需要进一步的帮助，随时欢迎联系。祝您教学顺利！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，希望一切顺利。再见！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

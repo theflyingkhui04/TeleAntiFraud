@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，我可以帮您完成订餐或解答任何相关问题。",
+      "timestamp": 1740956671.2302353
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我想订一份外卖，有什么推荐的吗？",
+      "timestamp": 1740956673.5325356
+    },
+    {
+      "role": "left",
+      "content": "当然，我们这里有几款特别受欢迎的菜品，比如宫保鸡丁、鱼香肉丝和牛肉炒饭，都是顾客评价很高的选择。您有兴趣尝试一下吗？",
+      "timestamp": 1740956678.1103237
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我来一份宫保鸡丁和一份牛肉炒饭吧。还需要加点什么吗？",
+      "timestamp": 1740956680.5717323
+    },
+    {
+      "role": "left",
+      "content": "您点的宫保鸡丁和牛肉炒饭已经记下了。我们这里的小吃也很不错，比如酸辣土豆丝和麻辣豆腐，要不要加一份呢？另外，饮料的话，我们有冰红茶和可乐可供选择。",
+      "timestamp": 1740956685.0564134
+    },
+    {
+      "role": "right",
+      "content": "好的，那加一份酸辣土豆丝和一瓶冰红茶吧。谢谢。",
+      "timestamp": 1740956686.309027
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经完整了：宫保鸡丁一份、牛肉炒饭一份、酸辣土豆丝一份和一瓶冰红茶。请问还需要其他的吗？如果没有，我将为您确认订单。",
+      "timestamp": 1740956692.2937694
+    },
+    {
+      "role": "right",
+      "content": "就这样吧，谢谢。可以确认订单了。",
+      "timestamp": 1740956694.1446974
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，我们会尽快为您准备。预计送达时间是三十分钟左右。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740956699.555279
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。",
+      "timestamp": 1740956703.4020503
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单，服务目标达成，服务方可以结束对话并确认订单。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，我们会尽快为您准备。预计送达时间是三十分钟左右。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

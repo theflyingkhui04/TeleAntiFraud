@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮助您的吗？",
+      "timestamp": 1740949523.3001888
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个餐。有什么推荐的吗？",
+      "timestamp": 1740949524.8458345
+    },
+    {
+      "role": "left",
+      "content": "我们今日的特色菜有宫保鸡丁和清蒸鲈鱼，都非常受欢迎。您感兴趣吗？",
+      "timestamp": 1740949532.5187395
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，我就来一份吧。还有什么其他的菜推荐？",
+      "timestamp": 1740949533.7066882
+    },
+    {
+      "role": "left",
+      "content": "搭配宫保鸡丁，您可以试试我们的干煸四季豆和酸辣汤，这两道菜也是很多顾客的心头好。",
+      "timestamp": 1740949538.8741577
+    },
+    {
+      "role": "right",
+      "content": "好的，那我再加一份干煸四季豆。酸辣汤听起来也不错，来一份吧。",
+      "timestamp": 1740949540.4745674
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单里有宫保鸡丁、干煸四季豆和酸辣汤。还需要帮您加点什么吗？比如饮料或甜点？",
+      "timestamp": 1740949546.328574
+    },
+    {
+      "role": "right",
+      "content": "来一杯冰红茶吧，甜点就不用了。这样就可以了。",
+      "timestamp": 1740949547.846825
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，我们会尽快为您准备。预计送达时间是三十分钟内。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740949554.418947
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。",
+      "timestamp": 1740949555.1245673
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表示不需要再加其他菜品或甜点。服务方可以确认订单详情并结束对话。",
+  "terminator": "service",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，我们会尽快为您准备。预计送达时间是三十分钟内。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

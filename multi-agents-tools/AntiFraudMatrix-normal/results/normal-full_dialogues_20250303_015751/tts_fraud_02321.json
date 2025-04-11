@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮助您的吗？",
+      "timestamp": 1740966375.782078
+    },
+    {
+      "role": "right",
+      "content": "您好，我想订一份家常便饭，有适合的套餐吗？",
+      "timestamp": 1740966377.1849437
+    },
+    {
+      "role": "left",
+      "content": "当然有，我们这里有一份家常便饭套餐，包括红烧肉、清炒时蔬、豆腐汤和一份米饭，价格是35元。您看这个套餐可以吗？",
+      "timestamp": 1740966384.5119889
+    },
+    {
+      "role": "right",
+      "content": "可以，这个套餐听起来不错。我就要这个套餐。需要什么时候送到呢？",
+      "timestamp": 1740966385.650917
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经记录。请问您希望几点送达呢？我们通常在下单后的30到45分钟内送达。",
+      "timestamp": 1740966390.609885
+    },
+    {
+      "role": "right",
+      "content": "那就麻烦你们在下午一点半送到吧。谢谢。",
+      "timestamp": 1740966391.465905
+    },
+    {
+      "role": "left",
+      "content": "好的，您的家常便饭套餐会在您指定的时间内送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740966397.6346135
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740966398.5884974
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单，并指定了送餐时间，同时表达了感谢，表明用户对服务满意且没有进一步的需求。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的家常便饭套餐会在您指定的时间内送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

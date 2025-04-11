@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是银行客服中心的工作人员，您的账户近期有异常活动，为了您的资金安全，我们需要对您的账户进行核实。请问您现在方便接听电话吗？",
+      "timestamp": 1740778363.212768
+    },
+    {
+      "role": "right",
+      "content": "您好，我目前方便接听。不过，我最近确实没有进行过任何异常操作，你们是怎么发现有异常活动的呢？",
+      "timestamp": 1740778364.8751338
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认自己没有进行异常操作后，对诈骗者提到的账户异常活动表示怀疑，并可能意识到这是一起诈骗行为，因此选择主动挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！这里是国际快递公司客服中心。我们发现您的包裹因涉及海关问题被扣留，需要您支付两百元的清关费用。请问您现在方便处理吗？",
+      "timestamp": 1740759641.863686
+    },
+    {
+      "role": "right",
+      "content": "哦，你好。我最近确实有在海外购物，不过我不是很清楚这个流程。你是说需要支付两百元的清关费用？",
+      "timestamp": 1740759643.7872834
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的信息表示怀疑，可能意识到这是一个诈骗电话，因此选择挂断电话以避免进一步的潜在损失。用户的意图是保护自己的财产安全，避免被骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

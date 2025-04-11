@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是**银行客服中心，我是客服代表小李。我们监测到您的账户有异常交易，为了确保您的资金安全，需要您配合我们进行核实。请问您现在方便吗？",
+      "timestamp": 1740799668.5391743
+    },
+    {
+      "role": "right",
+      "content": "哦，小李啊，你好。我刚刚确实收到了一条短信，说我的账户有异常。你们银行的反应还挺快的。我现在有空，你说说看，需要我怎么配合？",
+      "timestamp": 1740799671.363647
+    },
+    {
+      "role": "left",
+      "content": "谢谢您的理解与配合。首先，我们需要确认一下您的身份。请您提供一下开户时使用的身份证号码和预留的手机号码，以便我们进行验证。",
+      "timestamp": 1740799676.4898274
+    },
+    {
+      "role": "right",
+      "content": "好的，我的身份证号码是 xxxxxxxxxxxxxxxx，手机号码是 xxxxxxxxxx。你们查一下吧，看看是不是我的账户有问题。",
+      "timestamp": 1740799677.9963899
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们会尽快处理这个问题。如果您有任何疑问，可以随时拨打我们的客服热线。祝您生活愉快，再见。",
+      "timestamp": 1740799684.106263
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的及时帮助。如果有什么问题，我会联系你们的。再见。",
+      "timestamp": 1740799685.3073847
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（身份证号码和手机号码），这标志着诈骗明显成功。为了防止进一步的信息泄露，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们会尽快处理这个问题。如果您有任何疑问，可以随时拨打我们的客服热线。祝您生活愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的及时帮助。如果有什么问题，我会联系你们的。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

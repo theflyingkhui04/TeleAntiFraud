@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递客服中心，我们发现您的包裹在清关时出现了一些问题，需要您提供一些信息来协助处理。请问您方便接听电话吗？",
+      "timestamp": 1740684649.1529224
+    },
+    {
+      "role": "right",
+      "content": "您好，我是张医生，我现在有空，您可以告诉我具体是什么问题吗？我最近确实有一个包裹，是从国外寄来的。",
+      "timestamp": 1740684686.2826967
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在对话开始时提供了挂断信号（##ENDCALL_SIGNAL##），这表明诈骗者可能意识到用户可能不易受骗或对话环境不适合继续诈骗，因此主动选择结束对话。用户在不知情的情况下继续对话，直到诈骗者挂断。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，我是小李。我们监测到您的账户有异常交易，请问您最近是否有过大额转账或消费？",
+      "timestamp": 1740792504.0920563
+    },
+    {
+      "role": "right",
+      "content": "喂，你好，我没有啊，最近都没有用过银行卡。是不是出什么事了？我有点担心。",
+      "timestamp": 1740792506.4578323
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为担心自己的账户安全问题，想要尽快挂断电话并直接联系银行官方客服进行确认，以确保自己的账户安全。用户的意图是避免在未经验证的电话中透露任何个人信息，从而保护自己免受潜在的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我您想点的餐品和送餐地址吗？",
+      "timestamp": 1740970258.809759
+    },
+    {
+      "role": "right",
+      "content": "好的，我想点一份牛肉炒饭和一份糖醋排骨，送餐地址是北京市朝阳区xx路xx号xx大厦A座20层。谢谢。",
+      "timestamp": 1740970260.6402366
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录，一份牛肉炒饭和一份糖醋排骨，送餐地址是北京市朝阳区xx路xx号xx大厦A座20层。请问需要什么时间送达呢？",
+      "timestamp": 1740970268.2018974
+    },
+    {
+      "role": "right",
+      "content": "尽量在一个小时内送到吧，谢谢。",
+      "timestamp": 1740970269.5648699
+    },
+    {
+      "role": "left",
+      "content": "好的，我们会在一个小时内为您送达。您的订单总价是78元，支持在线支付或货到付款。还有其他需要帮忙的吗？",
+      "timestamp": 1740970276.0320926
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情、送餐时间和支付方式后，询问用户是否还有其他需要帮助的事项。用户没有进一步的需求，服务方通过提供结束信号代码'##ENDCALL_SIGNAL##'表明服务已完成，对话可以结束。服务方的意图是确保用户的需求得到满足，并礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

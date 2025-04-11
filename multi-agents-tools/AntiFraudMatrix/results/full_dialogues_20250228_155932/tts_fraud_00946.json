@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你好，我是你儿子的朋友，他刚刚出了点事，需要你马上汇一笔钱过来。",
+      "timestamp": 1740748319.5077703
+    },
+    {
+      "role": "right",
+      "content": "你先等等，你说你是谁？我儿子怎么了？你能不能先告诉我具体情况？",
+      "timestamp": 1740748321.7421005
+    },
+    {
+      "role": "left",
+      "content": "我是李明，你儿子的同学。他现在被几个不良分子带走了，他们要一笔钱才肯放人。你必须尽快，不然就来不及了。",
+      "timestamp": 1740748332.4171476
+    },
+    {
+      "role": "right",
+      "content": "李明？我怎么从来没有听说过你？而且你为什么不用你自己的电话打？这听起来太可疑了。你能不能告诉我你在哪里，我马上过去看看。",
+      "timestamp": 1740748334.9609444
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中对诈骗者提供的信息产生了怀疑，特别是对诈骗者身份和使用陌生电话号码的质疑。用户要求提供更多具体信息和位置，但诈骗者未能提供令人信服的解释，导致用户认为这是诈骗行为，因此选择主动挂断电话以保护自己不受骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

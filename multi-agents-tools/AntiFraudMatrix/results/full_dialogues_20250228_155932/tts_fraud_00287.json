@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李华吗？我是你儿子小明的朋友，小明现在遇到麻烦了，你听我讲完，不要挂电话。",
+      "timestamp": 1740751089.792549
+    },
+    {
+      "role": "right",
+      "content": "你是谁？你怎么会有我电话的？小明到底怎么了？你先说清楚点。",
+      "timestamp": 1740751094.6380181
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到对方声称是其儿子的朋友并表示儿子遇到麻烦后，表现出警惕和怀疑，要求对方提供更多信息。然而，诈骗者在用户询问具体信息前就挂断了电话。这表明用户可能意识到了潜在的诈骗行为，或者至少对来电者的身份和意图产生了怀疑，因此选择挂断电话以保护自己。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

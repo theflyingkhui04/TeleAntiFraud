@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740940604.5293086
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖。有什么推荐的吗？",
+      "timestamp": 1740940606.6025245
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款人气菜品，比如宫保鸡丁、鱼香肉丝和牛肉炒饭，都是非常受欢迎的选择。您有什么偏好吗？",
+      "timestamp": 1740940614.27649
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来那个吧。还要加个青菜，清淡点的。",
+      "timestamp": 1740940616.762149
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已加入宫保鸡丁和一份清淡的青菜。还需要其他菜品或饮料吗？",
+      "timestamp": 1740940624.2121534
+    },
+    {
+      "role": "right",
+      "content": "暂时不需要了，谢谢。对了，你们这里送餐速度快吗？",
+      "timestamp": 1740940625.7541525
+    },
+    {
+      "role": "left",
+      "content": "我们通常会在下单后的30到40分钟内送达。具体时间可能会因当前订单量和天气情况有所不同。如果有特殊情况，我们会提前通知您。",
+      "timestamp": 1740940631.1262279
+    },
+    {
+      "role": "right",
+      "content": "好的，那我就等你们的通知了。谢谢。",
+      "timestamp": 1740940632.13913
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，我们会在30到40分钟内送达。如果还有其他需要，请随时联系我们。感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740940641.002923
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740940641.956674
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单，并询问了送餐时间，服务方也给出了明确的答复。用户表示会等待通知，这表明用户对服务满意且没有进一步的需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，我们会在30到40分钟内送达。如果还有其他需要，请随时联系我们。感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

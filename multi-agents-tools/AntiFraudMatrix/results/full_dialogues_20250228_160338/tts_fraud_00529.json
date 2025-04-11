@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是银行客服中心，您的账户出现了一些异常活动，为了您的资金安全，请您尽快提供账户信息以便我们进行核实。",
+      "timestamp": 1740734989.7617927
+    },
+    {
+      "role": "right",
+      "content": "好的，账户出现异常活动确实让我很担心。不过，我需要确认一下，你们的客服电话是多少？我怕这是个误会，还是直接打客服电话确认一下比较好。",
+      "timestamp": 1740734992.0370536
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份表示怀疑，并要求确认客服电话，显示出用户对诈骗行为的警觉性。用户可能意识到这是一个诈骗电话，因此选择挂断电话以避免进一步的风险。用户的意图是通过挂断电话来终止与诈骗者的交流，并采取更安全的措施，如直接联系银行客服以确认账户信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

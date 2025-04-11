@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子的朋友。他现在遇到一点麻烦，被几个不良分子扣住了，情况非常危急，您必须马上给我们一笔钱，不然他们可能要对他下手了。您能立刻转一笔钱过来吗？",
+      "timestamp": 1740810544.4796855
+    },
+    {
+      "role": "right",
+      "content": "哎呀，这可怎么办？我儿子平时一直教育他的朋友要远离那些坏人，怎么会遇到这种事？你先别急，我马上去取钱，你们在哪里？我得赶紧过去。",
+      "timestamp": 1740810549.4052572
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对诈骗者故事的初步信任，但可能在进一步思考后意识到这是一起诈骗，或者用户可能意识到自己无法立即提供资金，因此选择挂断电话以避免进一步的纠缠。用户的意图可能是避免继续被骗或避免进一步的对话压力。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

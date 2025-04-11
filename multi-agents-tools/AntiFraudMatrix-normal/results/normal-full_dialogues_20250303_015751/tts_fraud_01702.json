@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您需要预订哪个餐厅的餐点？",
+      "timestamp": 1740944728.2267096
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我不需要订餐。不过你们的服务看起来挺方便的。",
+      "timestamp": 1740944729.974169
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户明确表示不需要订餐服务，并对服务表示了认可。用户的意图可能是礼貌地结束对话，同时给予服务正面的反馈。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

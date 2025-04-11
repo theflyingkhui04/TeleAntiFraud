@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品您想了解或者需要帮助选购的吗？",
+      "timestamp": 1740981581.017193
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我就是随便看看。有什么推荐的吗？",
+      "timestamp": 1740981581.906643
+    },
+    {
+      "role": "left",
+      "content": "当然，我们最近有一款非常受欢迎的多功能电饭煲，不仅能煮饭，还能做蛋糕、炖汤，非常适合家庭使用。您有兴趣了解一下吗？",
+      "timestamp": 1740981586.81518
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，这款电饭煲的价格是多少？",
+      "timestamp": 1740981587.7907581
+    },
+    {
+      "role": "left",
+      "content": "这款多功能电饭煲的价格是三百九十九元，目前还有限时优惠活动，购买可以享受九折优惠。",
+      "timestamp": 1740981592.101297
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的介绍。我会考虑的。",
+      "timestamp": 1740981592.623577
+    },
+    {
+      "role": "left",
+      "content": "如果您对这款电饭煲感兴趣，可以随时告诉我，我可以帮您进一步了解或下单。感谢您的光临，希望您在我们这里购物愉快。",
+      "timestamp": 1740981596.4450033
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会考虑的。再见。",
+      "timestamp": 1740981597.2754934
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢并表达了会考虑购买，这意味着用户当前没有更多的问题或需求，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您对这款电饭煲感兴趣，可以随时告诉我，我可以帮您进一步了解或下单。感谢您的光临，希望您在我们这里购物愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会考虑的。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

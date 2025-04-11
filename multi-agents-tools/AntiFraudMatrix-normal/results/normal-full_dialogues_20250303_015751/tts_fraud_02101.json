@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，欢迎使用我们的订餐服务，请问有什么可以帮您的？",
+      "timestamp": 1740980316.031812
+    },
+    {
+      "role": "right",
+      "content": "您好，我想订一份午餐，有什么推荐的吗？",
+      "timestamp": 1740980317.2930136
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在对话开始时就提供了结束信号代码，这可能是系统错误或服务方的误操作。用户随后提出了订餐请求，但服务方没有回应用户的需求，导致对话无法继续。用户的意图是希望得到午餐的推荐，但由于服务方的提前结束信号，对话未能达到用户的目的。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

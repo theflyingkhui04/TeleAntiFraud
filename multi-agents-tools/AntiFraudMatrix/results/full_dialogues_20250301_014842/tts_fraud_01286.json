@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你听到了吗？我是绑匪，你的儿子现在在我手上！不想他有事的话，立刻准备五万块钱现金，不许报警，否则你就永远见不到他了！",
+      "timestamp": 1740769479.876677
+    },
+    {
+      "role": "right",
+      "content": "你、你说什么？我儿子真的在你手上？你别伤害他，我、我会照你说的办。你给我个账号，我把钱转过去。",
+      "timestamp": 1740769481.699382
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者的威胁时表现出了极度的恐慌和不安，但最终选择挂断电话。这可能是由于用户意识到这可能是一个骗局，或者用户需要时间来确认信息的真实性，而不是立即按照诈骗者的指示行动。用户的意图可能是避免立即做出可能的错误决定，同时也可能是在寻找其他方式来确认儿子的安全，例如联系儿子或报警。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

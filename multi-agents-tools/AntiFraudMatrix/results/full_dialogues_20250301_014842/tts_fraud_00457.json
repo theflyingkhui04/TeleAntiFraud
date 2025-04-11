@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的好友小李的同事，小李刚刚出事了，他现在被坏人绑走了，情况非常危急，您必须马上帮我，不然小李会有生命危险！",
+      "timestamp": 1740767110.669504
+    },
+    {
+      "role": "right",
+      "content": "小李出事了？这太突然了，你们现在在哪里？我怎么联系他？我需要确认一下，毕竟这种事情太严重了。",
+      "timestamp": 1740767115.3256443
+    },
+    {
+      "role": "left",
+      "content": "我理解您的担心，但现在没时间解释，坏人要求我们立即支付赎金，不然他们会伤害小李。您现在可以先转一笔钱过来，我们再联系，这样可以吗？时间不多了，求求您帮帮忙！",
+      "timestamp": 1740767120.5909286
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在用户表现出怀疑并要求更多确认信息时选择了挂断。这表明诈骗者可能意识到用户已经开始怀疑，继续对话可能无法成功获取赎金。诈骗者的意图是避免在用户进一步质疑下暴露骗局，从而选择提前结束对话，寻找下一个目标。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

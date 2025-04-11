@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李先生吗？我是您的朋友张华的表哥，现在情况非常紧急，张华出事了，他被一些人带走，他们要求支付赎金，不然不放人。您能马上帮帮忙吗？",
+      "timestamp": 1740815406.4617546
+    },
+    {
+      "role": "right",
+      "content": "啊，张华出事了？这太突然了，我该怎么办？你先别急，告诉我具体是怎么回事，他们要多少钱？我看看能不能帮上忙。你有没有报警？",
+      "timestamp": 1740815409.7870295
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提到张华被带走并要求支付赎金时，表现出明显的担忧和急切，但随后用户挂断了电话。这可能是因为用户意识到这是一个诈骗电话，或者用户需要时间来确认信息的真实性，避免在情绪激动的情况下做出错误的决定。用户的意图可能是中断对话，防止进一步的信息泄露或财务损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

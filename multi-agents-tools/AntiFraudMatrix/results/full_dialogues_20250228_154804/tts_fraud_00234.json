@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的儿子的朋友，现在情况非常紧急，您的儿子被我们带到这里了，您必须马上按照我说的做，否则我不能保证他的安全。",
+      "timestamp": 1740747655.949271
+    },
+    {
+      "role": "right",
+      "content": "你先等一下，你叫什么名字？你是怎么联系到我的？我儿子现在到底在哪里？我需要确认一下你的身份。",
+      "timestamp": 1740747658.2558722
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因可能是对诈骗者提出的问题没有得到满意的回答，且对方的要求显得非常紧急和不合理。用户可能已经意识到这是一起诈骗，因此选择挂断电话以避免进一步的风险。用户的意图是终止与诈骗者的交流，防止个人信息泄露或财产损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

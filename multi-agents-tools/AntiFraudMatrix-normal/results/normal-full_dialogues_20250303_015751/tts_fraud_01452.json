@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的？",
+      "timestamp": 1740959058.7267628
+    },
+    {
+      "role": "right",
+      "content": "我想订一份晚餐，有什么推荐的吗？",
+      "timestamp": 1740959059.7854896
+    },
+    {
+      "role": "left",
+      "content": "我们有几款热销菜品，比如宫保鸡丁、鱼香肉丝和牛肉炒饭，都是非常受欢迎的选择。您有兴趣尝试一下吗？",
+      "timestamp": 1740959065.7537487
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来一份吧。还有一份小菜和一碗汤。",
+      "timestamp": 1740959067.7373416
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁已加入您的订单。小菜和汤的话，您想要点什么具体的名字呢？我们有酸辣白菜、清炒时蔬和紫菜蛋花汤等。",
+      "timestamp": 1740959073.957643
+    },
+    {
+      "role": "right",
+      "content": "酸辣白菜和紫菜蛋花汤吧。",
+      "timestamp": 1740959075.0124202
+    },
+    {
+      "role": "left",
+      "content": "好的，一份酸辣白菜和一碗紫菜蛋花汤已加入您的订单。还需要其他什么吗？",
+      "timestamp": 1740959081.7598045
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这样吧。地址是阳光医院3楼内科。",
+      "timestamp": 1740959085.411412
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认。地址是阳光医院3楼内科。我们会在30到40分钟内送达。请问需要提供电话号码以便联系吗？",
+      "timestamp": 1740959092.4206815
+    },
+    {
+      "role": "right",
+      "content": "好的，我的电话是13812345678。谢谢。",
+      "timestamp": 1740959093.8384962
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已成功提交，我们会尽快为您送达。感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740959099.9973342
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740959100.7592247
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单的所有细节，包括菜品、地址和联系方式，并表示感谢。对话目标已达成，用户获得了所需的服务。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已成功提交，我们会尽快为您送达。感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

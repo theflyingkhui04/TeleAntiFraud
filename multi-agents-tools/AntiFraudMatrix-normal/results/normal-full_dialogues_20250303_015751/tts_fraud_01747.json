@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪一项服务？",
+      "timestamp": 1740968684.2106035
+    },
+    {
+      "role": "right",
+      "content": "您好，我想了解一下你们的健康咨询服务。",
+      "timestamp": 1740968685.3843405
+    },
+    {
+      "role": "left",
+      "content": "好的，我们的健康咨询服务包括在线咨询、电话咨询和面对面咨询。您希望选择哪种方式？",
+      "timestamp": 1740968692.3306148
+    },
+    {
+      "role": "right",
+      "content": "我倾向于面对面咨询，这样感觉更直接一些。具体怎么预约呢？",
+      "timestamp": 1740968693.5954218
+    },
+    {
+      "role": "left",
+      "content": "面对面咨询需要您来我们的健康中心，我们可以为您安排一位专业医生。请问您方便的时间是？",
+      "timestamp": 1740968699.3187609
+    },
+    {
+      "role": "right",
+      "content": "下周三下午三点左右可以吗？",
+      "timestamp": 1740968700.1439672
+    },
+    {
+      "role": "left",
+      "content": "下周三下午三点，这个时间是可以的。请问您的姓名和联系电话，我来为您预约。",
+      "timestamp": 1740968704.9702766
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫张伟，电话是13812345678。谢谢。",
+      "timestamp": 1740968707.478687
+    },
+    {
+      "role": "left",
+      "content": "好的，我已经为您预约了下周三下午三点的面对面咨询服务。您的预约编号是123456，稍后我们会将确认短信发送到您的手机。如果有任何变动，请随时联系我们。感谢您的预约，祝您一切顺利。",
+      "timestamp": 1740968717.05152
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。收到短信后我会确认一下。再见。",
+      "timestamp": 1740968718.6932216
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供了预约所需的所有信息，服务方可以完成预约流程。此时服务方应确认预约详情并结束对话。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我已经为您预约了下周三下午三点的面对面咨询服务。您的预约编号是123456，稍后我们会将确认短信发送到您的手机。如果有任何变动，请随时联系我们。感谢您的预约，祝您一切顺利。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。收到短信后我会确认一下。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

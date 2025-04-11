@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询专员为您服务，有什么可以帮助您的？",
+      "timestamp": 1740948583.6285949
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从我家到市中心的公交线路。我家住在花园小区。",
+      "timestamp": 1740948585.4834104
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话开始后立即提供了结束信号代码，这可能是因为用户误操作或对服务方的问候不满意，导致对话未能正常进行。用户的意图可能是想询问从花园小区到市中心的公交线路，但由于对话过早结束，未能完成咨询。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

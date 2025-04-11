@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪一项服务？",
+      "timestamp": 1740949810.8367255
+    },
+    {
+      "role": "right",
+      "content": "您好，我想了解一下你们的商业咨询和市场分析服务。可以详细介绍一下吗？",
+      "timestamp": 1740949815.235601
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在对话开始时就提供了结束信号代码 '##ENDCALL_SIGNAL##'，这可能是系统错误或服务方的误操作。用户则表达了对商业咨询和市场分析服务的兴趣，并请求了更详细的信息。然而，由于服务方的提前结束信号，对话未能继续进行。用户的意图是获取关于商业咨询和市场分析服务的详细信息，但对话因服务方的信号而提前终止。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

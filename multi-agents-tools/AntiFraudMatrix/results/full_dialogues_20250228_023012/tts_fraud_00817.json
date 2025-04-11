@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是王先生吗？我是您的儿子小明的同学小刚，小明刚刚在我们学校被人绑架了，绑匪要求赶紧汇款，不然他们就要对小明不利！ ",
+      "timestamp": 1740686683.1879654
+    },
+    {
+      "role": "right",
+      "content": "小刚，真的是你吗？你怎么知道我家的电话号码？你快告诉我小明现在在哪里，我马上报警！ ",
+      "timestamp": 1740686684.721214
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能怀疑这是一个诈骗电话，因为诈骗者提供的信息不够具体且要求立即汇款。用户询问了诈骗者是如何知道其家庭电话的，并要求提供更多信息以及表示要报警，这表明用户对诈骗者的身份和故事产生了怀疑，并采取了防范措施。用户主动挂断电话可能是为了避免进一步的风险，表明其不愿意继续与诈骗者交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

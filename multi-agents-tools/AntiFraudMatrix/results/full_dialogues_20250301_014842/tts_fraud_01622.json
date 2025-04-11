@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我知道你现在很担心，但请你冷静下来，听我讲。你的儿子现在安全，但我们需要你马上付一笔钱来确保他的安全。你能马上准备一百万现金吗？不要报警，否则我不能保证他的安全。",
+      "timestamp": 1740771598.90814
+    },
+    {
+      "role": "right",
+      "content": "你们是谁？为什么这么说？我儿子怎么了？我需要知道他现在在哪里，我得和他通话，不然我不会相信你们的。",
+      "timestamp": 1740771601.4007578
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出明显的怀疑和不安，要求与儿子直接通话以验证情况的真实性。由于诈骗者未能提供足够的证据或信息来消除用户的疑虑，用户选择挂断电话，表明其不愿意继续参与这场可能的诈骗对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

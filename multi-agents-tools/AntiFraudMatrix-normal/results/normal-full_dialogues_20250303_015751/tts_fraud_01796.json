@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询助手，可以帮助您规划路线、查询时刻表或提供交通建议。请问您需要哪方面的帮助？",
+      "timestamp": 1740968216.1022422
+    },
+    {
+      "role": "right",
+      "content": "哦，你好。我最近要去看一个朋友，她住在市中心那边。你能帮我查一下最近的公交线路吗？",
+      "timestamp": 1740968218.0210335
+    },
+    {
+      "role": "left",
+      "content": "当然可以。请问您现在的位置是在哪里呢？这样我可以为您规划最合适的公交线路。",
+      "timestamp": 1740968222.3152044
+    },
+    {
+      "role": "right",
+      "content": "我在东区的市场附近。",
+      "timestamp": 1740968222.9208174
+    },
+    {
+      "role": "left",
+      "content": "好的，从东区市场到市中心，您可以乘坐公交线路12路或25路。这两路公交车都会经过市中心的主要区域。您可以在最近的公交站台上车，整个路程大约需要三十分钟。需要注意的是，高峰时段可能会有些拥堵，建议您提前出发。这样安排可以吗？",
+      "timestamp": 1740968233.105191
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我大概了解了。如果路上有不确定的地方，我再联系你。",
+      "timestamp": 1740968234.595715
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您没有其他问题，那我就帮您确认这些信息。祝您旅途愉快，朋友见面愉快！如果有其他需要帮助的地方，随时欢迎咨询。",
+      "timestamp": 1740968242.2837317
+    },
+    {
+      "role": "right",
+      "content": "谢谢你，再见。",
+      "timestamp": 1740968243.3947792
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示已经获得所需信息，并且在不确定时会再次联系，表明当前对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您没有其他问题，那我就帮您确认这些信息。祝您旅途愉快，朋友见面愉快！如果有其他需要帮助的地方，随时欢迎咨询。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢你，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "李女士吗？我是您的儿子小明，我现在被坏人控制了，他们要我打电话给您，您一定要相信我，我现在非常危险。",
+      "timestamp": 1740732060.4996705
+    },
+    {
+      "role": "right",
+      "content": "小明？你为什么要这么开玩笑，你在哪里？我马上去找你。你到底遇到了什么问题，告诉我，我这就报警。",
+      "timestamp": 1740732065.79514
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为感到情况紧急，认为对方是自己的儿子并且处于危险之中，想要立即采取行动（如寻找对方或报警），因此选择挂断电话以节省时间。用户的意图是尽快采取实际行动帮助对方，而不是继续在电话中交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "预约服务专员为您服务，请问需要预约什么服务？",
+      "timestamp": 1740956212.4793656
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一下维修服务，家里的一些老旧设备需要检查和维修。",
+      "timestamp": 1740956213.7683861
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方询问需要预约什么服务时，明确表达了预约维修服务的需求。然而，服务方和用户在表达中均使用了结束信号代码 '##ENDCALL_SIGNAL##'，这可能是系统或操作上的误触发。用户的意图是希望预约维修服务，但由于结束信号的出现，对话提前终止。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

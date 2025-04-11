@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是打车服务平台的客服，很高兴为您服务，请问需要帮您叫车吗？",
+      "timestamp": 1740955192.0178232
+    },
+    {
+      "role": "right",
+      "content": "你好，暂时不需要，谢谢。",
+      "timestamp": 1740955193.0602245
+    },
+    {
+      "role": "left",
+      "content": "您的车辆已经在路上了，预计五分钟后到达，请注意接听司机的电话。感谢您的使用，祝您旅途愉快！",
+      "timestamp": 1740955196.999203
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。旅途愉快。",
+      "timestamp": 1740955198.124536
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示暂时不需要服务，并表达了感谢，表明其当前没有进一步的需求。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的车辆已经在路上了，预计五分钟后到达，请注意接听司机的电话。感谢您的使用，祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。旅途愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

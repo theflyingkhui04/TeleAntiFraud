@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自某某银行的客服代表，我们最近发现您的账户有异常活动，为了您的安全，需要核实一些信息。请问您现在方便接听电话吗？",
+      "timestamp": 1740791978.0308478
+    },
+    {
+      "role": "right",
+      "content": "您好，我是一名医生，现在在医院里，不太方便。不过如果确实有异常活动，我可以抽点时间配合调查。请问您能告诉我具体是什么问题吗？",
+      "timestamp": 1740791983.028226
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为当前工作环境不便接听电话，同时对诈骗者提出的问题表示关注但选择挂断电话，可能是为了进一步核实对方身份或避免在不安全的环境中透露个人信息。用户的意图是保护个人隐私和安全，同时表达出对异常活动的关注，但选择在更安全的环境下处理此事。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

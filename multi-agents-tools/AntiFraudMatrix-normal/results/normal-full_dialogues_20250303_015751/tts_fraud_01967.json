@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是预约服务中心，请问您想预约什么服务？",
+      "timestamp": 1740959300.8256052
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一个体检。",
+      "timestamp": 1740959301.9000914
+    },
+    {
+      "role": "left",
+      "content": "好的，体检服务我们有多种套餐可供选择，您有具体的需求或偏好吗？例如，您是希望进行全面体检还是有特定项目的检查？",
+      "timestamp": 1740959313.9825618
+    },
+    {
+      "role": "right",
+      "content": "全面体检吧。",
+      "timestamp": 1740959325.1719925
+    },
+    {
+      "role": "left",
+      "content": "了解了，全面体检通常包括血液检查、尿液检查、心电图、B超等项目。我们有多个时间可以选择，您方便哪一天来？",
+      "timestamp": 1740964984.9228387
+    },
+    {
+      "role": "right",
+      "content": "下周五上午可以吗？",
+      "timestamp": 1740964985.7842848
+    },
+    {
+      "role": "left",
+      "content": "下周五上午可以，我们上午的体检时间是八点到十一点，请问您希望具体几点来？",
+      "timestamp": 1740964991.806723
+    },
+    {
+      "role": "right",
+      "content": "九点吧。",
+      "timestamp": 1740964992.5851307
+    },
+    {
+      "role": "left",
+      "content": "好的，已为您预约下周五上午九点的全面体检。您的预约编号是123456，请您保存好这个编号，体检当天携带身份证和预约编号前来即可。如果有任何变动，请提前联系我们。",
+      "timestamp": 1740964999.6730704
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约时间、提供了预约编号，并告知了注意事项后，主动结束了对话。服务方的意图是确保用户已经获得了所有必要的信息，预约流程已经顺利完成，无需继续对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

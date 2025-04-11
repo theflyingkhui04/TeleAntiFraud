@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的预约服务助手，可以帮助您预约各项服务，有什么我可以帮您的吗？",
+      "timestamp": 1740942009.538525
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下你们这边有没有教师资格证的培训课程？如果有，我想预约一下。",
+      "timestamp": 1740942011.055756
+    },
+    {
+      "role": "left",
+      "content": "我们这里有教师资格证的培训课程，可以帮您预约。请问您方便参加培训的时间是什么时候？",
+      "timestamp": 1740942017.1339986
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的需求后，直接结束了对话。这可能是由于服务方认为已经获取了足够的信息来完成预约，或者服务方系统设置在获取关键信息后自动结束对话以提高效率。服务方的意图是基于已获得的时间信息，后续将直接为用户安排预约，避免不必要的对话延长。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

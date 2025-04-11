@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的预约服务专员，可以帮助您安排预约，请告诉我您需要预约的服务类型和时间。",
+      "timestamp": 1740945035.374041
+    },
+    {
+      "role": "right",
+      "content": "好的，我想预约一个财务咨询，下周一上午十点怎么样？",
+      "timestamp": 1740945036.7684348
+    },
+    {
+      "role": "left",
+      "content": "下周一上午十点的时间段可以，我们这边没有其他预约冲突。请问您的姓名和联系方式是什么，以便我们为您安排预约？",
+      "timestamp": 1740945044.169455
+    },
+    {
+      "role": "right",
+      "content": "我叫李明，电话是13800138000。谢谢。",
+      "timestamp": 1740945045.6574342
+    },
+    {
+      "role": "left",
+      "content": "李明先生，您的预约已经安排好了，下周一上午十点，我们会准时联系您提供财务咨询服务。您的预约编号是123456，稍后我们也会通过短信确认预约信息。还有其他需要帮助的吗？",
+      "timestamp": 1740945051.5155692
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。没有其他需要了。",
+      "timestamp": 1740945052.3210425
+    },
+    {
+      "role": "left",
+      "content": "李明先生，您的预约已经成功安排，如果有任何变动我们会及时通知您。感谢您的信任，祝您一切顺利。再见。",
+      "timestamp": 1740945060.6480095
+    },
+    {
+      "role": "right",
+      "content": "再见。",
+      "timestamp": 1740945068.1593344
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认预约信息，并明确表示没有其他需要帮助的内容，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "李明先生，您的预约已经成功安排，如果有任何变动我们会及时通知您。感谢您的信任，祝您一切顺利。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

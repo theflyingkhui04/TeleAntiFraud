@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友小李的同事，小李现在遇到了一点麻烦，他被几个不认识的人扣留了，情况非常危急。您能帮帮忙吗？",
+      "timestamp": 1740786832.7842689
+    },
+    {
+      "role": "right",
+      "content": "小李被扣留了？这怎么回事？你先冷静一下，告诉我具体是怎么回事，我也好帮忙。你有小李的电话吗？我先打个电话确认一下。",
+      "timestamp": 1740786838.3263743
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的情况后，表现出关心但同时保持了警惕。用户提出要直接联系小李以确认情况，这是对诈骗者故事的一种验证方式。诈骗者可能因为无法提供小李的电话或担心被揭穿而选择了挂断电话。用户的意图是希望通过直接联系小李来验证信息的真实性，而诈骗者则可能为了避免暴露而选择结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

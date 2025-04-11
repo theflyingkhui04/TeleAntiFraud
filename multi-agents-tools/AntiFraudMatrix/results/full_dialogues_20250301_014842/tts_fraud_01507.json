@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国际快递服务公司，我们发现您的包裹里可能含有违禁品，需要您配合进行确认和处理。请提供您的姓名和联系电话，以便我们核对信息。",
+      "timestamp": 1740794378.5814843
+    },
+    {
+      "role": "right",
+      "content": "您好，我叫张建国。你们怎么知道我的电话的？我最近确实寄了一些农产品出去，但都是合法的，怎么会是违禁品呢？你们能不能给我解释一下？",
+      "timestamp": 1740794381.2416306
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供姓名后，对诈骗者如何获取其电话信息表示疑问，并对包裹中物品的合法性提出质疑。用户可能意识到这是一起诈骗行为，因此选择主动挂断电话以避免进一步的信息泄露或诈骗行为的进行。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

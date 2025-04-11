@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，可以帮助您预订车辆，现在需要为您叫车吗？",
+      "timestamp": 1740950119.5681388
+    },
+    {
+      "role": "right",
+      "content": "暂时不用，谢谢。我还在考虑一下时间。",
+      "timestamp": 1740950123.7205818
+    },
+    {
+      "role": "left",
+      "content": "好的，不急，您可以随时告诉我具体的时间和地点，我会尽快为您安排车辆。",
+      "timestamp": 1740950131.5691094
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。如果确定了我会马上联系你。",
+      "timestamp": 1740950132.613895
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您决定了时间，随时可以联系我。祝您一天愉快。再见。",
+      "timestamp": 1740950137.8284674
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你。祝你一天愉快。再见。",
+      "timestamp": 1740950140.0763855
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示了感谢，并表示如果确定了会再次联系，这表明当前对话目标已达成，用户暂时不需要进一步的服务。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您决定了时间，随时可以联系我。祝您一天愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你。祝你一天愉快。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

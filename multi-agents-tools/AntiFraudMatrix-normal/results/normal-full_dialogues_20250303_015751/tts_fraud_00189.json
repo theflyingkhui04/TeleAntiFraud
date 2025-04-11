@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，您可以告诉我想点哪家餐厅和具体餐品吗？",
+      "timestamp": 1740956512.5950809
+    },
+    {
+      "role": "right",
+      "content": "想点个汉堡王，来个双层牛肉堡和大薯条。",
+      "timestamp": 1740956513.7565444
+    },
+    {
+      "role": "left",
+      "content": "好的，双层牛肉堡和大薯条，还需要饮料或者其他小食吗？",
+      "timestamp": 1740956518.330197
+    },
+    {
+      "role": "right",
+      "content": "加杯可乐吧。",
+      "timestamp": 1740956521.6860242
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单包括双层牛肉堡、大薯条和一杯可乐。请问需要备注什么特别要求吗？比如不要洋葱或者多加番茄酱？",
+      "timestamp": 1740956527.3575056
+    },
+    {
+      "role": "right",
+      "content": "不用了，按默认来就行。",
+      "timestamp": 1740956527.9438148
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录。预计送达时间大约是30到40分钟，您可以在订单详情中查看最新状态。还有其他需要帮助的吗？",
+      "timestamp": 1740956538.2640576
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情后，提供了预计送达时间和订单状态查询方式，并询问了用户是否有其他需要帮助的事项。用户没有提出进一步的需求，服务方在此时选择结束对话，表明服务方认为已完成了服务流程，用户的需求得到了满足。服务方的意图是确保用户满意并结束本次服务会话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

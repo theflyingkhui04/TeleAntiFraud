@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我姓张。我们发现您的账户有异常交易记录，需要您配合我们进行核实，以确保您的资金安全。请问您现在方便吗？",
+      "timestamp": 1740774429.994455
+    },
+    {
+      "role": "right",
+      "content": "您好，张先生。我确实收到了一些短信，说我的账户有异常。不过，我之前也接到过类似的电话，后来发现是诈骗。您能理解我的顾虑吗？我需要确认一下您的身份。",
+      "timestamp": 1740774432.0753818
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对诈骗的警惕，并要求确认对方的身份。用户挂断电话的原因可能是为了保护自己的信息安全，避免进一步的风险。用户的意图是停止与可能的诈骗者继续交流，以防止个人信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

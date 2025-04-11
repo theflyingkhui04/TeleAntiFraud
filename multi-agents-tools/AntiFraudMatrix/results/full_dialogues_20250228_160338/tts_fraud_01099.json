@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，这里是XX银行客服中心，我们检测到您的账户存在异常交易，需要立即核实您的身份信息，请问您现在方便接听电话吗？",
+      "timestamp": 1740733832.862975
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊...我这边倒是没什么急事。你们说是银行的人，那能告诉我具体是什么异常交易吗？",
+      "timestamp": 1740733859.8529582
+    },
+    {
+      "role": "left",
+      "content": "非常抱歉给您带来困扰，目前系统显示您的账户在今天上午十点十五分有一笔九千八百元的异常转账记录，我们怀疑您的账户信息可能被盗用了。请问您本人有进行这笔交易吗？",
+      "timestamp": 1740733886.5465844
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者可能意识到用户对异常交易表示了合理的怀疑，并且没有立即表现出恐慌或配合的态度。为了不引起更多怀疑或被用户识破，诈骗者选择主动挂断电话，避免进一步的对话可能导致诈骗行为暴露。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，我可以帮您完成订餐，有什么特别的需求吗？",
+      "timestamp": 1740967724.314376
+    },
+    {
+      "role": "right",
+      "content": "不用了，谢谢。就按照常规的来吧。",
+      "timestamp": 1740967725.4497354
+    },
+    {
+      "role": "left",
+      "content": "感谢您的订餐，您的订单已成功提交，预计送达时间为三十分钟内。如果需要任何进一步的帮助，请随时联系我们。祝您用餐愉快。",
+      "timestamp": 1740967732.7622473
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740967733.5939498
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示无需特别需求，并表达了感谢，表明其需求已被满足。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的订餐，您的订单已成功提交，预计送达时间为三十分钟内。如果需要任何进一步的帮助，请随时联系我们。祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

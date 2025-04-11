@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服，我们发现您的账户有异常活动，需要您配合进行安全验证。请问您现在方便吗？",
+      "timestamp": 1740772276.5280101
+    },
+    {
+      "role": "right",
+      "content": "嗯，我现在挺方便的，出了什么事吗？",
+      "timestamp": 1740772278.424631
+    },
+    {
+      "role": "left",
+      "content": "为了确保您的账户安全，我们需要您提供一些信息进行身份验证。请您提供身份证号码和银行账户后六位数字，好吗？",
+      "timestamp": 1740772284.7066808
+    },
+    {
+      "role": "right",
+      "content": "好的，我明白了。我的身份证号码是……（暂停）等一下，我好像没带身份证，记不全了。我的银行账户后六位是……（暂停）嗯，我也不太记得了。要不我查一下再告诉你吧。",
+      "timestamp": 1740772290.1180296
+    },
+    {
+      "role": "left",
+      "content": "",
+      "timestamp": 1740772293.4432135
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在尝试获取用户敏感信息时，发现用户无法立即提供所需信息，可能认为继续对话无法达到目的，因此选择挂断。这表明诈骗者倾向于快速获取信息，不愿意等待或进一步引导用户。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

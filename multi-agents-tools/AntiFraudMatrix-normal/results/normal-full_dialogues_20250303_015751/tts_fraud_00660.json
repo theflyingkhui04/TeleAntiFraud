@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮助您的？",
+      "timestamp": 1740951859.666654
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份午餐。有什么推荐的吗？",
+      "timestamp": 1740951861.1139486
+    },
+    {
+      "role": "left",
+      "content": "我们今天推荐的是牛肉炒饭和番茄鱼片汤，都是顾客评价很高的菜品。您有兴趣尝试一下吗？",
+      "timestamp": 1740951865.268506
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来一份牛肉炒饭吧。顺便问一下，你们有素菜吗？",
+      "timestamp": 1740951866.4806664
+    },
+    {
+      "role": "left",
+      "content": "有的，我们有多种素菜选择，比如清炒时蔬、蒜蓉西兰花等。您需要加一份素菜吗？",
+      "timestamp": 1740951870.8908932
+    },
+    {
+      "role": "right",
+      "content": "加一份清炒时蔬吧。还有一杯冰红茶。",
+      "timestamp": 1740951874.8660166
+    },
+    {
+      "role": "left",
+      "content": "好的，您点了一份牛肉炒饭、一份清炒时蔬和一杯冰红茶。请问还需要其他东西吗？",
+      "timestamp": 1740951880.4753819
+    },
+    {
+      "role": "right",
+      "content": "不需要了，谢谢。",
+      "timestamp": 1740951882.2280612
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计三十分钟后送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740951888.86718
+    },
+    {
+      "role": "right",
+      "content": "谢谢。",
+      "timestamp": 1740951892.0352778
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并明确表示不需要其他东西，同时表达了感谢。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计三十分钟后送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢。"
+    }
+  ],
+  "reached_max_turns": false
+}

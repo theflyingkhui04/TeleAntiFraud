@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品您想了解一下呢？",
+      "timestamp": 1740956946.1731505
+    },
+    {
+      "role": "right",
+      "content": "您好，我想看看血压计，最近家里老人需要用。",
+      "timestamp": 1740956947.1725657
+    },
+    {
+      "role": "left",
+      "content": "好的，我们这里有多款血压计，包括上臂式和腕式，您具体想要哪种类型呢？",
+      "timestamp": 1740956951.5958393
+    },
+    {
+      "role": "right",
+      "content": "上臂式的吧，我觉得更准确一些。你们这里有推荐的牌子吗？",
+      "timestamp": 1740956952.8233113
+    },
+    {
+      "role": "left",
+      "content": "当然，我们推荐某品牌的一款上臂式血压计，它具有高精度测量和大液晶显示，非常适合老年人使用，而且还有记忆功能，可以记录最近多次的测量数据。您看这款怎么样？",
+      "timestamp": 1740956961.437725
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，我可以看一下实物吗？顺便问一下，这款血压计的价格是多少？",
+      "timestamp": 1740956962.806467
+    },
+    {
+      "role": "left",
+      "content": "可以的，这款血压计现在就在这边的健康用品区，我带您过去看一下。这款血压计的价格是三百九十九元。",
+      "timestamp": 1740956968.9232333
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦您了。我跟您一起去看看。",
+      "timestamp": 1740956970.7688217
+    },
+    {
+      "role": "left",
+      "content": "不麻烦，我这就带您过去，您跟我来吧。",
+      "timestamp": 1740956974.800484
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在提供了具体商品信息并确认用户愿意前往查看实物后，认为对话目的已经达成，用户的需求得到了满足，因此选择结束对话。服务方的意图是确保用户能够顺利找到所需商品，同时保持良好的服务体验。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

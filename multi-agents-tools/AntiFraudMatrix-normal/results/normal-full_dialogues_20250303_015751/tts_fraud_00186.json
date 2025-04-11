@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，我可以帮您订餐或解答任何疑问。",
+      "timestamp": 1740938410.078688
+    },
+    {
+      "role": "right",
+      "content": "好的，我想订个外卖。有什么推荐的吗？",
+      "timestamp": 1740938411.7759018
+    },
+    {
+      "role": "left",
+      "content": "我们有多种美食可以选择，比如招牌牛肉面、宫保鸡丁盖饭和海鲜炒面，都是客人评价很好的选择。您有特别的口味偏好或需求吗？",
+      "timestamp": 1740938419.0821939
+    },
+    {
+      "role": "right",
+      "content": "那就来一份宫保鸡丁盖饭吧，听起来不错。",
+      "timestamp": 1740938420.5631237
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁盖饭已经加入您的订单。还需要其他菜品或饮料吗？",
+      "timestamp": 1740938426.7357485
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这样吧。什么时候能送到？",
+      "timestamp": 1740938427.7718205
+    },
+    {
+      "role": "left",
+      "content": "您的订单预计在30到40分钟内送达，具体时间可能因交通情况有所变化。我们会尽快为您安排。还有其他需要特别说明的吗？比如送餐地址或特殊要求。",
+      "timestamp": 1740938437.8840737
+    },
+    {
+      "role": "right",
+      "content": "没有了，送餐地址就是上次的，记得是五号楼二单元四零二。谢谢。",
+      "timestamp": 1740938440.0942278
+    },
+    {
+      "role": "left",
+      "content": "好的，您的宫保鸡丁盖饭订单已经确认，预计30到40分钟内送达。感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740938449.5253513
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740938450.784904
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单详情，包括菜品、送餐地址等，并表示没有其他需求。服务方可以确认订单并结束对话。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的宫保鸡丁盖饭订单已经确认，预计30到40分钟内送达。感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

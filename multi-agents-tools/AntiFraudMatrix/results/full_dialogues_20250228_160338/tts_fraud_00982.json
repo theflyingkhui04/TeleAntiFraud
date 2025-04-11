@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是银行客服中心，我们检测到您的账户存在异常交易，需要立即核实您的身份信息以保障您的资金安全。请问您方便提供一下您的银行卡号和身份证号码吗？",
+      "timestamp": 1740730921.4389787
+    },
+    {
+      "role": "right",
+      "content": "您好，我确实收到了一些奇怪的短信，但我现在不方便提供这些信息。我需要先确认一下这是否真的是银行的官方电话。您能告诉我您的工号和姓名吗？我这边会去核实一下。",
+      "timestamp": 1740730926.1960876
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因可能是出于对诈骗行为的警觉。用户在对话中表现出了对电话真实性的怀疑，并要求对方提供工号和姓名以便核实。这表明用户可能已经意识到这可能是一起诈骗行为，因此选择挂断电话以避免进一步的风险。用户的意图是保护自己的个人信息不被泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

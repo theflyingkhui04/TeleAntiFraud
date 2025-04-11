@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是张伟吗？我是你儿子小张的朋友，刚刚在街上他被几个混混拦住了，现在情况很危急，需要你马上转一笔钱过来解决。",
+      "timestamp": 1740803012.6967537
+    },
+    {
+      "role": "right",
+      "content": "你等等，你说你是谁？我儿子的朋友？我怎么从没听说过你？这听起来太奇怪了，你能不能告诉我具体是怎么回事？",
+      "timestamp": 1740803015.1944194
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份表示怀疑，认为情况不正常且无法确认对方的真实身份，因此选择挂断电话以避免潜在的诈骗风险。用户的意图是保护自己不受骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

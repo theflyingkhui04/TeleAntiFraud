@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，叔叔，我是小明的同学，现在情况很紧急，小明被我们这里的坏人控制了，他们要求付一笔赎金，不然就要对小明下手，您必须马上行动。",
+      "timestamp": 1740731419.3921213
+    },
+    {
+      "role": "right",
+      "content": "小明的同学？你是谁？你怎么会有我的电话？这听起来太奇怪了，小明出了什么事？你说的坏人是谁？你能不能告诉我详细的情况？我得确认一下是不是真的。",
+      "timestamp": 1740731445.0466962
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份和所述情况表示怀疑，并要求提供更多详细信息以确认事件的真实性。用户可能意识到这是一个诈骗电话，因此选择挂断以避免进一步的潜在风险。挂断表明用户对诈骗者的说辞持怀疑态度，并希望终止对话以保护自己。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

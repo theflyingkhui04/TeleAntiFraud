@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的打车服务助手，有什么我可以帮您的吗？",
+      "timestamp": 1740950546.8294408
+    },
+    {
+      "role": "right",
+      "content": "你好，我想从家出发去市中心的图书馆，大概需要多少钱？",
+      "timestamp": 1740950549.0208855
+    },
+    {
+      "role": "left",
+      "content": "从您家到市中心图书馆的打车费用大约在五十到八十元之间，具体费用会根据实时路况和选择的车型有所不同。",
+      "timestamp": 1740950554.081585
+    },
+    {
+      "role": "right",
+      "content": "好的，那我大概什么时候可以出发呢？",
+      "timestamp": 1740950555.0867212
+    },
+    {
+      "role": "left",
+      "content": "根据当前的路况，如果您现在出发，大约三十到四十分钟后可以到达目的地。您现在方便上车吗？",
+      "timestamp": 1740950561.8156106
+    },
+    {
+      "role": "right",
+      "content": "可以，我现在就准备出门。谢谢你。",
+      "timestamp": 1740950564.2490313
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您现在出发，应该可以准时到达。如果需要帮助叫车，请随时联系我。祝您一路顺利，再见。",
+      "timestamp": 1740950571.4223285
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740950579.4293718
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示可以现在出门，并对服务方表示了感谢，表明用户对提供的信息和服务感到满意，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您现在出发，应该可以准时到达。如果需要帮助叫车，请随时联系我。祝您一路顺利，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

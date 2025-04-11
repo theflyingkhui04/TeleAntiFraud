@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张伟吗？我是你儿子的朋友，小李。你儿子现在在我这里，他刚刚出了一点小事故，需要马上去医院，你得赶紧转点钱过来，不然就来不及了。",
+      "timestamp": 1740684873.5690112
+    },
+    {
+      "role": "right",
+      "content": "啊？小李啊...我儿子怎么了？严重吗？要多少钱？我现在就去银行转账！",
+      "timestamp": 1740684877.1583962
+    },
+    {
+      "role": "left",
+      "content": "好的，你赶快去转账吧，我们这边会马上带他去医院。记住，动作要快！",
+      "timestamp": 1740684883.6592906
+    },
+    {
+      "role": "right",
+      "content": "等等，我先打个电话问问儿子是不是真的出事了...你说他是哪里的朋友？我怎么没听他提起过你？",
+      "timestamp": 1740684888.221046
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗明显成功 - 用户已提供敏感信息（同意转账），诈骗者已获取足够信息，继续对话对用户无益。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，你赶快去转账吧，我们这边会马上带他去医院。记住，动作要快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "等等，我先打个电话问问儿子是不是真的出事了...你说他是哪里的朋友？我怎么没听他提起过你？"
+    }
+  ],
+  "reached_max_turns": false
+}

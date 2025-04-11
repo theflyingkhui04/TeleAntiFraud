@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服中心，您的包裹在运输过程中被发现有异常，需要您配合处理。请问您能提供一下您的姓名和收件地址吗？",
+      "timestamp": 1740765580.07429
+    },
+    {
+      "role": "right",
+      "content": "您好，我叫李明，收件地址是上海市徐汇区漕溪路一百号。你们那边有什么问题吗？",
+      "timestamp": 1740765581.4887114
+    },
+    {
+      "role": "left",
+      "content": "好的，我会记录您的信息并转交给相关部门处理。如果有进一步的问题，我们会联系您。谢谢您的配合，再见。",
+      "timestamp": 1740765586.793411
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，再见。",
+      "timestamp": 1740765587.5119479
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和收件地址，这是敏感信息，诈骗者可能利用这些信息进行进一步的诈骗活动。根据终止条件1，应该终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我会记录您的信息并转交给相关部门处理。如果有进一步的问题，我们会联系您。谢谢您的配合，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

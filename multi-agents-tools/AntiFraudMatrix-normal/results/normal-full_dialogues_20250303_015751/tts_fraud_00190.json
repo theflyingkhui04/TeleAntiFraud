@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740942280.450383
+    },
+    {
+      "role": "right",
+      "content": "你好，我想点个外卖，有什么推荐的吗？",
+      "timestamp": 1740942281.7174187
+    },
+    {
+      "role": "left",
+      "content": "我们这里有很多美味的选择，比如招牌炒饭、牛肉拉面和香辣鸡肉卷，都是顾客评价很高的，您感兴趣吗？",
+      "timestamp": 1740942286.7795062
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我就来个牛肉拉面吧。",
+      "timestamp": 1740942287.6994543
+    },
+    {
+      "role": "left",
+      "content": "好的，一份牛肉拉面已加入您的订单。还需要加点其他小菜或饮料吗？",
+      "timestamp": 1740942291.8868408
+    },
+    {
+      "role": "right",
+      "content": "加一份凉拌黄瓜和一杯冰红茶吧。",
+      "timestamp": 1740942293.3627632
+    },
+    {
+      "role": "left",
+      "content": "好的，一份凉拌黄瓜和一杯冰红茶已加入您的订单。请问还有其他需要吗？",
+      "timestamp": 1740942299.4401996
+    },
+    {
+      "role": "right",
+      "content": "没有了，就这些吧。谢谢。",
+      "timestamp": 1740942300.280445
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认。预计送达时间为30分钟内，感谢您的订购，希望您用餐愉快！",
+      "timestamp": 1740942311.586454
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740942312.6779065
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表达了感谢，表示没有其他需求。根据终止条件3，用户明确表示感谢并结束对话，因此应该由用户来结束对话。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认。预计送达时间为30分钟内，感谢您的订购，希望您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

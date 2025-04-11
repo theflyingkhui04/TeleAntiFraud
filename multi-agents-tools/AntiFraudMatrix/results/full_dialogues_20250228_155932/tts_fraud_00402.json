@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，我是国家彩票中心的工作人员，恭喜您中得了本期的大奖，奖金是一百万元！请问您现在方便接听电话吗？",
+      "timestamp": 1740757193.2064333
+    },
+    {
+      "role": "right",
+      "content": "你好，谢谢你的通知。不过我最近没有购买过彩票，这会不会是搞错了？",
+      "timestamp": 1740757194.6950707
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对中奖通知的怀疑，因为其近期并未购买过彩票。用户通过挂断电话的方式明确拒绝继续对话，表明其不信任该来电，可能是出于对诈骗的警惕。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

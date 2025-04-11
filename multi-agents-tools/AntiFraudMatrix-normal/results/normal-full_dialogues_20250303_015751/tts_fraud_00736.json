@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "请问您需要了解哪方面的交通信息？",
+      "timestamp": 1740957331.1889412
+    },
+    {
+      "role": "right",
+      "content": "我需要去市中心，怎么走最方便？",
+      "timestamp": 1740957332.1003425
+    },
+    {
+      "role": "left",
+      "content": "您目前的位置是在哪里呢？这样我可以为您规划最适合的路线。",
+      "timestamp": 1740957335.7562711
+    },
+    {
+      "role": "right",
+      "content": "我在火车站附近。",
+      "timestamp": 1740957336.358725
+    },
+    {
+      "role": "left",
+      "content": "从火车站到市中心，您可以选择乘坐地铁二号线直达，大约需要十五分钟。如果您不介意步行，也可以沿着主干道步行约二十分钟到达。您倾向于哪种方式？",
+      "timestamp": 1740957343.448909
+    },
+    {
+      "role": "right",
+      "content": "地铁听起来不错，谢谢。",
+      "timestamp": 1740957345.193097
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您选择地铁，从火车站出发乘坐二号线直达市中心是最便捷的方式。祝您旅途愉快！",
+      "timestamp": 1740957349.8877306
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740957350.4360328
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经得到了所需的交通信息，并表示感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您选择地铁，从火车站出发乘坐二号线直达市中心是最便捷的方式。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

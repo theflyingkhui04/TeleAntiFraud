@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，请问有什么可以帮助您的？",
+      "timestamp": 1740977694.2932749
+    },
+    {
+      "role": "right",
+      "content": "您好，我想点一份牛肉炒饭和一份糖醋排骨，还有一杯冰红茶。谢谢。",
+      "timestamp": 1740977696.1790607
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录。请问送餐地址是哪里呢？",
+      "timestamp": 1740977700.4126923
+    },
+    {
+      "role": "right",
+      "content": "地址是阳光花园小区三号楼二单元四零二室。麻烦您了。",
+      "timestamp": 1740977702.2574322
+    },
+    {
+      "role": "left",
+      "content": "不客气，地址已确认。请问需要什么时间送达？",
+      "timestamp": 1740977709.017997
+    },
+    {
+      "role": "right",
+      "content": "大概半小时后送到就可以了。谢谢。",
+      "timestamp": 1740977710.445392
+    },
+    {
+      "role": "left",
+      "content": "好的，我们会在大约半小时后为您送达。请问还有其他需求吗？比如餐具或调料包？",
+      "timestamp": 1740977717.9222693
+    },
+    {
+      "role": "right",
+      "content": "不用了，家里都有。就按这个来吧，谢谢。",
+      "timestamp": 1740977719.4662948
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，我们会在大约半小时后将餐品送到阳光花园小区三号楼二单元四零二室。如果需要餐具或调料包，请在备注中说明。祝您用餐愉快！",
+      "timestamp": 1740977729.1042552
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的服务。期待餐品的到来。祝您一天愉快！",
+      "timestamp": 1740977731.0552638
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了所有必要的订单信息，并明确表示没有其他需求，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，我们会在大约半小时后将餐品送到阳光花园小区三号楼二单元四零二室。如果需要餐具或调料包，请在备注中说明。祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的服务。期待餐品的到来。祝您一天愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

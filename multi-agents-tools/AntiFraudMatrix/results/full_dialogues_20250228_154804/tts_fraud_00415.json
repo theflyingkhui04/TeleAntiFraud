@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子的朋友李明，刚才他遇到了点麻烦，需要您的帮助。",
+      "timestamp": 1740744129.3123004
+    },
+    {
+      "role": "right",
+      "content": "李明啊，你先别急，慢慢说，儿子遇到什么麻烦了？",
+      "timestamp": 1740744131.8564959
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一个诈骗电话，因为诈骗者在没有详细说明具体情况的情况下就挂断了电话，这引发了用户的警觉。用户的意图可能是终止与诈骗者的进一步交流，以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

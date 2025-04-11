@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友李强的邻居，刚才他出门的时候被几个陌生人强行带走，现在他们让我联系您，要求您支付一笔赎金才能放了他。您一定要冷静，我们得赶紧想办法。",
+      "timestamp": 1740816837.1799245
+    },
+    {
+      "role": "right",
+      "content": "你等一下，你说你是李强的邻居？我怎么从来没有见过你？还有，你说他被强行带走了，这听起来太不真实了。你能不能告诉我具体发生了什么事情？我需要确认一下。",
+      "timestamp": 1740816841.5029871
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的信息表示怀疑，要求提供更多细节以确认情况的真实性。用户可能已经意识到这是一起诈骗行为，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

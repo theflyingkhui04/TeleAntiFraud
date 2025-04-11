@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某宝客服中心，您的订单由于系统升级出现了问题，需要您配合我们进行身份验证，以免影响您的购物体验。",
+      "timestamp": 1740755541.5172255
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊。那我需要怎么做呢？我年纪大了，不太会用这些新东西。您能帮我吗？",
+      "timestamp": 1740755543.0729113
+    },
+    {
+      "role": "left",
+      "content": "好的，您的信息我们已经记录下来了，稍后会有专人联系您处理这个问题。感谢您的配合，祝您生活愉快。再见。",
+      "timestamp": 1740755551.570383
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您啊。希望不会太麻烦。再见。",
+      "timestamp": 1740755555.185383
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表示其选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的信息我们已经记录下来了，稍后会有专人联系您处理这个问题。感谢您的配合，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您啊。希望不会太麻烦。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

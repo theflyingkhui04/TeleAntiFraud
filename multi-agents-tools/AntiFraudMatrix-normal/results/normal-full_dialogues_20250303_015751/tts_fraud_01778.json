@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询专员为您服务，有什么可以帮助您的吗？",
+      "timestamp": 1740970830.1042156
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下最近的公交线路调整情况，特别是我常坐的5路车。",
+      "timestamp": 1740970835.3464308
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户结束对话的原因可能是因为服务方在对话开始时就提供了结束信号（##ENDCALL_SIGNAL##），这可能让用户误以为服务方已经完成了回答或不再继续对话。用户的意图是想了解最近的公交线路调整情况，特别是5路车的情况，但由于服务方的提前结束信号，用户可能感到困惑或认为对话已经结束，因此也提供了结束信号。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

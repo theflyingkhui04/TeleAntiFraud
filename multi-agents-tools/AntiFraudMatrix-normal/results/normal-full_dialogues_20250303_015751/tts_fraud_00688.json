@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服专员小张为您服务，有什么问题我可以帮您解决？",
+      "timestamp": 1740983368.811748
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我是李医生，最近在你们平台购买了一些健康产品，想了解一下物流情况。",
+      "timestamp": 1740983370.4817107
+    },
+    {
+      "role": "left",
+      "content": "李医生您好，感谢您的咨询。请问您可以提供一下订单号吗？这样我可以帮您查询最新的物流信息。",
+      "timestamp": 1740983376.5877378
+    },
+    {
+      "role": "right",
+      "content": "好的，订单号是123456789。谢谢。",
+      "timestamp": 1740983378.6162086
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，我这边查询到您的订单123456789已经于昨天发出，预计在三到五天内送达。您可以通过订单详情页跟踪物流动态。",
+      "timestamp": 1740983386.149124
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。如果有什么问题，我会再联系你们。",
+      "timestamp": 1740983387.4703188
+    },
+    {
+      "role": "left",
+      "content": "李医生，如果您没有其他问题，我这边就先帮您确认这些信息了。如果有任何其他需要帮助的地方，欢迎随时联系我们。感谢您的理解和支持，祝您健康愉快。",
+      "timestamp": 1740983392.3467655
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝你一天愉快。",
+      "timestamp": 1740983393.7940042
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示感谢并表示如果需要进一步帮助会再次联系，表明当前问题已解决。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "李医生，如果您没有其他问题，我这边就先帮您确认这些信息了。如果有任何其他需要帮助的地方，欢迎随时联系我们。感谢您的理解和支持，祝您健康愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝你一天愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

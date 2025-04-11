@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，您可以告诉我想要订购的餐品和送餐地址吗？",
+      "timestamp": 1740956002.1960208
+    },
+    {
+      "role": "right",
+      "content": "好的，我想订一份牛肉炒饭和一份番茄蛋汤，送餐地址是天成小区12号楼2单元302室。谢谢。",
+      "timestamp": 1740956004.9601643
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录，一份牛肉炒饭和一份番茄蛋汤，送餐地址是天成小区12号楼2单元302室。请问需要什么时间送达？",
+      "timestamp": 1740956010.2605572
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在记录了用户的订单信息后，进一步询问了送餐时间，这是为了确保订单的准确性和及时性。然而，在询问送餐时间的同时，服务方也提供了结束信号代码'##ENDCALL_SIGNAL##'，这表明服务方认为对话已经达到了其主要目的，即确认订单详情，且认为用户没有进一步的问题或需求。服务方的意图是礼貌地结束对话，同时确保用户的需求已被完全满足。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

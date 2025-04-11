@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，我是你儿子的朋友，他在我这里出了点事，需要马上处理。你儿子现在在我手上，如果你不想他出事，就赶紧准备五十万，不要报警，否则后果自负。",
+      "timestamp": 1740778859.5811152
+    },
+    {
+      "role": "right",
+      "content": "哎呀，这可怎么办？你先别急，我儿子真的在你那里吗？他没事吧？我得赶紧想办法。",
+      "timestamp": 1740778861.248404
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者威胁性的言辞后，表现出明显的恐慌和担忧，但最终选择挂断电话。这可能是因为用户意识到情况不对劲，或者是出于保护自己和家人的安全考虑，决定不再继续与诈骗者交流。用户的意图可能是终止与诈骗者的对话，避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

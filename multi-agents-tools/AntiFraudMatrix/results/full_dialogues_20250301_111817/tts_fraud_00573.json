@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子的同事，他刚才出事了，被几个混混绑走了，我现在在联系他的家人，您得赶紧汇一笔钱过来才能确保他的安全。",
+      "timestamp": 1740805903.2775047
+    },
+    {
+      "role": "right",
+      "content": "天啊，这可怎么办！我儿子平时可没招惹过什么人啊。你等等，我得赶紧想办法筹钱。你先告诉我，需要多少钱？汇到哪里？",
+      "timestamp": 1740805905.966867
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的情况后，表现出极度的担忧和焦虑，急于筹钱以确保儿子的安全。用户挂断电话可能是为了尽快去筹钱，或者是因为需要时间思考和确认这一突发情况的真实性。用户的意图是尽快采取行动，以解决诈骗者描述的紧急情况。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

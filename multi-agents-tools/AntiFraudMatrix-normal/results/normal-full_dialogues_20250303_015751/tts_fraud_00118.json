@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询服务人员，可以帮您查询路线、交通状况等信息，请问有什么可以帮助您的？",
+      "timestamp": 1740981228.7379482
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我想知道从人民广场到上海南站怎么走最方便。",
+      "timestamp": 1740981230.4640238
+    },
+    {
+      "role": "left",
+      "content": "从人民广场到上海南站，您可以选择地铁一号线，从人民广场站上车，直达上海南站，全程大约需要二十五分钟。如果您选择打车，路程大约为十公里，用时约二十分钟，视路况而定。您倾向于哪种方式？",
+      "timestamp": 1740981236.4061391
+    },
+    {
+      "role": "right",
+      "content": "地铁听起来不错，谢谢。还有，最近地铁一号线的运营时间是什么时候？",
+      "timestamp": 1740981237.5484438
+    },
+    {
+      "role": "left",
+      "content": "地铁一号线的运营时间通常为早上五点三十分至晚上十一点。具体首末班车时间可能会根据站点有所不同，建议您提前十分钟到达车站，确保顺利乘车。需要查询具体的首末班车时间吗？",
+      "timestamp": 1740981241.2887938
+    },
+    {
+      "role": "right",
+      "content": "不用了，谢谢。我知道了。",
+      "timestamp": 1740981241.8000197
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您选择乘坐地铁一号线，请注意运营时间，提前规划出行。如果您还有其他问题，欢迎随时咨询。祝您旅途愉快！",
+      "timestamp": 1740981245.3952873
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您工作顺利。",
+      "timestamp": 1740981246.2860854
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并明确表示不再需要进一步的帮助。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您选择乘坐地铁一号线，请注意运营时间，提前规划出行。如果您还有其他问题，欢迎随时咨询。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您工作顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

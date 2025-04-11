@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是快递公司客服，我注意到您有一个重要包裹被海关扣留了，需要您提供一些信息以便我们协助处理。请问您的姓名和身份证号码是？",
+      "timestamp": 1740690387.3345156
+    },
+    {
+      "role": "right",
+      "content": "您好，我是张老师。我的包裹被扣留了？这听起来挺严重的。不过，我最近确实有一个包裹，是从国外寄来的。不过，我有点担心，是不是真的需要提供身份证号码？这会不会有什么风险？",
+      "timestamp": 1740690393.4365115
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提出的要求感到担忧，怀疑其真实性，并意识到提供身份证号码可能存在风险。用户在表达疑虑后主动挂断电话，表明用户选择终止对话以保护个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问，最近我们公司推出了一款超高回报的短期投资产品，年化收益率可以达到百分之五十以上，您有兴趣了解一下吗？",
+      "timestamp": 1740739123.9835975
+    },
+    {
+      "role": "right",
+      "content": "您好，谢谢您的推荐。不过我对这种高收益的投资产品比较谨慎，毕竟天上不会掉馅饼。能给我讲讲这款产品的具体运作模式和风险吗？",
+      "timestamp": 1740739142.3543646
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对高收益投资产品的谨慎态度，并要求了解更多具体信息和风险。然而，诈骗者并未给出实质性的回答，而是直接挂断了电话。这可能是因为诈骗者意识到用户有一定的防范意识，继续对话可能无法成功实施诈骗。用户的挂断意图可能是出于对诈骗者突然挂断的回应，表明自己也不愿意继续这种缺乏透明度的对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

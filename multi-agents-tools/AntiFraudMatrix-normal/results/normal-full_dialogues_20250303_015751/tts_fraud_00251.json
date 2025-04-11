@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小李为您服务，有什么问题我可以帮您解决呢？",
+      "timestamp": 1740945917.6148143
+    },
+    {
+      "role": "right",
+      "content": "嗨，小李，我是小张，最近在准备期末考试，感觉压力好大，有什么放松的方法推荐吗？",
+      "timestamp": 1740945919.834963
+    },
+    {
+      "role": "left",
+      "content": "小张先生，您好！备考确实压力山大。您可以试试短暂的散步、深呼吸或者做一些轻松的瑜伽动作，这些都能帮助您放松心情。此外，合理安排学习和休息的时间，保证足够的睡眠也很重要。希望这些建议对您有帮助！如果还有其他需要，随时告诉我。",
+      "timestamp": 1740945925.361173
+    },
+    {
+      "role": "right",
+      "content": "谢谢小李，这些建议听起来很不错，我会试试的。感觉合理安排时间确实很重要，我得好好调整一下。谢谢你的帮助！",
+      "timestamp": 1740945927.2846873
+    },
+    {
+      "role": "left",
+      "content": "小张先生，希望这些建议能帮到您，祝您备考顺利，如果需要更多帮助，随时欢迎咨询。祝您一切顺利！",
+      "timestamp": 1740945933.4044013
+    },
+    {
+      "role": "right",
+      "content": "谢谢小李，我会加油的！如果还有什么问题，我会再联系你。祝你一天愉快！",
+      "timestamp": 1740945935.7710035
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢并接受了建议，明确表达了满意，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "小张先生，希望这些建议能帮到您，祝您备考顺利，如果需要更多帮助，随时欢迎咨询。祝您一切顺利！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢小李，我会加油的！如果还有什么问题，我会再联系你。祝你一天愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

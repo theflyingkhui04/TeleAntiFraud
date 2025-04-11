@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的儿子现在在我们手上，如果你想让他平安回家，就准备好五十万元赎金。不要报警，否则后果自负。",
+      "timestamp": 1740759297.851343
+    },
+    {
+      "role": "right",
+      "content": "你们是谁？你们为什么要这么做？我儿子怎么了？你们要多少钱？我怎么知道你们说的是真的？这太突然了，我需要时间考虑一下。",
+      "timestamp": 1740759300.3693497
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对突如其来的威胁和要求时，表现出困惑和不确定，要求更多的时间来考虑。用户可能怀疑对方的身份和真实性，因此选择挂断电话以保护自己和家人的安全，避免进一步的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

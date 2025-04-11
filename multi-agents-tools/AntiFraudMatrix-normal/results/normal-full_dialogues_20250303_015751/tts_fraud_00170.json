@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我是您的专属客服，可以帮您快速安排车辆。请问您现在需要叫车吗？",
+      "timestamp": 1740968963.133281
+    },
+    {
+      "role": "right",
+      "content": "不用了，谢谢。我暂时没有叫车的需求。",
+      "timestamp": 1740968964.5927193
+    },
+    {
+      "role": "left",
+      "content": "感谢您的使用，如果您有任何其他需求，欢迎随时联系我们。祝您一天愉快！",
+      "timestamp": 1740968970.3067124
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝你一天愉快！",
+      "timestamp": 1740968971.871997
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示当前没有叫车需求，并表达了感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的使用，如果您有任何其他需求，欢迎随时联系我们。祝您一天愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝你一天愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

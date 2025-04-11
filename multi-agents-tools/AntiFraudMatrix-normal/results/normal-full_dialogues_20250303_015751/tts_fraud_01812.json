@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么我可以帮您的吗？",
+      "timestamp": 1740979388.6151419
+    },
+    {
+      "role": "right",
+      "content": "你好，我想买些新鲜的蔬菜和水果，你们这里有卖吗？",
+      "timestamp": 1740979390.3189833
+    },
+    {
+      "role": "left",
+      "content": "我们这里有新鲜的蔬菜和水果，您可以看看有什么喜欢的。需要我为您推荐一些吗？",
+      "timestamp": 1740979396.3606253
+    },
+    {
+      "role": "right",
+      "content": "好的，给我推荐一些吧。最近有什么特别新鲜的品种？",
+      "timestamp": 1740979398.2918143
+    },
+    {
+      "role": "left",
+      "content": "最近我们的进口蓝莓和车厘子特别新鲜，蔬菜方面，有机菠菜和小番茄也都很受欢迎。您可以试试看。",
+      "timestamp": 1740979404.4874814
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，那我就各来点吧。蓝莓和车厘子各来一盒，菠菜和小番茄也各来一袋。",
+      "timestamp": 1740979407.6982775
+    },
+    {
+      "role": "left",
+      "content": "好的，您选的蓝莓、车厘子、菠菜和小番茄都已加入购物车。还有其他需要的吗？",
+      "timestamp": 1740979416.2125263
+    },
+    {
+      "role": "right",
+      "content": "没了，就这些吧。谢谢。",
+      "timestamp": 1740979417.5677533
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已成功提交，稍后会有工作人员为您准备商品。感谢您的购物，期待您再次光临！",
+      "timestamp": 1740979429.4182975
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740979430.4823542
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了购物，并明确表示感谢，没有进一步的需求。根据终止条件3，对话可以由用户结束。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已成功提交，稍后会有工作人员为您准备商品。感谢您的购物，期待您再次光临！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

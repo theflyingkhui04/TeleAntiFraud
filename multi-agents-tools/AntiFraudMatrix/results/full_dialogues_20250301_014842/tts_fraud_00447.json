@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您是张伟吗？我是您的朋友小李的同事，小李现在遇到了一点麻烦，需要您的帮助。",
+      "timestamp": 1740788519.0322948
+    },
+    {
+      "role": "right",
+      "content": "你好，我是张伟。小李怎么了？他遇到了什么麻烦？你能详细说说吗？",
+      "timestamp": 1740788520.6074286
+    },
+    {
+      "role": "left",
+      "content": "张伟，事情是这样的，小李刚才出门的时候被人绑架了，绑匪通过我的手机联系到了我，他们要求我们准备一笔赎金，不然就要对小李不利。我真的很担心，希望您能帮帮他。",
+      "timestamp": 1740788527.0942137
+    },
+    {
+      "role": "right",
+      "content": "听起来很严重，小李真的被绑架了吗？这到底是怎么回事？绑匪具体说了什么？我们不能轻信，得先确认一下情况。",
+      "timestamp": 1740788530.0305088
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的情况后，表现出了怀疑和谨慎的态度。用户要求提供更多具体信息，并表示不能轻信。最终，用户选择挂断电话，可能是为了自行核实情况，避免进一步陷入可能的诈骗陷阱。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

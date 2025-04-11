@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您！您刚刚参加的全国彩票活动中，幸运地中了今年的一等奖，奖金高达五百万元！",
+      "timestamp": 1740741591.54634
+    },
+    {
+      "role": "right",
+      "content": "真的吗？这听起来太不可思议了。我从来没有中过这么大的奖。你们能告诉我这是怎么一回事吗？我需要提供什么信息来确认我的身份呢？",
+      "timestamp": 1740741593.6681087
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提供的信息感到怀疑，认为这是一起诈骗行为，因此选择挂断电话以避免进一步的风险。用户的意图是终止与诈骗者的交流，防止个人信息泄露或遭受经济损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

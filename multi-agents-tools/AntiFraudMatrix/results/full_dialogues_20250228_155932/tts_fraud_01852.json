@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是华信投资的高级顾问李明，最近我们公司推出了一款高回报的理财产品，年化收益率可以达到百分之二十，您有兴趣了解一下吗？",
+      "timestamp": 1740749967.4146247
+    },
+    {
+      "role": "right",
+      "content": "李明先生，您好。听起来这个产品的收益率确实很高，但我对这种高收益的产品一向比较谨慎。能问一下你们公司的详细信息吗？比如公司的注册地址和联系方式，我需要核实一下。",
+      "timestamp": 1740749972.1735795
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对高收益产品的谨慎态度，并要求提供公司的详细信息以进行核实。这表明用户可能怀疑对方的真实性和合法性，因此选择挂断电话以避免进一步的风险。用户的意图是保护自己不受潜在的诈骗行为侵害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

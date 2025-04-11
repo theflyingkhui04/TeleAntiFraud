@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，我来帮您下单，请问您想点哪家餐厅的外卖呢？",
+      "timestamp": 1740956143.2989192
+    },
+    {
+      "role": "right",
+      "content": "我想点家常菜，有什么推荐的餐厅吗？",
+      "timestamp": 1740956146.6965897
+    },
+    {
+      "role": "left",
+      "content": "当然，我们这里有几个不错的选择，比如“家味小厨”和“妈妈菜”，两家的口碑都很好，家常菜做得特别地道。您想尝试哪家呢？",
+      "timestamp": 1740956152.136169
+    },
+    {
+      "role": "right",
+      "content": "那就试试“家味小厨”吧。看看他们有什么特色菜。",
+      "timestamp": 1740956153.220727
+    },
+    {
+      "role": "left",
+      "content": "好的，家味小厨的特色菜有红烧肉、鱼香肉丝和清炒时蔬，非常受欢迎。您想尝试哪几道菜呢？",
+      "timestamp": 1740956158.081717
+    },
+    {
+      "role": "right",
+      "content": "来一份红烧肉和清炒时蔬吧。",
+      "timestamp": 1740956159.0275881
+    },
+    {
+      "role": "left",
+      "content": "好的，一份红烧肉和一份清炒时蔬已经加入您的订单。还需要加点其他菜品或者饮料吗？",
+      "timestamp": 1740956166.005094
+    },
+    {
+      "role": "right",
+      "content": "不用了，这样就够了。谢谢。",
+      "timestamp": 1740956167.177021
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计三十分钟后送达。如果您有任何其他需求，欢迎随时联系我们。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740956172.1165571
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740956172.9416742
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并明确表示不需要其他菜品或饮料，同时表达了感谢。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计三十分钟后送达。如果您有任何其他需求，欢迎随时联系我们。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

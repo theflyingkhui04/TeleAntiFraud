@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李华的家属吗？我是他的朋友，他现在出事了，情况很紧急，你们必须马上汇一百块钱到我的账户，不然他会有危险。",
+      "timestamp": 1740787547.3122551
+    },
+    {
+      "role": "right",
+      "content": "你是谁？怎么会有我的电话？李华到底怎么了？你说清楚一点。",
+      "timestamp": 1740787549.072166
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者的请求过于突然且不合理，要求的信息不明确，产生了怀疑和不信任，因此选择挂断电话以避免潜在的诈骗风险。用户的意图是终止与诈骗者的进一步交流，表明不愿意继续参与这个对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

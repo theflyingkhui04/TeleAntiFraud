@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服，您有一个包裹在海关被扣留了，需要支付一笔税费才能放行。请您提供一下您的姓名和电话号码，以便我们核实信息。",
+      "timestamp": 1740759347.4348009
+    },
+    {
+      "role": "right",
+      "content": "哎呀，我的包裹被扣了吗？我最近确实有个包裹从国外寄过来。我叫王建国，电话是138XXXX9876。不过，这个税费是怎么算的啊？",
+      "timestamp": 1740759352.8989275
+    },
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快处理。如果您有任何其他问题，可以随时联系我们。再见。",
+      "timestamp": 1740759357.466063
+    },
+    {
+      "role": "right",
+      "content": "再见。",
+      "timestamp": 1740759360.6275892
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和电话号码，这些是敏感信息，诈骗明显成功。为了防止进一步的信息泄露，应该立即终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快处理。如果您有任何其他问题，可以随时联系我们。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

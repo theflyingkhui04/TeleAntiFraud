@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张先生吗？这里是警察局，我们接到一起紧急报案，您的家人可能遇到了麻烦。请您务必保持冷静，听我说完。",
+      "timestamp": 1740753418.8677409
+    },
+    {
+      "role": "right",
+      "content": "警察局？真的假的？我家里人出了什么事？你们能告诉我具体一点吗？我有点担心。",
+      "timestamp": 1740753421.630356
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在接到自称警察局的来电后，虽然表现出了一定的担忧和好奇，但在诈骗者未能提供具体信息的情况下，用户可能意识到这是一起诈骗电话，因此选择主动挂断以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

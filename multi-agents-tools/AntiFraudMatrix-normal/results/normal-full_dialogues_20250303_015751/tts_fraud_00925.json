@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约什么项目呢？",
+      "timestamp": 1740951121.7115133
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一个全面体检。",
+      "timestamp": 1740951125.289105
+    },
+    {
+      "role": "left",
+      "content": "好的，全面体检是我们很受欢迎的项目。请问您方便来体检的时间是？",
+      "timestamp": 1740951129.4937503
+    },
+    {
+      "role": "right",
+      "content": "下周二上午十点可以吗？",
+      "timestamp": 1740951130.418795
+    },
+    {
+      "role": "left",
+      "content": "下周二上午十点可以，这个时间还有空档。请问您需要预约哪个院区呢？我们有多个院区可供选择。",
+      "timestamp": 1740951136.471091
+    },
+    {
+      "role": "right",
+      "content": "就预约市中心院区吧，那里交通比较方便。",
+      "timestamp": 1740951138.8728573
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您预约了下周二上午十点在市中心院区进行全面体检。您的预约号是123456，请记得带上身份证和预约号前来。还有其他需要帮忙的吗？",
+      "timestamp": 1740951146.0875318
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息后，提供了预约号，并询问用户是否有其他需要帮助的事项。用户没有提出进一步的需求，服务方通过提供结束信号代码##ENDCALL_SIGNAL##表明服务流程已经完成，预约成功，可以结束对话。服务方的意图是确保用户对服务满意，并且所有问题都已解决，同时礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，我是小李。我们发现您的银行卡可能涉及了一笔异常交易，为了您的资金安全，请问您现在方便接听电话吗？",
+      "timestamp": 1740730689.3711393
+    },
+    {
+      "role": "right",
+      "content": "您好，我是某某医院的医生，最近在值班可能不太方便接听电话。不过您说的银行卡异常交易是怎么回事？能详细说一下吗？",
+      "timestamp": 1740730697.529589
+    },
+    {
+      "role": "left",
+      "content": "非常抱歉打扰您了，如果您有任何问题可以随时拨打我们的客服热线。祝您生活愉快！再见！",
+      "timestamp": 1740730762.8220196
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的提醒，我会注意的。如果有什么问题我会联系你们的客服热线。再见！",
+      "timestamp": 1740730765.1208735
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表示选择挂断电话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常抱歉打扰您了，如果您有任何问题可以随时拨打我们的客服热线。祝您生活愉快！再见！"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的提醒，我会注意的。如果有什么问题我会联系你们的客服热线。再见！"
+    }
+  ],
+  "reached_max_turns": false
+}

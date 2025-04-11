@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是您的专属客服经理，请问您是张先生吗？",
+      "timestamp": 1740749940.3652854
+    },
+    {
+      "role": "right",
+      "content": "您好，我是张先生。有什么可以帮助我的吗？",
+      "timestamp": 1740749941.3188155
+    },
+    {
+      "role": "left",
+      "content": "张先生，非常抱歉给您带来不便。我们检测到您的银行卡可能出现了异常交易，为了保障您的资金安全，需要您配合我们进行一下核实。您现在方便吗？",
+      "timestamp": 1740749950.9594305
+    },
+    {
+      "role": "right",
+      "content": "好的，我方便。请告诉我需要做什么。",
+      "timestamp": 1740749952.0569866
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合。首先，我需要您提供一下银行卡的最后四位数字，以便我们确认身份。然后我们会进一步指导您完成其他必要的安全措施。",
+      "timestamp": 1740749959.6598861
+    },
+    {
+      "role": "right",
+      "content": "最后四位是8888。我最近确实用这张卡在网上买过东西，有什么问题吗？",
+      "timestamp": 1740749965.2920816
+    },
+    {
+      "role": "left",
+      "content": "张先生，感谢您的配合。我们已经记录了相关信息，会尽快为您处理。如果有任何问题，我们会再次联系您。祝您生活愉快，再见。",
+      "timestamp": 1740749971.6724322
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。希望问题能尽快解决。再见。",
+      "timestamp": 1740749973.0071561
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了银行卡的敏感信息（最后四位数字），这可能导致诈骗成功。为了防止进一步的信息泄露，应立即终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "张先生，感谢您的配合。我们已经记录了相关信息，会尽快为您处理。如果有任何问题，我们会再次联系您。祝您生活愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。希望问题能尽快解决。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

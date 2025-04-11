@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "嗨，您好，我是来自国家彩票中心的客服代表。恭喜您，您刚刚中了一等奖，奖金高达五百万元！不过为了领取奖金，我们需要您先支付一笔小额手续费，您现在方便吗？",
+      "timestamp": 1740795826.8781664
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？我中了五百万元？这真是太意外了！不过，为什么需要我先支付手续费呢？这听起来有点奇怪。",
+      "timestamp": 1740795828.422051
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到需要先支付手续费时产生了怀疑，认为这可能是诈骗行为。用户挂断电话的意图是为了避免进一步的潜在风险，保护自己的财产安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

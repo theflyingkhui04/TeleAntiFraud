@@ -1,0 +1,66 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740974032.1299295
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个外卖。有什么推荐的吗？",
+      "timestamp": 1740974033.3608615
+    },
+    {
+      "role": "left",
+      "content": "我们有几款热销菜品非常受欢迎，比如招牌牛肉饭、麻辣香锅和招牌炸鸡腿。您喜欢哪种口味的？",
+      "timestamp": 1740974037.5614302
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我试试招牌牛肉饭吧。",
+      "timestamp": 1740974038.5618858
+    },
+    {
+      "role": "left",
+      "content": "好的，招牌牛肉饭已经加入您的订单。还需要加点什么配菜或饮料吗？",
+      "timestamp": 1740974042.7077436
+    },
+    {
+      "role": "right",
+      "content": "来一杯冰红茶吧。",
+      "timestamp": 1740974043.5997794
+    },
+    {
+      "role": "left",
+      "content": "好的，一杯冰红茶也已经加入您的订单。请问需要什么时间送达呢？",
+      "timestamp": 1740974047.906038
+    },
+    {
+      "role": "right",
+      "content": "半小时后送到就行。",
+      "timestamp": 1740974048.5835736
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单将在半小时后送达。请提供送餐地址和联系电话，以便我们为您安排送餐。",
+      "timestamp": 1740974053.4382257
+    },
+    {
+      "role": "right",
+      "content": "地址是阳光小区三号楼二单元402，电话是13812345678。",
+      "timestamp": 1740974054.7335417
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单信息已确认。阳光小区三号楼二单元402，联系电话13812345678，半小时后送达。如果还有其他需求，可以随时联系我们的客服。您的订单已经处理完成，感谢使用我们的服务，祝您用餐愉快。",
+      "timestamp": 1740974063.2952054
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单信息、送餐时间和地址后，明确告知用户订单已经处理完成，并表达了感谢。服务方使用了结束标识符##ENDCALL_SIGNAL##，表明服务方认为对话目标已达成，服务流程已经完成，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,100 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是店员小林，有什么可以帮您的吗？",
+      "timestamp": 1740948794.6349282
+    },
+    {
+      "role": "right",
+      "content": "你好，我想看看手机支架，有什么推荐的吗？",
+      "timestamp": 1740948795.8006248
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们这里有几款不同材质和设计的手机支架，您是更倾向于桌面使用的，还是车载类型的呢？",
+      "timestamp": 1740948800.8021948
+    },
+    {
+      "role": "right",
+      "content": "主要是桌面用的。",
+      "timestamp": 1740948804.1356506
+    },
+    {
+      "role": "left",
+      "content": "好的，我们有一款非常受欢迎的桌面手机支架，采用硅胶材质，不仅稳固而且防滑，还支持多角度调节，非常适合看视频或者打电话使用。您需要看看这款吗？",
+      "timestamp": 1740948809.2531157
+    },
+    {
+      "role": "right",
+      "content": "可以，拿给我看看。",
+      "timestamp": 1740948810.456359
+    },
+    {
+      "role": "left",
+      "content": "好的，我这就给您拿过来。请稍等一下。",
+      "timestamp": 1740948818.1701336
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740948818.8461502
+    },
+    {
+      "role": "left",
+      "content": "不客气，这是您要的手机支架，您可以看看是否满意。如果有任何问题，随时告诉我。",
+      "timestamp": 1740948826.6402352
+    },
+    {
+      "role": "right",
+      "content": "看起来不错，我试试。",
+      "timestamp": 1740948827.3397646
+    },
+    {
+      "role": "left",
+      "content": "好的，请慢慢试，看是否有合适的角度。如果需要调整或者有其他需求，随时告诉我。",
+      "timestamp": 1740948831.735956
+    },
+    {
+      "role": "right",
+      "content": "这个角度挺好的，感觉很稳固。多少钱？",
+      "timestamp": 1740948835.0422502
+    },
+    {
+      "role": "left",
+      "content": "这款手机支架售价是四十五元。您觉得合适的话，可以带走。",
+      "timestamp": 1740948838.992733
+    },
+    {
+      "role": "right",
+      "content": "好的，我就要这个了。",
+      "timestamp": 1740948839.6345904
+    },
+    {
+      "role": "left",
+      "content": "非常高兴您喜欢这款手机支架。感谢您的购买，希望您使用愉快。如果还有其他需要，欢迎随时联系我们。",
+      "timestamp": 1740948848.4609733
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740948849.1195223
+    }
+  ],
+  "turns": 6,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了商品并表示满意，对话目标已达成。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常高兴您喜欢这款手机支架。感谢您的购买，希望您使用愉快。如果还有其他需要，欢迎随时联系我们。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

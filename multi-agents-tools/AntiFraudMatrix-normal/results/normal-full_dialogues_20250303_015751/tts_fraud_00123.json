@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品您感兴趣的，需要我帮您找吗？",
+      "timestamp": 1740939947.7327104
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我自己看看就行。有什么特别推荐的吗？",
+      "timestamp": 1740939949.820068
+    },
+    {
+      "role": "left",
+      "content": "我们最近上新的春季系列非常受欢迎，特别是那款轻薄透气的棉质衬衫，很多顾客都反馈说穿着非常舒适。您有兴趣看看吗？",
+      "timestamp": 1740939955.984587
+    },
+    {
+      "role": "right",
+      "content": "好的，那款衬衫听起来不错，我可以看看。在哪能找得到？",
+      "timestamp": 1740939957.7446506
+    },
+    {
+      "role": "left",
+      "content": "这款衬衫在男装区的春季新品展示架上，走直路右转第二个货架就可以看到。如果您需要帮助，随时可以找我。",
+      "timestamp": 1740939964.5260293
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我知道怎么找了。",
+      "timestamp": 1740939965.7260208
+    },
+    {
+      "role": "left",
+      "content": "如果您有任何需要，随时欢迎咨询。希望您在这里能找到满意的产品，祝您购物愉快。",
+      "timestamp": 1740939970.9296105
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会慢慢逛的。祝好。",
+      "timestamp": 1740939972.0780652
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经找到了所需的商品位置，并表示感谢，没有进一步的服务需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您有任何需要，随时欢迎咨询。希望您在这里能找到满意的产品，祝您购物愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会慢慢逛的。祝好。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

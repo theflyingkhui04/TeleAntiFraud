@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自财富投资咨询公司的李经理，最近我们发现您的投资组合有很大的增值空间，特地联系您提供一个独家的投资机会。",
+      "timestamp": 1740777686.3111045
+    },
+    {
+      "role": "right",
+      "content": "李经理，您好。投资机会听起来不错，但我最近工作挺忙的，没怎么关注这方面的信息。您能具体说说这个机会吗？我得看看是否有时间和精力去考虑。",
+      "timestamp": 1740777688.4263518
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了初步的兴趣，但同时表达了自己当前的忙碌状态和对信息的不确定性。用户可能挂断电话是为了结束当前的对话，避免进一步的纠缠，同时保留了未来可能联系的余地。用户的挂断并非完全拒绝，而是一种礼貌的中断方式，表明当前不是讨论此事的合适时机。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

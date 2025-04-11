@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的儿子小明的朋友，小明现在遇到麻烦了，他被几个坏人抓走了，他们要求支付一笔赎金才能放了他。",
+      "timestamp": 1740750875.2244537
+    },
+    {
+      "role": "right",
+      "content": "你说你是小明的朋友？这听起来太突然了，我需要确认一下。你能告诉我小明的全名和他的一些具体情况吗？比如他最近在做什么，或者你们是怎么认识的？",
+      "timestamp": 1740750878.5538247
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被绑架并要求支付赎金后，表现出了谨慎的态度，并要求提供更多的验证信息。诈骗者可能因为无法提供具体的验证信息而选择了挂断电话，以避免进一步的质疑。用户挂断电话的意图可能是为了保护自己不受诈骗，或者是因为意识到这可能是一个骗局。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

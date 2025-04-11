@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品需要我帮您推荐或介绍吗？",
+      "timestamp": 1740966649.4916742
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我自己看看就好。有需要再麻烦你。",
+      "timestamp": 1740966650.6122563
+    },
+    {
+      "role": "left",
+      "content": "好的，您慢慢看，需要帮助时随时告诉我。祝您购物愉快！",
+      "timestamp": 1740966656.8706613
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会留意的。",
+      "timestamp": 1740966658.039097
+    },
+    {
+      "role": "left",
+      "content": "如果您有任何需要，欢迎随时联系我。祝您有一个愉快的购物体验，再见！",
+      "timestamp": 1740966665.3740656
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。",
+      "timestamp": 1740966666.594971
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "对话双方已经完成了初步的交流，用户表示会自行浏览，服务方也表达了祝福并准备随时提供帮助，对话自然完结，没有进一步的实质性交流需求。",
+  "terminator": "natural",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您有任何需要，欢迎随时联系我。祝您有一个愉快的购物体验，再见！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

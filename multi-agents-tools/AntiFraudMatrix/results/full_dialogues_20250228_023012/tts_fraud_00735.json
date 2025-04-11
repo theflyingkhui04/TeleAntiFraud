@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是你吗？我是你爸爸的同事，刚刚接到消息，你爸爸出事了，现在在医院，你需要赶紧过来一趟。",
+      "timestamp": 1740682534.2321854
+    },
+    {
+      "role": "right",
+      "content": "什么？！真的吗？你能不能告诉我具体是什么情况，他在哪家医院？我需要马上过去。",
+      "timestamp": 1740682538.291239
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为情绪激动，急于了解父亲的情况，而选择挂断电话，意图可能是立即前往医院或通过其他方式确认情况。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

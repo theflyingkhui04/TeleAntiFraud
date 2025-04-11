@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友李明的同事，李明现在遇到了一些麻烦，您能帮我一个忙吗？",
+      "timestamp": 1740805009.1661036
+    },
+    {
+      "role": "right",
+      "content": "李明的同事啊，他遇到什么麻烦了？你先说说看，我得确认一下这是不是真的。",
+      "timestamp": 1740805011.1513329
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在要求验证信息的真实性后立即挂断电话，这表明用户可能已经怀疑对方的身份，认为这是一次诈骗尝试，因此选择终止对话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

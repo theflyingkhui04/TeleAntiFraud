@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是您的银行客服，我们检测到您的账户有异常活动，为了您的安全，请提供您的姓名和账户后四位数字，我们需要验证您的身份。",
+      "timestamp": 1740814477.759073
+    },
+    {
+      "role": "right",
+      "content": "你好，我叫李明，账户后四位数字是四千二百一十五。这到底是怎么回事啊？我最近确实没怎么用过这张卡。",
+      "timestamp": 1740814479.9718797
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，李明先生，我们已经记录了您的信息，会进一步调查此事。为了您的安全，建议您尽快更换账户密码。如果有任何问题，我们会及时与您联系。",
+      "timestamp": 1740814487.9888396
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。我会尽快去换密码的。",
+      "timestamp": 1740814489.4597812
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和账户后四位数字，诈骗明显成功。为了防止进一步的信息泄露，应立即终止对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，李明先生，我们已经记录了您的信息，会进一步调查此事。为了您的安全，建议您尽快更换账户密码。如果有任何问题，我们会及时与您联系。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。我会尽快去换密码的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

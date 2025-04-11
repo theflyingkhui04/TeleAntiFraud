@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的儿子的同学李明，他现在遇到了非常紧急的情况，被几个小混混扣住了，他们要我们付一笔钱才能放人。时间非常紧，您必须马上行动，不然就来不及了。您能帮帮我们吗？",
+      "timestamp": 1740737581.523551
+    },
+    {
+      "role": "right",
+      "content": "李明，你先冷静一下。你说的情况太严重了，我需要确认一下。你能告诉我具体是怎样的吗？还有，你有办法联系到我儿子吗？",
+      "timestamp": 1740737584.3605273
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的情况后，表现出谨慎的态度，并要求提供更多具体信息以确认情况的真实性。用户可能怀疑这是一起诈骗，因此选择挂断电话以避免进一步的风险。用户的意图是保护自己不受潜在的诈骗行为侵害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

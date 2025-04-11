@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询客服为您服务，有什么可以帮您的吗？",
+      "timestamp": 1740968482.9972334
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从市中心到机场的最快路线。谢谢。",
+      "timestamp": 1740968484.7204485
+    },
+    {
+      "role": "left",
+      "content": "从市中心到机场最快的方式是乘坐机场快线，大约需要三十分钟。如果选择开车，建议走高速路，正常情况下大约需要四十分钟。您需要了解具体的路线或者公交、地铁线路吗？",
+      "timestamp": 1740968490.3708944
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。那机场快线的票价是多少呢？还有，末班车时间是什么时候？",
+      "timestamp": 1740968492.6155374
+    },
+    {
+      "role": "left",
+      "content": "机场快线的票价是五十元，末班车时间是晚上十点半。如果您有任何特殊情况或者需要更详细的信息，可以随时告诉我。",
+      "timestamp": 1740968500.8554971
+    },
+    {
+      "role": "right",
+      "content": "知道了，谢谢你的帮助。如果有什么变动，我会再联系你们。",
+      "timestamp": 1740968502.161316
+    },
+    {
+      "role": "left",
+      "content": "已经帮您确认了机场快线的票价和末班车时间，希望这些信息对您有帮助。祝您旅途愉快！",
+      "timestamp": 1740968511.0194752
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740968512.0404823
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表示如果需要更多信息会再次联系，这表明当前的咨询需求已经满足。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "已经帮您确认了机场快线的票价和末班车时间，希望这些信息对您有帮助。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

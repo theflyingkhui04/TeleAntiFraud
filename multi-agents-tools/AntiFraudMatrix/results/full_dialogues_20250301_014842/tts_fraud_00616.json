@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的邻居张阿姨的儿子，小强。您家的李阿姨（假设是对方的家人）刚刚在我这里出了点事，她现在在医院，情况有些紧急，您能过来一趟吗？",
+      "timestamp": 1740793040.3512113
+    },
+    {
+      "role": "right",
+      "content": "哎呀，小强，你说什么？李阿姨出事了？她怎么了？我马上过去，你先照顾好她，我一会儿就到。",
+      "timestamp": 1740793042.141907
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在得知家人出事的消息后，表现出极大的担忧和焦虑，立即表示会赶往医院。用户挂断电话的原因可能是为了尽快前往医院，而不是因为识破了诈骗。这种情况下，用户可能并未意识到这是一个诈骗电话，而是出于对家人的关心而迅速行动。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

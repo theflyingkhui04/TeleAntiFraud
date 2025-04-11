@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎咨询我们的客服，有什么问题我可以帮您解决呢？",
+      "timestamp": 1740945190.8335385
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下你们的课程安排。",
+      "timestamp": 1740945191.5219765
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们目前提供多种课程，包括基础班、进阶班和兴趣班，您具体想了解哪个班级的安排呢？",
+      "timestamp": 1740945198.3201318
+    },
+    {
+      "role": "right",
+      "content": "我想了解一下基础班的安排。",
+      "timestamp": 1740945199.1864283
+    },
+    {
+      "role": "left",
+      "content": "基础班每周一、三、五上午九点到十一点上课，每节课后都有作业和小测验，以帮助学员巩固学习内容。请问您还有其他方面需要了解的吗？",
+      "timestamp": 1740945206.0437903
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。那报名流程是怎样的？",
+      "timestamp": 1740945207.1071076
+    },
+    {
+      "role": "left",
+      "content": "报名流程很简单，您可以通过我们的官方网站或微信公众号填写报名表，提交后会有工作人员与您联系确认信息并完成付款。如果您有任何疑问，也可以直接联系我们客服，我们会为您提供详细的指导。",
+      "timestamp": 1740945212.6864622
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的帮助。",
+      "timestamp": 1740945213.3302903
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果决定报名或有任何其他问题，随时欢迎联系我们。祝您有美好的一天！",
+      "timestamp": 1740945220.3935142
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝你也有个美好的一天。",
+      "timestamp": 1740945221.3273187
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户在最后一轮对话中表达了对服务的满意，并且没有进一步的问题，表明对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果决定报名或有任何其他问题，随时欢迎联系我们。祝您有美好的一天！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝你也有个美好的一天。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

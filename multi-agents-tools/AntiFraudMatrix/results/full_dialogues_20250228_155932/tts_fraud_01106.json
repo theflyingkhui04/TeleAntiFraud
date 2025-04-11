@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是招商银行的客服人员，工号五零二六，我们监测到您的银行卡可能在境外有异常交易，为了您的资金安全，请您提供一下身份证号，我们需要核对一下信息。",
+      "timestamp": 1740747949.0956292
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近确实没出国，这可怎么办？那我得赶紧配合你们查清楚。我的身份证号是三十一零零一九六零一零一零二三一。",
+      "timestamp": 1740747953.5233355
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们已经记录了您的信息，会进一步调查此事。如果有任何问题，我们会尽快联系您。请您保持通讯畅通。",
+      "timestamp": 1740747961.3748977
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，我会留意电话的。",
+      "timestamp": 1740747962.4575362
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（身份证号），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们已经记录了您的信息，会进一步调查此事。如果有任何问题，我们会尽快联系您。请您保持通讯畅通。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，我会留意电话的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

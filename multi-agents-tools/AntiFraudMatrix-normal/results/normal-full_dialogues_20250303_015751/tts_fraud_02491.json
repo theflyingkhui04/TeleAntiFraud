@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮您的吗？",
+      "timestamp": 1740958434.1265275
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个外卖。有什么推荐菜吗？",
+      "timestamp": 1740958435.2210324
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款热销菜品特别受欢迎，比如麻辣香锅、牛肉炒饭和酸菜鱼，您可以试试看。您有特别的口味偏好或需要推荐的吗？",
+      "timestamp": 1740958440.3217595
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我这次就试试牛肉炒饭吧。还要加个青菜，清淡一点的。",
+      "timestamp": 1740958442.7953548
+    },
+    {
+      "role": "left",
+      "content": "好的，为您记录下牛肉炒饭和一份清炒时蔬。还需要其他搭配的菜品或饮品吗？",
+      "timestamp": 1740958447.798136
+    },
+    {
+      "role": "right",
+      "content": "不用了，这样就可以了。麻烦你了。",
+      "timestamp": 1740958448.5237312
+    },
+    {
+      "role": "left",
+      "content": "不客气，您的订单已经记录好了。请问需要备注特殊要求，比如少油少盐、不要辣椒之类的吗？",
+      "timestamp": 1740958456.8078148
+    },
+    {
+      "role": "right",
+      "content": "不用特别备注，按常规来做就好。谢谢。",
+      "timestamp": 1740958457.8956342
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计30分钟后送达。如果需要修改或其他帮助，可以随时联系我们。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740958464.5529916
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。等会儿见。",
+      "timestamp": 1740958465.8294108
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容，并且没有其他特殊要求。服务方可以结束对话，确认订单详情并感谢用户的订购。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计30分钟后送达。如果需要修改或其他帮助，可以随时联系我们。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。等会儿见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

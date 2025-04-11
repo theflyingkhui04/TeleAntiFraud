@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的打车服务助手，有什么可以帮助您的吗？",
+      "timestamp": 1740967771.06374
+    },
+    {
+      "role": "right",
+      "content": "您好，我需要从医院回家，麻烦帮我叫一辆车。",
+      "timestamp": 1740967772.5004897
+    },
+    {
+      "role": "left",
+      "content": "好的，我马上为您叫车。请问您现在具体在哪家医院，以及您的目的地是哪里？",
+      "timestamp": 1740967780.9620163
+    },
+    {
+      "role": "right",
+      "content": "我在市立医院，家住在绿景花园小区。",
+      "timestamp": 1740967782.17952
+    },
+    {
+      "role": "left",
+      "content": "好的，我已经记录下您的信息。市立医院到绿景花园小区大约需要15分钟的车程。我会立即为您叫车，预计3到5分钟内会有司机联系您。请问还有其他需要帮忙的吗？",
+      "timestamp": 1740967791.133854
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。不需要其他帮助了。",
+      "timestamp": 1740967792.5219722
+    },
+    {
+      "role": "left",
+      "content": "好的，您的车已经叫好了，大约3到5分钟内会有司机联系您。如果需要任何其他帮助，随时欢迎联系。祝您一路顺利，再见。",
+      "timestamp": 1740967800.8823416
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740967802.3938887
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示不需要其他帮助，并且服务方已经提供了所需的服务，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的车已经叫好了，大约3到5分钟内会有司机联系您。如果需要任何其他帮助，随时欢迎联系。祝您一路顺利，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

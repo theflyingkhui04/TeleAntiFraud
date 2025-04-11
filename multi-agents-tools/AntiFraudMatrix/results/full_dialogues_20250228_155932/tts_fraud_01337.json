@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服，我们检测到您的包裹可能包含了违禁品，需要您配合我们进行进一步核实。您现在方便吗？",
+      "timestamp": 1740755410.5996563
+    },
+    {
+      "role": "right",
+      "content": "哦，您好。我最近确实收到了一个包裹，但我不知道里面有什么违禁品。你们能告诉我具体是什么吗？",
+      "timestamp": 1740755414.416411
+    },
+    {
+      "role": "left",
+      "content": "当然可以。根据我们的初步检查，包裹内可能含有假冒化妆品。为了确保您的权益，我们需要您提供一些个人信息进行核实。请问您可以提供您的姓名和联系电话吗？",
+      "timestamp": 1740755424.5678809
+    },
+    {
+      "role": "right",
+      "content": "假冒化妆品？这可真奇怪，我一般是不会买这种东西的。不过，既然你们说需要核实，那我就配合一下吧。我的名字是张伟，电话是这个号码没错。接下来我该怎么做呢？",
+      "timestamp": 1740755433.234881
+    },
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息。我们会进一步核实并尽快联系您。感谢您的配合，祝您生活愉快。再见。",
+      "timestamp": 1740755440.3341408
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦你们了。希望这件事能尽快解决。再见。",
+      "timestamp": 1740755441.6281781
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和联系电话，属于敏感信息，诈骗明显成功。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息。我们会进一步核实并尽快联系您。感谢您的配合，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦你们了。希望这件事能尽快解决。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

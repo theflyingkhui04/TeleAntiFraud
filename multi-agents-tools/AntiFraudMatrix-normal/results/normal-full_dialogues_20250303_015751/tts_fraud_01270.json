@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想订哪家餐厅的餐吗？",
+      "timestamp": 1740948233.3609188
+    },
+    {
+      "role": "right",
+      "content": "我想订个附近的中餐馆，有什么推荐的吗？",
+      "timestamp": 1740948235.5950031
+    },
+    {
+      "role": "left",
+      "content": "附近的中餐馆有几家评价不错，比如老北京炸酱面、川味轩和粤乡楼，您对哪种口味比较感兴趣呢？",
+      "timestamp": 1740948240.755751
+    },
+    {
+      "role": "right",
+      "content": "川味轩听起来不错，我喜欢吃辣的。就订这家吧。",
+      "timestamp": 1740948242.4494238
+    },
+    {
+      "role": "left",
+      "content": "好的，川味轩是一家非常受欢迎的川菜馆。您想要订些什么菜品呢？他们家的麻辣香锅和水煮牛肉是招牌菜，非常推荐。",
+      "timestamp": 1740948249.4730287
+    },
+    {
+      "role": "right",
+      "content": "那我就试试水煮牛肉吧，再来个青椒肉丝。",
+      "timestamp": 1740948250.8367133
+    },
+    {
+      "role": "left",
+      "content": "好的，水煮牛肉和青椒肉丝都已加入您的订单。还需要点其他的菜或者饮料吗？",
+      "timestamp": 1740948256.7401583
+    },
+    {
+      "role": "right",
+      "content": "不用了，这些就够了。谢谢。",
+      "timestamp": 1740948257.827385
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，水煮牛肉和青椒肉丝将会尽快为您准备。预计送达时间大约是三十分钟，感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740948265.916622
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740948269.71481
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并明确表示不需要再点其他菜品或饮料，同时表达了感谢，这表明用户的需求已经得到满足，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，水煮牛肉和青椒肉丝将会尽快为您准备。预计送达时间大约是三十分钟，感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

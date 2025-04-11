@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约什么项目？",
+      "timestamp": 1740944500.448464
+    },
+    {
+      "role": "right",
+      "content": "您好，我不太清楚这里的服务项目，我是来帮朋友咨询的。能麻烦您给我介绍一下吗？",
+      "timestamp": 1740944502.3545341
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话开始后立即提供了结束信号代码 '##ENDCALL_SIGNAL##'，这表明用户可能在发送消息前改变了主意，或者遇到了外部因素导致不再需要咨询服务。用户的意图可能是出于礼貌先尝试询问，但在发送消息前已经决定不再继续对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

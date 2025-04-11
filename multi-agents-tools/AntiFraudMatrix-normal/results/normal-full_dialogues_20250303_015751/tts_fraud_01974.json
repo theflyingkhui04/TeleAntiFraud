@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的预约服务助理，可以帮助您预约各项服务，请问您需要预约什么服务呢？",
+      "timestamp": 1740982590.7427876
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约一个管道维修服务。",
+      "timestamp": 1740982592.0814126
+    },
+    {
+      "role": "left",
+      "content": "好的，管道维修服务预约已为您准备好。请问您方便提供一下详细的地址和联系方式吗？",
+      "timestamp": 1740982598.0250988
+    },
+    {
+      "role": "right",
+      "content": "地址是123号街456号，电话是123-456-7890。",
+      "timestamp": 1740982600.700674
+    },
+    {
+      "role": "left",
+      "content": "谢谢您提供信息。请问您希望我们什么时候上门服务呢？",
+      "timestamp": 1740982604.4432297
+    },
+    {
+      "role": "right",
+      "content": "明天上午十点可以吗？",
+      "timestamp": 1740982605.1074338
+    },
+    {
+      "role": "left",
+      "content": "明天上午十点可以安排。我们将准时派遣技术人员上门服务。这是您的预约编号：A123456，您也会收到确认短信。需要提醒或更改预约时间，请随时联系我们。还有其他需要帮助的吗？",
+      "timestamp": 1740982613.7544558
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息并提供了预约编号后，询问用户是否还有其他需要帮助的事项。用户没有回应其他需求，服务方在提供了联系方式和后续服务说明后，使用了结束信号代码##ENDCALL_SIGNAL##，表明服务方认为服务流程已经完成，用户的需求得到了满足，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

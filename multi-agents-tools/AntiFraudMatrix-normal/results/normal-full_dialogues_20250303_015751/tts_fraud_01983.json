@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询助手，可以帮助您查询路线、公共交通信息等，有什么我可以帮您的吗？",
+      "timestamp": 1740939574.165991
+    },
+    {
+      "role": "right",
+      "content": "好的，我想知道从我家到市中心怎么走最方便。我家住在幸福路 123 号。",
+      "timestamp": 1740939576.1323957
+    },
+    {
+      "role": "left",
+      "content": "从幸福路 123 号到市中心，您可以选择乘坐公交 101 路直达，或者打车，大约需要二十分钟。您想了解更详细的路线吗？",
+      "timestamp": 1740939580.418183
+    },
+    {
+      "role": "right",
+      "content": "不用了，公交 101 路直达挺方便的，谢谢。",
+      "timestamp": 1740939581.8062892
+    },
+    {
+      "role": "left",
+      "content": "我已经为您提供了从幸福路 123 号到市中心的路线，如果您没有其他问题，希望这些信息对您有帮助，祝您旅途愉快。",
+      "timestamp": 1740939588.4392948
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。",
+      "timestamp": 1740939589.48323
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示已经获得了所需信息，并表达了感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "我已经为您提供了从幸福路 123 号到市中心的路线，如果您没有其他问题，希望这些信息对您有帮助，祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

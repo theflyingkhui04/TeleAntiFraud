@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的儿子小明的朋友，现在情况非常紧急，小明被一伙人绑架了，他们要求我们支付赎金才能放人，您能马上汇款吗？",
+      "timestamp": 1740784948.167653
+    },
+    {
+      "role": "right",
+      "content": "什么？小明被绑架了？这怎么可能？你能不能先告诉我详细的情况，你说的这伙人是谁？他们有什么要求？",
+      "timestamp": 1740784949.69788
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被绑架并要求立即汇款后，表现出明显的怀疑和不安。用户要求提供更多的详细信息，但诈骗者可能意识到用户已经开始怀疑，因此选择了挂断电话。用户的意图可能是希望通过询问更多细节来验证情况的真实性，而诈骗者为了避免进一步的质疑选择了结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

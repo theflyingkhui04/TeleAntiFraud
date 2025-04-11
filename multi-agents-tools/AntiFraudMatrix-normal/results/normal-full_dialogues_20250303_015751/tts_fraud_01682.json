@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮您的？",
+      "timestamp": 1740940273.9142463
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份午餐，有什么推荐的吗？",
+      "timestamp": 1740940274.8621547
+    },
+    {
+      "role": "left",
+      "content": "我们今天的特色菜是宫保鸡丁和鱼香肉丝，搭配我们的招牌米饭，非常受欢迎。您感兴趣吗？",
+      "timestamp": 1740940278.6113222
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来一份宫保鸡丁和一份招牌米饭吧。还有什么配菜推荐吗？",
+      "timestamp": 1740940280.1508956
+    },
+    {
+      "role": "left",
+      "content": "您可以试试我们的凉拌黄瓜和酸辣土豆丝，都是非常清爽的配菜，很适合搭配宫保鸡丁。",
+      "timestamp": 1740940283.4665337
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，那就再加一份凉拌黄瓜吧。谢谢推荐。",
+      "timestamp": 1740940284.208936
+    },
+    {
+      "role": "left",
+      "content": "不客气，您的选择很棒。还需要帮您准备些什么吗？比如饮料或甜点？",
+      "timestamp": 1740940287.9691756
+    },
+    {
+      "role": "right",
+      "content": "来一杯冰红茶吧，甜点就不需要了，谢谢。",
+      "timestamp": 1740940288.8608677
+    },
+    {
+      "role": "left",
+      "content": "好的，您的一份宫保鸡丁、一份招牌米饭、一份凉拌黄瓜和一杯冰红茶已经记录好了。请问还有其他需要补充的吗？",
+      "timestamp": 1740940292.5439057
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的订单后，询问用户是否有其他需要补充的。在用户表示没有其他需求后，服务方通过发送结束信号代码##ENDCALL_SIGNAL##来结束对话，表明服务方认为订单已经完整，服务目标达成，对话可以自然结束。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

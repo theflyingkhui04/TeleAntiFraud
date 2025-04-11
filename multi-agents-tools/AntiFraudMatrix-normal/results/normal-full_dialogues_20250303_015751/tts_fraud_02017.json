@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么我可以帮您的吗？",
+      "timestamp": 1740970278.4214246
+    },
+    {
+      "role": "right",
+      "content": "你好，我想买点治咳嗽的药。",
+      "timestamp": 1740970279.59422
+    },
+    {
+      "role": "left",
+      "content": "好的，我们这里有多种治疗咳嗽的药物，您能告诉我您的具体症状吗？比如是干咳还是有痰，这样我可以为您推荐更合适的药物。",
+      "timestamp": 1740970285.77933
+    },
+    {
+      "role": "right",
+      "content": "是干咳，已经持续几天了。",
+      "timestamp": 1740970287.4150534
+    },
+    {
+      "role": "left",
+      "content": "了解了，对于干咳，我推荐您尝试一下我们这里的止咳糖浆，它含有止咳成分，能够缓解您的症状。您需要我为您准备一盒吗？",
+      "timestamp": 1740970292.8117876
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来一盒吧。谢谢。",
+      "timestamp": 1740970294.179301
+    },
+    {
+      "role": "left",
+      "content": "好的，我会为您准备好止咳糖浆。您可以在收银台付款后取药，希望您早日康复。如果还有其他需要，请随时告诉我。",
+      "timestamp": 1740970302.9461617
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740970304.345377
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经接受了服务方的建议，并表示感谢，表明用户的需求已经得到满足。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我会为您准备好止咳糖浆。您可以在收银台付款后取药，希望您早日康复。如果还有其他需要，请随时告诉我。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

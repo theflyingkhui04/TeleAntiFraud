@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您，您已被系统随机抽中为本期幸运用户，将获得50万元现金大奖！请提供您的姓名和身份证号码以便我们核实身份。",
+      "timestamp": 1740688044.67452
+    },
+    {
+      "role": "right",
+      "content": "啊？真的吗？50万这么多啊！不过...我听说现在诈骗挺多的，你这个不会是骗人的吧？我得先问问家里人再决定。",
+      "timestamp": 1740688049.197079
+    },
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。",
+      "timestamp": 1740688061.0035965
+    },
+    {
+      "role": "right",
+      "content": "您能理解我的顾虑吧？我年纪大了，这种事情还是得慎重一些。我得先和我儿子商量一下，看看他说怎么办。",
+      "timestamp": 1740688063.574015
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在用户表示怀疑并要求进一步确认时选择了挂断，表明诈骗者意识到继续对话可能无法成功。根据挂断标识符'##ENDCALL_SIGNAL##'，对话应在此处终止。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。"
+    },
+    {
+      "role": "right",
+      "content": "您能理解我的顾虑吧？我年纪大了，这种事情还是得慎重一些。我得先和我儿子商量一下，看看他说怎么办。"
+    }
+  ],
+  "reached_max_turns": false
+}

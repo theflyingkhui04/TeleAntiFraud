@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服专员，张经理。我们发现您的账户可能存在安全隐患，需要您配合我们进行一次身份验证，以确保您的资金安全。请问您现在方便吗？",
+      "timestamp": 1740817178.6882374
+    },
+    {
+      "role": "right",
+      "content": "您好，张经理。我最近确实收到过一些奇怪的短信，说我的账户有问题。那我现在就配合您进行身份验证吧。要怎么操作呢？",
+      "timestamp": 1740817181.4449005
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一起诈骗电话，因为诈骗者在对话开始时就提供了明确的挂断信号代码（##ENDCALL_SIGNAL##）。用户在察觉到异常后，选择了主动挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

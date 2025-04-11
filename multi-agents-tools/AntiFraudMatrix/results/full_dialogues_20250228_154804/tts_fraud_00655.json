@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，王先生吗？我是小李的朋友，小李现在出事了，他被一帮人扣住了，你必须马上给我们打五万块钱，不然他们就要对小李下手了。",
+      "timestamp": 1740738869.0671928
+    },
+    {
+      "role": "right",
+      "content": "什么？小李出事了？你快告诉我这是怎么回事，他在哪儿？我得去找他。",
+      "timestamp": 1740738871.7020297
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为急切想要了解小李的具体情况和位置，认为通过当前电话无法获得有效信息，因此选择挂断电话，意图可能是立即寻找其他方式联系小李或直接前往可能的地点。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

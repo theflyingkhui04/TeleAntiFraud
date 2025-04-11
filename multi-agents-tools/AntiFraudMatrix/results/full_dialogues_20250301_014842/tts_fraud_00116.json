@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您儿子的大学同学，现在情况非常紧急，您的儿子刚刚在学校被几个坏人绑架了，他们要求我们立刻支付一笔赎金，不然就要对您的儿子不利，您能马上汇款吗？",
+      "timestamp": 1740771855.2895188
+    },
+    {
+      "role": "right",
+      "content": "你、你是谁啊？我儿子他怎么了？你快告诉我，他现在在哪里？",
+      "timestamp": 1740771857.6374295
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被绑架并要求立即汇款时，表现出明显的惊慌和不安。用户可能因为无法立即确认信息的真实性，且诈骗者的要求过于紧急和不合理，导致用户选择挂断电话以避免进一步的风险。用户的意图可能是为了保护自己不受诈骗，同时可能也会通过其他方式（如联系儿子或学校）来确认情况的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是您的购物顾问，请问有什么商品您需要了解或购买吗？",
+      "timestamp": 1740978654.7659228
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我不需要买什么，只是随便看看。",
+      "timestamp": 1740978656.124522
+    },
+    {
+      "role": "left",
+      "content": "感谢您的光临，如果您有任何其他需要或疑问，欢迎随时联系我们。希望您购物愉快。",
+      "timestamp": 1740978663.765087
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一天愉快。",
+      "timestamp": 1740978665.5705223
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示不需要购买商品，只是随便看看，表明其没有进一步的咨询或购买需求。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的光临，如果您有任何其他需要或疑问，欢迎随时联系我们。希望您购物愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一天愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

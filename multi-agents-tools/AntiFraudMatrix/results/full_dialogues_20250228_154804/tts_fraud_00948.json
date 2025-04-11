@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是国家税务局的客服中心，我是李文。我们发现您最近有一笔税收减免的资格，但需要您配合我们进行身份验证，以确保信息的准确性。您现在方便吗？",
+      "timestamp": 1740744949.9774733
+    },
+    {
+      "role": "right",
+      "content": "您好，李文。我最近确实听说有税收减免的政策，但我对这些事情不太了解。您能告诉我具体是怎么回事吗？还有，我怎么确认这是真的呢？",
+      "timestamp": 1740744952.3419194
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认对方身份时提出了疑问，并表达了对信息真实性的担忧。用户可能怀疑这是一起诈骗电话，因此选择主动挂断以避免进一步的风险。这表明用户具有一定的防骗意识，能够在不确定的情况下采取保护自己的措施。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

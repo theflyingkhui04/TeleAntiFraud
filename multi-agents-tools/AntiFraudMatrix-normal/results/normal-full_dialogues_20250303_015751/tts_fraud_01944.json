@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎咨询客服，有什么问题我可以帮您解答？",
+      "timestamp": 1740947428.191269
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我想了解一下你们的健康咨询服务。",
+      "timestamp": 1740947429.4095242
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们的健康咨询服务包括在线医生咨询、健康档案管理、健康知识科普等内容，您可以根据需要选择适合的服务项目。",
+      "timestamp": 1740947435.0304706
+    },
+    {
+      "role": "right",
+      "content": "听起来不错。这些服务都需要付费吗？",
+      "timestamp": 1740947435.9222047
+    },
+    {
+      "role": "left",
+      "content": "是的，不同的服务项目有不同的收费标准，例如在线医生咨询每次大约需要支付五十九元，健康档案管理则是每月九元的订阅费用。您可以根据自己的需求选择合适的服务。",
+      "timestamp": 1740947443.7639356
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢。我会考虑一下。",
+      "timestamp": 1740947444.9113665
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的咨询，如果您决定使用我们的健康咨询服务，可以直接通过官网或客服热线进行预约。如果有任何其他问题，也欢迎随时联系我们。祝您健康！",
+      "timestamp": 1740947450.7888987
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一切顺利。",
+      "timestamp": 1740947451.8070617
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示已经了解了所需信息，并明确表示了感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的咨询，如果您决定使用我们的健康咨询服务，可以直接通过官网或客服热线进行预约。如果有任何其他问题，也欢迎随时联系我们。祝您健康！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一切顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

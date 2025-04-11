@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的孩子在我的手上，如果不想看到他的尸体，立刻准备五十万现金，不准报警，否则你永远见不到他了！",
+      "timestamp": 1740738769.6428668
+    },
+    {
+      "role": "right",
+      "content": "你别吓我，我怎么可能有五十万，你让我怎么办啊？你先别伤害他，我们好好商量一下行不行？",
+      "timestamp": 1740738774.8516352
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者提出的高额赎金要求时，表现出明显的恐惧和无助，同时试图与诈骗者沟通以确保孩子的安全。然而，诈骗者没有给予用户任何缓和的机会，直接挂断了电话。用户的挂断可能是出于绝望，认为无法满足诈骗者的要求，或是为了保护自己和家人免受进一步的威胁。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

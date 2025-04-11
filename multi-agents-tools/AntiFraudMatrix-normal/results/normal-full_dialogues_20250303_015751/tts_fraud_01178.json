@@ -1,0 +1,51 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是这里的导购员，有什么可以帮您的吗？",
+      "timestamp": 1740966080.671432
+    },
+    {
+      "role": "right",
+      "content": "你好，我随便看看，谢谢。",
+      "timestamp": 1740966081.623752
+    },
+    {
+      "role": "left",
+      "content": "好的，没问题。如果您有任何需要，随时告诉我。这边是我们最新款的商品，您可以看看是否感兴趣。",
+      "timestamp": 1740966087.0412974
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会看看这些新款的。",
+      "timestamp": 1740966089.070264
+    },
+    {
+      "role": "left",
+      "content": "不客气，慢慢看，如果有任何疑问或需要进一步的帮助，随时告诉我。希望您能找到喜欢的商品。",
+      "timestamp": 1740966094.0377574
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的耐心。我会慢慢挑的。",
+      "timestamp": 1740966095.1482155
+    },
+    {
+      "role": "left",
+      "content": "您太客气了，我会在这里等候，有任何需要随时叫我。祝您挑选愉快。",
+      "timestamp": 1740966100.2205226
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740966102.4330304
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表示了感谢，并明确使用了结束信号代码'##ENDCALL_SIGNAL##'，表明其已经完成了浏览，对当前的服务感到满意，没有进一步的需求或问题需要解决。用户的意图是礼貌地结束对话，表示对服务的认可和满意。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

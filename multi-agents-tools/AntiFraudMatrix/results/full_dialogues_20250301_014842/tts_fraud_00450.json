@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你好，我是警察局的，你听我说，你儿子现在在我们这里，他刚刚出了一点意外，情况非常紧急，你必须立即按照我说的做，不然后果不堪设想。",
+      "timestamp": 1740788842.4379044
+    },
+    {
+      "role": "right",
+      "content": "您好，警察同志，你说我儿子出意外了？这到底是怎么回事？我儿子他现在怎么样了？他有没有受伤？你们能不能让我先和他说句话？我得确认一下。",
+      "timestamp": 1740788844.5423055
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子出意外后，表现出明显的担忧和怀疑，要求直接与儿子通话以确认情况的真实性。由于诈骗者无法提供直接与儿子通话的机会，用户可能意识到这是一起诈骗，因此选择主动挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

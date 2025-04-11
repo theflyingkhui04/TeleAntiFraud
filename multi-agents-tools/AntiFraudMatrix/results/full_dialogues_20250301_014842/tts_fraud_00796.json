@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张伟吗？我是你儿子的同学李强，你儿子被我们带走了，你必须马上给我们打五万块钱，不然你儿子会有危险。你别报警，也别告诉任何人，快点，时间不多了。你有没有准备好？",
+      "timestamp": 1740789923.5332506
+    },
+    {
+      "role": "right",
+      "content": "你等一下，你真的是李强吗？你怎么会带走我儿子？这到底是怎么回事？我需要确认一下，你给我个账号，我看看能不能联系到我儿子。",
+      "timestamp": 1740789925.3940964
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者的要求后，表现出怀疑和警惕，要求提供更多信息以确认情况的真实性。用户挂断电话可能是出于对诈骗的怀疑，意图是中断与诈骗者的联系，避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

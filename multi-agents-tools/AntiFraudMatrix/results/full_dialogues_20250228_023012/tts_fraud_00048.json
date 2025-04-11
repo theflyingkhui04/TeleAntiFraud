@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行的客服中心，我是小李。我们检测到您的账户有异常活动，为了避免您的资金安全受到威胁，我们需要立即采取措施。请您提供一下账户的最后四位数字以便我们核实身份。",
+      "timestamp": 1740683860.5249186
+    },
+    {
+      "role": "right",
+      "content": "哦，好的。我账户的最后四位是4567。最近确实感觉银行账户有点奇怪，谢谢你们提醒我。",
+      "timestamp": 1740683864.4978895
+    },
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快处理。感谢您的配合，祝您生活愉快。",
+      "timestamp": 1740683871.5290427
+    },
+    {
+      "role": "right",
+      "content": "谢谢你，小李。希望我的账户能赶快恢复正常。再见。",
+      "timestamp": 1740683875.2299223
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗明显成功，用户已提供敏感信息（账户的最后四位数字），诈骗者已获取足够信息。",
+  "terminator": "诈骗者结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快处理。感谢您的配合，祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢你，小李。希望我的账户能赶快恢复正常。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

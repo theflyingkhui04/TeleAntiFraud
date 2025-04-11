@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您所在银行的客服专员，小张。我们发现您的账户有异常活动，需要立即核实。为了您的资金安全，请您配合我们进行身份确认。首先，请告诉我您的全名和开户时使用的电话号码。",
+      "timestamp": 1740730908.0555894
+    },
+    {
+      "role": "right",
+      "content": "哦，好的，我叫李华，电话是138xxxx8888。不过我最近没发现账户有什么问题啊，是不是搞错了？",
+      "timestamp": 1740730917.3146424
+    },
+    {
+      "role": "left",
+      "content": "好的，我已经记录了您的信息，我们会进一步处理并确保您的账户安全。感谢您的配合，再见。",
+      "timestamp": 1740730928.894369
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，希望你们能快点查清楚。再见。",
+      "timestamp": 1740730952.5870147
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和电话号码，这是敏感信息，诈骗明显成功。为了防止进一步的信息泄露，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我已经记录了您的信息，我们会进一步处理并确保您的账户安全。感谢您的配合，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，希望你们能快点查清楚。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

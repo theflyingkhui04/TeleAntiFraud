@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您中了我们公司举办的全国幸运抽奖活动，您被随机选中获得一等奖，奖金高达五十万元！请问您方便现在确认领奖信息吗？",
+      "timestamp": 1740740501.248831
+    },
+    {
+      "role": "right",
+      "content": "您好，这个消息听起来确实很诱人，但我需要确认一下，这个抽奖活动是不是需要我事先报名或者有什么特定的参与条件？另外，我怎么确认这是真的呢？",
+      "timestamp": 1740740515.5150552
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提供的中奖信息后，表现出了谨慎的态度，要求确认活动的参与条件以及中奖的真实性。这表明用户对信息的真实性持怀疑态度，并可能已经意识到这可能是一个诈骗电话。用户主动挂断电话，可能是为了中断进一步的交流，避免提供任何个人信息，同时也表明了用户不愿意继续参与这一可能的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

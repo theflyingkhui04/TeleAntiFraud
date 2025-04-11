@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您需要预订什么餐品？",
+      "timestamp": 1740965562.3799503
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预订一份素食套餐，有什么推荐的吗？",
+      "timestamp": 1740965563.6960006
+    },
+    {
+      "role": "left",
+      "content": "当然，我们有几款非常受欢迎的素食套餐，比如“田园时蔬”和“五彩素食拼盘”。您对口味有什么特别的偏好吗？比如偏爱清淡还是重口味？",
+      "timestamp": 1740965569.7239013
+    },
+    {
+      "role": "right",
+      "content": "我偏爱清淡一些的，那就来一份“田园时蔬”吧。",
+      "timestamp": 1740965572.3269978
+    },
+    {
+      "role": "left",
+      "content": "好的，一份“田园时蔬”已加入您的订单。请问还需要搭配什么饮料或小食吗？",
+      "timestamp": 1740965577.097209
+    },
+    {
+      "role": "right",
+      "content": "来一杯冰红茶吧。谢谢。",
+      "timestamp": 1740965577.7474399
+    },
+    {
+      "role": "left",
+      "content": "好的，一杯冰红茶也已加入您的订单。请问您的配送地址和联系方式方便提供吗？",
+      "timestamp": 1740965583.373635
+    },
+    {
+      "role": "right",
+      "content": "好的，我的地址是上海市徐汇区漕溪路255号，电话是13812345678。谢谢。",
+      "timestamp": 1740965585.5718167
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，一份“田园时蔬”和一杯冰红茶，预计30分钟后送达。感谢您的订餐，祝您用餐愉快。再见。",
+      "timestamp": 1740965591.7629054
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，再见。",
+      "timestamp": 1740965592.527793
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了所有必要的信息，包括餐品选择、饮料选择以及配送地址和联系方式。服务方可以确认订单并结束对话。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，一份“田园时蔬”和一杯冰红茶，预计30分钟后送达。感谢您的订餐，祝您用餐愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

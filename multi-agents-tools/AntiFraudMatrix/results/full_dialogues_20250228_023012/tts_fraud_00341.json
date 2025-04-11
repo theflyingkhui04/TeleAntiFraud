@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，这里是XX快递公司客服中心，我们发现您有一个国际包裹因清关问题被扣留，需要您提供身份信息和缴纳相关费用才能继续处理。请问您方便现在处理吗？",
+      "timestamp": 1740689633.2126904
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？这个包裹是我很久以前买的，我一直以为已经收到了。那该怎么处理呢？需要我提供什么信息？",
+      "timestamp": 1740689637.4332652
+    },
+    {
+      "role": "left",
+      "content": "非常抱歉给您带来不便，如果您现在不方便处理，我们稍后会再联系您。感谢您的理解，祝您生活愉快！",
+      "timestamp": 1740689648.719638
+    },
+    {
+      "role": "right",
+      "content": "不不不，现在也可以处理。你说需要我提供哪些信息和费用呢？我这边可以配合。",
+      "timestamp": 1740689649.9919305
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表示诈骗者选择挂断对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常抱歉给您带来不便，如果您现在不方便处理，我们稍后会再联系您。感谢您的理解，祝您生活愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "不不不，现在也可以处理。你说需要我提供哪些信息和费用呢？我这边可以配合。"
+    }
+  ],
+  "reached_max_turns": false
+}

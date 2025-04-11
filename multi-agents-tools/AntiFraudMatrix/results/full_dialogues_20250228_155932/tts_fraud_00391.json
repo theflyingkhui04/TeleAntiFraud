@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是银行安全中心的工作人员，我们检测到您的账户有异常活动，为了您的安全，请提供您最近一次交易的详细信息。",
+      "timestamp": 1740750711.9249227
+    },
+    {
+      "role": "right",
+      "content": "您好，谢谢您的提醒。不过我最近一直在关注我的账户，没有发现什么异常。你们是怎么发现的呢？我需要确认一下是不是真的有这个问题。",
+      "timestamp": 1740750715.0312002
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能怀疑来电的真实性，对诈骗者提出的问题表示了合理的质疑，并要求更多细节来验证情况。由于诈骗者未能提供令人信服的证据，用户选择挂断电话以避免潜在的风险。这表明用户具有一定的安全意识，能够识别并应对可疑的电话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客户经理李文博，我们系统检测到您的账户有异常登录，请问您最近是否有使用过不安全的网络环境？",
+      "timestamp": 1740779882.5312674
+    },
+    {
+      "role": "right",
+      "content": "你好啊，李经理。我最近确实用过几次公共 Wi-Fi，是不是出问题了？",
+      "timestamp": 1740779886.46481
+    },
+    {
+      "role": "left",
+      "content": "是的，我们怀疑有人可能在公共网络环境中窃取了您的账户信息。为了您的安全，我们需要尽快核实您的身份信息并重置密码。请问您方便提供一下您的身份证号码吗？这将有助于我们快速确认您的身份。",
+      "timestamp": 1740779890.9912283
+    },
+    {
+      "role": "right",
+      "content": "好的，我明白了。我的身份证号码是三十一零一零一九五七零八一五四零一八。接下来我该怎么做？",
+      "timestamp": 1740779894.9348135
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们已经记录了您的信息，会尽快处理并确保您的账户安全。如果有任何问题，我们会再次联系您。再见。",
+      "timestamp": 1740779902.0853536
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢李经理。那我就放心了。再见。",
+      "timestamp": 1740779902.9941177
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（身份证号码），诈骗明显成功。为了防止进一步的信息泄露，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们已经记录了您的信息，会尽快处理并确保您的账户安全。如果有任何问题，我们会再次联系您。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢李经理。那我就放心了。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

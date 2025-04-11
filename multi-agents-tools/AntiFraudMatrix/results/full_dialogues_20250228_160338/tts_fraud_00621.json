@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的邻居小王，您女儿小林刚刚出门时遇到了点麻烦，现在需要您的帮助。情况很紧急，您能马上过来一趟吗？",
+      "timestamp": 1740744258.8429592
+    },
+    {
+      "role": "right",
+      "content": "小王啊，真的出了什么事吗？我女儿怎么了，你快告诉我，我这就过去。",
+      "timestamp": 1740744260.5309222
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一个诈骗电话，因为诈骗者使用了紧急情况来引起用户的恐慌，并要求用户立即行动。用户在表达关切后，可能通过挂断电话来避免进一步的诈骗行为。用户的意图可能是保护自己和家人的安全，避免泄露敏感信息或进行不必要的转账。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的购物助手，有什么商品或服务需要我帮您查找吗？",
+      "timestamp": 1740971453.2020001
+    },
+    {
+      "role": "right",
+      "content": "不用了，谢谢。我自己看看就行。",
+      "timestamp": 1740971454.042363
+    },
+    {
+      "role": "left",
+      "content": "感谢您的耐心等待，如果您有任何其他问题或需要进一步的帮助，随时欢迎回来咨询。希望您今天过得愉快！",
+      "timestamp": 1740971460.0004094
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝我今天过得愉快。",
+      "timestamp": 1740971462.0202763
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经明确表示不需要帮助，并表达了感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的耐心等待，如果您有任何其他问题或需要进一步的帮助，随时欢迎回来咨询。希望您今天过得愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝我今天过得愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你听好了，你的儿子现在在我手上，不想他出事的话，立刻准备五十万现金，等我下一步指示！",
+      "timestamp": 1740737879.6991315
+    },
+    {
+      "role": "right",
+      "content": "你别胡说八道，我儿子好好的在学校，你到底是谁？你别想骗我！",
+      "timestamp": 1740737905.9616675
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户显然识破了诈骗者的企图，通过提到儿子在学校的安全状态，表明用户并不相信诈骗者的威胁。用户挂断电话是为了终止与诈骗者的进一步交流，避免浪费时间或可能的进一步诈骗尝试。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

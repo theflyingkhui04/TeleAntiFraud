@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是商场的客服代表，有什么可以帮助您的吗？",
+      "timestamp": 1740983101.66524
+    },
+    {
+      "role": "right",
+      "content": "你好，我在找一件适合夏天穿的衬衫，有什么推荐吗？",
+      "timestamp": 1740983103.2048602
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款轻薄透气的棉质衬衫非常适合夏天穿着，颜色和款式都挺多的，您想要哪种风格的呢？比如简约风、商务风或是休闲风？",
+      "timestamp": 1740983113.5555859
+    },
+    {
+      "role": "right",
+      "content": "简约风格的就好，能麻烦你帮我找找吗？",
+      "timestamp": 1740983114.615906
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我这就为您推荐几款简约风格的夏季衬衫。稍等一下，我马上为您查找。",
+      "timestamp": 1740983119.0611935
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740983119.7409077
+    },
+    {
+      "role": "left",
+      "content": "不客气，我已经找到了几款适合您的衬衫。第一款是浅蓝色纯棉衬衫，设计简洁大方；第二款是白色亚麻衬衫，非常透气凉爽。您对这两款有什么看法？需要了解更多细节吗？",
+      "timestamp": 1740983129.9487243
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我可以去看看实物吗？",
+      "timestamp": 1740983131.0986133
+    },
+    {
+      "role": "left",
+      "content": "当然可以，这两款衬衫都在三楼的男装区，您可以直接前往查看。如果您需要帮助，可以咨询那里的销售人员，他们会很乐意为您服务的。希望您能找到满意的衬衫！",
+      "timestamp": 1740983137.831614
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我会去看看的。",
+      "timestamp": 1740983138.958604
+    },
+    {
+      "role": "left",
+      "content": "如果您有任何其他问题或需要进一步的帮助，随时欢迎联系我们。祝您购物愉快！",
+      "timestamp": 1740983145.7920985
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝我好运吧！",
+      "timestamp": 1740983147.6065807
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示已经获得了所需信息，并表达了感谢，表明对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您有任何其他问题或需要进一步的帮助，随时欢迎联系我们。祝您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝我好运吧！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

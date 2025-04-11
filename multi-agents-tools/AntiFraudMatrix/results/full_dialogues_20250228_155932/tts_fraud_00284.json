@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李女士吗？我是您的儿子小刚的朋友，小刚现在出事了，您必须马上汇款五十万，不然我们就放不了他。",
+      "timestamp": 1740746192.5318658
+    },
+    {
+      "role": "right",
+      "content": "什么？小刚出事了？你们到底是谁？我得先确认一下，你给我个电话，我打回去。",
+      "timestamp": 1740746194.87737
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能怀疑对方身份，要求提供回拨电话以进一步确认情况，这表明用户对诈骗者的说法持怀疑态度，并试图通过要求提供更多信息来验证对方身份。用户在没有得到满意答复的情况下选择挂断电话，以保护自己不受潜在诈骗的侵害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李明的家人吗？我是李明的朋友，他现在出事了，你必须马上给我转五万块钱，否则他会有生命危险。",
+      "timestamp": 1740746031.5382981
+    },
+    {
+      "role": "right",
+      "content": "你是谁啊？李明怎么会出事了？你先告诉我具体是怎么回事，我怎么联系不上他？",
+      "timestamp": 1740746035.0295715
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者要求转账并声称李明有生命危险时，表现出怀疑和谨慎，要求了解更多具体信息。诈骗者没有提供足够的信息来消除用户的疑虑，导致用户选择挂断电话，以避免潜在的风险。这表明用户可能识破了诈骗企图，或至少对诈骗者的身份和意图持怀疑态度，从而选择终止对话以保护自己。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

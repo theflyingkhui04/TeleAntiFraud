@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李华对吗？我是你表哥的朋友，现在有非常紧急的事情需要你帮忙。",
+      "timestamp": 1740805144.394528
+    },
+    {
+      "role": "right",
+      "content": "表哥的朋友啊，你好。什么紧急的事情呢？你说说看。",
+      "timestamp": 1740805145.772457
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者自称为‘表哥的朋友’并提到有紧急事情需要帮助后，可能出于谨慎考虑，选择了立即挂断电话。这表明用户可能怀疑对方身份的真实性，或者不愿意卷入未知的紧急情况，从而选择终止对话以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

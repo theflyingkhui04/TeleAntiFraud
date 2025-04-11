@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您所在银行的客服代表，最近我们系统检测到您的账户有异常活动，需要您配合我们进行安全验证。请问您现在方便吗？",
+      "timestamp": 1740767612.0815206
+    },
+    {
+      "role": "right",
+      "content": "哎呀，这可怎么办，我最近确实没怎么关注账户情况。您能帮我看看出了什么问题吗？我这边现在还算方便。",
+      "timestamp": 1740767614.9245431
+    },
+    {
+      "role": "left",
+      "content": "当然可以，为了确保您的账户安全，我们需要验证您的个人信息。请您提供一下您的全名和出生日期，好吗？这有助于我们快速定位并解决问题。",
+      "timestamp": 1740767621.3085957
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，我叫张伟，我是一九六三年十月十五日出生的。麻烦您了，快帮我看看是怎么回事吧。",
+      "timestamp": 1740767623.1522584
+    },
+    {
+      "role": "left",
+      "content": "好的，我会记录下您的信息，并尽快处理。感谢您的配合，如果有任何问题，我们会及时与您联系。再见。",
+      "timestamp": 1740767628.24848
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您了，希望问题能尽快解决。再见。",
+      "timestamp": 1740767630.6173487
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（全名和出生日期），诈骗明显成功。为了防止进一步的信息泄露，应立即终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我会记录下您的信息，并尽快处理。感谢您的配合，如果有任何问题，我们会及时与您联系。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您了，希望问题能尽快解决。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

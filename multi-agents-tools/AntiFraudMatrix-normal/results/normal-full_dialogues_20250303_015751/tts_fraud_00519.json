@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，有什么我可以帮助您的吗？",
+      "timestamp": 1740980176.6730416
+    },
+    {
+      "role": "right",
+      "content": "你好，我在规划一个周末的自驾游，想了解一下从北京到承德的最佳路线和所需时间。能帮我吗？",
+      "timestamp": 1740980179.3938537
+    },
+    {
+      "role": "left",
+      "content": "当然可以。从北京到承德的最佳路线是通过京承高速公路，全程大约三百公里，预计需要三到四个小时，具体时间会根据路况和天气情况有所变化。建议您提前检查车辆状况，并规划好休息点。希望您的旅途愉快！",
+      "timestamp": 1740980186.7375612
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在提供了从北京到承德的最佳路线和所需时间的详细信息后，认为已经满足了用户的需求，因此选择了结束对话。服务方的意图是确保用户获得了所需的信息，并希望用户有一个愉快的旅途。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

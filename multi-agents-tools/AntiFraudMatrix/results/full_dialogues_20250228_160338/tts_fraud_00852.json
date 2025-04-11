@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问，最近我们公司推出了一款高回报的理财产品，年化收益率可以达到百分之三十，您有兴趣了解一下吗？",
+      "timestamp": 1740740939.1684105
+    },
+    {
+      "role": "right",
+      "content": "谢谢您的推荐，但我对这种高回报的理财产品持谨慎态度。你们公司具体是做什么的？能否提供一些详细的资料和公司的相关信息？",
+      "timestamp": 1740740953.7237206
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的高回报理财产品持谨慎态度，并要求提供更详细的信息和公司背景。用户可能怀疑这是一起诈骗行为，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

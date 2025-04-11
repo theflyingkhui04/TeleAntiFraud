@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，我们发现您的账户有异常交易，需要您配合进行安全验证。为了保障您的资金安全，请提供您的身份证号码和银行账户信息。",
+      "timestamp": 1740808281.894692
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我的账户真的有问题吗？那我得赶紧配合你们。我的身份证号码是……",
+      "timestamp": 1740808284.3474243
+    },
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快处理。感谢您的配合，祝您生活愉快。再见。",
+      "timestamp": 1740808291.7874424
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。希望一切顺利。再见。",
+      "timestamp": 1740808293.2900658
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（身份证号码），诈骗明显成功。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，会尽快处理。感谢您的配合，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。希望一切顺利。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

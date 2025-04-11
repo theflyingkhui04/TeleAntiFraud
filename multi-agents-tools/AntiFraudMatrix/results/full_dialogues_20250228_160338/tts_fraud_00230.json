@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是银行安全部门的李经理，我们检测到您的账户存在异常登录，需要核实您的身份信息。请问您的姓名和身份证号码是？",
+      "timestamp": 1740739155.5543926
+    },
+    {
+      "role": "right",
+      "content": "您好，李经理。我叫张三。不过，我最近一直在家里，没听说账户有什么问题。你们真的检测到异常登录了吗？我有点担心。",
+      "timestamp": 1740739168.809069
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供了姓名后，对诈骗者提出的问题表示了怀疑，询问了更多关于账户异常的具体信息。这表明用户开始警惕并希望验证对方的身份和信息的真实性。用户随后挂断电话，可能是出于对诈骗行为的怀疑，不愿意继续提供个人信息，以保护自己的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

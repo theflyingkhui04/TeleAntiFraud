@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，我可以帮您点餐，请问有什么需要订购的吗？",
+      "timestamp": 1740945995.8066165
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我想订一份鸡肉沙拉和一杯冰红茶。",
+      "timestamp": 1740945996.931174
+    },
+    {
+      "role": "left",
+      "content": "好的，您选择了鸡肉沙拉和一杯冰红茶，还需要加点别的吗？",
+      "timestamp": 1740946001.4435081
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这些，谢谢。",
+      "timestamp": 1740946002.4000213
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，一份鸡肉沙拉和一杯冰红茶，预计三十分钟内送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740946006.8203928
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，期待美食。",
+      "timestamp": 1740946007.5719995
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已明确表示点餐完毕，并表达了感谢，对话目标已达成。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，一份鸡肉沙拉和一杯冰红茶，预计三十分钟内送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的预约服务专员，很高兴为您服务，请问有什么可以帮到您的？",
+      "timestamp": 1740981287.12516
+    },
+    {
+      "role": "right",
+      "content": "你好，我最近工作比较忙，想预约个周末的按摩服务，放松一下。有什么推荐吗？",
+      "timestamp": 1740981289.1226788
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们这里有多位经验丰富的按摩师，您可以选择中式推拿、泰式按摩或精油放松按摩，每种都有不同的时长选择，您更倾向于哪种服务呢？",
+      "timestamp": 1740981295.5501075
+    },
+    {
+      "role": "right",
+      "content": "我倾向于精油放松按摩，时长两小时的。周末有什么时间段比较合适？",
+      "timestamp": 1740981296.9853985
+    },
+    {
+      "role": "left",
+      "content": "周末的精油放松按摩两小时服务，我们有早上十点、下午两点和晚上七点三个时间段可供选择，您看哪个时间段更方便呢？",
+      "timestamp": 1740981301.6897252
+    },
+    {
+      "role": "right",
+      "content": "下午两点的比较好，谢谢。",
+      "timestamp": 1740981302.9262676
+    },
+    {
+      "role": "left",
+      "content": "好的，我为您预约了周末下午两点的精油放松按摩两小时服务，预约已确认，您会收到确认短信。如果有任何变动，请随时联系我们。祝您周末愉快，享受美好的按摩时光！",
+      "timestamp": 1740981308.6400368
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。周末见。祝您一天愉快！",
+      "timestamp": 1740981309.5955951
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了合适的服务和时间，服务目标已达成，可以由服务方确认预约详情并结束对话。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我为您预约了周末下午两点的精油放松按摩两小时服务，预约已确认，您会收到确认短信。如果有任何变动，请随时联系我们。祝您周末愉快，享受美好的按摩时光！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。周末见。祝您一天愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

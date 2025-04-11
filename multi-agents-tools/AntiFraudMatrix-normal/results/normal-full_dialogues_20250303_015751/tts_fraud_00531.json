@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，有什么我可以帮您的吗？",
+      "timestamp": 1740940229.3456569
+    },
+    {
+      "role": "right",
+      "content": "嗨，我是小李，我在乡下种地的。最近要去城里一趟，想了解一下怎么去最近的车站，能帮我吗？",
+      "timestamp": 1740940231.3495128
+    },
+    {
+      "role": "left",
+      "content": "当然可以，小李。您现在具体在哪个位置呢？这样我可以帮您查一下最近的车站和路线。",
+      "timestamp": 1740940236.0756938
+    },
+    {
+      "role": "right",
+      "content": "我在李家村，村子边上那条路怎么走能到车站？大概要走多久？",
+      "timestamp": 1740940237.0730412
+    },
+    {
+      "role": "left",
+      "content": "从李家村出发，您可以沿着村边的主路往东走，大约走两公里左右就能看到公交站牌，从那里可以乘坐前往城里的公交车。步行的话大概需要二十五分钟左右。",
+      "timestamp": 1740940243.0385532
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢了！那我上车后要坐几站呢？",
+      "timestamp": 1740940245.4475863
+    },
+    {
+      "role": "left",
+      "content": "从李家村的公交站出发，您需要坐大约六站路就能到达城里的主要车站。建议您上车后向司机确认一下具体的下车位置，这样更保险。",
+      "timestamp": 1740940252.8298326
+    },
+    {
+      "role": "right",
+      "content": "明白了，我会注意的。谢谢你的帮助，真的帮了大忙了！",
+      "timestamp": 1740940253.871449
+    },
+    {
+      "role": "left",
+      "content": "一切都清楚了吗，小李？如果还有其他问题，随时可以联系我。祝您旅途愉快！",
+      "timestamp": 1740940259.0560734
+    },
+    {
+      "role": "right",
+      "content": "都清楚了，谢谢！旅途愉快！",
+      "timestamp": 1740940260.5861216
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表达了感谢，表明对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "一切都清楚了吗，小李？如果还有其他问题，随时可以联系我。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "都清楚了，谢谢！旅途愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

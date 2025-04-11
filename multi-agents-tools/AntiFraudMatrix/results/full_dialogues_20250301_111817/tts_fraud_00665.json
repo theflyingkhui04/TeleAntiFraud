@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是客服代表小张。我们检测到您的账户有异常交易，请问您方便接听电话几分钟吗？",
+      "timestamp": 1740803198.3271196
+    },
+    {
+      "role": "right",
+      "content": "喂，你好。你说我的账户有异常交易？这听起来挺严重的，我最近确实没怎么用这个账户。你能具体说说是怎么回事吗？",
+      "timestamp": 1740803201.6799183
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其账户有异常交易后，可能出于警惕性或对银行客服的信任，表达了对情况的关注。然而，用户在第一轮对话后立即挂断电话，这表明用户可能意识到这是一个诈骗电话，或者认为当前环境不适合继续对话，选择终止交流以避免潜在风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服代表小张为您服务，有什么问题我可以帮您解决？",
+      "timestamp": 1740976402.067507
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我是李明，最近订单有些问题，想了解一下具体情况。",
+      "timestamp": 1740976404.154286
+    },
+    {
+      "role": "left",
+      "content": "李先生，您好，很抱歉给您带来了不便。请问您可以提供一下订单号吗？这样我可以帮您查询详细情况。",
+      "timestamp": 1740976411.689069
+    },
+    {
+      "role": "right",
+      "content": "好的，订单号是123456789。谢谢。",
+      "timestamp": 1740976414.1100814
+    },
+    {
+      "role": "left",
+      "content": "好的，李先生，我正在为您查询订单信息。请稍等片刻。##查询中##已经查到了您的订单信息。您的订单123456789目前处于处理中，预计将在三个工作日内完成。如果有其他疑问，您可以继续告诉我。",
+      "timestamp": 1740976423.32622
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的帮助。如果有进一步的问题，我会再联系你。",
+      "timestamp": 1740976425.229606
+    },
+    {
+      "role": "left",
+      "content": "李先生，您的问题已解决，如果后续还有其他疑问或需要帮助，随时欢迎联系我们。感谢您的理解与支持。",
+      "timestamp": 1740976437.3751838
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740976438.5797133
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示已经了解情况，并感谢了服务方的帮助，明确表示如果没有进一步问题会再联系，表明当前对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "李先生，您的问题已解决，如果后续还有其他疑问或需要帮助，随时欢迎联系我们。感谢您的理解与支持。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

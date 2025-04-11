@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李华吗？我是你儿子小明的朋友，小明刚刚出事了，我们现在需要你的帮助。",
+      "timestamp": 1740738915.7059796
+    },
+    {
+      "role": "right",
+      "content": "哎呀，你说的是真的吗？小明他怎么了？他现在在哪里？我好担心。",
+      "timestamp": 1740738918.7205904
+    },
+    {
+      "role": "left",
+      "content": "李阿姨，你先别急，小明现在在医院，他需要马上交一笔医疗费，不然医生不给治疗。我们身上没带那么多钱，你能不能先转一笔钱过来？",
+      "timestamp": 1740738929.3246572
+    },
+    {
+      "role": "right",
+      "content": "好的好的，你说的医院是哪家医院？我这就过去。转钱也可以，你告诉我怎么转吧。",
+      "timestamp": 1740738931.2688296
+    },
+    {
+      "role": "left",
+      "content": "李阿姨，时间不等人，您赶紧把钱转过来吧，账号我会发短信给您。请您尽快，小明等着这笔钱救命呢。",
+      "timestamp": 1740738938.6196146
+    },
+    {
+      "role": "right",
+      "content": "好的，我这就去转钱，你一定要照顾好小明。等我转完钱再联系你。",
+      "timestamp": 1740738940.993813
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表现出愿意提供敏感信息（转账），并且诈骗者已经成功引导用户进入诈骗流程。为了防止用户进一步受到伤害，应当由用户结束对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "李阿姨，时间不等人，您赶紧把钱转过来吧，账号我会发短信给您。请您尽快，小明等着这笔钱救命呢。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，我这就去转钱，你一定要照顾好小明。等我转完钱再联系你。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

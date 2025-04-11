@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你听着，你的儿子现在在我们手上，如果不立刻支付赎金，我们就不能保证他的安全。我知道你可能怀疑，但给我你的银行账户信息，我们收到钱后会立即放人。快点，没时间了！",
+      "timestamp": 1740750955.5375993
+    },
+    {
+      "role": "right",
+      "content": "你等一下，你说什么？我儿子在你们手上？这到底是怎么回事？你们为什么要这样做？我需要证明，我要知道我儿子真的在你们手上，否则我不会给你们任何钱。你们到底是谁？你们这样做是违法的！",
+      "timestamp": 1740750960.28071
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出明显的怀疑和不安，要求提供证明其儿子确实被绑架的证据。用户意识到这可能是一个诈骗行为，并且明确表示不会在没有证据的情况下支付任何赎金。用户挂断电话是为了避免进一步的诈骗行为，保护自己不受潜在的欺诈。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

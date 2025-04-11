@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您开户银行的客服代表，姓张。我们监测到您的账户有异常活动，为了您的资金安全，请您提供账户的最后四位数字，以便我们核实您的身份。",
+      "timestamp": 1740738104.4412482
+    },
+    {
+      "role": "right",
+      "content": "你好，张先生。我确实收到了一些奇怪的短信，但我不确定是不是真的。你们是怎么联系到我的？我怕有诈骗的风险。",
+      "timestamp": 1740738106.2605116
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对诈骗风险的担忧，并明确表示了怀疑态度。用户通过挂断电话的方式，表明了其不愿意继续与诈骗者交流，以避免可能的诈骗风险。用户的意图是保护自己的个人信息和资金安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

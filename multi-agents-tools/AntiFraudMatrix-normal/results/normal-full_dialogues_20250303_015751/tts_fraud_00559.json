@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到我们的店铺，有什么可以帮助您的吗？",
+      "timestamp": 1740946586.6007876
+    },
+    {
+      "role": "right",
+      "content": "你好，我想看看你们这里有没有适合企业活动的礼品。",
+      "timestamp": 1740946587.7579114
+    },
+    {
+      "role": "left",
+      "content": "我们这里有多种适合企业活动的礼品，比如定制笔记本、笔、U盘等。您可以告诉我具体的需求和预算，我可以为您推荐几款。",
+      "timestamp": 1740946593.870864
+    },
+    {
+      "role": "right",
+      "content": "好的，我们的活动主要是为了感谢客户，预算大概在每个礼品一百元左右。希望礼品能体现出公司的专业形象。",
+      "timestamp": 1740946595.6711938
+    },
+    {
+      "role": "left",
+      "content": "了解了，针对您的需求，我推荐您可以考虑定制精美的皮质笔记本，或者是带有公司logo的高品质USB闪存盘。这两种礼品不仅实用，还能很好地展现公司的专业形象。您看这样可以吗？",
+      "timestamp": 1740946603.3012927
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，可以给我看一下样品吗？",
+      "timestamp": 1740946604.2013693
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我会立即为您准备几款样品图片，稍后通过电子邮件发送给您。请问您的电子邮箱地址是什么？",
+      "timestamp": 1740946610.2578125
+    },
+    {
+      "role": "right",
+      "content": "好的，我的邮箱是 example@company.com。麻烦你了。",
+      "timestamp": 1740946611.481764
+    },
+    {
+      "role": "left",
+      "content": "好的，example@company.com，我已记录下来。样品图片将在十分钟内发送到您的邮箱，请注意查收。如果需要进一步的帮助，随时告诉我。",
+      "timestamp": 1740946618.6094248
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会留意邮箱的。如果有问题我会再联系你。",
+      "timestamp": 1740946619.5482438
+    },
+    {
+      "role": "left",
+      "content": "样品图片已发送至您的邮箱，如果需要任何进一步的帮助，请随时联系我。感谢您的选择，祝您有一个愉快的一天。",
+      "timestamp": 1740946627.1797473
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我会尽快查看邮件。祝你也有个愉快的一天。",
+      "timestamp": 1740946628.875778
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示会留意邮箱，并在有问题时再联系服务方，这表明用户当前的需求已经得到满足，且对话自然地达到了一个合适的结束点。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "样品图片已发送至您的邮箱，如果需要任何进一步的帮助，请随时联系我。感谢您的选择，祝您有一个愉快的一天。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我会尽快查看邮件。祝你也有个愉快的一天。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

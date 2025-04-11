@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是交通咨询服务中心，有什么我可以帮助您的吗？",
+      "timestamp": 1740958580.3757913
+    },
+    {
+      "role": "right",
+      "content": "您好，我想了解一下最近的公交线路调整情况。",
+      "timestamp": 1740958582.303376
+    },
+    {
+      "role": "left",
+      "content": "好的，最近确实有一些公交线路进行了调整。请问您具体想了解哪一条线路的情况呢？",
+      "timestamp": 1740958588.040068
+    },
+    {
+      "role": "right",
+      "content": "我想知道10路公交的最新调整情况。",
+      "timestamp": 1740958589.0288632
+    },
+    {
+      "role": "left",
+      "content": "10路公交最近进行了部分站点的调整，增加了科技园区和新商业中心两个站点，同时取消了老市场站。您可以根据新的路线规划您的出行。需要我提供更详细的站点信息吗？",
+      "timestamp": 1740958596.1933486
+    },
+    {
+      "role": "right",
+      "content": "不需要了，谢谢。我知道了。",
+      "timestamp": 1740958596.8670657
+    },
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，那我就确认10路公交的调整信息已经传达清楚了。感谢您的咨询，祝您旅途愉快。",
+      "timestamp": 1740958605.5383794
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。祝您一切顺利。",
+      "timestamp": 1740958606.9390848
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并明确表示感谢，不再需要进一步的帮助。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，那我就确认10路公交的调整信息已经传达清楚了。感谢您的咨询，祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。祝您一切顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

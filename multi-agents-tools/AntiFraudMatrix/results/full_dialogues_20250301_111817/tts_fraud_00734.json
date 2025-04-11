@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的邻居李明的同事，李明现在出事了，您能听我说吗？",
+      "timestamp": 1740800246.9595845
+    },
+    {
+      "role": "right",
+      "content": "李明出事了？你说的这是真的吗？他现在怎么样了？我有点担心。",
+      "timestamp": 1740800249.2474966
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其邻居李明出事后，表现出明显的担忧和关心，但随即挂断了电话。这可能是因为用户意识到这是一个诈骗电话，或者用户认为这种紧急情况应该通过其他更可靠的方式进行确认，而不是通过电话与一个自称是李明同事的陌生人交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

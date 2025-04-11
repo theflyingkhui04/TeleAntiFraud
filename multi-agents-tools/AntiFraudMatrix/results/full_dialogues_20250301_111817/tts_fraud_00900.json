@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是紧急联系中心。您的家人目前处于非常危险的情况，我们需要您立即配合。",
+      "timestamp": 1740804325.6502337
+    },
+    {
+      "role": "right",
+      "content": "什么情况？我的家人怎么了？你们是谁？",
+      "timestamp": 1740804327.0731118
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为感到对话内容不正常或怀疑对方身份而选择立即挂断电话。用户的意图是终止与不明身份者的进一步交流，以保护自己和家人的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

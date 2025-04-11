@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小李为您服务，有什么问题我帮您解答。",
+      "timestamp": 1740954096.8483763
+    },
+    {
+      "role": "right",
+      "content": "好的，小李，我最近收到了一笔养老金，想了解一下怎么合理分配。",
+      "timestamp": 1740954098.151652
+    },
+    {
+      "role": "left",
+      "content": "了解您的需求，合理分配养老金可以考虑日常生活开销、健康保障和一些紧急备用金。您是否有特定的计划或目标？",
+      "timestamp": 1740954107.0419564
+    },
+    {
+      "role": "right",
+      "content": "主要是想确保日常生活无忧，再留一些钱给孙子孙女。有什么建议吗？",
+      "timestamp": 1740954108.5393448
+    },
+    {
+      "role": "left",
+      "content": "建议您可以先规划每月的生活费用，确保基本生活需求。剩余部分可以设立一个专门的账户，用于给孙子孙女的教育基金。如果有余力，还可以考虑购买一些健康保险，以应对可能的医疗费用。这样可以更好地保障您的生活质量。",
+      "timestamp": 1740954116.084766
+    },
+    {
+      "role": "right",
+      "content": "听起来挺合理的。我会考虑这么安排。谢谢你的建议。",
+      "timestamp": 1740954117.3333278
+    },
+    {
+      "role": "left",
+      "content": "感谢您的信任，希望这些建议对您有所帮助。如果还有其他问题，随时欢迎咨询。祝您生活愉快。",
+      "timestamp": 1740954122.2263796
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。生活愉快。",
+      "timestamp": 1740954123.8183892
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示满意并感谢服务方的建议，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的信任，希望这些建议对您有所帮助。如果还有其他问题，随时欢迎咨询。祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。生活愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

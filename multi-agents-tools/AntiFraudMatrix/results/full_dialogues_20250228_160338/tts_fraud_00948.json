@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我手上，不想他出事就立刻准备五十万，不许报警，否则后果自负！",
+      "timestamp": 1740742353.7845993
+    },
+    {
+      "role": "right",
+      "content": "你别乱来，我儿子在哪里？你要钱可以，但你必须保证他的安全，你先告诉我他在哪里。",
+      "timestamp": 1740742357.78514
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在尝试确认儿子的安全状况时，诈骗者没有提供具体信息，反而要求用户支付赎金。用户可能意识到这是一场诈骗，或者出于对儿子安全的担忧而选择挂断电话，以寻求其他方式确认儿子的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

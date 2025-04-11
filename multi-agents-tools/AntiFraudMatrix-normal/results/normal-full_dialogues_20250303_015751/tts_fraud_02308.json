@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您需要预订哪个餐厅的餐点呢？",
+      "timestamp": 1740976501.050853
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预订“老北京炸酱面”的餐点。",
+      "timestamp": 1740976502.3916886
+    },
+    {
+      "role": "left",
+      "content": "好的，您想预订“老北京炸酱面”的哪些菜品呢？我们可以提供经典炸酱面、京酱肉丝等多款特色菜品。",
+      "timestamp": 1740976512.9407494
+    },
+    {
+      "role": "right",
+      "content": "给我来一份经典炸酱面，还有一份京酱肉丝。",
+      "timestamp": 1740976514.8392723
+    },
+    {
+      "role": "left",
+      "content": "好的，一份经典炸酱面和一份京酱肉丝已经加到您的订单中了。请问还需要其他菜品或饮品吗？",
+      "timestamp": 1740976522.6321745
+    },
+    {
+      "role": "right",
+      "content": "不需要了，就这些。谢谢。",
+      "timestamp": 1740976523.768471
+    },
+    {
+      "role": "left",
+      "content": "您的订单已经确认，预计30分钟后送达。感谢您的订餐，如果还有其他需要请随时联系我们。祝您用餐愉快！",
+      "timestamp": 1740976532.3832705
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一天愉快！",
+      "timestamp": 1740976534.220931
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示不需要其他菜品或饮品，并表达了感谢，表明其需求已得到满足。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的订单已经确认，预计30分钟后送达。感谢您的订餐，如果还有其他需要请随时联系我们。祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一天愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

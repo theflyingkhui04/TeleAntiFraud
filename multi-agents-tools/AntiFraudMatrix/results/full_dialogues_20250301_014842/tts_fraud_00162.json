@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好，这里是国际快递服务中心。我们发现您的包裹在入境时被海关扣留，需要您提供身份信息和支付一笔三百元的清关费用。请问您现在方便处理吗？",
+      "timestamp": 1740788393.922854
+    },
+    {
+      "role": "right",
+      "content": "你好，真的吗？我的包裹被扣留了？那我该怎么办呢？",
+      "timestamp": 1740788395.1562042
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到需要提供身份信息和支付清关费用时可能感到怀疑或不安，因此选择立即挂断电话，以避免进一步的交流和潜在的风险。用户的意图是中断对话，防止可能的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

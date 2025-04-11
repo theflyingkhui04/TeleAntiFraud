@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是华夏银行客服中心，我们检测到您的账户有异常活动，为确保您的资金安全，请您立即提供您的账户信息以便我们进行核实。",
+      "timestamp": 1740812064.463258
+    },
+    {
+      "role": "right",
+      "content": "您好，我刚刚接到了一个电话，说是华夏银行的，要求我提供账户信息。我怀疑这是诈骗电话，因为银行不会在电话中要求客户提供敏感信息。我已经挂断了电话，并且我会联系银行的官方客服确认情况。如果您是真正的银行工作人员，请通过官方渠道联系我。谢谢。",
+      "timestamp": 1740812070.173798
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是因为他们怀疑接到了诈骗电话，并且意识到真正的银行不会在电话中要求客户提供敏感信息。用户的意图是保护自己的个人信息不被泄露，并通过官方渠道确认情况的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

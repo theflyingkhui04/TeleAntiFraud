@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自财富增长顾问公司的李华，我们专注于为投资者提供高收益的投资机会。您最近是否有考虑过增加您的投资组合？",
+      "timestamp": 1740685220.6024663
+    },
+    {
+      "role": "right",
+      "content": "您好李经理，我最近确实在考虑这个问题。退休后手头有点闲钱，想找个稳妥的投资渠道。您那边有什么好的建议吗？",
+      "timestamp": 1740685225.9960203
+    },
+    {
+      "role": "left",
+      "content": "太好了！我们现在有一个非常难得的投资项目，是由国家支持的能源开发项目，年收益率高达20%。您有兴趣了解更多细节吗？",
+      "timestamp": 1740685268.187512
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者可能意识到用户对投资项目表现出兴趣，但可能由于其他内部因素（如诈骗策略、时间限制或其他潜在风险）决定挂断电话。诈骗者的意图可能是为了制造紧迫感，让用户在挂断后主动联系以获取更多信息，从而进一步实施诈骗。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是李先生的朋友，现在有一个非常紧急的情况，李先生出了点意外，需要您马上帮忙。",
+      "timestamp": 1740784425.9368825
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？李先生他怎么了？需要我怎么帮忙？",
+      "timestamp": 1740784429.4622707
+    },
+    {
+      "role": "left",
+      "content": "李先生现在情况很危急，被人控制住了，对方要求我们尽快支付一笔赎金，否则他们会对他不利。您能帮忙转一笔钱过来吗？这真的是十万火急。",
+      "timestamp": 1740784437.090725
+    },
+    {
+      "role": "right",
+      "content": "天哪，这太可怕了！李先生他真的没事吧？我手头的钱不多，但我可以试试看。你们需要多少钱？我得先看看银行卡里还有没有足够的余额。",
+      "timestamp": 1740784438.9156168
+    },
+    {
+      "role": "left",
+      "content": "对方要求是一百万，但您可以先转多少转多少，时间不等人，每拖延一分钟，李先生的处境就更危险。请您尽快，好吗？",
+      "timestamp": 1740784443.1117587
+    },
+    {
+      "role": "right",
+      "content": "一百万？！我...我卡里总共也就两万块钱。不过，我现在就可以转给你们。对了，你们的账号是多少？我这就去银行转账。",
+      "timestamp": 1740784446.852368
+    },
+    {
+      "role": "left",
+      "content": "好的，谢谢您的配合，李先生的安全就拜托您了。请您尽快，我们等您的消息。",
+      "timestamp": 1740784451.0551262
+    },
+    {
+      "role": "right",
+      "content": "好的，我马上去办。希望李先生能平安无事。",
+      "timestamp": 1740784454.8337376
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示愿意转账，并询问了转账账号，这意味着诈骗明显成功，用户已同意转账。根据终止条件1，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，谢谢您的配合，李先生的安全就拜托您了。请您尽快，我们等您的消息。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，我马上去办。希望李先生能平安无事。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

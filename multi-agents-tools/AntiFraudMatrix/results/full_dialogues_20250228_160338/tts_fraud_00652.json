@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自顺丰快递的客服，您的一个包裹在运输过程中出现了问题，需要您配合处理。",
+      "timestamp": 1740736979.3627644
+    },
+    {
+      "role": "right",
+      "content": "啊，真的吗？我的包裹出什么事了？",
+      "timestamp": 1740736981.3218815
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到对话内容存在问题，怀疑诈骗者的身份，因此选择主动挂断电话以避免进一步的潜在风险。用户的意图是保护自己的个人信息和财产安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

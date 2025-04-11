@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，您可以告诉我想点什么吗？",
+      "timestamp": 1740941286.1023655
+    },
+    {
+      "role": "right",
+      "content": "我想点一份牛肉炒饭和一份糖醋排骨，还有一瓶冰红茶。",
+      "timestamp": 1740941287.7363176
+    },
+    {
+      "role": "left",
+      "content": "好的，您点了一份牛肉炒饭、一份糖醋排骨和一瓶冰红茶。请问需要加餐巾纸和筷子吗？",
+      "timestamp": 1740941293.1568818
+    },
+    {
+      "role": "right",
+      "content": "需要，谢谢。",
+      "timestamp": 1740941293.808255
+    },
+    {
+      "role": "left",
+      "content": "好的，我会为您加上餐巾纸和筷子。请问您的配送地址和联系电话方便提供下吗？",
+      "timestamp": 1740941300.867095
+    },
+    {
+      "role": "right",
+      "content": "地址是XX大学XX宿舍楼123室，电话是12345678901。",
+      "timestamp": 1740941302.5742965
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认。预计送达时间大约是30到40分钟，请保持电话畅通以便骑手联系您。还有其他需要我帮忙的吗？",
+      "timestamp": 1740941307.8665454
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情、配送地址和联系电话后，告知了预计送达时间和保持电话畅通的建议。服务方询问用户是否有其他需要帮助的事项，但用户没有进一步的需求。服务方通过提供完整的服务流程并确认用户满意后，主动结束了对话，表明服务方的意图是确保用户的需求得到满足，并在服务完成后礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

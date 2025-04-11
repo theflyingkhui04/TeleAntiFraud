@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，您可以告诉我需要预约的具体项目和时间吗？",
+      "timestamp": 1740939320.3680482
+    },
+    {
+      "role": "right",
+      "content": "好的，我想预约一下下周三下午三点的心理咨询。",
+      "timestamp": 1740939321.5937996
+    },
+    {
+      "role": "left",
+      "content": "好的，下周三下午三点的心理咨询，这个时间我们有空档，可以为您预约。请问您需要预约多长时间的咨询时间呢？",
+      "timestamp": 1740939326.3503077
+    },
+    {
+      "role": "right",
+      "content": "一个小时吧。",
+      "timestamp": 1740939326.9486496
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您预约了下周三下午三点到四点的心理咨询。请问您方便提供一个联系电话和姓名，以便我们确认预约信息？",
+      "timestamp": 1740939332.0089564
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫李明，电话是13812345678。",
+      "timestamp": 1740939334.532518
+    },
+    {
+      "role": "left",
+      "content": "谢谢您，李明先生，您的预约已经成功。我们会在下周三前通过电话13812345678与您确认具体细节。请问还有其他需要帮助的吗？",
+      "timestamp": 1740939340.5104184
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息，并提供了后续的确认方式后，询问用户是否有其他需要帮助的事项。在用户没有进一步的需求后，服务方主动提供了结束信号（##ENDCALL_SIGNAL##），表明服务目标已达成，预约流程顺利完成，服务方意图结束对话以避免不必要的等待和资源占用。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

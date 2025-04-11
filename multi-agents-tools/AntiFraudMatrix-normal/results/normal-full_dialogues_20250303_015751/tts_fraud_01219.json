@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我已为您安排了最近的司机，大约需要五分钟左右到达您的位置。",
+      "timestamp": 1740968236.894447
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。五分钟后见。",
+      "timestamp": 1740968237.9349155
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认了服务方提供的信息后，表示感谢并明确表达了结束对话的意图。用户对服务表示满意，并没有进一步的需求或问题，因此选择了结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

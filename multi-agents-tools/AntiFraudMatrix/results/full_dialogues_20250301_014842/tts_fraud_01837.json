@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服中心，您的一个包裹在运输过程中被海关查扣了，需要支付一笔额外的税费才能放行。请问您方便处理吗？",
+      "timestamp": 1740791521.2700756
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？这个包裹是我买的东西吗？我最近好像没买什么东西啊。你们能帮我查一下是谁寄的吗？",
+      "timestamp": 1740791524.0783622
+    },
+    {
+      "role": "left",
+      "content": "当然可以，不过为了加快处理速度，我们需要您提供一些个人信息，比如您的姓名和电话号码，这样我们才能查到具体的包裹信息。这个过程非常快捷，只需要几分钟。",
+      "timestamp": 1740791529.9704628
+    },
+    {
+      "role": "right",
+      "content": "好的，那我需要提供哪些信息呢？我叫李志明，电话是这个号码。你们能查到是谁寄的就好，不然我也不知道怎么回事。",
+      "timestamp": 1740791531.5881293
+    },
+    {
+      "role": "left",
+      "content": "好的，我明白了。如果以后有任何包裹相关的问题，您可以随时联系我们的客服。祝您一天愉快。再见。",
+      "timestamp": 1740791538.3243709
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你啊。再见。",
+      "timestamp": 1740791541.7819614
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（姓名和电话号码），诈骗明显成功。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我明白了。如果以后有任何包裹相关的问题，您可以随时联系我们的客服。祝您一天愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你啊。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的孩子现在在我们手上，如果你想让他平安回来，就马上准备五十万现金，不要报警，否则后果自负！",
+      "timestamp": 1740759471.6849847
+    },
+    {
+      "role": "right",
+      "content": "你们别吓我，我真的没有那么多钱，你们放了我孩子吧，我求求你们了。",
+      "timestamp": 1740759474.1494198
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者威胁时表现出极度的恐惧和无助，请求对方放过其孩子，但最终选择挂断电话，可能是由于无法接受诈骗者的威胁和要求，或是为了终止与诈骗者的进一步接触，避免受到更多心理压力。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

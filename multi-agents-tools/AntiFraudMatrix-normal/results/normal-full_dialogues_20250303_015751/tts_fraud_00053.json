@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服代表小张为您服务，请问有什么问题我可以帮您解决？",
+      "timestamp": 1740976747.77936
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我最近在你们这儿订的餐有点问题，想了解一下怎么处理。",
+      "timestamp": 1740976750.0278697
+    },
+    {
+      "role": "left",
+      "content": "非常抱歉给您带来了不便，可以麻烦您告诉我具体遇到了什么问题吗？这样我可以更好地帮您处理。",
+      "timestamp": 1740976757.4752874
+    },
+    {
+      "role": "right",
+      "content": "好的，我上次订的餐送来的时候凉了，味道也不太对。想问一下这种情况怎么处理。",
+      "timestamp": 1740976759.6856313
+    },
+    {
+      "role": "left",
+      "content": "感谢您的反馈，对于您的餐品问题，我们可以为您提供一次免费的重新配送服务，或者为您办理退款，您看哪种方式更方便您呢？",
+      "timestamp": 1740976768.4332793
+    },
+    {
+      "role": "right",
+      "content": "那还是退款吧，谢谢。",
+      "timestamp": 1740976769.7824092
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的理解和反馈，我们会尽快处理您的问题，并确保后续的服务质量。如果还有其他需要帮助的地方，请随时联系我们。祝您生活愉快。",
+      "timestamp": 1740976778.4586093
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。希望下次能有更好的体验。",
+      "timestamp": 1740976780.5542545
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已明确表示选择退款并表示感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的理解和反馈，我们会尽快处理您的问题，并确保后续的服务质量。如果还有其他需要帮助的地方，请随时联系我们。祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。希望下次能有更好的体验。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，可以帮助您快速安排车辆，请告诉我您的出发地和目的地。",
+      "timestamp": 1740966656.2762144
+    },
+    {
+      "role": "right",
+      "content": "好的，我的出发地是学校，目的地是市中心的图书馆。麻烦你了。",
+      "timestamp": 1740966658.1089203
+    },
+    {
+      "role": "left",
+      "content": "好的，您的行程是从学校到市中心的图书馆。请稍等，我正在为您安排车辆。大约需要3到5分钟，车辆就会到达您的位置。",
+      "timestamp": 1740966664.1107895
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的出发地和目的地后，迅速为用户安排了车辆，并告知了预计到达时间。服务方认为已经完成了用户的需求，即安排车辆并提供了必要的信息，因此选择结束对话。服务方的意图是确保用户获得所需的服务，并保持高效的服务流程，避免不必要的等待或交流。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

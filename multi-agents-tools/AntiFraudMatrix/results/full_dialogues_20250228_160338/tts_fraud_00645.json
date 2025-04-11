@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是某宝客服小张，您最近在我们平台购买的商品出现了一些问题，需要您配合处理，可以吗？",
+      "timestamp": 1740734183.9648428
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我最近确实买了一些东西，出了什么问题呢？",
+      "timestamp": 1740734197.2736287
+    },
+    {
+      "role": "left",
+      "content": "是这样的，您的订单因为系统故障被误操作，导致重复扣款。我这边需要核实您的账户信息，帮您办理退款。您记得当时用的是哪个银行卡支付的吗？",
+      "timestamp": 1740734210.9499118
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者可能意识到用户对诈骗行为有所警觉，或者用户可能没有立即提供敏感信息，导致诈骗者认为继续对话无法成功获取所需信息，因此选择主动挂断。诈骗者的意图是避免进一步暴露自己的诈骗行为，同时节省时间寻找下一个目标。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

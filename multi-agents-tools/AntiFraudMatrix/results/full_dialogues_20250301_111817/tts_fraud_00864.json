@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家身份信息管理局，我们发现您的身份信息可能被他人盗用，为了您的安全，请尽快提供您的身份证号码，以便我们进行核实。",
+      "timestamp": 1740811760.506469
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我最近确实接到过一些奇怪的电话。你们是怎么发现我的身份信息被盗用的？我需要提供身份证号码吗？这听起来有点不太对劲。",
+      "timestamp": 1740811763.6579866
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者要求提供身份证号码时，产生了怀疑并认为情况不正常，因此选择挂断电话以避免可能的风险。这表明用户对个人信息保护有一定的警觉性，不愿意在未经验证的情况下向不明身份的人提供敏感信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX彩票中心，恭喜您中了特等奖，奖金为五百万元。请问您现在方便接听电话吗？",
+      "timestamp": 1740729910.1756585
+    },
+    {
+      "role": "right",
+      "content": "啊，真的吗？我中了特等奖？五百万元？天哪，这怎么可能！我没有买过彩票啊。你们是不是搞错了？",
+      "timestamp": 1740729918.296282
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的中奖信息表示怀疑，并明确表示自己没有购买过彩票，这表明用户可能已经意识到这是一个诈骗电话。用户在表达怀疑后挂断电话，可能是为了避免进一步的诈骗行为或不想继续与诈骗者交流。用户的意图可能是保护自己的个人信息和财产安全，避免被骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

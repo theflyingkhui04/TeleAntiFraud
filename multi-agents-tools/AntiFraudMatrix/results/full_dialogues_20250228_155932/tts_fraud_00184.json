@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "李先生吗？我是来自华泰投资的张经理，我们最近推出了一款高收益的投资项目，特地打电话来向您介绍一下。",
+      "timestamp": 1740758251.8027704
+    },
+    {
+      "role": "right",
+      "content": "张经理您好，我是李先生。谢谢您的来电。不过我对投资这方面不是很了解，您能简单介绍一下这个项目吗？我需要了解一下具体的信息。",
+      "timestamp": 1740758253.6290517
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者介绍项目之前主动挂断了电话，这可能是因为用户对诈骗者的身份或项目的合法性产生了怀疑，或者用户意识到这可能是一起诈骗电话，因此选择立即终止对话以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

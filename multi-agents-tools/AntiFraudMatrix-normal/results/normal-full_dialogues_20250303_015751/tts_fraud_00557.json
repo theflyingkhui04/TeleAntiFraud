@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品您感兴趣吗？",
+      "timestamp": 1740983868.352537
+    },
+    {
+      "role": "right",
+      "content": "您好，我主要是来看看有没有适合送朋友的礼物。",
+      "timestamp": 1740983870.1830375
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户和客服在对话开始后立即提供了结束信号代码（##ENDCALL_SIGNAL##），这表明双方可能在实际对话之前就已经决定结束对话。用户表达了其来访的目的，即寻找适合送朋友的礼物，但没有进一步的交流或询问，可能是因为用户发现当前渠道不适合进行详细咨询，或者用户可能只是礼貌性地打招呼，没有实际购买的意图。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

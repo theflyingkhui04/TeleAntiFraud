@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是预约服务专员，可以帮助您安排预约，请问有什么我可以帮您的？",
+      "timestamp": 1740976042.1993396
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约一个明天的牙科检查。",
+      "timestamp": 1740976043.6986403
+    },
+    {
+      "role": "left",
+      "content": "好的，明天的牙科检查，我来帮您安排。请问您希望预约的具体时间是什么时候？",
+      "timestamp": 1740976049.7626724
+    },
+    {
+      "role": "right",
+      "content": "下午三点左右吧。",
+      "timestamp": 1740976050.592182
+    },
+    {
+      "role": "left",
+      "content": "好的，下午三点，让我来查一下是否有空档。稍等一下。好的，三点有一个空档，可以为您预约。请问您需要提供姓名和联系方式吗？",
+      "timestamp": 1740976056.9105005
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫张明，电话是13812345678。",
+      "timestamp": 1740976058.3168302
+    },
+    {
+      "role": "left",
+      "content": "明白了，张明先生，您的预约已经安排好了，明天下午三点在牙科诊所。我们会发送一条确认短信到您的手机13812345678，请注意查收。如果有什么变动，可以随时联系我们。有其他需要帮助的吗？",
+      "timestamp": 1740976065.748685
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息并告知了后续的注意事项后，主动使用了结束信号（##ENDCALL_SIGNAL##）。这表明服务方认为预约服务已经完成，用户的需求得到了满足，且没有其他需要处理的事项。服务方的意图是礼貌地结束对话，确保用户感到满意并清楚接下来的步骤。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

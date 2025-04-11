@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您成为本次活动的幸运儿，您中得了一等奖，将获得一百万元的奖金！",
+      "timestamp": 1740801736.7425563
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？太不可思议了！我需要做什么来领取奖金呢？",
+      "timestamp": 1740801738.2650611
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑诈骗者的真实性而选择挂断电话。在对话中，诈骗者声称用户中得了一百万元的奖金，这种突如其来的巨额奖金可能会让用户感到不真实，从而产生警惕心理。用户虽然表现出惊讶和兴奋，但在没有进一步确认信息真实性的情况下，选择挂断电话，可能是为了避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

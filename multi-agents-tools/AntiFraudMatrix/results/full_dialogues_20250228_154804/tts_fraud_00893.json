@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子的同学，他刚刚出事了，被几个人带走了，现在情况很紧急，您必须马上打五万块钱到这个账号，不然他们不会放人的，账号是六二五九零七七一九三四七，您快点吧，时间不多了。",
+      "timestamp": 1740741418.0335596
+    },
+    {
+      "role": "right",
+      "content": "什么？我儿子出事了？你确定吗？你现在在哪里？我得赶紧联系他。",
+      "timestamp": 1740741420.2534616
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为感到情况可疑，或者想要直接与儿子联系确认情况的真实性，而选择挂断电话。用户的意图是避免进一步的诈骗行为，并直接验证信息的真伪。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

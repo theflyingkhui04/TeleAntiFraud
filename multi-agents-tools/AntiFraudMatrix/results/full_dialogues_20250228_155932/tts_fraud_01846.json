@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问，我们最近有一个内部投资项目，回报率高达三十个点，不知道您有没有兴趣了解一下？",
+      "timestamp": 1740758142.9142568
+    },
+    {
+      "role": "right",
+      "content": "您好，谢谢您的来电。我退休后确实对理财有一些兴趣，但三十个点的回报率听起来有点高，我之前从来没有遇到过这么高的回报率。你们公司是哪家呢？我之前有没有听说过？",
+      "timestamp": 1740758145.3720956
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了一定的警惕性和怀疑态度，对诈骗者提出的高回报率表示了疑问，并询问了公司的具体信息。这表明用户可能已经意识到这可能是一个诈骗电话，或者至少对这个机会持谨慎态度。用户主动挂断电话，可能是为了进一步核实信息，或直接避免继续与诈骗者交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

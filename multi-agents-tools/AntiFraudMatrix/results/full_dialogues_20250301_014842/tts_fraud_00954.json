@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李明的家人吗？我是他现在所在地点的人。李明现在有点麻烦，需要你们马上汇一笔钱过来。你们能马上办到吗？",
+      "timestamp": 1740785885.7708626
+    },
+    {
+      "role": "right",
+      "content": "您好，我是李明的姐姐。请问您是哪位？可以告诉我具体发生了什么吗？",
+      "timestamp": 1740785887.0512679
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出汇款要求后，没有立即答应，而是询问了对方的身份和具体情况。这表明用户保持了一定的警惕性，并试图验证信息的真实性。用户随后挂断电话，可能是出于对诈骗的怀疑，认为对方的要求不合理，或者觉得需要进一步核实情况后再做决定。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

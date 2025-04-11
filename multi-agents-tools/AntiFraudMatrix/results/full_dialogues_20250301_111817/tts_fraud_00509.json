@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是华夏银行客服中心，我是客服代表小张。我们发现您的账户近期有异常交易，为了确保您的资金安全，我们需要对您的账户进行核实。请您提供一下您的姓名和身份证号码，好吗？",
+      "timestamp": 1740804605.1030028
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我叫李明，身份证号码是三十一零一零一九九二零五二四一一一七。不过，我最近确实没有进行过任何大额交易，你们是怎么发现的呢？",
+      "timestamp": 1740804608.853104
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供了姓名和身份证号码后突然挂断电话，可能是因为用户意识到自己正在泄露敏感信息，或者突然意识到这可能是一个诈骗电话。用户的意图可能是为了防止进一步的信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

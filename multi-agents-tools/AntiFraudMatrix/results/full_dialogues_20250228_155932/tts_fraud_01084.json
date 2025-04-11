@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家彩票中心，恭喜您获得了本期的大奖，奖金金额高达五百万元！请问您能提供一下您的联系方式和身份证号码以便我们进一步核实信息吗？",
+      "timestamp": 1740729983.8663518
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？我中奖了？五百万元啊！我这辈子都没想过能中这么大的奖。您稍等一下，我这就把信息告诉您。\n\n",
+      "timestamp": 1740729992.8841364
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能在进一步思考后意识到这是一起诈骗行为，或者在提供个人信息前产生了怀疑和警惕，因此选择立即挂断电话以避免风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

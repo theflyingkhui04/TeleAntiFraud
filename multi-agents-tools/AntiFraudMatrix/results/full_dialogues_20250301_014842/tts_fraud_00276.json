@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的邻居李阿姨，刚刚听说您儿子出事了，被坏人抓走了，您得赶紧想办法救他才行。",
+      "timestamp": 1740777697.123394
+    },
+    {
+      "role": "right",
+      "content": "李阿姨，您说什么？我儿子出事了？这怎么可能，我早上还见过他，他好好的啊。您确定吗？这消息是从哪里来的？",
+      "timestamp": 1740777699.7407615
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被绑架的消息后，表现出困惑和怀疑。用户提到早上还见过儿子，且对消息来源表示质疑，这表明用户可能认为诈骗者的信息不可信，或者感到恐慌和不安，选择挂断电话以核实情况或避免进一步的交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

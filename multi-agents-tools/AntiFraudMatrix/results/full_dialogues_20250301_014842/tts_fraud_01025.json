@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自「星光资本」的李经理，最近我们发现了一项非常有潜力的投资项目，收益率非常高，我想向您介绍一下。",
+      "timestamp": 1740767471.4897847
+    },
+    {
+      "role": "right",
+      "content": "哎呀，李经理，您可真会说话，听起来真不错。不过我现在手头有点紧，不太方便投资。您能简单介绍一下这个项目吗？我听听看。",
+      "timestamp": 1740767473.4631906
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对投资项目的兴趣，但同时也表示自己目前资金紧张，不太方便投资。用户可能是因为意识到对方可能是诈骗者，或者认为自己当前没有投资的条件和意愿，因此选择挂断电话以避免进一步的纠缠。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

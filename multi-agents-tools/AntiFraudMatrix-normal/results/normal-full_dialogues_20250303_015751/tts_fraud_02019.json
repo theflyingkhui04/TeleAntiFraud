@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么可以帮您的吗？",
+      "timestamp": 1740943056.341716
+    },
+    {
+      "role": "right",
+      "content": "您好，我想买点感冒药，最近有点不舒服。",
+      "timestamp": 1740943057.3556144
+    },
+    {
+      "role": "left",
+      "content": "感冒药我们这里有多种选择，您是想要针对症状如咳嗽、发烧的药物，还是想要综合性的感冒药呢？",
+      "timestamp": 1740943064.8549333
+    },
+    {
+      "role": "right",
+      "content": "给我来点综合性感冒药吧，谢谢。",
+      "timestamp": 1740943066.283942
+    },
+    {
+      "role": "left",
+      "content": "好的，我们这里有一款很受欢迎的综合性感冒药，既能缓解发热又能减轻咳嗽和鼻塞。需要我帮您拿一盒吗？",
+      "timestamp": 1740943073.5071316
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦您了。",
+      "timestamp": 1740943074.3516695
+    },
+    {
+      "role": "left",
+      "content": "不客气，这是您要的综合性感冒药，需要注意多喝水，按时服药，一般情况下几天内症状就会缓解。如果持续不适，建议及时就医。还需要帮您准备其他物品吗？",
+      "timestamp": 1740943080.612328
+    },
+    {
+      "role": "right",
+      "content": "暂时不需要了，谢谢您的建议。",
+      "timestamp": 1740943081.4793267
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您还需要其他帮助，随时欢迎前来。祝您早日康复，谢谢光临。",
+      "timestamp": 1740943088.4257154
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740943090.120741
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的药品，并对服务方的建议表示了感谢，没有进一步的需求。这表明对话目标已达成，用户对服务满意。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您还需要其他帮助，随时欢迎前来。祝您早日康复，谢谢光临。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是某银行信用卡中心的客服代表，我姓张。我们发现您的信用卡账户存在异常交易，为了您的资金安全，我们已经暂时冻结了您的账户。可以请您提供一下身份证号码，以便我们核实信息并尽快为您解决问题吗？",
+      "timestamp": 1740776648.4045877
+    },
+    {
+      "role": "right",
+      "content": "你好，我最近确实没怎么用信用卡，可能是出了什么问题。我的身份证号码是一九九五年十二月三日出生的，身份证号码是三十三零一零一九九五十二零三零一零一。你帮我查一下吧。",
+      "timestamp": 1740776651.6779237
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们已经记录了您的信息，会尽快处理并恢复您的账户安全。如果还有其他问题，您可以随时联系我们的客服热线。",
+      "timestamp": 1740776657.0374074
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。希望问题能尽快解决。",
+      "timestamp": 1740776660.8977098
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（身份证号码），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们已经记录了您的信息，会尽快处理并恢复您的账户安全。如果还有其他问题，您可以随时联系我们的客服热线。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。希望问题能尽快解决。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

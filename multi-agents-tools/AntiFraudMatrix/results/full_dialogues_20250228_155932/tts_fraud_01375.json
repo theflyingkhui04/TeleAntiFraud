@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是客服中心的小李，这里显示您的账户可能遭到不明来源的登录，为了保障您的财产安全，我们需要对您的账户进行核实，您可以配合一下吗？",
+      "timestamp": 1740750550.5179205
+    },
+    {
+      "role": "right",
+      "content": "您好，小李。我最近确实收到过一些奇怪的短信，不过我平时都是用手机银行操作，不太会用电脑。你们是怎么知道我的账户可能被登录了？能不能具体说说？",
+      "timestamp": 1740750555.8232114
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提供的信息产生了怀疑，要求更多的细节来验证情况的真实性。在诈骗者未能提供足够的信息或用户感到不安全的情况下，用户选择主动挂断电话，以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

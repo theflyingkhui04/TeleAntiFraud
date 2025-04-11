@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这是紧急通知，您的家人现在在我们手上，如果您想确保他的安全，必须立即按照我说的做。",
+      "timestamp": 1740817409.6540542
+    },
+    {
+      "role": "right",
+      "content": "你、你是谁？怎么会有这种事？我家人在哪里？",
+      "timestamp": 1740817412.2087336
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对突如其来的威胁信息时感到恐慌和怀疑，可能认为这是诈骗电话，因此选择立即挂断以保护自己和家人的安全。用户的意图是避免进一步的风险和确认家人的真实情况。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

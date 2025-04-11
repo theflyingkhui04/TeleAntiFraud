@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "张总，您好，我是华海投资的李经理。听说您对高端投资有一定兴趣，这次我们有一个非常难得的机会，内部推荐名额有限，不知道您是否有兴趣了解一下？",
+      "timestamp": 1740731822.4636574
+    },
+    {
+      "role": "right",
+      "content": "李经理您好，我是张华。我对投资确实挺感兴趣的，不过我不是很懂高端投资，您可以简单介绍一下吗？我最近正好在考虑把一部分钱投出去。",
+      "timestamp": 1740731827.3432803
+    },
+    {
+      "role": "left",
+      "content": "张总，这次的机会非常难得，如果您有兴趣，可以随时联系我。这是我的名片，希望我们能有进一步的合作。祝您一切顺利，再见。",
+      "timestamp": 1740731840.1064599
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢李经理。我会考虑一下，有疑问再联系您。再见。",
+      "timestamp": 1740731842.8545208
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表明其选择挂断对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "张总，这次的机会非常难得，如果您有兴趣，可以随时联系我。这是我的名片，希望我们能有进一步的合作。祝您一切顺利，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢李经理。我会考虑一下，有疑问再联系您。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

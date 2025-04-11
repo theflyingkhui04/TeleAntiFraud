@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子的朋友，他现在出事了，被一伙人扣住了，他们要求我们马上支付五万块钱的赎金，不然会对他不利。您能尽快把钱转过来吗？时间很紧迫，他们随时可能改变主意。",
+      "timestamp": 1740750873.222554
+    },
+    {
+      "role": "right",
+      "content": "什么？你说我儿子出事了？这怎么可能？你能不能告诉我具体情况，他是怎么出的事？还有，你为什么给我打电话，你是不是认识他？",
+      "timestamp": 1740750876.4477265
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的信息表示怀疑，并要求提供更多细节。用户可能认为该请求不正常，且诈骗者未能提供令人信服的证据或解释，导致用户选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

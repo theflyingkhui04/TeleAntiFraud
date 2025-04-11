@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "打车服务已为您准备好，您现在需要叫车吗？",
+      "timestamp": 1740950257.1030695
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦帮我叫一辆车。谢谢。",
+      "timestamp": 1740950258.0141933
+    },
+    {
+      "role": "left",
+      "content": "请问您现在的位置和目的地是哪里？",
+      "timestamp": 1740950264.2038128
+    },
+    {
+      "role": "right",
+      "content": "我在小区门口，目的地是市中心医院。",
+      "timestamp": 1740950265.116865
+    },
+    {
+      "role": "left",
+      "content": "好的，我已为您叫了一辆车，预计三分钟后到达小区门口。请留意车牌号：京A12345。",
+      "timestamp": 1740950271.1778817
+    },
+    {
+      "role": "right",
+      "content": "好的，我知道了。谢谢。",
+      "timestamp": 1740950272.2943645
+    },
+    {
+      "role": "left",
+      "content": "您的车辆即将到达，请注意安全。如果需要其他帮助，随时联系我们。祝您一路顺利。",
+      "timestamp": 1740950278.5622478
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝我一路顺利。",
+      "timestamp": 1740950280.8133333
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已确认信息并表示感谢，服务目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的车辆即将到达，请注意安全。如果需要其他帮助，随时联系我们。祝您一路顺利。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝我一路顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

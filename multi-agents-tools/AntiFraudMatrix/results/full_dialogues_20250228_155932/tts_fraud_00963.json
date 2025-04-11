@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的邻居小张，我刚刚接到一个电话，说您的儿子小明被绑架了，对方要求我们不要报警，现在我正和您联系，希望您能尽快处理这件事。",
+      "timestamp": 1740751704.5522785
+    },
+    {
+      "role": "right",
+      "content": "小张，你先别急，你说的这事太突然了，我得先确认一下。你有对方的电话号码吗？我得和他们直接联系。",
+      "timestamp": 1740751706.79979
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一个诈骗电话，因为诈骗者提供的信息过于突然且缺乏可信度。用户要求直接联系对方以确认情况，这表明用户在试图验证信息的真伪。然而，诈骗者突然挂断了电话，这可能是因为诈骗者意识到用户已经开始怀疑，继续对话可能会暴露诈骗行为，因此选择提前结束对话以避免被识破。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

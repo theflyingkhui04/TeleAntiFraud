@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是客服小张，有什么可以帮助您的吗？",
+      "timestamp": 1740943941.2049735
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我是李工，最近家里的水管有点问题，想咨询一下维修服务。",
+      "timestamp": 1740943943.2149513
+    },
+    {
+      "role": "left",
+      "content": "李工您好，关于水管维修服务，我们可以为您提供专业的上门检修服务。请问您方便预约一个时间吗？",
+      "timestamp": 1740943950.1695676
+    },
+    {
+      "role": "right",
+      "content": "好的，我这周日有空，上午九点到十点之间可以吗？",
+      "timestamp": 1740943952.2503016
+    },
+    {
+      "role": "left",
+      "content": "可以的，周日上午九点到十点我们会上门为您服务。为了方便您后续查询，这是您的预约编号：123456。我们会提前发送短信确认，请注意查收。还有其他需要帮助的吗？",
+      "timestamp": 1740943960.2814775
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的维修预约时间后，提供了预约编号，并提醒用户注意查收确认短信。服务方询问用户是否有其他需要帮助的事项，但用户没有回应进一步的需求。服务方通过使用结束信号代码'##ENDCALL_SIGNAL##'表明服务流程已经完成，且认为当前对话已经达到了服务目标，即成功预约了维修服务，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

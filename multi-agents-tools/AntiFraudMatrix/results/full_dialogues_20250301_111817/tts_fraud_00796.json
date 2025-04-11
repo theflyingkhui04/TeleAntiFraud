@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您中得了本期彩票特别奖，奖金高达一百万元！为了确认您的中奖信息，请问您能提供一下您的姓名和联系电话吗？",
+      "timestamp": 1740804678.5696096
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？中了一百万？那太好了！我叫张建国，电话是 13812345678。你们是怎么知道我中奖的呢？",
+      "timestamp": 1740804681.74875
+    },
+    {
+      "role": "left",
+      "content": "张建国先生，我们是通过系统匹配到您的信息的。好的，我们已经记录了您的资料，接下来请您保持电话畅通，我们会尽快安排奖金发放事宜。谢谢您的配合，祝您生活愉快。再见。",
+      "timestamp": 1740804690.235316
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们！那我就等你们的好消息了。再见。",
+      "timestamp": 1740804692.3500881
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（姓名和电话），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "张建国先生，我们是通过系统匹配到您的信息的。好的，我们已经记录了您的资料，接下来请您保持电话畅通，我们会尽快安排奖金发放事宜。谢谢您的配合，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们！那我就等你们的好消息了。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

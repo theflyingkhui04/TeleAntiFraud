@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您中得了一等奖，奖金高达五百万元！不过，由于奖金金额巨大，需要您先支付一笔小额手续费，以便我们核实您的身份并发放奖金。您还在吗？",
+      "timestamp": 1740813311.3108222
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？五百万元，这可真是个好消息！不过，我怎么确认这是真的呢？我之前也接到过类似的电话，说是中奖了，结果是个骗局。您能给我提供一些证明吗？比如说，我中奖的凭证或者您的工作证件？我得确认一下，免得被骗了。",
+      "timestamp": 1740813317.3396175
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到需要支付手续费的要求后，表现出明显的警惕和怀疑态度，要求提供中奖凭证和工作证件以确认信息的真实性。用户可能已经意识到这是一起诈骗行为，为了防止进一步被骗，选择了主动挂断电话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "预约服务专员为您服务，有什么可以帮您的吗？",
+      "timestamp": 1740978126.7987602
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下你们的服务时间。",
+      "timestamp": 1740978128.1850727
+    },
+    {
+      "role": "left",
+      "content": "我们的服务时间是每天早上九点到晚上九点，包括周末和公共假期。请问您有什么具体的需求吗？",
+      "timestamp": 1740978135.8849907
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我就是想确认一下。对了，你们有没有什么特别的服务项目？",
+      "timestamp": 1740978138.4330287
+    },
+    {
+      "role": "left",
+      "content": "我们提供多项特别服务，比如上门服务、加急处理和定制化服务等。您可以告诉我您的具体需求，我可以为您详细介绍适合您的服务项目。",
+      "timestamp": 1740978147.8336487
+    },
+    {
+      "role": "right",
+      "content": "主要是想了解一下上门服务的内容和费用。",
+      "timestamp": 1740978149.1248515
+    },
+    {
+      "role": "left",
+      "content": "上门服务包括设备安装、维修和保养等，具体费用会根据服务内容和所需时间来确定。一般来说，基础费用为200元，具体报价需要了解您的详细需求后才能给出。您可以告诉我更多关于您需要的服务信息吗？",
+      "timestamp": 1740978159.8126118
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢。我再考虑一下，有需要会联系你们的。",
+      "timestamp": 1740978161.6206155
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您有其他问题或需要预约上门服务，可以随时联系我们。希望您的需求能够得到圆满解决，祝您生活愉快。",
+      "timestamp": 1740978171.1719346
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一切顺利。",
+      "timestamp": 1740978173.0328043
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示已经了解了所需信息，并表示会再考虑，没有进一步的服务需求。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您有其他问题或需要预约上门服务，可以随时联系我们。希望您的需求能够得到圆满解决，祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一切顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

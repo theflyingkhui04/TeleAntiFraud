@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服专员为您服务，请问有什么问题需要解决？",
+      "timestamp": 1740944853.5158937
+    },
+    {
+      "role": "right",
+      "content": "你好，我最近发现家里的暖气系统有点问题，想咨询一下怎么维修。",
+      "timestamp": 1740944854.7663755
+    },
+    {
+      "role": "left",
+      "content": "了解了，关于暖气系统的问题，首先建议您检查一下暖气阀门是否完全打开，以及暖气片上是否有空气需要排出。如果这些都正常，问题依然存在的话，可能需要请专业的维修人员来检查了。您之前尝试过这些步骤吗？",
+      "timestamp": 1740944859.8358805
+    },
+    {
+      "role": "right",
+      "content": "阀门已经打开了，也放了气，但还是不热。看来得找专业人员看看了。谢谢你的建议。",
+      "timestamp": 1740944863.7166584
+    },
+    {
+      "role": "left",
+      "content": "如果上述步骤还不能解决问题，建议您联系专业的维修服务。希望这些建议对您有所帮助，如果还有其他问题，随时欢迎咨询。祝您生活愉快。",
+      "timestamp": 1740944870.2539287
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。如果有需要我会再联系的。祝好。",
+      "timestamp": 1740944871.6275392
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经得到了关于暖气系统问题的初步建议，并表示将联系专业人员进行检查。用户对服务方的帮助表示了感谢，这表明对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果上述步骤还不能解决问题，建议您联系专业的维修服务。希望这些建议对您有所帮助，如果还有其他问题，随时欢迎咨询。祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。如果有需要我会再联系的。祝好。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

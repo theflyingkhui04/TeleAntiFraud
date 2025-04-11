@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是客服代表小李。请问您最近是否有收到我们银行发送的关于账户异常的短信通知？",
+      "timestamp": 1740728899.7402325
+    },
+    {
+      "role": "right",
+      "content": "你好，小李。我确实收到过一条短信，说我的账户有异常，让我尽快联系银行客服。我正打算联系你们呢。",
+      "timestamp": 1740728902.7448566
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一起诈骗电话，因为诈骗者在对话开始时即提供了挂断信号（##ENDCALL_SIGNAL##），这可能让用户感到不自然或怀疑对方的真实身份，因此选择主动挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

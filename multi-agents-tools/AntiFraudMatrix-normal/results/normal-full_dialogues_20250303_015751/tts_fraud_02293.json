@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的？",
+      "timestamp": 1740969403.0047154
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我今天想订一份素食套餐，有什么推荐吗？",
+      "timestamp": 1740969404.4966242
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话开始后立即提供了结束信号代码，这可能是由于误操作或对服务方的欢迎信息感到满意，认为无需进一步交流。然而，用户随后表达了订餐的需求，这表明最初的结束信号是无意的。因此，对话不应该在此时终止，而应继续以满足用户的需求。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

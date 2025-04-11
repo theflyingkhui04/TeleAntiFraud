@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以为您预订的吗？",
+      "timestamp": 1740948176.9985306
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我想订一份素菜套餐，你们有什么推荐的吗？",
+      "timestamp": 1740948180.6252737
+    },
+    {
+      "role": "left",
+      "content": "我们有几款招牌素菜套餐，比如时令蔬菜拼盘、香煎豆腐和五彩炒饭，都非常受欢迎。您想要尝试哪一款呢？",
+      "timestamp": 1740948187.0561743
+    },
+    {
+      "role": "right",
+      "content": "时令蔬菜拼盘听起来不错，就来这个吧。还有，能加一碗紫菜汤吗？",
+      "timestamp": 1740948188.4347746
+    },
+    {
+      "role": "left",
+      "content": "好的，时令蔬菜拼盘和一碗紫菜汤已经为您添加到订单中。还需要其他菜品或饮料吗？",
+      "timestamp": 1740948192.8272707
+    },
+    {
+      "role": "right",
+      "content": "不用了，这样就很好。请告诉我总价和大概的送达时间。",
+      "timestamp": 1740948193.7929368
+    },
+    {
+      "role": "left",
+      "content": "您的订单总价是35元，预计送达时间是30到40分钟。请确认您的送餐地址是否正确，以便我们尽快为您配送。",
+      "timestamp": 1740948201.0175781
+    },
+    {
+      "role": "right",
+      "content": "地址是正确的，谢谢。期待您的外卖，辛苦了。",
+      "timestamp": 1740948202.2666855
+    },
+    {
+      "role": "left",
+      "content": "您的订单已确认，35元的时令蔬菜拼盘和紫菜汤将在30到40分钟内送达。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740948210.8102705
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待您的外卖，再见。",
+      "timestamp": 1740948213.0795252
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单详情，并表达了对服务的满意和感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的订单已确认，35元的时令蔬菜拼盘和紫菜汤将在30到40分钟内送达。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待您的外卖，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

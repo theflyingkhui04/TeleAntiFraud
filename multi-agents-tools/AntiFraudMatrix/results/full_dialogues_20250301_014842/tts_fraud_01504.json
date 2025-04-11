@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自顺丰快递的客服，编号零零四，我们发现您的包裹中有一笔意外的现金，需要您支付相应的税费才能领取。能麻烦您提供一下联系方式和详细地址吗？我们需要尽快处理这个问题。",
+      "timestamp": 1740766481.9583495
+    },
+    {
+      "role": "right",
+      "content": "您好，我是张阿姨。这听起来有点奇怪，我最近没有寄过什么包裹，更不用说里面有现金了。你们怎么确认这个包裹是我的呢？我可不想被误认了。",
+      "timestamp": 1740766484.108072
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户张阿姨对诈骗者提供的信息表示怀疑，认为自己近期并未寄送含有现金的包裹，因此对对方的身份和意图产生了质疑。用户通过挂断电话的方式明确拒绝继续对话，避免进一步的信息交流可能带来的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

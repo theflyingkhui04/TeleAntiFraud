@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，您可以告诉我想要订购的餐厅和菜品吗？",
+      "timestamp": 1740972126.03024
+    },
+    {
+      "role": "right",
+      "content": "好的，我想订一家附近的中餐厅，有什么推荐吗？",
+      "timestamp": 1740972127.4068766
+    },
+    {
+      "role": "left",
+      "content": "当然，附近有一家口碑很好的中餐厅叫“味之源”，提供地道的川菜和粤菜，您感兴趣吗？",
+      "timestamp": 1740972134.631053
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，那就订这家吧。我想点个宫保鸡丁和清蒸鲈鱼，还有一份蒜蓉西兰花。这些菜够四个人吃吗？",
+      "timestamp": 1740972138.0551531
+    },
+    {
+      "role": "left",
+      "content": "这三道菜分量都比较足，尤其是宫保鸡丁和清蒸鲈鱼，应该可以满足四个人的用餐需求。如果还有其他菜品需要加订，也可以告诉我。",
+      "timestamp": 1740972145.4837978
+    },
+    {
+      "role": "right",
+      "content": "好的，那先这样吧。对了，你们有提供免费送餐服务吗？大概多久能送到？",
+      "timestamp": 1740972148.3821695
+    },
+    {
+      "role": "left",
+      "content": "这家餐厅提供免费送餐服务，预计送餐时间在30到40分钟左右，具体时间会根据当时的订单情况而定。您需要现在就下单吗？",
+      "timestamp": 1740972157.6461961
+    },
+    {
+      "role": "right",
+      "content": "好的，那就现在下单吧。谢谢你的帮助。",
+      "timestamp": 1740972159.6678362
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经成功提交，预计30到40分钟内送达。如果还有其他需要，请随时联系我。祝您用餐愉快！",
+      "timestamp": 1740972167.5111167
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740972168.8033972
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单，并表示感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经成功提交，预计30到40分钟内送达。如果还有其他需要，请随时联系我。祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

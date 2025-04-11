@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，您可以告诉我需要订购哪些餐品吗？",
+      "timestamp": 1740981126.4314876
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我不太需要订餐。不过你们这里有适合老年人的健康餐吗？可以少油少盐的那种。",
+      "timestamp": 1740981127.8367307
+    },
+    {
+      "role": "left",
+      "content": "当然有，我们为老年人特别设计了健康餐系列，包括少油少盐的菜品，比如清蒸鱼、炒时蔬等。您可以选择这些菜品，非常适合老年人食用。需要帮您下单吗？",
+      "timestamp": 1740981134.2799125
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，但我今天不订了，下次有需要的时候会考虑的。谢谢你的推荐。",
+      "timestamp": 1740981135.303118
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您对健康餐有任何疑问或需要进一步的帮助，随时欢迎咨询。感谢您的关注，祝您一切顺利。",
+      "timestamp": 1740981140.193104
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的服务。祝你一天愉快。",
+      "timestamp": 1740981141.0959766
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已表示感谢并明确表示当前不需要订餐，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您对健康餐有任何疑问或需要进一步的帮助，随时欢迎咨询。感谢您的关注，祝您一切顺利。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的服务。祝你一天愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

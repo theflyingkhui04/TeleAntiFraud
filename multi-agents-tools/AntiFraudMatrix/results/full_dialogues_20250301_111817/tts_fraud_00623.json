@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您银行的客服代表，我注意到您的账户有一些异常活动，为了您的安全，我们需要立即核实一些信息。请问您现在方便吗？",
+      "timestamp": 1740816696.900338
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我最近确实没怎么用这张卡。不过我正准备做饭，大概有十分钟的时间。您要核实什么信息呢？",
+      "timestamp": 1740816699.112945
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合。为了确保您的账户安全，我需要核实您的姓名、出生日期和账户的最后四位数字。这大概只需要几分钟时间，不会耽误您太久。可以开始吗？",
+      "timestamp": 1740816710.0263133
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者可能意识到用户对电话的背景有所怀疑，并且用户表示自己正忙，只有十分钟的时间。诈骗者可能认为这不足以完成诈骗过程，因此选择主动挂断，避免引起更多怀疑或浪费时间。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

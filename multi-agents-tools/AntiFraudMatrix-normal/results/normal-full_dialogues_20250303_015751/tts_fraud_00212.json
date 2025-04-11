@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到外卖订餐服务，我可以帮您订餐，请问您需要预订哪家餐厅的餐点呢？",
+      "timestamp": 1740950598.687228
+    },
+    {
+      "role": "right",
+      "content": "嗨，你好！我想订一家附近的中餐馆，有什么推荐的吗？",
+      "timestamp": 1740950599.8245268
+    },
+    {
+      "role": "left",
+      "content": "您好，附近有一家评价很好的中餐馆叫做“美味轩”，他们家的宫保鸡丁和鱼香肉丝非常受欢迎，您有兴趣尝试一下吗？",
+      "timestamp": 1740950604.4560876
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，那就试试“美味轩”吧。我想订宫保鸡丁和一份炒青菜。还有，他们家的米饭怎么样？",
+      "timestamp": 1740950606.2207456
+    },
+    {
+      "role": "left",
+      "content": "“美味轩”的米饭也挺不错的，口感软硬适中，很受欢迎。您需要订几份米饭呢？另外，这两道菜的分量都挺足的，您看需要几份？",
+      "timestamp": 1740950613.748949
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来两份米饭吧。两道菜各来一份，应该够了。还有，你们可以送到这里吗？地址是XX路XX号。",
+      "timestamp": 1740950619.0853071
+    },
+    {
+      "role": "left",
+      "content": "可以的，您的地址是XX路XX号，我们会为您安排送餐。请问您需要什么时间送到呢？如果您现在下单，大约30到40分钟后可以送达。",
+      "timestamp": 1740950627.7393873
+    },
+    {
+      "role": "right",
+      "content": "好的，那就麻烦你们30分钟后送到吧。谢谢！",
+      "timestamp": 1740950629.0306199
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，宫保鸡丁、炒青菜和两份米饭，大约30到40分钟后送达XX路XX号。感谢您的订餐，希望您用餐愉快！",
+      "timestamp": 1740950639.9013472
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食！",
+      "timestamp": 1740950640.8332636
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订餐的详细信息，包括菜品、米饭数量、送餐地址和时间，并表达了感谢，表明用户对服务满意且不再需要进一步的帮助。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，宫保鸡丁、炒青菜和两份米饭，大约30到40分钟后送达XX路XX号。感谢您的订餐，希望您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

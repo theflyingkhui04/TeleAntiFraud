@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客户服务部，我是客服代表李华。我们检测到您的账户有异常交易，为确保您的资金安全，我们需要您配合进行身份验证。请问您现在方便吗？",
+      "timestamp": 1740789210.6546295
+    },
+    {
+      "role": "right",
+      "content": "李华你好，我最近确实没怎么用这个账户，可能真有什么问题。现在方便，你说需要怎么配合？",
+      "timestamp": 1740789214.616589
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中没有表现出明显的怀疑或拒绝，但诈骗者在首次尝试接触时即提供了挂断信号（##ENDCALL_SIGNAL##）。这可能是因为诈骗者在尝试诈骗的过程中遇到了某种外部干扰，或者诈骗者自己决定终止对话。用户的意图可能并非主动挂断，而是跟随了诈骗者的信号结束了对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

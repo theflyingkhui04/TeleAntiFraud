@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！这里是国际快递服务中心，我们发现您的包裹被海关扣留，需要您提供身份信息以便核实身份并支付相关费用。请问您现在方便处理吗？",
+      "timestamp": 1740689013.2746768
+    },
+    {
+      "role": "right",
+      "content": "哎呀，这可怎么办？我最近确实有一个包裹，怎么就被扣留了呢？需要提供哪些信息呢？我按照你们的指示去做就是了。",
+      "timestamp": 1740689015.3643062
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何疑问，可以随时联系我们。我们会尽快处理您的包裹问题。祝您一天愉快！",
+      "timestamp": 1740689024.612816
+    },
+    {
+      "role": "right",
+      "content": "谢谢你们的帮助，我这就准备好相关信息。辛苦了，你们也要注意身体。",
+      "timestamp": 1740689061.651124
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表示诈骗者选择挂断电话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您有任何疑问，可以随时联系我们。我们会尽快处理您的包裹问题。祝您一天愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢你们的帮助，我这就准备好相关信息。辛苦了，你们也要注意身体。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "打车服务已为您准备好，请告诉我您的上车地点和目的地。",
+      "timestamp": 1740954278.2645087
+    },
+    {
+      "role": "right",
+      "content": "好的，我的上车地点是小区门口，目的地是市中心医院。谢谢。",
+      "timestamp": 1740954282.119735
+    },
+    {
+      "role": "left",
+      "content": "已为您安排好车辆，预计5分钟后到达小区门口。请留意车牌号为京A12345的蓝色轿车。如果有任何变动，司机将与您联系。",
+      "timestamp": 1740954288.2979567
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的上车地点和目的地后，已经为用户安排好了车辆，并提供了详细的车辆信息和预计到达时间。用户对此表示了感谢，服务方认为已经完成了本次服务流程，因此选择结束对话。服务方的意图是确保用户清楚了解所有必要的信息，同时表明服务已经完成，无需进一步交流。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

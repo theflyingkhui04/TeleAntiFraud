@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服代表，李明。我们刚刚检测到您的账户有异常活动，需要您配合进行安全验证。为了保障您的资金安全，请问您现在方便接电话吗？",
+      "timestamp": 1740792724.5857618
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？我最近都没怎么用银行卡，会不会是误报啊？不过为了安全起见，我还是配合一下吧。我现在方便，你说需要怎么做呢？",
+      "timestamp": 1740792726.9767425
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能在尝试配合诈骗者的过程中，突然意识到这可能是一个诈骗电话，或者用户可能接到了其他电话或事务，导致其决定挂断电话。用户的意图可能是为了中断潜在的诈骗行为，保护自己的信息安全，或者处理其他紧急事务。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，我可以帮您完成订餐，请问您想订哪家餐厅的餐呢？",
+      "timestamp": 1740941174.5197484
+    },
+    {
+      "role": "right",
+      "content": "嗨，我想订个快餐，有什么推荐的吗？",
+      "timestamp": 1740941175.5977728
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们有几家不错的快餐店，比如肯德基、麦当劳和必胜客，您看喜欢哪家的呢？",
+      "timestamp": 1740941180.0124052
+    },
+    {
+      "role": "right",
+      "content": "那就麦当劳吧，他们家汉堡挺好吃的。",
+      "timestamp": 1740941180.843667
+    },
+    {
+      "role": "left",
+      "content": "好的，麦当劳是个不错的选择。请问您想要哪些菜品？我们可以提供经典的麦辣鸡腿堡、巨无霸汉堡，还有各种小食和饮料。",
+      "timestamp": 1740941187.5809612
+    },
+    {
+      "role": "right",
+      "content": "来一个巨无霸汉堡，一份薯条，还有一杯可乐。",
+      "timestamp": 1740941189.0894678
+    },
+    {
+      "role": "left",
+      "content": "好的，您点的是一个巨无霸汉堡、一份薯条和一杯可乐。请问还需要其他菜品吗？",
+      "timestamp": 1740941193.6876786
+    },
+    {
+      "role": "right",
+      "content": "不用了，这些就够了。谢谢。",
+      "timestamp": 1740941194.266842
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，一个巨无霸汉堡、一份薯条和一杯可乐。预计三十分钟内送达，感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740941202.2185543
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。",
+      "timestamp": 1740941204.1774907
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并明确表示不再需要其他菜品，同时表达了感谢，表明其需求已得到满足。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，一个巨无霸汉堡、一份薯条和一杯可乐。预计三十分钟内送达，感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

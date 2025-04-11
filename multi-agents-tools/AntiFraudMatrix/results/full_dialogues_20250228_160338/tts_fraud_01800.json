@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的孩子现在在我们手上，不想他出事就立刻准备五十万现金，不要报警，否则后果自负！",
+      "timestamp": 1740736418.5688689
+    },
+    {
+      "role": "right",
+      "content": "你们是谁？我怎么知道你们说的是真的？我需要证据！",
+      "timestamp": 1740736430.6069627
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者提出的要求时，表现出怀疑和谨慎，要求提供证据以证明孩子确实被绑架。用户可能意识到这是一起诈骗，因此选择挂断电话以避免进一步的风险。用户的意图是终止与诈骗者的交流，防止个人信息和财务安全受到威胁。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

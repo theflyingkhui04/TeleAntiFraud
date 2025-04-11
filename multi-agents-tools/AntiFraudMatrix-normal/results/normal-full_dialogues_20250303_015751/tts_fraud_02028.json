@@ -1,0 +1,66 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么我可以帮您的吗？",
+      "timestamp": 1740958018.5405762
+    },
+    {
+      "role": "right",
+      "content": "嗨，我想买一些学习用品，您这儿有卖吗？",
+      "timestamp": 1740958019.5411067
+    },
+    {
+      "role": "left",
+      "content": "当然有，我们这里有各种学习用品，比如笔记本、笔、文件夹等，您具体需要什么？",
+      "timestamp": 1740958023.124621
+    },
+    {
+      "role": "right",
+      "content": "我需要一些笔记本和几支笔，最好是圆珠笔。",
+      "timestamp": 1740958024.8891993
+    },
+    {
+      "role": "left",
+      "content": "好的，我们这里有多种款式的笔记本和圆珠笔，您可以告诉我喜欢的风格或者品牌吗？这样我可以更准确地推荐。",
+      "timestamp": 1740958031.2555075
+    },
+    {
+      "role": "right",
+      "content": "不用太麻烦，给我几本普通的笔记本和几支黑色的圆珠笔就好了。",
+      "timestamp": 1740958032.1926734
+    },
+    {
+      "role": "left",
+      "content": "好的，我会为您准备几本普通笔记本和几支黑色圆珠笔。您需要的数量是多少呢？",
+      "timestamp": 1740958039.5483859
+    },
+    {
+      "role": "right",
+      "content": "三本笔记本，五支笔。",
+      "timestamp": 1740958040.210045
+    },
+    {
+      "role": "left",
+      "content": "好的，三本笔记本和五支黑色圆珠笔已经准备好。请问您是在线下单还是来店里取呢？",
+      "timestamp": 1740958045.8699856
+    },
+    {
+      "role": "right",
+      "content": "我是来店里取的，现在就在这里。",
+      "timestamp": 1740958046.7920778
+    },
+    {
+      "role": "left",
+      "content": "非常好，您可以直接到前台领取，工作人员会帮您打包好。需要帮您结账吗？",
+      "timestamp": 1740958052.6896532
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户所需商品并告知用户可以直接到前台领取后，询问用户是否需要帮助结账。这表明服务方已经完成了用户的购物需求，提供了完整的服务流程。服务方使用了结束标识符'##ENDCALL_SIGNAL##'，表明服务方认为对话已经完成，可以结束。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

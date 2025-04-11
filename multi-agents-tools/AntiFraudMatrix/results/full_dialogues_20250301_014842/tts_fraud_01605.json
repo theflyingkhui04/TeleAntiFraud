@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是建设银行客服中心，我是客服代表李明。我们发现您的账户有异常活动，需要您配合核实。请问您现在方便吗？",
+      "timestamp": 1740784257.9328184
+    },
+    {
+      "role": "right",
+      "content": "李明先生，您好。我刚才在医院里忙，现在刚刚有空，您说我的账户有异常活动？这听起来挺严重的，能具体说说是什么情况吗？",
+      "timestamp": 1740784259.5624802
+    },
+    {
+      "role": "left",
+      "content": "好的，非常感谢您的配合，我们会进一步核实情况。如果需要您协助，我们会再联系您。祝您一切顺利。",
+      "timestamp": 1740784267.1815362
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，李明先生。如果有需要我帮忙的地方，我会配合的。祝您工作顺利。",
+      "timestamp": 1740784270.0003512
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明其不再希望继续此次对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，非常感谢您的配合，我们会进一步核实情况。如果需要您协助，我们会再联系您。祝您一切顺利。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，李明先生。如果有需要我帮忙的地方，我会配合的。祝您工作顺利。"
+    }
+  ],
+  "reached_max_turns": false
+}

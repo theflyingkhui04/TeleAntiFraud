@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，我是XX银行的客服，检测到您的账户存在异常交易，需要立即核实您的身份信息以确保账户安全。请问您现在方便接听电话吗？",
+      "timestamp": 1740687459.3887806
+    },
+    {
+      "role": "right",
+      "content": "喂，您好。我是小李，我现在有点忙，不过可以抽几分钟时间。我的账户真的有问题吗？我最近没做过什么大额交易啊。",
+      "timestamp": 1740687462.4335601
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在接听电话后表示自己有点忙，但仍愿意抽几分钟时间进行交流。然而，诈骗者迅速挂断了电话，这可能是由于诈骗者意识到用户并未立即表现出对账户异常的恐慌或急切，或者诈骗者认为用户的态度不够配合，继续对话可能难以获取所需信息。用户的意图可能是想了解账户是否真的存在问题，但由于诈骗者挂断电话，用户未能得到进一步的信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

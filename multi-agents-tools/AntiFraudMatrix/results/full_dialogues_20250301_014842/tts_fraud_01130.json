@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张伟吗？我是你儿子的同学李明，你儿子现在出事了，被几个坏人抓走了，你得赶紧准备五十万，不然他们可能会对你儿子下手。",
+      "timestamp": 1740776415.7694216
+    },
+    {
+      "role": "right",
+      "content": "你说什么？我儿子被绑架了？这太可怕了！我现在就去准备钱，你能不能告诉我他们在哪儿？我得赶紧过去。",
+      "timestamp": 1740776420.5154667
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为极度恐慌和担心儿子的安全，急于采取行动而挂断电话，意图是立即去准备钱并寻找儿子。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

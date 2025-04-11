@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您儿子的朋友，刚刚我们在一起的时候他出事了，现在被几个人控制着，他们要求我马上联系您，不然就要对他下手。您得赶紧汇一笔钱过来，不然后果不堪设想。您在吗？",
+      "timestamp": 1740779526.575077
+    },
+    {
+      "role": "right",
+      "content": "你等一下，我儿子的朋友叫什么名字？你们现在在哪里？我得确认一下情况。",
+      "timestamp": 1740779528.1207798
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的情况后，提出了具体的问题以验证信息的真实性。用户挂断电话可能是出于对诈骗者身份的怀疑，认为对方提供的信息不足以证明其所说情况的真实性，或者是为了进一步核实情况，避免落入诈骗陷阱。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

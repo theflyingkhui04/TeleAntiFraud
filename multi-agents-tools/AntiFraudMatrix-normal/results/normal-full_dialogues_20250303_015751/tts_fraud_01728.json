@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服人员已准备好为您服务，请问有什么可以帮到您的？",
+      "timestamp": 1740967053.5581481
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下你们的课程安排和费用。",
+      "timestamp": 1740967055.2942245
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方发出问候并准备好提供服务后，立即提供了自己的需求，即了解课程安排和费用。然而，用户在表达完需求后立即使用了结束信号代码，这可能是因为用户误操作或误解了信号代码的使用。用户的意图是获取课程安排和费用的信息，但由于过早结束对话，未能实现这一目标。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

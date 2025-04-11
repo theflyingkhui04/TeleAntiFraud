@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的好友小李的朋友，现在有点紧急情况需要您的帮助。小李出事了，现在被我们这里的人控制着，我们需要一笔钱才能放了他。您能马上转一笔钱过来吗？时间不等人，这关系到小李的安全。",
+      "timestamp": 1740744121.0625987
+    },
+    {
+      "role": "right",
+      "content": "天哪，真的假的？小李怎么会出这种事？你们在哪儿？我该怎么办？",
+      "timestamp": 1740744144.3455691
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的情况后，表现出明显的担忧和困惑，但同时也可能对诈骗者身份和情况的真实性产生了怀疑。用户挂断电话可能是为了自行核实情况，避免在未确认事实前做出任何承诺或行动。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

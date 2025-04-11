@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "打车服务已为您准备好，有什么可以帮您的吗？",
+      "timestamp": 1740944942.8150651
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我想去市中心的车站，能帮我确认一下司机的车牌号吗？",
+      "timestamp": 1740944944.2835488
+    },
+    {
+      "role": "left",
+      "content": "好的，您的司机车牌号是京A12345，司机大约5分钟后到达，请注意查收短信里的详细信息。",
+      "timestamp": 1740944948.4938977
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会留意的。",
+      "timestamp": 1740944952.0870054
+    },
+    {
+      "role": "left",
+      "content": "您的车辆信息已确认，请注意安全，祝您一路顺利。",
+      "timestamp": 1740944955.778337
+    },
+    {
+      "role": "right",
+      "content": "谢谢，一路顺利。",
+      "timestamp": 1740944958.8310957
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表示了感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的车辆信息已确认，请注意安全，祝您一路顺利。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，一路顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我已帮您叫车，预计五分钟后到达，请您在上车点稍等。",
+      "timestamp": 1740975417.5906422
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。五分钟后到，我会准时在上车点等。",
+      "timestamp": 1740975418.6980429
+    },
+    {
+      "role": "left",
+      "content": "车辆已到达，请注意上车安全，祝您旅途愉快。",
+      "timestamp": 1740975435.1003454
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢提醒，我会注意安全。旅途愉快！",
+      "timestamp": 1740975436.6133063
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已表示了解并准备在指定时间等待，服务目标已达成，用户没有进一步的问题或需求。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "车辆已到达，请注意上车安全，祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢提醒，我会注意安全。旅途愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

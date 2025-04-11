@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740949963.085597
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我想订个晚饭。有什么推荐的吗？",
+      "timestamp": 1740949964.0006003
+    },
+    {
+      "role": "left",
+      "content": "我们今天的特色菜品有宫保鸡丁和黑椒牛柳，都非常受欢迎。您对这些感兴趣吗？",
+      "timestamp": 1740949968.3524349
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，那就来一份宫保鸡丁吧。还有什么配菜推荐？",
+      "timestamp": 1740949969.491699
+    },
+    {
+      "role": "left",
+      "content": "您可以搭配一份蒜蓉西兰花和一份酸辣土豆丝，这些都是很好的选择。还需要帮您加点米饭吗？",
+      "timestamp": 1740949973.2910602
+    },
+    {
+      "role": "right",
+      "content": "好的，就按你说的来一份蒜蓉西兰花和酸辣土豆丝，再加两碗米饭吧。",
+      "timestamp": 1740949974.6092212
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单是宫保鸡丁、蒜蓉西兰花、酸辣土豆丝，还有两碗米饭。请问需要什么饮料吗？",
+      "timestamp": 1740949979.2562933
+    },
+    {
+      "role": "right",
+      "content": "不用了，谢谢。这些就够了。什么时候能送到？",
+      "timestamp": 1740949980.083327
+    },
+    {
+      "role": "left",
+      "content": "您的订单预计在三十分钟内送达。请问还有其他特别要求吗？比如餐具或者调料包？",
+      "timestamp": 1740949985.8366108
+    },
+    {
+      "role": "right",
+      "content": "不用特别的餐具，调料包多放一点就好。谢谢。",
+      "timestamp": 1740949986.9068859
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，大约三十分钟后送达。如果您有任何其他需求，欢迎随时联系我们。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740949993.6872988
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待您的服务。",
+      "timestamp": 1740949995.0111115
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单的所有细节，包括菜品、米饭、送达时间和调料包的要求，服务目标已经达成。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，大约三十分钟后送达。如果您有任何其他需求，欢迎随时联系我们。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待您的服务。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

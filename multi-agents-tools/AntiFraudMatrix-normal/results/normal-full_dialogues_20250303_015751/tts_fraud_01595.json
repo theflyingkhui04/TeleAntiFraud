@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临！有什么商品您想了解或者需要帮助的吗？",
+      "timestamp": 1740940351.8024304
+    },
+    {
+      "role": "right",
+      "content": "您好，我在看这些咖啡豆，不太清楚怎么选，能帮我推荐一款吗？",
+      "timestamp": 1740940354.2818818
+    },
+    {
+      "role": "left",
+      "content": "当然可以！您是喜欢浓郁口感的还是清淡一些的？还有，您平时喜欢什么样的风味，比如香草、坚果或者果酸味？",
+      "timestamp": 1740940358.9598846
+    },
+    {
+      "role": "right",
+      "content": "我平时喜欢稍微浓郁一点的，坚果味的应该会比较适合我。您有什么推荐的吗？",
+      "timestamp": 1740940360.2083085
+    },
+    {
+      "role": "left",
+      "content": "根据您的喜好，我推荐您尝试一下我们的巴西 Santos 咖啡豆，它口感浓郁，带有明显的坚果香气，非常适合您。这款咖啡豆也很适合用来制作拿铁或卡布奇诺。您觉得如何？",
+      "timestamp": 1740940367.0315976
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，我就试试这款巴西 Santos 咖啡豆吧。谢谢您的推荐！",
+      "timestamp": 1740940368.5481834
+    },
+    {
+      "role": "left",
+      "content": "好的，巴西 Santos 咖啡豆非常适合您。如果您决定购买，可以在这里直接下单，或者我也可以帮您。感谢您的光临，希望您喜欢这款咖啡豆！",
+      "timestamp": 1740940375.171381
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助，我会考虑的。如果还有什么问题，我会再来的。",
+      "timestamp": 1740940376.4920213
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经接受了服务方的推荐，并表示感谢，表明用户的需求已经得到满足，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，巴西 Santos 咖啡豆非常适合您。如果您决定购买，可以在这里直接下单，或者我也可以帮您。感谢您的光临，希望您喜欢这款咖啡豆！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助，我会考虑的。如果还有什么问题，我会再来的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

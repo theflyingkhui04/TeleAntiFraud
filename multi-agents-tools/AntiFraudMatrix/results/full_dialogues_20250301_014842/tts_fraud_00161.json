@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！我们是国际快递公司，您有一个从国外寄来的包裹被海关扣留了，需要支付五百元的关税才能放行。请您尽快处理，以免影响包裹的送达。请问您现在方便进行支付吗？",
+      "timestamp": 1740767299.3102589
+    },
+    {
+      "role": "right",
+      "content": "真的吗？那我得赶紧处理，不然我朋友会着急的。我应该怎么支付呢？",
+      "timestamp": 1740767300.4929755
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们会尽快处理您的包裹事宜。如有任何问题，我们会再次联系您。祝您生活愉快。再见。",
+      "timestamp": 1740767304.43422
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！我会等你们的消息。再见。",
+      "timestamp": 1740767305.1920915
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中提供了明确的挂断标识符'##ENDCALL_SIGNAL##'，表明其已决定结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们会尽快处理您的包裹事宜。如有任何问题，我们会再次联系您。祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！我会等你们的消息。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

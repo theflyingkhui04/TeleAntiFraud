@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮助您的吗？",
+      "timestamp": 1740974944.0455768
+    },
+    {
+      "role": "right",
+      "content": "您好，我想订一份素食套餐，有什么推荐的吗？",
+      "timestamp": 1740974945.0371506
+    },
+    {
+      "role": "left",
+      "content": "我们有几款非常受欢迎的素食套餐，比如蔬菜炒饭、蘑菇意面和豆腐沙拉。您对口味有什么特别的偏好吗？比如偏辣或者偏清淡？",
+      "timestamp": 1740974949.6431627
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我平时喜欢吃清淡一点的。那就来一份蘑菇意面吧。",
+      "timestamp": 1740974950.8264546
+    },
+    {
+      "role": "left",
+      "content": "好的，一份蘑菇意面已经为您加入订单。请问还需要其他配菜或饮料吗？",
+      "timestamp": 1740974955.872942
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这样吧。麻烦您了。",
+      "timestamp": 1740974956.886104
+    },
+    {
+      "role": "left",
+      "content": "好的，一份清淡的蘑菇意面已为您准备好。如果您没有其他需要，我将为您确认这份订单。感谢您的选择，祝您用餐愉快！",
+      "timestamp": 1740974963.3926628
+    },
+    {
+      "role": "right",
+      "content": "谢谢，麻烦您了。用餐愉快！",
+      "timestamp": 1740974964.5492477
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表示不需要其他服务，明确表示了感谢。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，一份清淡的蘑菇意面已为您准备好。如果您没有其他需要，我将为您确认这份订单。感谢您的选择，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，麻烦您了。用餐愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

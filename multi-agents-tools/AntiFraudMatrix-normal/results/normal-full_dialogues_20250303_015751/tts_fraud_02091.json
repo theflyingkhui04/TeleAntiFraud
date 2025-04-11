@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，我可以帮您下单或解答任何问题。",
+      "timestamp": 1740976366.027062
+    },
+    {
+      "role": "right",
+      "content": "好的，我想订一份牛肉炒饭和一份糖醋排骨，还有一瓶冰红茶。",
+      "timestamp": 1740976368.3995245
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录。一份牛肉炒饭、一份糖醋排骨和一瓶冰红茶，还需要其他什么吗？",
+      "timestamp": 1740976375.3069212
+    },
+    {
+      "role": "right",
+      "content": "不需要了，谢谢。对了，大概多久能送到？",
+      "timestamp": 1740976379.599242
+    },
+    {
+      "role": "left",
+      "content": "您的订单预计在30到40分钟内送达，具体时间可能会因路况和订单量有所变化。如果您有特殊情况需要提前送达，请告诉我。",
+      "timestamp": 1740976387.141087
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。如果没有特殊情况，就按这个时间送吧。",
+      "timestamp": 1740976388.8031862
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计30到40分钟内送达。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740976398.534363
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740976399.9553568
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认订单内容并询问了预计送达时间，服务方也给出了明确的答复。用户表示没有特殊情况，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计30到40分钟内送达。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

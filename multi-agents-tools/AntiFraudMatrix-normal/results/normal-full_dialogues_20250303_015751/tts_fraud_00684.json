@@ -1,0 +1,61 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，有什么我可以帮您的吗？",
+      "timestamp": 1740955705.764151
+    },
+    {
+      "role": "right",
+      "content": "你好，小张，我想了解一下你们这里有没有适合两个人的套餐？",
+      "timestamp": 1740955706.8518584
+    },
+    {
+      "role": "left",
+      "content": "有的，我们这里有两个特别受欢迎的双人套餐，一个是经典套餐，包含两份主菜、一份沙拉和两杯饮料；另一个是浪漫套餐，包含两份特色主菜、一份甜点和一瓶红酒。您想了解哪一个呢？",
+      "timestamp": 1740955712.4929698
+    },
+    {
+      "role": "right",
+      "content": "经典套餐听起来不错，价格是多少？",
+      "timestamp": 1740955713.4196365
+    },
+    {
+      "role": "left",
+      "content": "经典套餐的价格是198元，非常实惠。如果您现在预订，还可以享受95折的优惠哦。您需要预订吗？",
+      "timestamp": 1740955721.7478096
+    },
+    {
+      "role": "right",
+      "content": "好的，我预订一份经典套餐。几点之前到店合适？",
+      "timestamp": 1740955722.7387352
+    },
+    {
+      "role": "left",
+      "content": "您预订的经典套餐我们建议提前半小时到店，这样可以确保您的用餐体验更加愉快。请问您准备什么时间来用餐呢？",
+      "timestamp": 1740955727.0256276
+    },
+    {
+      "role": "right",
+      "content": "那我们打算六点半到，这样合适吗？",
+      "timestamp": 1740955728.3593266
+    },
+    {
+      "role": "left",
+      "content": "六点半到非常合适，我们会为您准备好一切。请问还需要其他服务或有特殊要求吗？",
+      "timestamp": 1740955738.0148814
+    },
+    {
+      "role": "right",
+      "content": "暂时没有了，谢谢。到时候见。",
+      "timestamp": 1740955740.2159755
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认了预订时间，并表示没有其他特殊要求后，明确表示了感谢并使用了结束信号代码'##ENDCALL_SIGNAL##'。用户的意图是结束对话，因为所有的问题都已经得到了满意的解答，预订也已经完成。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

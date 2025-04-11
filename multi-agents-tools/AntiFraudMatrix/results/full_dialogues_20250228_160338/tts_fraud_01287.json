@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是赵先生的司机，赵先生刚才在回家的路上遇到了一点麻烦，现在情况非常紧急，您能听我说吗？",
+      "timestamp": 1740743860.0649667
+    },
+    {
+      "role": "right",
+      "content": "哦，赵先生怎么了？我是他的医生，有什么需要我帮忙的吗？",
+      "timestamp": 1740743864.4216652
+    },
+    {
+      "role": "left",
+      "content": "赵医生，真是太好了，您能帮忙真是太好了。赵先生刚刚被人劫持了，绑匪要求我们支付一笔赎金，否则他们就要对赵先生不利。请您一定要帮帮我们，救救赵先生。",
+      "timestamp": 1740743918.9170182
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在初步试探后，发现用户自称为赵先生的医生，可能认为用户对赵先生的个人和财务信息了解有限，难以从用户处获取到足够的敏感信息或资金，因此选择主动挂断电话，寻找其他更有利的目标。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

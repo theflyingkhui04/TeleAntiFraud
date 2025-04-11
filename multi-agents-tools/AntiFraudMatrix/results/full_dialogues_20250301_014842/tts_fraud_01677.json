@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自速达快递公司的客服，您的包裹因为安检问题需要您支付一笔额外的处理费用。为了确保您的包裹能够顺利送达，请您提供您的姓名和联系电话，以便我们为您处理。",
+      "timestamp": 1740783909.3216162
+    },
+    {
+      "role": "right",
+      "content": "你好，我是张阿姨。我的包裹出了什么问题吗？需要支付多少费用呢？",
+      "timestamp": 1740783911.228391
+    },
+    {
+      "role": "left",
+      "content": "张阿姨您好，您的包裹在安检时发现了一些问题，需要支付一百元的处理费用。请您尽快提供您的联系电话，我们会在确认后为您处理，以免影响您正常使用。",
+      "timestamp": 1740783917.2846148
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊。我的电话是 13800138000。那我需要怎么支付这笔费用呢？",
+      "timestamp": 1740783918.7859154
+    },
+    {
+      "role": "left",
+      "content": "张阿姨，您的信息我已经记录了，我们会尽快为您处理。如果有任何进展，我们会第一时间联系您。谢谢您的配合，祝您生活愉快。再见。",
+      "timestamp": 1740783924.6234756
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。希望我的包裹能顺利送到。再见。",
+      "timestamp": 1740783928.488899
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（电话号码），并且询问支付方式，表明诈骗明显成功。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "张阿姨，您的信息我已经记录了，我们会尽快为您处理。如果有任何进展，我们会第一时间联系您。谢谢您的配合，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。希望我的包裹能顺利送到。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

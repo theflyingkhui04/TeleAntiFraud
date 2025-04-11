@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的预约服务助手，可以帮您安排预约，请问需要预约什么服务呢？",
+      "timestamp": 1740976357.1278129
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约一下学校的图书馆，看看有没有空位。",
+      "timestamp": 1740976358.7899868
+    },
+    {
+      "role": "left",
+      "content": "好的，我可以帮您查询。请问您希望预约哪个时间段呢？",
+      "timestamp": 1740976364.7699447
+    },
+    {
+      "role": "right",
+      "content": "下午三点到五点，这个时间段可以吗？",
+      "timestamp": 1740976366.3336616
+    },
+    {
+      "role": "left",
+      "content": "下午三点到五点的时间段，让我查一下……好的，这个时间段还有空位。请问您需要预约哪个区域的座位呢？比如研修室、普通阅读区或者安静区。",
+      "timestamp": 1740976375.218739
+    },
+    {
+      "role": "right",
+      "content": "安静区吧，我想安静地学习一下。",
+      "timestamp": 1740976377.1059494
+    },
+    {
+      "role": "left",
+      "content": "好的，安静区的座位已经为您预留了。您的预约时间为今天下午三点到五点。稍后您会收到一条确认短信，里面包含具体的座位号和预约详情。请问还有其他需要帮助的吗？",
+      "timestamp": 1740976386.6413388
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的需求并成功完成预约服务后，主动使用了结束信号代码'##ENDCALL_SIGNAL##'。这表明服务方认为服务目标已经达成，用户的需求得到了满足，且服务方询问了用户是否有其他需要帮助的事项，得到了用户的默认无进一步需求的回应。服务方的意图是礼貌地结束对话，确保用户对服务满意。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

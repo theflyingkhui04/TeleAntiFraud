@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么我可以帮您的？",
+      "timestamp": 1740978786.4975324
+    },
+    {
+      "role": "right",
+      "content": "您好，我想订一份外卖。有什么推荐的吗？",
+      "timestamp": 1740978788.1170142
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "从对话中可以看出，服务方在用户尚未表达具体需求之前就结束了对话，这可能是由于服务方误操作或系统错误导致。用户原本有明确的订餐需求，但对话在服务方发出结束信号后被迫中断，用户的意图未能得到满足。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

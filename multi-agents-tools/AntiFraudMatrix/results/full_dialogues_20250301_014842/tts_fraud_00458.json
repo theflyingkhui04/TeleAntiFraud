@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的儿子小明的朋友，他现在出事了，被一帮人扣着，如果您不马上打钱过来，他们说要对他不利。您现在在家吗？我需要您立刻准备三万块钱，汇到这个账户……",
+      "timestamp": 1740789369.1698778
+    },
+    {
+      "role": "right",
+      "content": "小明的朋友？你是谁啊？我怎么从来没有听说过你？小明现在在哪儿？你能不能告诉我具体点儿？怎么会有这种事情？我得先确认一下，不然我不能随便打钱的。你先别急，我得给他打个电话确认一下。",
+      "timestamp": 1740789372.4758322
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的信息表示怀疑，要求提供更具体的细节以确认情况的真实性。用户表达了需要直接联系其儿子以验证情况，表明用户已经意识到这可能是一个诈骗行为，并选择通过挂断电话来避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

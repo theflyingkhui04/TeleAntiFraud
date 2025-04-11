@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您中了我们公司举办的全国幸运抽奖活动二等奖，奖金高达50万元！请问您方便提供一下您的姓名和身份证号码，以便我们核实您的身份并安排奖金发放吗？",
+      "timestamp": 1740691764.461468
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真是太幸运了！我姓张，身份证号码是123456789012345678。你们能告诉我具体的领奖流程吗？我以前没中过这么大的奖，不太清楚。",
+      "timestamp": 1740691768.6229804
+    },
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。",
+      "timestamp": 1740691776.9792922
+    },
+    {
+      "role": "right",
+      "content": "好的，那你们能告诉我具体怎么领奖吗？我这把年纪了，不太懂这些流程，麻烦你们详细说一下。",
+      "timestamp": 1740691779.363564
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（姓名和身份证号码），诈骗明显成功。为了防止进一步的信息泄露，应立即终止对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。"
+    },
+    {
+      "role": "right",
+      "content": "好的，那你们能告诉我具体怎么领奖吗？我这把年纪了，不太懂这些流程，麻烦你们详细说一下。"
+    }
+  ],
+  "reached_max_turns": false
+}

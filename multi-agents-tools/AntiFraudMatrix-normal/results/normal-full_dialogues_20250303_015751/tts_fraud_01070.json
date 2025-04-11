@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想要预订的餐点和送餐地址吗？",
+      "timestamp": 1740979116.0133834
+    },
+    {
+      "role": "right",
+      "content": "好的，我想预订一份牛肉炒饭和一份糖醋排骨，送餐地址是上海市浦东新区世纪大道888号。",
+      "timestamp": 1740979119.7107604
+    },
+    {
+      "role": "left",
+      "content": "好的，您预订的是一份牛肉炒饭和一份糖醋排骨，送餐地址是上海市浦东新区世纪大道八八八号。请问需要什么时间送达呢？",
+      "timestamp": 1740979128.9267495
+    },
+    {
+      "role": "right",
+      "content": "麻烦你们在一小时后送达，谢谢。",
+      "timestamp": 1740979130.1667478
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单预计在一小时后送达。请问还有其他特殊要求吗，比如餐具或者调味品？",
+      "timestamp": 1740979138.0653226
+    },
+    {
+      "role": "right",
+      "content": "不需要额外的餐具和调味品，谢谢。",
+      "timestamp": 1740979139.6234825
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计在一小时后送达上海市浦东新区世纪大道八八八号。如果需要任何帮助，可以随时联系我们。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740979154.2953277
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。祝工作顺利。",
+      "timestamp": 1740979155.8426673
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单详情，包括餐点、送餐地址和时间，且明确表示没有其他特殊要求。服务方已记录所有必要信息，对话目标已达成。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计在一小时后送达上海市浦东新区世纪大道八八八号。如果需要任何帮助，可以随时联系我们。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。祝工作顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

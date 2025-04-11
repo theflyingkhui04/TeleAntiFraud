@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家邮政总局客服中心，您的一个包裹在运输过程中遇到了一些问题，需要您配合处理。为了不影响您的正常生活，请您提供一下手机号码，以便我们核对信息。",
+      "timestamp": 1740742088.9312742
+    },
+    {
+      "role": "right",
+      "content": "您好，我是学生，平时上课比较忙，不太关注快递。不过，我一般都是用某宝和某东购物，他们有专门的快递查询，我可以在上面查到。你们这边有什么具体的需要我配合的吗？",
+      "timestamp": 1740742093.6391187
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份表示怀疑，并拒绝提供个人信息。用户提到自己平时使用某宝和某东的快递查询服务，暗示自己对快递信息有其他获取途径，不需要通过诈骗者提供的渠道。用户在表达完自己的立场后，主动挂断了电话，表明用户不愿意继续与诈骗者交流，并选择了结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

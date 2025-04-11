@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪一项服务呢？",
+      "timestamp": 1740938599.681489
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一个全面体检。",
+      "timestamp": 1740938600.6960466
+    },
+    {
+      "role": "left",
+      "content": "好的，全面体检是一个很好的选择。请问您方便预约哪一天来院进行体检呢？",
+      "timestamp": 1740938604.9816582
+    },
+    {
+      "role": "right",
+      "content": "下周三上午可以吗？",
+      "timestamp": 1740938605.7192764
+    },
+    {
+      "role": "left",
+      "content": "下周三上午可以，我们通常是从早上八点开始接待体检客户。请问您希望具体哪个时间段呢？",
+      "timestamp": 1740938610.617403
+    },
+    {
+      "role": "right",
+      "content": "早上九点左右吧。",
+      "timestamp": 1740938611.0383995
+    },
+    {
+      "role": "left",
+      "content": "好的，我们为您预约了下周三早上九点的全面体检。请问需要帮您准备什么特别的注意事项吗？例如是否有特殊疾病史或者需要特别检查的项目？",
+      "timestamp": 1740938615.1538892
+    },
+    {
+      "role": "right",
+      "content": "没有特别的，就按照常规全面体检来做就行。谢谢。",
+      "timestamp": 1740938615.9551475
+    },
+    {
+      "role": "left",
+      "content": "好的，您的全面体检预约已经成功安排在下周三早上九点。我们会通过短信发送确认信息和注意事项给您。如果有任何问题，您可以随时联系我们。感谢您的预约，祝您健康！",
+      "timestamp": 1740938624.8450708
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的安排。收到短信后我会再确认一下。祝好！",
+      "timestamp": 1740938626.7997737
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了预约时间和项目，并表示没有特别的要求。服务方可以结束对话，确认预约详情并感谢用户的预约。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的全面体检预约已经成功安排在下周三早上九点。我们会通过短信发送确认信息和注意事项给您。如果有任何问题，您可以随时联系我们。感谢您的预约，祝您健康！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的安排。收到短信后我会再确认一下。祝好！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

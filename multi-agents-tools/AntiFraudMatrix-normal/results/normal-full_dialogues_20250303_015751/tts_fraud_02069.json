@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，您可以告诉我您想点什么吗？",
+      "timestamp": 1740979318.9799461
+    },
+    {
+      "role": "right",
+      "content": "好的，我想点一份红烧肉和一份清炒时蔬，还有一碗米饭。谢谢。",
+      "timestamp": 1740979321.2040176
+    },
+    {
+      "role": "left",
+      "content": "好的，您点了一份红烧肉、一份清炒时蔬和一碗米饭，还需要帮您加点别的吗？比如饮品或者汤类？",
+      "timestamp": 1740979332.2523131
+    },
+    {
+      "role": "right",
+      "content": "不用了，这样就可以了。谢谢。",
+      "timestamp": 1740979333.4710367
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包含一份红烧肉、一份清炒时蔬和一碗米饭。预计30分钟后送达，感谢您的订购，如果还有其他需求，欢迎随时联系我们。",
+      "timestamp": 1740979342.881357
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。",
+      "timestamp": 1740979344.1041138
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并明确表示不再需要其他服务，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包含一份红烧肉、一份清炒时蔬和一碗米饭。预计30分钟后送达，感谢您的订购，如果还有其他需求，欢迎随时联系我们。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您开户银行的客服代表，李晓晓。我们检测到您的账户有异常登录，为了保障您的资金安全，我们需要对您的账户进行临时冻结。请问您现在方便接听电话吗？",
+      "timestamp": 1740750451.3735912
+    },
+    {
+      "role": "right",
+      "content": "你好，李晓晓。我确实收到过类似的通知，但我不确定是不是真的。你能告诉我一些详细信息，比如登录的具体时间、地点吗？",
+      "timestamp": 1740750453.7272346
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称账户有异常登录后，表现出谨慎的态度，并要求提供具体的异常登录信息。这表明用户可能已经意识到这可能是一起诈骗，或者至少对来电的真实性产生了怀疑。用户主动挂断电话，可能是为了自行验证信息的真实性，避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

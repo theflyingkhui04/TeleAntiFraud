@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询助手，有什么我可以帮您的？",
+      "timestamp": 1740948878.4919949
+    },
+    {
+      "role": "right",
+      "content": "嗨，我最近在考虑购买一辆新车，想了解一下目前市场上有哪些车型比较适合家庭使用，能给我一些建议吗？",
+      "timestamp": 1740948885.0992613
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话开始时即表明了其咨询需求，但服务方提供的自我介绍并未直接回应用户的咨询需求，导致用户可能认为服务方无法提供所需信息，因此选择了主动结束对话。用户的意图是寻找关于适合家庭使用的车型的建议，但未能从服务方处获得有效回应。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

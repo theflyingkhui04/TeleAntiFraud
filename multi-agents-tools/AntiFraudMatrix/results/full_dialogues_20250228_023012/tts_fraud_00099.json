@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "嘿，老兄，你听说最近有个超高收益的投资项目吗？",
+      "timestamp": 1740690009.3044841
+    },
+    {
+      "role": "right",
+      "content": "真的吗？我最近正好在找一些投资的机会。这个项目具体是什么？能赚多少？",
+      "timestamp": 1740690010.729588
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在表达出对投资项目的兴趣之后立即挂断了电话，这可能是因为用户意识到这可能是一个诈骗电话，或者用户只是想快速结束对话，并没有真正对投资机会感兴趣。另一种可能是用户意识到自己可能泄露了过多信息，因此选择立即挂断以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

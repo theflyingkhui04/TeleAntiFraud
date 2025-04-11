@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的打车服务助手，有什么我可以帮您的吗？",
+      "timestamp": 1740946201.4521337
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下附近有没有可用的出租车，我准备下班回家。",
+      "timestamp": 1740946202.5380802
+    },
+    {
+      "role": "left",
+      "content": "好的，我来帮您查看一下。请问您现在的位置是在哪里呢？",
+      "timestamp": 1740946207.636664
+    },
+    {
+      "role": "right",
+      "content": "我在市中心的喜来登酒店附近。",
+      "timestamp": 1740946208.92573
+    },
+    {
+      "role": "left",
+      "content": "好的，已经查到了，您附近有几辆可用的出租车。请问您需要我为您叫一辆吗？",
+      "timestamp": 1740946215.4412236
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦你帮我叫一辆吧。大概需要等多久呢？",
+      "timestamp": 1740946216.7243621
+    },
+    {
+      "role": "left",
+      "content": "我已经为您叫了一辆车，预计在十分钟内到达。请您留意手机上的通知，司机到达后会联系您的。",
+      "timestamp": 1740946224.9110343
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。",
+      "timestamp": 1740946225.733526
+    },
+    {
+      "role": "left",
+      "content": "好的，您的车已经安排好了，预计十分钟内到达。感谢您的耐心等待，祝您旅途愉快！",
+      "timestamp": 1740946231.2831972
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740946235.2906845
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢并确认不需要进一步的帮助，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的车已经安排好了，预计十分钟内到达。感谢您的耐心等待，祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

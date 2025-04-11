@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想点什么吗？",
+      "timestamp": 1740956640.6586354
+    },
+    {
+      "role": "right",
+      "content": "我今天想吃点简单的，有什么推荐的吗？",
+      "timestamp": 1740956641.642986
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款简单又美味的餐点，比如鸡肉凯撒沙拉、蔬菜三明治和蘑菇汤，都是不错的选择。您对哪一款感兴趣呢？",
+      "timestamp": 1740956646.8024423
+    },
+    {
+      "role": "right",
+      "content": "那就来一份蔬菜三明治吧，还有一杯冰红茶。",
+      "timestamp": 1740956648.3997474
+    },
+    {
+      "role": "left",
+      "content": "好的，一份蔬菜三明治和一杯冰红茶，您需要加点什么小菜或者甜点吗？",
+      "timestamp": 1740956653.9064991
+    },
+    {
+      "role": "right",
+      "content": "不用了，这样就可以了。谢谢。",
+      "timestamp": 1740956655.85377
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，一份蔬菜三明治和一杯冰红茶，预计三十分钟内送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740956663.28706
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740956665.1289234
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经点完餐，并表示不需要其他服务，同时表达了感谢，表明对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，一份蔬菜三明治和一杯冰红茶，预计三十分钟内送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

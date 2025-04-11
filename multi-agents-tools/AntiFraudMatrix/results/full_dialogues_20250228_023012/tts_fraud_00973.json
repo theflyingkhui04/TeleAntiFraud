@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你必须立刻听我说，你儿子现在在我们手上，你明白了吗？",
+      "timestamp": 1740688316.4006543
+    },
+    {
+      "role": "right",
+      "content": "你说什么？你再说一遍，我完全听不懂你在说什么。你儿子？我只有一个女儿，没有儿子。你搞错了吧？你到底是谁？",
+      "timestamp": 1740688318.2794578
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户因为诈骗者声称绑架了其不存在的儿子而感到困惑和怀疑，用户明确表示自己没有儿子，并质疑诈骗者的身份，表明用户已经识破了诈骗行为，因此选择挂断电话以避免进一步的骚扰。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

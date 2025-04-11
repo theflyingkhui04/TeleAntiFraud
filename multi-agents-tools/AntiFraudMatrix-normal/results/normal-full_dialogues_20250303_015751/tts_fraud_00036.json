@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服为您服务，请问有什么问题需要解决呢？",
+      "timestamp": 1740945236.040434
+    },
+    {
+      "role": "right",
+      "content": "嗯，我想了解一下你们的退换货政策。",
+      "timestamp": 1740945237.77767
+    },
+    {
+      "role": "left",
+      "content": "我们非常重视您的购物体验，关于退换货政策，通常在收到商品后七天内，若您发现商品有质量问题或者与描述不符，可以联系我们处理退换货事宜。请问您有具体的产品需要咨询吗？",
+      "timestamp": 1740945247.4775758
+    },
+    {
+      "role": "right",
+      "content": "好的，我买了一件衣服，尺码小了，能不能换大一点的？",
+      "timestamp": 1740945248.782066
+    },
+    {
+      "role": "left",
+      "content": "当然可以，您可以申请换货，选择您需要的尺码。请您登录账户，进入订单详情页面，点击申请换货，按照提示操作即可。如果有任何问题，随时联系我们的客服，我们会协助您完成换货流程。",
+      "timestamp": 1740945254.445311
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会试试看。",
+      "timestamp": 1740945255.2687232
+    },
+    {
+      "role": "left",
+      "content": "您的换货申请流程我已经为您说明，如果有任何问题，请随时联系我们。感谢您的理解与支持，祝您生活愉快。",
+      "timestamp": 1740945261.5022483
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740945263.0693827
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示满意并感谢服务方，没有进一步的问题需要解决。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的换货申请流程我已经为您说明，如果有任何问题，请随时联系我们。感谢您的理解与支持，祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

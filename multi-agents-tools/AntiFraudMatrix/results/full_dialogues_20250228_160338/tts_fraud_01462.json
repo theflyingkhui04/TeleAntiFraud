@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，张强吗？我是王明，你侄子的同学。你侄子刚刚出事了，被一伙人扣住了，他们要一笔钱才能放人。你得赶紧把钱打过来，不然他们真的会对你侄子不利。你银行卡的账号是多少？我这边已经联系好了，你把钱转过去，我们就马上去处理。你得快点，他们时间有限，不会等太久的。",
+      "timestamp": 1740730127.9289412
+    },
+    {
+      "role": "right",
+      "content": "喂，王明啊？我侄子怎么了？你先别急，具体发生了什么事？我怎么知道你是不是真的？我得先确认一下情况。你有什么证据证明你是王明，而且这件事是真的吗？",
+      "timestamp": 1740730141.8336027
+    },
+    {
+      "role": "left",
+      "content": "好的，那你先冷静一下，我会尽快处理这件事，你等我的消息。再见。",
+      "timestamp": 1740730164.3777525
+    },
+    {
+      "role": "right",
+      "content": "好的，你先去处理吧，我等你的消息。但你务必确保这件事是真的，我这边也会联系我侄子确认一下。",
+      "timestamp": 1740730189.2030392
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表示诈骗者选择挂断电话，因此对话应终止。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那你先冷静一下，我会尽快处理这件事，你等我的消息。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，你先去处理吧，我等你的消息。但你务必确保这件事是真的，我这边也会联系我侄子确认一下。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

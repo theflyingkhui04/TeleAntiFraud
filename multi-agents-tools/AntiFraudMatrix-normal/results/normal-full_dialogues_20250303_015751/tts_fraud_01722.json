@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，请问有什么问题需要我帮您解决？",
+      "timestamp": 1740973404.4543087
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我是李医生，最近感觉关节有些不适，想了解一下有没有适合我这个年龄段的保健方法。",
+      "timestamp": 1740973406.9092257
+    },
+    {
+      "role": "left",
+      "content": "李医生您好，关于关节保健，建议您可以适当进行低强度的运动如散步或游泳，同时保持合理饮食，可以多吃一些富含Omega-3脂肪酸的食物，比如深海鱼和坚果。另外，补充一些关节保健品，如葡萄糖胺，也有助于关节健康。不过，具体方案最好还是咨询专业的医疗人员。希望这些建议对您有所帮助。请问还有其他方面需要了解的吗？",
+      "timestamp": 1740973416.5690498
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在提供了具体的关节保健建议后，询问用户是否还有其他需要了解的内容，而用户没有进一步的提问或回应。服务方通过使用结束信号代码'##ENDCALL_SIGNAL##'表明已经完成了服务流程，认为用户的问题已经得到解决，且没有其他需要帮助的地方，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

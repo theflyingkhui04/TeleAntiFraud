@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友李华的同事，他现在遇到了非常紧急的情况，需要您的帮助。",
+      "timestamp": 1740740737.89094
+    },
+    {
+      "role": "right",
+      "content": "哎呀，李华怎么了？他遇到了什么紧急情况？你能不能详细说说？",
+      "timestamp": 1740740740.3437347
+    },
+    {
+      "role": "left",
+      "content": "李华刚刚在出差途中被我们当地的一些人绑架了，他们要求家里人立刻转账二十万到指定账户，否则就会伤害李华。现在情况非常危急，您是他最信任的朋友，我们需要您帮忙转账。",
+      "timestamp": 1740740763.6776626
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者可能意识到用户对情况的反应过于急切，缺乏必要的警惕和验证，担心用户会进一步追问细节或采取其他行动（如报警），从而暴露诈骗行为。因此，诈骗者选择提前挂断电话，避免暴露。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

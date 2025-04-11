@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，有什么我可以帮您的吗？",
+      "timestamp": 1740939609.6126535
+    },
+    {
+      "role": "right",
+      "content": "嗨，我在找去市中心的路线，能给我一些建议吗？",
+      "timestamp": 1740939611.0583177
+    },
+    {
+      "role": "left",
+      "content": "当然可以。您现在的位置是哪里？这样我可以为您提供更具体的路线建议。",
+      "timestamp": 1740939614.33349
+    },
+    {
+      "role": "right",
+      "content": "我在火车站附近。",
+      "timestamp": 1740939615.4424176
+    },
+    {
+      "role": "left",
+      "content": "好的，从火车站到市中心有几种方式。您可以选择乘坐公交车，大约需要二十分钟，车费是两元。如果您想要更快，可以打车，大约十分钟左右到达，费用大概在二十元左右。您倾向于哪种方式？",
+      "timestamp": 1740939621.4489596
+    },
+    {
+      "role": "right",
+      "content": "我打算坐公交车，能告诉我哪个站上车吗？",
+      "timestamp": 1740939622.3366878
+    },
+    {
+      "role": "left",
+      "content": "从火车站出发，您可以直接前往火车站的公交站台，乘坐1路或5路公交车，在市中心站下车即可。这两个线路都直达市中心，非常方便。",
+      "timestamp": 1740939627.1699946
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助！",
+      "timestamp": 1740939627.750475
+    },
+    {
+      "role": "left",
+      "content": "好的，祝您乘车顺利，旅途愉快。如果还有其他问题，随时欢迎咨询。",
+      "timestamp": 1740939632.4888604
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740939633.2349536
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示感谢并结束对话，表明其问题已得到解决。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，祝您乘车顺利，旅途愉快。如果还有其他问题，随时欢迎咨询。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自顺丰快递的客服代表，请问是李先生吗？我们发现您有一个包裹可能涉及违禁品，需要您配合处理。",
+      "timestamp": 1740751666.7088866
+    },
+    {
+      "role": "right",
+      "content": "您好，我不是李先生，您可能找错人了。我是李晓晓，一名大学生。你们是不是搞错了？",
+      "timestamp": 1740751670.2455623
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户李晓晓在确认自己并非诈骗者所寻找的李先生后，意识到这可能是一起诈骗电话，因此选择立即挂断电话以避免进一步的交流。用户的意图是明确拒绝继续参与对话，表明自己不愿配合诈骗者的进一步行动。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "嘿，恭喜你！你刚刚赢得了一笔巨额奖金，价值500,000元的彩票大奖！你是不是觉得自己今天特别幸运？",
+      "timestamp": 1740690171.814976
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？这太棒了！我简直不敢相信！我需要做些什么来领取奖金呢？",
+      "timestamp": 1740690209.1250474
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "对话中，诈骗者声称用户赢得了一笔巨额奖金，用户表现出明显的兴趣和兴奋。然而，用户在表达兴奋之后立即挂断了电话，这可能是因为用户意识到这可能是一个诈骗电话，或者用户意识到自己不应该轻易相信此类信息，从而选择立即终止对话以避免潜在的风险。用户的意图是避免进一步的交流，防止个人信息泄露或财务损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

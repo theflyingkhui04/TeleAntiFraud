@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是华夏银行客服中心，我是李佳，您的账户刚刚有一笔可疑的操作，需要您配合我们进行身份核实以确保账户安全。",
+      "timestamp": 1740745553.4173086
+    },
+    {
+      "role": "right",
+      "content": "您好，李佳。我最近确实没有进行过什么大额操作，能具体告诉我发生了什么吗？我有点担心。",
+      "timestamp": 1740745556.588386
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方的真实身份或对所谓的‘可疑操作’感到不安，选择主动挂断电话以避免潜在的风险。用户的意图是终止与诈骗者的进一步交流，防止个人信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

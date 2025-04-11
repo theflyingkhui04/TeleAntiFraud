@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，有什么问题可以帮您解决？",
+      "timestamp": 1740940570.915621
+    },
+    {
+      "role": "right",
+      "content": "嗨，小张，我最近遇到了一个软件bug，想咨询一下。",
+      "timestamp": 1740940572.90046
+    },
+    {
+      "role": "left",
+      "content": "您好，可以请您详细描述一下遇到的软件bug吗？这样我能够更好地帮助您解决问题。",
+      "timestamp": 1740940577.5219615
+    },
+    {
+      "role": "right",
+      "content": "好的，我用的是一款叫“任务管理器”的应用，最近发现有时候会自动关闭，重新打开后数据又恢复了，挺奇怪的。",
+      "timestamp": 1740940579.6939943
+    },
+    {
+      "role": "left",
+      "content": "了解了，这种情况可能是由于软件版本不兼容或者手机系统更新导致的。您可以尝试更新到最新版本的应用，看看问题是否解决。",
+      "timestamp": 1740940592.259511
+    },
+    {
+      "role": "right",
+      "content": "好的，我试试更新一下。如果还是不行，再联系你。谢谢！",
+      "timestamp": 1740940593.8959906
+    },
+    {
+      "role": "left",
+      "content": "感谢您的反馈，更新应用后如果问题仍然存在，请随时联系我们。希望您的使用体验能够更加顺畅。再见。",
+      "timestamp": 1740940600.3494759
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。再见。",
+      "timestamp": 1740940601.4280455
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示会尝试解决方案，并明确表示如果问题未解决会再次联系客服，同时表达了感谢，这表明用户满意当前的服务并准备结束对话。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的反馈，更新应用后如果问题仍然存在，请随时联系我们。希望您的使用体验能够更加顺畅。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

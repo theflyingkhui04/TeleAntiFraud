@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服为您服务，请问有什么问题需要我帮您解决？",
+      "timestamp": 1740956079.7999535
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近收到了一笔意外的退款，想确认一下这是怎么回事。",
+      "timestamp": 1740956081.2670074
+    },
+    {
+      "role": "left",
+      "content": "可以理解您的疑问，能麻烦您提供一下退款的具体金额和到账时间吗？这样我好帮您查询相关信息。",
+      "timestamp": 1740956085.6775873
+    },
+    {
+      "role": "right",
+      "content": "好的，金额是一千二百元，到账时间是上周二。",
+      "timestamp": 1740956086.531608
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，我查了一下您的账户信息，这笔一千二百元的退款是由于您之前购买的商品参与了我们的促销活动，活动结束后我们将差价退还给了您。如果您对这项活动有任何疑问，可以随时向我咨询。",
+      "timestamp": 1740956092.6017177
+    },
+    {
+      "role": "right",
+      "content": "明白了，原来是这样。感谢您的解释，这样我就放心了。如果有其他问题，我会再联系您。",
+      "timestamp": 1740956094.174635
+    },
+    {
+      "role": "left",
+      "content": "感谢您的理解，如果还有其他问题或需要进一步的帮助，欢迎随时联系我们。祝您生活愉快。",
+      "timestamp": 1740956100.9291162
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一切顺利。",
+      "timestamp": 1740956103.1054232
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已表示满意并确认没有其他问题，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的理解，如果还有其他问题或需要进一步的帮助，欢迎随时联系我们。祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一切顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎您使用我们的订餐服务，有什么可以帮助您的？",
+      "timestamp": 1740950906.3749127
+    },
+    {
+      "role": "right",
+      "content": "我想订一份晚餐，有什么推荐的吗？",
+      "timestamp": 1740950908.619594
+    },
+    {
+      "role": "left",
+      "content": "我们有几款招牌菜非常受欢迎，比如香辣蟹、清蒸海鲈鱼和黑椒牛柳，您可以考虑一下。您有特别的口味偏好或饮食限制吗？",
+      "timestamp": 1740950912.8172593
+    },
+    {
+      "role": "right",
+      "content": "没有特别的限制，就来个清蒸海鲈鱼吧，听起来不错。还要一份青菜，清淡一点的。",
+      "timestamp": 1740950914.981985
+    },
+    {
+      "role": "left",
+      "content": "好的，清蒸海鲈鱼和一份清淡的青菜已经为您加入订单。还需要其他什么菜品吗？或者您需要搭配一些饮料？",
+      "timestamp": 1740950918.2343802
+    },
+    {
+      "role": "right",
+      "content": "这样就可以了，饮料来一杯冰红茶吧。谢谢。",
+      "timestamp": 1740950920.2145889
+    },
+    {
+      "role": "left",
+      "content": "您的订单已经确认，清蒸海鲈鱼和清淡的青菜，我们会尽快为您准备。预计送达时间是四十分钟左右。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740950927.2808547
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。",
+      "timestamp": 1740950928.2257922
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表示了感谢，表明用户对当前的服务感到满意，且没有进一步的需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的订单已经确认，清蒸海鲈鱼和清淡的青菜，我们会尽快为您准备。预计送达时间是四十分钟左右。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

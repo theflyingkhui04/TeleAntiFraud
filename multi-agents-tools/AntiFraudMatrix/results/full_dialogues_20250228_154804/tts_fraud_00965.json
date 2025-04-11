@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您开户行的客服经理，李华。我们刚刚接到系统警报，您的账户可能出现了异常操作。为了确保您的资金安全，请您提供一下身份证号码，我们好为您核实身份。",
+      "timestamp": 1740749119.7221448
+    },
+    {
+      "role": "right",
+      "content": "李华经理，您好。我确实收到了一条短信，说我的账户有异常。不过，我之前也遇到过类似的情况，说是需要提供身份证号码，结果发现是诈骗。您能告诉我，为什么需要我的身份证号码吗？",
+      "timestamp": 1740749123.3030245
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对诈骗的警惕性，明确表达了对提供个人信息的担忧，并在诈骗者未能给出令人信服的理由时选择了挂断电话。用户的意图是避免潜在的诈骗风险，保护自己的个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

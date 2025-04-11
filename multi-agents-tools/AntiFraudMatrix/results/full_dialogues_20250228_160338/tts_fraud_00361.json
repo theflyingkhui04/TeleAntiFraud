@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是银行客服中心，我们检测到您的账户存在异常交易，需要立即核实您的身份信息，以确保账户安全。请问您现在方便接听电话吗？",
+      "timestamp": 1740731979.0383208
+    },
+    {
+      "role": "right",
+      "content": "您好，我这边确实注意到账户有些异常，但我现在不方便接听电话，可以发个短信给我吗？我会尽快回复的。",
+      "timestamp": 1740731995.2808673
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为当前环境不便或对电话内容存有疑虑，选择挂断电话并要求通过短信继续沟通。这表明用户可能希望有更多时间思考和验证来电的真实性，而不是立即在电话中提供个人信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

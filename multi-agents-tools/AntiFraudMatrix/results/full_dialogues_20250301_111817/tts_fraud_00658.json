@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "先生，我是您儿子的朋友，他现在遇到了点麻烦，我需要您的帮助。",
+      "timestamp": 1740800889.8097343
+    },
+    {
+      "role": "right",
+      "content": "哦，你是谁？我儿子怎么了？他现在在哪里？",
+      "timestamp": 1740800890.7890368
+    },
+    {
+      "role": "left",
+      "content": "我是他大学的同学，叫李明。他刚才骑车时被车撞了，现在在医院，情况很紧急，需要您马上汇一笔钱过来，否则医院不肯治疗。",
+      "timestamp": 1740800894.8227932
+    },
+    {
+      "role": "right",
+      "content": "天哪，这真是太突然了。你能告诉我具体是哪家医院吗？我儿子有没有受伤很严重？我需要尽快联系他。",
+      "timestamp": 1740800896.529928
+    },
+    {
+      "role": "left",
+      "content": "是在市中心医院，但他现在情况不稳定，医生不让用手机。您先汇款，我这边等会儿帮您联系，您汇多少钱过来？我们这边账户是…… ",
+      "timestamp": 1740800901.4070778
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在尝试获取用户信任并要求汇款时，用户表现出强烈的关心并要求更多具体信息，如医院名称和儿子的伤情。诈骗者可能意识到用户正在怀疑或试图验证信息的真实性，为了避免暴露骗局，选择主动挂断电话以终止对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

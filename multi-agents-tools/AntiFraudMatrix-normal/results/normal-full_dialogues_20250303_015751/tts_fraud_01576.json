@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，有什么我可以帮您的？",
+      "timestamp": 1740953511.558448
+    },
+    {
+      "role": "right",
+      "content": "哎呀，你好。我其实不是来咨询交通问题的，我是想问问你，最近有没有什么好听的歌曲推荐？",
+      "timestamp": 1740953514.2071776
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户结束对话的原因可能是意识到自己找错了服务对象，其意图是寻找音乐推荐而非交通咨询。用户在发现服务方无法满足其需求后，礼貌地结束了对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

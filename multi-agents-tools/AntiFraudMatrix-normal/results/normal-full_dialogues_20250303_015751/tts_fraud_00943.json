@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询专员，这里可以帮助您规划出行路线和提供交通信息，有什么我可以帮您的吗？",
+      "timestamp": 1740948177.0387995
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从市中心到机场的最快路线，大概需要多长时间？",
+      "timestamp": 1740948182.6334739
+    },
+    {
+      "role": "left",
+      "content": "从市中心到机场最快的方式是乘坐地铁二号线直达，全程大约需要四十分钟。如果您选择驾车，高峰期可能需要一个小时左右，非高峰时段大约四十五分钟。建议您提前出发，以确保准时到达。",
+      "timestamp": 1740948188.0290353
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的建议。我会考虑地铁选项，这样更省心一些。",
+      "timestamp": 1740948189.2788365
+    },
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，我建议您提前出发，以确保顺利到达机场。祝您旅途愉快！",
+      "timestamp": 1740948196.1916332
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，祝我旅途愉快！",
+      "timestamp": 1740948197.4833481
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表达了感谢，表明其对提供的建议满意。根据终止条件3，用户明确表示感谢并结束对话，可以判断用户已经没有进一步的问题或需求。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，我建议您提前出发，以确保顺利到达机场。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，祝我旅途愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

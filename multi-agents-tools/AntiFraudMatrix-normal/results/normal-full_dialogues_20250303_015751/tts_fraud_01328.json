@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是预约服务中心，请问您需要预约什么服务？",
+      "timestamp": 1740955120.0784714
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一个餐厅的位置，晚上七点左右。",
+      "timestamp": 1740955121.2704427
+    },
+    {
+      "role": "left",
+      "content": "好的，我可以帮您预约。请问您想预约哪家餐厅，以及预计的人数是多少？",
+      "timestamp": 1740955124.8293576
+    },
+    {
+      "role": "right",
+      "content": "我想去城市广场那家意大利餐厅，两个人。",
+      "timestamp": 1740955128.5621696
+    },
+    {
+      "role": "left",
+      "content": "明白了，城市广场的意大利餐厅，晚上七点，两个人。我这边会为您进行预约，请问您的姓名和联系方式可以提供一下吗？方便餐厅联系您确认。",
+      "timestamp": 1740955138.0381212
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫张伟，电话是13812345678。",
+      "timestamp": 1740955139.6590812
+    },
+    {
+      "role": "left",
+      "content": "好的，张伟先生，您的预约信息我已经记录好了。餐厅会在稍后通过您提供的电话与您联系确认。请问还有其他需要帮助的吗？",
+      "timestamp": 1740955145.1684802
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息并告知后续联系流程后，主动发出了结束信号。这表明服务方认为预约服务已经完成，用户的需求得到了满足，没有进一步的交流必要。服务方的意图是礼貌地结束对话，确保用户感到满意，并且清楚接下来的步骤。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

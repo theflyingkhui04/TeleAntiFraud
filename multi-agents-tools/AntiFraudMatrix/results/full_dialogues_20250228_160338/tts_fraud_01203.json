@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！我是快递公司的客服，很抱歉通知您，您有一个包裹因海关问题被扣留，需要您提供一些信息以便我们帮助处理。请问您现在方便接听电话吗？",
+      "timestamp": 1740731715.6813724
+    },
+    {
+      "role": "right",
+      "content": "你好，我方便接听。不过，我最近没有网购什么东西啊，怎么会有包裹被扣留呢？",
+      "timestamp": 1740731720.270022
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑这是诈骗电话而选择挂断。用户提到最近没有网购，因此对所谓的包裹被扣留表示怀疑，这表明用户对电话的真实性持怀疑态度，选择挂断以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

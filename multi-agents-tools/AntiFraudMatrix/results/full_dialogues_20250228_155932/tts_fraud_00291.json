@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的老朋友张华，您还记得我吗？我有一个非常紧急的情况需要您的帮助。",
+      "timestamp": 1740747875.0159674
+    },
+    {
+      "role": "right",
+      "content": "张华？我怎么想不起来有这位朋友啊，你能不能说说我们是怎么认识的？",
+      "timestamp": 1740747876.528771
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者自称是老朋友张华后，表示不记得有这位朋友，并要求对方提供更多信息以确认身份。然而，诈骗者并未给出进一步的解释，而是立即挂断了电话。这表明用户可能对诈骗者的身份产生了怀疑，没有提供任何个人信息，并且通过要求更多信息来验证对方的身份。用户的意图是希望通过询问更多信息来确认对方的身份，但诈骗者选择挂断电话，可能是因为意识到用户对其身份有所怀疑，继续对话可能无法成功实施诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

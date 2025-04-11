@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临本店，我是客服小张，有什么可以帮助您的吗？",
+      "timestamp": 1740982679.3575656
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下你们这里有没有素食选项。",
+      "timestamp": 1740982680.691553
+    },
+    {
+      "role": "left",
+      "content": "我们这里有多种素食选项，比如素春卷、蘑菇炒饭和蔬菜沙拉，您对哪一种比较感兴趣？",
+      "timestamp": 1740982686.707328
+    },
+    {
+      "role": "right",
+      "content": "素春卷听起来不错，我就试试这个吧。还有，能给我来一杯冰红茶吗？",
+      "timestamp": 1740982688.6304362
+    },
+    {
+      "role": "left",
+      "content": "好的，一份素春卷和一杯冰红茶，马上就为您准备。需要现在就结账吗？",
+      "timestamp": 1740982696.9719348
+    },
+    {
+      "role": "right",
+      "content": "好的，我先结账。谢谢。",
+      "timestamp": 1740982698.2825546
+    },
+    {
+      "role": "left",
+      "content": "好的，素春卷和冰红茶已经准备好了，请您到收银台结账。谢谢光临，祝您用餐愉快！",
+      "timestamp": 1740982710.294573
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会过去的。",
+      "timestamp": 1740982711.990954
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐并表示感谢，对话目标已达成。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，素春卷和冰红茶已经准备好了，请您到收银台结账。谢谢光临，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会过去的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

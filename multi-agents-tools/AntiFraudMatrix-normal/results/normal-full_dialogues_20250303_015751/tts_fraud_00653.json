@@ -1,0 +1,66 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "感谢您联系我们订餐服务，我可以帮您完成订餐，有什么特别的要求或需要推荐的菜品吗？",
+      "timestamp": 1740957961.2265236
+    },
+    {
+      "role": "right",
+      "content": "不用谢，我就想订个普通的套餐，有什么推荐的吗？",
+      "timestamp": 1740957962.2845607
+    },
+    {
+      "role": "left",
+      "content": "我们这边推荐的套餐有牛排套餐和海鲜拼盘，都是顾客评价很高的选择，您看是否感兴趣？",
+      "timestamp": 1740957966.478856
+    },
+    {
+      "role": "right",
+      "content": "牛排套餐听起来不错，就选这个吧。",
+      "timestamp": 1740957967.3573995
+    },
+    {
+      "role": "left",
+      "content": "好的，牛排套餐已加入您的订单。请问需要什么口味的牛排，几分熟呢？",
+      "timestamp": 1740957974.2373586
+    },
+    {
+      "role": "right",
+      "content": "五分熟的牛排，谢谢。",
+      "timestamp": 1740957975.3920271
+    },
+    {
+      "role": "left",
+      "content": "好的，五分熟的牛排。请问还需要搭配什么饮料或甜点吗？",
+      "timestamp": 1740957981.516154
+    },
+    {
+      "role": "right",
+      "content": "来一杯咖啡吧，甜点就不用了。",
+      "timestamp": 1740957985.1906073
+    },
+    {
+      "role": "left",
+      "content": "好的，一杯咖啡已加入您的订单。请问您的送餐地址和联系电话方便提供一下吗？",
+      "timestamp": 1740957989.2106261
+    },
+    {
+      "role": "right",
+      "content": "地址是幸福小区三号楼二单元102室，电话是13812345678。",
+      "timestamp": 1740957991.1869547
+    },
+    {
+      "role": "left",
+      "content": "好的，您的地址和电话已记录。您的订单将在30分钟内送达，如有任何变动我们会及时联系您。请问还有其他需要帮忙的吗？",
+      "timestamp": 1740957997.769889
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订餐需求、送餐地址和联系电话后，告知了用户订单的送达时间，并询问了是否有其他需要帮助的事项。在用户没有进一步的需求后，服务方使用了结束信号代码'##ENDCALL_SIGNAL##'，表明服务方认为对话目标已达成，服务流程已经完成，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

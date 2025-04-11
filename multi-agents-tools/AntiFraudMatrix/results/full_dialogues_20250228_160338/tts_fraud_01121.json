@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的邻居王阿姨，刚才我接到了一个电话，说您的女儿在国外出了点事，现在需要您立即联系一个号码，不然可能会有危险。您能尽快帮我打这个电话吗？",
+      "timestamp": 1740734966.2720535
+    },
+    {
+      "role": "right",
+      "content": "王阿姨，您别急，我女儿在国外的事我得先确认一下。您能告诉我那个电话号码吗？我直接打过去。",
+      "timestamp": 1740734990.5490034
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提供的信息产生了怀疑，要求直接提供电话号码以便自行确认情况。这表明用户开始谨慎处理信息，试图验证信息的真实性，而不是直接按照诈骗者的指示行动。用户的挂断可能是为了避免进一步的诈骗尝试，保护个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

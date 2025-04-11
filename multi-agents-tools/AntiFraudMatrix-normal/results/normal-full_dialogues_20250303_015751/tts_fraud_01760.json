@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是预约服务专员，可以帮助您安排预约时间，请问您需要预约什么服务呢？",
+      "timestamp": 1740972220.5980604
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一个社区健康检查。",
+      "timestamp": 1740972221.5945606
+    },
+    {
+      "role": "left",
+      "content": "好的，社区健康检查预约服务我可以帮您处理。请问您希望预约哪一天？我们目前可以预约本周三、周五以及下周一。",
+      "timestamp": 1740972229.02974
+    },
+    {
+      "role": "right",
+      "content": "那就预约本周五吧。下午两点合适吗？",
+      "timestamp": 1740972230.0190377
+    },
+    {
+      "role": "left",
+      "content": "本周五下午两点的时间段是可用的。请问需要我帮您确认这个时间吗？",
+      "timestamp": 1740972234.9831426
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦您帮我确认一下。谢谢。",
+      "timestamp": 1740972236.1011605
+    },
+    {
+      "role": "left",
+      "content": "已经为您预约了本周五下午两点的社区健康检查。您的预约编号是001234，请妥善保管。稍后您也会收到一条确认短信。如果有任何变动，请及时联系我们的客服。还有其他可以帮到您的吗？",
+      "timestamp": 1740972243.0685678
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息后，提供了预约编号和后续的注意事项，并询问用户是否还有其他需要帮助的事项。用户没有提出进一步的需求，服务方通过使用结束标识符'##ENDCALL_SIGNAL##'表明服务已完成，可以结束对话。服务方的意图是确保用户的需求得到满足，并礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

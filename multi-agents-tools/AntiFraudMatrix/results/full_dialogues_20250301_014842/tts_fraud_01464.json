@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，张先生吗？我是您的老朋友李华，您可能不记得我了，但我有非常紧急的事情需要告诉您。您的儿子小明现在遇到麻烦了，他在国外出差时被人绑架了。",
+      "timestamp": 1740783057.4839218
+    },
+    {
+      "role": "right",
+      "content": "李华？我确实记不起来有这个名字的朋友。你说小明被人绑架了？这听起来太离谱了，你能不能给我具体的证据，或者告诉我更多详细的信息？",
+      "timestamp": 1740783059.530941
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份和所述情况表示怀疑，要求提供具体证据和详细信息，但诈骗者并未给出令人信服的回应，导致用户认为这是诈骗行为，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

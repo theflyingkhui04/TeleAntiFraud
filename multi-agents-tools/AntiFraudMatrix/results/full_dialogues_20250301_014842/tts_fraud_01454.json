@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是某某安保公司的工作人员，您的一位家人现在在我们这里，他刚刚出了一点意外，需要您马上转账一笔费用，否则我们无法保证他的安全。您能明白我的意思吗？",
+      "timestamp": 1740775192.075848
+    },
+    {
+      "role": "right",
+      "content": "您好，我有点不太明白。我的家人怎么会突然出意外，而且是在你们公司？这听起来很奇怪。我需要确认一下，你们公司叫什么名字？还有，我家人现在具体怎么样了？",
+      "timestamp": 1740775194.989979
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的信息表示怀疑，并要求提供更多具体信息以验证真实性。用户可能已经意识到这是一起诈骗行为，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

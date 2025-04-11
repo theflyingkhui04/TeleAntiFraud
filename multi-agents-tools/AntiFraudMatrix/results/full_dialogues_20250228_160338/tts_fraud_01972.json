@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递客服中心，我们发现您的包裹因地址不详被退回，请问您是XXX先生/女士吗？",
+      "timestamp": 1740742478.5002282
+    },
+    {
+      "role": "right",
+      "content": "您好，我是。请问有什么问题吗？不过我最近没有收到任何包裹，这是怎么回事？",
+      "timestamp": 1740742481.2550852
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑这是诈骗电话而选择挂断。用户在确认了自己的身份后，询问了关于包裹的问题，但诈骗者立即挂断了电话，这可能让用户感到不寻常，因此用户也选择了挂断，以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

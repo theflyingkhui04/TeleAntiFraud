@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询中心为您服务，有什么可以帮助您的？",
+      "timestamp": 1740948410.2747378
+    },
+    {
+      "role": "right",
+      "content": "你好，我想咨询一下最近公交车线路有没有调整，特别是我常坐的 105 路。",
+      "timestamp": 1740948414.81355
+    },
+    {
+      "role": "left",
+      "content": "105路公交车近期确实有一些调整，主要是在高峰时段增加了班次密度，以减少乘客的等待时间。您平时是在哪个站点上下车呢？这样我可以为您提供更详细的信息。",
+      "timestamp": 1740948420.6107974
+    },
+    {
+      "role": "right",
+      "content": "我在幸福小区站上车，然后在市中心站下车。能告诉我具体的班次时间吗？",
+      "timestamp": 1740948425.1481802
+    },
+    {
+      "role": "left",
+      "content": "幸福小区站的 105 路公交车首班车是早上六点，末班车是晚上九点。高峰时段，大约每十分钟一班；平峰时段，大约每十五分钟一班。您可以在幸福小区站等车时，留意站牌上的具体时间表，或者使用公交 app 查询实时到站信息。这样可以更准确地安排您的出行时间。",
+      "timestamp": 1740948432.2725475
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的详细解答。我会留意站牌上的时间表，也会用公交 app 查一下。这样出行会方便很多。",
+      "timestamp": 1740948433.9948297
+    },
+    {
+      "role": "left",
+      "content": "如果您还有其他问题或需要进一步的帮助，随时欢迎咨询。希望您的出行顺利，旅途愉快。",
+      "timestamp": 1740948439.0489564
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。祝我出行顺利！",
+      "timestamp": 1740948440.4581342
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表示感谢，对话目标已达成。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您还有其他问题或需要进一步的帮助，随时欢迎咨询。希望您的出行顺利，旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。祝我出行顺利！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

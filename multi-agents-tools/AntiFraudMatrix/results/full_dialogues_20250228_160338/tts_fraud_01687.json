@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自天鸿投资的李经理，最近我们发现了一个非常有潜力的投资项目，您是否有兴趣了解一下？",
+      "timestamp": 1740741930.088801
+    },
+    {
+      "role": "right",
+      "content": "李经理您好，我是张老师。投资这事儿我了解一些，但不是很精通。您说的这个项目具体是怎样的呢？我倒是挺感兴趣的，可以详细讲讲吗？",
+      "timestamp": 1740741956.7889395
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中主动挂断了电话，可能是因为用户对诈骗者的提议产生了怀疑或不信任，或者用户意识到这是一个诈骗电话，因此选择立即结束对话。用户的意图可能是为了避免进一步的诈骗行为或保护自己的个人信息和财产安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

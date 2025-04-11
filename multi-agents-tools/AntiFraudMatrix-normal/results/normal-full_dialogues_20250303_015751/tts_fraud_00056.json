@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小李为您服务，有什么我可以帮您的吗？",
+      "timestamp": 1740969376.453366
+    },
+    {
+      "role": "right",
+      "content": "嗨，小李，我就是想了解一下你们最近有什么优惠活动。",
+      "timestamp": 1740969378.1479144
+    },
+    {
+      "role": "left",
+      "content": "您好，我们最近确实有一些优惠活动。比如，新用户首次下单可以享受八折优惠，还有满一百元减二十元的满减活动。您是新用户吗？我可以为您详细介绍一下。",
+      "timestamp": 1740969384.4124615
+    },
+    {
+      "role": "right",
+      "content": "好的，我是新用户。那我怎么领取这些优惠呢？",
+      "timestamp": 1740969386.0841253
+    },
+    {
+      "role": "left",
+      "content": "作为新用户，您只需要注册并完成首次下单，系统会自动为您应用八折优惠。至于满减活动，只要您的订单金额达到一百元，结账时也会自动减免二十元。您可以直接在我们的官方网站或App上操作，非常方便。",
+      "timestamp": 1740969391.7125697
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的帮助！那我这就去看看。",
+      "timestamp": 1740969393.0468433
+    },
+    {
+      "role": "left",
+      "content": "好的，感谢您的咨询。如果您还有其他问题或需要进一步的帮助，随时欢迎联系我们的客服。祝您购物愉快！",
+      "timestamp": 1740969399.3365495
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会留意的。祝你工作顺利！",
+      "timestamp": 1740969400.3834321
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并明确表示了感谢，表示将去查看。这表明对话目标已达成，用户满意并准备结束对话。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，感谢您的咨询。如果您还有其他问题或需要进一步的帮助，随时欢迎联系我们的客服。祝您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会留意的。祝你工作顺利！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

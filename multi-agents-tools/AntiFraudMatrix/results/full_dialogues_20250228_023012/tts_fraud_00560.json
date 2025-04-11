@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您！您被随机抽中成为本期\"幸运之星\"大奖的得主，奖品是价值50万元的现金支票！请告诉我您的姓名和联系方式，以便我们核实您的身份。",
+      "timestamp": 1740690450.035745
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？这太好了！我叫张为民，我得的奖品真的是50万元的现金支票吗？这太让人惊喜了！我的电话是13812345678，你们可以核实一下我的身份。谢谢你们！",
+      "timestamp": 1740690453.1527646
+    },
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。",
+      "timestamp": 1740690461.0873919
+    },
+    {
+      "role": "right",
+      "content": "好的，那我就在家里等你们的好消息了。谢谢你们的通知，真是太感谢了！",
+      "timestamp": 1740690465.3864925
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和电话号码，属于敏感信息，诈骗明显成功。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。"
+    },
+    {
+      "role": "right",
+      "content": "好的，那我就在家里等你们的好消息了。谢谢你们的通知，真是太感谢了！"
+    }
+  ],
+  "reached_max_turns": false
+}

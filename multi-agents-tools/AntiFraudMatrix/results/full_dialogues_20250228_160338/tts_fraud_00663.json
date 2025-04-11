@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自顺丰速运的客服，您的包裹在运输过程中被发现有问题，需要您配合处理，您方便现在处理吗？",
+      "timestamp": 1740742726.027455
+    },
+    {
+      "role": "right",
+      "content": "啊，是这样啊。我最近确实有个包裹在顺丰寄送。请问是什么问题呢？我这边可以配合处理的。",
+      "timestamp": 1740742741.0923622
+    },
+    {
+      "role": "left",
+      "content": "非常抱歉通知您，我们扫描发现您的包裹中可能含有违禁物品，已经引起海关注意。我们需要立即处理，请问您方便现在提供一下您的身份信息吗？",
+      "timestamp": 1740742774.9634962
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者可能意识到用户对包裹问题的描述表现出较高的警惕性和配合意愿，担心用户会进一步询问具体细节或要求提供证据，从而暴露诈骗行为。因此，诈骗者选择在要求用户提供敏感信息之前主动挂断电话，以避免被识破。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

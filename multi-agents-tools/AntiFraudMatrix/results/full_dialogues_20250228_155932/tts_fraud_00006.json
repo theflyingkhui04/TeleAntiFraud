@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是财富投资的理财顾问，我们最新的投资项目回报率高达百分之三十，您有兴趣了解吗？",
+      "timestamp": 1740756322.5846493
+    },
+    {
+      "role": "right",
+      "content": "哇，百分之三十的回报率听起来真的很高啊！我现在正好在找工作，手头有点紧张，不过投资听起来也不错。您能给我详细介绍一下这个项目吗？",
+      "timestamp": 1740756326.0574121
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何疑问，随时可以联系我。祝您一切顺利，再见。",
+      "timestamp": 1740756331.44259
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您！我会考虑一下的，再见。",
+      "timestamp": 1740756333.6483889
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，因此应立即终止对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您有任何疑问，随时可以联系我。祝您一切顺利，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您！我会考虑一下的，再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您在我们最新的抽奖活动中荣获一等奖，奖金高达五百万元。请问您现在方便接听电话吗？",
+      "timestamp": 1740734365.4102244
+    },
+    {
+      "role": "right",
+      "content": "哎呀，五百万元，这是真的吗？我年纪大了，这种事情还是头一回遇到。你们是怎么抽中的？我可是一点印象都没有买过彩票啊。",
+      "timestamp": 1740734368.33118
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为突然接到这样一个意外的好消息感到震惊和怀疑，进而选择挂断电话以核实信息的真实性。用户的意图可能是为了保护自己不受潜在的诈骗侵害，尤其是在对方声称中奖而自己没有购买彩票的情况下，这种反应是合理的谨慎行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自大通快递公司的客服代表李晓晓，您的包裹在运输过程中被发现内含违禁品，需要您支付一笔罚款才能继续配送，这种情况真的很抱歉给您带来了麻烦。",
+      "timestamp": 1740773802.254368
+    },
+    {
+      "role": "right",
+      "content": "李晓晓，你说的是哪一天寄的包裹？我最近确实有网购，但我不记得寄了什么违禁品。这中间会不会有什么误会？",
+      "timestamp": 1740773804.7251108
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对诈骗者所述情况的怀疑，要求提供具体信息以确认是否存在误会。然而，诈骗者并未给出具体信息，反而使用了挂断电话的方式结束对话，这可能是因为诈骗者意识到用户已经开始质疑，继续对话可能无法成功实施诈骗。用户的挂断可能是对诈骗者突然挂断的回应，表明用户不愿意继续与诈骗者交流，以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

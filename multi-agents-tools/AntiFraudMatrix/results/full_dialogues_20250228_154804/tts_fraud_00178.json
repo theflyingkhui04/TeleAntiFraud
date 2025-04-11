@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "李女士您好，我是来自蓝天资本的张经理，最近我们推出了一款超高收益的投资项目，年化收益率高达百分之三十，我想这可能非常适合您。",
+      "timestamp": 1740748142.2586875
+    },
+    {
+      "role": "right",
+      "content": "您好，张经理。听起来确实很不错，但我最近听说有很多骗局，您能告诉我更多关于这个项目的详细信息吗？比如投资的具体内容和风险？",
+      "timestamp": 1740748144.6099572
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了谨慎的态度，要求诈骗者提供更多的项目详细信息和风险说明。这表明用户对诈骗者提供的信息持怀疑态度，并希望进一步验证信息的真实性。用户挂断电话可能是为了有时间思考和调查，或者是因为感觉到了潜在的诈骗风险而选择中断交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，有什么路线或交通问题需要帮忙吗？",
+      "timestamp": 1740948116.8706107
+    },
+    {
+      "role": "right",
+      "content": "嗯，我最近要去市区的一个新餐厅，但不太清楚怎么过去。能帮我查一下路线吗？",
+      "timestamp": 1740948119.40826
+    },
+    {
+      "role": "left",
+      "content": "当然可以，能告诉我您现在的具体位置和要去的餐厅名称吗？这样我可以为您规划最合适的路线。",
+      "timestamp": 1740948125.2191775
+    },
+    {
+      "role": "right",
+      "content": "我现在在东城区的家乐福超市附近，要去西城区的“福满楼”餐厅。谢谢。",
+      "timestamp": 1740948127.026531
+    },
+    {
+      "role": "left",
+      "content": "好的，从东城区家乐福超市到西城区福满楼餐厅，您可以选择乘坐地铁一号线到天安门西站，从A口出站后步行大约七百米即可到达目的地。如果您开车，可以直接导航至福满楼，全程大约需要四十分钟，具体时间视路况而定。需要详细的地图链接或公交线路信息吗？",
+      "timestamp": 1740948136.9794893
+    },
+    {
+      "role": "right",
+      "content": "坐地铁听起来不错，我就按这个方案去。谢谢你的帮助。",
+      "timestamp": 1740948138.3218944
+    },
+    {
+      "role": "left",
+      "content": "路线信息已为您提供，希望对您有帮助。祝您旅途愉快，用餐愉快！",
+      "timestamp": 1740948143.0878108
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝我好运吧！",
+      "timestamp": 1740948143.839837
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经接受了服务方提供的路线建议，并表示感谢，表明用户的问题已经得到解决。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "路线信息已为您提供，希望对您有帮助。祝您旅途愉快，用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝我好运吧！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

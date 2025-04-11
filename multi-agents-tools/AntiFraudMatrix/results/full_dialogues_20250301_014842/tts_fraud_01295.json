@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李明的家属吗？李明现在在我手上，他需要你的帮助，你听清楚了吗？",
+      "timestamp": 1740796355.7755315
+    },
+    {
+      "role": "right",
+      "content": "你、你是谁？李明怎么会在你手上？你快告诉我他现在怎么样了？",
+      "timestamp": 1740796357.9699504
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称控制了李明并要求帮助时，可能因为极度恐慌或怀疑对方身份的真实性，选择了立即挂断电话以保护自己不受进一步的威胁或诈骗。用户的意图可能是中断与诈骗者的联系，避免提供任何可能的敏感信息，并可能寻求其他方式确认李明的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

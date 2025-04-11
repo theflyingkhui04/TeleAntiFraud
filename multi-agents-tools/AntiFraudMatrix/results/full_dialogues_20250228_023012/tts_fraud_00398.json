@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行客服中心，我们注意到您的账户存在异常交易活动，请问您最近是否有进行过任何大额转账？",
+      "timestamp": 1740685582.8865159
+    },
+    {
+      "role": "right",
+      "content": "喂，您好。是的，我最近确实转了一笔钱，但金额并不大。你们是怎么发现的？",
+      "timestamp": 1740685587.225473
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在接收到诈骗者的询问后，可能意识到对话内容涉及个人账户安全，且诈骗者自称来自银行客服中心，这通常是诈骗电话的典型特征。用户可能对诈骗者的身份产生怀疑，并决定不再继续对话，以保护自己的个人信息和财产安全。挂断电话是用户采取的一种自我保护措施，表明用户不希望继续与诈骗者交流，并试图终止潜在的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

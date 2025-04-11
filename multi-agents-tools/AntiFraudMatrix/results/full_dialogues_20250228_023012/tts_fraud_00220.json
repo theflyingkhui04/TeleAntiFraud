@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "先生/女士，您好！我是XX彩票中心的客服，恭喜您被系统随机抽中成为我们的幸运用户，您将获得价值50万元的超级大奖！请您提供一下您的姓名和身份证号码，以便我们核实您的信息。",
+      "timestamp": 1740688681.6477616
+    },
+    {
+      "role": "right",
+      "content": "您好，这个消息听起来太突然了，我需要确认一下这是否真的。你们能提供一些证明吗？比如官方的获奖通知或者联系你们的官方电话？我需要确保这是真实的，毕竟这种事情太容易遇到诈骗了。",
+      "timestamp": 1740688719.9353907
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对诈骗者所提供信息的怀疑，并要求提供官方证明或联系方式以验证信息的真实性。用户的挂断可能是因为对诈骗者的要求感到不安全或不信任，意图是避免进一步的风险和潜在的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

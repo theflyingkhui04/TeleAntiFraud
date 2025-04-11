@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自顺丰快递的客服，您的包裹在运输过程中发现了一些问题，需要您的帮助处理。",
+      "timestamp": 1740730367.7989833
+    },
+    {
+      "role": "right",
+      "content": "您好，顺丰快递的客服，能具体说说是什么问题吗？我最近确实有一个包裹，但听说你们公司出了不少问题，我得确认一下。",
+      "timestamp": 1740730382.707433
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对诈骗者身份的怀疑，并要求提供更多具体信息以确认情况的真实性。由于诈骗者在首次尝试后立即挂断电话，用户可能认为对方无法提供令人信服的证据，因此也选择挂断电话以保护自己的安全。这表明用户对潜在的诈骗行为保持了警惕，并采取了谨慎的态度。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

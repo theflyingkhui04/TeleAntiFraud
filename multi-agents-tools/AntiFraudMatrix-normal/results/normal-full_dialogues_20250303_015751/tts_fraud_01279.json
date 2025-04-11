@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问有什么可以帮助您的？",
+      "timestamp": 1740970363.2317073
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个外卖。有什么推荐的吗？",
+      "timestamp": 1740970364.2659478
+    },
+    {
+      "role": "left",
+      "content": "我们这里有很多受欢迎的选择，比如招牌牛肉饭、经典炸鸡套餐和海鲜意面。您喜欢哪种口味的美食？我可以为您推荐相应的菜品。",
+      "timestamp": 1740970371.0377936
+    },
+    {
+      "role": "right",
+      "content": "那就来个招牌牛肉饭吧，听起来不错。还有什么搭配的饮料或小菜推荐？",
+      "timestamp": 1740970372.9193895
+    },
+    {
+      "role": "left",
+      "content": "招牌牛肉饭搭配一份凉拌黄瓜和一杯冰镇绿茶非常合适，凉爽解腻，还能提鲜。您看这样可以吗？",
+      "timestamp": 1740970380.1319208
+    },
+    {
+      "role": "right",
+      "content": "好的，就这样吧。谢谢。",
+      "timestamp": 1740970381.0423284
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，包含招牌牛肉饭、凉拌黄瓜和冰镇绿茶。预计30分钟后送达，届时请注意接听电话。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740970393.0724902
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740970394.127895
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容，并表达了感谢，表明其需求已得到满足，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，包含招牌牛肉饭、凉拌黄瓜和冰镇绿茶。预计30分钟后送达，届时请注意接听电话。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是王强吗？我是你儿子的辅导员李老师，你现在必须要听我说，你儿子现在遇到了非常紧急的情况。",
+      "timestamp": 1740686226.1886795
+    },
+    {
+      "role": "right",
+      "content": "李老师，您好！请先别急，发生了什么事？我儿子怎么了？",
+      "timestamp": 1740686227.9349766
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为察觉到对方的语气过于急迫和不自然，怀疑对方的真实身份，因此选择立即挂断电话以避免潜在的风险。用户的意图是保护自己和家人的安全，防止可能的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

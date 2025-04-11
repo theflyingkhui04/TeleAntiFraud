@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问，我们公司最近推出了一款年化收益率高达百分之十五的理财产品，您有兴趣了解一下吗？",
+      "timestamp": 1740759231.8582299
+    },
+    {
+      "role": "right",
+      "content": "哦，你好。百分之十五的年化收益率听起来确实不错。不过，我现在手头的资金不是很充裕，而且我对这些理财产品也不是很了解。你能给我详细介绍一下吗？",
+      "timestamp": 1740759234.7502735
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一个潜在的诈骗电话，因为年化收益率高达百分之十五的产品通常风险极高，不符合常规理财产品的特征。用户虽然表现出兴趣，但随后询问详细信息，可能是为了进一步确认产品的真实性。然而，诈骗者突然挂断电话，可能是意识到用户在试探，或者用户在对话中已经察觉到异常，决定不再继续交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

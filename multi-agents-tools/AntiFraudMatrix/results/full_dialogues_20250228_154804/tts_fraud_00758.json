@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服中心，您的一个包裹在运输过程中被发现有违禁品，需要您配合处理，否则将面临法律诉讼。请您提供姓名和联系电话以便我们核对信息。",
+      "timestamp": 1740747435.4317088
+    },
+    {
+      "role": "right",
+      "content": "您好，我叫张建国，电话号码是这个，但我不记得寄过什么违禁品啊。这是怎么回事？你们能查清楚吗？",
+      "timestamp": 1740747439.414538
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供姓名和电话后，可能意识到对方要求提供信息的不合理性，担心个人信息泄露，因此选择主动挂断电话以避免进一步的风险。用户的意图是终止与诈骗者的交流，保护自己的个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

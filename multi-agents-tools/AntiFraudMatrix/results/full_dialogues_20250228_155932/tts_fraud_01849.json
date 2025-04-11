@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自天赐财富管理公司的李经理。最近我们的一个投资项目收益非常可观，我想这是一个很好的机会，不知道您是否有兴趣了解一下？",
+      "timestamp": 1740746085.9726317
+    },
+    {
+      "role": "right",
+      "content": "您好，李经理。谢谢您的来电。我平时确实会关注一些投资机会，但最近手头的事情比较多，没怎么研究新的项目。您能简单介绍一下这个投资的具体内容吗？我好判断一下是否适合我。",
+      "timestamp": 1740746091.4190943
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了初步的兴趣，但当诈骗者没有提供具体信息而直接挂断电话时，用户可能感到对方不够专业或怀疑其诚意，因此选择跟随挂断。这表明用户可能已经意识到这可能是一次诈骗尝试，或者至少对对方的身份和意图产生了怀疑。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

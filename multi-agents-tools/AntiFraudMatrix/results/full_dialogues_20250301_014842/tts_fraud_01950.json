@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我们手上，要想他平安回家，就准备好五万块钱！",
+      "timestamp": 1740791791.7642186
+    },
+    {
+      "role": "right",
+      "content": "你们到底是谁？我儿子好好的，怎么会被人抓了？你们不要吓唬我，我可不会轻易上当。我要挂电话了，你们这种骗子太多了，我不会相信的。",
+      "timestamp": 1740791796.9897704
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是识破了诈骗者的企图。用户对诈骗者提出的绑架要求表示怀疑，并明确表示不会相信这种骗局。用户的意图是终止与诈骗者的对话，避免进一步的骚扰或诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

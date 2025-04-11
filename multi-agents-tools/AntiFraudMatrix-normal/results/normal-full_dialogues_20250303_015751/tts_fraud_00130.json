@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么可以帮您的吗？",
+      "timestamp": 1740974435.993629
+    },
+    {
+      "role": "right",
+      "content": "你好，我来买点药。",
+      "timestamp": 1740974437.025926
+    },
+    {
+      "role": "left",
+      "content": "好的，请问您需要什么类型的药品？或者您可以告诉我您的症状，我可以帮您推荐。",
+      "timestamp": 1740974443.5535831
+    },
+    {
+      "role": "right",
+      "content": "我有点感冒，咳嗽。",
+      "timestamp": 1740974444.628633
+    },
+    {
+      "role": "left",
+      "content": "了解了，我们这里有几种适合感冒咳嗽的药品，比如复方氨酚烷胺片和止咳糖浆。您之前用过哪种，感觉效果怎么样？或者您需要我帮您挑选一款适合的？",
+      "timestamp": 1740974451.3417764
+    },
+    {
+      "role": "right",
+      "content": "帮我挑一款吧。",
+      "timestamp": 1740974452.0037138
+    },
+    {
+      "role": "left",
+      "content": "好的，根据您的症状，我推荐您使用复方氨酚烷胺片，它能有效缓解感冒引起的发热、头痛、咳嗽等症状。止咳糖浆也可以搭配使用，帮助缓解咳嗽。您看这样可以吗？",
+      "timestamp": 1740974459.1412482
+    },
+    {
+      "role": "right",
+      "content": "可以，就按你说的来。",
+      "timestamp": 1740974460.2277868
+    },
+    {
+      "role": "left",
+      "content": "好的，这两种药品搭配使用效果会更好。您可以去前面的柜台购买，我们的药师会帮您拿药并详细介绍用法。如果您还有其他需要，请随时告诉我。谢谢光临，祝您早日康复。",
+      "timestamp": 1740974467.785979
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会的。",
+      "timestamp": 1740974468.8452883
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "服务方已根据用户需求推荐了合适的药品，用户也表示同意。此时服务方可以结束对话，确保用户没有其他需求。",
+  "terminator": "service",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，这两种药品搭配使用效果会更好。您可以去前面的柜台购买，我们的药师会帮您拿药并详细介绍用法。如果您还有其他需要，请随时告诉我。谢谢光临，祝您早日康复。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，可以帮助您叫车或提供相关信息，有什么我可以帮您的吗？",
+      "timestamp": 1740957538.9104762
+    },
+    {
+      "role": "right",
+      "content": "好的，我需要从现在的地点去市中心。你能帮我叫一辆车吗？",
+      "timestamp": 1740957539.9195209
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我帮您叫一辆车去市中心。请问您现在的具体位置是哪里？",
+      "timestamp": 1740957543.9139218
+    },
+    {
+      "role": "right",
+      "content": "我在科技园区的入口处。",
+      "timestamp": 1740957547.6320071
+    },
+    {
+      "role": "left",
+      "content": "好的，我已记录您的位置。现在为您叫一辆车从科技园区入口处前往市中心。大约需要几分钟时间，请稍等片刻。车辆到达后，您会收到通知。",
+      "timestamp": 1740957552.2374098
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会等通知。",
+      "timestamp": 1740957553.4529037
+    },
+    {
+      "role": "left",
+      "content": "不客气，车辆预计在五分钟左右到达。请您保持手机畅通，注意查看通知。如果需要进一步的帮助，随时联系我。祝您旅途愉快。",
+      "timestamp": 1740957560.9369736
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认叫车成功并告知用户车辆预计到达时间后，主动结束了对话。服务方的意图是确保用户已经获得了所需的服务，并且没有其他需要帮助的地方，因此礼貌地结束了对话，以避免不必要的等待或占用资源。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

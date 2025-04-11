@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您开户银行的客服代表，我们检测到您的账户有异常交易，为了您的资金安全，需要您配合我们进行身份验证。请问您现在方便吗？",
+      "timestamp": 1740750166.1997728
+    },
+    {
+      "role": "right",
+      "content": "您好，我是一名医生，平时工作比较忙，不过现在正好有时间。不过，我之前没有接到过类似的电话，您能告诉我具体的异常情况吗？这样我也可以更好地配合。",
+      "timestamp": 1740750168.560962
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑电话的真实性而选择挂断。用户在对话中表达了对电话来源的疑问，要求诈骗者提供具体的异常情况，这表明用户对电话的合法性有所保留。用户挂断电话可能是为了避免进一步的风险，直到确认电话来源的合法性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

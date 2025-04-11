@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是银行客服中心，我们注意到您的账户存在异常交易，需要立即核实您的身份信息以确保账户安全。请问您的姓名和身份证号码是？",
+      "timestamp": 1740735494.8142505
+    },
+    {
+      "role": "right",
+      "content": "这听起来不太对劲。我是这家银行的客户，但通常银行不会通过电话直接要求提供完整的个人信息。我建议我们通过官方渠道联系，或者我去银行分行当面核实情况。",
+      "timestamp": 1740735500.5968192
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是怀疑对方是诈骗者，因为用户认为银行不会通过电话直接要求提供完整的个人信息。用户的意图是保护自己的个人信息安全，避免潜在的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

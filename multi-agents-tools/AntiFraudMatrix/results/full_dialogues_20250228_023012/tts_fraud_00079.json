@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服，您的包裹在运输过程中被发现有异常，需要您配合处理一下。",
+      "timestamp": 1740681021.8182237
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我最近确实有个包裹，可能是一本书。你们需要我怎么做？",
+      "timestamp": 1740681023.9842925
+    },
+    {
+      "role": "left",
+      "content": "好的，确认一下，这本书的寄件人是谁呢？我们需要核对信息。另外，为了确保安全，可能需要您支付一笔小额的检验费用。",
+      "timestamp": 1740681028.958199
+    },
+    {
+      "role": "right",
+      "content": "寄件人是我的朋友，叫李明。检验费用是多少呢？我需要怎么支付？",
+      "timestamp": 1740681030.0593278
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，李明先生。检验费用是100元，您可以选择通过我们的安全支付链接支付，或者提供您的银行卡信息，我们会在5分钟内处理完毕。您看哪种方式更方便呢？",
+      "timestamp": 1740681035.4539816
+    },
+    {
+      "role": "right",
+      "content": "好的，那我通过你们的支付链接支付吧。请发给我链接，我会尽快处理。",
+      "timestamp": 1740681036.5497408
+    },
+    {
+      "role": "left",
+      "content": "好的，谢谢您的理解与配合。我们会尽快处理这个问题，确保您的包裹安全。如果有任何进一步的问题，我们会联系您。祝您生活愉快。再见。",
+      "timestamp": 1740681041.8323672
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。再见。",
+      "timestamp": 1740681042.8428042
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经同意支付并通过诈骗者提供的支付链接进行支付，诈骗明显成功，用户已提供敏感信息或同意转账。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，谢谢您的理解与配合。我们会尽快处理这个问题，确保您的包裹安全。如果有任何进一步的问题，我们会联系您。祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，您可以告诉我想点哪家餐厅和具体餐品吗？",
+      "timestamp": 1740971418.568067
+    },
+    {
+      "role": "right",
+      "content": "想点个火锅，麻烦推荐一家附近的吧。",
+      "timestamp": 1740971419.5449283
+    },
+    {
+      "role": "left",
+      "content": "好的，附近有一家很受欢迎的火锅店叫“辣翻天火锅”，口味多样，评价也很好，您看可以吗？",
+      "timestamp": 1740971423.4958131
+    },
+    {
+      "role": "right",
+      "content": "可以，那就这家吧。想点个鸳鸯锅，再加点肉和蔬菜。",
+      "timestamp": 1740971424.9445093
+    },
+    {
+      "role": "left",
+      "content": "好的，鸳鸯锅已经加入您的订单，肉和蔬菜您想要具体哪些种类呢？我们这里有肥牛、羊肉片、牛肉丸、豆腐、生菜、金针菇等多种选择。",
+      "timestamp": 1740971434.4562755
+    },
+    {
+      "role": "right",
+      "content": "肥牛、羊肉片和牛肉丸都来一份，蔬菜就来点生菜和金针菇吧。",
+      "timestamp": 1740971436.48626
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经包含：鸳鸯锅、肥牛、羊肉片、牛肉丸、生菜和金针菇。还需要其他菜品或者饮料吗？",
+      "timestamp": 1740971441.9920056
+    },
+    {
+      "role": "right",
+      "content": "不需要了，就这样吧。谢谢。",
+      "timestamp": 1740971442.671521
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计三十分钟后送达。感谢您的订购，如果还有其他需要，请随时联系我们。",
+      "timestamp": 1740971450.2394779
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740971451.4331908
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表示不需要其他菜品或饮料，同时表达了感谢，表明对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计三十分钟后送达。感谢您的订购，如果还有其他需要，请随时联系我们。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

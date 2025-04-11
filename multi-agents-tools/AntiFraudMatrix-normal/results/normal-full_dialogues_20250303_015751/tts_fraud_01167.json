@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询顾问，可以帮您规划路线和提供实时交通信息，有什么我可以帮到您的吗？",
+      "timestamp": 1740954580.9253123
+    },
+    {
+      "role": "right",
+      "content": "谢谢，目前还没什么需要的。不过如果以后有出行计划，我会考虑找你帮忙的。你一般是怎么获取这些交通信息的？",
+      "timestamp": 1740954582.6158524
+    },
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，那我就确认路线信息已清晰，祝您旅途愉快。",
+      "timestamp": 1740954589.586386
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。如果有需要我会再联系你。祝你一天愉快！",
+      "timestamp": 1740954592.3828764
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经明确表示当前没有需要帮助的内容，并且对话内容已经从服务提供转向了对服务方式的好奇，这表明用户对当前的服务需求已经结束。虽然用户对服务方式表示了兴趣，但这并不是服务方的主要职责范围，因此可以认为对话目标已经达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，那我就确认路线信息已清晰，祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。如果有需要我会再联系你。祝你一天愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,90 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，我可以帮您完成订餐，请问有什么需要的吗？",
+      "timestamp": 1740977804.727813
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个盒饭，有什么推荐的吗？",
+      "timestamp": 1740977806.2677774
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款人气盒饭，比如招牌红烧肉饭、香辣鸡腿饭和海鲜炒饭，您可以根据自己的口味选择。您喜欢哪一款呢？",
+      "timestamp": 1740977821.478868
+    },
+    {
+      "role": "right",
+      "content": "那就来个招牌红烧肉饭吧，听起来不错。",
+      "timestamp": 1740977823.2259812
+    },
+    {
+      "role": "left",
+      "content": "好的，招牌红烧肉饭已经为您加入订单。请问还需要其他菜品或饮料吗？",
+      "timestamp": 1740977829.8544836
+    },
+    {
+      "role": "right",
+      "content": "再来一瓶矿泉水吧。",
+      "timestamp": 1740977830.7197719
+    },
+    {
+      "role": "left",
+      "content": "好的，一瓶矿泉水也已添加到您的订单中。请问您的配送地址是哪里？",
+      "timestamp": 1740977837.928798
+    },
+    {
+      "role": "right",
+      "content": "地址是村东头李家庄，具体门牌号是 123 号。",
+      "timestamp": 1740977841.7978144
+    },
+    {
+      "role": "left",
+      "content": "好的，您的地址是村东头李家庄 123 号。请问您需要什么时间送达？",
+      "timestamp": 1740977849.0069218
+    },
+    {
+      "role": "right",
+      "content": "大概下午两点左右送到吧。",
+      "timestamp": 1740977850.1804726
+    },
+    {
+      "role": "left",
+      "content": "好的，我们会尽量在下午两点左右将您的订单送达。请问还有其他特殊要求吗？比如餐具、调味品等。",
+      "timestamp": 1740977858.5251832
+    },
+    {
+      "role": "right",
+      "content": "不用了，餐具和调味品家里都有，谢谢。",
+      "timestamp": 1740977859.8719387
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，我们会在下午两点左右将您的餐送到村东头李家庄 123 号。如果您有任何其他需求，随时可以联系我们。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740977874.8720696
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。祝工作顺利。",
+      "timestamp": 1740977876.8900738
+    }
+  ],
+  "turns": 5,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了订单的所有信息提供，包括菜品选择、饮料添加、配送地址和时间，以及特殊要求。服务方可以确认订单并结束对话。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，我们会在下午两点左右将您的餐送到村东头李家庄 123 号。如果您有任何其他需求，随时可以联系我们。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。祝工作顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

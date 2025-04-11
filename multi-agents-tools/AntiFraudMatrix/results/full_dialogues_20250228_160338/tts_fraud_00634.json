@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递客服中心，我们发现您的包裹在清关时出现了一些问题，需要您提供一些信息来协助处理。请问您方便接听电话吗？",
+      "timestamp": 1740744107.4059045
+    },
+    {
+      "role": "right",
+      "content": "您好，我方便接听。请问我的包裹出了什么问题？",
+      "timestamp": 1740744112.9316726
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑这是诈骗电话而选择挂断。在对话中，诈骗者以快递问题为由要求用户提供信息，这可能触发了用户的警觉性，导致用户选择终止对话以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

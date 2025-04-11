@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的打车服务，您可以告诉我您的出发地和目的地吗？",
+      "timestamp": 1740946185.440519
+    },
+    {
+      "role": "right",
+      "content": "好的，我从家出发，去市中心的火车站。家的地址是光明路二十号。",
+      "timestamp": 1740946190.5833905
+    },
+    {
+      "role": "left",
+      "content": "好的，您的出发地是光明路二十号，目的地是市中心火车站。请稍等，我帮您安排车辆。",
+      "timestamp": 1740946194.6088252
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的出发地和目的地后，表示将为用户安排车辆，并随即结束了对话。这可能是因为服务方认为已经完成了初步的服务流程，即接收订单信息，接下来的步骤（如车辆调度）将在后台进行，无需用户进一步参与等待。服务方的意图是让用户知道他们的请求已经被接受，并且正在处理中，同时避免占用更多对话资源。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

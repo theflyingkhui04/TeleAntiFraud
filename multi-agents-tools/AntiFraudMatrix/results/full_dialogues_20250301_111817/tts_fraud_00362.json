@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自盛世资本的投资顾问李明。最近我们发现一个非常有潜力的投资项目，不知道您是否有兴趣了解一下？",
+      "timestamp": 1740809311.333246
+    },
+    {
+      "role": "right",
+      "content": "您好，李明先生。我是企业主，确实对投资有一些兴趣。不过，我最近事务比较多，时间安排比较紧张。您能简单介绍一下这个项目吗？",
+      "timestamp": 1740809314.5620022
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为时间紧张或对电话推销感到不耐烦，选择了挂断电话。用户的意图可能是礼貌地结束对话，表明当前不是讨论投资事宜的合适时机。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

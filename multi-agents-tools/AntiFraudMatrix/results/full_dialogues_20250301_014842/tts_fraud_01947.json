@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你好，我是你儿子的朋友李明。你儿子现在出事了，被一帮人带走了，他们要求我们支付一笔钱才能放人。你必须马上转一笔钱过来，不然他们可能会对你儿子不利！",
+      "timestamp": 1740778691.7638628
+    },
+    {
+      "role": "right",
+      "content": "李明？我怎么从来没有听说过你？再说，我儿子现在好好的，昨天晚上还给我打过电话。你是不是搞错了？##\n\n",
+      "timestamp": 1740778696.3761497
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因很可能是怀疑诈骗者所说内容的真实性。用户提到从未听说过对方，并且指出自己儿子最近还与自己联系过，这表明用户认为诈骗者的信息不可信，因此选择挂断电话以避免进一步的风险。用户的意图是终止与诈骗者的交流，防止潜在的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

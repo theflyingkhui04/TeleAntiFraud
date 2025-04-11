@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是预约服务中心，请问需要预约什么服务？",
+      "timestamp": 1740951152.7816472
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一下维修服务，家里的一些设备需要检查。",
+      "timestamp": 1740951155.2621162
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中明确表达了预约维修服务的需求，而服务方在首次回应时已经提供了服务选项，但由于服务方在首次回应后立即提供了结束信号代码，导致对话未能继续进行。用户的意图是希望预约维修服务，而对话的结束可能是由于服务方的误操作或系统问题导致。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

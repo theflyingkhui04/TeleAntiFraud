@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪一项服务，以及预约的具体时间？",
+      "timestamp": 1740966406.863873
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一个常规体检，时间安排在下周三上午十点可以吗？",
+      "timestamp": 1740966408.1216605
+    },
+    {
+      "role": "left",
+      "content": "下周三上午十点的时间是可以的，常规体检大约需要一个半小时。请问您方便在九点三十分到达吗？这样可以确保体检流程顺利进行。",
+      "timestamp": 1740966411.0889285
+    },
+    {
+      "role": "right",
+      "content": "好的，九点三十分到达没问题。请告诉我需要准备什么资料。",
+      "timestamp": 1740966412.073808
+    },
+    {
+      "role": "left",
+      "content": "好的，您需要携带身份证和一张一寸的彩色照片。如果有过往的体检报告或病历，也请您一并带来，以便医生参考。此外，体检前一天请注意清淡饮食，保证充足休息，体检当天早上请空腹前来。",
+      "timestamp": 1740966416.6545806
+    },
+    {
+      "role": "right",
+      "content": "明白了，我会准备好所有需要的资料和注意相关事项。谢谢提醒。",
+      "timestamp": 1740966417.787526
+    },
+    {
+      "role": "left",
+      "content": "好的，您的预约已经成功安排在下周三上午九点三十分。请您携带相关资料按时前来。如果有任何变动，请提前联系我们。祝您健康，再见。",
+      "timestamp": 1740966422.6499176
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的安排。下周三见。再见。",
+      "timestamp": 1740966423.3789668
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的所有信息，并表示感谢，表明对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的预约已经成功安排在下周三上午九点三十分。请您携带相关资料按时前来。如果有任何变动，请提前联系我们。祝您健康，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的安排。下周三见。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

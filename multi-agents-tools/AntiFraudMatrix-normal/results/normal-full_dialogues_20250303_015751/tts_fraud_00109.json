@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询助手，可以帮您规划路线、查询交通信息，有什么我可以帮您的吗？",
+      "timestamp": 1740953780.0249074
+    },
+    {
+      "role": "right",
+      "content": "你好，我不太需要这方面的帮助，谢谢。不过如果以后有需要，我会联系你的。",
+      "timestamp": 1740953784.2549126
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您有任何其他问题，随时欢迎再次联系。希望您旅途愉快！",
+      "timestamp": 1740953790.1752603
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！旅途愉快。",
+      "timestamp": 1740953791.0863702
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示当前不需要服务，并表达了可能未来的联系意向，表明对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您有任何其他问题，随时欢迎再次联系。希望您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！旅途愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

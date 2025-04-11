@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您中了我们这次的特别彩票大奖，奖金高达一百万元，您是唯一一位幸运儿，真是太幸运了！",
+      "timestamp": 1740803719.2387078
+    },
+    {
+      "role": "right",
+      "content": "谢谢您的通知，听起来太棒了！不过，我之前没买过彩票啊，这到底是怎么回事呢？我得确认一下，不然心里不踏实。",
+      "timestamp": 1740803721.4405935
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者声称的中奖信息表示怀疑，因为用户明确表示自己没有购买过彩票。用户挂断电话的意图可能是为了避免进一步的诈骗行为，或是因为对信息的真实性感到不安，需要时间来验证信息的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

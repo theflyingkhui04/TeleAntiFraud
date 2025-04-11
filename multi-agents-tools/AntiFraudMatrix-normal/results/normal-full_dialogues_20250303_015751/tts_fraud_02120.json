@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，您可以告诉我想要订什么餐，以及送餐地址和时间吗？",
+      "timestamp": 1740957197.240615
+    },
+    {
+      "role": "right",
+      "content": "好的，我想订一份红烧肉和青菜，送餐地址是幸福小区12号楼3单元402室，时间是下午五点左右。谢谢。",
+      "timestamp": 1740957199.7789104
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录，一份红烧肉和一份青菜，送餐地址是幸福小区12号楼3单元402室，预计下午五点左右送达。您还有其他需要吗？",
+      "timestamp": 1740957206.8856907
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订餐信息、送餐地址和时间后，再次向用户确认了订单详情，并询问用户是否有其他需求。用户没有提出其他需求，服务方在确保用户满意且所有服务已经完成的情况下，选择了结束对话。服务方的意图是确保用户的需求得到满足，并在服务完成后礼貌地结束对话，以避免不必要的等待或占用资源。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

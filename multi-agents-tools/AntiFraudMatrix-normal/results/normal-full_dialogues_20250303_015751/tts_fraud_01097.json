@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服专员小李为您服务，有什么我可以帮您的吗？",
+      "timestamp": 1740955371.519452
+    },
+    {
+      "role": "right",
+      "content": "你好，小李。我最近在考虑换工作，想了解一下公司有没有合适的职位。",
+      "timestamp": 1740955374.0735588
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认客服专员的身份后，表达了自己想了解公司是否有合适职位的意图。然而，用户随即使用了结束信号代码（##ENDCALL_SIGNAL##），这可能意味着用户意识到当前的客服渠道不是寻找内部职位的最佳途径，或者用户突然改变了主意，决定通过其他方式了解职位信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

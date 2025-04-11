@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是银行信用卡服务中心，我们发现您的账户存在异常交易，需要立即确认您的身份信息以便进行保护措施。请问您的全名和身份证号码是？",
+      "timestamp": 1740683751.244142
+    },
+    {
+      "role": "right",
+      "content": "您好，我明白您是出于好意，但我作为医生，平时接触过不少网络安全和防诈骗的培训。能否先告诉我，您是哪个银行的信用卡服务中心？我需要核实一下。",
+      "timestamp": 1740683756.9958699
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在意识到对方可能是诈骗者后，通过询问具体的银行信息来核实对方的身份。当诈骗者未能提供具体的银行信息，而是直接要求提供敏感信息时，用户可能判断对方为诈骗者，并选择主动挂断电话以保护自己的个人信息和财产安全。用户的意图是通过核实信息来确认对方的真实性，并在确认对方为诈骗者时采取保护措施。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,51 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮助您的？",
+      "timestamp": 1740955131.0675666
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份午餐，有什么推荐的吗？",
+      "timestamp": 1740955132.1841524
+    },
+    {
+      "role": "left",
+      "content": "我们今天的特色推荐是黑椒牛柳饭，还有招牌柠檬鸡，都是很受欢迎的选项。您想尝试一下吗？",
+      "timestamp": 1740955139.9099226
+    },
+    {
+      "role": "right",
+      "content": "黑椒牛柳饭听起来不错，我就试试这个吧。还有一杯冰红茶。",
+      "timestamp": 1740955141.650209
+    },
+    {
+      "role": "left",
+      "content": "好的，一份黑椒牛柳饭和一杯冰红茶，需要加点小菜或者汤吗？我们有免费的小菜和汤品供您选择。",
+      "timestamp": 1740955146.3713434
+    },
+    {
+      "role": "right",
+      "content": "那就加一份小菜吧，有什么推荐的？",
+      "timestamp": 1740955147.244364
+    },
+    {
+      "role": "left",
+      "content": "推荐您试试我们的凉拌黄瓜，清新爽口，很适合搭配牛柳饭。",
+      "timestamp": 1740955151.0335548
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来一份凉拌黄瓜。谢谢。",
+      "timestamp": 1740955152.343299
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认了订单内容后，明确表示了感谢并提供了结束信号代码（##ENDCALL_SIGNAL##）。这表明用户对服务满意，且认为订单已确认完毕，无需进一步交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的打车服务，请告诉我您的出发地和目的地。",
+      "timestamp": 1740965928.1385763
+    },
+    {
+      "role": "right",
+      "content": "好的，我从家出发，地址是中山路123号，目的地是火车站。",
+      "timestamp": 1740965929.2611358
+    },
+    {
+      "role": "left",
+      "content": "好的，您的出发地是中山路123号，目的地是火车站。请稍等，我正在为您匹配合适的车辆。预计等待时间为3到5分钟。",
+      "timestamp": 1740965933.792105
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我等会儿在外面等车。",
+      "timestamp": 1740965934.570984
+    },
+    {
+      "role": "left",
+      "content": "好的，车辆到达后，司机将会联系您。请您保持手机畅通，注意安全。如果需要帮助，可以随时联系我们的客服。祝您旅途愉快。",
+      "timestamp": 1740965939.2306952
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在提供了所有必要的信息和服务后，明确使用了结束信号代码'##ENDCALL_SIGNAL##'，表明服务流程已经完成，用户也表示了理解和接受。服务方的意图是确认用户没有其他需求后，礼貌地结束对话，让用户知道服务已经结束，同时表达对用户的关心和祝福。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

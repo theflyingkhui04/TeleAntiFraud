@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自华兴资本的投资顾问，最近我们发现了一个非常有潜力的投资项目，希望能跟您详细介绍一下。",
+      "timestamp": 1740775719.358395
+    },
+    {
+      "role": "right",
+      "content": "您好，谢谢您的联系。不过我目前对投资了解不多，而且最近也没有这方面的打算。你们这个项目具体是什么内容呢？",
+      "timestamp": 1740775721.9043088
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为对投资不感兴趣或对诈骗者身份存疑而选择提前结束对话。用户表达了对投资项目的不了解和当前没有投资打算的态度，这可能是为了避免进一步的纠缠或潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

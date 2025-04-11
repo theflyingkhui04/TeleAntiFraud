@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友小王的同事，小王现在遇到了非常紧急的情况，他被坏人控制了，我好不容易才打通这个电话，您能马上帮助我们吗？",
+      "timestamp": 1740734428.4858835
+    },
+    {
+      "role": "right",
+      "content": "哎呀，这可怎么办啊！小王平时人挺好的，怎么会遇到这种事...他现在安全吗？需要我做些什么？",
+      "timestamp": 1740734437.810735
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为感到情况紧急且不知如何应对，或者怀疑这是诈骗而选择挂断电话。用户的意图可能是避免进一步的潜在风险，或者是因为情绪紧张而做出的即时反应。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

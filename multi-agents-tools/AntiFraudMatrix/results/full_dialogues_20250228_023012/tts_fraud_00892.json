@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的邻居，您知道小明被绑架了吗？现在情况非常紧急，绑匪要求我们马上支付赎金，否则他们会伤害小明的！",
+      "timestamp": 1740687449.616569
+    },
+    {
+      "role": "right",
+      "content": "什么？小明被绑架了？这太可怕了，你说的这是真的吗？我们得赶紧报警啊！",
+      "timestamp": 1740687451.085125
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到小明被绑架的消息后，表现出极度的震惊和担忧，并立即提出要报警。这表明用户怀疑对方的说法，或认为报警是处理这种情况的正确方式。用户挂断电话可能是为了立即采取行动，如报警或联系其他可能知情的人，以确认情况的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

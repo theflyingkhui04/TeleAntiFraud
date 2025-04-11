@@ -1,0 +1,41 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服专员小张为您服务，请问有什么可以帮到您的？",
+      "timestamp": 1740968076.7695923
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我最近买了你们公司的智能家居套装，但是安装过程中遇到了一些问题，想咨询一下。",
+      "timestamp": 1740968079.050117
+    },
+    {
+      "role": "left",
+      "content": "好的，很高兴帮您解决安装问题。请问您具体遇到了什么问题呢？",
+      "timestamp": 1740968083.4468012
+    },
+    {
+      "role": "right",
+      "content": "我按照说明书上的步骤操作，但智能插座连接不上 Wi-Fi，提示连接超时。我试了好几次，还是不行。",
+      "timestamp": 1740968086.1188498
+    },
+    {
+      "role": "left",
+      "content": "了解了，这个问题可能是由于几种原因导致的。首先，请确认您的 Wi-Fi 信号是否稳定，智能插座所在的位置是否有较强的 Wi-Fi 信号覆盖。另外，尝试重启路由器和智能插座，看是否能解决问题。如果还是不行，我们可以通过更详细的步骤来排查。",
+      "timestamp": 1740968094.8267848
+    },
+    {
+      "role": "right",
+      "content": "好的，我先试试重启路由器和插座。稍等一下。",
+      "timestamp": 1740968096.687074
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在尝试了客服提供的初步解决方案后，选择暂时结束对话，可能是为了立即执行重启操作，以便尽快解决问题。用户的意图是希望在执行建议后，如果问题仍然存在，再继续与客服沟通。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

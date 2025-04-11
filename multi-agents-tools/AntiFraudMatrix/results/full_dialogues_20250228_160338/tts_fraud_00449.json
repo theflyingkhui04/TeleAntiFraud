@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你听好了，你的儿子现在在我手上，如果不立刻转账五十万到指定账户，你就再也见不到他了！",
+      "timestamp": 1740735537.9137473
+    },
+    {
+      "role": "right",
+      "content": "你别胡说八道，我根本就没有儿子，你到底是谁，怎么会有我的电话？你这样吓唬我，我可要报警了！",
+      "timestamp": 1740735553.825297
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因很可能是由于识破了诈骗者的谎言。用户明确表示自己没有儿子，因此诈骗者关于绑架的威胁显然是虚假的。此外，用户表达了强烈的不满，并威胁要报警，显示其已经意识到这是一起诈骗行为，因此选择挂断电话以避免进一步的骚扰。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

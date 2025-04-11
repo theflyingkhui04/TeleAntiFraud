@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我是您的助手，请告诉我您的出发地和目的地。",
+      "timestamp": 1740953880.767378
+    },
+    {
+      "role": "right",
+      "content": "好的，我从医院出发，目的地是家，地址是朝阳区东三环北路。",
+      "timestamp": 1740953882.2464375
+    },
+    {
+      "role": "left",
+      "content": "好的，已为您叫车。车辆预计5分钟后到达医院，请您留意车辆信息。",
+      "timestamp": 1740953886.5466025
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的出发地和目的地后，迅速完成了叫车服务，并告知了用户车辆预计到达时间。服务方在此时使用结束信号代码（##ENDCALL_SIGNAL##），表明服务目标已达成，即为用户成功叫到了车，并且提供了必要的信息。服务方的意图是确保用户了解车辆的到达情况，同时表明服务已经完成，可以结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

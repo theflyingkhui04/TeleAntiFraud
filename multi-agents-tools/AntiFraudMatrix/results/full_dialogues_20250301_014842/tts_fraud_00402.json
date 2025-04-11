@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您成为我们这次全国彩票抽奖活动的幸运得主，您将获得一百万元的大奖！请问您现在方便说话吗？",
+      "timestamp": 1740774305.5145068
+    },
+    {
+      "role": "right",
+      "content": "您好，这听起来确实很令人兴奋，但我是医生，平时工作很忙，经常接到各种电话。能麻烦您告诉我一下，这个抽奖活动是哪家公司举办的吗？还有，我之前有参加过类似的活动吗？",
+      "timestamp": 1740774310.8467412
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因可能是出于谨慎考虑，希望进一步核实活动的真实性和自己的参与情况。用户表示自己是医生，工作繁忙，经常接到各种电话，这表明用户对电话内容持怀疑态度，并希望通过询问更多细节来判断电话的真实性。用户的意图是避免潜在的诈骗风险，确保自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

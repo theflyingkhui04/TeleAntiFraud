@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递客服中心，我们注意到您有一个重要的国际包裹被海关扣留了，需要您支付相关税费才能放行。请问您方便现在处理吗？",
+      "timestamp": 1740691996.736416
+    },
+    {
+      "role": "right",
+      "content": "您好，我是农民，不太懂这些事情。我的包裹真的被扣留了吗？这听起来有点奇怪。我得先确认一下是不是真的。",
+      "timestamp": 1740691998.3669627
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对诈骗者所述情况的怀疑，并表示需要先确认信息的真实性。用户挂断电话的意图可能是为了避免进一步的诈骗行为，同时给自己时间去验证信息的真伪。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服中心，我们发现您的包裹在运输过程中被海关拦截了，里面可能含有违禁品，需要您配合处理。",
+      "timestamp": 1740773271.360001
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊。我最近确实有收到一个包裹，但我不记得里面有什么违禁品。你们能帮我查一下具体是什么东西吗？",
+      "timestamp": 1740773273.8312697
+    },
+    {
+      "role": "left",
+      "content": "当然可以。请您提供一下您的姓名和订单号，我们需要核实一下具体信息。为了您的包裹能够顺利放行，我们需要尽快处理这个问题。",
+      "timestamp": 1740773279.227325
+    },
+    {
+      "role": "right",
+      "content": "好的，我的姓名是张伟，订单号是六百五十七十二三。谢谢你们的帮助。",
+      "timestamp": 1740773283.2701151
+    },
+    {
+      "role": "left",
+      "content": "张伟先生，感谢您的配合。我们已经记录了您的信息，会尽快与海关核实具体情况。如果有进一步的消息，我们会第一时间通知您。再次感谢您的理解和支持。",
+      "timestamp": 1740773288.9696589
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们，希望尽快有好消息。",
+      "timestamp": 1740773289.9194884
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和订单号，属于敏感信息，诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "张伟先生，感谢您的配合。我们已经记录了您的信息，会尽快与海关核实具体情况。如果有进一步的消息，我们会第一时间通知您。再次感谢您的理解和支持。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们，希望尽快有好消息。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

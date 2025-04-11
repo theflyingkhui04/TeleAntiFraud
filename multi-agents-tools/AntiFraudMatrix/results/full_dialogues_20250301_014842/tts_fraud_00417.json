@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "嘿，您好！我是来自国家彩票中心的客服专员，恭喜您，您中了一笔五百万元的大奖！你相信这样的好事会发生在自己身上吗？",
+      "timestamp": 1740766456.2465162
+    },
+    {
+      "role": "right",
+      "content": "五百万元？这听起来太不可思议了。你们是怎么确定我中奖的呢？我可没买过彩票啊。",
+      "timestamp": 1740766458.103622
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对突如其来的中奖信息表示怀疑，并且明确表示自己从未购买过彩票，这表明用户可能认为这是诈骗行为。用户通过挂断电话的方式，表达了对对话内容的不信任和拒绝继续交流的意图。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

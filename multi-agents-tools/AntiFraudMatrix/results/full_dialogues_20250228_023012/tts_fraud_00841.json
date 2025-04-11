@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自新时代投资公司的李经理。我们注意到您在股市方面的投资潜力，特此联系您，希望能为您提供一个高收益的投资机会。",
+      "timestamp": 1740689931.0674212
+    },
+    {
+      "role": "right",
+      "content": "您好，李经理。谢谢您的联系。我确实有一些闲钱，但说实话，我对这些投资机会不太懂。您能具体说说这个投资机会吗？我得看看是否适合我。",
+      "timestamp": 1740689933.1842582
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能在诈骗者提到'高收益的投资机会'时产生了怀疑或警觉，意识到这可能是一个诈骗电话。用户虽然表现出一定的兴趣，但随后主动挂断电话，表明用户可能决定不再继续对话，以避免潜在的风险或损失。用户的意图可能是保护自己的财务安全，避免被诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

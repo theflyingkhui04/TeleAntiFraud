@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，有什么我可以帮您的？",
+      "timestamp": 1740973522.054616
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从市中心到机场的最快路线。大概需要多长时间？",
+      "timestamp": 1740973523.9447846
+    },
+    {
+      "role": "left",
+      "content": "从市中心到机场最快的方式是乘坐机场快线，大约需要三十五分钟。如果选择驾车，根据路况不同，通常也需四十分钟左右。您需要了解更详细的路线信息吗？",
+      "timestamp": 1740973529.4629464
+    },
+    {
+      "role": "right",
+      "content": "不用了，谢谢。机场快线听起来很方便，我会选择这个方式。还有，机场快线的票价是多少？",
+      "timestamp": 1740973531.6174817
+    },
+    {
+      "role": "left",
+      "content": "机场快线的票价是每人五十元。您可以直接在车站购票或使用手机支付。祝您旅途愉快！",
+      "timestamp": 1740973535.626512
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在回答了用户关于机场快线票价的问题后，确认用户没有其他需要帮助的信息，并表达了祝福，随后使用了结束信号代码'##ENDCALL_SIGNAL##'。这表明服务方认为对话目标已经达成，用户的问题得到了满意的解答，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

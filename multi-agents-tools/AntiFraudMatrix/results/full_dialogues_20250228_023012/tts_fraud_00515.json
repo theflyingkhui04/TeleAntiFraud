@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，这里是国际快递客服中心。我们发现您的包裹在海关被扣留，需要您提供身份信息以便核实并缴纳相关费用。请问您方便现在处理吗？",
+      "timestamp": 1740686322.5486007
+    },
+    {
+      "role": "right",
+      "content": "您好，这个包裹是哪个国家寄来的？我最近没有买任何国际商品，也没有收到任何通知。我需要核实一下这个信息。",
+      "timestamp": 1740686360.486804
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能怀疑这是一起诈骗行为，因为用户表示最近没有购买国际商品，也没有收到任何相关通知。用户挂断电话的意图是为了避免进一步的交流，防止个人信息泄露或财产损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

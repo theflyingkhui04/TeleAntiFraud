@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，请问有什么问题我可以帮您解决？",
+      "timestamp": 1740978832.4998775
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我最近在考虑买个新的血压计，你能给我推荐一款吗？",
+      "timestamp": 1740978834.197517
+    },
+    {
+      "role": "left",
+      "content": "当然可以。您是倾向于购买电子血压计还是传统的水银血压计呢？电子血压计使用方便，读数直观，而水银血压计则更为传统，测量结果相对稳定。",
+      "timestamp": 1740978841.8848934
+    },
+    {
+      "role": "right",
+      "content": "我想买个电子的，用起来方便点。",
+      "timestamp": 1740978844.9879
+    },
+    {
+      "role": "left",
+      "content": "好的，电子血压计分为上臂式和腕式两种。上臂式血压计测量结果更为准确，适合大多数人群；腕式血压计则更便携，适合经常出行的人使用。您有什么偏好吗？",
+      "timestamp": 1740978855.1184096
+    },
+    {
+      "role": "right",
+      "content": "那我还是选上臂式的吧，准确点好。",
+      "timestamp": 1740978856.63179
+    },
+    {
+      "role": "left",
+      "content": "了解了。我推荐您考虑某品牌的一款上臂式电子血压计，它具有自动充气、大屏幕显示、记忆功能，适合家庭使用。这款血压计价格适中，性能稳定，用户评价也很不错。您觉得如何？",
+      "timestamp": 1740978867.6664617
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，我会考虑的。谢谢你的推荐。",
+      "timestamp": 1740978869.356744
+    },
+    {
+      "role": "left",
+      "content": "好的，感谢您的信任。如果您对这款血压计有任何疑问或需要进一步的帮助，随时欢迎咨询。希望您选购愉快！",
+      "timestamp": 1740978876.4794147
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740978877.560402
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示满意并感谢了服务方的推荐，表明不再需要进一步的帮助。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，感谢您的信任。如果您对这款血压计有任何疑问或需要进一步的帮助，随时欢迎咨询。希望您选购愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

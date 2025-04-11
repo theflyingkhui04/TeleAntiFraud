@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约什么项目？",
+      "timestamp": 1740981320.34611
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约一个体检。",
+      "timestamp": 1740981321.371652
+    },
+    {
+      "role": "left",
+      "content": "好的，体检服务我们有多种套餐，请问您有特定的需求或者偏好吗？比如全面体检、专项检查等。",
+      "timestamp": 1740981324.9768038
+    },
+    {
+      "role": "right",
+      "content": "就选一个全面体检的套餐吧。",
+      "timestamp": 1740981325.8861775
+    },
+    {
+      "role": "left",
+      "content": "了解了，全面体检套餐包含多个项目的检查，非常全面。请问您方便的时间是？我们这边可以为您预约最近的时段。",
+      "timestamp": 1740981329.3275054
+    },
+    {
+      "role": "right",
+      "content": "下周三下午三点可以吗？",
+      "timestamp": 1740981329.9214423
+    },
+    {
+      "role": "left",
+      "content": "下周三下午三点的时间可以预约，这是我们一个比较空闲的时间段，您可以直接过来。请问需要帮您预约一个小时的体检时间吗？一般来说，这个时间足够完成所有检查。",
+      "timestamp": 1740981334.8820143
+    },
+    {
+      "role": "right",
+      "content": "好的，就预约一个小时吧。谢谢。",
+      "timestamp": 1740981336.159195
+    },
+    {
+      "role": "left",
+      "content": "好的，您的全面体检已预约在下周三下午三点，我们会为您预留一个小时的时间。您的预约编号是123456，请您准时前来。如果有任何问题，可以随时联系我们。感谢您的预约，祝您健康愉快！",
+      "timestamp": 1740981341.8350284
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。下周三见。祝好。",
+      "timestamp": 1740981343.633786
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了预约时间和时长，并表示感谢，表明其需求已得到满足，服务目标达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的全面体检已预约在下周三下午三点，我们会为您预留一个小时的时间。您的预约编号是123456，请您准时前来。如果有任何问题，可以随时联系我们。感谢您的预约，祝您健康愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。下周三见。祝好。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

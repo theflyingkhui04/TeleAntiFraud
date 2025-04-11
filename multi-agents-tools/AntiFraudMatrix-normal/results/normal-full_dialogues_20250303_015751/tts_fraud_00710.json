@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "感谢您的来电，我是客服小张，有什么可以帮助您的吗？",
+      "timestamp": 1740948941.134722
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我是李医生，想咨询一下最近的健康讲座安排。",
+      "timestamp": 1740948943.461377
+    },
+    {
+      "role": "left",
+      "content": "李医生，您好！我们最近确实有几场健康讲座，具体时间和主题您想了解哪一场的呢？",
+      "timestamp": 1740948952.9108582
+    },
+    {
+      "role": "right",
+      "content": "主要是想了解一下心血管方面的讲座，时间安排是怎样的？",
+      "timestamp": 1740948953.965479
+    },
+    {
+      "role": "left",
+      "content": "好的，心血管健康讲座安排在本周六下午三点，地点在医院三楼会议厅，您方便参加吗？",
+      "timestamp": 1740948957.8183563
+    },
+    {
+      "role": "right",
+      "content": "周六下午三点可以，地点也方便。谢谢你的帮助。",
+      "timestamp": 1740948961.489852
+    },
+    {
+      "role": "left",
+      "content": "李医生，已经为您记录了心血管健康讲座的信息，如果您确定参加，我们会发送确认短信给您。感谢您的咨询，祝您一切顺利。",
+      "timestamp": 1740948966.7675917
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝好。",
+      "timestamp": 1740948968.9649866
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表达了感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "李医生，已经为您记录了心血管健康讲座的信息，如果您确定参加，我们会发送确认短信给您。感谢您的咨询，祝您一切顺利。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝好。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

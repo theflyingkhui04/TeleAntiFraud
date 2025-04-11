@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您！我是XX彩票中心的客服，您最近在我们平台购买的彩票中了二等奖，奖金高达50万元！请您提供一下身份信息和银行卡号，以便我们尽快为您办理兑奖手续。",
+      "timestamp": 1740692160.8208146
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太好了！我还不知道呢。不过，我最近好像没买过彩票啊。你们能不能先告诉我中奖的彩票号码，我核实一下？",
+      "timestamp": 1740692162.700017
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

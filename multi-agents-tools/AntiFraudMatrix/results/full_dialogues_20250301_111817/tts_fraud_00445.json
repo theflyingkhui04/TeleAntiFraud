@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自蓝海投资的李经理，最近有一个非常不错的新项目，预期收益非常高，想邀请您了解一下。",
+      "timestamp": 1740812553.392931
+    },
+    {
+      "role": "right",
+      "content": "您好，李经理。谢谢您的邀请，但我最近对投资比较谨慎。能具体说说这个项目的详情吗？我需要了解更多再做决定。",
+      "timestamp": 1740812556.020384
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对投资的谨慎态度，并要求了解更多项目详情。然而，诈骗者并未提供具体信息，反而直接挂断了电话。这可能是因为诈骗者意识到用户的态度较为谨慎，不易上当，因此选择终止对话。用户的意图是希望获取更多信息以做出明智的决策，而诈骗者则可能认为继续对话无益。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

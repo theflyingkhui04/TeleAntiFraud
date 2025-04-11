@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自顺丰快递的客服小张，这里有一份您的包裹，但是由于海关检查时发现了一些问题，需要您配合处理一下。",
+      "timestamp": 1740757607.196999
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我最近确实买了一些东西，可能是那个。你们需要我怎么配合呢？",
+      "timestamp": 1740757608.4101045
+    },
+    {
+      "role": "left",
+      "content": "好的，这个问题比较紧急，需要您尽快处理。您的包裹里可能含有违禁品，现在需要您支付一笔三百元的罚款，我们才能放行包裹。您可以通过银行转账的方式支付，我这就把账号发给您。",
+      "timestamp": 1740757612.8517907
+    },
+    {
+      "role": "right",
+      "content": "三百块啊？这...可是我最近手头有点紧，能不能少要点？（犹豫了一下）不过为了拿到包裹，我还是转给你吧。你把账号发过来吧。",
+      "timestamp": 1740757617.703888
+    },
+    {
+      "role": "left",
+      "content": "请您尽快处理，否则包裹会被海关扣留。如果您有任何疑问，可以随时联系我。希望您理解，谢谢您的配合。再见。",
+      "timestamp": 1740757622.9204943
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，我这就去转账。谢谢你的理解。再见。",
+      "timestamp": 1740757627.1897745
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经同意支付罚款，并要求诈骗者提供银行账号，这意味着诈骗明显成功，用户已同意转账。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "请您尽快处理，否则包裹会被海关扣留。如果您有任何疑问，可以随时联系我。希望您理解，谢谢您的配合。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，我这就去转账。谢谢你的理解。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

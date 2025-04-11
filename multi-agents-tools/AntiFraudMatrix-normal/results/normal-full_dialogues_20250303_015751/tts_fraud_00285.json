@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的预约服务助理，可以帮助您安排预约，请问您需要预约什么服务？",
+      "timestamp": 1740946759.015758
+    },
+    {
+      "role": "right",
+      "content": "您好，我需要预约一个健康检查。",
+      "timestamp": 1740946761.202622
+    },
+    {
+      "role": "left",
+      "content": "好的，健康检查预约已经为您准备好了。请问您希望预约的具体日期和时间是什么？",
+      "timestamp": 1740946764.756123
+    },
+    {
+      "role": "right",
+      "content": "那就下周一上午十点吧。",
+      "timestamp": 1740946768.6267672
+    },
+    {
+      "role": "left",
+      "content": "下周一上午十点的时间段是可以的。请问您需要预约哪家医院的健康检查？",
+      "timestamp": 1740946773.638855
+    },
+    {
+      "role": "right",
+      "content": "就去市立医院吧。",
+      "timestamp": 1740946774.2839997
+    },
+    {
+      "role": "left",
+      "content": "好的，市立医院的预约已经为您安排好了。请问您的姓名和联系方式是什么，以便我们为您完成预约？",
+      "timestamp": 1740946778.9084885
+    },
+    {
+      "role": "right",
+      "content": "我叫张明，手机号是13812345678。",
+      "timestamp": 1740946780.164331
+    },
+    {
+      "role": "left",
+      "content": "张明先生，您的预约信息已经记录好了。我们将为您发送一条确认短信到13812345678，请注意查收。还有其他需要帮助的吗？",
+      "timestamp": 1740946785.4256315
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息并告知用户将收到确认短信后，询问用户是否有其他需要帮助的事项。用户没有回应其他需求，服务方在此时使用了结束信号代码'##ENDCALL_SIGNAL##'，表明服务方认为预约服务已经完成，且没有其他待处理事项，因此选择结束对话。服务方的意图是确保用户的需求得到满足，并在服务完成后礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

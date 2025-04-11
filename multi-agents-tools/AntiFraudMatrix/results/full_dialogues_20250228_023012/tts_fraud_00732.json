@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的邻居小李，很抱歉打扰您，但我现在遇到了一个非常紧急的情况，需要您的帮助。",
+      "timestamp": 1740689201.7750003
+    },
+    {
+      "role": "right",
+      "content": "小李啊，你怎么了？出什么事了？你说说看，我能不能帮上忙。",
+      "timestamp": 1740689202.946031
+    },
+    {
+      "role": "left",
+      "content": "是这样的，我刚才接到了一个电话，说是我儿子在放学路上被绑架了！他们让我马上准备5万块钱现金，不然...不然就要伤害我儿子！我现在慌得六神无主，您能不能先借我这笔钱救急？",
+      "timestamp": 1740689214.1835787
+    },
+    {
+      "role": "right",
+      "content": "小李，你先别急，这种情况听起来非常可疑。你有没有联系过你儿子，确认一下他是不是真的遇到了危险？现在骗子很多，这种套路也挺常见的。你得冷静下来，先确认一下再说。",
+      "timestamp": 1740689216.442015
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户意识到对话中的诈骗行为，并明确表示怀疑和拒绝，同时提供了挂断信号。用户意图是通过挂断电话来结束对话，避免进一步的诈骗尝试。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

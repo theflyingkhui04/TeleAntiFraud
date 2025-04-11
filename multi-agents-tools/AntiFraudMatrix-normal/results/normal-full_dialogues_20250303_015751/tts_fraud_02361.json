@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是预约服务专员，有什么我可以帮您的吗？",
+      "timestamp": 1740968829.3618183
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约下周的体检。",
+      "timestamp": 1740968830.6998553
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方自我介绍后立即表达了预约需求，并且使用了结束信号代码。这表明用户可能急于表达自己的需求，或是对服务方的开场白不感兴趣，想要快速进入正题。用户的意图是尽快完成预约服务。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

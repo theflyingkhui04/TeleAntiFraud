@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您银行的客服代表，我姓张。我们刚刚注意到您的账户似乎出现了一些异常活动，需要尽快核实一些信息以确保您的账户安全。您现在方便接电话吗？",
+      "timestamp": 1740766078.7524831
+    },
+    {
+      "role": "right",
+      "content": "喂，你好。我最近确实有点忙，但既然你说我的账户有问题，那我还是听听吧。你说的异常活动是什么意思？",
+      "timestamp": 1740766080.4176202
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者提供的信息不够具体或可信度不高，感到怀疑或不耐烦，因此选择挂断电话。用户的意图可能是避免进一步浪费时间，或对诈骗者身份的真实性产生质疑。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

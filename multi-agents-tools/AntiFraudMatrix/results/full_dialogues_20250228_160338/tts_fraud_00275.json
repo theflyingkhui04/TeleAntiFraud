@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的邻居张阿姨，您儿子小明出事了，现在在医院，需要您马上汇款五千元，不然医院不肯救治，您能快点吗？",
+      "timestamp": 1740731915.0649638
+    },
+    {
+      "role": "right",
+      "content": "张阿姨，您先别急，我儿子怎么会出事呢？您能告诉我具体是怎么回事吗？我得确认一下。",
+      "timestamp": 1740731918.0350325
+    },
+    {
+      "role": "left",
+      "content": " scrimpy，我哪有时间跟您细说，小明真的需要马上救治，您要是不信，耽误了他，您可别后悔！您现在能汇款吗？",
+      "timestamp": 1740731941.2129126
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在用户表现出怀疑和要求更多细节时选择了挂断电话。这表明诈骗者可能意识到用户已经产生了警觉，继续诈骗成功的可能性较低，因此选择终止对话以避免进一步的质疑或可能的报警。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

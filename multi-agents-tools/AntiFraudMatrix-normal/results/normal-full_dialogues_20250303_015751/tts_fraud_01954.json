@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪一项服务？",
+      "timestamp": 1740952103.7873976
+    },
+    {
+      "role": "right",
+      "content": "今天不预约，谢谢。",
+      "timestamp": 1740952107.5185635
+    },
+    {
+      "role": "left",
+      "content": "感谢您的预约，如果需要进一步的帮助或有任何疑问，请随时联系我们。祝您一切顺利，再见。",
+      "timestamp": 1740952112.3834457
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。",
+      "timestamp": 1740952116.1385956
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "服务方已经提供了结束信号代码'##ENDCALL_SIGNAL##'，并且用户也表示了不再需要预约服务。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的预约，如果需要进一步的帮助或有任何疑问，请随时联系我们。祝您一切顺利，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

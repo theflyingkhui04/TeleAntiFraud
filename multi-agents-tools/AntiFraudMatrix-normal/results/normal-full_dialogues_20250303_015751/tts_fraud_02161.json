@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "预约服务专员为您服务，请问需要预约哪项服务？",
+      "timestamp": 1740971810.1068249
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一个健康检查。",
+      "timestamp": 1740971811.4595618
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方询问需要预约的服务时，明确表达了预约健康检查的意图。然而，由于服务方和用户在每条消息后都使用了结束信号代码 '##ENDCALL_SIGNAL##'，这可能是导致对话过早结束的原因。用户的意图是预约健康检查，但对话因不适当的结束信号使用而中断。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

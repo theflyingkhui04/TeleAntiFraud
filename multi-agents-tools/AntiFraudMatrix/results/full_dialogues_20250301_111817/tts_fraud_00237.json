@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子的朋友，他现在出事了，被一帮人扣押着，您必须马上转一笔钱过来才能确保他的安全。您现在有时间说话吗？",
+      "timestamp": 1740815341.816839
+    },
+    {
+      "role": "right",
+      "content": "什么？你说什么？我儿子出事了？这到底是怎么回事？你先冷静一下，告诉我具体是怎么回事，为什么他会被人扣押？这听起来太奇怪了，我需要确认这是真的。你有没有他的联系方式？我得跟他本人确认一下。",
+      "timestamp": 1740815346.6612778
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被扣押并要求转账后，表现出明显的怀疑和不安。用户要求提供更多信息和儿子的联系方式，以确认情况的真实性。由于诈骗者未能提供令人信服的证据，用户可能认为这是诈骗行为，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

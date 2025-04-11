@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询服务的助手，可以帮您查询路线、交通状况等信息，请问有什么我可以帮您的吗？",
+      "timestamp": 1740945419.810917
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我想知道从市立医院到中央公园的路线，最好是避开高峰时段的。",
+      "timestamp": 1740945421.3940005
+    },
+    {
+      "role": "left",
+      "content": "从市立医院到中央公园，建议您可以乘坐地铁二号线，在人民广场站转乘一号线，到中央公园站下车，这样可以避开地面交通的高峰时段，更加方便快捷。",
+      "timestamp": 1740945426.6668878
+    },
+    {
+      "role": "right",
+      "content": "谢谢，地铁听起来是个不错的选择。大概需要多长时间？",
+      "timestamp": 1740945427.679531
+    },
+    {
+      "role": "left",
+      "content": "根据您的出发时间，整个行程大约需要三十到四十分钟，包括换乘时间。如果遇到人流较多的情况，可能需要稍作等待。",
+      "timestamp": 1740945431.564219
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我会提前出发，尽量避开人流。",
+      "timestamp": 1740945432.3871176
+    },
+    {
+      "role": "left",
+      "content": "路线信息已提供给您，希望对您有所帮助，祝您旅途愉快。如果有其他问题，欢迎随时咨询。",
+      "timestamp": 1740945436.9100246
+    },
+    {
+      "role": "right",
+      "content": "谢谢，如果有其他问题我会再联系。祝好。",
+      "timestamp": 1740945438.0394428
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的路线和时间信息，并表示了感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "路线信息已提供给您，希望对您有所帮助，祝您旅途愉快。如果有其他问题，欢迎随时咨询。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，如果有其他问题我会再联系。祝好。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

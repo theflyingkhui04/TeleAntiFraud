@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，我是小李。我们发现您的账户有异常交易，需要您配合我们进行核实，以确保您的资金安全。为了尽快处理这个问题，请您提供一下您的身份证号码和开户行信息。",
+      "timestamp": 1740804593.7297542
+    },
+    {
+      "role": "right",
+      "content": "喂，小李，你好。我的账户有异常交易？这听起来挺严重的。不过，你们怎么确定是我的账户呢？我最近确实没注意到有什么不对劲的地方。",
+      "timestamp": 1740804596.0096564
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者要求提供身份证号码和开户行信息后，可能意识到了潜在的诈骗风险，因此选择主动挂断电话以保护个人信息安全。这表明用户对保护个人隐私和安全有一定警觉性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

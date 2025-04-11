@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您中得了本期双色球一等奖，奖金高达五百万元！您现在方便接电话吗？",
+      "timestamp": 1740740616.6646354
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太Amazing了！我正缺一笔资金扩展我的小企业呢。不过，我最近确实没怎么买过彩票，你们是怎么确定我中奖的呢？",
+      "timestamp": 1740740643.9016144
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份和信息表示怀疑，并提出合理质疑，表明用户可能意识到这是一个诈骗电话。用户在意识到潜在风险后，选择主动挂断电话以避免进一步的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

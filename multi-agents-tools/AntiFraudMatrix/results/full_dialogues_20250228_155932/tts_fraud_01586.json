@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您！您已被系统随机选中成为本期彩票的幸运得主，奖金高达五十万元。请尽快联系我们的客服确认您的身份信息，以便我们安排奖金发放。",
+      "timestamp": 1740752066.6016965
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？这太好了！我怎么联系你们的客服呢？",
+      "timestamp": 1740752068.3506813
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们会尽快处理您的信息。如果有任何问题，您随时可以联系我们。祝您生活愉快。",
+      "timestamp": 1740752072.7798114
+    },
+    {
+      "role": "right",
+      "content": "谢谢谢谢！我这就打电话过去，希望能顺利拿到奖金。你们真是太好了！",
+      "timestamp": 1740752079.349389
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中提供了明显的挂断信号（##ENDCALL_SIGNAL##），表明其已决定结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们会尽快处理您的信息。如果有任何问题，您随时可以联系我们。祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢谢谢！我这就打电话过去，希望能顺利拿到奖金。你们真是太好了！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

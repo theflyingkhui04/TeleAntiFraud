@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，这里是XX银行客服中心，我们检测到您的账户存在异常交易，需要立即核实您的身份信息以确保账户安全。请问您的姓名和身份证号码是？",
+      "timestamp": 1740686173.3792899
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？我的账户有异常交易？这可怎么办？我叫张建国，身份证号码是123456789012345678。你们能帮我查查是怎么回事吗？",
+      "timestamp": 1740686178.9637678
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们会立即处理您的账户问题。如有进一步需要，我们会再与您联系。祝您生活愉快！再见。##TERMINATE_SIGNAL##",
+      "timestamp": 1740686187.6221447
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，希望问题能快点解决。再见。",
+      "timestamp": 1740686188.5962322
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中明确要求用户提供敏感信息，用户已经提供了姓名和身份证号码。根据终止条件1（诈骗明显成功 - 用户已提供敏感信息或同意转账），应该终止对话。此外，诈骗者已经提供了挂断标识符##ENDCALL_SIGNAL##。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们会立即处理您的账户问题。如有进一步需要，我们会再与您联系。祝您生活愉快！再见。##TERMINATE_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，希望问题能快点解决。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

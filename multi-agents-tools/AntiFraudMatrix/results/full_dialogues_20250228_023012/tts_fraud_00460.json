@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递公司，我们发现您的包裹在通关时遇到了一些问题，需要您提供一些信息以便我们协助处理。请问您方便现在配合我们吗？",
+      "timestamp": 1740691884.9626634
+    },
+    {
+      "role": "right",
+      "content": "您好，我是小张。能具体说说是什么问题吗？我最近确实有网购了一些东西，但我不知道会遇到通关问题。",
+      "timestamp": 1740691923.361121
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出需要提供信息以协助处理包裹问题时，可能意识到这可能是一个诈骗电话。用户虽然询问了具体问题，但随后立即挂断了电话，表明用户对提供个人信息持谨慎态度，并选择终止对话以避免潜在的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "李女士吗？我是福利彩票中心的工作人员，恭喜您，您的彩票在最新一期的抽奖中获得了特等奖，奖金高达五百万元！您现在方便接听电话吗？",
+      "timestamp": 1740792470.602426
+    },
+    {
+      "role": "right",
+      "content": "您好，我确实买过彩票，但我不确定是不是真的中奖了。你们能不能提供一些具体的中奖信息，比如彩票的号码或者中奖的具体日期？这样我好核对一下。",
+      "timestamp": 1740792472.740909
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了谨慎的态度，要求提供具体的中奖信息以进行核对。用户可能怀疑这是一起诈骗行为，因此在没有得到满意的回答之前选择了挂断电话，以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

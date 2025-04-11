@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是幸运彩票中心，您中了一个大奖，奖金是五十万元人民币，请问您现在方便领取吗？",
+      "timestamp": 1740736490.4724777
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？五十万元？这太意外了。我得确认一下，您能告诉我这是哪一期的彩票吗？还有，我需要带什么东西去领奖呢？",
+      "timestamp": 1740736494.7606306
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提供信息后表现出怀疑和谨慎，询问具体的彩票期数和领奖所需材料，这表明用户可能意识到这是一个诈骗电话，并试图通过提问来验证信息的真伪。然而，诈骗者突然挂断了电话，可能是意识到用户开始怀疑，继续对话可能会暴露诈骗行为，因此选择提前结束对话以避免被识破。用户的意图可能是通过提问来确认信息的真伪，以保护自己不受诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

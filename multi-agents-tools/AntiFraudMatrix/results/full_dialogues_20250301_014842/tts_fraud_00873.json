@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是××银行的客服人员，您最近的账单好像有些异常，需要您尽快处理，不然可能会对您的信用记录造成影响。为了您的安全，我需要核对一些信息。您可以告诉我您的全名和出生日期吗？",
+      "timestamp": 1740770411.161995
+    },
+    {
+      "role": "right",
+      "content": "您好，我是张伟，出生日期是一九七五年六月十二日。不过，我最近并没有发现账单有什么异常，您能具体说说是什么问题吗？我确实有点担心。",
+      "timestamp": 1740770413.4249272
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供了部分个人信息后，可能意识到了潜在的诈骗风险，因此选择主动挂断电话以保护自己的信息安全。用户的意图是为了防止进一步的信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

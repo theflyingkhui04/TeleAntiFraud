@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的用户您好，我是XX快递的客服，我们发现您有一个国际包裹被海关扣留了，需要您提供身份证号码和银行卡信息来处理清关手续。请您尽快配合，以免造成不必要的损失。",
+      "timestamp": 1740688609.5194492
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？国际包裹？我最近没买什么东西啊。你们能帮我查查是谁寄的吗？我得确认一下，不然我也不好提供这些信息。",
+      "timestamp": 1740688611.9781296
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份和请求表示怀疑，并要求进一步确认信息的真实性。用户可能意识到这是一个诈骗电话，因此选择挂断电话以避免提供敏感信息。用户的意图是保护自己的个人信息，避免成为诈骗的受害者。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

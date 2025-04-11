@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是李华，您的儿子现在在我这里，他欠了我们一笔钱，您必须马上转一千块钱过来，否则我不能保证他的安全。",
+      "timestamp": 1740747591.8140585
+    },
+    {
+      "role": "right",
+      "content": "你说什么？我儿子怎么会在你那里？他欠了你们钱？这到底是怎么回事？你得给我一个合理的解释，不然我立刻报警。",
+      "timestamp": 1740747593.8565016
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提出不合理的要求后，表现出强烈的怀疑和不安。用户要求诈骗者给出合理的解释，并明确表示如果不解释清楚将报警。这表明用户已经识破了诈骗行为，并通过挂断电话来终止与诈骗者的进一步交流，以保护自己不受诈骗侵害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

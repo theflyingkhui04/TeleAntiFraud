@@ -1,0 +1,66 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎致电预约服务中心，我是您的客服小张，请问有什么可以帮您的？",
+      "timestamp": 1740978439.2648835
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一个周末的餐厅位置。",
+      "timestamp": 1740978440.6789927
+    },
+    {
+      "role": "left",
+      "content": "好的，我可以帮您预约。请问您想预约哪家餐厅，具体是哪一天，几点钟呢？",
+      "timestamp": 1740978448.3356795
+    },
+    {
+      "role": "right",
+      "content": "想预约周六晚上六点，餐厅名字叫“老地方”。",
+      "timestamp": 1740978450.246387
+    },
+    {
+      "role": "left",
+      "content": "好的，周六晚上六点，餐厅名字是“老地方”。请问您需要预订几位？",
+      "timestamp": 1740978458.073847
+    },
+    {
+      "role": "right",
+      "content": "两位。",
+      "timestamp": 1740978458.9802845
+    },
+    {
+      "role": "left",
+      "content": "明白了，两位。还需要提供您的联系方式以便餐厅确认预订信息，可以告诉我您的手机号码吗？",
+      "timestamp": 1740978467.01209
+    },
+    {
+      "role": "right",
+      "content": "可以，我的手机号是13800138000。",
+      "timestamp": 1740978469.4985876
+    },
+    {
+      "role": "left",
+      "content": "好的，已经记录下来。请稍等，我正在为您预约，这可能需要一点点时间。",
+      "timestamp": 1740978477.0440798
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740978477.7970014
+    },
+    {
+      "role": "left",
+      "content": "不客气，您的预订已经确认成功。餐厅会在稍后通过手机短信发送确认信息。请问还有其他需要帮助的吗？",
+      "timestamp": 1740978486.8671196
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的预订请求并成功完成预订后，主动询问用户是否有其他需要帮助的事项。在用户未提出进一步需求的情况下，服务方使用了结束标识符'##ENDCALL_SIGNAL##'来礼貌地结束对话。这表明服务方认为对话目标已经达成，且用户的问题已经得到解决，同时服务方也确保了用户没有其他需求，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您，您中了我们这次的超级大乐透，奖金额度高达五百万元！请问您现在方便接听电话吗？",
+      "timestamp": 1740795550.120966
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太意外了！我怎么会中这么大的奖呢？能麻烦您跟我说说具体是怎么回事吗？",
+      "timestamp": 1740795551.3209205
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们下次再联系，祝您一切顺利，再见。",
+      "timestamp": 1740795555.2528474
+    },
+    {
+      "role": "right",
+      "content": "好的，那我们下次再联系，祝您一切顺利，再见。",
+      "timestamp": 1740795557.1532817
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明其选择挂断对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们下次再联系，祝您一切顺利，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，那我们下次再联系，祝您一切顺利，再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

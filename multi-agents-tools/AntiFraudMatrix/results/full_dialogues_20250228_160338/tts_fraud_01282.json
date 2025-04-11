@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是不是张伟？我是王强，你以前的老朋友。你听我说，我刚刚接到个电话，说你儿子被绑架了，他们要求十万块钱的赎金，你得赶紧想办法！ ",
+      "timestamp": 1740729836.9287267
+    },
+    {
+      "role": "right",
+      "content": "王强？你是王强啊，好久不见。你说什么，我儿子被绑架了？这怎么可能，我儿子在学校里好好的，你别开玩笑了，这种事能乱说吗？你到底在干什么？ ",
+      "timestamp": 1740729840.9649675
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因可能是认为诈骗者在开玩笑或编造事实。用户提到‘你别开玩笑了，这种事能乱说吗？’，表明用户对诈骗者的话表示怀疑，并且对这种不严肃的行为感到不满。用户通过挂断电话表达了对对话内容的不信任和拒绝继续交流的态度。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，我是小李。我们发现您的账户有些异常活动，需要您的配合进行核实。您现在方便吗？",
+      "timestamp": 1740744509.9623
+    },
+    {
+      "role": "right",
+      "content": "您好，小李。我最近确实没怎么用这张卡，可能是有些异常。您能具体说说是什么情况吗？",
+      "timestamp": 1740744511.4993458
+    },
+    {
+      "role": "left",
+      "content": "根据系统显示，您上个月在境外有过多次大额消费记录。为了保障您的账户安全，我们需要确认一下这些交易是否是您本人操作的。能提供一下您的身份证号码和最近一次交易的金额吗？",
+      "timestamp": 1740744520.5722606
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者可能意识到用户对账户异常活动的了解有限，且用户没有立即提供敏感信息，担心继续对话可能暴露诈骗意图，因此选择主动挂断以避免进一步的风险。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

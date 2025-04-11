@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，您的账户近期有异常交易，请问是您本人操作的吗？",
+      "timestamp": 1740796502.044755
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？我最近都没怎么用过银行卡，这到底是怎么回事啊？你们能帮我查一查吗？",
+      "timestamp": 1740796504.7465243
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为突然意识到这是一起诈骗电话，或者因为感到恐慌而选择立即挂断电话，以避免进一步的交流可能导致个人信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

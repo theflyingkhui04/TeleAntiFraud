@@ -1,0 +1,61 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么我可以帮您的吗？",
+      "timestamp": 1740973793.4572883
+    },
+    {
+      "role": "right",
+      "content": "您好，我想看看你们这里的工具，特别是测量工具。",
+      "timestamp": 1740973794.6805065
+    },
+    {
+      "role": "left",
+      "content": "好的，我们这里有各种测量工具，比如卷尺、卡尺、激光测距仪等。您具体需要哪一种呢？",
+      "timestamp": 1740973800.4114432
+    },
+    {
+      "role": "right",
+      "content": "我需要一个精度高的卡尺，用来做一些精密的测量。",
+      "timestamp": 1740973801.7506936
+    },
+    {
+      "role": "left",
+      "content": "明白了，我们有几款高精度的卡尺，测量范围从零到一百五十毫米，精度可达零点零一毫米。您需要了解一下吗？",
+      "timestamp": 1740973805.909273
+    },
+    {
+      "role": "right",
+      "content": "好的，可以给我看一下吗？",
+      "timestamp": 1740973806.9652288
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我这就带您去工具区看看。请跟我来。",
+      "timestamp": 1740973810.5729735
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我这就过去。",
+      "timestamp": 1740973811.4157805
+    },
+    {
+      "role": "left",
+      "content": "不客气，我在工具区等您。如果您有任何疑问，随时告诉我。",
+      "timestamp": 1740973815.211809
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740973816.2656374
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方提供了详细的帮助和指引后，明确表示感谢并使用了结束信号代码'##ENDCALL_SIGNAL##'，表明用户已经得到了所需的信息和服务，对服务方的帮助表示满意，并决定结束对话。用户的意图是结束当前的对话，可能是因为已经找到了满意的商品或准备直接前往工具区查看商品。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

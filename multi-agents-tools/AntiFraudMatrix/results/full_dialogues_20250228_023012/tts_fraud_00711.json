@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自国家彩票中心的工作人员，恭喜您，您中了我们今年的大奖，奖金高达500万元！",
+      "timestamp": 1740685640.9722304
+    },
+    {
+      "role": "right",
+      "content": "谢谢您的通知，但我对这种电话有点谨慎。我是真的中奖了吗？您能告诉我具体的中奖信息吗？比如说中奖号码或者中奖日期。",
+      "timestamp": 1740685642.6348941
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的中奖通知表示怀疑，并要求提供具体的中奖信息，如中奖号码或日期。用户挂断电话可能是出于谨慎考虑，认为这可能是一起诈骗电话，不愿意继续与诈骗者交流以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

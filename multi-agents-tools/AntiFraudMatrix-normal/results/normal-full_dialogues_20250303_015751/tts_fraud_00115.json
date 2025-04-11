@@ -1,0 +1,41 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询员在此，如何帮您规划行程？",
+      "timestamp": 1740953102.8522992
+    },
+    {
+      "role": "right",
+      "content": "你好，我想从家去市中心的图书馆，有什么推荐的路线吗？",
+      "timestamp": 1740953103.9071693
+    },
+    {
+      "role": "left",
+      "content": "当然可以，从您家出发，您可以先乘坐地铁2号线到市中心站，然后步行大约五分钟就能到达图书馆，这样既快捷又方便。还有其他时间或方式的偏好吗？",
+      "timestamp": 1740953112.1492414
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的建议，地铁2号线听起来不错。大概需要多久时间呢？",
+      "timestamp": 1740953113.8288782
+    },
+    {
+      "role": "left",
+      "content": "从您家到市中心站的地铁行程大约需要二十五分钟，加上步行时间，总行程时间大概在三十分钟左右。请提前检查地铁的运营时间，以免错过末班车。",
+      "timestamp": 1740953118.3077703
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的详细解答，我会注意的。",
+      "timestamp": 1740953120.2357824
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在获得满意的路线和时间建议后，明确表示了感谢，并使用了结束信号代码'##ENDCALL_SIGNAL##'，表明其问题已得到解决，不再需要进一步的帮助。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

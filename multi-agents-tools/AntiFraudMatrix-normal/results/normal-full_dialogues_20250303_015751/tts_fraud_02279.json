@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的？",
+      "timestamp": 1740972496.6482818
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我想订个外卖。有什么推荐的吗？",
+      "timestamp": 1740972497.9008174
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款热门菜品特别受欢迎，比如宫保鸡丁、麻婆豆腐和黑椒牛柳，这些都是顾客评价很高的选择。您有兴趣试试吗？",
+      "timestamp": 1740972505.9953372
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来一份吧。还要加点什么好呢？",
+      "timestamp": 1740972507.8722064
+    },
+    {
+      "role": "left",
+      "content": "宫保鸡丁搭配一份蒜蓉西兰花和一个番茄蛋汤会是个不错的选择，这样既有肉又有蔬菜，营养均衡。您看如何？",
+      "timestamp": 1740972516.1917384
+    },
+    {
+      "role": "right",
+      "content": "好的，就这么办。这些我都点了。还需要等多久能送到？",
+      "timestamp": 1740972517.82435
+    },
+    {
+      "role": "left",
+      "content": "您的订单已确认，预计将在30到40分钟内送达。如果地址比较偏远，可能会稍有延迟。我们会尽快为您送达的。有其他需要帮忙的吗？",
+      "timestamp": 1740972523.195951
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单，并提供了预计送达时间后，询问用户是否有其他需要帮助的事项。在用户没有进一步的需求后，服务方主动提供了结束信号，表明服务目标已达成，用户的需求得到了满足，服务方意图礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

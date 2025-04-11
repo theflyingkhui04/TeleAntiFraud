@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮您的吗？",
+      "timestamp": 1740983161.843092
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖。有什么推荐菜吗？",
+      "timestamp": 1740983162.7686486
+    },
+    {
+      "role": "left",
+      "content": "我们这里有很多受欢迎的菜品，比如宫保鸡丁、麻婆豆腐和牛肉炒饭，都是非常受欢迎的选择。您有特别的口味偏好或需求吗？",
+      "timestamp": 1740983167.4773543
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来一份宫保鸡丁和一份酸辣汤吧。还需要点别的什么吗？",
+      "timestamp": 1740983169.3117707
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁和一份酸辣汤。您需要加点饮料或小菜吗？我们有冰红茶、冰柠檬水和凉拌黄瓜等选择。",
+      "timestamp": 1740983176.6062877
+    },
+    {
+      "role": "right",
+      "content": "来一杯冰红茶吧，谢谢。大概多久能送到？",
+      "timestamp": 1740983187.0527217
+    },
+    {
+      "role": "left",
+      "content": "好的，您一共点了宫保鸡丁、酸辣汤和一杯冰红茶。您的订单预计在30到40分钟内送达。地址和联系方式方便确认一下吗？",
+      "timestamp": 1740983194.1654894
+    },
+    {
+      "role": "right",
+      "content": "好的，地址是幸福小区12号楼2单元302室，电话是13812345678。谢谢。",
+      "timestamp": 1740983197.6254148
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，30到40分钟后送达。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740983203.4308805
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待您的服务。",
+      "timestamp": 1740983204.5393336
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单的所有细节，包括菜品、饮料、送餐地址和联系方式，服务目标已达成。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，30到40分钟后送达。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待您的服务。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

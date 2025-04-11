@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "\"你好，是[对方姓名]吗？我是公安局的王警官，刚刚接到报案，你的儿子在我们辖区被绑架了，绑匪要求立即转账50万赎金。\"",
+      "timestamp": 1740682021.9012249
+    },
+    {
+      "role": "right",
+      "content": "什么？这不可能！我儿子今天早上还给我打了电话，说他一切都好。你们是不是搞错了？我需要确认一下。",
+      "timestamp": 1740682023.8373914
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因很可能是怀疑诈骗者所说内容的真实性。用户提到儿子当天早上还与自己联系过，并表示一切安好，这与诈骗者所述情况明显不符，因此用户选择挂断电话以进一步核实情况，避免落入诈骗陷阱。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

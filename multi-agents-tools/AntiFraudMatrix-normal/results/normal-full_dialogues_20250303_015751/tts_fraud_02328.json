@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服人员已就位，有什么我可以帮您的吗？",
+      "timestamp": 1740981543.4142432
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下今年的农作物补贴政策。",
+      "timestamp": 1740981544.2661145
+    },
+    {
+      "role": "left",
+      "content": "了解了，今年的农作物补贴政策根据不同地区有所差异，您可以告诉我您所在的地区吗？这样我可以提供更准确的信息。",
+      "timestamp": 1740981547.4699962
+    },
+    {
+      "role": "right",
+      "content": "我在东北，种了大半辈子的地，今年想了解一下最新的补贴情况。",
+      "timestamp": 1740981548.5434783
+    },
+    {
+      "role": "left",
+      "content": "东北地区今年的农作物补贴政策主要包括对玉米、大豆等主要作物的生产者补贴，以及针对耕地地力保护、轮作休耕等方面的专项补贴。具体补贴标准和申请流程，您可以联系当地农业农村局获取详细资料。如果有其他具体问题，我也很乐意为您解答。",
+      "timestamp": 1740981556.1851933
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的详细解答。我会去农业农村局再了解一下具体的情况。",
+      "timestamp": 1740981557.3786423
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您还有其他问题或需要进一步的帮助，随时欢迎联系我们。祝您种植顺利，丰收在望。",
+      "timestamp": 1740981561.3290377
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740981562.3111415
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已获得所需信息，并明确表示感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您还有其他问题或需要进一步的帮助，随时欢迎联系我们。祝您种植顺利，丰收在望。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

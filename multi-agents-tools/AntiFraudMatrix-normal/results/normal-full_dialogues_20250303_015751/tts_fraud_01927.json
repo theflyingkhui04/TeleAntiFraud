@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，有什么可以帮到您的吗？",
+      "timestamp": 1740947253.460105
+    },
+    {
+      "role": "right",
+      "content": "您好，小张，我就是想咨询一下你们这里有没有适合老年人的优惠活动。",
+      "timestamp": 1740947255.660846
+    },
+    {
+      "role": "left",
+      "content": "有的，我们针对老年人有专门的优惠活动，比如每周三全店九折，还有每月的第一个周末可以领取专属优惠券。您需要了解具体的产品信息吗？",
+      "timestamp": 1740947268.3458166
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。那这些优惠券可以用在什么产品上呢？",
+      "timestamp": 1740947269.6449246
+    },
+    {
+      "role": "left",
+      "content": "这些优惠券可以用于我们店内的大多数产品，包括保健品、日用品和部分电子产品。不过，部分特价商品和已经享受其他优惠的产品可能不能使用优惠券，具体可以在结账时咨询收银员。",
+      "timestamp": 1740947277.2513595
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢您的详细解答。我会留意这些活动的。",
+      "timestamp": 1740947278.295685
+    },
+    {
+      "role": "left",
+      "content": "好的，如果还有其他问题或需要进一步的帮助，随时欢迎咨询。感谢您的来电，祝您生活愉快。",
+      "timestamp": 1740947285.823486
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740947286.5315368
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表示感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果还有其他问题或需要进一步的帮助，随时欢迎咨询。感谢您的来电，祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

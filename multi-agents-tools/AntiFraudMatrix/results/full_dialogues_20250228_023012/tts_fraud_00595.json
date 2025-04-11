@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服，我们发现您的包裹中有一项违禁品，需要您配合处理。请提供您的姓名和联系电话以便我们核实信息。",
+      "timestamp": 1740690724.142598
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊。我叫李桂芳，电话是13812345678。我最近确实有收到一个包裹，是什么违禁品啊？",
+      "timestamp": 1740690729.2636626
+    },
+    {
+      "role": "left",
+      "content": "谢谢您的配合，李女士。我们已经记录了您的信息，会尽快处理这个问题。如果需要进一步联系，我们会通过电话通知您。再次感谢您的配合。",
+      "timestamp": 1740690738.9599943
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。希望这件事能尽快解决。",
+      "timestamp": 1740690775.7200634
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗明显成功 - 用户已提供敏感信息（姓名和联系电话），诈骗者已获取足够信息。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "谢谢您的配合，李女士。我们已经记录了您的信息，会尽快处理这个问题。如果需要进一步联系，我们会通过电话通知您。再次感谢您的配合。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。希望这件事能尽快解决。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想点什么吗？",
+      "timestamp": 1740947471.7192755
+    },
+    {
+      "role": "right",
+      "content": "好的，我想点个牛肉盖饭和一份糖醋排骨，还有一杯冰红茶。谢谢。",
+      "timestamp": 1740947476.2182283
+    },
+    {
+      "role": "left",
+      "content": "好的，您点了一份牛肉盖饭、一份糖醋排骨和一杯冰红茶。需要帮您备注什么特别的吗，比如少油少盐或者不要辣椒？",
+      "timestamp": 1740947481.1966684
+    },
+    {
+      "role": "right",
+      "content": "不用了，按默认的来就行。谢谢。",
+      "timestamp": 1740947481.8809154
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录。预计送达时间是三十分钟到四十分钟之间。地址方便告知一下吗？以便我们确认。",
+      "timestamp": 1740947486.1632845
+    },
+    {
+      "role": "right",
+      "content": "地址是北京市朝阳区建国路88号，阳光大厦A座1205室。麻烦尽快送达，谢谢。",
+      "timestamp": 1740947487.4767969
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计三十分钟到四十分钟内送达。感谢您的订购，希望您用餐愉快。如果有任何问题，欢迎随时联系我们。",
+      "timestamp": 1740947494.044081
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。如果有什么问题我会联系你们的。",
+      "timestamp": 1740947495.2820191
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了所有必要的订单信息，包括餐品、特殊要求、地址和送达时间要求。服务方可以确认订单并结束对话。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计三十分钟到四十分钟内送达。感谢您的订购，希望您用餐愉快。如果有任何问题，欢迎随时联系我们。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。如果有什么问题我会联系你们的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

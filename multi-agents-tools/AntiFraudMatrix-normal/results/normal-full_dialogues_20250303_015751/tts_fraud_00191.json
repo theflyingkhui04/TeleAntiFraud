@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，请问您需要订购什么餐品？",
+      "timestamp": 1740982266.909548
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份牛肉炒饭和一份糖醋排骨，还有一瓶可乐。",
+      "timestamp": 1740982268.2791815
+    },
+    {
+      "role": "left",
+      "content": "好的，您订购了一份牛肉炒饭、一份糖醋排骨和一瓶可乐。请问需要加餐巾纸和餐具吗？",
+      "timestamp": 1740982273.6526098
+    },
+    {
+      "role": "right",
+      "content": "需要，谢谢。",
+      "timestamp": 1740982274.3242247
+    },
+    {
+      "role": "left",
+      "content": "已经为您加上了餐巾纸和餐具。请问您的送餐地址和联系电话是什么？",
+      "timestamp": 1740982280.0255365
+    },
+    {
+      "role": "right",
+      "content": "地址是科技园区A座1204室，电话是13812345678。",
+      "timestamp": 1740982281.3583367
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认。预计送达时间是三十分钟内，我们会尽快为您送餐。如果有任何问题，我们会及时联系您。感谢您的订购！",
+      "timestamp": 1740982286.7653677
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情，包括餐品、餐具、地址和联系电话后，告知了用户预计的送达时间，并表达了感谢。服务方使用了明确的结束信号代码##ENDCALL_SIGNAL##，表明订单处理完成，服务目标已达成，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

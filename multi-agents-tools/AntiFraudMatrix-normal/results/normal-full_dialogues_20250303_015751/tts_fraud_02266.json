@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "打车服务已为您准备好，您现在需要叫车吗？",
+      "timestamp": 1740947768.464073
+    },
+    {
+      "role": "right",
+      "content": "好，我需要去镇上的市场，麻烦帮我叫一辆车。",
+      "timestamp": 1740947771.5077808
+    },
+    {
+      "role": "left",
+      "content": "好的，我已为您叫了一辆车。大约需要十分钟左右到达您的位置。请问您的具体地址是？这样司机可以直接导航过来。",
+      "timestamp": 1740947776.5454102
+    },
+    {
+      "role": "right",
+      "content": "我的地址是东郊农场，就在村口那条路的尽头。谢谢。",
+      "timestamp": 1740947778.7945154
+    },
+    {
+      "role": "left",
+      "content": "好的，您的地址已告知司机，他会在十分钟左右到达东郊农场村口。请留意车辆到达信息，有特殊情况可以联系司机。祝您一路顺利。",
+      "timestamp": 1740947784.1159906
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的需求并完成叫车服务后，提供了所有必要的信息（包括车辆到达时间和具体地址），并且表达了良好的祝愿。服务方使用了明确的结束信号代码'##ENDCALL_SIGNAL##'，表明服务流程已经完成，用户的需求得到了满足，因此服务方选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

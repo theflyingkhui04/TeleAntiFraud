@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！我是XX快递公司的客服人员。我们发现您有一个国际包裹被海关扣留，需要您提供身份信息和支付两百元的清关费用。请问您现在方便处理吗？",
+      "timestamp": 1740756980.280128
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近确实有一个国际包裹，但是我不确定是不是被扣留了。这个费用是不是有点高啊？我需要确认一下这个情况。你能告诉我具体的包裹信息吗？比如包裹的编号和寄件人信息。",
+      "timestamp": 1740756982.667373
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对费用和包裹信息的怀疑，要求提供具体的包裹信息以确认情况。用户可能是因为对诈骗者的要求感到不信任，或者认为费用不合理，因此选择挂断电话以避免进一步的风险。用户的意图是保护自己的财产安全，避免可能的诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

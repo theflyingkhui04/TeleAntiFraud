@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是李华的朋友小王，李华现在遇到了一些麻烦，他被一些人扣住了，他们要求我立刻给您打电话，希望您能帮帮他。",
+      "timestamp": 1740685535.8272567
+    },
+    {
+      "role": "right",
+      "content": "小王啊，你怎么会认识李华的？他遇到了什么麻烦？你说他被扣住了，这到底是怎么回事？我觉得有点奇怪，李华平时跟谁有矛盾吗？",
+      "timestamp": 1740685574.1567793
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为对诈骗者提供的信息感到怀疑，特别是当诈骗者提到李华被扣住时，用户提出了多个问题试图验证信息的真实性。用户可能认为这些信息不一致或不可信，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "打车服务已为您准备就绪，您可以告诉我您的位置和目的地吗？",
+      "timestamp": 1740969657.4913502
+    },
+    {
+      "role": "right",
+      "content": "好的，我在人民广场，目的地是浦东机场。麻烦你了。",
+      "timestamp": 1740969658.7461073
+    },
+    {
+      "role": "left",
+      "content": "好的，您在人民广场，目的地是浦东机场。我马上为您安排车辆，预计等待时间大约是五到十分钟，请您留意手机上的通知。车辆到达后，司机将与您联系。如果有任何问题，您可以随时告诉我。",
+      "timestamp": 1740969666.3543692
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我会留意手机通知的。",
+      "timestamp": 1740969667.5252554
+    },
+    {
+      "role": "left",
+      "content": "车辆已为您安排好，预计五到十分钟内到达。请您留意手机通知，如有任何问题，随时联系我。祝您旅途愉快。",
+      "timestamp": 1740969672.775033
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的安排。旅途愉快！",
+      "timestamp": 1740969674.4541552
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了服务细节，并表示感谢，表明用户对当前服务满意且没有进一步的需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "车辆已为您安排好，预计五到十分钟内到达。请您留意手机通知，如有任何问题，随时联系我。祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的安排。旅途愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

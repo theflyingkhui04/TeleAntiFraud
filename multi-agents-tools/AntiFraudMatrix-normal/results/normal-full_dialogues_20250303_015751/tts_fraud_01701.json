@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您想订购哪家餐厅的美食呢？",
+      "timestamp": 1740965642.9917104
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我想订一家靠海的餐厅，他们的海鲜应该不错。有什么推荐的吗？",
+      "timestamp": 1740965644.860951
+    },
+    {
+      "role": "left",
+      "content": "当然，我们这里有一家叫做“海边鲜味”的餐厅，评价非常好，尤其推荐他们的清蒸海鲈鱼和蒜蓉烤生蚝。您看是否感兴趣？",
+      "timestamp": 1740965651.576888
+    },
+    {
+      "role": "right",
+      "content": "听起来很不错，就订这家吧。我想要一份清蒸海鲈鱼和一份蒜蓉烤生蚝，再加一份炒时蔬。",
+      "timestamp": 1740965653.709083
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您记录了清蒸海鲈鱼、蒜蓉烤生蚝和炒时蔬。请问还需要预订其他菜品或者饮品吗？",
+      "timestamp": 1740965658.141358
+    },
+    {
+      "role": "right",
+      "content": "不需要了，这些就够了。谢谢。",
+      "timestamp": 1740965659.3955913
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计三十分钟后送达。如果您有任何其他需求，请随时联系我们。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740965664.8945122
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待美味的海鲜。",
+      "timestamp": 1740965665.9398458
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了菜品的点选，并明确表示不再需要其他服务，同时表达了感谢。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计三十分钟后送达。如果您有任何其他需求，请随时联系我们。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待美味的海鲜。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

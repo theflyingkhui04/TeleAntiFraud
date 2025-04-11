@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，有什么我可以帮您的吗？",
+      "timestamp": 1740947285.256513
+    },
+    {
+      "role": "right",
+      "content": "你好，小张，我想了解一下退休金的相关政策。",
+      "timestamp": 1740947286.24444
+    },
+    {
+      "role": "left",
+      "content": "了解了，关于退休金的政策，您是想了解具体的领取条件、计算方法还是相关政策的最新变动呢？",
+      "timestamp": 1740947291.0083654
+    },
+    {
+      "role": "right",
+      "content": "主要想了解一下领取条件和计算方法。",
+      "timestamp": 1740947294.5625653
+    },
+    {
+      "role": "left",
+      "content": "好的，领取退休金的条件一般包括达到法定退休年龄和缴纳社会保险的年限。具体来说，男性一般需要年满六十岁，女性工人年满五十岁，女性干部年满五十五岁，同时缴纳养老保险满十五年。计算方法通常是根据个人的缴费基数、缴费年限以及当地的社会平均工资来确定的。具体的计算公式可以是：退休金 = 基础养老金 + 个人账户养老金。您还有其他方面需要了解的吗？",
+      "timestamp": 1740947302.441083
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的解释。这些信息对我很有帮助。",
+      "timestamp": 1740947303.6971946
+    },
+    {
+      "role": "left",
+      "content": "如果您还有任何其他问题或需要进一步的帮助，随时欢迎联系我们。感谢您的咨询，祝您生活愉快。",
+      "timestamp": 1740947310.9691658
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。祝你工作顺利。",
+      "timestamp": 1740947312.1564407
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并明确表示感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您还有任何其他问题或需要进一步的帮助，随时欢迎联系我们。感谢您的咨询，祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。祝你工作顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

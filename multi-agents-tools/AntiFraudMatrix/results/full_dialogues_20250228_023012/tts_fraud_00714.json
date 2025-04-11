@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您！您已被系统随机抽中为本期彩票大奖的幸运得主，奖品为价值50万元的现金大奖。请您尽快提供身份证号码以便我们核对信息，以便进行奖金发放。",
+      "timestamp": 1740690163.9251802
+    },
+    {
+      "role": "right",
+      "content": "等等，我怎么记得我最近没买过彩票啊？你是不是搞错了？而且怎么会有这种天上掉馅饼的好事？你该不会是骗子吧？我可不会随便把身份证号码给别人。",
+      "timestamp": 1740690168.3661673
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对诈骗者身份的怀疑，明确表示不会提供身份证号码，并且主动挂断了电话。用户的意图是终止与诈骗者的交流，避免进一步的信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

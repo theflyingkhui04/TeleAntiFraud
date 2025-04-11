@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自XX银行的客服人员，工号零零零三，我们发现您的账户可能存在安全风险，需要立即采取措施确保您的资金安全。",
+      "timestamp": 1740799659.6603951
+    },
+    {
+      "role": "right",
+      "content": "您好，我是王工程师。您说我的账户有安全风险，能具体说明一下吗？我最近确实没有收到任何异常的通知。",
+      "timestamp": 1740799661.9761238
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提供的信息感到怀疑，尤其是在没有收到任何异常通知的情况下。用户挂断电话可能是为了保护自己的隐私和账户安全，避免进一步的询问可能导致个人信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

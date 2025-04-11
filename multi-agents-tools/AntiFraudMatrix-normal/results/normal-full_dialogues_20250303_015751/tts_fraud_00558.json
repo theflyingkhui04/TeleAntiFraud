@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么可以帮您的吗？",
+      "timestamp": 1740976685.1395705
+    },
+    {
+      "role": "right",
+      "content": "嗨，可以来一杯冰美式吗？谢谢。",
+      "timestamp": 1740976686.5693576
+    },
+    {
+      "role": "left",
+      "content": "当然可以，您的冰美式马上就来。需要加糖或奶吗？",
+      "timestamp": 1740976693.1150243
+    },
+    {
+      "role": "right",
+      "content": "不用了，我喜欢原味的。谢谢。",
+      "timestamp": 1740976694.6205263
+    },
+    {
+      "role": "left",
+      "content": "好的，您的冰美式原味，马上就好。请稍等片刻。",
+      "timestamp": 1740976700.5966837
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的订单需求并告知用户饮品即将准备完成后，使用了结束信号代码'##ENDCALL_SIGNAL##'，表明服务方认为当前对话目标已达成，即用户的需求（点一杯冰美式咖啡）已经明确，服务流程进入饮品准备阶段，无需进一步的对话交流。服务方的意图是礼貌地结束对话，让用户等待饮品准备完成。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

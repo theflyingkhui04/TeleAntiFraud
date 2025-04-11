@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您是张先生吗？我是您的朋友小李的邻居，小李现在遇到了一些麻烦，他让我给您打个电话。",
+      "timestamp": 1740741596.9329362
+    },
+    {
+      "role": "right",
+      "content": "你好，我是小张。小李出什么事了？你能不能告诉我具体情况？",
+      "timestamp": 1740741598.2661233
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提到朋友遇到麻烦后，可能出于担心或怀疑，想要获取更多信息，但在诈骗者挂断电话前未能得到具体信息。用户挂断的原因可能是意识到这可能是一个诈骗电话，或者对诈骗者提供的信息感到不满或不信任。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

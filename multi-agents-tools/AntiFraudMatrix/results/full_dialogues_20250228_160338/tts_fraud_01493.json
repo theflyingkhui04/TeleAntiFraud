@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好，这里是国际快递服务中心。我们发现您的包裹在入境检查时被扣留，需要您提供身份信息以便核实处理。请问您现在方便接听电话吗？",
+      "timestamp": 1740742407.3187485
+    },
+    {
+      "role": "right",
+      "content": "您好，我确实有一个包裹需要接收，不过我最近经常接到类似的电话，感觉不太安全。你们能提供一些具体的包裹信息吗？比如包裹的编号或者寄件人的信息？这样我才能确认是不是真的。",
+      "timestamp": 1740742412.956006
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份表示怀疑，并要求提供更多具体信息以确认电话的真实性。用户可能认为诈骗者无法提供所需的具体信息，因此选择挂断电话以避免潜在的诈骗风险。用户的意图是保护自己的个人信息安全，避免被诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

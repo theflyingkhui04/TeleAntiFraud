@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是您的购物助手，请问有什么可以帮助您的？",
+      "timestamp": 1740938342.307457
+    },
+    {
+      "role": "right",
+      "content": "你好，我想看看你们这里有没有适合老年人的保健品。",
+      "timestamp": 1740938345.0587265
+    },
+    {
+      "role": "left",
+      "content": "我们这里确实有多种适合老年人的保健品，比如钙片、维生素D和鱼油等，您具体想了解哪一种呢？",
+      "timestamp": 1740938351.7698677
+    },
+    {
+      "role": "right",
+      "content": "先给我介绍一下钙片吧。",
+      "timestamp": 1740938352.9205565
+    },
+    {
+      "role": "left",
+      "content": "好的，我们的钙片含有高纯度的钙质，还特别添加了维生素D，有助于提高钙的吸收率，适合老年人补充日常所需的钙。包装规格是每瓶六十片，每日推荐服用一次，每次一片。您看需要了解更多信息吗？",
+      "timestamp": 1740938358.7043152
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，我就买一瓶试试。",
+      "timestamp": 1740938359.6250668
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您对钙片感兴趣，可以直接在我们的网站上选购，或者前往最近的门店。如果还有其他问题，欢迎随时联系我们。祝您购物愉快！",
+      "timestamp": 1740938366.662931
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740938368.2397757
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表达了购买意愿，服务目标达成，用户可以在此时选择结束对话。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您对钙片感兴趣，可以直接在我们的网站上选购，或者前往最近的门店。如果还有其他问题，欢迎随时联系我们。祝您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

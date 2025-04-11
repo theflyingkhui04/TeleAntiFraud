@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是工商银行客服中心的小张，最近我们的系统检测到您的银行卡有异常交易记录，需要您配合我们进行安全验证，以免造成更大的损失。",
+      "timestamp": 1740787598.945169
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我是学生，平时几乎不怎么用银行卡，怎么会突然有异常交易呢？能不能先告诉我具体是什么情况？",
+      "timestamp": 1740787600.6343646
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提出的问题感到怀疑，要求更多具体信息以验证对方身份和情况的真实性。由于诈骗者在未提供具体异常交易详情的情况下即挂断电话，用户可能认为对方无法提供合理解释，从而选择挂断电话以避免潜在的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

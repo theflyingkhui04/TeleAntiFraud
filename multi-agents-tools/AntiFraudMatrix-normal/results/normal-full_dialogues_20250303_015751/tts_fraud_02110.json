@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，我可以帮您完成订餐，请告诉我您需要哪种餐品以及送餐地址。",
+      "timestamp": 1740950141.6539392
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份红烧肉和一份清炒时蔬，送餐地址是北京市朝阳区幸福小区 12 号楼 3 单元 602 室。谢谢。",
+      "timestamp": 1740950145.0481064
+    },
+    {
+      "role": "left",
+      "content": "好的，您点了一份红烧肉和一份清炒时蔬，送餐地址是北京市朝阳区幸福小区十二号楼三单元六零二室。请问还需要其他菜品吗？",
+      "timestamp": 1740950150.3285017
+    },
+    {
+      "role": "right",
+      "content": "不需要了，就这两样。对了，你们大概多久能送到？",
+      "timestamp": 1740950152.547343
+    },
+    {
+      "role": "left",
+      "content": "通常情况下，我们会在下单后三十到四十分钟内送达。如果遇到高峰期可能会稍有延迟，我们会尽量为您安排最快配送。",
+      "timestamp": 1740950156.9149966
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。那我等会儿就注意一下。如果有问题会再联系你们。",
+      "timestamp": 1740950157.9225447
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，我们会在三十到四十分钟内送到。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740950165.617159
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740950166.2739277
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容和送餐时间，并表示如果没有问题会再联系服务方，这表明用户对当前的服务感到满意且没有进一步的需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，我们会在三十到四十分钟内送到。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

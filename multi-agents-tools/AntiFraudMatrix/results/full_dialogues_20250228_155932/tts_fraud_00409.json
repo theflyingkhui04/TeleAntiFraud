@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "大爷，您真是幸运啊，您中了我们这次彩票的特等奖，奖金高达五百万元！现在只需要提供您的姓名和身份证号，我们就能为您办理领奖手续了。",
+      "timestamp": 1740746901.7763379
+    },
+    {
+      "role": "right",
+      "content": "真的吗？这听起来太不可思议了。我是医生，平时工作很忙，很少买彩票。再说，我怎么没记得自己买过彩票呢？你们能告诉我这是怎么回事吗？",
+      "timestamp": 1740746906.6351583
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能怀疑这是一起诈骗行为，因为用户表示自己很少买彩票，而且不记得买过。用户以职业和忙碌为由，表达了对中奖信息的怀疑，并选择挂断电话，表明用户不愿意继续参与对话，避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

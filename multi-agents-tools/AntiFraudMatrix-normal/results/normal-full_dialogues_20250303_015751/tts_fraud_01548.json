@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "预约服务专员为您服务，请问您需要预约哪项服务？",
+      "timestamp": 1740965911.771573
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一下车辆保养服务。",
+      "timestamp": 1740965913.4346986
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在对话开始时即提供了结束信号代码，这可能是系统错误或服务方误操作。用户随后表达了预约车辆保养服务的需求，并也提供了结束信号代码，这表明用户可能因服务方的异常行为感到困惑或认为对话已经结束。用户的意图是预约车辆保养服务，但由于服务方的异常行为，用户可能认为无需继续对话或对话已经结束。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

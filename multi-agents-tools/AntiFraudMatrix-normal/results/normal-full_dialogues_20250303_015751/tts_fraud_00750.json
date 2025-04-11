@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询服务人员，有什么我可以帮您的吗？",
+      "timestamp": 1740947619.13777
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下最近是否有新的交通规则变化，特别是关于学校周边的。",
+      "timestamp": 1740947621.8479738
+    },
+    {
+      "role": "left",
+      "content": "近期确实有一些针对学校周边交通规则的更新，主要涉及到限速和停车规定。学校周围区域的限速已调整为每小时三十公里，以确保学生安全。停车方面，禁止在上学和放学高峰时段在学校门口两百米范围内停车。这些措施都是为了提高安全性。您还有其他需要了解的吗？",
+      "timestamp": 1740947628.0614197
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的详细解答。我会注意这些变化，确保学生们的出行安全。",
+      "timestamp": 1740947629.298284
+    },
+    {
+      "role": "left",
+      "content": "感谢您的关注，如果您有其他问题或需要进一步的信息，随时欢迎咨询。祝您旅途愉快，安全出行。",
+      "timestamp": 1740947635.1465178
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740947636.6883175
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已获得所需信息，并表达了感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的关注，如果您有其他问题或需要进一步的信息，随时欢迎咨询。祝您旅途愉快，安全出行。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

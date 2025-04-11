@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你好，我是李警官，你爸爸刚刚在杭州出了点事，现在被我们控制住了，你听到了吗？",
+      "timestamp": 1740740710.6803386
+    },
+    {
+      "role": "right",
+      "content": "喂，李警官，您说什么？我爸爸在杭州出事了？这怎么可能，他今天早上还好好的，您能不能详细说一下到底发生了什么事？",
+      "timestamp": 1740740713.1452053
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者提供的信息过于突然且不合理，产生了怀疑或不安，选择挂断电话以避免进一步的交流。用户的意图可能是为了保护自己不受潜在的诈骗行为影响，或者是因为需要时间来核实信息的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

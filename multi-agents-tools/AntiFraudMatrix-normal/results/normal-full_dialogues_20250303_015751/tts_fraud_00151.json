@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是打车服务平台的客服，有什么可以帮助您的吗？",
+      "timestamp": 1740981669.0538833
+    },
+    {
+      "role": "right",
+      "content": "你好，我刚用你们的平台打车，司机迟迟没来，想知道是什么情况。",
+      "timestamp": 1740981672.8991165
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话开始后立即提供了明确的结束信号代码（##ENDCALL_SIGNAL##），这可能是因为用户意识到问题可能需要通过其他方式解决，或者用户在尝试联系时改变了主意。用户的意图可能是尝试联系客服了解情况，但在发送消息前或同时决定不再等待回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

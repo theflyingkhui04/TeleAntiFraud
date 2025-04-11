@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自银河投资的张经理，我们最近推出了一款收益率非常高的投资项目，想了解一下您是否有兴趣参与？",
+      "timestamp": 1740739902.6869433
+    },
+    {
+      "role": "right",
+      "content": "啊，银河投资啊...不好意思，我记得银监会早就发过警示，说这个公司有问题。您这个电话号码也不是正规的客服号吧？我觉得不太对劲。",
+      "timestamp": 1740739923.4942904
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是因为他们识破了诈骗者冒充银河投资的企图。用户提到银监会的警示，并指出电话号码的不正规，表明用户对诈骗者身份的怀疑和不信任，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询服务中心，您可以告诉我需要查询的路线或交通信息吗？",
+      "timestamp": 1740968144.8539085
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从市中心到机场的最快路线，大概需要多长时间？",
+      "timestamp": 1740968146.879282
+    },
+    {
+      "role": "left",
+      "content": "从市中心到机场的最快路线是通过高速路，通常情况下，这段路程大约需要三十到四十分钟，具体时间可能会受交通状况影响。是否需要详细了解具体的路线信息？",
+      "timestamp": 1740968158.963477
+    },
+    {
+      "role": "right",
+      "content": "好的，那麻烦你告诉我具体的路线，我这边记一下。",
+      "timestamp": 1740968160.3699384
+    },
+    {
+      "role": "left",
+      "content": "从市中心出发，您可以先上环城高速，然后转机场高速直达机场。全程大约是三十公里，如果路况良好，预计三十分钟左右可以到达。请注意路况信息，确保安全驾驶。",
+      "timestamp": 1740968166.1899269
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的详细解答，我会注意安全的。如果再有其他问题，我可以随时联系你们吗？",
+      "timestamp": 1740968168.1417603
+    },
+    {
+      "role": "left",
+      "content": "路线信息已提供给您，如果还有其他问题或需要进一步的帮助，请随时联系。祝您旅途愉快。",
+      "timestamp": 1740968173.47865
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，旅途愉快。",
+      "timestamp": 1740968174.6927211
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示感谢并表示如果再有其他问题会再次联系，表明当前问题已解决，用户满意。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "路线信息已提供给您，如果还有其他问题或需要进一步的帮助，请随时联系。祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，旅途愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

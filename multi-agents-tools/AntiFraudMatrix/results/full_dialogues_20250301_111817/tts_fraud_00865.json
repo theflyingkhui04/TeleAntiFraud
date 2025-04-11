@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服代表，李华。我们检测到您的账户有异常活动，为了保护您的资金安全，我们需要尽快核实一些信息。请问您现在方便吗？",
+      "timestamp": 1740802111.7558951
+    },
+    {
+      "role": "right",
+      "content": "李华啊，你说我的账户有异常活动？我最近确实没怎么用这个账户，但也没听说过有什么问题。你能具体说说是什么异常吗？我还有点不放心。",
+      "timestamp": 1740802115.2844956
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其银行账户有异常活动后，表现出了一定的警惕性和疑虑。用户要求诈骗者提供更具体的异常活动信息，但诈骗者并未给出详细解释，反而迅速挂断了电话。这表明用户可能意识到了诈骗的可能性，或者至少对诈骗者的身份和意图产生了怀疑，因此选择挂断电话以确保自己的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

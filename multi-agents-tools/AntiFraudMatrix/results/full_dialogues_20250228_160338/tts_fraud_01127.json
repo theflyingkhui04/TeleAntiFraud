@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的邻居李阿姨的儿子，小明，不知道您还记得我吗？今天我给您打电话是有个非常紧急的事情要跟您说。",
+      "timestamp": 1740743801.518279
+    },
+    {
+      "role": "right",
+      "content": "哦，小明啊，记得记得，你妈妈前几天还来我家串门呢。什么紧急的事情啊？你说吧。",
+      "timestamp": 1740743803.0902517
+    },
+    {
+      "role": "left",
+      "content": "对不起，我这边信号不太好，听不清楚您的声音，我先挂了，回头再联系您。再见。",
+      "timestamp": 1740743824.684053
+    },
+    {
+      "role": "right",
+      "content": "好的，那我们一会儿再说，再见。",
+      "timestamp": 1740743858.45088
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始不久后即提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明其已经选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "对不起，我这边信号不太好，听不清楚您的声音，我先挂了，回头再联系您。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，那我们一会儿再说，再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

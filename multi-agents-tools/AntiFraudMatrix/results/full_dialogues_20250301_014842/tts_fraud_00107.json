@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是从医院打来的，您儿子出事了，现在需要您立即转账一笔费用，不然我们没法进行手术，您能马上转吗？",
+      "timestamp": 1740776817.6376612
+    },
+    {
+      "role": "right",
+      "content": "啊，天哪，我儿子怎么了？他现在怎么样？需要转多少钱？我马上去办。",
+      "timestamp": 1740776819.6819808
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们先这样，如果有什么问题我会再联系您。希望您儿子能早日康复，再见。",
+      "timestamp": 1740776825.3667607
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，我会尽快处理的。希望我儿子能平安。",
+      "timestamp": 1740776827.6930487
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户在得知儿子出事的情况下，表现出极度的担忧，并且已经同意立即转账。根据终止条件1，诈骗明显成功，用户已同意转账，因此应由用户结束对话以避免实际损失。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们先这样，如果有什么问题我会再联系您。希望您儿子能早日康复，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，我会尽快处理的。希望我儿子能平安。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

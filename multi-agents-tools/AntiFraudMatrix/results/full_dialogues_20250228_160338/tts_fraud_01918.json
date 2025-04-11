@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您赢得了我们彩票公司的特别大奖，奖品是十万元现金和一台豪华轿车！不过为了确认您的身份和防止诈骗，我们需要您提供一些个人信息。",
+      "timestamp": 1740733841.9069998
+    },
+    {
+      "role": "right",
+      "content": "哎呀，现在这种骗局太多了。我可不会随便提供个人信息给陌生人的。你们怎么证明自己不是骗子呢？而且我从来没买过什么彩票，怎么会中奖呢？这听起来太可疑了。",
+      "timestamp": 1740733861.4182549
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户因为怀疑对方是诈骗者而主动挂断了电话。用户提到当前骗局众多，不愿意轻易提供个人信息，并且指出自己从未购买过彩票，因此认为中奖信息不可信。用户的意图是避免可能的诈骗风险，保护自己的个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

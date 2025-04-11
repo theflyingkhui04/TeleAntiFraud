@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我您想订什么餐吗？",
+      "timestamp": 1740966671.4779148
+    },
+    {
+      "role": "right",
+      "content": "好的，我想订个牛肉炒饭和一份蔬菜沙拉。",
+      "timestamp": 1740966672.8029425
+    },
+    {
+      "role": "left",
+      "content": "好的，您订购的是牛肉炒饭和一份蔬菜沙拉，还需要其他菜品吗？",
+      "timestamp": 1740966684.9567652
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这两样。麻烦问一下，大概多久能送到？",
+      "timestamp": 1740966686.3591201
+    },
+    {
+      "role": "left",
+      "content": "您的订单大约会在30到45分钟内送达，具体时间可能会根据当前的配送情况有所变动。您可以留个联系方式，方便我们通知您配送情况。",
+      "timestamp": 1740966692.3279023
+    },
+    {
+      "role": "right",
+      "content": "好的，我的手机号是13812345678。谢谢。",
+      "timestamp": 1740966693.8140352
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计30到45分钟内送达。如果有任何变动，我们会及时联系您。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740966700.3899803
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740966701.4112735
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了所需的所有信息（餐品选择、配送时间、联系方式），并且表达了感谢，表明对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计30到45分钟内送达。如果有任何变动，我们会及时联系您。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

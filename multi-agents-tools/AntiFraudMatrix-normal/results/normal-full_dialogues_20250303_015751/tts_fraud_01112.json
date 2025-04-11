@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是预约服务助理，可以帮您安排预约时间。",
+      "timestamp": 1740971814.6889853
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦您帮我安排一个最近的预约时间。我是医生，时间比较紧张，希望尽量安排在本周内。",
+      "timestamp": 1740971816.9305978
+    },
+    {
+      "role": "left",
+      "content": "了解您的需求，本周内确实有几个时间段可供选择。请问您是否有偏好，比如上午或下午？或者具体哪一天比较方便？",
+      "timestamp": 1740971823.621324
+    },
+    {
+      "role": "right",
+      "content": "本周三或周四下午比较方便，麻烦您看哪个时间段有空。",
+      "timestamp": 1740971825.2253013
+    },
+    {
+      "role": "left",
+      "content": "好的，查看了一下，本周三下午三点到四点和周四下午两点到三点都有空档。您看哪个时间更合适？",
+      "timestamp": 1740971831.2136126
+    },
+    {
+      "role": "right",
+      "content": "周三下午三点到四点比较合适，就安排这个时间吧。谢谢。",
+      "timestamp": 1740971832.995549
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们就安排在本周三下午三点到四点。这是您本次预约的确认编号：123456。稍后您也会收到确认短信。感谢您的预约，祝您工作顺利。再见。",
+      "timestamp": 1740971842.060322
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的安排。再见。",
+      "timestamp": 1740971843.4638052
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了预约时间，并表示感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们就安排在本周三下午三点到四点。这是您本次预约的确认编号：123456。稍后您也会收到确认短信。感谢您的预约，祝您工作顺利。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的安排。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

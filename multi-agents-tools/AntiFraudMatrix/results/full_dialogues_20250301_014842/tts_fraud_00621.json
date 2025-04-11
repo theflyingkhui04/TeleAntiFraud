@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张先生吗？我是您儿子学校的老师，刚刚接到医院的电话，说您儿子出事了，现在在医院等钱急救，您赶紧过来医院，顺便带点钱。",
+      "timestamp": 1740765978.0631113
+    },
+    {
+      "role": "right",
+      "content": "什么？我儿子出事了？天啊，这太突然了，我马上赶过去。你们医院的账号是多少？我立刻转账。",
+      "timestamp": 1740765979.8175037
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在得知儿子出事的消息后，表现出极度的焦虑和担忧，立即表示要赶往医院，并询问医院的转账账号。用户可能是因为急切想要前往医院，没有时间继续电话交流，因此选择了挂断电话。用户的意图是尽快到达医院，确保儿子的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，张女士吗？我是您儿子的辅导员李老师，现在情况非常紧急，您儿子在学校里忽然晕倒了，已经被救护车送往医院，您需要立即过来。",
+      "timestamp": 1740783969.1249027
+    },
+    {
+      "role": "right",
+      "content": "李老师，谢谢您通知我，我马上赶去医院。请问是哪家医院？我需要联系他的父亲，您有他的联系方式吗？",
+      "timestamp": 1740783972.0170407
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一个诈骗电话，因为诈骗者没有提供具体医院的信息，而且当用户试图获取更多信息时，诈骗者立即挂断了电话。这表明诈骗者可能无法继续提供令人信服的细节，从而选择终止对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

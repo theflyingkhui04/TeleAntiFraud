@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行的客服中心，我是小张。我们最近发现您的账户有异常活动，为了避免资金损失，请您立即提供账户信息以便我们进行核实。",
+      "timestamp": 1740683439.2023957
+    },
+    {
+      "role": "right",
+      "content": "您好，小张。谢谢您提醒我。不过，我最近没有发现账户有什么异常，你们是怎么知道的？还有，为什么需要我提供账户信息呢？我平时都是通过网上银行查看账户情况的。",
+      "timestamp": 1740683441.506533
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者的要求感到怀疑，特别是对于直接提供账户信息的请求。用户通过询问更多细节来验证对方的身份，但可能在没有得到满意的回答之前选择了挂断电话，以避免潜在的风险。这表明用户具有一定的安全意识，不愿意轻易透露个人信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

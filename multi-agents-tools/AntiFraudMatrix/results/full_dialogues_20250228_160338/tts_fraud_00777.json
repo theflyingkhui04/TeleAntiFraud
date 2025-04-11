@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是客服代表小张。我们检测到您的账户有异常登录记录，为了确保您的资金安全，需要您配合我们进行账户验证。请问您现在方便吗？",
+      "timestamp": 1740734340.3952692
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我最近确实不太关注账户情况，不过现在我正在医院值班，可能不太方便。不过你说的这个问题听起来挺严重的，我需要怎么做呢？",
+      "timestamp": 1740734356.0449
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中提到自己正在医院值班，可能不太方便进行账户验证，这表明用户可能因为当前的环境或工作状态不适合进行此类对话而选择挂断电话。用户的意图可能是为了避免在不适合的时间处理账户安全问题，或者是因为对诈骗者的身份有所怀疑，选择暂时中断对话以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的？",
+      "timestamp": 1740943967.9928107
+    },
+    {
+      "role": "right",
+      "content": "您好，我想订一份今天的午餐。你们有什么推荐的吗？",
+      "timestamp": 1740943969.487012
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在对话开始时就提供了结束信号代码 '##ENDCALL_SIGNAL##'，这导致对话在用户提问后立即被标记为结束。用户的意图是询问午餐推荐，但由于服务方的提前结束信号，对话未能继续进行。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

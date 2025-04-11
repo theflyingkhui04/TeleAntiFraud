@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自工商银行的客服人员，工号零零五四，我们系统检测到您的账户存在异常交易，为了保障您的资金安全，需要您配合我们进行身份验证。请您提供一下您的姓名和身份证号，好吗？",
+      "timestamp": 1740752732.5598817
+    },
+    {
+      "role": "right",
+      "content": "哦，好的好的。我叫王建国，身份证号是31012319570815XXXX。请问需要我怎么配合你们呢？",
+      "timestamp": 1740752737.2594333
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，王建国先生。我们已经记录了您的信息，接下来会进一步核实并确保您的账户安全。如果需要进一步的操作，我们会及时联系您。请您随时关注账户动态。谢谢您的理解和支持。再见。",
+      "timestamp": 1740752748.040853
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的关心，我会注意的。再见。",
+      "timestamp": 1740752749.233557
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供了姓名和身份证号，诈骗明显成功，应立即终止对话以防止进一步的信息泄露。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，王建国先生。我们已经记录了您的信息，接下来会进一步核实并确保您的账户安全。如果需要进一步的操作，我们会及时联系您。请您随时关注账户动态。谢谢您的理解和支持。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的关心，我会注意的。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

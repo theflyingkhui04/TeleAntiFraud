@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品需要我帮您找吗？",
+      "timestamp": 1740980423.2722707
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我自己看看。你们这里有没有质量好一点的办公用品？",
+      "timestamp": 1740980424.492596
+    },
+    {
+      "role": "left",
+      "content": "当然有，我们这里有很多高品质的办公用品，比如笔、笔记本、文件夹等。您具体需要哪一类？我可以给您推荐一些热门产品。",
+      "timestamp": 1740980429.393954
+    },
+    {
+      "role": "right",
+      "content": "好的，我主要是想找一些耐用的文件夹和笔记本，质量要好，款式不要太花哨。",
+      "timestamp": 1740980430.774954
+    },
+    {
+      "role": "left",
+      "content": "明白了，我们有一系列商务简约风格的文件夹和笔记本，非常耐用来着。文件夹的材质是加厚的牛皮纸，笔记本的封面是仿皮材质，内页是优质书写纸。您可以在办公用品区找到这些产品，就在右手边第二排货架上。需要我带您过去吗？",
+      "timestamp": 1740980436.786892
+    },
+    {
+      "role": "right",
+      "content": "不用了，谢谢。我自己过去看看。如果有问题我会再找你。",
+      "timestamp": 1740980438.3782992
+    },
+    {
+      "role": "left",
+      "content": "好的，希望您能找到满意的商品。如果需要任何帮助，随时欢迎询问。祝您购物愉快！",
+      "timestamp": 1740980443.7981725
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会慢慢挑选的。",
+      "timestamp": 1740980445.726641
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示会自己去查看商品，并且提到如果有问题会再找服务方，这表明用户目前没有进一步的帮助需求，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，希望您能找到满意的商品。如果需要任何帮助，随时欢迎询问。祝您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会慢慢挑选的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

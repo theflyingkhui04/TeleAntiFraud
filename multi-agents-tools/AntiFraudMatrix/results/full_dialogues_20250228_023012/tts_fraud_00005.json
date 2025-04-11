@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的高级顾问，我们最近发现了一个绝佳的投资机会，保证年收益率高达30%，您有兴趣了解一下吗？",
+      "timestamp": 1740689207.5956125
+    },
+    {
+      "role": "right",
+      "content": "啊，年收益率30%！真的有这么高的回报吗？听起来好诱人啊...不过我最近刚好有点闲钱，可以考虑投资一下。你能详细说说这个投资项目吗？",
+      "timestamp": 1740689212.316915
+    },
+    {
+      "role": "left",
+      "content": "看来您对投资还不是很了解，没关系，如果您改变主意了随时可以联系我。祝您生活愉快！",
+      "timestamp": 1740689220.5295265
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊...那好吧。不过我觉得这个机会挺不错的，要是以后有机会再联系你吧。谢谢你的介绍！",
+      "timestamp": 1740689260.0128021
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表明对话应在此处结束。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "看来您对投资还不是很了解，没关系，如果您改变主意了随时可以联系我。祝您生活愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊...那好吧。不过我觉得这个机会挺不错的，要是以后有机会再联系你吧。谢谢你的介绍！"
+    }
+  ],
+  "reached_max_turns": false
+}

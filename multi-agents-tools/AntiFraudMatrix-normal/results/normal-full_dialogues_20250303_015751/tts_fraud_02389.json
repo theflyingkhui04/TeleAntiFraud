@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询专线，为您服务，请问有什么可以帮助您的？",
+      "timestamp": 1740952181.743604
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下最近市区的交通改造计划，特别是新建的那条高架桥的进展情况。",
+      "timestamp": 1740952186.2515159
+    },
+    {
+      "role": "left",
+      "content": "好的，目前市区的交通改造计划正在稳步推进中，新建的高架桥已经完成了大约百分之七十的工程，预计会在明年四月底前完工并通车。",
+      "timestamp": 1740952191.8065186
+    },
+    {
+      "role": "right",
+      "content": "谢谢你的详细回答。我还想了解一下，施工期间有没有什么需要注意的交通管制措施？",
+      "timestamp": 1740952192.9894335
+    },
+    {
+      "role": "left",
+      "content": "施工期间确实有一些交通管制措施。建议您尽量避开高峰时段，如果必须经过施工区域，可以提前规划路线，选择绕行以减少拥堵。同时，请注意遵守临时交通标志和指示，确保行车安全。",
+      "timestamp": 1740952197.9346635
+    },
+    {
+      "role": "right",
+      "content": "好的，我会注意的。谢谢你的提醒和帮助。",
+      "timestamp": 1740952201.622197
+    },
+    {
+      "role": "left",
+      "content": "如果您还有其他问题或需要进一步的帮助，随时欢迎咨询。希望您的出行顺利，祝您有一个愉快的旅程。",
+      "timestamp": 1740952207.9220169
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740952211.1930358
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并明确表示了感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您还有其他问题或需要进一步的帮助，随时欢迎咨询。希望您的出行顺利，祝您有一个愉快的旅程。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

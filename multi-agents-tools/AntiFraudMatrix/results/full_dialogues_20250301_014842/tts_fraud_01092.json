@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，恭喜你中了我们这次的特等奖，奖品是一百万现金和一辆豪华轿车。请提供你的姓名和联系方式，以便我们安排领奖事宜。",
+      "timestamp": 1740774867.6174507
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太不可思议了，我怎么这么幸运！那我得赶紧提供我的信息。我叫张建国，电话是一三六一二三四五六。你们什么时候能联系我呢？",
+      "timestamp": 1740774869.4536648
+    },
+    {
+      "role": "left",
+      "content": "好的，我们稍后会与你联系确认具体事宜。祝你今天愉快。再见。",
+      "timestamp": 1740774873.4378269
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们！那我今天就等你们的电话了。再见。",
+      "timestamp": 1740774877.2184672
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供姓名和电话号码，敏感信息泄露，诈骗明显成功。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们稍后会与你联系确认具体事宜。祝你今天愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们！那我今天就等你们的电话了。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

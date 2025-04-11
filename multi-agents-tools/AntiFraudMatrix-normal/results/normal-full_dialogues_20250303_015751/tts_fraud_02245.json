@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，请问您现在需要叫车吗？",
+      "timestamp": 1740949953.6691537
+    },
+    {
+      "role": "right",
+      "content": "谢谢，暂时不需要。我在家里呢，有什么急事再考虑叫车。",
+      "timestamp": 1740949954.9288082
+    },
+    {
+      "role": "left",
+      "content": "感谢您的使用，如果您还需要其他帮助，请随时联系我们。祝您旅途愉快，再见。",
+      "timestamp": 1740949960.4781857
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。",
+      "timestamp": 1740949962.1243944
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经明确表示当前没有叫车需求，并且对话中没有进一步的服务请求或信息交换，因此可以由用户结束对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的使用，如果您还需要其他帮助，请随时联系我们。祝您旅途愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

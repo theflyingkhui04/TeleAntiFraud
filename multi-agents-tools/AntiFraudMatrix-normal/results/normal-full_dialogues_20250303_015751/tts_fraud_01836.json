@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的打车服务助手，有什么可以帮助您的吗？",
+      "timestamp": 1740957859.9133534
+    },
+    {
+      "role": "right",
+      "content": "你好，我需要从家出发去市中心的会议中心，大概需要多久时间？",
+      "timestamp": 1740957861.2165773
+    },
+    {
+      "role": "left",
+      "content": "从您家到市中心会议中心大约需要二十分钟，具体时间可能因路况而异。请问您现在就要叫车吗？",
+      "timestamp": 1740957868.715954
+    },
+    {
+      "role": "right",
+      "content": "好的，我现在就叫车。麻烦你帮我确认一下车型和车牌号。",
+      "timestamp": 1740957870.5773494
+    },
+    {
+      "role": "left",
+      "content": "好的，我马上为您安排。请问您家的具体位置是？以便我更准确地为您叫车。",
+      "timestamp": 1740957875.3197412
+    },
+    {
+      "role": "right",
+      "content": "我家地址是××路××号，你确认一下吧。",
+      "timestamp": 1740957877.0072446
+    },
+    {
+      "role": "left",
+      "content": "好的，已经帮您确认了地址。现在为您叫车，大约三分钟后会有司机与您联系。车型是蓝色的雪佛兰，车牌号是沪A12345。请您留意司机的电话，注意安全。",
+      "timestamp": 1740957899.8596756
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在提供了用户所需的所有信息（包括车型、车牌号和司机联系时间）后，主动结束了对话。服务方的意图是确保用户已经获得了所有必要的信息，且服务请求已经完成，因此认为对话可以结束了。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

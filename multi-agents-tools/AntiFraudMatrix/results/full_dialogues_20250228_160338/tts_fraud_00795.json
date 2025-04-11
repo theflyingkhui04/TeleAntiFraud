@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的邻居李阿姨，您的儿子小明现在在我这里，他刚刚出了一点小意外，需要马上到医院去，您得赶紧汇一笔钱过来，不然医院不肯治疗。",
+      "timestamp": 1740740641.5335064
+    },
+    {
+      "role": "right",
+      "content": "李阿姨，您先别急，小明真的出了意外吗？他现在怎么样了？您能不能给我具体说说是什么情况？我得先了解一下，才能知道怎么处理。",
+      "timestamp": 1740740666.4576266
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者的故事产生了怀疑，要求提供更多具体信息以验证情况的真实性。然而，诈骗者并未提供进一步的详细信息，而是直接挂断了电话。这表明诈骗者可能意识到用户已经开始怀疑，为了避免进一步的质疑而选择结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

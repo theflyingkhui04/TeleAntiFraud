@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自顺丰快递的客服，这里有一个包裹需要您签收，但根据我们的记录，您的地址信息似乎不完整，这可能是导致之前几次尝试送件不成功的原因。为了尽快处理这个问题，您能提供一下您的详细地址吗？",
+      "timestamp": 1740730979.560599
+    },
+    {
+      "role": "right",
+      "content": "您好，快递小哥。我最近确实有在等一个包裹，但是你们为什么不直接打电话给我呢？你们怎么知道我的电话号码的？我得确认一下这是真的。",
+      "timestamp": 1740730986.0755837
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑来电的真实性和安全性而选择挂断电话。用户提到快递公司应该直接联系她，而不是通过这种方式获取她的详细地址，这表明她对来电者的身份持怀疑态度，担心个人信息泄露的风险。用户的意图是保护自己的隐私和安全，避免可能的诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

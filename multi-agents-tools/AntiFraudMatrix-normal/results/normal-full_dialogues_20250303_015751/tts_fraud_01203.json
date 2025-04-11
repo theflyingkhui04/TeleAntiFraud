@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，已为您安排好车辆，师傅大约10分钟后到达，请问您需要在原地等待还是有其他安排？",
+      "timestamp": 1740949435.012448
+    },
+    {
+      "role": "right",
+      "content": "好的，我会在原地等。谢谢！",
+      "timestamp": 1740949438.9426498
+    },
+    {
+      "role": "left",
+      "content": "车辆已顺利接到您，希望您旅途愉快，感谢使用我们的打车服务。",
+      "timestamp": 1740949445.1352398
+    },
+    {
+      "role": "right",
+      "content": "谢谢，旅途愉快！",
+      "timestamp": 1740949446.6219783
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示会等待车辆，并表达了感谢，表明其对服务满意且无需进一步的帮助。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "车辆已顺利接到您，希望您旅途愉快，感谢使用我们的打车服务。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，旅途愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

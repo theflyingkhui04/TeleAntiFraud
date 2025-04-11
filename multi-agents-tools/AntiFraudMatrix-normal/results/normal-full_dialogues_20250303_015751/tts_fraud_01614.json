@@ -1,0 +1,90 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品是您感兴趣的吗？",
+      "timestamp": 1740951187.6598415
+    },
+    {
+      "role": "right",
+      "content": "您好，我看看有什么适合的电子产品。",
+      "timestamp": 1740951188.6201422
+    },
+    {
+      "role": "left",
+      "content": "我们这里有最新的智能手机、平板电脑和智能穿戴设备，您具体想了解哪一类产品呢？",
+      "timestamp": 1740951191.692264
+    },
+    {
+      "role": "right",
+      "content": "我想看看最新的智能手机，有什么推荐的吗？",
+      "timestamp": 1740951192.359806
+    },
+    {
+      "role": "left",
+      "content": "我们目前有几款热门的智能手机，比如最新款的iPhone 15 Pro Max，还有性价比很高的小米13 Ultra和华为Mate 60 Pro。您对哪个品牌感兴趣？",
+      "timestamp": 1740951199.8136938
+    },
+    {
+      "role": "right",
+      "content": "我对iPhone 15 Pro Max比较感兴趣，能给我介绍一下吗？",
+      "timestamp": 1740951201.0774605
+    },
+    {
+      "role": "left",
+      "content": "当然可以。iPhone 15 Pro Max 采用了最新的A17 Pro芯片，性能非常强大。它配备了6.7英寸的Super Retina XDR显示屏，支持ProMotion自适应刷新率技术。摄像头方面，配备了4800万像素的主摄和1200万像素的超广角和长焦镜头，拍照效果非常出色。此外，它还支持5G网络，运行iOS 17系统，电池续航也有了显著提升。您想了解更多细节吗？",
+      "timestamp": 1740951208.0273178
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，电池续航具体怎么样？还有价格是多少？",
+      "timestamp": 1740951208.8967655
+    },
+    {
+      "role": "left",
+      "content": "iPhone 15 Pro Max 的电池容量为4900mAh，官方宣称可以支持最长23小时的视频播放。实际使用中，日常使用一整天应该没有问题。价格方面，128GB版本的价格是9999元，256GB版本是10999元，512GB版本是12399元，1TB版本是13999元。您对哪个版本感兴趣？",
+      "timestamp": 1740951221.409218
+    },
+    {
+      "role": "right",
+      "content": "128GB的应该够用了。这款手机有什么促销活动吗？",
+      "timestamp": 1740951222.5112484
+    },
+    {
+      "role": "left",
+      "content": "目前我们店有购买iPhone 15 Pro Max 的促销活动，如果您购买128GB版本，可以享受1000元的优惠，实际到手价是8999元。此外，我们还提供24期免息分期付款，每月只需375元。您感兴趣吗？",
+      "timestamp": 1740951234.3663034
+    },
+    {
+      "role": "right",
+      "content": "挺划算的，我再考虑一下。谢谢您的详细介绍。",
+      "timestamp": 1740951235.6264868
+    },
+    {
+      "role": "left",
+      "content": "如果您决定购买，可以在这里直接下单，或者您也可以到店体验后再做决定。如果有其他问题，随时欢迎咨询。感谢您的关注，祝您购物愉快！",
+      "timestamp": 1740951243.305265
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。我会再考虑一下。祝您工作顺利！",
+      "timestamp": 1740951247.8564153
+    }
+  ],
+  "turns": 5,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示感谢并表示会再考虑，表明用户已经获得了所需信息，对话目标已达成。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您决定购买，可以在这里直接下单，或者您也可以到店体验后再做决定。如果有其他问题，随时欢迎咨询。感谢您的关注，祝您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。我会再考虑一下。祝您工作顺利！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

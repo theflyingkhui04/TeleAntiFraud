@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，这里是国际快递客服中心。我们发现您的包裹被海关扣留，需要您提供身份信息和支付一笔小额关税才能顺利清关。请问您现在方便处理吗？",
+      "timestamp": 1740681817.1112876
+    },
+    {
+      "role": "right",
+      "content": "喂？啊，您好。我的包裹被扣留了？这听起来挺麻烦的。我需要怎么做呢？",
+      "timestamp": 1740681854.1692948
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑这是一起诈骗电话，或者因为对处理过程感到不确定和困惑，选择了挂断电话以避免进一步的风险。用户的意图可能是为了保护自己的个人信息和财务安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

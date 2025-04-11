@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您中得了本期彩票的一等奖，奖金高达五百万元！请问您现在方便接听电话吗？",
+      "timestamp": 1740781572.3292224
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？太意外了！我确实买过彩票，但从来没想到会中这么大的奖。我现在的状态还可以，不过我刚从公司出来，正在回家的路上。您能稍微等我一会儿，等我到家了再继续聊吗？",
+      "timestamp": 1740781575.9152064
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑电话的真实性或认为此时不方便继续对话而选择挂断。用户表示正在回家的路上，可能希望在一个更安全、更私人的环境中继续讨论此事，以确保信息的准确性和安全性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

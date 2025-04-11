@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是您的银行客服，我们检测到您的账户有异常活动，需要您配合我们进行身份验证，以确保您的资金安全。请您提供一下姓名和身份证号，好吗？",
+      "timestamp": 1740799914.552942
+    },
+    {
+      "role": "right",
+      "content": "哦，是银行客服啊。我叫张老四，身份证号是四十三零一零一九五四年六月二十一日出生的。你们要查就查吧，我最近确实没怎么用这个账户。",
+      "timestamp": 1740799916.6350284
+    },
+    {
+      "role": "left",
+      "content": "好的，我们会尽快处理这个问题，感谢您的配合。如果有任何进一步的问题，我们会联系您。祝您生活愉快。",
+      "timestamp": 1740799921.0993786
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。希望快点查清楚。",
+      "timestamp": 1740799923.8215797
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和身份证号，敏感信息泄露，诈骗明显成功。为了防止进一步的信息泄露，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们会尽快处理这个问题，感谢您的配合。如果有任何进一步的问题，我们会联系您。祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。希望快点查清楚。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

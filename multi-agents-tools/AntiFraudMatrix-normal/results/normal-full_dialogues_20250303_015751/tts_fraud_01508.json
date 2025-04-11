@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服专员为您服务，请问有什么问题需要我帮您解决？",
+      "timestamp": 1740981799.684119
+    },
+    {
+      "role": "right",
+      "content": "你好，我最近在你们网站上订餐，发现有些菜品的价格不太对，想了解一下。",
+      "timestamp": 1740981800.912464
+    },
+    {
+      "role": "left",
+      "content": "非常抱歉给您带来不便，可以麻烦您告诉我具体是哪些菜品吗？这样我可以帮您核实一下。",
+      "timestamp": 1740981805.9758513
+    },
+    {
+      "role": "right",
+      "content": "好的，是川香麻辣烫和鱼香肉丝，我看到的价格和之前不一样。",
+      "timestamp": 1740981807.8683999
+    },
+    {
+      "role": "left",
+      "content": "感谢您的反馈，我会立即帮您查证。请您稍等片刻，我这边正在查询这两道菜品的最新价格信息。",
+      "timestamp": 1740981812.643529
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮忙。我等一下。",
+      "timestamp": 1740981813.5360796
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的耐心等待，经过核实，川香麻辣烫和鱼香肉丝的价格确实进行了调整，这是由于近期食材成本的变化所致。如果这对您造成了困扰，我们深表歉意。您还有其他问题需要咨询吗？",
+      "timestamp": 1740981819.9845731
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的解释。那我就知道了。如果有其他问题，我会再联系你们的。",
+      "timestamp": 1740981821.7290702
+    },
+    {
+      "role": "left",
+      "content": "感谢您的理解和支持，如果您还有其他疑问或需要进一步的帮助，随时欢迎联系我们。希望您继续关注我们的服务，祝您生活愉快。",
+      "timestamp": 1740981828.0894306
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。生活愉快。",
+      "timestamp": 1740981829.1111693
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并明确表示感谢且没有其他问题需要咨询。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的理解和支持，如果您还有其他疑问或需要进一步的帮助，随时欢迎联系我们。希望您继续关注我们的服务，祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。生活愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

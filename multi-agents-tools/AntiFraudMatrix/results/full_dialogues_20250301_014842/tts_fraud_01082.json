@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，恭喜您，您刚刚中得了一百万元的大奖！这是我们的幸运抽奖活动，您的手机号被随机选中了。请提供您的姓名和身份证号，以便我们核实信息并安排奖金发放。",
+      "timestamp": 1740768539.906462
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太好了！我叫张建国，身份证号是三十一零一零一九八零一零一零二一五。这样可以吗？",
+      "timestamp": 1740768541.649043
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您暂时不方便提供，那我们稍后再联系您确认信息。祝您生活愉快，再见。",
+      "timestamp": 1740768545.7833173
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。希望尽快收到奖金，再见。",
+      "timestamp": 1740768547.594795
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（姓名和身份证号），诈骗明显成功。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您暂时不方便提供，那我们稍后再联系您确认信息。祝您生活愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。希望尽快收到奖金，再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张伟吗？我是你儿子的朋友李涛，你儿子刚刚出了点事，被几个混混给带走了，现在他们要一笔钱才肯放人。你得赶紧准备五万块钱，汇到这个账号上，不然我怕他们会对小张不利。你快点，时间不多了。",
+      "timestamp": 1740775556.9944851
+    },
+    {
+      "role": "right",
+      "content": "李涛？你等一下，你说我儿子被混混带走了？这到底是怎么回事？你能不能告诉我具体一点？我得确认一下这是真的。",
+      "timestamp": 1740775559.7898712
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的情况后，表现出明显的怀疑态度，并要求提供更多的详细信息以确认情况的真实性。用户挂断电话可能是出于对信息真实性的怀疑，以及对诈骗行为的警惕。用户的意图是中断对话，避免进一步的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

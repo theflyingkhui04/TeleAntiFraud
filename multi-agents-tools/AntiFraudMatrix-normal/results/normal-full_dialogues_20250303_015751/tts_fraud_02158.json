@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪项服务？",
+      "timestamp": 1740944704.8396487
+    },
+    {
+      "role": "right",
+      "content": "您好，谢谢你们的服务。我主要是想了解一下你们的家政服务，具体有什么内容？",
+      "timestamp": 1740944706.0316668
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话开始后立即提供了结束信号（##ENDCALL_SIGNAL##），这表明用户可能在发送消息时遇到了误操作，或者在发送消息后迅速改变了主意，不再需要进一步的信息。用户的意图可能是想了解家政服务的具体内容，但由于某种原因（如误操作、突然不再需要信息、外部干扰等）选择迅速结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

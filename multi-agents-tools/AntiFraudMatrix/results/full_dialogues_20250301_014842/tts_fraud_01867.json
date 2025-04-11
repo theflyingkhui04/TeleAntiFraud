@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，我们发现您的账户有异常活动，为了保障您的资金安全，请提供您的账户信息以便我们进行核实。",
+      "timestamp": 1740792779.3810096
+    },
+    {
+      "role": "right",
+      "content": "您好，我是张老板。你们说是某某银行的客服中心，能告诉我你们的工号和姓名吗？我需要确认一下。另外，我的账户如果有异常活动，你们应该直接通过官方渠道联系我，而不是打陌生电话。我得确认一下这是真的。",
+      "timestamp": 1740792784.2043138
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户张老板挂断电话的原因可能是出于对电话真实性的怀疑。他要求提供工号和姓名，并指出银行应通过官方渠道联系客户，这表明他对来电的合法性持怀疑态度，且不愿意在未验证身份的情况下提供个人信息。用户的意图是保护自己的信息安全，避免可能的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

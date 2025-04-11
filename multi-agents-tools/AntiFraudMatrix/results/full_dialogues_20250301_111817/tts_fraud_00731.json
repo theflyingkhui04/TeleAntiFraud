@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是警方的特工，这里有一个非常紧急的情况需要您的协助。您的儿子目前处于极大的危险之中，我们刚刚接到线报，他被人绑架了。您必须立即按照我的指示行事，否则后果不堪设想。您明白了吗？",
+      "timestamp": 1740807108.84179
+    },
+    {
+      "role": "right",
+      "content": "什么？我儿子被绑架了？这怎么可能？你们有什么证据？我需要知道具体的情况。",
+      "timestamp": 1740807111.305259
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被绑架后，表现出极度的不安和怀疑。用户要求提供具体的证据和情况，但诈骗者未能立即提供，导致用户可能认为这是诈骗行为，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

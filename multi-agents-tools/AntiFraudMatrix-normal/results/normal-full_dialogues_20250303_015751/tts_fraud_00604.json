@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740951784.6161973
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖，有什么推荐的吗？",
+      "timestamp": 1740951788.3818183
+    },
+    {
+      "role": "left",
+      "content": "我们有几款热销菜品，比如宫保鸡丁、鱼香肉丝和麻辣香锅，都是非常受欢迎的选择。您有特别的口味偏好吗？",
+      "timestamp": 1740951793.1755643
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来一份宫保鸡丁吧。还要加个米饭。",
+      "timestamp": 1740951794.4636195
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁加米饭已经加入您的订单。还需要其他配菜或饮料吗？",
+      "timestamp": 1740951800.4206557
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这些吧。什么时候能送到？",
+      "timestamp": 1740951801.4027274
+    },
+    {
+      "role": "left",
+      "content": "您的订单预计在三十分钟内送达。如果您有具体的送达时间要求，请告诉我。",
+      "timestamp": 1740951808.0962696
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情，并告知了预计送达时间后，主动提供了结束信号。这表明服务方认为订单处理已经完成，用户的需求得到了满足，因此选择结束对话以避免不必要的等待时间，同时保持良好的服务体验。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

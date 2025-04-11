@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询，很高兴为您服务，请问有什么我可以帮助您的？",
+      "timestamp": 1740954500.6368
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从市中心到机场的最快路线。",
+      "timestamp": 1740954501.53209
+    },
+    {
+      "role": "left",
+      "content": "从市中心到机场，最快的方式是乘坐机场快线，大约需要三十分钟。如果您选择驾车，可以通过高速公路，预计需要四十分钟左右，具体时间取决于路况。",
+      "timestamp": 1740954505.6243765
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。那机场快线的票价是多少？",
+      "timestamp": 1740954509.3795767
+    },
+    {
+      "role": "left",
+      "content": "机场快线的票价是五十五元，可以使用现金、交通卡或者移动支付方式购票。",
+      "timestamp": 1740954513.0506892
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的帮助。",
+      "timestamp": 1740954514.4091966
+    },
+    {
+      "role": "left",
+      "content": "已经为您提供了从市中心到机场的最快路线和票价信息，如果您还有其他问题，随时欢迎咨询。祝您旅途愉快！",
+      "timestamp": 1740954520.462251
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。旅途愉快！",
+      "timestamp": 1740954521.5451393
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表达了感谢，对话目标已达成。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "已经为您提供了从市中心到机场的最快路线和票价信息，如果您还有其他问题，随时欢迎咨询。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。旅途愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

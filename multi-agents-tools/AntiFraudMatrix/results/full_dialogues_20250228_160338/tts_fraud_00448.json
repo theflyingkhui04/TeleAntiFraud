@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我手上，想要他平安无事，就赶紧准备二十万赎金，不许报警！",
+      "timestamp": 1740741018.2066987
+    },
+    {
+      "role": "right",
+      "content": "你这是在说什么？我儿子好好的，你怎么会有这种荒唐的想法？你是不是在骗我？我可不会轻易相信这种话。如果你真的有什么意图，最好立刻放了他，不然我会报警的！",
+      "timestamp": 1740741044.7096028
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户显然识破了诈骗者的企图，并且对诈骗者的要求表示了强烈的怀疑和不满。用户明确表示不会轻易相信诈骗者的话，并威胁要报警。用户挂断电话的意图是终止与诈骗者的进一步交流，避免自己或他人受到伤害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

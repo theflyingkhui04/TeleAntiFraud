@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的亲戚小李的朋友，刚才小李出事了，被几个坏人绑架了，他们让我联系您，说您必须马上转账5万元到这个账户，不然他们会对小李不利！您快点，不然就来不及了！",
+      "timestamp": 1740684265.7095475
+    },
+    {
+      "role": "right",
+      "content": "天啊，这怎么可能？小李怎么会出这种事？我得赶紧想办法，你确定这是真的吗？你有没有报警？",
+      "timestamp": 1740684302.6998944
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对诈骗信息的怀疑和不确定，并询问诈骗者是否报警，这表明用户可能已经开始怀疑诈骗的真实性。用户在诈骗者提供进一步信息之前主动挂断电话，可能是为了中断对话，避免被骗，并寻求其他途径验证信息的真实性或寻求帮助。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

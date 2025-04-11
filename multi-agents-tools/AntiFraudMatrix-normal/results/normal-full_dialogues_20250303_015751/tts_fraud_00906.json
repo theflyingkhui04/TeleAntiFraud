@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约什么项目呢？",
+      "timestamp": 1740946934.5841923
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约一个全面体检。",
+      "timestamp": 1740946935.591685
+    },
+    {
+      "role": "left",
+      "content": "好的，全面体检是一个很好的选择。请问您希望预约哪一天进行体检呢？",
+      "timestamp": 1740946939.306459
+    },
+    {
+      "role": "right",
+      "content": "下周五怎么样？看看那个时间还有没有空档。",
+      "timestamp": 1740946942.7341828
+    },
+    {
+      "role": "left",
+      "content": "下周五的预约时间目前还有空档，您可以选择上午九点或十点，下午两点或三点，您看哪个时间段更方便呢？",
+      "timestamp": 1740946946.6532552
+    },
+    {
+      "role": "right",
+      "content": "上午九点比较合适，谢谢。",
+      "timestamp": 1740946948.3100903
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您预约了下周五上午九点的全面体检。您的预约编号是123456，请您记一下。体检当天请携带身份证和预约确认短信前来。如果有其他问题，您可以随时联系我们。",
+      "timestamp": 1740946957.3847253
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息后，提供了预约编号及注意事项，并告知用户如果有其他问题可以随时联系。服务方在此时使用了结束信号代码##ENDCALL_SIGNAL##，表明服务方认为对话目标已达成，即用户成功预约了体检项目，所有相关信息已提供完毕，服务流程已完成，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

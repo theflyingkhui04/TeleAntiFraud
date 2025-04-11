@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，请问有什么问题我可以帮您解决？",
+      "timestamp": 1740971399.0917923
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我是李医生，最近感觉眼睛有些干涩，想咨询一下有没有什么好的缓解方法。",
+      "timestamp": 1740971400.4707832
+    },
+    {
+      "role": "left",
+      "content": "李医生，您好，眼睛干涩可能是由于长时间使用电子设备或环境干燥引起的。建议您多眨眼、适当休息，并使用人工泪液滴眼液缓解症状。如果情况持续，建议您咨询专业眼科医生。希望这些建议对您有所帮助。",
+      "timestamp": 1740971406.782193
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在提供了具体的缓解眼睛干涩的建议后，认为已经解决了用户的问题，并且给出了进一步的建议（如果情况持续，建议咨询专业眼科医生）。服务方的意图是确保用户得到了所需的信息，并且在确认用户没有其他问题后，礼貌地结束了对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行信用卡客服中心，您的信用卡账户近期有异常交易记录，为了您的资金安全，请您提供身份证号码，以便我们进行身份核实。",
+      "timestamp": 1740744111.3130639
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我最近确实没怎么用信用卡，可能是有什么问题。那我的身份证号码是……等一下，我得去拿一下身份证。您能稍等我一会儿吗？",
+      "timestamp": 1740744113.7445693
+    },
+    {
+      "role": "left",
+      "content": "当然可以，但为了您的安全，我们建议尽快处理。不过如果您不方便现在提供，那我就先帮您记录一下情况，稍后我们会再次与您联系，确认相关事宜。这样可以吗？",
+      "timestamp": 1740744120.9459767
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在用户表示需要去拿身份证时选择挂断电话，可能是为了避免用户有时间思考和核实情况，从而识破诈骗。此外，诈骗者可能已经记录了用户的初步信息，计划后续再次联系用户，以进一步实施诈骗。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

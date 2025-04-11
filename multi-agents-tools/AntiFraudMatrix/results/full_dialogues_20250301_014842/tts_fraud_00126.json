@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是你吗？我是你的朋友李明的哥哥，现在情况非常紧急，李明出事了，他被一伙人扣住了，他们要我们立刻付一笔赎金，否则就不放人。你在那里？你能帮忙吗？",
+      "timestamp": 1740765632.7094061
+    },
+    {
+      "role": "right",
+      "content": "啊，真的吗？李明怎么会出这种事！我人在学校，你在哪里？需要我怎么帮忙？我现在就去找你们！",
+      "timestamp": 1740765634.8581727
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为情绪激动，急于前往现场帮助朋友，因此没有继续在电话中讨论细节，而是选择立即行动。用户的意图是尽快到达现场，提供可能的援助。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

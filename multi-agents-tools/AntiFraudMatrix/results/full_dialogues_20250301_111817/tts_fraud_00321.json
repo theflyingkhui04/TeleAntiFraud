@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是警察局的李警官，非常抱歉打扰您，但情况非常紧急。您的女儿小芳现在正处在危险之中，她被一群歹徒绑架了。为了确保她的安全，我需要您立刻配合我们的行动。您能听到我吗？",
+      "timestamp": 1740812078.2665353
+    },
+    {
+      "role": "right",
+      "content": "啊，天哪，我的女儿！你们一定要救救她，我该怎么做？请告诉我，我什么都愿意做。",
+      "timestamp": 1740812080.623202
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其女儿被绑架后，表现出极度的恐慌和焦虑，立即挂断电话可能是出于以下原因：1. 用户可能认为这是一个诈骗电话，不愿意继续对话；2. 用户可能感到极度不安，需要时间冷静下来，或者立即联系其他可靠的信息来源确认情况；3. 用户可能认为电话中的信息过于突然和严重，需要立即采取行动，例如联系警方或其他亲属。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

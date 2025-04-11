@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想要订购的餐品和送餐地址吗？",
+      "timestamp": 1740942194.503456
+    },
+    {
+      "role": "right",
+      "content": "好的，我想要一份牛肉炒饭和一份番茄蛋汤，送餐地址是上海市静安区南京西路1234号。谢谢。",
+      "timestamp": 1740942196.1336913
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已收到，一份牛肉炒饭和一份番茄蛋汤，送餐地址是上海市静安区南京西路1234号。请问您的联系电话是多少，以便我们及时与您联系？",
+      "timestamp": 1740942204.8863332
+    },
+    {
+      "role": "right",
+      "content": "我的电话是13800138000。谢谢。",
+      "timestamp": 1740942208.5843801
+    },
+    {
+      "role": "left",
+      "content": "好的，您的联系电话是13800138000，我们已记录完毕。您的订单预计在30到40分钟内送达，如有任何变动我们会及时联系您。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740942214.6005824
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情、送餐地址和联系电话后，告知了用户预计的送餐时间，并表达了感谢。服务方使用了结束信号代码##ENDCALL_SIGNAL##，表明对话目标已达成，订单处理完成，服务方认为此时结束对话是合适的。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

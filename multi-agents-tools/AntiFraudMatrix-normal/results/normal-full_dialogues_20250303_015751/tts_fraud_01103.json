@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎咨询我们的客服，有什么问题我可以帮您解决吗？",
+      "timestamp": 1740973849.802479
+    },
+    {
+      "role": "right",
+      "content": "您好，我想了解一下你们的售后服务政策。",
+      "timestamp": 1740973850.930198
+    },
+    {
+      "role": "left",
+      "content": "我们的售后服务政策是，自购买之日起三十天内，如果您对产品有任何不满意，可以无理由退货；一年内如有非人为质量问题，我们提供免费维修或更换服务。您还有其他具体问题吗？",
+      "timestamp": 1740973857.6067843
+    },
+    {
+      "role": "right",
+      "content": "明白了，那如果过了保修期，需要维修的话，费用怎么算？",
+      "timestamp": 1740973859.0773685
+    },
+    {
+      "role": "left",
+      "content": "过了保修期后，如果需要维修，我们会先对产品进行检查，然后根据故障情况和所需更换的零件来评估具体费用。费用主要包括零件费和人工费，具体金额会在维修前告知您，您同意后再进行维修。这样可以吗？",
+      "timestamp": 1740973864.449933
+    },
+    {
+      "role": "right",
+      "content": "好的，这样挺合理的。谢谢您的解答。",
+      "timestamp": 1740973865.2416062
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您还有其他问题或需要进一步的帮助，随时欢迎联系我们。祝您生活愉快！",
+      "timestamp": 1740973871.7830122
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740973872.6130538
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表示满意，明确表示了感谢。根据终止条件3，用户明确表示感谢并结束对话，因此应该由用户来结束对话。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您还有其他问题或需要进一步的帮助，随时欢迎联系我们。祝您生活愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

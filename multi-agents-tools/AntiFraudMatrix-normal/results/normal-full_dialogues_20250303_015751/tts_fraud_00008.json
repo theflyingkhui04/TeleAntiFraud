@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到美味外卖，我可以帮您点餐吗？",
+      "timestamp": 1740947970.3473854
+    },
+    {
+      "role": "right",
+      "content": "可以，我想点一份牛肉炒饭和一份糖醋排骨。还有一瓶冰红茶。",
+      "timestamp": 1740947972.1847842
+    },
+    {
+      "role": "left",
+      "content": "好的，一份牛肉炒饭、一份糖醋排骨和一瓶冰红茶，这些都记下来了。请问需要什么辣度或者特别要求吗？",
+      "timestamp": 1740947978.7180777
+    },
+    {
+      "role": "right",
+      "content": "不需要特别的辣度，餐点就按默认口味来吧。",
+      "timestamp": 1740947979.69334
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单是按默认口味准备。请问送餐地址是哪里呢？还有，需要提供电话号码以便我们联系您确认订单。",
+      "timestamp": 1740947983.5574436
+    },
+    {
+      "role": "right",
+      "content": "地址是XX路123号，电话号码是13800138000。",
+      "timestamp": 1740947988.1007633
+    },
+    {
+      "role": "left",
+      "content": "好的，您的送餐地址是XX路123号，电话号码已记录。预计30分钟后送达，请问还有其他需要帮忙的吗？",
+      "timestamp": 1740947994.5011787
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情，包括餐点、送餐地址和联系电话后，询问了用户是否还有其他需要帮助的事项。在用户没有进一步的需求后，服务方使用了结束信号代码'##ENDCALL_SIGNAL##'，表明服务方认为对话目标已达成，订单处理完成，可以结束对话。服务方的意图是确保用户的需求得到满足，并在确认没有其他问题后礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

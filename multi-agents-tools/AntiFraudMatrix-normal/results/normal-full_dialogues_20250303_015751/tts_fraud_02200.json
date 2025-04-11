@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询员，您可以告诉我您需要了解的路线或交通信息，我会尽力帮您解答。",
+      "timestamp": 1740945658.4774964
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。我想了解一下从我家到市中心图书馆的公交路线。我家住在阳光花园小区。",
+      "timestamp": 1740945659.8029509
+    },
+    {
+      "role": "left",
+      "content": "从阳光花园小区到市中心图书馆，您可以乘坐公交302路，直接到达图书馆站，全程大约需要四十五分钟。如果有其他问题或需要更多信息，随时告诉我。",
+      "timestamp": 1740945668.2589934
+    },
+    {
+      "role": "right",
+      "content": "谢谢您的帮助，302路公交车的班次频繁吗？大概多久一班？",
+      "timestamp": 1740945670.0871634
+    },
+    {
+      "role": "left",
+      "content": "302路公交车的班次比较频繁，高峰时段大约每十分钟一班，平峰时段大约每十五分钟一班。您可以根据您的出行时间提前到站等候。如果还有其他问题，欢迎继续咨询。",
+      "timestamp": 1740945677.3974588
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的详细解答。我会提前到站等车的。如果以后还有其他交通问题，还会再来咨询您。",
+      "timestamp": 1740945679.05105
+    },
+    {
+      "role": "left",
+      "content": "很高兴能帮到您，如果您对路线还有任何疑问，随时欢迎再次咨询。祝您旅途愉快。",
+      "timestamp": 1740945685.1589148
+    },
+    {
+      "role": "right",
+      "content": "谢谢您，祝您工作顺利。再见。",
+      "timestamp": 1740945686.6342707
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表达了感谢，同时表示如果未来有其他问题会再次咨询，这表明当前的对话目标已经达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "很高兴能帮到您，如果您对路线还有任何疑问，随时欢迎再次咨询。祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢您，祝您工作顺利。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

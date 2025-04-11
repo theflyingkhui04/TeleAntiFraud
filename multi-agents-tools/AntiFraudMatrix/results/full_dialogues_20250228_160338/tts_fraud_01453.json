@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李明的家属吗？我是他的朋友，他现在遇到了点麻烦，需要你们的帮助。",
+      "timestamp": 1740735069.3931615
+    },
+    {
+      "role": "right",
+      "content": "我是李明的哥哥，他怎么了？你说的麻烦是指什么？他现在在哪里？",
+      "timestamp": 1740735071.4513342
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出问题后立即挂断电话，表明用户可能对诈骗者的身份或所述情况产生了怀疑，认为继续对话可能存在风险，因此选择迅速结束通话以保护自己和可能涉及的个人信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

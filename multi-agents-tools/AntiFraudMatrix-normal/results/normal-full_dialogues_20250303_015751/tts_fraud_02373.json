@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪一项服务呢？",
+      "timestamp": 1740979568.7938757
+    },
+    {
+      "role": "right",
+      "content": "您好，我想了解一下你们的餐饮服务，具体都有哪些选项？",
+      "timestamp": 1740979570.4183462
+    },
+    {
+      "role": "left",
+      "content": "我们提供的餐饮服务包括中式、西式、素食和儿童套餐等多种选择，您是需要了解具体的菜品信息吗？",
+      "timestamp": 1740979576.8302815
+    },
+    {
+      "role": "right",
+      "content": "是的，麻烦您告诉我一下中式菜品都有哪些特色菜？",
+      "timestamp": 1740979578.5501952
+    },
+    {
+      "role": "left",
+      "content": "我们的中式特色菜有宫保鸡丁、红烧肉、清蒸鱼和麻婆豆腐等，这些都是很受欢迎的选择，您有特别偏好的口味吗？",
+      "timestamp": 1740979586.4664826
+    },
+    {
+      "role": "right",
+      "content": "听起来都很不错，我对红烧肉和清蒸鱼比较感兴趣。这些菜的价位是多少呢？",
+      "timestamp": 1740979589.7680812
+    },
+    {
+      "role": "left",
+      "content": "红烧肉的价格是每份三十八元，清蒸鱼根据鱼的大小不同，价格在五十元到一百元之间。您需要预订吗？",
+      "timestamp": 1740979600.2041552
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的详细介绍。我考虑一下，有需要的话会再联系您预订。",
+      "timestamp": 1740979602.9141202
+    },
+    {
+      "role": "left",
+      "content": "如果您对这些菜品感兴趣，可以随时预订。非常感谢您的咨询，希望您用餐愉快！",
+      "timestamp": 1740979610.600586
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740979611.9323766
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表示会考虑之后再联系预订，表明当前对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您对这些菜品感兴趣，可以随时预订。非常感谢您的咨询，希望您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是打车服务的客服，有什么可以帮助您的吗？",
+      "timestamp": 1740973159.9972281
+    },
+    {
+      "role": "right",
+      "content": "你好，我刚才叫了一辆车，但司机一直没有联系我，能查一下是怎么回事吗？",
+      "timestamp": 1740973161.9780588
+    },
+    {
+      "role": "left",
+      "content": "好的，可以麻烦您提供一下您的订单号或者叫车的电话号码吗？这样我这边可以帮您查询具体情况。",
+      "timestamp": 1740973168.5077438
+    },
+    {
+      "role": "right",
+      "content": "好的，我的订单号是123456789。",
+      "timestamp": 1740973170.0751338
+    },
+    {
+      "role": "left",
+      "content": "感谢您的耐心等待，我这边查到了您的订单信息，司机可能因为路上信号不好暂时没有联系到您。我帮您催促一下司机，预计还有大约10分钟到达。您看这样可以吗？",
+      "timestamp": 1740973176.1790855
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，我会在原地等待。",
+      "timestamp": 1740973177.2506762
+    },
+    {
+      "role": "left",
+      "content": "不客气，如果还有其他问题或需要进一步的帮助，请随时联系我。祝您出行顺利，旅途愉快。",
+      "timestamp": 1740973184.2398853
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的问题已经解决，并且用户表示满意后，主动结束了对话。服务方的意图是确保用户的问题得到妥善处理，并在确认用户没有其他需求的情况下礼貌地结束对话，以保持良好的客户服务体验。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

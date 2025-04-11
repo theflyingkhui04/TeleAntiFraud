@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "这里是工商银行客户服务中心，我们检测到您的账户存在异常交易，需要立即核实您的身份信息以确保资金安全。请问您现在方便接听吗？",
+      "timestamp": 1740735539.2312472
+    },
+    {
+      "role": "right",
+      "content": "喂，你好。我这边刚上班，能稍等一下吗？我这就找个安静的地方。",
+      "timestamp": 1740735553.8534324
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为工作原因暂时无法继续对话，选择挂断电话。用户的意图是希望稍后再继续交流，而不是因为识破诈骗或强烈不满。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

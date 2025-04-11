@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递客服中心，我们发现您的包裹存在异常情况，需要您配合处理。请问您方便接听电话吗？",
+      "timestamp": 1740734722.700309
+    },
+    {
+      "role": "right",
+      "content": "您好，我方便接听。请问我的包裹出了什么问题？",
+      "timestamp": 1740734735.9074676
+    },
+    {
+      "role": "left",
+      "content": "您的包裹里可能含有违禁品，我们需要对包裹进行进一步检查。为了您的权益，请提供您的姓名和联系方式，以便我们核实信息。",
+      "timestamp": 1740734759.0152771
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫李华，联系电话是这个号码。你们会怎么处理这个情况呢？",
+      "timestamp": 1740734765.04777
+    },
+    {
+      "role": "left",
+      "content": "非常抱歉给您带来困扰，我们会尽快处理此事。如有进一步问题，您可以随时联系我们的客服热线。感谢您的配合，再见。",
+      "timestamp": 1740734802.2270725
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的处理。再见。",
+      "timestamp": 1740734814.9870439
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和联系电话，这是敏感信息，诈骗明显成功。根据终止条件1，应该终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常抱歉给您带来困扰，我们会尽快处理此事。如有进一步问题，您可以随时联系我们的客服热线。感谢您的配合，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的处理。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

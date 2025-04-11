@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手为您服务，请问您需要了解哪条路线的信息？",
+      "timestamp": 1740951716.0969887
+    },
+    {
+      "role": "right",
+      "content": "嗨，我在学校附近，想了解一下从学校到市中心的公交路线。",
+      "timestamp": 1740951717.2924976
+    },
+    {
+      "role": "left",
+      "content": "好的，从您学校到市中心有多条公交线路可供选择，其中最便捷的是乘坐10路或25路公交车，这两条线路都会直达市中心的主要站点。您需要我提供更详细的换乘信息吗？",
+      "timestamp": 1740951725.7976582
+    },
+    {
+      "role": "right",
+      "content": "不用了，我知道10路和25路，谢谢！对了，这两条线路的班次多吗？",
+      "timestamp": 1740951727.285972
+    },
+    {
+      "role": "left",
+      "content": "10路和25路的班次都比较频繁，尤其是在早晚高峰时段，大约每隔5到10分钟就有一班车。非高峰时段，班次间隔可能会稍长一些，但通常也不会超过15分钟。您可以放心选择这两条线路。如果还有其他问题，随时告诉我。",
+      "timestamp": 1740951735.0686865
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助！这样我就放心多了。如果有其他问题，我会再联系你。",
+      "timestamp": 1740951736.1230233
+    },
+    {
+      "role": "left",
+      "content": "很高兴能帮到您，如果您对路线还有任何疑问，可以随时联系我。祝您旅途愉快！",
+      "timestamp": 1740951740.287502
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见！",
+      "timestamp": 1740951743.546454
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示感谢并结束对话，表示目前没有其他问题。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "很高兴能帮到您，如果您对路线还有任何疑问，可以随时联系我。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见！"
+    }
+  ],
+  "reached_max_turns": false
+}

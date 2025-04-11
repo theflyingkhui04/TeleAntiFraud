@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行安全顾问，名叫林先生。我们监测到您的账户有异常活动，需要您立即确认一些信息以确保账户的安全。您现在方便吗？",
+      "timestamp": 1740758092.364278
+    },
+    {
+      "role": "right",
+      "content": "林先生，您好。我这边确实有点忙，不过如果真的有异常活动，那我得了解一下。你能告诉我具体是什么情况吗？",
+      "timestamp": 1740758094.1233644
+    },
+    {
+      "role": "left",
+      "content": "非常抱歉打扰您，但情况确实紧急。系统显示您的账户在今日下午进行了多次大额跨境交易，我们怀疑您的身份信息可能被盗用了。请问您今天有进行过这些操作吗？",
+      "timestamp": 1740758104.6745825
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在初步接触后立即挂断电话，可能是因为用户表现出了一定的警惕性，询问了具体的情况，这可能让诈骗者认为用户不易受骗，继续诈骗成功的几率较低，因此选择终止对话以节省时间寻找下一个目标。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

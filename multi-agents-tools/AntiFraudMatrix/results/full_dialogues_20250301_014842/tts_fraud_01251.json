@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，我是来自国家彩票中心的工作人员，恭喜您，您的彩票号码与本期开奖号码完全匹配，您中得了一等奖，奖金高达五百万元！由于這是紧急通知，我们通过电话直接联系您。请提供您的姓名和身份证号码，以便我们核实身份并尽快为您办理兑奖手续。",
+      "timestamp": 1740783932.1400864
+    },
+    {
+      "role": "right",
+      "content": "您好，真的吗？我中了五百万元？这真是太意外了。不过，我得确认一下，我的姓名是李建国，身份证号码是xxxxxx一九七六……",
+      "timestamp": 1740783936.5414379
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供部分个人信息后突然挂断电话，可能是因为用户意识到这可能是一起诈骗行为，或者用户对提供完整的身份证号码感到不安，担心个人信息泄露。用户的意图是停止进一步的信息交流，以保护自己的个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

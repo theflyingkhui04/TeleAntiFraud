@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是您的订餐助手，请问有什么可以帮助您的？",
+      "timestamp": 1740939404.96889
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖，有什么推荐的吗？",
+      "timestamp": 1740939406.8396032
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在对话开始时就提供了结束信号代码，这可能是系统错误或服务方的误操作。用户随后提出了订餐需求，但服务方没有回应用户的问题，而是直接结束了对话。用户的意图是想要了解外卖推荐信息，但由于服务方的提前结束，用户的实际需求未能得到满足。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是打车服务的客服，有什么可以帮助您的？",
+      "timestamp": 1740956577.6433918
+    },
+    {
+      "role": "right",
+      "content": "您好，我需要从医院回家，能帮我安排一辆车吗？",
+      "timestamp": 1740956578.9249232
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我马上为您安排。请问您现在在哪家医院，具体地址是什么？",
+      "timestamp": 1740956582.917309
+    },
+    {
+      "role": "right",
+      "content": "我在市立第一医院，地址是市中心人民路123号。谢谢。",
+      "timestamp": 1740956584.1036339
+    },
+    {
+      "role": "left",
+      "content": "好的，感谢您的信息。我已为您安排了一辆车，预计5分钟后到达。您可以在医院门口等待，司机将直接联系您确认具体位置。如果有任何问题，请随时告诉我。",
+      "timestamp": 1740956590.9720619
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。我会在门口等车。如果有问题我会联系你们。",
+      "timestamp": 1740956592.04431
+    },
+    {
+      "role": "left",
+      "content": "好的，您的车已经安排好了，预计5分钟后到达。如果有任何问题，请随时联系我。祝您一路平安。",
+      "timestamp": 1740956596.8043215
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740956598.670863
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了服务安排，并表示会在医院门口等待。用户明确表示了感谢，没有进一步的问题或需求。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的车已经安排好了，预计5分钟后到达。如果有任何问题，请随时联系我。祝您一路平安。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友的同事，现在遇到了非常紧急的情况，您朋友被我们公司的一位客户扣押了，对方要求马上支付一笔赎金，否则就……",
+      "timestamp": 1740739219.6906242
+    },
+    {
+      "role": "right",
+      "content": "你说什么？你是不是搞错了？我朋友怎么可能被扣押了？这听起来太离谱了，你能不能告诉我具体是怎么回事？",
+      "timestamp": 1740739223.0056853
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的信息表示怀疑，并认为该情况非常不合理。用户可能已经意识到这是一起诈骗行为，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

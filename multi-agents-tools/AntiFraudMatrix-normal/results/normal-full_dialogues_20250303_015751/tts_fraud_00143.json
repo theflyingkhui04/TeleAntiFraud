@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是这里的购物顾问，有什么可以帮助您的吗？",
+      "timestamp": 1740943433.2442763
+    },
+    {
+      "role": "right",
+      "content": "你好，我在找一些适合教师用的笔记本，有什么推荐的吗？",
+      "timestamp": 1740943434.9565287
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们这里有几个系列的笔记本非常适合教师使用，比如封面设计简约大方的“智慧系列”，内页还有专门的教学计划模板。您是需要在线查看还是来店里挑选呢？",
+      "timestamp": 1740943440.7403293
+    },
+    {
+      "role": "right",
+      "content": "来店里看看吧，我今天正好有空。",
+      "timestamp": 1740943442.104304
+    },
+    {
+      "role": "left",
+      "content": "太好了，我们这里有专门的区域陈列教师用品，到时候会有专人为您详细介绍。您方便现在过来吗？我们的地址是XX路XX号，不知道您是否方便？",
+      "timestamp": 1740943448.0152793
+    },
+    {
+      "role": "right",
+      "content": "好的，我现在就过去。地址我记下了，一会见。",
+      "timestamp": 1740943449.200637
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们店里见。如果您需要导航或有任何其他问题，随时联系我。期待您的光临，祝您路上顺利！再见。",
+      "timestamp": 1740943456.6597342
+    },
+    {
+      "role": "right",
+      "content": "谢谢，一会见。",
+      "timestamp": 1740943460.2914636
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经接受了服务方的建议，并表示会前往店铺，对话目标已达成，用户也暗示了对话的结束。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们店里见。如果您需要导航或有任何其他问题，随时联系我。期待您的光临，祝您路上顺利！再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，一会见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

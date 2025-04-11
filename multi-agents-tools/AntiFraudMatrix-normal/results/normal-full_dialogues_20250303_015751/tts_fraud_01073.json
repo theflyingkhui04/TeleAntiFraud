@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您想预订哪个餐厅的美食呢？",
+      "timestamp": 1740958366.9240031
+    },
+    {
+      "role": "right",
+      "content": "嗨，我想预订“城市厨房”的餐点，他们家的牛排很不错。",
+      "timestamp": 1740958370.2746391
+    },
+    {
+      "role": "left",
+      "content": "好的，城市厨房的牛排确实非常受欢迎。请问您需要预订几份牛排，还有其他想搭配的菜品吗？",
+      "timestamp": 1740958375.157246
+    },
+    {
+      "role": "right",
+      "content": "给我来一份五分熟的牛排，再来一份凯撒沙拉吧。",
+      "timestamp": 1740958376.124372
+    },
+    {
+      "role": "left",
+      "content": "好的，一份五分熟的牛排和一份凯撒沙拉。请问还需要点些饮料吗？",
+      "timestamp": 1740958380.4296224
+    },
+    {
+      "role": "right",
+      "content": "来一杯冰红茶吧。",
+      "timestamp": 1740958383.9312694
+    },
+    {
+      "role": "left",
+      "content": "好的，一份五分熟的牛排、一份凯撒沙拉和一杯冰红茶。请确认您的订单信息：城市厨房，牛排五分熟，凯撒沙拉，冰红茶，对吗？",
+      "timestamp": 1740958393.9708877
+    },
+    {
+      "role": "right",
+      "content": "对的，就是这样。谢谢！",
+      "timestamp": 1740958397.5396516
+    },
+    {
+      "role": "left",
+      "content": "您的订单已确认，预计三十分钟后送达。感谢您的订购，如果还有其他需要，请随时联系我们。",
+      "timestamp": 1740958402.9690294
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。",
+      "timestamp": 1740958409.0898266
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单信息，并表示感谢，表明用户对服务满意且无需进一步的帮助。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的订单已确认，预计三十分钟后送达。感谢您的订购，如果还有其他需要，请随时联系我们。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

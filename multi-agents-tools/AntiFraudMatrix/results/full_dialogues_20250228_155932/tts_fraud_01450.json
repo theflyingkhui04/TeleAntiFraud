@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是紧急联系中心。我刚刚接到报警，您的一位亲人被绑架了，您需要立即配合我们，否则后果不堪设想。请告诉我您现在的位置，我们马上派警察过去。",
+      "timestamp": 1740752519.8754048
+    },
+    {
+      "role": "right",
+      "content": "你们是谁？我为什么要相信你们？我得先确认一下这是真的。你们能提供一些证据吗？比如说我亲人的信息，或者更具体的情况。不然我怎么知道这不是个骗局？",
+      "timestamp": 1740752522.2193172
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提出的要求表示怀疑，并要求提供证据证明其亲人的状况。由于诈骗者未能提供令人信服的证据，用户认为这可能是一个骗局，因此选择挂断电话以保护自己不受潜在的诈骗行为侵害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

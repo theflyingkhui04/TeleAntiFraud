@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你听好了，你的儿子现在在我手上，如果不立刻转账五十万到这个账户，你就再也见不到他了！",
+      "timestamp": 1740758787.9219472
+    },
+    {
+      "role": "right",
+      "content": "你别吓我，你先告诉我你是谁，我儿子到底怎么了？你得让我相信你，不然我怎么知道你是不是骗子？你先冷静一下，我们好好谈谈。",
+      "timestamp": 1740758793.0102518
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出怀疑和谨慎，要求诈骗者提供更多信息以验证其身份和情况的真实性。面对诈骗者的威胁，用户没有立即恐慌或同意要求，而是试图通过对话获取更多信息，表明用户可能已经意识到这可能是一场诈骗。最终，用户选择挂断电话，可能是为了中断与诈骗者的联系，避免进一步的风险，同时也可能是因为感到害怕或不确定如何继续应对。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

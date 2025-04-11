@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友李华的同事，李华现在出事了，他被一伙人控制了，情况非常危急，您必须立刻帮助我们。",
+      "timestamp": 1740775829.8699687
+    },
+    {
+      "role": "right",
+      "content": "李华出事了？这太突然了，你能不能告诉我具体是怎么回事？我需要确认一下。",
+      "timestamp": 1740775831.483853
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方身份的真实性，担心这是一起诈骗行为，因此选择挂断电话以保护自己不受潜在的欺骗。用户的意图是中断对话，避免进一步的信息交流，从而防止可能的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

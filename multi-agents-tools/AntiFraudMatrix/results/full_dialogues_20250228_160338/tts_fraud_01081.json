@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您！您已被抽中成为我们公司举办的幸运抽奖活动二等奖得主，奖金高达五十万元！请您提供您的姓名和身份证号码以便我们核实身份并安排奖金发放。",
+      "timestamp": 1740741211.417381
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太棒了！我叫李华，身份证号码是 XXXXXXXXXXXXX。你们能告诉我具体的领奖流程吗？",
+      "timestamp": 1740741214.8333719
+    },
+    {
+      "role": "left",
+      "content": "很抱歉，看来您的账户信息暂时无法核实，我们稍后再联系您。祝您生活愉快！再见。##TERMINATE_SIGNAL##",
+      "timestamp": 1740741249.1411986
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。希望你们尽快核实好我的信息。再见。",
+      "timestamp": 1740741261.3817904
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中明确要求用户提供敏感信息（姓名和身份证号码），并且用户已经提供了这些信息，这表明诈骗已经明显成功。此外，诈骗者已经提供了挂断信号（##ENDCALL_SIGNAL##）。因此，应立即终止对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "很抱歉，看来您的账户信息暂时无法核实，我们稍后再联系您。祝您生活愉快！再见。##TERMINATE_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。希望你们尽快核实好我的信息。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

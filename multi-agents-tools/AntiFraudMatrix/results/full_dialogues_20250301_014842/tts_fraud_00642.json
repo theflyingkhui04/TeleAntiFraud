@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是天达银行客服中心，我是客服代表李文。我们发现您的账户有一笔异常交易，为了确保您的资金安全，我们需要对您的账户进行核实。请问您现在方便吗？",
+      "timestamp": 1740789477.5726888
+    },
+    {
+      "role": "right",
+      "content": "李文您好，我确实最近没注意到账户有异常，您可以告诉我具体是什么情况吗？我可能需要先确认一下。",
+      "timestamp": 1740789487.3005545
+    },
+    {
+      "role": "left",
+      "content": "好的，我会记录您的情况并尽快反馈给相关部门。感谢您的配合，祝您生活愉快。再见。",
+      "timestamp": 1740789490.6109047
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，再见。",
+      "timestamp": 1740789491.3471963
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始后立即提供了挂断信号 '##ENDCALL_SIGNAL##'，表明对话已由诈骗者主动结束。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我会记录您的情况并尽快反馈给相关部门。感谢您的配合，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

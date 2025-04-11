@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我已帮您叫车，请问您的上车地点是哪里？",
+      "timestamp": 1740948749.2494667
+    },
+    {
+      "role": "right",
+      "content": "就在前面的公交站，谢谢。",
+      "timestamp": 1740948750.5592072
+    },
+    {
+      "role": "left",
+      "content": "好的，司机大约五分钟后到达公交站，请注意查看车辆信息。如果需要帮助，随时联系我。",
+      "timestamp": 1740948755.3537302
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的上车地点，并告知了司机到达时间及车辆信息后，认为已经完成了用户打车的服务需求，因此主动结束对话。服务方的意图是确保用户已经获得了所需的信息，并且在没有其他问题的情况下礼貌地结束对话，以保持良好的用户体验。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

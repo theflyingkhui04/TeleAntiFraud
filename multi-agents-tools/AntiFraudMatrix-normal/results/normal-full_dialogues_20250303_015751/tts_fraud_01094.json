@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服专员小张为您服务，请问有什么问题我可以帮您解决？",
+      "timestamp": 1740958213.9936602
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我是李明，之前在你们餐厅订了一桌席，但是今天临时有事去不了了，想问问能不能取消预订。",
+      "timestamp": 1740958216.37578
+    },
+    {
+      "role": "left",
+      "content": "您好，李明先生，可以帮您取消预订。请您提供一下预订时的联系电话或预订编号，我来为您处理。",
+      "timestamp": 1740958222.0197387
+    },
+    {
+      "role": "right",
+      "content": "好的，我的联系电话是13812345678，预订编号是12345。麻烦你了。",
+      "timestamp": 1740958224.7928407
+    },
+    {
+      "role": "left",
+      "content": "已经查到了您的预订信息，李明先生，您的预订已经成功取消。如果今后还需要我们的服务，欢迎随时联系我们。还有其他问题需要帮助吗？",
+      "timestamp": 1740958230.8164878
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在成功为用户取消预订后，确认用户没有其他问题需要帮助，并提供了未来服务的邀请。服务方使用了结束标识符'##ENDCALL_SIGNAL##'，表明对话目标已达成，服务流程已完成，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

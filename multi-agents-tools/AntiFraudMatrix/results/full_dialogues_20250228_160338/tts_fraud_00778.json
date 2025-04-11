@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的邻居李大妈，现在有个紧急情况，您的家人被我撞见被坏人绑架了，您需要马上准备一笔钱，不然他们会有危险的。",
+      "timestamp": 1740735602.3024275
+    },
+    {
+      "role": "right",
+      "content": "李大妈，您说什么？我家人被绑架了？这太突然了，我需要冷静一下。您能告诉我具体发生了什么吗？我得确认一下这到底是怎么回事。",
+      "timestamp": 1740735617.1971238
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的说法感到震惊和怀疑，需要时间冷静思考和确认信息的真实性。用户可能意识到这是一个诈骗电话，因此选择挂断以避免进一步的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

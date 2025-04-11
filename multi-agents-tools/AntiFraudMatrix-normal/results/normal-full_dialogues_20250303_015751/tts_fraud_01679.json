@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740940972.0996087
+    },
+    {
+      "role": "right",
+      "content": "您好，我想点一份牛肉炒饭和一份酸辣汤，还有一杯冰红茶。这些可以一起送吗？",
+      "timestamp": 1740940974.832107
+    },
+    {
+      "role": "left",
+      "content": "当然可以，您的订单已记录。请问您需要加急配送吗？",
+      "timestamp": 1740940979.810375
+    },
+    {
+      "role": "right",
+      "content": "不用加急，正常配送就可以。谢谢。",
+      "timestamp": 1740940981.2831163
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单将在大约30分钟内送达。如果需要任何帮助，您可以随时联系我们。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740940986.7191024
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情，并告知了预计送达时间后，主动结束了对话。服务方的意图是确保用户已经获得了所有需要的信息，并对服务表示满意，同时礼貌地结束了对话，以保持良好的客户体验。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

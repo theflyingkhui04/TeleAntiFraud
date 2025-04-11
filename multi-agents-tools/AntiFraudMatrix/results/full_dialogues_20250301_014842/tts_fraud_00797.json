@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李华的家人吗？我是他的朋友，李华现在出事了，情况非常紧急，你们必须立刻给我打钱，不然我就不管他了。",
+      "timestamp": 1740768779.7620437
+    },
+    {
+      "role": "right",
+      "content": "你是谁？你怎么会有我的电话？李华到底出了什么事？你得把事情说清楚，不然我怎么相信你？",
+      "timestamp": 1740768782.08476
+    },
+    {
+      "role": "left",
+      "content": "我是张伟，李华的好朋友。他昨晚在回家的路上遇到了坏人，现在被控制在某个地方。我好不容易才逃出来给你打电话。你现在必须相信我，不然时间拖得越久，李华就越危险。你要不要听我的？",
+      "timestamp": 1740768789.373255
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在面对用户的质疑时，未能提供足够的信息来建立信任，且用户表现出明显的怀疑态度。诈骗者可能意识到继续对话无法成功实施诈骗，因此选择主动挂断电话，以避免进一步的质疑和暴露。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是快递公司客服，我们发现您有一个重要包裹被海关扣留，需要您提供一些个人信息以便进行处理。请问您方便现在提供吗？",
+      "timestamp": 1740759399.9015055
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我的包裹被扣留了？那可怎么办呢？需要我提供什么信息呢？",
+      "timestamp": 1740759401.10294
+    },
+    {
+      "role": "left",
+      "content": "我们需要您的姓名、身份证号码和银行卡信息来核实身份并支付相关费用，请您尽快提供，以免包裹被退回。",
+      "timestamp": 1740759407.5929408
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者可能意识到用户对情况的反应过于顺从，缺乏警惕，担心用户可能进一步询问或核实信息，从而暴露诈骗行为。因此，诈骗者选择提前挂断电话，避免用户产生怀疑或采取进一步行动。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

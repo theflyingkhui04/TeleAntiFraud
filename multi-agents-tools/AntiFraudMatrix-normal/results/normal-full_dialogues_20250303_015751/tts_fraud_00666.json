@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，有什么问题我来帮您解决。",
+      "timestamp": 1740970821.1512196
+    },
+    {
+      "role": "right",
+      "content": "好的，小张。我最近总是感觉疲劳，想咨询一下有没有什么需要注意的。",
+      "timestamp": 1740970822.946926
+    },
+    {
+      "role": "left",
+      "content": "感到疲劳可能是由多种因素引起的，如睡眠不足、压力过大或营养不良等。建议您首先保证充足的睡眠，均衡饮食，并适当进行放松和运动。如果情况持续，建议咨询医生，看看是否有其他健康问题。",
+      "timestamp": 1740970829.0085797
+    },
+    {
+      "role": "right",
+      "content": "谢谢你的建议，我会试试看。如果还是没有改善，我会去医院检查一下。",
+      "timestamp": 1740970830.5562823
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，希望这些建议对您有所帮助。如果还有其他问题或需要进一步的帮助，随时欢迎联系我们。祝您早日恢复精力充沛。",
+      "timestamp": 1740970837.227829
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。希望这些建议能帮到我。如果有必要，我会再联系你们。",
+      "timestamp": 1740970839.82175
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢并表达了将尝试建议的意图，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，希望这些建议对您有所帮助。如果还有其他问题或需要进一步的帮助，随时欢迎联系我们。祝您早日恢复精力充沛。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。希望这些建议能帮到我。如果有必要，我会再联系你们。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

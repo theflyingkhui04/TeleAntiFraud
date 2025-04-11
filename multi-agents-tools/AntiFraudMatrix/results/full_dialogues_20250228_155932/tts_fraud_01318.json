@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是支付宝客服中心，我们检测到您的账户存在异常交易，需要立即核实并处理，请问您方便提供一下身份证号码以便我们进行身份验证吗？",
+      "timestamp": 1740747220.958574
+    },
+    {
+      "role": "right",
+      "content": "哎呀，这事儿挺严重的吧？我确实最近没怎么用支付宝，那你们是怎么发现的呢？我得先确认一下，万一不是我自己的问题，我还得找人帮忙解决。",
+      "timestamp": 1740747223.250412
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对诈骗者提出的问题的警惕性，并要求更多的时间来确认问题的真实性。用户可能怀疑这是一个诈骗电话，因此选择挂断电话以避免进一步的风险。用户的意图是保护自己的个人信息不被泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

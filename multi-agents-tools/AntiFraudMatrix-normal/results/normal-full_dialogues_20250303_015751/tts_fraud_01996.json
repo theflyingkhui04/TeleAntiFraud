@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询专线，有什么路线或交通信息需要我帮您查询的吗？",
+      "timestamp": 1740970179.3819332
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从市中心到新桥镇的公交路线。",
+      "timestamp": 1740970180.6245592
+    },
+    {
+      "role": "left",
+      "content": "从市中心到新桥镇可以乘坐302路公交车，经过大约二十站后在新桥镇站下车。这条线路的班次比较频繁，大约每十五分钟一班，您可以在任何公交站点查询具体的到站时间。需要我提供更详细的路线信息吗？",
+      "timestamp": 1740970189.6894655
+    },
+    {
+      "role": "right",
+      "content": "不用了，谢谢。我知道怎么坐了。",
+      "timestamp": 1740970191.3395514
+    },
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，那我就不再占用您的时间了。希望您旅途愉快，感谢您的咨询。",
+      "timestamp": 1740970196.3921082
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。旅途愉快。",
+      "timestamp": 1740970197.7628303
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并明确表示不再需要进一步的帮助。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您没有其他问题，那我就不再占用您的时间了。希望您旅途愉快，感谢您的咨询。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。旅途愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，请问有什么问题我可以帮您解决？",
+      "timestamp": 1740972976.9932828
+    },
+    {
+      "role": "right",
+      "content": "你好，我是小李，我有个问题想问问。我最近种的玉米叶子有点发黄，不知道什么原因。",
+      "timestamp": 1740972978.8621411
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户小李在描述完自己的问题后立即提供了结束信号代码，这可能是因为他只是想报告问题，并未期待立即得到解答，或者他可能认为当前渠道不适合解决他的问题，需要寻求其他途径。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

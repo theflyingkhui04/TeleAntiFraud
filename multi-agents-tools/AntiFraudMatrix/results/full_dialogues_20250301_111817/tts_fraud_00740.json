@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子小明的同学，小明现在出事了，被一些不良分子带走了，您必须马上转五万块钱过来，我们才能确保他的安全。这事非常紧急，您现在能马上转吗？",
+      "timestamp": 1740813531.7257438
+    },
+    {
+      "role": "right",
+      "content": "小明的同学，你叫什么名字？我怎么从来没有听说过你？而且这种事你为什么不直接联系小明的家长，反而找我？这听起来太不正常了。我需要确认一下你的真实身份。",
+      "timestamp": 1740813536.6224344
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是因为他们对诈骗者提供的信息感到怀疑，并且要求进一步的身份验证。用户表现出对诈骗者身份的质疑，认为情况不正常，因此选择挂断电话以避免潜在的风险。用户的意图是保护自己不受诈骗行为的影响。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自顺丰快递的客服，张小姐。我们刚刚发现您的包裹中可能包含一些违禁品，需要您配合我们处理一下。您有时间吗？",
+      "timestamp": 1740731970.168496
+    },
+    {
+      "role": "right",
+      "content": "张小姐啊，好的，我有时间。不过违禁品？这可真奇怪，我最近没寄什么特别的东西啊。这事儿严重吗？",
+      "timestamp": 1740731977.5448806
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提到的违禁品感到困惑或怀疑，因此选择挂断电话以避免进一步的交流。用户的意图可能是为了保护自己的隐私和安全，避免陷入潜在的诈骗陷阱。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

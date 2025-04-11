@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮助您的吗？",
+      "timestamp": 1740956632.722725
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份披萨，可以推荐一下你们的招牌披萨吗？",
+      "timestamp": 1740956633.7641664
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们的招牌披萨有经典意式Margherita披萨和四 cheeses 披萨，都非常受欢迎。Margherita披萨用的是新鲜的番茄和莫扎里拉奶酪，简单却美味；四 cheeses 披萨则融合了四种不同的奶酪，口感丰富。您对哪种更感兴趣呢？",
+      "timestamp": 1740956640.1073556
+    },
+    {
+      "role": "right",
+      "content": "听你这么一说，我更倾向于四 cheeses 披萨，奶酪听起来就很诱人。来一份四 cheeses 披萨吧，还要加上一份蒜香面包。",
+      "timestamp": 1740956643.1564486
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经记录下来了，一份四 cheeses 披萨加一份蒜香面包。还需要其他配菜或饮品吗？",
+      "timestamp": 1740956649.2852137
+    },
+    {
+      "role": "right",
+      "content": "不用了，这样就很好。对了，大概多久可以送到？",
+      "timestamp": 1740956650.3007236
+    },
+    {
+      "role": "left",
+      "content": "通常情况下，我们会在下单后的三十到四十分钟内送达。具体时间还要看您所在的位置和当前的配送情况。您可以提供一个大致的地址吗，这样我可以帮您确认一个更准确的时间。",
+      "timestamp": 1740956657.9458315
+    },
+    {
+      "role": "right",
+      "content": "好的，我在人民路123号。希望能在四十分钟内收到，谢谢。",
+      "timestamp": 1740956659.3986435
+    },
+    {
+      "role": "left",
+      "content": "好的，您的地址确认后，我们会尽快安排配送。您的订单预计在三十到四十分钟内送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740956665.1613388
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。",
+      "timestamp": 1740956669.0327365
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "服务方已记录用户的订单，并提供了预计送达时间。用户没有进一步的需求或问题，对话目标已达成。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的地址确认后，我们会尽快安排配送。您的订单预计在三十到四十分钟内送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您被我们的系统随机抽中成为今天的幸运中奖者！您将获得价值十万元的豪华大奖，请确认您的身份信息以便我们办理领奖手续。",
+      "timestamp": 1740780131.82942
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的假的？十万元的大奖啊，我得确认一下，你们是哪家公司啊？我怎么从没听说过你们搞过这样的活动呢？",
+      "timestamp": 1740780133.7646852
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提供的奖品信息后，表现出怀疑态度，并询问了公司背景。用户可能已经意识到这是一起诈骗行为，因此选择主动挂断电话以避免进一步的风险。用户的意图是终止与诈骗者的交流，防止个人信息泄露或财产损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我手上，赶紧准备二十万赎金，否则就别想见到他了！",
+      "timestamp": 1740746953.2029734
+    },
+    {
+      "role": "right",
+      "content": "你、你说什么？我儿子怎么会在你手上？这到底是怎么回事？你先别急，有什么事情我们可以好好说。",
+      "timestamp": 1740746954.6846766
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者提出的严重威胁时，表现出明显的震惊和困惑，但尝试保持冷静并寻求更多信息。然而，诈骗者并未给予进一步的解释或证据，而是直接挂断了电话。用户的挂断可能是出于对诈骗者行为的怀疑，或是因为无法接受这种突如其来的威胁而选择中断对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

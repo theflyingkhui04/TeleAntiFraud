@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服中心很高兴为您服务，请问有什么问题需要解决？",
+      "timestamp": 1740968222.1282923
+    },
+    {
+      "role": "right",
+      "content": "你好，我最近收到了一条短信，说是我的银行账户有异常，让我尽快联系客服。我想确认一下这是真的吗？",
+      "timestamp": 1740968224.6217134
+    },
+    {
+      "role": "left",
+      "content": "为了您的安全，我们建议您直接拨打银行的官方客服电话进行核实，不要直接回复短信中的电话或链接。您可以告诉我您的银行名称，我可以帮您查找官方的联系方式。",
+      "timestamp": 1740968230.6681898
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的建议。我的银行是工商银行。",
+      "timestamp": 1740968232.6051438
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在获得所需信息（工商银行官方客服电话的查询途径）后，明确表达了感谢并使用了结束信号代码'##ENDCALL_SIGNAL##'，表明其问题已得到解决，不再需要进一步的帮助。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

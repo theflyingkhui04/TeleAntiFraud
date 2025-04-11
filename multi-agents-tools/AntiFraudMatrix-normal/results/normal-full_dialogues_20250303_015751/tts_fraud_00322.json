@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询热线，为您服务，请问有什么可以帮助您的？",
+      "timestamp": 1740958633.1654212
+    },
+    {
+      "role": "right",
+      "content": "你好，我想问一下最近村里到镇上的公交车时间有没有变动？",
+      "timestamp": 1740958634.4200008
+    },
+    {
+      "role": "left",
+      "content": "最近村里到镇上的公交车时间表没有变动，首班车是早上六点，末班车是晚上七点，每隔半小时一班。请问您需要具体的某个时间点的信息吗？",
+      "timestamp": 1740958639.6739783
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。那我明天早上七点去镇上，应该没问题吧？",
+      "timestamp": 1740958641.133586
+    },
+    {
+      "role": "left",
+      "content": "早上七点去镇上完全没有问题，七点整有一班车，您可以按时到达镇上。如果您有行李，建议提前几分钟到达车站。祝您旅途愉快。",
+      "timestamp": 1740958645.4047587
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的问题已经得到解决，并提供了额外的建议后，使用了结束信号代码##ENDCALL_SIGNAL##。这表明服务方认为对话目标已经达成，用户获得了所需信息，且服务方希望礼貌地结束对话，确保用户满意。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

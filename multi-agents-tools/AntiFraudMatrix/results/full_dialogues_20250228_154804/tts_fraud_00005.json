@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自某某投资公司的张经理，最近我们发现有一个非常有潜力的投资机会，我想跟您详细介绍一下。",
+      "timestamp": 1740741686.1882155
+    },
+    {
+      "role": "right",
+      "content": "你好，张经理。投资机会听起来挺不错的，你能具体说说是什么吗？我对这方面挺感兴趣的。",
+      "timestamp": 1740741687.8863626
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们今天就先聊到这里，如果有兴趣的话，您可以随时联系我，希望我们能有合作的机会。再见。",
+      "timestamp": 1740741693.0640256
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢张经理。我会考虑一下的。再见。",
+      "timestamp": 1740741694.446537
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始后立即提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明他选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们今天就先聊到这里，如果有兴趣的话，您可以随时联系我，希望我们能有合作的机会。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢张经理。我会考虑一下的。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自华通快递的客服人员，您的一个包裹在运输过程中出现了问题，需要您配合处理一下。",
+      "timestamp": 1740732322.8204908
+    },
+    {
+      "role": "right",
+      "content": "您好，我是小李。我的包裹出了什么问题呢？能具体说一下吗？",
+      "timestamp": 1740732325.5139112
+    },
+    {
+      "role": "left",
+      "content": "是这样的，系统显示您的包裹内含有违禁物品，已经在北京海关被扣留。我们需要您提供身份信息以便处理此事。",
+      "timestamp": 1740732359.5722923
+    },
+    {
+      "role": "right",
+      "content": "这听起来不太对劲，我最近只买了一些日常用品，怎么会有违禁物品呢？你们能确定是我的包裹吗？",
+      "timestamp": 1740732383.359243
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能怀疑对方是诈骗者，因为对方要求提供身份信息，并且用户对包裹内含有违禁物品的说法表示怀疑。用户通过挂断电话来中断与诈骗者的进一步交流，以保护自己的个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

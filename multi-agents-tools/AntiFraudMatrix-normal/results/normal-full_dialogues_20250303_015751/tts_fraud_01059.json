@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，我可以帮您预订餐点或提供菜单信息，请问有什么可以帮助您的？",
+      "timestamp": 1740977412.833227
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我自己在家做饭，不订餐了。不过你们有啥推荐的菜吗？偶尔也想换个口味。",
+      "timestamp": 1740977416.1852806
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们这里有很多受欢迎的菜品，比如宫保鸡丁、麻辣香锅和清蒸海鲈鱼。如果您喜欢素食，可以试试我们的蒜蓉西兰花或是素炒三丝，都非常受欢迎。有什么口味偏好或需要特别推荐的吗？",
+      "timestamp": 1740977425.1330261
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，尤其是宫保鸡丁和蒜蓉西兰花。下次有时间我会试试看。谢谢你的推荐！",
+      "timestamp": 1740977427.1243544
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的询问，希望这些推荐能让您的餐桌更加丰富美味。如果有任何其他需要帮助的，欢迎随时联系我们。祝您用餐愉快！",
+      "timestamp": 1740977435.809743
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！如果有需要我会再联系你们的。祝好！",
+      "timestamp": 1740977438.2836688
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表达了感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的询问，希望这些推荐能让您的餐桌更加丰富美味。如果有任何其他需要帮助的，欢迎随时联系我们。祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！如果有需要我会再联系你们的。祝好！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的亲戚小张，现在情况非常紧急，我爸爸刚才被一帮人绑架了，他们要求马上支付五十万赎金，不然就要伤害我爸爸，您能帮帮我吗？",
+      "timestamp": 1740777646.4894433
+    },
+    {
+      "role": "right",
+      "content": "小张，你先别急，这种情况太突然了，我需要确认一下。你能不能告诉我你爸爸的电话号码，我联系一下他，看看是不是真的？另外，你有没有报警？这种情况下警察是最专业的。",
+      "timestamp": 1740777649.7123907
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的紧急情况后，表现出了谨慎的态度，并要求提供更多信息以验证情况的真实性。同时，用户建议报警处理，显示了对情况的合理判断。用户挂断电话可能是出于对诈骗者要求的怀疑，认为需要进一步核实情况，或者不愿意在未确认事实前进行任何行动。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

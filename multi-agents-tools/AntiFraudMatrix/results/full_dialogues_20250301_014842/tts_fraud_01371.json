@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您银行的客服专员，李晓晓。我们刚刚检测到您的银行卡有异常交易，需要您配合我们进行身份验证，以确保您的资金安全。请问您现在方便吗？",
+      "timestamp": 1740771880.065251
+    },
+    {
+      "role": "right",
+      "content": "李晓晓，你好。我是失业人员，最近手头有点紧，所以银行卡的事情我很在意。不过，你们怎么确定是我本人呢？我怎么知道你真的是银行的客服专员？",
+      "timestamp": 1740771882.9465394
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为对诈骗者身份的怀疑而选择挂断电话。用户表达了对自身银行卡异常交易的关注，但同时也对诈骗者的真实身份表示了质疑，这表明用户可能意识到了潜在的风险，因此选择终止对话以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

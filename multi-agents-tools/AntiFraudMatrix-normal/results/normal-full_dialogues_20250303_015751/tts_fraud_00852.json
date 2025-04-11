@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮助您的吗？",
+      "timestamp": 1740967998.0728395
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份农家小炒肉，还有一份清炒时蔬。",
+      "timestamp": 1740967999.7711937
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已收到。农家小炒肉和清炒时蔬，还有需要其他菜品或饮料搭配吗？",
+      "timestamp": 1740968006.555821
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这两样，谢谢。对了，你们这里送餐时间大概多久？",
+      "timestamp": 1740968008.6583407
+    },
+    {
+      "role": "left",
+      "content": "通常情况下，我们会在接到订单后的30到40分钟内送达。如果遇到高峰期可能会稍有延迟，谢谢您的理解。需要帮您备注特别的送餐要求吗？",
+      "timestamp": 1740968015.7743437
+    },
+    {
+      "role": "right",
+      "content": "不用特别备注，谢谢。那我就等你们送餐了。",
+      "timestamp": 1740968017.0067334
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单我们已经记录好了，预计30到40分钟内送达。如果您有任何其他需求，可以随时联系我们。祝您用餐愉快，感谢您的订餐！",
+      "timestamp": 1740968026.6702075
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。等餐了。",
+      "timestamp": 1740968027.9626193
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容，并询问了送餐时间，服务方也给予了明确的答复。用户表示没有其他需求，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单我们已经记录好了，预计30到40分钟内送达。如果您有任何其他需求，可以随时联系我们。祝您用餐愉快，感谢您的订餐！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。等餐了。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

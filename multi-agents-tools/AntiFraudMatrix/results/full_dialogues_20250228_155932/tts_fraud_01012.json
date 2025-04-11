@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自国际投资集团的财务顾问张经理。最近我们发现了一个非常有潜力的投资项目，预计回报率非常高，想请您了解一下。",
+      "timestamp": 1740751198.8763292
+    },
+    {
+      "role": "right",
+      "content": "张经理，您好啊。我就是个种地的，对这些投资什么的不太懂。不过您要是能给我讲讲，我也愿意听听。这个项目是做什么的呢？",
+      "timestamp": 1740751202.6808171
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对投资项目的不感兴趣和不熟悉，但出于礼貌或好奇，表示愿意听取更多信息。然而，诈骗者在介绍项目之前就挂断了电话，可能是意识到用户不是潜在的目标客户，或者认为用户的态度不够积极。因此，这次挂断是由诈骗者发起的，而非用户主动挂断。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是打车服务平台的客服，有什么可以帮您的吗？",
+      "timestamp": 1740966758.2038505
+    },
+    {
+      "role": "right",
+      "content": "你好，我刚刚用了你们的打车服务，但有点问题。",
+      "timestamp": 1740966759.8780704
+    },
+    {
+      "role": "left",
+      "content": "非常抱歉听到您遇到了问题，请告诉我具体是什么情况，我会尽力帮您解决。",
+      "timestamp": 1740966769.2319992
+    },
+    {
+      "role": "right",
+      "content": "我打的车司机迟到了二十分钟，而且车上还很脏，这让我很不高兴。",
+      "timestamp": 1740966771.8100023
+    },
+    {
+      "role": "left",
+      "content": "非常抱歉给您带来了不愉快的体验，这种情况确实不应该发生。我们可以为这次行程提供费用减免，并且确保该司机接受清洁培训。您看如何？",
+      "timestamp": 1740966779.8900387
+    },
+    {
+      "role": "right",
+      "content": "费用减免可以接受，但希望你们能真的改善服务，不要让这种情况再发生。",
+      "timestamp": 1740966782.1375136
+    },
+    {
+      "role": "left",
+      "content": "感谢您的理解和建议，我们会立即采取措施，确保类似情况不再发生。请问您的行程费用减免需要我为您处理吗？",
+      "timestamp": 1740966790.3438494
+    },
+    {
+      "role": "right",
+      "content": "好的，那就麻烦你帮我处理一下费用减免的事情。谢谢。",
+      "timestamp": 1740966791.6772509
+    },
+    {
+      "role": "left",
+      "content": "好的，我会为您处理费用减免，并将您的建议反馈给相关部门。感谢您的宝贵意见，祝您一天愉快。",
+      "timestamp": 1740966800.6268542
+    },
+    {
+      "role": "right",
+      "content": "谢谢，也祝你一天愉快。",
+      "timestamp": 1740966802.6599116
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已接受服务方提供的解决方案，并请求服务方处理费用减免事宜，服务目标已达成。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我会为您处理费用减免，并将您的建议反馈给相关部门。感谢您的宝贵意见，祝您一天愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，也祝你一天愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

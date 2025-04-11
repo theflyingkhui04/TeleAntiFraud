@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您的打车请求已收到，正在为您匹配最近的司机。预计等待时间大约为三到五分钟。",
+      "timestamp": 1740969202.04318
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我等会儿。",
+      "timestamp": 1740969205.8670738
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认服务方已处理其请求并了解预计等待时间后，明确表示感谢并使用了结束信号代码'##ENDCALL_SIGNAL##'，表明其对当前服务满意且认为无需进一步交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

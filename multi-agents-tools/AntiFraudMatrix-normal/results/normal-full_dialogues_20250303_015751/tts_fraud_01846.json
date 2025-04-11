@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，已经为您安排了一辆车，大约五分钟内到达，车牌号是京A12345，司机名叫李师傅。",
+      "timestamp": 1740974138.4824767
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我知道了。李师傅一会儿见。",
+      "timestamp": 1740974140.070921
+    },
+    {
+      "role": "left",
+      "content": "您的车已安排妥当，如果有任何问题，随时可以联系我。祝您一路顺利。",
+      "timestamp": 1740974147.5722375
+    },
+    {
+      "role": "right",
+      "content": "谢谢，有问题我会联系你。一路顺利。",
+      "timestamp": 1740974148.8652177
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了信息并表示感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的车已安排妥当，如果有任何问题，随时可以联系我。祝您一路顺利。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，有问题我会联系你。一路顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

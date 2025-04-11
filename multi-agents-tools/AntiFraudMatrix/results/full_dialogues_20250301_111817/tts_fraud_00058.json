@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的儿子小明的朋友，小明现在出事了，他在外面被人绑架了，现在非常危险，您必须马上按照我说的做，不然小明会有生命危险。",
+      "timestamp": 1740803003.6568
+    },
+    {
+      "role": "right",
+      "content": "啊，天哪，小明真的出事了吗？你们是怎么联系到我的？我得赶紧去救他，你们需要我怎么做？",
+      "timestamp": 1740803006.6483994
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户和诈骗者几乎同时挂断了电话。用户可能在极度恐慌和不确定的情况下，选择了挂断电话以寻求其他方式确认情况的真实性。诈骗者可能意识到用户尚未完全信任，或担心用户会进一步询问导致诈骗暴露，因此选择挂断。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

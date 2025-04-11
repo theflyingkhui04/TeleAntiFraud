@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李先生吗？我是您儿子学校的老师，刚刚接到警察局的电话，说您的儿子在学校外面被绑架了，现在情况非常紧急，您必须马上行动。",
+      "timestamp": 1740731340.4329317
+    },
+    {
+      "role": "right",
+      "content": "什么？绑架？我儿子怎么会被绑架？他今天不是在学校上课吗？（声音颤抖）你们学校怎么回事？为什么不保护好学生？",
+      "timestamp": 1740731346.6673667
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被绑架后，表现出明显的焦虑和不安。用户质疑学校的安全措施，并可能意识到这是一个诈骗电话，因此选择挂断电话以避免进一步的情感困扰和潜在的经济损失。用户的意图是通过挂断电话来终止对话，避免被诈骗者进一步操控。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

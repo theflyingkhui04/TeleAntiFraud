@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，已经为您安排了一辆车，请问您的具体位置在哪里？",
+      "timestamp": 1740948290.6028428
+    },
+    {
+      "role": "right",
+      "content": "好的，我在公司门口，地址是建国路100号。谢谢。",
+      "timestamp": 1740948292.6256018
+    },
+    {
+      "role": "left",
+      "content": "已收到您的位置信息，司机大约十分钟后到达建国路100号的公司门口，请您留意车辆信息。如果需要帮助，可以随时联系我。",
+      "timestamp": 1740948296.4333417
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的上车地点并告知了预计到达时间后，主动结束了对话。服务方的意图是确保用户已经获得了所有必要的信息，并且服务请求已经得到了妥善处理，因此认为对话可以结束了。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

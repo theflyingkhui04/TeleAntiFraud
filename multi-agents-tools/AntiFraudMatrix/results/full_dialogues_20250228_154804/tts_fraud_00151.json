@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生/女士，我是您儿子的朋友，他现在遇到麻烦了，您能听我说吗？",
+      "timestamp": 1740751349.700379
+    },
+    {
+      "role": "right",
+      "content": "喂，你好。我儿子的朋友？他怎么了？出什么事了？你说说看。",
+      "timestamp": 1740751351.826529
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方身份或担心诈骗而选择立即挂断电话。从对话内容来看，用户在听到对方自称是其儿子的朋友并提到儿子遇到麻烦时，可能立即产生了警觉，认为这是一起常见的诈骗手段，因此选择不继续对话以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

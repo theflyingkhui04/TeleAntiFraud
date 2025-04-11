@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是银行客户服务中心，我们检测到您的账户可能存在异常交易，需要立即核实您的身份信息，请问您现在方便接听电话吗？",
+      "timestamp": 1740784806.6378198
+    },
+    {
+      "role": "right",
+      "content": "您好，我这边暂时不方便，麻烦您稍后再打过来，好吗？",
+      "timestamp": 1740784807.9295876
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一起诈骗电话，或者确实当前不方便接听。用户礼貌地拒绝了进一步的交流，表达了希望稍后再联系的意愿，但并未提供具体的时间，这可能是为了避免进一步的骚扰。用户通过挂断电话的方式明确结束了对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

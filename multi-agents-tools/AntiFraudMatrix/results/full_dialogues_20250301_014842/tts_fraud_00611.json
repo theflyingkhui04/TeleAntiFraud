@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的老朋友，小李，您可能不记得我了，但我现在遇到了非常紧急的情况，需要您的帮助。",
+      "timestamp": 1740768982.46133
+    },
+    {
+      "role": "right",
+      "content": "小李？你等等，我记性不太好，你能说说我们是怎么认识的吗？我得确认一下。",
+      "timestamp": 1740768986.0769155
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到对方自称是老朋友小李，并请求帮助时，表现出谨慎的态度，要求对方提供更多信息以确认身份。用户可能怀疑这是一起诈骗电话，因此在对方未能提供足够信息之前选择挂断电话，以保护自己的安全和隐私。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

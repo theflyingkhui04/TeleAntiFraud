@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自银联客服中心的小张。我们发现您的银行卡在外地有异常消费记录，需要您尽快核实，以免造成更大损失。",
+      "timestamp": 1740688041.7030897
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我的银行卡好像确实有一笔消费我不记得了。您能告诉我具体是哪里的消费吗？",
+      "timestamp": 1740688046.1376383
+    },
+    {
+      "role": "left",
+      "content": "好的，我们会尽快处理这个问题，确保您的账户安全。感谢您的配合，有什么问题可以随时联系我们的客服热线。",
+      "timestamp": 1740688053.2579253
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。我会留意的。如果有其他需要我配合的地方，请随时告诉我。",
+      "timestamp": 1740688089.9407845
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表示诈骗者选择挂断电话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们会尽快处理这个问题，确保您的账户安全。感谢您的配合，有什么问题可以随时联系我们的客服热线。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。我会留意的。如果有其他需要我配合的地方，请随时告诉我。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

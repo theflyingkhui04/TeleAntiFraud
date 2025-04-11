@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自蓝海投资的李经理。最近我们发现了一个非常有潜力的投资项目，预计回报率非常高，想请您了解一下。",
+      "timestamp": 1740805800.06543
+    },
+    {
+      "role": "right",
+      "content": "李经理您好，我最近确实有些空闲的资金，不知道这个项目具体是什么，您能详细介绍一下吗？我对投资还挺感兴趣的。",
+      "timestamp": 1740805803.4427717
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "在这段对话中，用户最初对诈骗者的提议表示了兴趣，并询问了更多关于投资项目的细节。然而，诈骗者在用户提问之前就已经挂断了电话，这可能是因为诈骗者意识到用户可能需要更多的信息来说服，而诈骗者可能没有准备好或不愿意提供这些信息，或者诈骗者可能是在测试用户是否真的感兴趣。由于诈骗者主动挂断了电话，这表明对话的结束是由诈骗者主导的，而非用户主动结束。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

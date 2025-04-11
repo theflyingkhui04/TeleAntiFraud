@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李明的家属吗？我是李明的朋友，他出事了，现在被一帮人控制着，情况非常紧急，你们必须马上准备一笔钱，不然他们可能会对李明下手！",
+      "timestamp": 1740799571.2079413
+    },
+    {
+      "role": "right",
+      "content": "李明？你说的是我朋友李明吗？他现在在哪里？你们为什么要钱？这到底是怎么回事？你得说清楚点，我才能帮忙。",
+      "timestamp": 1740799573.794338
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的情况后，表现出明显的疑虑和不安，要求诈骗者提供更多的详细信息。然而，诈骗者没有给出具体的解释，而是直接挂断了电话。用户的意图可能是希望通过询问更多细节来验证对方的说法，但诈骗者为了避免暴露而选择挂断。这表明用户可能已经对诈骗者产生了怀疑，但尚未完全确定。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

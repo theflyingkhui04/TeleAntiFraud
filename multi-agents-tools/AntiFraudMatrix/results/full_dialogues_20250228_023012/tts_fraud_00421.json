@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "这里是XX快递客服中心，我们检测到您有一个国际包裹因清关问题被扣留，请问您需要协助处理吗？",
+      "timestamp": 1740691358.3275957
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我最近好像没有订购什么国际包裹啊。能告诉我具体是什么包裹吗？",
+      "timestamp": 1740691396.383232
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提出的问题表示怀疑，因为用户不记得自己有订购国际包裹。用户挂断电话可能是为了避免进一步的潜在风险，表明用户可能已经意识到这可能是一个诈骗电话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

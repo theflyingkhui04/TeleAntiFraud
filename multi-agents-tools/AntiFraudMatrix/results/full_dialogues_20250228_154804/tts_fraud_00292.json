@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX银行的客服专员，最近我们发现您的账户有异常活动，需要您配合进行身份验证，以确保您的资金安全。请问您能提供一下您的身份证号码吗？",
+      "timestamp": 1740730801.7326968
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我最近确实没怎么用这个账户，可能是有异常。那我提供一下身份证号码吧。我的身份证号码是……",
+      "timestamp": 1740730807.4504302
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供身份证号码后立即挂断电话，可能是意识到自己可能正在遭受诈骗，或者出于对个人信息安全的担忧而选择中断对话。这种行为表明用户可能已经识破了诈骗者的意图，或者至少对对方的身份产生了怀疑，从而采取了保护个人隐私的措施。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

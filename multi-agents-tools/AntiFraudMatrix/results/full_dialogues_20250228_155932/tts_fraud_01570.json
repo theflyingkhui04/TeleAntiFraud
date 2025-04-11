@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是公安信息核查中心，我们收到通知您的身份信息可能涉嫌非法活动，需要您配合核实。请问您的姓名和身份证号码是？",
+      "timestamp": 1740742557.798024
+    },
+    {
+      "role": "right",
+      "content": "哎呀，这可怎么办？我叫张建国，身份证号码是三十七零二零一九六八零一零一零一三。我可从来没做过什么违法的事情，你们一定要帮我查清楚啊。",
+      "timestamp": 1740742573.2995088
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在意识到对方可能是诈骗者后，立即提供了虚假的个人信息，随后主动挂断了电话。这表明用户可能已经识破了诈骗，并试图通过提供虚假信息来迷惑诈骗者，然后迅速结束对话以保护自己的真实信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

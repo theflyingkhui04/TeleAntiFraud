@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，我可以帮您完成订餐，请问有什么需要特别注意的吗？",
+      "timestamp": 1740945086.3005772
+    },
+    {
+      "role": "right",
+      "content": "不用特别注意什么，就按平时的来吧。有什么推荐的吗？",
+      "timestamp": 1740945087.6913786
+    },
+    {
+      "role": "left",
+      "content": "我们今天的特色菜有蒜香烤鸡和黑椒牛柳，都是顾客评价很高的，您看看是否感兴趣？",
+      "timestamp": 1740945095.5221756
+    },
+    {
+      "role": "right",
+      "content": "蒜香烤鸡听起来不错，就来一份吧。还有什么配菜推荐？",
+      "timestamp": 1740945099.4691813
+    },
+    {
+      "role": "left",
+      "content": "配菜方面，我们推荐清炒时蔬和蒜蓉西兰花，都是非常清新可口的选择，您看需要来一份吗？",
+      "timestamp": 1740945104.769172
+    },
+    {
+      "role": "right",
+      "content": "好的，来一份清炒时蔬吧。还需要点什么饮料吗？",
+      "timestamp": 1740945106.540573
+    },
+    {
+      "role": "left",
+      "content": "我们这里有各种饮料，包括鲜榨果汁、冰镇汽水和健康茶饮，您有什么偏好？",
+      "timestamp": 1740945109.3759518
+    },
+    {
+      "role": "right",
+      "content": "来一杯冰镇柠檬水吧。就这样了，谢谢。",
+      "timestamp": 1740945111.3093655
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包括一份蒜香烤鸡和一份清炒时蔬。预计三十分钟内送达，感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740945116.9258978
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待您的服务。",
+      "timestamp": 1740945117.8029852
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表达了感谢，表明不再需要进一步的服务。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包括一份蒜香烤鸡和一份清炒时蔬。预计三十分钟内送达，感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待您的服务。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

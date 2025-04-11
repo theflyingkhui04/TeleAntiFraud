@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您需要预订什么餐品？",
+      "timestamp": 1740951943.7286315
+    },
+    {
+      "role": "right",
+      "content": "我想订两份招牌牛排套餐，一份五分熟，一份七分熟。外加一份凯撒沙拉和两杯柠檬水。",
+      "timestamp": 1740951947.5839126
+    },
+    {
+      "role": "left",
+      "content": "好的，您订了两份招牌牛排套餐，一份五分熟，一份七分熟，还有一份凯撒沙拉和两杯柠檬水。请问还需要加点什么吗？",
+      "timestamp": 1740951952.5008276
+    },
+    {
+      "role": "right",
+      "content": "不需要了，这些就够了。谢谢。",
+      "timestamp": 1740951953.4347467
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，两份招牌牛排套餐、一份凯撒沙拉和两杯柠檬水，预计三十分钟后送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740951961.1402943
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。",
+      "timestamp": 1740951962.2187293
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已明确表示不需要再加点其他餐品，并表达了感谢，表明服务需求已满足。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，两份招牌牛排套餐、一份凯撒沙拉和两杯柠檬水，预计三十分钟后送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

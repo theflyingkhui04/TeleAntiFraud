@@ -1,0 +1,41 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询服务人员，可以帮您规划路线或解答交通相关的问题，请问有什么我可以帮您的？",
+      "timestamp": 1740974588.6993153
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我想知道从市中心到机场最快的方式是什么？",
+      "timestamp": 1740974590.1417663
+    },
+    {
+      "role": "left",
+      "content": "从市中心到机场最快的方式是乘坐机场快线，大约需要三十分钟。如果您选择驾车，高峰期可能会遇到交通拥堵，预计需要四十分钟到一个小时。您需要我帮您查询具体的出行时间吗？",
+      "timestamp": 1740974596.4371939
+    },
+    {
+      "role": "right",
+      "content": "不用了，谢谢。机场快线听起来方便些，我就选这个。还有，机场快线的票价是多少？",
+      "timestamp": 1740974598.5235672
+    },
+    {
+      "role": "left",
+      "content": "机场快线的单程票价是二十五元。此外，如果您有行李较多，也可以考虑购买行李票，票价为十元。请问还有什么其他问题需要解答吗？",
+      "timestamp": 1740974604.3216913
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢。没有其他问题了。",
+      "timestamp": 1740974605.9704993
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在获得所需信息（从市中心到机场的最快方式及票价）后，明确表示没有其他问题，并使用了结束信号'##ENDCALL_SIGNAL##'，表明其意图是结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,41 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询服务的助手，可以帮您规划路线、查询交通状况或提供出行建议，您需要什么帮助呢？",
+      "timestamp": 1740947837.9426658
+    },
+    {
+      "role": "right",
+      "content": "嗯，我想知道从市中心到机场最快怎么走。",
+      "timestamp": 1740947838.9977632
+    },
+    {
+      "role": "left",
+      "content": "从市中心到机场最快的路线是通过高速路直达，全程大约需要四十分钟，不过具体时间还需视实时交通情况而定。您现在出发吗？我可以帮您查一下当前的路况。",
+      "timestamp": 1740947847.3335352
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦你查一下现在的路况。",
+      "timestamp": 1740947848.2214334
+    },
+    {
+      "role": "left",
+      "content": "好的，稍等一下。目前从市中心到机场的高速路段有些许拥堵，但仍然推荐您走高速，预计全程需要五十分钟左右。建议您出发前开启导航，以便实时了解路况调整路线。",
+      "timestamp": 1740947852.84902
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会打开导航的。",
+      "timestamp": 1740947856.4259608
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在获得所需信息（从市中心到机场的最快路线及当前路况）后，明确表示了感谢，并提供了结束信号'##ENDCALL_SIGNAL##'，表明其问题已解决，不再需要进一步的帮助。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

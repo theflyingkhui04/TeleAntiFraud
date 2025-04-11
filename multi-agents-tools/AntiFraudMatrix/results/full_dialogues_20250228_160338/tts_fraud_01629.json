@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的老朋友李明，您的儿子小杰现在在我这里，他遇到了一点麻烦，您能听我说吗？",
+      "timestamp": 1740730141.9531713
+    },
+    {
+      "role": "right",
+      "content": "哎呀，李明啊！小杰怎么了？我这心里一紧啊。他没事吧？您快说，我听着呢。",
+      "timestamp": 1740730149.7298212
+    },
+    {
+      "role": "left",
+      "content": "小杰他现在没事，但是请您不要挂断电话，听我说完。他意外受伤了，需要一笔钱来支付医疗费用，不然医院不肯治疗。您能马上转一笔钱过来吗？",
+      "timestamp": 1740730192.5053911
+    },
+    {
+      "role": "right",
+      "content": "这...这可怎么办啊！小杰受伤了啊！李明，您说需要多少钱？我这就去银行转账。",
+      "timestamp": 1740730199.4853294
+    },
+    {
+      "role": "left",
+      "content": "太好了，您真是个好父亲。请您尽快把钱转到这个账户：**[账号信息]**。我会确保小杰得到及时的治疗。请您动作快一点，时间不等人。",
+      "timestamp": 1740730218.981334
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，我这就去办。你们一定要照顾好小杰，我马上就把钱转过去。",
+      "timestamp": 1740730245.0646582
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗明显成功 - 用户已提供敏感信息（同意转账），诈骗者已获取足够信息，可以结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "太好了，您真是个好父亲。请您尽快把钱转到这个账户：**[账号信息]**。我会确保小杰得到及时的治疗。请您动作快一点，时间不等人。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，我这就去办。你们一定要照顾好小杰，我马上就把钱转过去。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

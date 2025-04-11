@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮您的？",
+      "timestamp": 1740981088.9284153
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我想订一份外卖。有什么推荐的吗？",
+      "timestamp": 1740981090.5357437
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话开始后立即表示了结束对话的意图，这可能是由于用户改变了主意，或者是在尝试服务时误操作。用户没有对服务方的推荐请求作出进一步回应，表明对话没有实质性进展，用户可能不希望继续此次对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

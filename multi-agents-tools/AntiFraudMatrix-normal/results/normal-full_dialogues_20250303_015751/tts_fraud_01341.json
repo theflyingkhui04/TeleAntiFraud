@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是预约服务专员，可以帮您预约相关服务，请问您需要预约什么服务呢？",
+      "timestamp": 1740970141.7912939
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下你们的农机维修服务。",
+      "timestamp": 1740970143.5977702
+    },
+    {
+      "role": "left",
+      "content": "好的，我们的农机维修服务包括拖拉机、收割机等各类农机的维修和保养，您可以告诉我具体需要维修的农机类型和问题吗？这样我可以为您预约更合适的维修师傅。",
+      "timestamp": 1740970150.498336
+    },
+    {
+      "role": "right",
+      "content": "拖拉机最近有点不稳，想检查一下发动机。",
+      "timestamp": 1740970151.5071
+    },
+    {
+      "role": "left",
+      "content": "明白了，我们会为您安排专业的农机维修师傅进行发动机检查。请问您方便预约的时间是？",
+      "timestamp": 1740970156.726874
+    },
+    {
+      "role": "right",
+      "content": "下个星期二上午行吗？",
+      "timestamp": 1740970157.708431
+    },
+    {
+      "role": "left",
+      "content": "星期二上午可以，我们会在上午九点到十一点之间安排师傅上门服务。请问您的联系电话和地址是？以便我们确认预约信息。",
+      "timestamp": 1740970161.1520648
+    },
+    {
+      "role": "right",
+      "content": "电话是13812345678，地址是大河村十二号。",
+      "timestamp": 1740970162.7190316
+    },
+    {
+      "role": "left",
+      "content": "好的，已经记录下来了。您的预约信息是：大河村十二号，13812345678，星期二上午九点到十一点，我们会安排农机维修师傅上门检查拖拉机发动机。稍后我们会发送确认短信到您的手机，请注意查收。还有其他需要帮助的吗？",
+      "timestamp": 1740970169.777844
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。没有其他需要了。",
+      "timestamp": 1740970170.8344924
+    },
+    {
+      "role": "left",
+      "content": "好的，如果后续有任何问题或需要进一步的帮助，您可以随时联系我们。感谢您的预约，祝您一切顺利。再见。",
+      "timestamp": 1740970177.2674444
+    },
+    {
+      "role": "right",
+      "content": "再见。",
+      "timestamp": 1740970178.0528972
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了预约信息，并明确表示没有其他需要帮助的内容，同时表达了感谢。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果后续有任何问题或需要进一步的帮助，您可以随时联系我们。感谢您的预约，祝您一切顺利。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是打车服务平台的客服，有什么可以帮助您的吗？",
+      "timestamp": 1740970040.2998843
+    },
+    {
+      "role": "right",
+      "content": "你好，我最近用你们的平台打车，发现有些司机的服务态度不太好，想反馈一下。",
+      "timestamp": 1740970041.9361274
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的反馈，我们会立即调查此事并采取相应措施。请问您可以提供一下具体的订单信息和相关情况描述吗？这样我们能更快地处理。",
+      "timestamp": 1740970050.3355565
+    },
+    {
+      "role": "right",
+      "content": "好的，订单号是123456789，那天司机接我后就一直打电话，不太安全。希望你们能处理一下。",
+      "timestamp": 1740970053.1904678
+    },
+    {
+      "role": "left",
+      "content": "感谢您的详细反馈，我们会马上核实该司机的行为，并根据公司规定进行处理。同时，我们会加强对司机的安全培训，确保类似情况不再发生。请问还有其他需要我们注意的事项吗？",
+      "timestamp": 1740970061.4977338
+    },
+    {
+      "role": "right",
+      "content": "没有了，谢谢你们的处理。希望以后能有更好的乘车体验。",
+      "timestamp": 1740970062.477961
+    },
+    {
+      "role": "left",
+      "content": "感谢您的反馈和建议，我们会尽快处理并改进服务。如果您还有其他问题或需要进一步的帮助，请随时联系我们。祝您生活愉快。",
+      "timestamp": 1740970066.760885
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您工作顺利。",
+      "timestamp": 1740970067.8721063
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了所需反馈，并表示没有其他需要处理的事项，同时表达了对处理结果的满意。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的反馈和建议，我们会尽快处理并改进服务。如果您还有其他问题或需要进一步的帮助，请随时联系我们。祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您工作顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

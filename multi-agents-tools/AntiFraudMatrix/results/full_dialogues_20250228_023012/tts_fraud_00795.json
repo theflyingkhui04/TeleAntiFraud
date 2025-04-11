@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好！这里是国家福利彩票中心，恭喜您中得了一等奖，奖金高达500万元！请告诉我您的姓名和地址，我们好为您安排领取奖金的事宜。",
+      "timestamp": 1740683040.6024036
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？太好了！我叫张伟，地址是上海市浦东新区XX路XX号。这真是太意外了，我还以为我这次没希望了。接下来我该怎么做呢？",
+      "timestamp": 1740683042.5360665
+    },
+    {
+      "role": "left",
+      "content": "太好了，张伟先生，我们已经记录了您的信息。请您保持电话畅通，我们的工作人员会在24小时内与您联系，安排奖金领取的具体事宜。再次恭喜您，期待与您的进一步联系。再见。",
+      "timestamp": 1740683053.1822355
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们！我会等你们的电话。再见。",
+      "timestamp": 1740683090.2793152
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经成功获取了用户的敏感信息（姓名和地址），诈骗明显成功，因此应该终止对话。诈骗者可能会选择结束对话以避免被追踪或进一步暴露。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "太好了，张伟先生，我们已经记录了您的信息。请您保持电话畅通，我们的工作人员会在24小时内与您联系，安排奖金领取的具体事宜。再次恭喜您，期待与您的进一步联系。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们！我会等你们的电话。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

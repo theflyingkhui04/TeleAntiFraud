@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服，您的一个包裹在运输过程中被发现有异常，需要您配合处理。请您提供一下您的姓名和电话，以便我们进行核对。",
+      "timestamp": 1740743922.480725
+    },
+    {
+      "role": "right",
+      "content": "您好，我叫李华，电话是这个，但是我一般不用这个号码接电话。我的包裹出了什么问题呢？我最近确实有网购一些东西，麻烦您说详细一点。",
+      "timestamp": 1740743938.9825408
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供基本信息后立即挂断了电话，表明用户可能对诈骗者的身份或请求产生了怀疑。用户虽然提供了姓名和电话，但随后迅速挂断，可能是因为用户意识到这通电话可能是诈骗，或者用户不愿意继续提供更多个人信息。挂断电话可能是用户采取的一种自我保护措施，以避免进一步的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

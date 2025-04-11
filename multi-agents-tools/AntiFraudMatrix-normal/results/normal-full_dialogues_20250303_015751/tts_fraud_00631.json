@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想订哪家餐厅的餐吗？",
+      "timestamp": 1740957430.6257224
+    },
+    {
+      "role": "right",
+      "content": "好的，我想订一家附近的中餐馆，有什么推荐的吗？",
+      "timestamp": 1740957434.748873
+    },
+    {
+      "role": "left",
+      "content": "当然，我们这里有一家评价很高的中餐馆叫“味香园”，口味地道，服务也很不错，您看是否感兴趣？",
+      "timestamp": 1740957439.5170734
+    },
+    {
+      "role": "right",
+      "content": "味香园听起来不错，那就这家吧。有什么推荐的菜吗？",
+      "timestamp": 1740957441.5396047
+    },
+    {
+      "role": "left",
+      "content": "味香园的招牌菜有宫保鸡丁、鱼香肉丝和麻辣豆腐，都是非常受欢迎的，您可以试试看。需要我帮您下单吗？",
+      "timestamp": 1740957448.8642566
+    },
+    {
+      "role": "right",
+      "content": "好的，就来一份宫保鸡丁和一份鱼香肉丝吧。谢谢。",
+      "timestamp": 1740957452.6709087
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您加上了宫保鸡丁和鱼香肉丝。还需要其他什么菜品或者饮料吗？如果没有，我这就帮您提交订单。",
+      "timestamp": 1740957458.86743
+    },
+    {
+      "role": "right",
+      "content": "不需要了，就这些吧。谢谢。",
+      "timestamp": 1740957459.5769253
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经提交成功，预计三十分钟后送达。感谢您的订餐，希望您用餐愉快！",
+      "timestamp": 1740957467.3202107
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。",
+      "timestamp": 1740957468.2464716
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了所需菜品，并表示没有其他需求。服务方可以结束对话，完成订单提交。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经提交成功，预计三十分钟后送达。感谢您的订餐，希望您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

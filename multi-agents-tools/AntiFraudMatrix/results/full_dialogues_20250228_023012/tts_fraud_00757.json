@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！我们注意到您的包裹在海关处遇到了一些问题，需要您提供身份证明和支付一笔清关费用。请问您现在方便处理吗？",
+      "timestamp": 1740685463.852711
+    },
+    {
+      "role": "right",
+      "content": "您好，我确实有一个包裹，但我需要确认一下，你们是哪家物流公司？我需要确保这是正规的沟通渠道。",
+      "timestamp": 1740685465.9104657
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份表示怀疑，并要求确认物流公司的真实性，显示出对诈骗的警觉性。用户可能意识到这是一个潜在的诈骗电话，因此选择挂断以避免进一步的潜在风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

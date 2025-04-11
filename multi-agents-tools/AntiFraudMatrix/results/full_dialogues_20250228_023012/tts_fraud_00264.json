@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的快递客服专员，这里显示您的包裹中可能含有违禁品，需要您配合处理。请提供您的姓名和电话，以便我们核对信息。",
+      "timestamp": 1740686899.6149356
+    },
+    {
+      "role": "right",
+      "content": "您好，我叫李明，电话是13812345678。不过我最近没寄过什么东西啊，这可能是误会吧。你们是怎么发现有违禁品的？",
+      "timestamp": 1740686901.6881144
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供个人信息后，意识到可能存在诈骗风险，因此主动挂断电话以终止对话。用户的意图是避免进一步泄露个人信息或遭受经济损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

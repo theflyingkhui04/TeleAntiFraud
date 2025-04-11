@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX彩票公司的客服，恭喜您中了我们公司的一等奖，奖金高达50万元！请问您方便现在确认领奖信息吗？",
+      "timestamp": 1740689982.9215863
+    },
+    {
+      "role": "right",
+      "content": "哎呀，这是真的吗？我这辈子还没中过这么大的奖呢。不过...我记得儿子说过天上不会掉馅饼，让我小心点。你们公司是真的吗？",
+      "timestamp": 1740689987.275389
+    },
+    {
+      "role": "left",
+      "content": "很抱歉打扰您了，如果您对领奖有任何疑问，随时可以拨打我们的官方电话咨询。祝您生活愉快！再见。",
+      "timestamp": 1740689994.43745
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。我会先跟儿子商量一下，再决定怎么处理这件事。再见。",
+      "timestamp": 1740690031.3794184
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明其选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "很抱歉打扰您了，如果您对领奖有任何疑问，随时可以拨打我们的官方电话咨询。祝您生活愉快！再见。"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。我会先跟儿子商量一下，再决定怎么处理这件事。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

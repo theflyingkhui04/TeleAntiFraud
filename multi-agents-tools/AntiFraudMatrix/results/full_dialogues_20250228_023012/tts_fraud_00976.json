@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子的朋友小李，他现在出事了，您得赶紧汇点钱过来救他！",
+      "timestamp": 1740688719.7188532
+    },
+    {
+      "role": "right",
+      "content": "小李，你先别急，你慢慢告诉我到底怎么回事。我儿子他现在在哪里？他出什么事了？你得把事情说清楚，我才能帮你。",
+      "timestamp": 1740688721.6563084
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子出事需要汇款时，要求诈骗者提供更详细的信息和情况说明。用户表现出谨慎的态度，要求诈骗者提供具体信息以验证情况的真实性。诈骗者未能提供足够的信息，导致用户怀疑其真实性，因此选择挂断电话，以避免进一步的风险。这表明用户具有一定的防骗意识，能够在面对可疑情况时保持冷静并采取行动保护自己。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

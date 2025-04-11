@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你是李华的家人吗？你儿子在我们手上，不想他出事就立刻准备五十万赎金！",
+      "timestamp": 1740742804.8728523
+    },
+    {
+      "role": "right",
+      "content": "你们是谁？我儿子怎么会在你们手上？你们到底想干什么？我需要证据证明我儿子真的在你们手上，否则我不会相信你们的！",
+      "timestamp": 1740742808.033511
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的威胁感到怀疑和不安，要求提供证据以验证诈骗者的说法。用户可能意识到这是一个诈骗电话，因此选择挂断电话以避免进一步的威胁和压力。用户的意图是保护自己和家人免受潜在的诈骗伤害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

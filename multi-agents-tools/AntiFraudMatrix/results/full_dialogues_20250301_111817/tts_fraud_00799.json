@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您，您的彩票号码与本期特等奖号码完全匹配，您中了一百万元的大奖！请问我可以帮您处理后续事宜吗？",
+      "timestamp": 1740806928.186997
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太不可思议了！我平时买彩票也就是图个乐呵，没想到竟然中了这么大的奖。您能帮我确认一下吗？我这心里还七上八下的。",
+      "timestamp": 1740806930.6796825
+    },
+    {
+      "role": "left",
+      "content": "当然可以，这也是我们的职责所在。请您提供一下购买彩票时的手机号码和姓名，我们这边需要核对信息，确保奖金能够安全地发放给您。",
+      "timestamp": 1740806937.4380076
+    },
+    {
+      "role": "right",
+      "content": "好的，我的手机号码是这个，名字叫张建国。我这就找找彩票，您稍等一下。",
+      "timestamp": 1740806939.3474042
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能在提供个人信息的过程中突然意识到这可能是一个诈骗电话，或者在寻找彩票的过程中发现并未购买过彩票，因此选择立即挂断电话以避免进一步的风险。用户的意图是终止对话，防止个人信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

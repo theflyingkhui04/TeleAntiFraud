@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询员，有什么我可以帮您的吗？",
+      "timestamp": 1740976589.687481
+    },
+    {
+      "role": "right",
+      "content": "哦，你好。我就住在附近，最近村里路修得差不多了，我想知道新路什么时候能正式通车。",
+      "timestamp": 1740976592.880478
+    },
+    {
+      "role": "left",
+      "content": "新路的正式通车时间通常由当地交通管理部门决定，根据最新的信息，新路预计将在下周二正式通车。您可以关注当地交通管理部门的官方公告，以获取最准确的信息。",
+      "timestamp": 1740976597.9984841
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的信息。我会留意的。",
+      "timestamp": 1740976599.7934408
+    },
+    {
+      "role": "left",
+      "content": "好的，感谢您的耐心等待，新路的通车信息已提供给您，祝您出行愉快。如果有其他问题，随时欢迎咨询。",
+      "timestamp": 1740976610.6983976
+    },
+    {
+      "role": "right",
+      "content": "谢谢，有问题我再联系你。祝你一天愉快。",
+      "timestamp": 1740976611.8943388
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已获得所需信息，并表示感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，感谢您的耐心等待，新路的通车信息已提供给您，祝您出行愉快。如果有其他问题，随时欢迎咨询。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，有问题我再联系你。祝你一天愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

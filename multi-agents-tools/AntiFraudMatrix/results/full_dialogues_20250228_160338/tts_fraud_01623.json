@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你听好了，你的儿子现在在我手上，如果你不想他出事，就马上准备五十万现金，否则后果自负！",
+      "timestamp": 1740731657.716681
+    },
+    {
+      "role": "right",
+      "content": "什么？你说的这是真的吗？我儿子他真的在你手上？你到底是什么人？你快点放了他，我求求你了！",
+      "timestamp": 1740731664.9511333
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被绑架并要求支付赎金后，表现出极度的惊慌和担忧。用户可能因为无法立即确认信息的真实性，且在极度情绪化的状态下感到无助或害怕，选择了挂断电话。这可能是出于自我保护的本能反应，避免在情绪失控的情况下做出任何可能的错误决定。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

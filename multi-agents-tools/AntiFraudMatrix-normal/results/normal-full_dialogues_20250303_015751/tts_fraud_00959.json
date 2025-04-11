@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询专员为您服务，请问有什么可以帮助您的？",
+      "timestamp": 1740978378.5933156
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从市中心到机场的公共交通线路和时间。",
+      "timestamp": 1740978380.504482
+    },
+    {
+      "role": "left",
+      "content": "从市中心到机场，您可以选择乘坐地铁二号线直达机场，全程大约需要四十分钟。如果乘坐公交车，可以乘坐机场大巴专线，大约需要六十分钟，具体时间可能会根据路况有所变化。您需要了解更详细的班次时间吗？",
+      "timestamp": 1740978387.593113
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。地铁二号线的首末班车时间是什么时候？",
+      "timestamp": 1740978389.761562
+    },
+    {
+      "role": "left",
+      "content": "地铁二号线的首班车从市中心站发车时间是早上六点，末班车是晚上十一点。建议您根据您的出行时间提前到达车站，以免错过班次。",
+      "timestamp": 1740978398.6447744
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的帮助。",
+      "timestamp": 1740978399.743331
+    },
+    {
+      "role": "left",
+      "content": "如果您还有其他问题或需要进一步的帮助，随时可以联系我。祝您旅途愉快！",
+      "timestamp": 1740978408.3182678
+    },
+    {
+      "role": "right",
+      "content": "好的，再次感谢。旅途愉快！",
+      "timestamp": 1740978410.212848
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并明确表示了感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您还有其他问题或需要进一步的帮助，随时可以联系我。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，再次感谢。旅途愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

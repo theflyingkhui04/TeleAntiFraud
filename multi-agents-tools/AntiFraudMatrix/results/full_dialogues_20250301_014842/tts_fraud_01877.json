@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，这里是速递通快递公司，我是客服小张。我们发现您的包裹在运输过程中出现了问题，需要您提供一些信息以便我们尽快处理。您现在方便吗？",
+      "timestamp": 1740781529.485722
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我方便，但你说的包裹问题具体是什么情况？我最近确实有几个包裹在寄送中。",
+      "timestamp": 1740781534.0999835
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为对包裹问题的具体情况不够了解，或者对诈骗者提供的信息感到怀疑，选择挂断电话以避免进一步的风险。用户的意图是保护个人信息，防止可能的诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李华吗？我是你儿子小明的朋友，他现在出事了，被坏人抓走了，你必须马上给我打钱，不然他们就要对他下手了！",
+      "timestamp": 1740771327.288713
+    },
+    {
+      "role": "right",
+      "content": "啊，天哪，你说什么？小明真的被坏人抓走了？这怎么可能！你快告诉我具体是怎么回事，我需要马上去救他！",
+      "timestamp": 1740771329.168215
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为情绪过于激动，无法继续对话，或者用户识破了诈骗手段，选择立即挂断电话以避免进一步的诈骗。用户的意图可能是保护自己不受骗，或者是因为担心儿子的安全而需要时间冷静思考下一步行动。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

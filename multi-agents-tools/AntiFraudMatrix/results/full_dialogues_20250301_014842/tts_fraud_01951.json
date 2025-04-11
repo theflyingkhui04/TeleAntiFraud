@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的邻居李阿姨，您儿子小刚现在在我这里，他出事了，您得赶紧过来。",
+      "timestamp": 1740774759.6270707
+    },
+    {
+      "role": "right",
+      "content": "李阿姨，您先别急，您在哪儿？我儿子到底怎么了？发生了什么事情？我马上过来。",
+      "timestamp": 1740774760.9628267
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为察觉到诈骗者提供的信息不一致或过于紧急而感到不安，选择挂断电话以避免进一步的风险。用户的意图是停止与诈骗者的交流，保护自己不受潜在的诈骗行为侵害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

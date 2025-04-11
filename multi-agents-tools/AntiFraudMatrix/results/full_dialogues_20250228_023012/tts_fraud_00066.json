@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张先生吗？我是您的朋友小李的同事，小李现在出了点事，需要您的帮助。",
+      "timestamp": 1740686029.8099105
+    },
+    {
+      "role": "right",
+      "content": "哦，小李怎么了？他出什么事了？你先说说看。",
+      "timestamp": 1740686031.2757611
+    },
+    {
+      "role": "left",
+      "content": "紧急情况！小李刚才被我们公司的人带走了，因为他涉嫌泄露商业机密，现在被扣押着。我们需要5万块钱保释金，不然他可能要被送到公安局了。",
+      "timestamp": 1740686038.1800191
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在描述完紧急情况并提出金钱要求后立即挂断电话，可能是为了制造紧张气氛，促使用户在没有时间思考的情况下做出决定。这种突然挂断也是为了避免用户提出更多的问题，减少被识破的风险。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

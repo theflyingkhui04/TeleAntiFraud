@@ -1,0 +1,51 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，我可以帮您预订餐点吗？",
+      "timestamp": 1740972916.59507
+    },
+    {
+      "role": "right",
+      "content": "好的，我想订一份晚餐。有什么推荐的吗？",
+      "timestamp": 1740972917.9172018
+    },
+    {
+      "role": "left",
+      "content": "我们今天的特色菜有香煎三文鱼和黑椒牛柳，都非常受欢迎。您有什么偏好吗？",
+      "timestamp": 1740972924.1852145
+    },
+    {
+      "role": "right",
+      "content": "香煎三文鱼听起来不错，就来一份吧。还有一份沙拉，不要加奶酪。",
+      "timestamp": 1740972925.7320752
+    },
+    {
+      "role": "left",
+      "content": "好的，一份香煎三文鱼和一份不加奶酪的沙拉。还需要为您的晚餐加点什么吗？比如汤或甜点？",
+      "timestamp": 1740972938.07248
+    },
+    {
+      "role": "right",
+      "content": "再来一份蘑菇汤，甜点就来一份水果拼盘吧。",
+      "timestamp": 1740972939.4737933
+    },
+    {
+      "role": "left",
+      "content": "好的，一份香煎三文鱼、一份不加奶酪的沙拉、一份蘑菇汤和一份水果拼盘。您的订单已经记录好了。请提供您的送餐地址和联系电话。",
+      "timestamp": 1740972945.445489
+    },
+    {
+      "role": "right",
+      "content": "地址是中山路123号，电话是13812345678。谢谢。",
+      "timestamp": 1740972947.3763642
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供了完整的送餐地址和联系电话后，明确表示了感谢并使用了结束标识符'##ENDCALL_SIGNAL##'，表明用户认为对话目标已经达成，即完成了晚餐的预订，因此选择结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

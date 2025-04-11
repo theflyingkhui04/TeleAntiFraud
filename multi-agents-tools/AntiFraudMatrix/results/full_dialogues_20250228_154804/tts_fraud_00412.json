@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你好，我是你儿子的同学小明，你儿子刚刚在学校外面出了点意外，现在在医院，你得赶紧过来，还得多带点钱，治疗费用很高，你快点吧。",
+      "timestamp": 1740751339.5952835
+    },
+    {
+      "role": "right",
+      "content": "小明，你先别急，你能告诉我具体是哪家医院吗？我儿子伤得重不重？我这就赶过去，但路上可能需要一点时间。",
+      "timestamp": 1740751341.4696217
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提供的信息产生了怀疑，要求提供更具体的细节（如医院名称和儿子的伤情），这表明用户正在谨慎地验证信息的真实性。用户挂断电话可能是为了有时间思考和验证信息，或者直接联系儿子或医院确认情况，而不是立即按照诈骗者的指示行动。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

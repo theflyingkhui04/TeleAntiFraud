@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您中得了本期彩票的一等奖，奖金高达八十万！请提供您的姓名和联系方式，以便我们为您办理领奖手续。",
+      "timestamp": 1740746657.0344532
+    },
+    {
+      "role": "right",
+      "content": "您好，真的中奖了？这太不可思议了。不过，我之前从来没有买过彩票，这会不会是搞错了？",
+      "timestamp": 1740746659.28686
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称自己中奖后表示怀疑，因为用户从未购买过彩票。用户可能认为这是一起诈骗行为，因此选择立即挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

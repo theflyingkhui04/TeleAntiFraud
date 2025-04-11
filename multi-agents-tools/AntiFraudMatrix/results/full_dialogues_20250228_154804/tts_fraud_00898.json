@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是警察局的，很遗憾地通知您，您的儿子刚刚出了点意外，现在被扣留在这里。您需要尽快准备一百万现金来支付保释金，否则他可能会有更大的麻烦。请您听我的，时间不多了。",
+      "timestamp": 1740736384.2176988
+    },
+    {
+      "role": "right",
+      "content": "警察先生，您能告诉我我儿子具体出了什么问题吗？还有，我需要确认一下您的身份，可以告诉我您的警号吗？我得跟我儿子核实一下。",
+      "timestamp": 1740736386.5026352
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出怀疑和谨慎，要求诈骗者提供具体信息和身份验证，这表明用户可能已经意识到这是一起诈骗。用户主动挂断电话，可能是为了防止进一步的信息泄露，并寻求通过其他方式验证儿子的安全状况。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

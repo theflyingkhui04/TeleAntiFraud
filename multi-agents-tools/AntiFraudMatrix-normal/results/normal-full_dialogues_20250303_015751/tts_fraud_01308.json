@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服专员为您服务，请问有什么可以帮助您的？",
+      "timestamp": 1740972632.0700831
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下你们的课程安排。",
+      "timestamp": 1740972633.358508
+    },
+    {
+      "role": "left",
+      "content": "您好，我们目前提供多种课程，包括基础班、进阶班和专项技能班。请问您具体想了解哪个方面的课程呢？",
+      "timestamp": 1740972640.3221698
+    },
+    {
+      "role": "right",
+      "content": "我想了解一下基础班的课程内容和时间安排。",
+      "timestamp": 1740972641.4052725
+    },
+    {
+      "role": "left",
+      "content": "基础班主要涵盖基础知识和实操技巧，每周一、三、五晚上七点到九点上课，课程周期为三个月。您对上课时间有特殊要求吗？",
+      "timestamp": 1740972648.049499
+    },
+    {
+      "role": "right",
+      "content": "这个时间安排可以，我再考虑一下。谢谢。",
+      "timestamp": 1740972649.5253694
+    },
+    {
+      "role": "left",
+      "content": "已经为您详细介绍了基础班的课程内容和时间安排，如果确定报名或有其他问题，欢迎随时联系我们。感谢您的咨询，祝您一切顺利！再见。",
+      "timestamp": 1740972655.010053
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。",
+      "timestamp": 1740972656.1354613
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表示了感谢，没有进一步的询问。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "已经为您详细介绍了基础班的课程内容和时间安排，如果确定报名或有其他问题，欢迎随时联系我们。感谢您的咨询，祝您一切顺利！再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

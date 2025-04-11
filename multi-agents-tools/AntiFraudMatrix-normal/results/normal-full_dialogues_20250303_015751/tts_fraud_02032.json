@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品需要我帮您介绍吗？",
+      "timestamp": 1740981142.2175417
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我自己看看就行。有需要我会叫你的。",
+      "timestamp": 1740981143.1621525
+    },
+    {
+      "role": "left",
+      "content": "好的，您慢慢看，需要帮助时随时告诉我。祝您购物愉快！",
+      "timestamp": 1740981147.001856
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在用户明确表示希望自行浏览后，礼貌地回应并提供了需要帮助时的联系方式，随后主动结束了对话。服务方的意图是尊重用户的意愿，同时保持良好的顾客服务态度，避免过度打扰用户。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

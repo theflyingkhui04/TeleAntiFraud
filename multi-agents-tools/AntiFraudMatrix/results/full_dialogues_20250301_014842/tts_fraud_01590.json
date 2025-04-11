@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是国家彩票中心，恭喜您获得了一等奖，奖金高达五百万元！您相信好运就这么来了吗？",
+      "timestamp": 1740778221.6645374
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？我从来没想到过会有这种好事落到我头上。您能告诉我具体是怎么回事吗？我需要做什么呢？",
+      "timestamp": 1740778224.1254926
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称自己中了巨额彩票后，表现出惊讶和好奇，但紧接着用户主动挂断了电话。这可能是因为用户突然意识到这是一起诈骗，或者用户对这种突如其来的‘好运’感到怀疑，决定不再继续对话以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

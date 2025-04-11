@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "打车服务已为您准备好，需要帮助叫车吗？",
+      "timestamp": 1740950522.8444262
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦帮我叫一辆车吧。谢谢！",
+      "timestamp": 1740950526.414304
+    },
+    {
+      "role": "left",
+      "content": "好的，我马上为您叫车。请问您现在的位置在哪里？",
+      "timestamp": 1740950530.884231
+    },
+    {
+      "role": "right",
+      "content": "我在市区的星巴克，门口那条街上。",
+      "timestamp": 1740950531.8215787
+    },
+    {
+      "role": "left",
+      "content": "好的，我已经记录下您的位置。请问您需要去哪个目的地？",
+      "timestamp": 1740950538.5899875
+    },
+    {
+      "role": "right",
+      "content": "我要去火车站，麻烦您了。",
+      "timestamp": 1740950540.1898441
+    },
+    {
+      "role": "left",
+      "content": "好的，我已为您叫了一辆车。大约五分钟后到达，请注意查看车辆信息。如果需要进一步帮助，随时告诉我。",
+      "timestamp": 1740950547.3121626
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助！我会留意的。",
+      "timestamp": 1740950549.460689
+    },
+    {
+      "role": "left",
+      "content": "车辆已为您叫好，大约五分钟后到达。祝您旅途愉快！如果有任何问题，欢迎随时联系我们。",
+      "timestamp": 1740950554.8937602
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！如果有问题我会再联系的。祝您一天愉快！",
+      "timestamp": 1740950556.4705749
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢并确认会留意车辆信息，服务目标已达成，用户没有进一步的帮助需求。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "车辆已为您叫好，大约五分钟后到达。祝您旅途愉快！如果有任何问题，欢迎随时联系我们。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！如果有问题我会再联系的。祝您一天愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

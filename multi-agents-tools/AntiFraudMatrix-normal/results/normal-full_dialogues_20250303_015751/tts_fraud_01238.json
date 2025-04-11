@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，有什么我可以帮您的吗？",
+      "timestamp": 1740959036.1210465
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个外卖。有什么推荐的吗？",
+      "timestamp": 1740959037.2126734
+    },
+    {
+      "role": "left",
+      "content": "我们这周推荐的是麻辣香锅和酸菜鱼，都非常受欢迎，您可以考虑一下。",
+      "timestamp": 1740959040.8527703
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来一份麻辣香锅吧。还有一份米饭。",
+      "timestamp": 1740959043.422786
+    },
+    {
+      "role": "left",
+      "content": "好的，一份麻辣香锅和一份米饭已加入您的订单。还需要加点什么饮料或者小菜吗？",
+      "timestamp": 1740959048.3784592
+    },
+    {
+      "role": "right",
+      "content": "不用了，这样就好。谢谢。什么时候能送到？",
+      "timestamp": 1740959049.706118
+    },
+    {
+      "role": "left",
+      "content": "您的订单预计在三十分钟内送达，如果地址偏远可能需要稍长一点时间。请您留意送餐员的联系。",
+      "timestamp": 1740959054.3846118
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情，并提供了预计送达时间后，认为已经完成了本次服务流程，用户也没有提出进一步的需求，因此选择结束对话。服务方的意图是确保用户获得所需的服务信息，并礼貌地结束对话，以保持良好的用户体验。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

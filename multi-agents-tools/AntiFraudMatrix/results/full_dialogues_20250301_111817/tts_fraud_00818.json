@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，李先生吗？我是您的老朋友张华，有个非常紧急的情况需要您的帮助。",
+      "timestamp": 1740805001.8004274
+    },
+    {
+      "role": "right",
+      "content": "张华啊，好久没联系了，你最近怎么样？什么紧急情况？你说说看。",
+      "timestamp": 1740805003.506981
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一起诈骗电话，或者对诈骗者提供的信息感到怀疑，因此选择立即挂断电话以避免进一步的风险。用户的意图是终止与诈骗者的交流，防止个人信息泄露或财务损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

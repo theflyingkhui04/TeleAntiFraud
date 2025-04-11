@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李华吗？我是你儿子小明的同学，刚刚小明出了点意外，现在在医院，情况很紧急，你得赶紧过来，还得准备一些医疗费用。",
+      "timestamp": 1740785483.7117217
+    },
+    {
+      "role": "right",
+      "content": "你先别急，小明真的在医院吗？你能告诉我具体是哪家医院吗？我得确认一下，才能过去。",
+      "timestamp": 1740785488.2875428
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能怀疑这是一起诈骗电话，要求提供更多具体信息以验证情况的真实性。用户在没有得到具体医院名称的情况下选择挂断电话，意图是中断可能的诈骗行为，保护自己不受骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

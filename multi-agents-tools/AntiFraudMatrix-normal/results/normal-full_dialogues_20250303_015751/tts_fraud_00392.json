@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，欢迎使用我们的外卖服务，我可以帮您点餐或解答任何疑问。",
+      "timestamp": 1740976830.4876614
+    },
+    {
+      "role": "right",
+      "content": "你好，我看看有什么好吃的推荐吧。",
+      "timestamp": 1740976832.05809
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们的招牌菜有宫保鸡丁、鱼香肉丝和麻辣香锅，都是非常受欢迎的选择。您对口味有什么特别的偏好吗？",
+      "timestamp": 1740976840.7438295
+    },
+    {
+      "role": "right",
+      "content": "我比较喜欢辣一点的，麻辣香锅听起来不错。可以加点什么菜吗？",
+      "timestamp": 1740976843.6650734
+    },
+    {
+      "role": "left",
+      "content": "当然可以，麻辣香锅可以加的菜品有很多选择，比如牛肉、鸡翅、豆皮、金针菇、藕片等。您有什么特别想加的吗？",
+      "timestamp": 1740976853.0450935
+    },
+    {
+      "role": "right",
+      "content": "加点牛肉和金针菇吧，听起来挺搭配的。",
+      "timestamp": 1740976854.6150615
+    },
+    {
+      "role": "left",
+      "content": "好的，您的麻辣香锅将包含牛肉和金针菇。还需要别的菜或者小食搭配吗？",
+      "timestamp": 1740976860.510094
+    },
+    {
+      "role": "right",
+      "content": "再来一份酸辣土豆丝吧，听起来也不错。",
+      "timestamp": 1740976861.7224662
+    },
+    {
+      "role": "left",
+      "content": "好的，酸辣土豆丝也是一道非常美味的配菜。您需要饮料或甜点吗？",
+      "timestamp": 1740976867.976318
+    },
+    {
+      "role": "right",
+      "content": "给我来一杯冰红茶吧，甜点就不用了，谢谢。",
+      "timestamp": 1740976869.9190102
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包括一份加了牛肉和金针菇的麻辣香锅，还有一份酸辣土豆丝。预计送达时间为30分钟内。感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740976881.5344515
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。等会儿见。",
+      "timestamp": 1740976883.658128
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，包括主菜、配菜和饮料的选择，并明确表示不需要甜点。服务方已记录下用户的订单，对话目标已达成。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包括一份加了牛肉和金针菇的麻辣香锅，还有一份酸辣土豆丝。预计送达时间为30分钟内。感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。等会儿见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

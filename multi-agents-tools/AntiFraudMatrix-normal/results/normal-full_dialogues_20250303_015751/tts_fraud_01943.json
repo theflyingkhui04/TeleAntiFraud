@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "感谢您的来电，我是客服代表小张，有什么可以帮到您的吗？",
+      "timestamp": 1740980612.0318768
+    },
+    {
+      "role": "right",
+      "content": "您好，小张，我是李医生。我最近感觉有些疲劳，想了解一下有没有什么好的调理方法。",
+      "timestamp": 1740980613.820714
+    },
+    {
+      "role": "left",
+      "content": "李医生，您好。针对疲劳的情况，建议您可以尝试规律作息，保证充足的睡眠时间，同时适量增加户外活动和运动，以增强体质。饮食上可以多吃富含维生素和矿物质的食物，如新鲜蔬菜、水果和坚果。如果疲劳感持续不减，建议您咨询专业的医疗机构进行详细检查。希望这些建议对您有所帮助。还有其他方面需要我帮忙的吗？",
+      "timestamp": 1740980623.3773174
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在提供了关于疲劳调理的建议后，询问用户是否还有其他需要帮助的地方。用户没有进一步的提问或需求，服务方通过提供结束信号代码'##ENDCALL_SIGNAL##'表明对话已经完成，服务目标达成，意图是礼貌地结束对话，确保用户满意。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自顺丰快递的客服代表，这里显示您的一个包裹内含有违禁物品，需要您支付一定的罚款才能继续处理，否则我们将不得不退回该包裹。您能告诉我您的全名和联系方式吗？这样我们可以进一步确认您的信息。",
+      "timestamp": 1740681190.5896583
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊...我的名字是李大贵，电话是138-1234-5678。我记得前两天确实有个顺丰的包裹，不知道里面是什么东西。罚款要多少钱啊？",
+      "timestamp": 1740681194.8956687
+    },
+    {
+      "role": "left",
+      "content": "好的李先生，您的信息我们已经记录下来了。关于罚款的具体金额，我们稍后会通过短信发送给您。请注意查收，并尽快处理。感谢您的配合，再见。",
+      "timestamp": 1740681238.2146611
+    },
+    {
+      "role": "right",
+      "content": "好的，我会注意查收短信的。谢谢你的提醒，再见。",
+      "timestamp": 1740681240.2555227
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了全名和电话号码，属于敏感信息，诈骗明显成功。为了防止进一步的信息泄露，应当立即终止对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的李先生，您的信息我们已经记录下来了。关于罚款的具体金额，我们稍后会通过短信发送给您。请注意查收，并尽快处理。感谢您的配合，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，我会注意查收短信的。谢谢你的提醒，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

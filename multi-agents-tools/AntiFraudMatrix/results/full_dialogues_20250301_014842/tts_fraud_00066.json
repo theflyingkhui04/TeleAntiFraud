@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您，您中了一等奖，奖金是五十万现金，还有价值十万元的豪华旅游套餐！请您提供一下您的个人信息，我们需要核对一下。",
+      "timestamp": 1740782769.9977317
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？太好了！我正好想去旅游。你们需要我提供哪些信息呢？",
+      "timestamp": 1740782772.1656044
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到这是一起诈骗而选择挂断，或者是因为对诈骗者的要求感到怀疑或不安。用户在对话中表现出初步的兴趣，但可能在进一步思考后决定不再继续交流，以避免提供个人信息的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

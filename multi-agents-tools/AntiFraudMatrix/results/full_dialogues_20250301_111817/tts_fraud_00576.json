@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，李先生吗？我是您儿子小李的朋友，现在情况非常紧急，小李出事了，您能听我解释吗？",
+      "timestamp": 1740808043.8051457
+    },
+    {
+      "role": "right",
+      "content": "什么？小李出事了？你怎么知道我电话的？",
+      "timestamp": 1740808045.2277188
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者声称其儿子出事而感到恐慌或怀疑，同时对诈骗者如何获取其电话号码表示质疑。用户在未得到满意的解释前选择挂断电话，以保护自己不受潜在的诈骗侵害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

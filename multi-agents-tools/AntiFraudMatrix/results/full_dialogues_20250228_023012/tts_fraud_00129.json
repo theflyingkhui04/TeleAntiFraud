@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您中了我们公司的特别大奖！您只需要支付一点手续费就能领取50万元的奖金，请问您现在方便操作吗？",
+      "timestamp": 1740684501.0170023
+    },
+    {
+      "role": "right",
+      "content": "真的吗？我中了50万元的大奖？太神奇了！不过，手续费是多少呢？我得确认一下。",
+      "timestamp": 1740684540.847752
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到需要支付手续费时产生了怀疑，可能认为这是一个诈骗电话，因此选择挂断电话以避免进一步的风险。用户的意图是终止与诈骗者的交流，防止个人信息或财务受损。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

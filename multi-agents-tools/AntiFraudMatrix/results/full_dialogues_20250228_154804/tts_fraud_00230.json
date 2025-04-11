@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是客服代表小李。我们检测到您的账户有异常交易，请问您最近是否有过大额转账或在线购物？",
+      "timestamp": 1740746576.3517427
+    },
+    {
+      "role": "right",
+      "content": "您好，小李。我确实没有进行过大额转账或在线购物。我最近一直在上班，没有时间处理这些事情。您能具体告诉我有什么异常吗？我有点担心。不过，为了确认您的身份，能否提供一下我的账户后四位数字？我需要确保是银行的人在联系我。",
+      "timestamp": 1740746584.3823888
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了警惕性，要求验证对方身份，以确保是银行人员在联系自己。用户挂断电话可能是出于对诈骗的怀疑，认为直接挂断是最安全的选择，避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

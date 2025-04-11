@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李先生吗？我是小张的朋友，现在情况非常紧急，小张出事了，被一伙人挟持了，你必须马上给我们准备二十万的赎金，不然他们就要对小张动手了。",
+      "timestamp": 1740792007.403616
+    },
+    {
+      "role": "right",
+      "content": "什么？你说小张被挟持了？这到底是怎么回事？你给我详细说清楚，不然我怎么相信你？你先告诉我你是谁，小张怎么会认识你的？",
+      "timestamp": 1740792010.7035582
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提出的要求后，表现出明显的怀疑态度，并要求诈骗者提供更多信息以证明其身份和所说情况的真实性。用户挂断电话可能是出于对诈骗者身份的怀疑，认为这是一个诈骗电话，不愿意继续与诈骗者交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

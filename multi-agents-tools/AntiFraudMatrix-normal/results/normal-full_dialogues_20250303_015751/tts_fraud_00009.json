@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，我是您的订餐助手，请问您需要预订哪家餐厅的餐点呢？",
+      "timestamp": 1740946290.517838
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一家附近的快餐店，有什么推荐吗？",
+      "timestamp": 1740946291.5993888
+    },
+    {
+      "role": "left",
+      "content": "当然，这边有几家评分很高的快餐店推荐给您：1. 快味轩，2. 香堡堡，3. 快乐汉堡。它们都提供快捷美味的餐点，您有特别偏好吗？",
+      "timestamp": 1740946297.2503345
+    },
+    {
+      "role": "right",
+      "content": "那我就选快乐汉堡吧，听说他们家的炸鸡块很好吃。",
+      "timestamp": 1740946299.4128497
+    },
+    {
+      "role": "left",
+      "content": "好的，快乐汉堡的炸鸡块确实非常受欢迎。请问您需要什么套餐或额外的小食呢？",
+      "timestamp": 1740946306.0075498
+    },
+    {
+      "role": "right",
+      "content": "来一份炸鸡块和一份薯条，还有一杯可乐。",
+      "timestamp": 1740946307.5561829
+    },
+    {
+      "role": "left",
+      "content": "好的，您点的是快乐汉堡的炸鸡块一份、薯条一份和一杯可乐。需要帮您备注些什么吗？比如不要辣椒或少油之类的。",
+      "timestamp": 1740946313.8650389
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这样吧。谢谢。",
+      "timestamp": 1740946314.594803
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已成功提交，快乐汉堡的炸鸡块、薯条和可乐，我们会尽快为您安排配送。预计三十分钟内送达，谢谢您的订购，希望您用餐愉快。",
+      "timestamp": 1740946320.0735798
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740946324.170713
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已确认订单内容，并表示无需其他备注，服务目标达成。",
+  "terminator": "service",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已成功提交，快乐汉堡的炸鸡块、薯条和可乐，我们会尽快为您安排配送。预计三十分钟内送达，谢谢您的订购，希望您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪项服务呢？",
+      "timestamp": 1740948053.7080226
+    },
+    {
+      "role": "right",
+      "content": "您好，我想了解一下你们的维修服务。",
+      "timestamp": 1740948057.8626506
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方询问具体服务需求时，仅表达了对维修服务的兴趣，但未进一步提问或预约。用户可能只是想确认服务存在，或可能在了解后决定暂时不需要预约。由于双方都使用了结束信号代码，表明对话已经自然结束，没有进一步的交流需求。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

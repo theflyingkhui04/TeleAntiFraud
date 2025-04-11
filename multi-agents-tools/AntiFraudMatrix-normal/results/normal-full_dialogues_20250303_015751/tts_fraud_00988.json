@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是这里的导购员，有什么可以帮您的吗？",
+      "timestamp": 1740957002.4302864
+    },
+    {
+      "role": "right",
+      "content": "您好，我就是随便逛逛，看看有没有合适的衣服。谢谢。",
+      "timestamp": 1740957003.8243098
+    },
+    {
+      "role": "left",
+      "content": "好的，我们这里有很多新款和经典款式，您可以先看看，如果有什么需要帮助的，随时告诉我。",
+      "timestamp": 1740957011.1884348
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的推荐，我会慢慢看的。",
+      "timestamp": 1740957012.276618
+    },
+    {
+      "role": "left",
+      "content": "不客气，您慢慢挑，我在旁边，有需要随时叫住我。",
+      "timestamp": 1740957016.2507725
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户正在自行浏览，并且没有立即需要帮助的情况下，礼貌地结束了对话。服务方的意图是保持专业和礼貌，同时给用户足够的空间自行挑选商品，避免给用户造成压力。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

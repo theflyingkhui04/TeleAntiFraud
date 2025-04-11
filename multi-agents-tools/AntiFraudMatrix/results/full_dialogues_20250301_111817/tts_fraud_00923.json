@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "李老师，您好，我是某某投资公司的张经理。最近我们推出了一款非常有潜力的投资项目，收益率相当可观，想请您了解一下。",
+      "timestamp": 1740808534.723091
+    },
+    {
+      "role": "right",
+      "content": "张经理，你好。投资的事情我得慎重考虑，毕竟年纪大了，经不起大风大浪。你们这个项目具体是怎样的？我听别人说，现在有很多骗子冒充投资公司，搞得人心惶惶。你能给我详细介绍一下吗？",
+      "timestamp": 1740808538.9203162
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对当前投资环境的担忧，特别是提到了对诈骗的警惕。用户虽然没有直接拒绝，但其谨慎的态度和要求详细信息的行为表明，用户可能对诈骗者的真实身份和项目的真实性持怀疑态度。用户主动挂断电话，可能是出于对保护个人信息安全的考虑，避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

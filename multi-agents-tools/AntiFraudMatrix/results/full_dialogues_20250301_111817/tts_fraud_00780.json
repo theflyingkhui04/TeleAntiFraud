@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，我是小张。我们发现您的银行卡可能涉及一笔异常交易，为了您的资金安全，请您提供一下卡号确认一下。",
+      "timestamp": 1740813201.0179384
+    },
+    {
+      "role": "right",
+      "content": "小张啊，你说我的卡有问题？这可怎么办啊，我年纪大了，这些事情不太懂。不过你帮我查一下吧，卡号是六二二八四八零一零一零零零一一二。",
+      "timestamp": 1740813205.0036433
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供卡号后主动挂断电话，可能是因为意识到对方要求提供敏感信息，感到不安或怀疑对方的真实身份，从而选择终止对话以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

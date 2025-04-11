@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的邻居小李。您知道您的儿子小刚现在出事了吗？他被坏人抓走了，对方要求我马上联系您，要一笔赎金，不然他们就要对小刚下手了。您现在有空吗？我们需要赶紧想办法。",
+      "timestamp": 1740783622.3886666
+    },
+    {
+      "role": "right",
+      "content": "小李，你说什么？小刚被坏人抓走了？这到底是怎么回事？你等一下，我这就过来你家，我们详细说说。",
+      "timestamp": 1740783624.0749803
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为情绪激动，急于了解情况并采取行动，选择挂断电话立即前往诈骗者所说的地点。用户的意图是尽快与所谓的‘邻居小李’见面，进一步了解儿子的情况，这表明用户可能暂时没有意识到这是一个诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

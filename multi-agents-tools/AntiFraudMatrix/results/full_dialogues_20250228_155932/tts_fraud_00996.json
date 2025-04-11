@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服，我们发现您的包裹里可能含有违禁品，需要您配合处理。请您提供一下您的姓名和联系电话，以便我们进行核实。",
+      "timestamp": 1740746832.1576397
+    },
+    {
+      "role": "right",
+      "content": "您好，我叫李明，联系电话是您已经掌握的吧？你们怎么会觉得我的包裹里有违禁品呢？这听起来有点奇怪。",
+      "timestamp": 1740746835.3795223
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方的真实身份和意图，对要求提供个人信息感到不安，尤其是在对方提到包裹含有违禁品的情况下。用户通过挂断电话表达了对此次对话的不信任和拒绝继续交流的意图。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

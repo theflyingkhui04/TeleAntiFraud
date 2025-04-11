@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！这里是XX快递公司客服中心，我注意到您的包裹在清关过程中遇到了一些问题。为了确保您的包裹能够顺利送达，我们需要您提供一些身份验证信息。请问您现在方便处理吗？",
+      "timestamp": 1740691418.291721
+    },
+    {
+      "role": "right",
+      "content": "你好，我是张大山。你说我的包裹出问题了？这怎么办啊，我正等着用呢。需要我提供什么信息？",
+      "timestamp": 1740691420.2629845
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出需要提供身份验证信息时，可能意识到了潜在的诈骗风险，因此选择立即挂断电话以保护自己的个人信息安全。用户的意图是避免进一步的交流，防止个人信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

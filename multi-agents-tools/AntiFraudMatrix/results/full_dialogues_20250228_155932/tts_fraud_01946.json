@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李华吗？我是你儿子的朋友张明，他现在出事了，被坏人抓走了，你必须马上给我转账两万块钱，否则他们要对小李下手了。",
+      "timestamp": 1740757873.3218527
+    },
+    {
+      "role": "right",
+      "content": "张明？你说什么？小李出事了？这到底是怎么回事？你先冷静一下，告诉我详细情况。",
+      "timestamp": 1740757874.8669395
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者的紧急且不寻常的要求感到怀疑，要求提供详细情况表明用户试图验证信息的真实性。挂断电话可能是因为用户意识到这可能是一个诈骗电话，或者因为诈骗者未能提供足够的信息来证明其说法的真实性，导致用户选择终止对话以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

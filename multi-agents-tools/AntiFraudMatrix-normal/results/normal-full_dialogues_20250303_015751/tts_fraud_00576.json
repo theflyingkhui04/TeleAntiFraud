@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，可以帮助您叫车、查询路线和费用等，需要帮助吗？",
+      "timestamp": 1740968927.1022918
+    },
+    {
+      "role": "right",
+      "content": "好的，帮我叫一辆车吧，我要从公司回家。公司地址是XX路XX号，家在YY路YY号。",
+      "timestamp": 1740968929.5134802
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您叫了一辆车。司机大约 10 分钟后到达 XX 路 XX 号，车牌号是沪A12345，车型是黑色轿车。您准备好后可以下楼等待。如果有任何问题，可以随时联系我。",
+      "timestamp": 1740968938.4850583
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会准时下楼的。如果有问题我会联系你。",
+      "timestamp": 1740968940.2091556
+    },
+    {
+      "role": "left",
+      "content": "您的车已经叫好了，大约 10 分钟后到达。祝您一路顺利，如果还需要其他帮助，欢迎随时联系我们。再见。",
+      "timestamp": 1740968951.337641
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。",
+      "timestamp": 1740968952.2628686
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已表示感谢并确认会准时下楼等待，同时表示如果有问题会联系服务方，这意味着用户当前没有其他需要帮助的地方，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的车已经叫好了，大约 10 分钟后到达。祝您一路顺利，如果还需要其他帮助，欢迎随时联系我们。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

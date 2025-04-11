@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是快递公司客服部，我们发现您的包裹因海关问题被扣留了，需要您提供身份信息以便核实处理。",
+      "timestamp": 1740681146.359038
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我最近确实有网购一些东西，可能是那个包裹。需要我提供什么信息呢？",
+      "timestamp": 1740681148.8551893
+    },
+    {
+      "role": "left",
+      "content": "我们需要您的姓名、身份证号码和联系方式，另外还需要您支付一笔300元的关税费用才能放行包裹。",
+      "timestamp": 1740681157.8123453
+    },
+    {
+      "role": "right",
+      "content": "好的，我明白。那我先提供我的姓名和联系方式吧，身份证号码我等会儿再找找。我的名字是张伟，电话是138xxxx5678。这样可以吗？",
+      "timestamp": 1740681159.888164
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，请尽快找到身份证号码并联系我们，我们这边会尽快为您处理包裹事宜。祝您生活愉快！",
+      "timestamp": 1740681170.5496988
+    },
+    {
+      "role": "right",
+      "content": "好的，我会尽快联系你们的。谢谢您的帮助！",
+      "timestamp": 1740681171.6171527
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经成功获取了用户的部分敏感信息（姓名和联系方式），这符合终止条件1。诈骗者可能会选择结束对话以避免被追踪或进一步暴露。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，请尽快找到身份证号码并联系我们，我们这边会尽快为您处理包裹事宜。祝您生活愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，我会尽快联系你们的。谢谢您的帮助！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

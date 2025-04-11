@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "“你好，我是公安局的李警官。你儿子现在在我们手上，他因为涉及一起重大案件被拘留了。如果你想让他平安回家，需要立即支付保释金5万元。”",
+      "timestamp": 1740687237.3799064
+    },
+    {
+      "role": "right",
+      "content": "李警官，您好。我是教师，平时和警察打交道不多，但我也知道一些基本的法律程序。您能告诉我具体的案件情况吗？还有，为什么你们会要求我直接支付保释金？通常不是应该通过法院吗？",
+      "timestamp": 1740687242.9057982
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

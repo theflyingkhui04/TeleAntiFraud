@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740983522.077367
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份晚餐。有什么推荐的吗？",
+      "timestamp": 1740983523.6270814
+    },
+    {
+      "role": "left",
+      "content": "当然可以。我们这里有几款人气菜品，比如香辣蟹、蒜蓉烤生蚝和招牌牛肉面，都是非常受欢迎的选择。您有什么口味偏好吗？",
+      "timestamp": 1740983528.671645
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我比较喜欢辣一点的。那就来一份香辣蟹吧。",
+      "timestamp": 1740983532.2760465
+    },
+    {
+      "role": "left",
+      "content": "好的，香辣蟹已加入您的订单。还需要搭配一些其他菜品或饮料吗？比如我们的麻辣烫或是冰镇啤酒，都是不错的选择。",
+      "timestamp": 1740983538.5433526
+    },
+    {
+      "role": "right",
+      "content": "再来一份麻辣烫吧，饮料就来一杯冰红茶。谢谢。",
+      "timestamp": 1740983540.3439264
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认。香辣蟹、麻辣烫和一杯冰红茶。这份订单预计将在四十分钟后送达。如果地址没有变化，我们会在相同地址进行配送。需要我为您确认地址吗？",
+      "timestamp": 1740983548.4000232
+    },
+    {
+      "role": "right",
+      "content": "地址还是上次的那个，不用再确认了。谢谢。",
+      "timestamp": 1740983549.466125
+    },
+    {
+      "role": "left",
+      "content": "您的订单已确认，我们会尽快为您准备。预计四十分钟后送达。如果您有任何其他需求，欢迎随时联系我们。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740983560.4691854
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，期待用餐。",
+      "timestamp": 1740983561.2710443
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单，并且表示地址没有变化，不需要再确认。服务方已经提供了所有必要的信息，包括预计送达时间。对话目标已达成。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的订单已确认，我们会尽快为您准备。预计四十分钟后送达。如果您有任何其他需求，欢迎随时联系我们。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢，期待用餐。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

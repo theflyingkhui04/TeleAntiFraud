@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服为您服务，请问有什么问题需要我帮助解决？",
+      "timestamp": 1740953377.932322
+    },
+    {
+      "role": "right",
+      "content": "嗨，我最近在网上买了一本书，但是一直没收到，能帮我查一下吗？",
+      "timestamp": 1740953379.124072
+    },
+    {
+      "role": "left",
+      "content": "当然可以，麻烦您提供一下订单号或者购买时使用的账号信息，我来帮您查询。",
+      "timestamp": 1740953383.0761824
+    },
+    {
+      "role": "right",
+      "content": "好的，订单号是123456789。谢谢。",
+      "timestamp": 1740953384.0175138
+    },
+    {
+      "role": "left",
+      "content": "已经查到了您的订单，显示这本书已经发货，目前处于运输中。您可以通过这个链接查看物流详情：[链接]。如果还有其他问题，随时告诉我。",
+      "timestamp": 1740953389.1037848
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我去看一下物流详情。",
+      "timestamp": 1740953390.1458764
+    },
+    {
+      "role": "left",
+      "content": "感谢您的耐心等待，如果后续还有任何问题，欢迎随时联系我们。祝您一天愉快！",
+      "timestamp": 1740953397.2526603
+    },
+    {
+      "role": "right",
+      "content": "谢谢，你也是。如果有问题我会再联系的。",
+      "timestamp": 1740953398.5829756
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢并准备查看物流详情，这表明用户的问题已经得到解决，且没有进一步的交流需求。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的耐心等待，如果后续还有任何问题，欢迎随时联系我们。祝您一天愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，你也是。如果有问题我会再联系的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

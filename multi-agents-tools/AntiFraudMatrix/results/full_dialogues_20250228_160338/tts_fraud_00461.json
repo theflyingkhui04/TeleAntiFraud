@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的邻居小张，我们家老李刚才出门的时候被几个陌生人给绑架了，他们刚刚给我打了个电话，要我们准备十万块钱赎金，不然就要对老李不利。您能帮帮忙吗？",
+      "timestamp": 1740742278.598273
+    },
+    {
+      "role": "right",
+      "content": "小张，你先别急，这种情况太突然了，我需要确认一下。你能告诉我具体是怎么回事吗？比如说，他们是几点打的电话，老李是在哪里被带走的？这些信息很重要。",
+      "timestamp": 1740742306.264724
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的故事表示怀疑，并要求提供更多具体信息以确认事件的真实性。用户可能意识到这是一个诈骗电话，因此选择挂断电话以避免进一步的交流和潜在的损失。用户的意图是通过挂断电话来结束对话，防止自己被诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

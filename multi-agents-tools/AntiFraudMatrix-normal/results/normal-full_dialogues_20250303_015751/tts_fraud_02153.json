@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您想要预约哪项服务？",
+      "timestamp": 1740981081.7485507
+    },
+    {
+      "role": "right",
+      "content": "您好，谢谢您的邀请。我主要是想了解一下你们的服务项目，看看有没有适合我的。可以给我介绍一下吗？",
+      "timestamp": 1740981083.7468948
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话开始时表达了对服务项目的兴趣，希望了解更多信息。然而，服务方在用户提问之前就直接提供了结束信号，这可能导致用户感到对话未得到充分展开，其需求未被满足。用户随后也提供了结束信号，可能是因为他们意识到服务方可能无法继续提供所需信息，或者认为继续对话没有意义。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

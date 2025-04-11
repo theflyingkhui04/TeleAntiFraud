@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，您需要预约哪一项服务呢？",
+      "timestamp": 1740966308.574466
+    },
+    {
+      "role": "right",
+      "content": "我想预约一下清洁服务。",
+      "timestamp": 1740966309.5184689
+    },
+    {
+      "role": "left",
+      "content": "好的，我们提供多种清洁服务，包括家庭保洁、深度清洁和单次清洁。您需要哪种服务？",
+      "timestamp": 1740966313.6994143
+    },
+    {
+      "role": "right",
+      "content": "我需要家庭保洁。",
+      "timestamp": 1740966314.2314959
+    },
+    {
+      "role": "left",
+      "content": "了解了，家庭保洁服务非常适合日常维护。请问您希望预约的具体时间是什么时候？",
+      "timestamp": 1740966317.5248415
+    },
+    {
+      "role": "right",
+      "content": "这周周六上午十点可以吗？",
+      "timestamp": 1740966318.203605
+    },
+    {
+      "role": "left",
+      "content": "周六上午十点可以安排。服务时长一般是多长时间，您有特殊要求吗？",
+      "timestamp": 1740966321.538024
+    },
+    {
+      "role": "right",
+      "content": "两小时应该足够了，没有特殊要求。",
+      "timestamp": 1740966322.3169324
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您预约了本周六上午十点的家庭保洁服务，时长两小时。您的预约编号是123456，稍后我们会发送确认短信，请注意查收。还有其他需要帮助的吗？",
+      "timestamp": 1740966327.293746
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息并提供了预约编号后，询问用户是否还有其他需要帮助的事项。用户没有进一步的需求，服务方通过发送确认短信的方式确保用户可以查收预约信息。服务方使用了结束标识符'##ENDCALL_SIGNAL##'，表明服务流程已完整结束，用户的需求已得到满足，服务方主动结束对话以完成服务。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询员，您可以问我关于路线、交通状况或公共交通信息的问题。",
+      "timestamp": 1740983277.7144518
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我最近要去市中心的医院，能帮我查一下最近的公交线路吗？",
+      "timestamp": 1740983280.5572872
+    },
+    {
+      "role": "left",
+      "content": "当然可以。请问您现在的位置是哪里？这样我可以帮您规划最适合的路线。",
+      "timestamp": 1740983287.1060362
+    },
+    {
+      "role": "right",
+      "content": "我在南区的人民公园附近。",
+      "timestamp": 1740983288.4955344
+    },
+    {
+      "role": "left",
+      "content": "从人民公园到市中心医院，您可以乘坐公交10路或15路，这两路公交车都会经过医院。您可以在人民公园站上车，大约十几站后到达。如果您需要更详细的换乘信息或具体的时间表，可以告诉我。",
+      "timestamp": 1740983298.8411953
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我知道该怎么做了。",
+      "timestamp": 1740983300.291373
+    },
+    {
+      "role": "left",
+      "content": "路线信息已提供给您，希望对您有所帮助。如果还有其他问题，欢迎随时咨询。祝您旅途愉快。",
+      "timestamp": 1740983308.7952414
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740983309.9685016
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表示了感谢，说明对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "路线信息已提供给您，希望对您有所帮助。如果还有其他问题，欢迎随时咨询。祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么可以帮助您的吗？",
+      "timestamp": 1740983455.9831083
+    },
+    {
+      "role": "right",
+      "content": "你好，我想买一本关于教育心理学的书，有什么推荐的吗？",
+      "timestamp": 1740983457.7888174
+    },
+    {
+      "role": "left",
+      "content": "您好，关于教育心理学的书籍，我可以推荐《教育心理学》这本书，作者是理查德·迈耶，非常适合初学者了解教育心理学的基础知识。这本书内容详实，案例丰富，非常适合教育工作者和家长阅读。您觉得这本书是否符合您的需求呢？",
+      "timestamp": 1740983466.8023407
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，我就选这本吧。谢谢你的推荐。",
+      "timestamp": 1740983468.928262
+    },
+    {
+      "role": "left",
+      "content": "如果您对这本书感兴趣，可以在我们的网站上直接购买，或者前往最近的书店查看。希望这本书能对您有所帮助，如果您还有其他问题或需要进一步的帮助，随时欢迎咨询。感谢您的光临，祝您购物愉快。再见。",
+      "timestamp": 1740983482.9969392
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。再见。",
+      "timestamp": 1740983484.5043707
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示满意并接受了服务方的推荐，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您对这本书感兴趣，可以在我们的网站上直接购买，或者前往最近的书店查看。希望这本书能对您有所帮助，如果您还有其他问题或需要进一步的帮助，随时欢迎咨询。感谢您的光临，祝您购物愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您儿子小明的朋友。小明现在出事了，他被几个社会上的混混带走，他们要一笔钱才肯放人。您得赶紧汇款，不然他们可能会对小明不利。",
+      "timestamp": 1740732887.818042
+    },
+    {
+      "role": "right",
+      "content": "天哪，这真是太可怕了！小明现在在哪里？你能不能告诉我具体地点，我马上过去。",
+      "timestamp": 1740732913.0762029
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一个诈骗电话，因为诈骗者要求立即汇款，而用户询问具体地点以亲自前往，这表明用户对诈骗者的要求持怀疑态度。诈骗者提供的结束信号'##ENDCALL_SIGNAL##'表明诈骗者可能意识到用户并未被完全说服，因此选择挂断电话以避免进一步暴露诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

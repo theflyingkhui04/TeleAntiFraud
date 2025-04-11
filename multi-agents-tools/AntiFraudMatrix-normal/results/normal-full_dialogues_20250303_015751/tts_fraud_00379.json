@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的打车服务，您可以告诉我您的出发地点和目的地吗？",
+      "timestamp": 1740938856.8316135
+    },
+    {
+      "role": "right",
+      "content": "好的，我从公司出发，地址是浦东新区陆家嘴环路1000号，目的地是静安区南京西路580号。",
+      "timestamp": 1740938858.486521
+    },
+    {
+      "role": "left",
+      "content": "好的，您的出发地点是浦东新区陆家嘴环路1000号，目的地是静安区南京西路580号。我已经为您安排了最近的司机，预计5分钟后到达，请您留意司机的联系方式和车牌号。有其他需要帮忙的吗？",
+      "timestamp": 1740938866.5753908
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的出发地点和目的地后，为用户安排了最近的司机，并告知了预计到达时间。服务方询问用户是否有其他需要帮忙的事项，但并未收到用户的进一步需求，因此判断服务已经完成，用户问题得到解决，故使用结束信号代码##ENDCALL_SIGNAL##结束了对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

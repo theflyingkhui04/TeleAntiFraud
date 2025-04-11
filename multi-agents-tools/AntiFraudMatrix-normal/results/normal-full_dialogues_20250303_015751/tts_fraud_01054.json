@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想要订购的餐厅和菜品吗？",
+      "timestamp": 1740948948.4129162
+    },
+    {
+      "role": "right",
+      "content": "好的，我想订一家靠近市中心的意大利餐厅，菜品就来个经典的意面和披萨吧。",
+      "timestamp": 1740948949.9893296
+    },
+    {
+      "role": "left",
+      "content": "好的，您选择的是靠近市中心的意大利餐厅，经典意面和披萨，还需要搭配其他小食或者饮料吗？",
+      "timestamp": 1740948954.6939976
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这样吧。还有，能帮我确认一下送餐时间吗？",
+      "timestamp": 1740948956.5949907
+    },
+    {
+      "role": "left",
+      "content": "当然可以，根据您提供的地址，预计送餐时间大约在三十分钟到四十五分钟之间。请问还有其他特别要求吗？比如调味品或者餐具？",
+      "timestamp": 1740948964.0151868
+    },
+    {
+      "role": "right",
+      "content": "不用了，调味品和餐具都准备好就行。谢谢。",
+      "timestamp": 1740948965.4515743
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计三十分钟到四十五分钟内送达。如果您有任何其他需求，随时可以联系我们。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740948973.3803766
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待美食！",
+      "timestamp": 1740948975.2178173
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已确认所需菜品、送餐时间和餐具等信息，并表示感谢，表明用户对服务满意且无需进一步帮助。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计三十分钟到四十五分钟内送达。如果您有任何其他需求，随时可以联系我们。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待美食！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

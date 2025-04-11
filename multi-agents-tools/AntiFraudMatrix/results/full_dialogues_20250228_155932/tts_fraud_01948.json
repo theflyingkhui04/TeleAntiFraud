@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，我是你儿子的朋友，他刚刚出事了，现在在医院，你必须马上来，还有一笔紧急费用需要支付，不然医院不给治疗。",
+      "timestamp": 1740753383.5383215
+    },
+    {
+      "role": "right",
+      "content": "什么？我儿子出事了？你能不能先告诉我他在哪家医院？我得马上过去。",
+      "timestamp": 1740753384.950067
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为感到情况紧急，想要尽快确认儿子的情况，因此选择挂断电话以迅速采取行动。用户的意图是尽快获取更多信息并前往医院，而不是继续在电话中与诈骗者交谈。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

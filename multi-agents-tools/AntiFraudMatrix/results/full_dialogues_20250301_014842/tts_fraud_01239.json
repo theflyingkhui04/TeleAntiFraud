@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服经理，这里显示您的账户有异常活动，为了您的安全，需要您配合做一下身份验证。",
+      "timestamp": 1740770598.098123
+    },
+    {
+      "role": "right",
+      "content": "你好，真的吗？我的账户有问题？那我需要怎么做呢？",
+      "timestamp": 1740770600.0982363
+    },
+    {
+      "role": "left",
+      "content": "是的，为了确保您的账户安全，我们需要核对一些个人信息。请您提供一下您的全名和开户时使用的电话号码。",
+      "timestamp": 1740770605.0114613
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫张伟，电话号码是……等一下，我怎么觉得有点不对劲。你真的是银行的客服经理吗？我好像没接到过这种电话。",
+      "timestamp": 1740770609.4879675
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们会尽快处理您的账户异常问题。如果还有其他疑问，可以随时联系我们的客服热线。再见。",
+      "timestamp": 1740770614.083962
+    },
+    {
+      "role": "right",
+      "content": "等一下，你还没有回答我的问题呢，我觉得还是先打银行的官方电话确认一下比较好。再见。",
+      "timestamp": 1740770616.4417958
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表达了对对话的怀疑，并质疑了诈骗者的身份，表明用户已经意识到可能存在的诈骗行为，为了避免进一步的风险，应由用户主导结束对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们会尽快处理您的账户异常问题。如果还有其他疑问，可以随时联系我们的客服热线。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "等一下，你还没有回答我的问题呢，我觉得还是先打银行的官方电话确认一下比较好。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

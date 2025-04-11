@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想点什么餐吗？",
+      "timestamp": 1740950419.1315193
+    },
+    {
+      "role": "right",
+      "content": "你好，我想点个农家小炒肉，再来份清炒时蔬，还有一碗米饭。",
+      "timestamp": 1740950420.6633978
+    },
+    {
+      "role": "left",
+      "content": "好的，您点的是农家小炒肉、清炒时蔬和一碗米饭，还需要其他菜品吗？",
+      "timestamp": 1740950425.6999133
+    },
+    {
+      "role": "right",
+      "content": "不需要了，就这些吧。谢谢。",
+      "timestamp": 1740950426.7211075
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录，预计三十分钟内送达。感谢您的订购，祝您用餐愉快！再见。",
+      "timestamp": 1740950438.2331874
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。再见。",
+      "timestamp": 1740950439.7284226
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并明确表示不需要其他菜品，同时表达了感谢。根据终止条件3，用户明确表示感谢并结束对话，因此应由用户结束对话。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录，预计三十分钟内送达。感谢您的订购，祝您用餐愉快！再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

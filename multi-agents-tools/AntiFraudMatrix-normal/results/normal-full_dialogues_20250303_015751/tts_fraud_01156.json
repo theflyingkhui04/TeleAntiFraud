@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询客服为您服务，有什么我可以帮忙的吗？",
+      "timestamp": 1740951116.0521755
+    },
+    {
+      "role": "right",
+      "content": "您好，我想了解一下从上海市区到浦东机场的最快路线和所需时间。",
+      "timestamp": 1740951117.508149
+    },
+    {
+      "role": "left",
+      "content": "从上海市区到浦东机场，最快的路线是通过地铁二号线直达，全程大约需要六十五分钟。如果选择驾车，可以通过中环路连接到华夏高架路直达浦东机场，不堵车的情况下大约需要四十到五十分钟。建议您根据实际情况选择出行方式。",
+      "timestamp": 1740951126.4861858
+    },
+    {
+      "role": "right",
+      "content": "谢谢您的详细解答，我会根据实际情况选择合适的出行方式。如果还有其他问题，我可以随时联系您吗？",
+      "timestamp": 1740951127.8710613
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您还有其他问题，随时欢迎提问。祝您旅途愉快！",
+      "timestamp": 1740951134.4137275
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助，祝您一天愉快！",
+      "timestamp": 1740951135.5428252
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已获得所需信息并表示感谢，同时询问了后续联系的可能性，表明当前问题已解决且用户满意。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您还有其他问题，随时欢迎提问。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助，祝您一天愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

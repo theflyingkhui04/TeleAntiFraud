@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！我是银行客服部的李经理，很抱歉打扰您。我们发现您的账户存在异常登录情况，需要立即核实您的身份信息，以确保账户安全。请问您现在方便接听电话吗？",
+      "timestamp": 1740748788.7943845
+    },
+    {
+      "role": "right",
+      "content": "李经理，您好。我最近确实收到过一些奇怪的短信，说我的账户有异常。不过，我有点担心，这会不会是诈骗电话呢？我怎么确认您的身份呢？",
+      "timestamp": 1740748792.063496
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对电话真实性的怀疑，并要求验证对方的身份。用户可能是因为怀疑这是诈骗电话，为了安全起见选择了挂断电话。用户的意图是避免可能的风险，保护自己的个人信息不被泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

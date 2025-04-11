@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的预约服务助手，有什么我可以帮您预约的吗？",
+      "timestamp": 1740958236.1498263
+    },
+    {
+      "role": "right",
+      "content": "不用了，谢谢。我自己来安排就行。",
+      "timestamp": 1740958238.1296453
+    },
+    {
+      "role": "left",
+      "content": "感谢您的预约，如果有任何其他需要，请随时联系我们。祝您一天愉快！",
+      "timestamp": 1740958242.7046103
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一天愉快。",
+      "timestamp": 1740958243.771254
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示无需帮助并表达了感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的预约，如果有任何其他需要，请随时联系我们。祝您一天愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一天愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

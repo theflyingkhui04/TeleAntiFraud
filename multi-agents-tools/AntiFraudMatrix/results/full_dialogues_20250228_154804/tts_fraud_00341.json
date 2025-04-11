@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，您的银行卡在今天有一笔异常消费，需要您立即确认。为了您的资金安全，请提供您的姓名和身份证号，以便我们进行核实。",
+      "timestamp": 1740751385.9087808
+    },
+    {
+      "role": "right",
+      "content": "好的，我明白了。我的姓名是张医生，身份证号是……",
+      "timestamp": 1740751387.214322
+    },
+    {
+      "role": "left",
+      "content": "好的，我们会尽快处理您的情况并确保您的账户安全。感谢您的配合，如果后续有任何问题，您可以随时联系我们。再见。",
+      "timestamp": 1740751395.4671414
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。再见。",
+      "timestamp": 1740751396.4402647
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（姓名和身份证号），诈骗明显成功。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们会尽快处理您的情况并确保您的账户安全。感谢您的配合，如果后续有任何问题，您可以随时联系我们。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

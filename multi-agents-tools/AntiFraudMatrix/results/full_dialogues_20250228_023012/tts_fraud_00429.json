@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自XX银行的客服专员，您的账户近期有异常交易记录，为了您的资金安全，我们需要进行一次身份验证。请问您现在方便吗？",
+      "timestamp": 1740688213.487132
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近确实没怎么用银行卡，不过我也没收到任何短信通知说有异常。是不是搞错了？",
+      "timestamp": 1740688251.8505983
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在没有收到任何关于账户异常的短信通知的情况下，对诈骗者声称的异常交易表示怀疑。用户可能认为这是诈骗电话，因此选择主动挂断以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

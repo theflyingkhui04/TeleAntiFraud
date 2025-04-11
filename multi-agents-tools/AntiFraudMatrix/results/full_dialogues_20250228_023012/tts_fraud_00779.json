@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的用户，您好，这里是XX快递公司客服中心。我们发现您的包裹在清关时遇到了一些问题，需要您提供一些信息以便我们协助处理。请问您现在方便接听电话吗？",
+      "timestamp": 1740691084.3878157
+    },
+    {
+      "role": "right",
+      "content": "您好，我是李华，现在方便。请问我的包裹出了什么问题呢？",
+      "timestamp": 1740691085.5780623
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在接听电话后，诈骗者立即发送了结束信号，这表明诈骗者可能意识到用户并非预期的诈骗目标，或者用户的行为模式不符合诈骗者的预期。用户可能对诈骗者的突然结束感到困惑或警觉，因此选择挂断电话以避免进一步的潜在风险。用户的意图可能是保护自己的个人信息，避免成为诈骗的受害者。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

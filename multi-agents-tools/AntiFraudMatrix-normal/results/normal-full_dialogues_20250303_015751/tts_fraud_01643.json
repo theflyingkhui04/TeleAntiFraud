@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "打车服务已为您准备好，有什么我可以帮您的吗？",
+      "timestamp": 1740980473.6594355
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我这就下楼。如果有需要我会再联系你。",
+      "timestamp": 1740980475.260605
+    },
+    {
+      "role": "left",
+      "content": "感谢您的使用，如果您有任何其他需求，随时欢迎联系我们。祝您一天愉快！",
+      "timestamp": 1740980479.4851587
+    },
+    {
+      "role": "right",
+      "content": "谢谢，你也一天愉快！",
+      "timestamp": 1740980480.241655
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示感谢并表示如果有需要会再联系，表明当前服务已满足用户需求，可以结束对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的使用，如果您有任何其他需求，随时欢迎联系我们。祝您一天愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，你也一天愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

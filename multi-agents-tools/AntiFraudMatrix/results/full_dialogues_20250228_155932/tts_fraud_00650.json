@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自某银行的客服人员，我姓张。我们最近发现您的账户有异常活动，为了确保您的资金安全，需要您配合我们进行身份验证。请问您现在方便吗？",
+      "timestamp": 1740753250.3003318
+    },
+    {
+      "role": "right",
+      "content": "你好，我方便。你说我的账户有异常活动，是怎么回事？",
+      "timestamp": 1740753257.9128823
+    },
+    {
+      "role": "left",
+      "content": "系统显示您的账户在过去24小时内有多次跨境交易记录，涉及金额超过五万元。请问您最近有进行过这类操作吗？我们需要确认这些交易是否是您本人授权的。",
+      "timestamp": 1740753265.5517902
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在初步试探用户是否对账户异常活动有所警觉后，选择挂断电话。这可能是因为诈骗者认为用户对账户活动的了解程度较高，或者用户可能已经产生了怀疑，继续诈骗成功的可能性较低。诈骗者为了避免暴露，选择终止对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

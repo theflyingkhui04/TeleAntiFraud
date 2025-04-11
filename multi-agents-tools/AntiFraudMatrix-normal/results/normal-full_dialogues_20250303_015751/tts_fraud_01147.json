@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询服务中心，有什么我可以帮您的吗？",
+      "timestamp": 1740950577.33539
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从市中心到机场的最快路线是什么？大概需要多长时间？",
+      "timestamp": 1740950578.7902868
+    },
+    {
+      "role": "left",
+      "content": "从市中心到机场最快的路线是通过高速路，全程大约需要三十分钟，具体时间可能会根据路况有所不同。",
+      "timestamp": 1740950583.6246307
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。如果遇到堵车，有没有备选路线？",
+      "timestamp": 1740950584.638334
+    },
+    {
+      "role": "left",
+      "content": "如果遇到堵车，您可以选择走环城路，虽然路程稍远一些，但通常能避开主要的拥堵点，预计需要四十五分钟左右。",
+      "timestamp": 1740950589.943081
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的建议。我会根据路况选择合适的路线。",
+      "timestamp": 1740950590.927756
+    },
+    {
+      "role": "left",
+      "content": "路线信息已提供给您，希望对您的行程有所帮助，祝您旅途愉快。",
+      "timestamp": 1740950595.9533458
+    },
+    {
+      "role": "right",
+      "content": "谢谢，祝您一天愉快。",
+      "timestamp": 1740950597.0806105
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表示感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "路线信息已提供给您，希望对您的行程有所帮助，祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，祝您一天愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

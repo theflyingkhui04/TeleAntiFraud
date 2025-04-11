@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是您的购物助手，有什么可以帮助您的吗？",
+      "timestamp": 1740983023.2500808
+    },
+    {
+      "role": "right",
+      "content": "你好，我就是随便看看。谢谢。",
+      "timestamp": 1740983024.5881326
+    },
+    {
+      "role": "left",
+      "content": "没关系，有什么需要随时告诉我，我会尽力帮您。您可以看看我们最新上架的商品，也许会有您感兴趣的。",
+      "timestamp": 1740983031.4160848
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会慢慢看。",
+      "timestamp": 1740983032.6307855
+    },
+    {
+      "role": "left",
+      "content": "好的，您慢慢来，如果需要任何帮助，随时告诉我。祝您购物愉快！",
+      "timestamp": 1740983040.2415025
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户正在浏览商品且暂时不需要帮助后，礼貌地结束了对话。服务方的意图是保持专业和礼貌，同时避免打扰用户的浏览体验。通过提供结束信号代码，服务方也表明了对话已经达到了一个自然的结束点。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

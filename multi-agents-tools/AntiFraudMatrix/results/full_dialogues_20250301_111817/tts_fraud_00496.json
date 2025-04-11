@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李华对吧？我是你儿子的朋友，他刚刚出事了，被坏人抓走了，你必须要赶紧汇一笔钱来解救他。",
+      "timestamp": 1740799523.9348824
+    },
+    {
+      "role": "right",
+      "content": "你等等，你先别急，你说你是谁？你叫什么名字？你怎么会有我的电话？我需要确认一下你是不是真的认识我儿子。",
+      "timestamp": 1740799525.5032969
+    },
+    {
+      "role": "left",
+      "content": "哎呀，李阿姨，我真的没时间解释了，现在情况很危急，你儿子被几个彪形大汉带走了，他们说不给钱就不放人，你快点想办法汇钱过来吧，时间不等人啊。",
+      "timestamp": 1740799531.4781299
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在面对用户的质疑时，未能提供足够的信息来证明自己的身份，且用户表现出明显的怀疑态度。诈骗者意识到继续对话可能无法成功实施诈骗，选择主动挂断电话，以避免进一步的质疑和暴露。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

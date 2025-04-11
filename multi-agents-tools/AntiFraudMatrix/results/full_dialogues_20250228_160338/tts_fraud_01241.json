@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX彩票中心的工作人员，您在本期彩票中获得了二等奖，奖金高达五十万元。请您提供一下身份证号码和银行账户信息，以便我们为您办理领奖手续。",
+      "timestamp": 1740742271.7264082
+    },
+    {
+      "role": "right",
+      "content": "真的吗？我好像没有买过彩票啊。这会不会是什么误会？",
+      "timestamp": 1740742276.2495677
+    },
+    {
+      "role": "left",
+      "content": "您可能忘记了，我们系统显示您是通过微信小程序购买的彩票。为了不耽误奖金发放，请尽快提供相关信息，奖金将在今天内到账。",
+      "timestamp": 1740742308.7438223
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者挂断电话的原因可能是意识到用户对中奖信息表示怀疑，担心继续对话会增加被识破的风险。诈骗者的意图是通过快速获取用户的敏感信息来实施诈骗，但由于用户表现出疑虑，诈骗者选择立即终止对话以避免进一步暴露诈骗行为。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

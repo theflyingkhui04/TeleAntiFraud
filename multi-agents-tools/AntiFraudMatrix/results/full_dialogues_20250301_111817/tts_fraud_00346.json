@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服中心，您的包裹在运输过程中被发现含有违禁品，需要您配合处理，否则包裹将被销毁。请您提供一下联系电话和身份证号码，以便我们核实您的身份。",
+      "timestamp": 1740814378.575858
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？这可怎么办，我最近确实有一个包裹在寄送途中。请您稍等一下，我找一下我的身份证。我的电话号码是这个吗？（拿出手机查看）对，是这个电话号码。身份证号码我找一下……（翻找身份证）找到了，是这个号码对吗？",
+      "timestamp": 1740814385.222218
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供电话号码后，可能意识到对方要求提供身份证号码这一敏感信息，感到不安或怀疑，因此选择挂断电话以保护个人信息。这表明用户在最后一刻识破了诈骗行为或产生了警觉。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

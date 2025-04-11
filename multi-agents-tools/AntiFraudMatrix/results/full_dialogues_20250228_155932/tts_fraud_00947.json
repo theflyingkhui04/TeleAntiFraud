@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您儿子的朋友，他现在出事了，被几个人绑架了，他们要求我们马上准备一笔钱，否则就要对他下手，您必须马上把钱转过来，不然就来不及了。",
+      "timestamp": 1740751680.5564578
+    },
+    {
+      "role": "right",
+      "content": "你先别急，你说你是谁？你怎么会有我的电话？我儿子到底出什么事了？你给我详细说清楚。",
+      "timestamp": 1740751682.566386
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的紧急情况后，表现出怀疑和谨慎，要求诈骗者提供更多信息。然而，诈骗者并没有给出令人信服的解释，反而直接挂断了电话。这表明用户可能已经意识到这是一起诈骗，或者至少对诈骗者的身份和请求感到非常怀疑，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

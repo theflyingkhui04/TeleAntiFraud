@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您在本次的双色球抽奖中获得了特等奖，奖金金额高达五百万元！为了确认您的中奖信息，能否请您提供一下您的姓名和身份证号码呢？我们需要核实一下您的身份。",
+      "timestamp": 1740773715.24007
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太神奇了！我居然中了这么大的奖！那我的姓名和身份证号码是……",
+      "timestamp": 1740773716.9998515
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供个人信息之前突然挂断电话，可能是因为意识到这是一起诈骗行为，或者突然意识到不应该轻易提供个人敏感信息。用户的意图可能是为了防止个人信息泄露，保护自己的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

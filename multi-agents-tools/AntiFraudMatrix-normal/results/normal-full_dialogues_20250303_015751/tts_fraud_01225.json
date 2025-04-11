@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我是您的接单司机，请问您现在的位置在哪里？",
+      "timestamp": 1740967424.249895
+    },
+    {
+      "role": "right",
+      "content": "我在公司楼下，大概在地铁站出口的右边。您大概多久能到？",
+      "timestamp": 1740967425.9679515
+    },
+    {
+      "role": "left",
+      "content": "好的，我已经出发了，大约需要10分钟到达，请问您的公司名字是？以便我更准确地找到您。",
+      "timestamp": 1740967430.669164
+    },
+    {
+      "role": "right",
+      "content": "公司叫天成科技，门口有大招牌，很容易看到。您路上注意安全。",
+      "timestamp": 1740967431.8757105
+    },
+    {
+      "role": "left",
+      "content": "好的，天成科技我会留意的，路上会注意安全。请您也留意一下，我到了会打电话给您确认位置。还有大约10分钟就到了。",
+      "timestamp": 1740967436.2619598
+    },
+    {
+      "role": "right",
+      "content": "好的，我会留意的。到了给我打电话，我在门口等您。谢谢。",
+      "timestamp": 1740967437.8453057
+    },
+    {
+      "role": "left",
+      "content": "好的，我已经记录了您的位置，大约10分钟后见。如果您有任何其他需求，可以随时联系我。祝您旅途愉快。",
+      "timestamp": 1740967444.5240223
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。10分钟后见。旅途愉快。",
+      "timestamp": 1740967445.6707833
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户和服务方已经确认了接驾地点和时间，用户表示会在门口等待，服务方也表示会打电话确认位置。双方都表达了对方的注意事项，对话自然完结，没有进一步的信息需要交流。",
+  "terminator": "natural",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我已经记录了您的位置，大约10分钟后见。如果您有任何其他需求，可以随时联系我。祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。10分钟后见。旅途愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

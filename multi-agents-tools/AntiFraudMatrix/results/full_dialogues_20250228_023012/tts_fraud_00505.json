@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递公司客服中心，我们发现您的包裹存在异常情况，需要您配合处理。请问您现在方便通话吗？\"",
+      "timestamp": 1740686065.0284915
+    },
+    {
+      "role": "right",
+      "content": "您好，我是李明。请问具体是什么异常情况？我最近确实有一个包裹在途中，所以我很想知道具体情况。不过，为了安全起见，我需要确认一下您的身份和电话号码，因为这种事情比较敏感，我需要确保是和官方客服沟通。",
+      "timestamp": 1740686068.3224394
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

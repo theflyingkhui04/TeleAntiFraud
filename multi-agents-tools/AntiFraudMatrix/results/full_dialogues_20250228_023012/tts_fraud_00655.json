@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友小王的同学，现在他遇到了非常紧急的情况，需要您的帮助。",
+      "timestamp": 1740685524.533946
+    },
+    {
+      "role": "right",
+      "content": "啊？小王怎么了？他出什么事了？（语气焦急）",
+      "timestamp": 1740685530.9106212
+    },
+    {
+      "role": "left",
+      "content": "好的，谢谢您的配合，希望您能尽快处理好这件事。再见。",
+      "timestamp": 1740685570.906716
+    },
+    {
+      "role": "right",
+      "content": "等等，你还没告诉我小王具体怎么了，我怎么帮助他？（语气略带疑惑和急切）",
+      "timestamp": 1740685572.4195943
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明对话已经结束。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，谢谢您的配合，希望您能尽快处理好这件事。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "等等，你还没告诉我小王具体怎么了，我怎么帮助他？（语气略带疑惑和急切）##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是广发银行客服中心，我是客服专员小李。我们检测到您的银行卡可能涉及一笔异常交易，为确保您的资金安全，需要您配合进行身份验证。请问您现在方便吗？",
+      "timestamp": 1740817016.1224642
+    },
+    {
+      "role": "right",
+      "content": "你好，小李。我是张伟。现在挺方便的，你说吧，需要我怎么配合？",
+      "timestamp": 1740817018.0528994
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能出于谨慎考虑，在确认对方身份和情况真实性之前，选择挂断电话以避免潜在的风险。用户的意图是保护个人信息和资金安全，防止可能的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

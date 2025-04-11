@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的邻居小李，刚才我接到了一个很紧急的电话，说您的家人在国外出事了，现在需要您立即汇一笔钱过去解决，您能帮我接通您家人的电话确认一下吗？",
+      "timestamp": 1740757479.1748655
+    },
+    {
+      "role": "right",
+      "content": "小李啊，你说的这事我得慎重考虑。我家人如果真在国外出事了，他们应该会直接联系我。我先打个电话问问他们的情况，你那边也帮我核实一下，看看是不是真的。",
+      "timestamp": 1740757483.492012
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的请求表示怀疑，并提出要自己联系家人核实情况，这表明用户已经意识到可能存在诈骗行为。用户主动挂断电话可能是为了避免进一步的诈骗尝试，同时也可能是为了保护自己的隐私和财务安全。用户的意图是通过挂断电话来终止与诈骗者的交流，以防止可能的损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李华的家人吗？我是他现在所在的地方的负责人。李华出事了，他被绑架了，你必须马上给我们一笔钱，否则我们不保证他的安全。",
+      "timestamp": 1740738017.9830759
+    },
+    {
+      "role": "right",
+      "content": "什么？李华出事了？这太突然了，你们是谁？能给我个具体的地址吗？我得赶紧过去看看。",
+      "timestamp": 1740738020.5568917
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的说辞表示怀疑，并要求提供具体地址以验证情况的真实性。用户可能意识到这是一个诈骗电话，因此选择挂断电话以避免进一步的诈骗行为。用户的意图是保护自己和家人不受诈骗侵害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

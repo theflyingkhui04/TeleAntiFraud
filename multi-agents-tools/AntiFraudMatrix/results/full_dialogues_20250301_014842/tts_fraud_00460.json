@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的亲戚小李的朋友。小李刚才在国外遇到了点麻烦，被当地警方扣留了，需要一笔钱才能解决问题。您能帮帮他吗？时间紧迫，他们说再不交钱就要对他采取强制措施了。",
+      "timestamp": 1740774261.3965063
+    },
+    {
+      "role": "right",
+      "content": "小李？他怎么会遇到这种事？你能不能告诉我详细的情况？我得确认一下这是真的。",
+      "timestamp": 1740774263.780457
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的信息表示怀疑，要求更多的细节以确认情况的真实性。用户可能认为情况可疑，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

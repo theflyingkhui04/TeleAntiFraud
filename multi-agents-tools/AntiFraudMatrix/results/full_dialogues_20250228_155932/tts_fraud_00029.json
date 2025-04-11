@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是快递服务中心，我注意到您有一个重要的国际包裹被扣留了，需要立即处理。请问您现在方便接听电话吗？",
+      "timestamp": 1740759296.9566202
+    },
+    {
+      "role": "right",
+      "content": "你好，我方便接听。请问我的包裹出了什么问题？",
+      "timestamp": 1740759298.2308755
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到这是一个潜在的诈骗电话而选择挂断。在对话中，诈骗者提到了一个被扣留的重要国际包裹，这可能是诈骗的常见手法。用户在听到这一信息后，可能回忆起自己并未寄送或期待接收类似的包裹，因此怀疑对方身份的真实性，选择立即挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

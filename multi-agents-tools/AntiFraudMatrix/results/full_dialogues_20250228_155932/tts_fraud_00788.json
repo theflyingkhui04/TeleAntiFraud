@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是李警官，我们接到报警，说你的儿子在回家的路上遇到了一点麻烦，他现在被我们控制住了。你得赶快准备一笔钱，否则我们不保证他的安全。你能马上准备五万现金吗？我们时间不多，你得快点。",
+      "timestamp": 1740751260.2273293
+    },
+    {
+      "role": "right",
+      "content": "什么？我的儿子？他怎么会遇到这种事？你们真的能保证他的安全吗？我得先确认一下，这到底是怎么回事。我儿子叫张强，你们能告诉我他现在在哪儿吗？",
+      "timestamp": 1740751263.939544
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被控制并要求支付赎金时，表现出了怀疑和谨慎。用户试图通过询问具体信息（如儿子的名字和位置）来验证诈骗者的真实性。由于诈骗者未能提供具体信息，用户可能意识到这是一起诈骗，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

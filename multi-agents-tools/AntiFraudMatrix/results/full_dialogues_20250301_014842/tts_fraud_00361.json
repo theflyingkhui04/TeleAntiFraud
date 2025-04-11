@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是支付宝客服中心，系统检测到您的账户存在异常交易，需要立即核实您的身份信息以确保账户安全。请问您的姓名是？",
+      "timestamp": 1740776063.4904773
+    },
+    {
+      "role": "right",
+      "content": "您好，我叫李明。但我需要确认一下，我确实收到了账户异常的通知吗？我刚才并没有收到任何短信或邮件。",
+      "timestamp": 1740776064.9796474
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑来电的真实性而选择挂断电话。用户提到他没有收到任何关于账户异常的通知，这表明他对于诈骗者的身份和所说内容持怀疑态度。在这种情况下，用户选择挂断电话，可能是为了避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您，您刚刚中了我们彩票的大奖，奖金高达500万元！请先核实一下您的个人信息，以便我们核对中奖记录。",
+      "timestamp": 1740690208.8006124
+    },
+    {
+      "role": "right",
+      "content": "真的吗？我从来没有买过彩票啊。你们是怎么回事？这听起来不太对劲。我得确认一下你们的身份。你们是哪里的彩票公司？",
+      "timestamp": 1740690212.0972354
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份表示怀疑，并要求进一步验证。由于诈骗者未能提供令人信服的证据，用户选择挂断电话以避免潜在的风险。用户的意图是保护自己不受诈骗行为的侵害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

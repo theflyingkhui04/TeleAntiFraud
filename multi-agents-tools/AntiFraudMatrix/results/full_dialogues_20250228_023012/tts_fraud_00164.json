@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递客服中心，我们发现您的包裹被海关扣留了，需要您提供一些信息以便我们协助处理。请问您现在方便通话吗？",
+      "timestamp": 1740681176.1306095
+    },
+    {
+      "role": "right",
+      "content": "嗯，我方便。不过我最近好像没收到什么包裹啊。这是怎么回事？",
+      "timestamp": 1740681180.3643374
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在意识到对话可能涉及诈骗时，主动挂断了电话，以避免进一步的潜在风险。用户在回应中表达了对所提及包裹的疑惑，这表明用户可能已经对诈骗者的身份产生了怀疑，并选择终止对话以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

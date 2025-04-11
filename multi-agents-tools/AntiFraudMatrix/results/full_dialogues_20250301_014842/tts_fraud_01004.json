@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服，您的包裹在运输过程中发现了一些问题，需要您配合处理。",
+      "timestamp": 1740787314.1354167
+    },
+    {
+      "role": "right",
+      "content": "您好，顺丰客服。请问我的包裹出了什么问题？我最近确实有一个包裹在运输中。",
+      "timestamp": 1740787316.5012395
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能出于谨慎考虑，选择先挂断电话，以核实来电的真实性。用户在对话中表现出对包裹问题的关注，但可能意识到需要通过官方渠道确认来电身份，以避免潜在的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

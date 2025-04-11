@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是商场客服，有什么可以帮助您的吗？",
+      "timestamp": 1740942830.6504686
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近在你们商场买了一些种子，想了解一下退货政策。",
+      "timestamp": 1740942832.142255
+    },
+    {
+      "role": "left",
+      "content": "关于种子的退货政策，如果您购买的种子未开封且保持原包装，我们可以在购买后的三十天内为您提供退货服务。需要带上您的购物小票或电子订单信息前来办理。有特殊情况吗？",
+      "timestamp": 1740942836.4090977
+    },
+    {
+      "role": "right",
+      "content": "好的，我知道了。那如果种子已经开封了呢？",
+      "timestamp": 1740942838.4663458
+    },
+    {
+      "role": "left",
+      "content": "如果种子已经开封，按照我们的政策，通常情况下是不支持退货的，因为这可能会影响到种子的质量和再次销售。不过，如果您在使用过程中发现任何问题，比如种子发芽率低等，可以带着购物凭证来我们这里，我们会尽力为您处理。",
+      "timestamp": 1740942843.6829982
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢您的解答。我会注意的。",
+      "timestamp": 1740942845.6041067
+    },
+    {
+      "role": "left",
+      "content": "感谢您的理解和支持，如果还有其他问题，欢迎随时联系我们。希望您购物愉快！",
+      "timestamp": 1740942855.788241
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一天愉快！",
+      "timestamp": 1740942857.0531037
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的退货政策信息，并明确表示了感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的理解和支持，如果还有其他问题，欢迎随时联系我们。希望您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一天愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

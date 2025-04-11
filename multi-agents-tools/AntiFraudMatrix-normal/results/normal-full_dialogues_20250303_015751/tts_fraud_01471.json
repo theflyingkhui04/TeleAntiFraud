@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到美味外卖，我是您的订餐助手，有什么可以帮您的吗？",
+      "timestamp": 1740943258.800134
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份午餐，有什么推荐的吗？",
+      "timestamp": 1740943259.6539202
+    },
+    {
+      "role": "left",
+      "content": "我们今天推荐的是金牌烤鸭和蒜蓉西兰花套餐，还有特色凉菜拼盘，都很受欢迎。您可以考虑一下。",
+      "timestamp": 1740943263.5899272
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，我就来一份金牌烤鸭和蒜蓉西兰花套餐吧。还需要加点什么吗？",
+      "timestamp": 1740943267.8115137
+    },
+    {
+      "role": "left",
+      "content": "这个套餐已经包含了主菜、小菜和米饭，如果需要的话，我们可以加一份汤或者甜品，比如例汤或绿豆糕，您看如何？",
+      "timestamp": 1740943272.2779522
+    },
+    {
+      "role": "right",
+      "content": "好的，那就加一份绿豆糕吧。麻烦你了。",
+      "timestamp": 1740943272.941308
+    },
+    {
+      "role": "left",
+      "content": "不客气，您的订单已经记录好了。一份金牌烤鸭和蒜蓉西兰花套餐，加上一份绿豆糕。请问还有其他的需要吗？如果没有，我将为您确认订单。",
+      "timestamp": 1740943277.90494
+    },
+    {
+      "role": "right",
+      "content": "没有了，就这些吧。谢谢。",
+      "timestamp": 1740943278.4228399
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计在三十分钟后送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740943286.9804165
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美味的午餐。",
+      "timestamp": 1740943288.2082915
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容，并表示没有其他需求。服务方可以在此时结束对话，确认订单并感谢用户的订购。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计在三十分钟后送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美味的午餐。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

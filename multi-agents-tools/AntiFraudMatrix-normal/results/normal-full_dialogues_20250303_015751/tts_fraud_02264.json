@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我已为您安排了最近的车辆，大约五分钟后到达，请问您的上车地点是哪里？",
+      "timestamp": 1740958006.37671
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我在学校门口等，地址是光明路123号。",
+      "timestamp": 1740958007.9201636
+    },
+    {
+      "role": "left",
+      "content": "好的，已记录您的上车地点为光明路一二三号学校门口，司机大约五分钟后到达，请注意查看车牌号和车型，有任何问题可以随时联系我。",
+      "timestamp": 1740958012.495334
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的帮助。我会留意的。",
+      "timestamp": 1740958013.4074712
+    },
+    {
+      "role": "left",
+      "content": "好的，一切都已安排妥当，祝您乘车愉快。如果需要任何进一步的帮助，请随时联系我们。谢谢您的使用，再见。",
+      "timestamp": 1740958018.344289
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740958019.9945831
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了上车地点和时间，并表示明白且感谢服务方的帮助，表明用户对服务满意且没有进一步的问题。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，一切都已安排妥当，祝您乘车愉快。如果需要任何进一步的帮助，请随时联系我们。谢谢您的使用，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

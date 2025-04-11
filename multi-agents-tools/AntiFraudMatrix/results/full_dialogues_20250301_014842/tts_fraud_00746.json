@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您！您中了本年度最大一期的超级大乐透，奖金高达五百万元！请问您现在方便接听电话吗？",
+      "timestamp": 1740786378.2126124
+    },
+    {
+      "role": "right",
+      "content": "你好，真的吗？我怎么这么幸运呢！我刚才确实收到了一条短信，说是我中奖了，但感觉有点不真实。你能告诉我这是怎么一回事吗？",
+      "timestamp": 1740786382.6777248
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在表达出对中奖信息的怀疑后，选择了挂断电话。这可能是因为用户对诈骗者提供的信息感到不信任，或者用户意识到这可能是一个诈骗电话，因此选择中断对话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

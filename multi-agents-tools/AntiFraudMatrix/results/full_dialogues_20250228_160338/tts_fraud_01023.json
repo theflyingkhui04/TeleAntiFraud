@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问，最近我们公司推出了一款超高回报的理财产品，年化收益率可以达到百分之二十，您有兴趣了解一下吗？",
+      "timestamp": 1740738832.9187353
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近确实想了解一下理财方面的信息。能具体说说这款产品的特点吗？",
+      "timestamp": 1740738857.2771137
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到这是一通推销电话而非个人所需的信息来源，或者对电话中的信息产生了怀疑，因此选择挂断。用户的意图是终止与诈骗者之间的对话，避免进一步的信息交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

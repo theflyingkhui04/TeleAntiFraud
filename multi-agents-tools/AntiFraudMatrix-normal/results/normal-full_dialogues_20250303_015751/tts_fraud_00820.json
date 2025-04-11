@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，您可以告诉我想要点什么吗？",
+      "timestamp": 1740950853.3098738
+    },
+    {
+      "role": "right",
+      "content": "嗯，你们都有什么菜？给我推荐几个吧。",
+      "timestamp": 1740950855.5086305
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几道非常受欢迎的菜品，比如宫保鸡丁、鱼香肉丝和麻辣香锅，都是顾客评价很高的，您看可以吗？",
+      "timestamp": 1740950859.1038687
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来一份宫保鸡丁吧，再加一份米饭。",
+      "timestamp": 1740950860.623861
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁和一份米饭已经加入您的订单，还需要其他菜品或饮料吗？",
+      "timestamp": 1740950864.5646927
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这样吧。多少钱？",
+      "timestamp": 1740950868.5862439
+    },
+    {
+      "role": "left",
+      "content": "您点的这份宫保鸡丁和米饭总价是25元，另外还有3元的配送费，总计28元。您可以通过我们的平台在线支付。",
+      "timestamp": 1740950873.8033776
+    },
+    {
+      "role": "right",
+      "content": "好的，我马上支付。谢谢。",
+      "timestamp": 1740950877.5431483
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计30分钟后送达。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740950882.584966
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740950887.128593
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表示会立即支付，同时表达了感谢，这意味着对话目标已达成，用户对服务表示满意。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计30分钟后送达。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

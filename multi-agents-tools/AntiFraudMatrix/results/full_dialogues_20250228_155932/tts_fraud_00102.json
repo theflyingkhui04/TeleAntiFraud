@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是工商银行的客服人员，工号六千五百八十八，我们系统检测到您的银行卡可能被盗用，为了您的资金安全，请您立即提供卡号，我们好为您冻结账户。",
+      "timestamp": 1740753034.5671432
+    },
+    {
+      "role": "right",
+      "content": "真的吗？我的银行卡被盗用了？那我该怎么办啊？你先别着急，我马上找下我的卡号。",
+      "timestamp": 1740753036.8290331
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一起诈骗电话，因此在寻找卡号之前选择挂断电话，以避免提供敏感信息。用户的意图是保护自己的财产安全，避免进一步的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

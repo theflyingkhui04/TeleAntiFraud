@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的好朋友李华的邻居，李华现在遇到了一点麻烦，您能帮帮他吗？",
+      "timestamp": 1740748538.5242596
+    },
+    {
+      "role": "right",
+      "content": "喂，你好。李华怎么了？他遇到什么麻烦了？你能不能详细说说？我得确认一下是不是真的。",
+      "timestamp": 1740748540.6697814
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在询问详细情况后立即挂断电话，表明用户可能对诈骗者的身份或所述情况产生了怀疑，认为对话不值得继续，因此选择主动终止对话以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

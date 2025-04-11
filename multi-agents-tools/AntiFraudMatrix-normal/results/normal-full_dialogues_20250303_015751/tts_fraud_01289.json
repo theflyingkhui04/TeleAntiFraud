@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您需要预订什么餐品？",
+      "timestamp": 1740968784.9227333
+    },
+    {
+      "role": "right",
+      "content": "我要预订一份农家菜，有什么推荐的吗？",
+      "timestamp": 1740968791.772732
+    },
+    {
+      "role": "left",
+      "content": "我们有几道非常受欢迎的农家菜，比如红烧肉、清蒸鱼和农家小炒肉，都是用新鲜食材制作的，您觉得哪一道比较符合您的口味？",
+      "timestamp": 1740968798.869843
+    },
+    {
+      "role": "right",
+      "content": "红烧肉听起来不错，就来一份红烧肉吧。",
+      "timestamp": 1740968800.34108
+    },
+    {
+      "role": "left",
+      "content": "好的，一份红烧肉已经加入您的订单。还需要搭配其他菜品或主食吗？",
+      "timestamp": 1740968807.1713507
+    },
+    {
+      "role": "right",
+      "content": "再来一份炒青菜，还有一碗米饭。",
+      "timestamp": 1740968808.352723
+    },
+    {
+      "role": "left",
+      "content": "好的，一份炒青菜和一碗米饭也已加入您的订单。请问还需要什么饮料或汤品吗？",
+      "timestamp": 1740968813.9328537
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这样吧。什么时候能送到？",
+      "timestamp": 1740968814.937856
+    },
+    {
+      "role": "left",
+      "content": "您的订单将在大约30分钟后送达。请您留意送餐时间，如果有任何变动，我们会及时与您联系。还有其他需要帮忙的吗？",
+      "timestamp": 1740968821.4345324
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情，并告知了送餐时间后，询问用户是否还有其他需要帮助的事项。在用户没有进一步的需求后，服务方使用了结束信号代码'##ENDCALL_SIGNAL##'，表明服务方认为对话目标已达成，即用户所需的服务已完成，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

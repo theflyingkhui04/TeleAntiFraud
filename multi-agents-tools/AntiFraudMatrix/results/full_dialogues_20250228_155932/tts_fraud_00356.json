@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自星际资本的资深投资顾问，李明。最近我们发现了一个非常有潜力的投资项目，我觉得您一定会感兴趣的。",
+      "timestamp": 1740756532.425857
+    },
+    {
+      "role": "right",
+      "content": "你好，李明。谢谢你的联系，不过我现在失业，手头的资金有限，暂时没有投资的打算。你能具体说说这个项目吗？我了解一下也好。",
+      "timestamp": 1740756534.7189424
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中明确表示自己目前失业，资金有限，没有投资的打算。尽管如此，用户还是礼貌地询问了项目详情，表现出一定的兴趣但并未提供任何敏感信息。用户主动挂断电话可能是出于对当前对话内容的不感兴趣，或认为进一步交流不会带来实质性的帮助。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

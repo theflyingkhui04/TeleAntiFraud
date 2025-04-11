@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "对不起，我必须挂断了，我们正在调查一个涉及您个人信息的安全问题，需要尽快确认。稍后我会再联系您。",
+      "timestamp": 1740687544.3289204
+    },
+    {
+      "role": "right",
+      "content": "好的，您先忙，我等您的电话。希望问题能赶紧解决。",
+      "timestamp": 1740687546.5828817
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出挂断后表示同意，并表达了对问题解决的期望。用户挂断的原因可能是因为接受了诈骗者的理由，认为这是解决问题的必要步骤。用户的意图可能是在等待诈骗者进一步的联系，以解决所谓的安全问题。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

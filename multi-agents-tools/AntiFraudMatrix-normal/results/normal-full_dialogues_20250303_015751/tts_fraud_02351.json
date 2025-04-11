@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，请问有什么问题我可以帮您解决呢？",
+      "timestamp": 1740973998.5065238
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我是老李，最近在用你们的APP时遇到了一些问题。有时候会突然闪退，不知道是怎么回事。",
+      "timestamp": 1740974000.1873496
+    },
+    {
+      "role": "left",
+      "content": "您好，老李，感谢您的反馈。闪退问题可能是由于APP版本过旧或者手机系统不兼容导致的。您可以先尝试更新APP到最新版本，看看问题是否仍然存在。如果还有问题，可以告诉我您的手机型号和系统版本，我帮您进一步排查。",
+      "timestamp": 1740974007.0025556
+    },
+    {
+      "role": "right",
+      "content": "好的，小张。我试试更新一下APP。如果还是不行，我会再联系你，提供我的手机型号和系统版本。谢谢你的帮助。",
+      "timestamp": 1740974009.6497457
+    },
+    {
+      "role": "left",
+      "content": "老李，感谢您的反馈和配合，如果问题仍然存在，请随时联系我们的客服。希望您使用愉快，祝您一天愉快。再见。",
+      "timestamp": 1740974020.3207734
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。如果需要再联系你。再见。",
+      "timestamp": 1740974022.1356497
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示会先尝试更新APP，并在问题仍然存在时再联系客服，同时表达了感谢，表明当前对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "老李，感谢您的反馈和配合，如果问题仍然存在，请随时联系我们的客服。希望您使用愉快，祝您一天愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。如果需要再联系你。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

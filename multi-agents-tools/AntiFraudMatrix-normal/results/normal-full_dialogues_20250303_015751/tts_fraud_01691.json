@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，您可以告诉我想要预订哪家餐厅和具体餐点吗？",
+      "timestamp": 1740966002.6112962
+    },
+    {
+      "role": "right",
+      "content": "好的，我想预订那家新开的意大利餐厅，叫“罗马假日”。餐点的话，我想预订一份烤鸡、一份凯撒沙拉和一瓶红酒。",
+      "timestamp": 1740966004.1202
+    },
+    {
+      "role": "left",
+      "content": "好的，您预订的是“罗马假日”意大利餐厅，餐点包括一份烤鸡、一份凯撒沙拉和一瓶红酒，对吗？还有其他需要添加的吗？",
+      "timestamp": 1740966009.6364508
+    },
+    {
+      "role": "right",
+      "content": "对的，这些就足够了。谢谢。",
+      "timestamp": 1740966010.941289
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已成功预订，餐点包括一份烤鸡、一份凯撒沙拉和一瓶红酒。预计送达时间为三十分钟内，感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740966021.5162323
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待用餐。",
+      "timestamp": 1740966022.4344206
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了预订的餐点，并表示这些就足够了，同时表达了感谢，表明用户对服务满意且无需进一步帮助。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已成功预订，餐点包括一份烤鸡、一份凯撒沙拉和一瓶红酒。预计送达时间为三十分钟内，感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待用餐。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是李敏。我们发现您的账户有异常交易，可能涉及资金安全问题，需要您配合我们进行核实。为了您的资金安全，请尽快提供您的身份证号码，以便我们进行身份验证。",
+      "timestamp": 1740739925.7591548
+    },
+    {
+      "role": "right",
+      "content": "你好，李敏。我最近确实没有怎么用银行卡，不过你们客服怎么联系我的？我有点担心这是不是诈骗电话。",
+      "timestamp": 1740739960.8773167
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份表示怀疑，并明确表达了对电话真实性的担忧。用户使用了挂断标识符'##ENDCALL_SIGNAL##'，表明其决定终止对话，可能是因为用户意识到这通电话可能是诈骗，并选择保护自己的个人信息和资金安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

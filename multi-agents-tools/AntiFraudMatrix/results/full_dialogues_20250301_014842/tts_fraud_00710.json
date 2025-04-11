@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服，您的账户出现异常交易，为了保障您的资金安全，请您提供身份证号码和银行卡号以便我们进行核实。",
+      "timestamp": 1740781456.8001697
+    },
+    {
+      "role": "right",
+      "content": "你好，我的账户真的有问题吗？这听起来有点奇怪，我最近都没怎么用这张卡。",
+      "timestamp": 1740781460.6689975
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方的真实身份和意图，对要求提供敏感信息的请求感到不安，因此选择挂断电话以保护个人信息安全。这表明用户对潜在的诈骗行为有一定的警觉性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

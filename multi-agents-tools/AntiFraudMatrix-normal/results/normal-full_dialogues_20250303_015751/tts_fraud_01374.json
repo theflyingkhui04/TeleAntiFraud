@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询专员为您服务，有什么我可以帮助您的吗？",
+      "timestamp": 1740950888.3402083
+    },
+    {
+      "role": "right",
+      "content": "你好，我想问问最近村里到镇上的班车有没有调整时间。",
+      "timestamp": 1740950890.5263748
+    },
+    {
+      "role": "left",
+      "content": "好的，我来帮您查询一下最近的班车时间调整情况。请稍等片刻。",
+      "timestamp": 1740950894.6276472
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的问题后，表示会查询班车时间调整情况，但随即使用了结束信号代码。这可能是因为服务方发现当前无法立即提供具体的时间调整信息，或者认为查询过程需要时间，决定先结束对话，后续再提供信息。服务方的意图可能是避免用户长时间等待，同时保持专业和高效的服务态度。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

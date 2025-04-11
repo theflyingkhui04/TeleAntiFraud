@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询专员为您服务，有什么可以帮助您的？",
+      "timestamp": 1740967971.6025078
+    },
+    {
+      "role": "right",
+      "content": "你好，我想问一下最近地铁是不是有新的线路开通了？",
+      "timestamp": 1740967973.2218122
+    },
+    {
+      "role": "left",
+      "content": "您好，最近确实有新的地铁线路开通了。您可以告诉我您所在的城市，我来为您提供具体的信息。",
+      "timestamp": 1740967980.1223874
+    },
+    {
+      "role": "right",
+      "content": "好的，我在北京。",
+      "timestamp": 1740967980.8969393
+    },
+    {
+      "role": "left",
+      "content": "北京最近开通了地铁19号线一期，这条线路连接了北部的清河站和南部的新宫站，大大缩短了南北之间的通勤时间。您是否需要了解更详细的站点信息？",
+      "timestamp": 1740967987.9872007
+    },
+    {
+      "role": "right",
+      "content": "不用了，我知道大概情况了。谢谢。",
+      "timestamp": 1740967988.8878303
+    },
+    {
+      "role": "left",
+      "content": "如果您对19号线的信息没有其他疑问，那我就先为您确认这些信息了。感谢您的咨询，祝您旅途愉快。",
+      "timestamp": 1740967995.0696359
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您工作顺利。",
+      "timestamp": 1740967996.8353949
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并明确表示了感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您对19号线的信息没有其他疑问，那我就先为您确认这些信息了。感谢您的咨询，祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您工作顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

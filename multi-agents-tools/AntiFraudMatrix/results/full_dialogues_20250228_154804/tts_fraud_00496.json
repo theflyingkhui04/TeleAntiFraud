@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友张先生的同事李文。张先生现在情况非常危急，他在外地出差时遇到了一些麻烦，现在急需您的帮助。",
+      "timestamp": 1740739391.3642404
+    },
+    {
+      "role": "right",
+      "content": "李文，您好。张先生怎么了？他出了什么事情？我需要了解清楚一些情况，不然我不能随便汇款或者提供什么帮助。请您告诉我具体发生了什么。",
+      "timestamp": 1740739395.7662709
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了谨慎的态度，要求了解更多具体的情况，而不是立即采取行动。诈骗者在没有提供具体信息的情况下选择了挂断，这可能是因为诈骗者意识到用户对诈骗行为有所警觉，继续对话可能无法成功。用户的意图是希望获取更多关于张先生的具体信息，以验证情况的真实性，而不是盲目地提供帮助或汇款。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

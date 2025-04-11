@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我可以帮您叫车，请问您现在的位置和目的地是哪里？",
+      "timestamp": 1740975850.115831
+    },
+    {
+      "role": "right",
+      "content": "我现在在市中心的商场，目的地是城东的小区，叫一辆普通的轿车就行。谢谢。",
+      "timestamp": 1740975851.711531
+    },
+    {
+      "role": "left",
+      "content": "好的，我已经为您叫了一辆普通的轿车。预计等待时间大约是10分钟，司机到达后会联系您。如果您有任何其他需求，请随时告诉我。",
+      "timestamp": 1740975858.336557
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我会留意电话的。如果有问题我会再联系你。",
+      "timestamp": 1740975859.4130487
+    },
+    {
+      "role": "left",
+      "content": "您的车辆已安排好，预计10分钟后到达。如果有任何问题，请随时联系客服。祝您旅途愉快。",
+      "timestamp": 1740975866.2637186
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。旅途愉快。",
+      "timestamp": 1740975867.7985423
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了服务信息，并表示如果有问题会再次联系，这意味着当前的服务请求已经完成，用户对服务表示满意。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的车辆已安排好，预计10分钟后到达。如果有任何问题，请随时联系客服。祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。旅途愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是某银行的客服人员，这里显示您的账户可能被盗用，为了您的安全，请您提供身份证号码以便我们进行身份验证。",
+      "timestamp": 1740801535.6559262
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的提醒。我的身份证号码是……",
+      "timestamp": 1740801537.06514
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供身份证号码后主动挂断电话，可能是因为意识到自己正在泄露敏感信息，或者突然意识到这可能是一个诈骗电话。用户挂断电话的意图很可能是为了停止进一步的信息泄露，保护自己的隐私和财产安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

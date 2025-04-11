@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "张先生吗？我是海通金融的投资顾问李明。最近我们发现有一个非常有潜力的投资项目，我想您可能感兴趣。",
+      "timestamp": 1740801777.3465376
+    },
+    {
+      "role": "right",
+      "content": "您好，李明先生。我是教师，不是张先生。可能您弄错人了。",
+      "timestamp": 1740801779.6824682
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是因为诈骗者误将用户认作其他人（张先生），并且试图推销投资产品。用户明确表示自己并非张先生，并且可能是意识到这是一起诈骗尝试，因此选择挂断电话以避免进一步的交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

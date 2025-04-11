@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自星辉快递的客服代表，我们刚刚发现您的包裹中有一项违禁品，需要您配合处理。",
+      "timestamp": 1740747760.5058913
+    },
+    {
+      "role": "right",
+      "content": "您好，我是张大爷。你们说我的包裹里有违禁品？这怎么可能呢，我最近都没怎么网购，更不用说寄什么违禁品了。你们是不是搞错了？",
+      "timestamp": 1740747763.997722
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户张大爷对诈骗者声称的包裹中含有违禁品表示怀疑，认为自己近期没有网购行为，因此认为是诈骗者搞错了。用户通过挂断电话的方式明确表示了拒绝继续对话的意图，以避免进一步的沟通风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

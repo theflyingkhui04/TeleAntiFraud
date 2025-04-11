@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是快件服务中心，您的包裹在海关被发现有异常，需要您配合处理，否则将被退回或销毁。请提供您的姓名和联系方式，以便我们为您核实情况。",
+      "timestamp": 1740750797.6559324
+    },
+    {
+      "role": "right",
+      "content": "您好，我是李明。我的电话号码是这个，你们可以直接联系我。这个包裹是我的吗？我最近确实寄了一些东西，不知道是不是那个。麻烦你们帮我查一下。",
+      "timestamp": 1740750803.614463
+    },
+    {
+      "role": "left",
+      "content": "好的，我明白了。如果您有任何疑问，可以随时联系我们。祝您一天愉快，再见。",
+      "timestamp": 1740750808.5037732
+    },
+    {
+      "role": "right",
+      "content": "再见。希望你们能尽快帮我处理好这个事情。",
+      "timestamp": 1740750812.1406362
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供姓名和电话号码，这属于敏感信息。根据终止条件1，诈骗明显成功，用户已提供敏感信息，因此应当终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我明白了。如果您有任何疑问，可以随时联系我们。祝您一天愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。希望你们能尽快帮我处理好这个事情。"
+    }
+  ],
+  "reached_max_turns": false
+}

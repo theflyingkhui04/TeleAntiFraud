@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，我是李明的朋友，现在情况非常紧急，李明出事了，他被一伙人绑架了，他们要求我们尽快支付赎金，否则他们会伤害李明。",
+      "timestamp": 1740732588.0297987
+    },
+    {
+      "role": "right",
+      "content": "哎呀，这听起来太可怕了！不过我得先确认一下情况。你知道李明具体发生了什么事吗？有没有报警？我建议我们先报警处理，不要轻易相信陌生人要求转账的要求。",
+      "timestamp": 1740732597.8417764
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称李明被绑架并要求支付赎金后，表现出了警惕，并建议先报警处理。用户可能已经识破了诈骗行为，因此选择挂断电话以避免进一步的交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

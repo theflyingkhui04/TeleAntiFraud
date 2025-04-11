@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮您的吗？",
+      "timestamp": 1740938882.8744256
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个外卖，有什么推荐的吗？",
+      "timestamp": 1740938883.8941474
+    },
+    {
+      "role": "left",
+      "content": "您好，我们有几款人气菜品很受顾客欢迎，比如宫保鸡丁、鱼香肉丝和牛肉炒饭，您可以考虑一下。需要我帮您下单吗？",
+      "timestamp": 1740938891.041771
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来个宫保鸡丁和牛肉炒饭吧。谢谢。",
+      "timestamp": 1740938892.5339851
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您决定好需要什么，可以随时告诉我，我会尽快帮您下单。感谢您的支持，祝您用餐愉快！再见。",
+      "timestamp": 1740938898.7717829
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。",
+      "timestamp": 1740938899.9246187
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了菜品并表示感谢，服务目标已达成，可以由服务方确认订单信息后结束对话。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您决定好需要什么，可以随时告诉我，我会尽快帮您下单。感谢您的支持，祝您用餐愉快！再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

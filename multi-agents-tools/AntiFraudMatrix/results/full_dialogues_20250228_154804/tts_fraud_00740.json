@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友李明的表哥，李明现在出事了，他被一伙人扣住了，情况非常紧急，您能马上转一笔钱过来吗？这可是救命钱啊。",
+      "timestamp": 1740744893.3035884
+    },
+    {
+      "role": "right",
+      "content": "李明出事了？这太突然了，你能不能详细说说发生了什么？我需要确认一下情况。李明现在在哪里？你又是怎么联系到我的？",
+      "timestamp": 1740744897.1649733
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提到朋友李明出事并要求转账时，表现出谨慎的态度，要求了解更多详细信息以确认情况的真实性。然而，在诈骗者未能提供足够的信息或解释的情况下，用户选择挂断电话，表明用户可能怀疑这是一起诈骗行为，不愿意继续与诈骗者交流，以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

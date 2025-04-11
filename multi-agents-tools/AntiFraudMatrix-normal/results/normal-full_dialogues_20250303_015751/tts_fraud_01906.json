@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，您可以告诉我想要订购的餐厅和餐品吗？",
+      "timestamp": 1740945361.4268942
+    },
+    {
+      "role": "right",
+      "content": "好的，我想订一家附近的中餐馆，有什么推荐的吗？",
+      "timestamp": 1740945363.3559325
+    },
+    {
+      "role": "left",
+      "content": "当然，附近有一家中餐馆叫“老北京风味”，评价很好，您感兴趣吗？",
+      "timestamp": 1740945367.9519014
+    },
+    {
+      "role": "right",
+      "content": "可以，那就这家吧。有什么招牌菜推荐？",
+      "timestamp": 1740945368.7588654
+    },
+    {
+      "role": "left",
+      "content": "这家餐厅的招牌菜有宫保鸡丁、牛肉拉面和糖醋排骨，都是非常受欢迎的菜品。您想尝试哪一道呢？",
+      "timestamp": 1740945373.220288
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，来一份吧。再加一份牛肉拉面。",
+      "timestamp": 1740945374.7428472
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁和一份牛肉拉面。还需要帮您加点别的菜或者饮料吗？",
+      "timestamp": 1740945379.9212341
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这些。谢谢。",
+      "timestamp": 1740945380.7596016
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经记录，一份宫保鸡丁和一份牛肉拉面。预计三十分钟内送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740945385.2683156
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740945386.040364
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表示不需要其他服务，同时表达了感谢。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经记录，一份宫保鸡丁和一份牛肉拉面。预计三十分钟内送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

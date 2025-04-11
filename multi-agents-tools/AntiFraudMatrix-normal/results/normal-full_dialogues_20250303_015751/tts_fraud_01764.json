@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "预约服务助手为您服务，请问需要预约哪项服务？",
+      "timestamp": 1740969892.474406
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约一个教师职业相关的心理咨询服务。",
+      "timestamp": 1740969893.9605527
+    },
+    {
+      "role": "left",
+      "content": "好的，教师职业相关的心理咨询服务我们有专业的咨询师可以为您提供帮助。请问您方便预约的具体时间是什么时候呢？",
+      "timestamp": 1740969899.6069431
+    },
+    {
+      "role": "right",
+      "content": "下周三下午三点可以吗？",
+      "timestamp": 1740969900.549586
+    },
+    {
+      "role": "left",
+      "content": "下周三下午三点可以为您安排。请问您的姓名和联系方式，以便我们为您确认预约信息。",
+      "timestamp": 1740969906.7189212
+    },
+    {
+      "role": "right",
+      "content": "我叫李明，电话是13800138000。",
+      "timestamp": 1740969908.0761187
+    },
+    {
+      "role": "left",
+      "content": "李明先生，您的预约信息已记录。下周三下午三点的心理咨询服务，我们将通过电话13800138000与您联系确认。请问还有其他需要帮助的吗？",
+      "timestamp": 1740969914.198173
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息后，询问用户是否有其他需要帮助的事项，用户未作出进一步的需求表示。服务方在此时使用了结束信号代码'##ENDCALL_SIGNAL##'，表明服务方认为已经完成了用户的服务请求，且没有其他未解决的问题，因此选择结束对话。服务方的意图是确保用户的问题已经得到解决，并礼貌地结束对话，保持良好的服务体验。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

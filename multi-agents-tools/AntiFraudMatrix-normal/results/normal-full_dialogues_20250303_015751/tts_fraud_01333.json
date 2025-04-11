@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "预约服务专员为您服务，请问有什么可以帮助您的？",
+      "timestamp": 1740947841.1673858
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下你们的维修服务。具体的流程是怎么样的？",
+      "timestamp": 1740947842.3558867
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户和客服在对话开始后立即提供了结束信号代码（##ENDCALL_SIGNAL##），这可能是因为双方正在进行一个测试对话，或者用户在尝试发起对话时改变了主意。在这种情况下，用户并没有提出具体的问题或需求，也没有进行实质性的交流，因此对话在开始后即被双方同时结束。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

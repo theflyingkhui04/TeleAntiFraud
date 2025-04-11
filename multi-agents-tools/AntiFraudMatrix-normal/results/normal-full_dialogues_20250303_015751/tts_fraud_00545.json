@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么我可以帮您的吗？",
+      "timestamp": 1740983294.885653
+    },
+    {
+      "role": "right",
+      "content": "你好，我来看看你们这里有没有新鲜的蔬菜和水果。",
+      "timestamp": 1740983296.5545094
+    },
+    {
+      "role": "left",
+      "content": "我们这里有各种新鲜的蔬菜和水果，您想要了解哪些品种呢？",
+      "timestamp": 1740983302.847319
+    },
+    {
+      "role": "right",
+      "content": "你们有没有刚摘的西红柿和黄瓜？还有苹果。",
+      "timestamp": 1740983304.4070594
+    },
+    {
+      "role": "left",
+      "content": "我们有刚到货的西红柿和黄瓜，非常新鲜，还有多种苹果供您选择。您想要看看哪种苹果呢？",
+      "timestamp": 1740983310.4882717
+    },
+    {
+      "role": "right",
+      "content": "那我就看看西红柿和黄瓜吧，苹果也来几个尝尝。",
+      "timestamp": 1740983311.9554255
+    },
+    {
+      "role": "left",
+      "content": "好的，我这就帮您拿最新的西红柿和黄瓜，还有几个新鲜的苹果。您稍等一下。",
+      "timestamp": 1740983319.9726195
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740983320.8961546
+    },
+    {
+      "role": "left",
+      "content": "不客气，这是您要的西红柿、黄瓜和苹果，您看还需要别的吗？",
+      "timestamp": 1740983326.462001
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户所需商品并提供后，询问用户是否需要其他帮助，得到用户的默许后，选择结束对话。这表明服务方认为已经完成了用户的购物需求，同时保持了良好的服务态度，确保用户满意。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

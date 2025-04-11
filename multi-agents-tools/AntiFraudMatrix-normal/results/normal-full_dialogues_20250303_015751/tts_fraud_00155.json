@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的打车服务助手，有什么可以帮助您的吗？",
+      "timestamp": 1740940167.5159044
+    },
+    {
+      "role": "right",
+      "content": "你好，我想确认一下我的打车订单。",
+      "timestamp": 1740940168.6491463
+    },
+    {
+      "role": "left",
+      "content": "好的，请告诉我您的订单号或者上车地点和时间，我来帮您查询。",
+      "timestamp": 1740940172.2846994
+    },
+    {
+      "role": "right",
+      "content": "订单号是123456789。",
+      "timestamp": 1740940173.4437716
+    },
+    {
+      "role": "left",
+      "content": "查到了，您的订单状态是已接单，预计司机将在大约5分钟内到达您的上车地点。",
+      "timestamp": 1740940176.8969316
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会按时在上车地点等。",
+      "timestamp": 1740940177.7236638
+    },
+    {
+      "role": "left",
+      "content": "您的订单已确认，司机很快就会到达。如果您有任何其他问题，随时可以联系我们。祝您行程愉快。",
+      "timestamp": 1740940182.5927112
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740940183.5359511
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已获得所需信息，并表达了感谢，表明对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的订单已确认，司机很快就会到达。如果您有任何其他问题，随时可以联系我们。祝您行程愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

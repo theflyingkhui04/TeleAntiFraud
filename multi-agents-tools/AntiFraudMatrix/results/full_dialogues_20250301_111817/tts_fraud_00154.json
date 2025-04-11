@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张明吗？我是李华，你侄子的朋友。张明，出大事了，你侄子在国外被一群歹徒绑架了，他们要求支付一笔赎金，不然就要对他动手。你一定要冷静，我现在需要你马上汇款，这样才能确保他的安全。你有银行卡吗？##\n\n请注意，以上内容仅为模拟示例，不代表真实情况。如果您接到类似电话，请立即报警。",
+      "timestamp": 1740803973.411177
+    },
+    {
+      "role": "right",
+      "content": "李华？你是谁来着？怎么突然说这么严重的事情？我侄子不是在读研究生吗？怎么会跑到国外去？你能不能告诉我具体一点的情况？我得确认一下再说。",
+      "timestamp": 1740803976.3307822
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份和所述情况表示怀疑，要求提供更多具体信息以确认真实性。用户可能已经意识到这是一起诈骗行为，因此选择主动挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

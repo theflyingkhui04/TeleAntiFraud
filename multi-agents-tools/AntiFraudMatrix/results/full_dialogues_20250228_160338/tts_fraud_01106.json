@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是建设银行客服中心，我是李经理。我们注意到您的账户有异常活动，为确保您的资金安全，我们需要您配合进行一次安全验证。您现在方便吗？",
+      "timestamp": 1740731367.4662836
+    },
+    {
+      "role": "right",
+      "content": "李经理，您好。现在挺方便的，您说的账户异常活动是怎么回事？我最近确实没怎么用这个账户，不知道是不是出了什么问题。",
+      "timestamp": 1740731394.1122305
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在接听电话后，诈骗者主动挂断了电话。这可能是因为诈骗者意识到用户已经开始询问具体问题，可能会进一步质疑其身份或询问更多细节，从而增加被识破的风险。诈骗者可能选择在此阶段挂断电话，以避免进一步暴露自己的诈骗行为。用户的意图是了解账户异常活动的具体情况，显示出对账户安全的关心。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

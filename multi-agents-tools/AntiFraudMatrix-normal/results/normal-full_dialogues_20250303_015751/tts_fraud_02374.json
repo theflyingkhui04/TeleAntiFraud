@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是客服小张，有什么可以帮助您的吗？",
+      "timestamp": 1740947704.28727
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我是李建国，之前在你们这里购买了一台打印机，最近有点小问题，想了解一下怎么解决。",
+      "timestamp": 1740947705.9932814
+    },
+    {
+      "role": "left",
+      "content": "您好，李先生，很高兴为您服务。请问您能告诉我具体的问题是什么吗？这样我可以更好地帮您解决。",
+      "timestamp": 1740947713.1838655
+    },
+    {
+      "role": "right",
+      "content": "好的，打印时偶尔会出现卡纸的情况，有时候还会打印不清晰。这些问题之前没有遇到过。",
+      "timestamp": 1740947714.5642626
+    },
+    {
+      "role": "left",
+      "content": "了解了，李先生。卡纸和打印不清晰通常是因为纸张选择不当或喷头需要清洁。您可以先检查一下使用的纸张是否合适，然后再尝试清洁喷头。我这边可以为您发送一份详细的清洁指南，您看可以吗？",
+      "timestamp": 1740947719.2840786
+    },
+    {
+      "role": "right",
+      "content": "可以的，麻烦你了。我按照指南试试看。如果还是不行，再联系你们。",
+      "timestamp": 1740947720.247367
+    },
+    {
+      "role": "left",
+      "content": "好的，李先生，我会立即为您发送清洁指南。如果还有其他问题，欢迎随时联系我们的客服。感谢您的支持，祝您使用愉快。",
+      "timestamp": 1740947725.8125317
+    },
+    {
+      "role": "right",
+      "content": "谢谢，小张。希望问题能解决。再见。",
+      "timestamp": 1740947728.2957592
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示将按照指南尝试解决问题，并在需要时再次联系客服，表明当前问题已得到初步解决，用户满意且没有进一步的问题。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，李先生，我会立即为您发送清洁指南。如果还有其他问题，欢迎随时联系我们的客服。感谢您的支持，祝您使用愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，小张。希望问题能解决。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

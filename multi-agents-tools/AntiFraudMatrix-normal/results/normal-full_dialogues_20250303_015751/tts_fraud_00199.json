@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，我可以帮您下单或解答任何疑问。",
+      "timestamp": 1740947573.9162471
+    },
+    {
+      "role": "right",
+      "content": "嗯，我不太懂怎么用这个，你能帮我吗？",
+      "timestamp": 1740947578.2418416
+    },
+    {
+      "role": "left",
+      "content": "当然可以，您是想了解一下如何下单，还是遇到具体的问题了？",
+      "timestamp": 1740947585.1429343
+    },
+    {
+      "role": "right",
+      "content": "我想了解一下怎么下单。",
+      "timestamp": 1740947586.3792777
+    },
+    {
+      "role": "left",
+      "content": "好的，首先您需要在我们的App或者网站上注册一个账号，然后选择您喜欢的餐厅和菜品，最后确认订单并支付即可。需要我详细解释每个步骤吗？",
+      "timestamp": 1740947590.5661702
+    },
+    {
+      "role": "right",
+      "content": "不用了，我大概懂了，谢谢。",
+      "timestamp": 1740947591.685236
+    },
+    {
+      "role": "left",
+      "content": "如果您还有任何疑问，随时可以联系我们的客服。感谢您的使用，希望您有一个愉快的用餐体验。",
+      "timestamp": 1740947601.9141614
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740947602.8751197
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示感谢并结束对话，表明其已经理解了如何下单，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您还有任何疑问，随时可以联系我们的客服。感谢您的使用，希望您有一个愉快的用餐体验。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎联系客服，我是小李，很高兴为您服务，请问有什么可以帮助您的？",
+      "timestamp": 1740969676.5343323
+    },
+    {
+      "role": "right",
+      "content": "你好，小李，我最近感觉电视有点问题，画面总是闪，想问问你们这里有没有什么解决方案。",
+      "timestamp": 1740969678.5498853
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在对话开始时即提供了结束信号代码'##ENDCALL_SIGNAL##'，这可能是系统错误或操作失误。用户随后描述了他们遇到的问题，但对话在此处因服务方的提前结束信号而被截断。用户的意图是寻求关于电视画面闪烁问题的解决方案，但由于服务方的提前结束信号，对话未能继续进行。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您，您中了我们最新一期的大奖，奖金高达五百万元！请提供您的个人信息以便我们进行核实和发放奖金。",
+      "timestamp": 1740738921.1118896
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？我居然中奖了！太不可思议了。请问需要提供哪些个人信息呢？",
+      "timestamp": 1740738936.252384
+    },
+    {
+      "role": "left",
+      "content": "您只需要提供姓名、身份证号码和银行卡号，我们会在三个工作日内将奖金直接汇入您的账户。请尽快提供，以免错过领取期限。",
+      "timestamp": 1740738972.962548
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者可能意识到用户过于轻易相信，担心用户会进一步询问或核实信息，从而暴露诈骗行为。因此，诈骗者选择在用户提供信息前挂断电话，避免过早暴露，同时保留再次联系的机会。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

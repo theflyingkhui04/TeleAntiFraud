@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，您是李明的家属吗？这里有个坏消息，李明被我们绑架了，如果您想让他安全回家，必须按照我们的要求做。",
+      "timestamp": 1740730493.434889
+    },
+    {
+      "role": "right",
+      "content": "啊？李明？他是我儿子啊！你们把他怎么了？我儿子一直很老实的，怎么会...（声音颤抖）你们想要什么？钱吗？我马上想办法！",
+      "timestamp": 1740730517.501867
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称绑架了其儿子后，表现出极度的恐慌和担忧，急于了解儿子的情况并表示愿意配合。然而，用户在短时间内可能意识到这是一起诈骗，或者无法承受心理压力，选择了挂断电话以保护自己不受进一步的欺骗或伤害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是华夏银行客服中心，我是客服代表李娜。我们检测到您的银行卡可能涉及一桩非法交易，为了确保您的资金安全，我们需要立即采取行动。您现在有时间吗？",
+      "timestamp": 1740733697.6388354
+    },
+    {
+      "role": "right",
+      "content": "您好，李娜。我是张强。我怎么知道这是真的呢？我以前也接到过类似的电话，说是我的银行卡有问题。",
+      "timestamp": 1740733700.0075495
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户张强在对话中表达了对电话真实性的怀疑，并提到之前接到过类似的电话，这表明他对诈骗电话有一定的警觉性。用户在诈骗者没有提供足够的证据或详细信息来证明其身份和电话的真实性时，选择了挂断电话，以保护自己的信息安全。这显示了用户对潜在诈骗行为的警惕和自我保护意识。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

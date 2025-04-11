@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的老朋友李文，不知道您还记得我吗？最近遇到点麻烦，真的需要您的帮助。",
+      "timestamp": 1740785935.2050729
+    },
+    {
+      "role": "right",
+      "content": "李文？我好像不太记得有这个朋友。你最近遇到什么麻烦了？可以跟我说说看。",
+      "timestamp": 1740785936.687062
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中对诈骗者的身份表示了怀疑，但仍然询问了对方遇到的麻烦。诈骗者在用户表达疑问后立即挂断了电话，可能是为了避免进一步的质疑，或者是因为意识到诈骗行为已经被识破。因此，用户挂断电话的原因可能是因为对诈骗者的身份产生了怀疑，而诈骗者挂断电话的原因则是因为意识到诈骗行为可能已经失败。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

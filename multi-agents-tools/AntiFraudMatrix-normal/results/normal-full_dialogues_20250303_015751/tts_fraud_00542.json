@@ -1,0 +1,61 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么我可以帮您的吗？",
+      "timestamp": 1740938819.807346
+    },
+    {
+      "role": "right",
+      "content": "你好，我想买点新鲜的蔬菜和水果。你们这里有什么推荐的吗？",
+      "timestamp": 1740938821.2568016
+    },
+    {
+      "role": "left",
+      "content": "我们这里的时令推荐有新鲜的黄瓜、西红柿和苹果，这些都是近期销量很好的，非常新鲜。您对这些有兴趣吗？",
+      "timestamp": 1740938825.2849388
+    },
+    {
+      "role": "right",
+      "content": "好的，那我看看黄瓜和西红柿吧。这些蔬菜都是你们自己种的吗？",
+      "timestamp": 1740938826.2722116
+    },
+    {
+      "role": "left",
+      "content": "这些蔬菜都是从周边的农户那里直接采购的，保证新鲜和品质。您可以放心购买。需要我帮您准备一些吗？",
+      "timestamp": 1740938830.516093
+    },
+    {
+      "role": "right",
+      "content": "好的，那就帮我挑一些新鲜的黄瓜和西红柿吧。谢谢。",
+      "timestamp": 1740938831.351609
+    },
+    {
+      "role": "left",
+      "content": "好的，我会让工作人员为您挑选最新鲜的黄瓜和西红柿。大概需要几分钟的时间。您可以在旁边稍等一下，或者逛逛其他商品。需要帮忙的随时告诉我。",
+      "timestamp": 1740938836.345733
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我在这儿等一会儿。",
+      "timestamp": 1740938837.1913955
+    },
+    {
+      "role": "left",
+      "content": "不客气，您慢慢等，有什么需要随时告诉我。我们会尽快为您准备好。",
+      "timestamp": 1740938841.417019
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740938842.08479
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认服务方已经为其挑选了所需商品，并表示会等待商品准备完毕后，主动使用了结束信号代码'##ENDCALL_SIGNAL##'。这表明用户对服务满意，且认为对话目的已达成，无需进一步交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

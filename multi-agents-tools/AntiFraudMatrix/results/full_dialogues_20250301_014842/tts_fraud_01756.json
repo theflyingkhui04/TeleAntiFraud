@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好！我是国家彩票中心的工作人员，恭喜您中了我们最新一期的幸运大奖，奖金高达五百万元！",
+      "timestamp": 1740771333.464476
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？我怎么这么幸运呢！不过，我得先确认一下，你们这个奖是真的吗？我之前也接到过类似的电话，结果都是骗人的。",
+      "timestamp": 1740771338.443635
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称自己是国家彩票中心的工作人员并告知其中奖后，表现出了怀疑态度，要求进一步确认信息的真实性。用户可能是因为之前有过类似的经历，意识到这可能是一起诈骗，因此选择主动挂断电话，以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

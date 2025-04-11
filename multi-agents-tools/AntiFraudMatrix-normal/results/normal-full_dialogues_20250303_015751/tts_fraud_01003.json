@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我是您的客服小助手，请问您现在需要叫车吗？",
+      "timestamp": 1740967911.4452744
+    },
+    {
+      "role": "right",
+      "content": "你好，我需要叫一辆车，从家到公司，大概需要多久能到？",
+      "timestamp": 1740967913.5373445
+    },
+    {
+      "role": "left",
+      "content": "好的，我来帮您安排。从您家到公司大约需要二十分钟的车程，具体时间可能因路况而有所不同。我马上为您叫车，预计司机大约十分钟内到达。您现在准备出发吗？",
+      "timestamp": 1740967920.8766556
+    },
+    {
+      "role": "right",
+      "content": "好的，我马上准备出发。谢谢你的帮助。",
+      "timestamp": 1740967921.9697537
+    },
+    {
+      "role": "left",
+      "content": "您的车辆已经成功叫好，司机大约十分钟内到达。请准备好随身物品，注意安全。感谢使用我们的打车服务，祝您一路顺利。",
+      "timestamp": 1740967935.030337
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。路上注意安全。",
+      "timestamp": 1740967936.0636272
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已表示准备出发，并感谢了服务方的帮助，表明用户的需求已得到满足，对话目标达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的车辆已经成功叫好，司机大约十分钟内到达。请准备好随身物品，注意安全。感谢使用我们的打车服务，祝您一路顺利。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。路上注意安全。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

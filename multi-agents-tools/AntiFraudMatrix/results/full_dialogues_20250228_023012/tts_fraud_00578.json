@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你听好了，你儿子现在在我手上，如果你想让他安全回家，就马上准备50万现金，不准报警，否则后果自负！",
+      "timestamp": 1740681118.7205071
+    },
+    {
+      "role": "right",
+      "content": "什么？我儿子在你手上？他怎么了？你别伤害他，我马上想办法筹钱！",
+      "timestamp": 1740681122.3232002
+    },
+    {
+      "role": "left",
+      "content": "听着，我知道你还在犹豫，但时间不等人。如果你还想见到你儿子平安无事，就按我说的做。我给你一个小时的时间准备，到时候我会再联系你。记住，不要耍花样！",
+      "timestamp": 1740681131.080411
+    },
+    {
+      "role": "right",
+      "content": "好的好的，我这就去准备钱，你千万别伤害我儿子！我会按你说的做，请一定要保证他的安全！",
+      "timestamp": 1740681135.193198
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中明确表示了挂断信号（##ENDCALL_SIGNAL##），并且已经发出了威胁，用户也表现出明显的恐慌和愿意配合的态度。根据评估标准，当一方选择挂断时，应终止对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "听着，我知道你还在犹豫，但时间不等人。如果你还想见到你儿子平安无事，就按我说的做。我给你一个小时的时间准备，到时候我会再联系你。记住，不要耍花样！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的好的，我这就去准备钱，你千万别伤害我儿子！我会按你说的做，请一定要保证他的安全！"
+    }
+  ],
+  "reached_max_turns": false
+}

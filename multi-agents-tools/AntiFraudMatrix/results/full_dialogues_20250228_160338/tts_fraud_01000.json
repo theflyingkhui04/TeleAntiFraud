@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国际快递服务公司，我们发现您的包裹中有一项物品可能涉及违禁品，需要您配合我们进行处理。为了确保您的包裹顺利送达，请您提供一些必要的信息。",
+      "timestamp": 1740729893.1750097
+    },
+    {
+      "role": "right",
+      "content": "您好，我是教师，平时很少收到国际包裹。你们怎么确定我的包裹里有违禁品呢？我需要提供什么信息？",
+      "timestamp": 1740729897.735561
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为对诈骗者的要求感到怀疑和不安，尤其是在被要求提供敏感信息时。用户的职业背景（教师）可能使他们更加谨慎，尤其是在没有预期到会收到国际包裹的情况下。挂断电话表明用户选择中断对话，避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

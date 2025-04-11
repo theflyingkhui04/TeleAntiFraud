@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是张先生的司机。张先生在回家的路上遇到了麻烦，被一伙人控制了，现在情况很危急。您是他的家人吧？我们需要您马上汇一笔钱，才能确保他的安全。您能尽快办好吗？时间不多了，他们很凶，张先生很害怕。",
+      "timestamp": 1740767184.5530818
+    },
+    {
+      "role": "right",
+      "content": "天啊，张先生怎么会遇到这种事！他没事吧？我得赶紧想办法。你们要我汇多少钱？我这就去筹钱。",
+      "timestamp": 1740767186.2146986
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的紧急情况后，表现出极度的担忧和焦虑，并立即表示愿意配合。然而，用户在挂断电话前并未完成对话，这可能是因为用户意识到情况不寻常，或者在挂断后立即寻求其他方式确认张先生的安全。用户的意图可能是为了防止进一步的诈骗行为，或者是为了寻找更安全的解决方案。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

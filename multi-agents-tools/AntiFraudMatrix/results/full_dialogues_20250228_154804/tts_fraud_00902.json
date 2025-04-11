@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，检测到您的账户有异常交易，为了您的资金安全，我们需要核实一些信息，请问您现在方便吗？",
+      "timestamp": 1740750528.9507952
+    },
+    {
+      "role": "right",
+      "content": "哦，您好，我是张阿姨。您说我的账户有异常交易？这可怎么办，我最近都没用过银行卡啊。您能帮我查查吗？",
+      "timestamp": 1740750530.825843
+    },
+    {
+      "role": "left",
+      "content": "张阿姨，您别着急，我们会帮您处理的。为了确保账户安全，我需要您提供一下身份证号码和银行卡的最后四位数字，这样我们才能进一步核实情况。",
+      "timestamp": 1740750535.9026322
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，我这就找找身份证和银行卡。您等一下啊，我这眼神不太好，得慢慢找。",
+      "timestamp": 1740750537.7150521
+    },
+    {
+      "role": "left",
+      "content": "张阿姨，您慢慢来，不急。不过这种情况需要尽快处理，以免您的资金受到损失。您找到身份证和银行卡了吗？",
+      "timestamp": 1740750542.1516361
+    },
+    {
+      "role": "right",
+      "content": "找到了，找到了。我的身份证号码是 XXXXXXXXXXXXXXXX，银行卡的最后四位数字是 XXXX。您看这样可以了吗？",
+      "timestamp": 1740750544.142512
+    },
+    {
+      "role": "left",
+      "content": "张阿姨，谢谢您的配合，我们已经记录了您的信息，会立即为您处理。如有任何问题，我们会再次联系您。祝您生活愉快，再见。",
+      "timestamp": 1740750554.2429843
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，那我就放心了。再见。",
+      "timestamp": 1740750556.3210604
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（身份证号码和银行卡的最后四位数字），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "张阿姨，谢谢您的配合，我们已经记录了您的信息，会立即为您处理。如有任何问题，我们会再次联系您。祝您生活愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，那我就放心了。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

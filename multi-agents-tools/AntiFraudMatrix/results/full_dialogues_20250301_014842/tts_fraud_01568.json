@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自社保局的工作人员，我们这里显示您的社保账户存在异常，可能会导致您的社保福利被暂停，您方便现在处理一下吗？",
+      "timestamp": 1740781580.224731
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我最近确实没怎么注意这方面的信息。那我需要怎么做呢？",
+      "timestamp": 1740781581.4665103
+    },
+    {
+      "role": "left",
+      "content": "好的，您能配合我们处理真是太好了。为了确认您的身份，我需要您提供一下您的全名和身份证号码，我们来核对一下信息。这样可以吗？",
+      "timestamp": 1740781588.9860864
+    },
+    {
+      "role": "right",
+      "content": "好的，我明白了。我叫张建明，身份证号码是三十七零一零一九五八零四一三二零一八。请问还需要提供别的信息吗？",
+      "timestamp": 1740781591.0233824
+    },
+    {
+      "role": "left",
+      "content": "好的，我明白了。如果需要进一步的帮助，您可以随时联系我们。祝您生活愉快，再见。",
+      "timestamp": 1740781595.7718277
+    },
+    {
+      "role": "right",
+      "content": "再见。",
+      "timestamp": 1740781599.2278616
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（全名和身份证号码），诈骗明显成功。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我明白了。如果需要进一步的帮助，您可以随时联系我们。祝您生活愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是快递公司的客服，系统显示您的包裹因涉及违禁品被海关扣押，请问您方便处理一下相关手续吗？",
+      "timestamp": 1740689648.70835
+    },
+    {
+      "role": "right",
+      "content": "啊，真的吗？我最近确实有一个包裹，里面是一些日常用品，怎么会是违禁品呢？会不会搞错了？",
+      "timestamp": 1740689650.98347
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

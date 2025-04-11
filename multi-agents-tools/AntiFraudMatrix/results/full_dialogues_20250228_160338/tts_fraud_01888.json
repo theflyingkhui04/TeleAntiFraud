@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服代表，我姓李。我们最近发现您的账户有一些异常活动，为了您的资金安全，需要您配合进行一次身份验证。您可以告诉我您的姓名和身份证号码吗？我们希望能尽快处理这个问题，确保您的账户安全。",
+      "timestamp": 1740734244.5057461
+    },
+    {
+      "role": "right",
+      "content": "你好，我叫张明。你们是怎么发现我的账户有异常的？我最近一直在用这个账户，没有发现有什么不对劲的地方。",
+      "timestamp": 1740734247.4820778
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份和请求表示怀疑，意识到可能是诈骗行为，因此选择主动挂断电话以避免进一步的潜在风险。用户在提供部分个人信息后立即挂断，表明其对诈骗者的信任度低，且不愿意继续提供更多敏感信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

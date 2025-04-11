@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我可以帮您预约车辆，请告诉我您的上车地点和目的地。",
+      "timestamp": 1740950246.5297518
+    },
+    {
+      "role": "right",
+      "content": "好的，我在国贸大厦，目的地是首都国际机场。麻烦帮我预约一辆舒适点的车。",
+      "timestamp": 1740950248.1324558
+    },
+    {
+      "role": "left",
+      "content": "好的，我已为您预约了一辆舒适的专车，大约十分钟后到达国贸大厦。请留意司机的电话，如有变动及时沟通。",
+      "timestamp": 1740950253.2760968
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认为用户成功预约车辆，并告知了预计到达时间和注意事项后，认为服务已经完成，用户的需求得到了满足，因此选择结束对话。服务方的意图是确保用户了解所有必要的信息，并在服务完成后礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

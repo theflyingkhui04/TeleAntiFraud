@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递公司客服中心，我们发现您的包裹在清关时遇到一些问题，需要您提供一些信息以便处理。请问您现在方便通话吗？",
+      "timestamp": 1740681945.7203748
+    },
+    {
+      "role": "right",
+      "content": "您好，我是李老师。我最近确实有一个包裹在寄送中，但我现在不太方便，可以等我一会儿吗？我需要确认一下这个电话是不是真的。",
+      "timestamp": 1740681984.4116635
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对电话真实性的怀疑，并表示需要确认电话来源。用户可能认为该电话存在诈骗的风险，因此选择挂断电话以保护自己的信息安全。用户的意图是避免在未确认电话真实性的情况下提供任何个人信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

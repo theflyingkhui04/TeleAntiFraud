@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是工商银行客服中心的工作人员，您有一笔未处理的转账，请问您方便现在处理一下吗？",
+      "timestamp": 1740735643.8780909
+    },
+    {
+      "role": "right",
+      "content": "您好，我是张伟。我最近确实有一笔款项要转，但我不记得具体是什么了。您能帮我查一下吗？",
+      "timestamp": 1740735647.126186
+    },
+    {
+      "role": "left",
+      "content": "当然可以，张伟先生。为了确认您的身份，请您提供一下开户时使用的身份证号码后六位，我来帮您查询。",
+      "timestamp": 1740735666.5993948
+    },
+    {
+      "role": "right",
+      "content": "好的，身份证号码后六位是六百二十四万八千五百六十九。您帮我查一下吧。",
+      "timestamp": 1740735669.177428
+    },
+    {
+      "role": "left",
+      "content": "张伟先生，感谢您的配合。我会将您的信息提交给相关部门处理，稍后会有专员联系您确认具体转账事宜。请保持手机畅通。再见。",
+      "timestamp": 1740735704.3783455
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。我会注意接听电话的。再见。",
+      "timestamp": 1740735719.7939823
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（身份证号码后六位），诈骗明显成功。为了防止进一步的信息泄露，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "张伟先生，感谢您的配合。我会将您的信息提交给相关部门处理，稍后会有专员联系您确认具体转账事宜。请保持手机畅通。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。我会注意接听电话的。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

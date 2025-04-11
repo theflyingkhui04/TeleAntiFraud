@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我是您的客服助手，请告诉我您的位置和目的地，我将为您安排车辆。",
+      "timestamp": 1740940566.3984036
+    },
+    {
+      "role": "right",
+      "content": "好的，我在市中心的图书馆门口，目的地是枫叶养老院。谢谢。",
+      "timestamp": 1740940567.807199
+    },
+    {
+      "role": "left",
+      "content": "好的，已经记录下您的位置和目的地。请问您需要什么车型吗？比如舒适型、商务型等。",
+      "timestamp": 1740940574.1880667
+    },
+    {
+      "role": "right",
+      "content": "舒适型就好，谢谢。",
+      "timestamp": 1740940575.0145423
+    },
+    {
+      "role": "left",
+      "content": "明白了，舒适型车辆。请您稍等，我正在为您安排。预计三到五分钟内会有司机联系您确认行程。",
+      "timestamp": 1740940580.2088578
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。",
+      "timestamp": 1740940582.2679336
+    },
+    {
+      "role": "left",
+      "content": "您的舒适型车辆已经安排好了，司机会在三到五分钟内与您联系。如果您有任何其他需求，请随时联系我们。祝您旅途愉快。",
+      "timestamp": 1740940589.7041938
+    },
+    {
+      "role": "right",
+      "content": "谢谢，旅途愉快。",
+      "timestamp": 1740940590.566902
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了所有服务细节，并表示感谢，表明服务需求已得到满足。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的舒适型车辆已经安排好了，司机会在三到五分钟内与您联系。如果您有任何其他需求，请随时联系我们。祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，旅途愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

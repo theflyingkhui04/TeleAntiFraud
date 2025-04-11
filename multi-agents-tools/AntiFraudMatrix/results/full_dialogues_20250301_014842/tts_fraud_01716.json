@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服代表，我们发现您的账户可能存在安全风险，需要您配合我们进行一次安全验证。为了您的账户安全，请提供您的姓名和身份证号码，好吗？",
+      "timestamp": 1740768693.1575413
+    },
+    {
+      "role": "right",
+      "content": "您好，我叫李建国，身份证号码是三十七零一零二一九五八零三一六一零二一。不过，我确实有点担心，你们怎么会发现我的账户有风险呢？",
+      "timestamp": 1740768695.3157
+    },
+    {
+      "role": "left",
+      "content": "李建国先生，感谢您的配合，我们已经记录了您的信息，将会立即进行安全验证。如果一切正常，我们会尽快通知您。如果有任何问题，我们会再次联系您。祝您生活愉快。再见。",
+      "timestamp": 1740768701.2318413
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的提醒和帮助。希望一切顺利。再见。",
+      "timestamp": 1740768703.6210582
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（姓名和身份证号码），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "李建国先生，感谢您的配合，我们已经记录了您的信息，将会立即进行安全验证。如果一切正常，我们会尽快通知您。如果有任何问题，我们会再次联系您。祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的提醒和帮助。希望一切顺利。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，您可以告诉我需要预订哪家餐厅的什么菜品吗？",
+      "timestamp": 1740949857.6853034
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预订一家附近的中餐馆，有什么推荐的吗？",
+      "timestamp": 1740949861.3074656
+    },
+    {
+      "role": "left",
+      "content": "当然，附近有一家口碑很好的中餐馆叫做“香满楼”，主营川菜和粤菜，您感兴趣吗？",
+      "timestamp": 1740949866.3189917
+    },
+    {
+      "role": "right",
+      "content": "好的，那就订“香满楼”吧。我想点个宫保鸡丁和清蒸鱼。",
+      "timestamp": 1740949867.8711255
+    },
+    {
+      "role": "left",
+      "content": "好的，宫保鸡丁和清蒸鱼都已加入您的订单。还需要其他菜品或饮料吗？",
+      "timestamp": 1740949872.7567549
+    },
+    {
+      "role": "right",
+      "content": "再来一份炒青菜和一瓶矿泉水吧。",
+      "timestamp": 1740949874.4975934
+    },
+    {
+      "role": "left",
+      "content": "好的，炒青菜和一瓶矿泉水也已加入。请问还有其他需要吗？如果没有，我将为您确认订单。",
+      "timestamp": 1740949881.812832
+    },
+    {
+      "role": "right",
+      "content": "没了，就这些。可以确认订单了。谢谢。",
+      "timestamp": 1740949883.7598698
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认。宫保鸡丁、清蒸鱼、炒青菜和一瓶矿泉水将在三十分钟内送达。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740949894.5700967
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740949895.8995113
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了所有需要的菜品，并表示没有其他需求。服务方可以在此时结束对话，确认订单并感谢用户的订购。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认。宫保鸡丁、清蒸鱼、炒青菜和一瓶矿泉水将在三十分钟内送达。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

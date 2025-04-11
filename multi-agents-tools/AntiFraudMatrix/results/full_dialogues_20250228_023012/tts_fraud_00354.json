@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自MoneyGrow投资公司的资深顾问，我注意到您在金融市场方面有很高的潜力，想不想了解一下我们最新的投资项目？",
+      "timestamp": 1740689620.2650337
+    },
+    {
+      "role": "right",
+      "content": "您好，谢谢您的关注。我退休了，现在主要是享受生活，对投资这方面的兴趣不是很大。不过您说的这个项目听起来好像挺有吸引力的，能不能简单介绍一下？",
+      "timestamp": 1740689622.1648715
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中礼貌地表达了对投资项目的不感兴趣，但出于礼貌询问了项目详情。然而，用户在对话中使用了挂断信号'##ENDCALL_SIGNAL##'，这可能是因为用户意识到这可能是一个不必要的或潜在的诈骗电话，或者用户只是不想继续这个对话。用户的意图可能是礼貌地结束对话，避免进一步的交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

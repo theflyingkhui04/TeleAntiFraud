@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，可以帮助您叫车、查询路线或解决相关问题。",
+      "timestamp": 1740953005.345808
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我现在不需要叫车，不过如果需要的话会联系你。",
+      "timestamp": 1740953008.2903438
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户明确表示当前不需要叫车服务，并且对服务方的介绍表示了感谢。用户提到如果未来需要服务会再次联系，这表明用户对服务持开放态度，但目前没有进一步的需求。用户通过提供结束信号代码'##ENDCALL_SIGNAL##'明确表示对话可以结束。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

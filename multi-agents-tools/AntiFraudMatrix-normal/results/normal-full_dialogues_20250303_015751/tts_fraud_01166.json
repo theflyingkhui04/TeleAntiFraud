@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "请问您需要咨询哪方面的交通信息呢？",
+      "timestamp": 1740946418.9275527
+    },
+    {
+      "role": "right",
+      "content": "我想了解一下地铁线路，特别是从市中心到机场的路线。",
+      "timestamp": 1740946419.8736145
+    },
+    {
+      "role": "left",
+      "content": "从市中心到机场的地铁线路是地铁二号线，您可以乘坐二号线直达机场站，全程大约需要四十分钟。需要了解更多详情吗？",
+      "timestamp": 1740946424.5688956
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。那请问二号线的运营时间是什么时候？",
+      "timestamp": 1740946425.442555
+    },
+    {
+      "role": "left",
+      "content": "二号线的运营时间是从早上五点到晚上十一点，每班列车的发车间隔大约是五分钟。请问这个时间对您来说合适吗？",
+      "timestamp": 1740946430.2011259
+    },
+    {
+      "role": "right",
+      "content": "合适，谢谢。那我就按这个时间安排出行。",
+      "timestamp": 1740946433.7943668
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您还有其他问题或需要进一步的帮助，随时欢迎联系我们。祝您旅途愉快！",
+      "timestamp": 1740946439.452399
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。旅途愉快！",
+      "timestamp": 1740946440.7376113
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表示满意。用户明确表示不再需要进一步的帮助。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您还有其他问题或需要进一步的帮助，随时欢迎联系我们。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。旅途愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

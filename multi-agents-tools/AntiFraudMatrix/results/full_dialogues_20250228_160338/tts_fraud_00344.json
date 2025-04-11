@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的先生/女士，您好！我是XX投资公司的理财顾问李强，我们公司最近推出了一款高回报的理财产品，年化收益率可以达到百分之三十，您有兴趣了解一下吗？",
+      "timestamp": 1740735574.201982
+    },
+    {
+      "role": "right",
+      "content": "你好，李强先生。我听说现在有很多诈骗电话，你们公司是正规的吗？这个理财产品是真实的吗？我可不想上当受骗。",
+      "timestamp": 1740735578.7589593
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者介绍理财产品后，表达了对诈骗电话的警惕和对产品真实性的怀疑。用户可能认为对话存在风险，为了避免进一步的询问或潜在的诈骗行为，选择了主动挂断电话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

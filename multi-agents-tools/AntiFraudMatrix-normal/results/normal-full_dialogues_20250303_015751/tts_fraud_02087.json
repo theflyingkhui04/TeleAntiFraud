@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740983580.7937126
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个晚饭，有什么推荐的吗？",
+      "timestamp": 1740983582.4044793
+    },
+    {
+      "role": "left",
+      "content": "我们今天推荐的晚餐有宫保鸡丁和牛肉炒饭，都是很受欢迎的菜品。您想试试看吗？",
+      "timestamp": 1740983596.5043604
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来一份宫保鸡丁和一份牛肉炒饭吧。还需要点别的吗？",
+      "timestamp": 1740983598.5884073
+    },
+    {
+      "role": "left",
+      "content": "您点的宫保鸡丁和牛肉炒饭已经记录好了。我们的菜单上还有多种小菜和汤品，比如酸辣汤和凉拌黄瓜，要不要加一份呢？",
+      "timestamp": 1740983604.453223
+    },
+    {
+      "role": "right",
+      "content": "不了，这些就够了，谢谢。什么时候能送到？",
+      "timestamp": 1740983606.1471527
+    },
+    {
+      "role": "left",
+      "content": "您的订单预计在三十分钟内送达，如果地址比较偏远可能会稍有延迟。我们会尽快为您安排配送。",
+      "timestamp": 1740983615.3201635
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情，并告知了预计送达时间后，认为已经完成了本次服务流程，用户没有进一步的需求或疑问，因此选择结束对话。服务方的意图是确保用户对服务感到满意，并在服务完成后礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

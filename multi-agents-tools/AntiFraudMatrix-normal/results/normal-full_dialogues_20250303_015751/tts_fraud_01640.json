@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的打车服务，您可以告诉我您的出发地和目的地吗？",
+      "timestamp": 1740941148.538002
+    },
+    {
+      "role": "right",
+      "content": "好的，我从家里出发，要去镇上的市场。",
+      "timestamp": 1740941149.8087976
+    },
+    {
+      "role": "left",
+      "content": "好的，从您家到镇上的市场大约需要十分钟的车程。我马上为您安排一辆车，预计五分钟后到达。如果有任何其他需求，请告诉我。",
+      "timestamp": 1740941153.999365
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我等会儿就出门。",
+      "timestamp": 1740941154.8797429
+    },
+    {
+      "role": "left",
+      "content": "您的车辆已安排好，大约五分钟后到达。如果您有任何其他需求或问题，请随时联系我们。祝您旅途愉快。",
+      "timestamp": 1740941159.7794688
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。",
+      "timestamp": 1740941161.4586017
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已表示满意并准备出门，服务方也已安排好车辆，对话目标达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的车辆已安排好，大约五分钟后到达。如果您有任何其他需求或问题，请随时联系我们。祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

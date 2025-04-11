@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是快递公司的客服人员，这里有一个包裹需要您签收，但我们在处理过程中发现了一些问题。",
+      "timestamp": 1740741603.3644361
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近确实有网购，但我不记得有包裹需要签收。能具体说说是什么问题吗？",
+      "timestamp": 1740741639.1724713
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方身份的真实性或对包裹问题的具体描述感到不明确而选择挂断电话，以避免潜在的诈骗风险。用户的意图是保护个人信息安全，不轻易透露个人信息或进一步参与对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

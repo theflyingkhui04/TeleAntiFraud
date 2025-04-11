@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是公安局反诈骗中心，我们发现您的身份证信息可能被盗用了，需要立即核实您的身份信息，以免造成更大的损失。请问您的姓名和身份证号码是？",
+      "timestamp": 1740759444.6162288
+    },
+    {
+      "role": "right",
+      "content": "您好，我叫李文博，身份证号码是三十七零一零二一九九四零六一五零一零一。真的很感谢你们的帮助，我最近确实感觉有些奇怪，身份证信息被盗用的话确实很麻烦。",
+      "timestamp": 1740759448.2787838
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供了姓名和身份证号码后主动挂断电话，这可能是因为用户意识到这是一起诈骗行为，或者用户感到信息泄露的风险，不再愿意继续与诈骗者交流。用户的意图是停止进一步的信息泄露，保护自己的隐私安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎咨询客服，我是您的服务专员，有什么问题可以帮您解决？",
+      "timestamp": 1740956460.947783
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下最近的优惠活动。",
+      "timestamp": 1740956461.7682545
+    },
+    {
+      "role": "left",
+      "content": "您好，目前我们正推出多项优惠活动，包括满减、折扣券和限时特惠，您具体想了解哪一类活动？",
+      "timestamp": 1740956465.8396485
+    },
+    {
+      "role": "right",
+      "content": "满减活动听起来不错，你能给我详细介绍一下吗？",
+      "timestamp": 1740956466.843924
+    },
+    {
+      "role": "left",
+      "content": "当然可以。我们的满减活动包括：满二百元减三十元，满五百元减八十元，满一千元减二百元。活动适用于大部分商品，但部分特殊商品除外，详情您可以查看官网活动页面或App内的活动说明。",
+      "timestamp": 1740956476.0289326
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的详细介绍。我会去看看具体有哪些商品符合条件。",
+      "timestamp": 1740956477.023936
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，满减活动的具体信息已告知。如果您还有其他疑问或需要进一步的帮助，随时欢迎联系客服。祝您购物愉快！",
+      "timestamp": 1740956481.7722843
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。会再联系的。祝好！",
+      "timestamp": 1740956483.0513108
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表示会去查看具体符合条件的商品，表明用户对服务满意且问题已解决。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，满减活动的具体信息已告知。如果您还有其他疑问或需要进一步的帮助，随时欢迎联系客服。祝您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。会再联系的。祝好！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

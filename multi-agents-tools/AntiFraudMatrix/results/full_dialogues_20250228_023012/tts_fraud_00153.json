@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好！我是您的朋友小李的同事，小李现在遇到了一些麻烦，情况非常紧急，您能帮我一下吗？",
+      "timestamp": 1740686539.064379
+    },
+    {
+      "role": "right",
+      "content": "哎呀，小李遇到麻烦了？他怎么了？需要我做什么？",
+      "timestamp": 1740686540.2249553
+    },
+    {
+      "role": "left",
+      "content": "小李在我们公司出了点意外，现在被我们老板扣住了，对方要求马上支付5万块钱赎金，不然就要把小李送进医院！您是他的好朋友，应该知道他家里人的联系方式吧？",
+      "timestamp": 1740686549.3415573
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在尝试获取用户信任并引导用户提供小李家人的联系方式时，可能意识到用户没有表现出足够的怀疑或警觉，担心用户会直接联系小李或其家人，从而暴露诈骗行为。因此，诈骗者选择迅速挂断电话，避免进一步的风险。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

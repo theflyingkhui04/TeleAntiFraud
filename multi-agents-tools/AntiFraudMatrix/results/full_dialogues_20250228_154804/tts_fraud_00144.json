@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您是张先生吗？我是您的朋友小王的同事，小王现在遇到了很大的麻烦，他被一伙人扣住了，他们要求我们支付一笔赎金，否则就……",
+      "timestamp": 1740738225.824116
+    },
+    {
+      "role": "right",
+      "content": "什么？小王他怎么会遇到这种事？你们现在在哪里？我需要马上过去帮忙。",
+      "timestamp": 1740738228.7919734
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为感到情况紧急，需要立即采取行动而选择挂断电话。用户的意图是尽快前往诈骗者所说的位置，以帮助朋友小王。然而，从对话内容来看，用户可能没有完全意识到这是一个诈骗电话，因此在这种情况下，建议对用户进行进一步的提醒和教育，以防止其落入诈骗陷阱。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，我是国际快递公司的客服人员。我们发现您的包裹在清关时出现了一些问题，需要您提供一些个人信息以便我们协助处理。请问您现在方便通话吗？",
+      "timestamp": 1740759571.094726
+    },
+    {
+      "role": "right",
+      "content": "哦，你好。我最近确实有一个包裹，可能是我女儿寄来的。你说的清关问题是什么意思？",
+      "timestamp": 1740759573.1440194
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方身份或担心个人信息安全而选择立即挂断电话。用户在对话中表现出了一定的警惕性，尽管没有明确表达出拒绝或不满，但挂断电话的行为表明其不愿意继续与诈骗者交流，以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

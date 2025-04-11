@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友小李的邻居，小李现在遇到了一点麻烦，他在外面被人扣住了，需要马上交一笔钱才能安全回来。您能帮帮他吗？",
+      "timestamp": 1740755017.435885
+    },
+    {
+      "role": "right",
+      "content": "小李遇到麻烦了？这听起来很严重。你能告诉我具体是怎么回事吗？他现在在哪儿？",
+      "timestamp": 1740755020.3997831
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能怀疑这是一起诈骗电话，因为诈骗者未能提供具体的、可信的信息来证明小李确实遇到了麻烦。用户通过询问具体细节来验证信息的真实性，但诈骗者未能给出令人信服的回答，因此用户选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

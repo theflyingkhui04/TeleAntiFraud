@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，请问您需要预约哪项服务？",
+      "timestamp": 1740956950.5931726
+    },
+    {
+      "role": "right",
+      "content": "您好，小张，我是李老师。我想预约一下清洁服务，可以帮我安排一下吗？",
+      "timestamp": 1740956952.4795036
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户李老师在对话开始时即提供了明确的结束信号代码（##ENDCALL_SIGNAL##），这可能是因为用户在尝试发起对话时遇到了技术问题，或者误操作导致了对话的提前结束。用户的意图可能是在确认客服能够响应后，再正式提出预约清洁服务的需求。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

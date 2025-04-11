@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是李先生的司机，李先生刚才在回家的路上遇到了点麻烦，现在情况非常紧急。",
+      "timestamp": 1740748619.5725026
+    },
+    {
+      "role": "right",
+      "content": "您好，李先生出事了吗？他现在怎么样了？我需要马上联系他的家人。",
+      "timestamp": 1740748620.926377
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为担心李先生的安危，急于联系李先生的家人或直接前往现场，因此没有时间继续与诈骗者通话。用户的意图是尽快采取行动，而不是继续对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您，您中了我们最新一期的双色球彩票，奖金高达五百万元！请问您现在方便接听电话吗？",
+      "timestamp": 1740746179.5677578
+    },
+    {
+      "role": "right",
+      "content": "您好，我刚在上课，不太方便接听电话。不过，我很好奇，你们是怎么联系到我的？我确定自己没有买过双色球彩票。",
+      "timestamp": 1740746182.0316129
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑这是诈骗电话而选择挂断。用户表示自己没有买过双色球彩票，对诈骗者如何联系到自己表示好奇，这表明用户对电话的真实性持怀疑态度。用户在上课，不方便接听电话，这也可能是挂断的一个原因。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

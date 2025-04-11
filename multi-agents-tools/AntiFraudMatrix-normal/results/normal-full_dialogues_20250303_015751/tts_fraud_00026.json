@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮您的？",
+      "timestamp": 1740948126.8472095
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖。有什么推荐的吗？",
+      "timestamp": 1740948130.7353182
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款热门菜品，比如宫保鸡丁、鱼香肉丝和牛肉炒饭，都是顾客评价很高的。您喜欢哪种口味的？",
+      "timestamp": 1740948137.2688258
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来一份宫保鸡丁吧。还需要点别的吗？",
+      "timestamp": 1740948138.8302984
+    },
+    {
+      "role": "left",
+      "content": "一份宫保鸡丁已经为您加入订单。我们的凉菜和汤品也很受欢迎，比如酸辣土豆丝和西红柿蛋汤，要不要试试看？",
+      "timestamp": 1740948143.9005995
+    },
+    {
+      "role": "right",
+      "content": "再加个西红柿蛋汤就行。地址是xx路xx号。",
+      "timestamp": 1740948147.265885
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁和一份西红柿蛋汤，地址是xx路xx号。请确认您的联系电话，以便我们及时联系您。",
+      "timestamp": 1740948152.2703779
+    },
+    {
+      "role": "right",
+      "content": "电话是138xxxx5678。确认一下订单和地址吧。",
+      "timestamp": 1740948153.363273
+    },
+    {
+      "role": "left",
+      "content": "您的订单是：一份宫保鸡丁、一份西红柿蛋汤，送到地址xx路xx号，联系电话138xxxx5678。确认无误后，我们将在30分钟内送达。需要备注什么特殊要求吗？",
+      "timestamp": 1740948162.6629965
+    },
+    {
+      "role": "right",
+      "content": "确认无误，不需要特殊要求。谢谢。",
+      "timestamp": 1740948166.2409751
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，30分钟内送达。如果您有任何其他需求，随时联系我们。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740948172.2178476
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740948175.8743875
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户确认了订单信息，并表示没有特殊要求，同时表达了感谢，表明对话目标已达成，用户对服务表示满意。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，30分钟内送达。如果您有任何其他需求，随时联系我们。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

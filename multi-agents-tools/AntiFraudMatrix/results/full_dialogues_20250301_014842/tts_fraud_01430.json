@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是华夏银行客服中心，我是客服代表小李。我们检测到您的账户有异常活动，需要您配合进行身份验证，以确保您的资金安全。请问您现在方便吗？",
+      "timestamp": 1740766954.840093
+    },
+    {
+      "role": "right",
+      "content": "您好，小李。谢谢您的提醒，但我最近没有接到任何异常的通知。你们是怎么发现的呢？",
+      "timestamp": 1740766956.656975
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提供的信息产生了怀疑，尤其是在诈骗者声称检测到账户异常活动但用户本人没有收到任何相关通知的情况下。用户挂断电话可能是为了避免进一步的风险，表明用户对这次通话的真实性持谨慎态度，并选择终止对话以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是银行客服中心。我们注意到您的账户存在异常登录记录，需要立即核实您的身份信息，以确保账户安全。请问您的全名和身份证号码是？",
+      "timestamp": 1740692564.7579749
+    },
+    {
+      "role": "right",
+      "content": "喂，等一下，你们为什么需要我提供这么详细的信息？我怎么知道你们是不是真的银行客服？",
+      "timestamp": 1740692566.2519324
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者要求提供敏感个人信息时表现出警惕，并质疑对方身份的真实性。用户挂断电话的意图很可能是为了防止个人信息泄露，避免潜在的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问，我们最近有一个内部投资项目，回报率高达30%，您有兴趣了解一下吗？",
+      "timestamp": 1740688803.8273957
+    },
+    {
+      "role": "right",
+      "content": "嗯，听起来不错，但我现在手头不太宽裕。能给我讲讲这个项目的具体情况吗？我得看看自己能不能参与。",
+      "timestamp": 1740688806.324378
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者介绍完投资项目后，虽然表现出一定的兴趣，但随后提到自己手头不宽裕，这表明用户可能对投资项目的真实性或可行性产生了怀疑。用户要求了解项目的具体情况，可能是为了进一步评估项目的可信度。然而，诈骗者在此处挂断了电话，可能是意识到用户并非易受骗的目标，或者用户的问题可能暴露了诈骗者的漏洞，导致诈骗者选择终止对话以避免进一步的质疑和可能的揭露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

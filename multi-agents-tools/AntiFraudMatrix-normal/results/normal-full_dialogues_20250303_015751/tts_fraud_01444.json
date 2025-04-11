@@ -1,0 +1,51 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740967644.3354483
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖，有什么推荐的吗？",
+      "timestamp": 1740967645.473363
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款热销菜品，比如宫保鸡丁、鱼香肉丝和麻辣香锅，都非常受欢迎。您有什么偏好吗？",
+      "timestamp": 1740967651.2850819
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来一份吧。还需要加点什么吗？",
+      "timestamp": 1740967652.3900723
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁已经加入您的订单。我们这里还有米饭和汤品，要不要一起搭配呢？",
+      "timestamp": 1740967658.486691
+    },
+    {
+      "role": "right",
+      "content": "来一份米饭吧，汤品就不用了。谢谢。",
+      "timestamp": 1740967659.2232788
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁和一份米饭已经加入您的订单。请问需要备注什么吗？比如口味偏好或餐具需求。",
+      "timestamp": 1740967667.4834259
+    },
+    {
+      "role": "right",
+      "content": "不需要特别备注，就这样吧。谢谢。",
+      "timestamp": 1740967668.9942124
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认订单内容并表示不需要特别备注后，使用了结束信号'##ENDCALL_SIGNAL##'明确表示对话结束。用户的意图是确认订单信息无误，并且认为对话已经完成了所需的服务流程，无需进一步交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李先生吗？我是您的儿子小明的朋友，小明现在出事了，需要您马上过来处理，您在哪儿？",
+      "timestamp": 1740732506.6356273
+    },
+    {
+      "role": "right",
+      "content": "喂，你是谁啊？小明怎么了？你先别急，慢慢说清楚。",
+      "timestamp": 1740732539.489488
+    },
+    {
+      "role": "left",
+      "content": "我是他同学，刚才我们一起在网吧，他突然被人带走了！对方说必须马上拿钱赎人，不然就要...（声音低沉）您快说您在哪个区，我给您发定位。",
+      "timestamp": 1740732552.2840931
+    },
+    {
+      "role": "right",
+      "content": "什么？这太突然了，你们在哪个网吧？我马上过来，你先别动，我联系警察。",
+      "timestamp": 1740732566.211033
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一起诈骗电话，因为对方要求立即转账且情境描述过于戏剧化。用户提到要联系警察，表明他可能已经识破了诈骗者的企图，并选择通过挂断电话来终止对话，以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的预约服务专员，可以帮助您预约所需的服务，请问您需要预约什么服务呢？",
+      "timestamp": 1740979281.7168863
+    },
+    {
+      "role": "right",
+      "content": "我需要预约一个内科检查。",
+      "timestamp": 1740979283.1318781
+    },
+    {
+      "role": "left",
+      "content": "好的，内科检查已经为您安排好了。请问您方便的时间是什么时候？我们有周一至周五的上午九点到下午五点，以及周六上午九点到十二点可供选择。",
+      "timestamp": 1740979290.6833358
+    },
+    {
+      "role": "right",
+      "content": "周三上午十点可以。",
+      "timestamp": 1740979291.7080812
+    },
+    {
+      "role": "left",
+      "content": "周三上午十点的时间已经为您预留，您的预约姓名和联系方式是什么，以便我们记录相关信息？",
+      "timestamp": 1740979297.704375
+    },
+    {
+      "role": "right",
+      "content": "姓名是李明，电话是13812345678。",
+      "timestamp": 1740979300.0359085
+    },
+    {
+      "role": "left",
+      "content": "好的，李明先生，您的预约已经成功。周三上午十点，我们将为您准备好一切。您的预约编号是123456，请务必携带身份证件和预约短信前来。如果有任何变动，请提前联系我们。",
+      "timestamp": 1740979308.8812597
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的预约信息并提供必要的提醒后，使用了结束信号代码'##ENDCALL_SIGNAL##'，表明服务方认为对话目标已达成，即用户所需的预约服务已经成功完成。服务方的意图是确保用户了解所有预约细节，并在确认无其他问题后礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

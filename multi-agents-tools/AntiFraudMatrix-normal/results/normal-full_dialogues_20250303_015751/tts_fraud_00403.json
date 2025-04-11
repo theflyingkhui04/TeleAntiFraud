@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740952656.4043448
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖，有什么推荐的吗？",
+      "timestamp": 1740952658.3938987
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款人气菜品，比如宫保鸡丁、鱼香肉丝和西红柿炒蛋，都非常受欢迎。您喜欢哪种口味的呢？",
+      "timestamp": 1740952665.5268576
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我就来一份宫保鸡丁吧。还需要加点什么吗？",
+      "timestamp": 1740952667.7892349
+    },
+    {
+      "role": "left",
+      "content": "宫保鸡丁是个不错的选择，您还可以加一份米饭和一份免费的例汤，这样会更丰盛。需要给您加一份米饭吗？",
+      "timestamp": 1740952673.8229582
+    },
+    {
+      "role": "right",
+      "content": "好的，加一份米饭吧。还有什么饮料推荐吗？",
+      "timestamp": 1740952683.299911
+    },
+    {
+      "role": "left",
+      "content": "我们这里有冰红茶、冰绿茶和矿泉水，都是不错的选择。天气有点热，来一杯冰绿茶会很解渴，您觉得呢？",
+      "timestamp": 1740952688.220899
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，那就来一杯冰绿茶吧。这样就齐全了，谢谢。",
+      "timestamp": 1740952689.1933248
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包含一份宫保鸡丁和一份米饭，还有一杯冰绿茶。预计30分钟后送达，感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740952695.1385434
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！期待送达。",
+      "timestamp": 1740952698.7153463
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并明确表示感谢，表明其需求已得到满足。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包含一份宫保鸡丁和一份米饭，还有一杯冰绿茶。预计30分钟后送达，感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！期待送达。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

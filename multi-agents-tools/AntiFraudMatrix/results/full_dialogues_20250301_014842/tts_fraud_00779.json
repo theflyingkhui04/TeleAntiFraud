@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李先生吗？我是您儿子小明的同学小张，小明现在在我这里，他遇到了一些麻烦，您得赶紧过来一趟。",
+      "timestamp": 1740794881.3054993
+    },
+    {
+      "role": "right",
+      "content": "小张啊，你怎么会有我电话的？小明遇到了什么麻烦？你能不能先告诉我他在哪儿？我得赶紧过去。",
+      "timestamp": 1740794882.9159184
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提供的信息感到怀疑，尤其是对诈骗者如何获得其电话号码表示疑问。用户试图获取更多信息以验证情况的真实性，但诈骗者没有提供足够的信息或令人信服的解释，导致用户选择挂断电话，可能是为了进一步核实情况或避免潜在的诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

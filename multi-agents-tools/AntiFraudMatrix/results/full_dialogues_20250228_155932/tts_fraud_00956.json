@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张伟吗？我是小李，你儿子的朋友。你儿子现在遇到点麻烦，需要你马上汇一笔钱过来。",
+      "timestamp": 1740756681.7092898
+    },
+    {
+      "role": "right",
+      "content": "不好意思，我儿子没有叫小李的朋友。而且我儿子现在就在家里，没有遇到任何麻烦。你打错电话了。",
+      "timestamp": 1740756686.4252577
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是因为识破了诈骗者的企图。用户明确表示自己的儿子没有叫小李的朋友，并且儿子就在家中，没有遇到任何麻烦。这表明用户已经意识到这是一起诈骗电话，并且果断选择挂断电话以避免进一步的交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

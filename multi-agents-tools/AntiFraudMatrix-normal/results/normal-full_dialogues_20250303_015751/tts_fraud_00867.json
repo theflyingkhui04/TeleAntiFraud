@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，您可以告诉我需要订购的餐点和送餐地址吗？",
+      "timestamp": 1740967403.2166367
+    },
+    {
+      "role": "right",
+      "content": "嗨，我想订一份牛肉炒饭和一份宫保鸡丁，送餐地址是XX大学XX宿舍楼123室。谢谢！",
+      "timestamp": 1740967404.7688255
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经记录，一份牛肉炒饭和一份宫保鸡丁，送餐地址是XX大学XX宿舍楼123室。请问需要什么时间送达呢？",
+      "timestamp": 1740967408.6242673
+    },
+    {
+      "role": "right",
+      "content": "下午五点左右送到就好。谢谢！",
+      "timestamp": 1740967409.335139
+    },
+    {
+      "role": "left",
+      "content": "明白了，我们会在下午五点左右将餐点送达。请问还有其他需要备注的吗，比如调味品或者特殊要求？",
+      "timestamp": 1740967414.1051927
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这样吧。谢谢你的帮助！",
+      "timestamp": 1740967414.6606364
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，下午五点左右将送达XX大学XX宿舍楼123室。如果还有其他需要，请随时联系我们。祝您用餐愉快！",
+      "timestamp": 1740967421.0658152
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！",
+      "timestamp": 1740967422.5180423
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单详情，并表示没有其他需要备注的信息，同时表达了感谢，表明用户对服务满意且对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，下午五点左右将送达XX大学XX宿舍楼123室。如果还有其他需要，请随时联系我们。祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

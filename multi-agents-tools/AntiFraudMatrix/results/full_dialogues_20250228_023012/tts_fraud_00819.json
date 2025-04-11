@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是张伟吗？我是你儿子小明的同学家长，小明现在出事了，被我们带到了一个安全的地方，你得赶紧汇一笔钱过来，不然我们可不敢保证他的安全。",
+      "timestamp": 1740690330.7860513
+    },
+    {
+      "role": "right",
+      "content": "哎呀，小明怎么了？我儿子出什么事了？你快告诉我，他没事吧？要多少钱啊？我这就去准备。",
+      "timestamp": 1740690335.303713
+    },
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。",
+      "timestamp": 1740690347.059873
+    },
+    {
+      "role": "right",
+      "content": "你先别急，告诉我具体要多少钱，我这就去银行取。小明真的没事吧？你们可一定要照顾好他。",
+      "timestamp": 1740690348.9399347
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经成功获取用户的敏感信息（即用户愿意汇款），诈骗明显成功，因此应该终止对话。诈骗者主导结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。"
+    },
+    {
+      "role": "right",
+      "content": "你先别急，告诉我具体要多少钱，我这就去银行取。小明真的没事吧？你们可一定要照顾好他。"
+    }
+  ],
+  "reached_max_turns": false
+}

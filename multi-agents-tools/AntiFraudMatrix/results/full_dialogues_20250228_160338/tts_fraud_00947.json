@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我手上，不想他出事的话，赶紧准备五万块钱，半小时内打到指定账户！别报警，否则后果自负！",
+      "timestamp": 1740738074.305628
+    },
+    {
+      "role": "right",
+      "content": "你别吓我，你说的是真的吗？我儿子到底在哪里？你怎么证明你真的有他？我需要看到他才行，否则我不会相信你！",
+      "timestamp": 1740738111.905922
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的威胁感到怀疑和不安，要求提供证据以验证诈骗者的说法。由于诈骗者未能提供任何实质性证据，用户可能意识到这是一场骗局，因此选择挂断电话以避免进一步的威胁和压力。用户的意图是保护自己和家人免受潜在的诈骗伤害。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

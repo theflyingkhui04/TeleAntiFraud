@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递，您的包裹在运输过程中发现了一些问题，需要您立即处理，否则将会影响到您的正常使用。请您提供一下您的姓名和电话，以便我们核对信息。",
+      "timestamp": 1740748694.7466178
+    },
+    {
+      "role": "right",
+      "content": "哎呀，这可怎么办？我最近确实网购了一些东西。您能告诉我具体是什么问题吗？我的名字叫张大民，电话是这个，您能听见吗？",
+      "timestamp": 1740748696.584746
+    },
+    {
+      "role": "left",
+      "content": "好的，我会记录您的信息并处理这个问题。如果有进一步的消息，我们会及时通知您。再见。",
+      "timestamp": 1740748703.2375984
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦您帮我处理一下，谢谢。再见。",
+      "timestamp": 1740748704.250075
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和电话号码，这是敏感信息，诈骗明显成功。为了防止进一步的信息泄露，应该立即终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我会记录您的信息并处理这个问题。如果有进一步的消息，我们会及时通知您。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦您帮我处理一下，谢谢。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

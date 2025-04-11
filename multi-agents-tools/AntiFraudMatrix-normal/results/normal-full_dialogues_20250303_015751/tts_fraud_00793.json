@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，已经为您安排了最近的车辆，大约几分钟后会到达您的位置。",
+      "timestamp": 1740947604.8609354
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。车辆到了请通知我一声。",
+      "timestamp": 1740947605.8182547
+    },
+    {
+      "role": "left",
+      "content": "好的，我会立即通知您。请留意手机信息，司机到达后会通过短信或电话联系您。",
+      "timestamp": 1740947610.8567598
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认已经为用户安排好车辆，并告知用户司机到达后会通过短信或电话联系用户之后，认为服务已经完成，用户的需求得到了满足，因此选择结束对话。服务方的意图是确保用户知道下一步该做什么，并且确认服务流程已经结束。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的侄子杰克的朋友，现在我人在国外，杰克遇到了点麻烦，他现在需要您的帮助。",
+      "timestamp": 1740779323.7018213
+    },
+    {
+      "role": "right",
+      "content": "哎呀，杰克出事了？他怎么了？你能不能详细说说？我得赶紧帮帮他。",
+      "timestamp": 1740779325.1145456
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到对方自称是侄子的朋友并提到侄子遇到麻烦后，表现出明显的关心和担忧，但随即挂断了电话。这可能是因为用户意识到这是一起常见的‘紧急情况’诈骗，或者用户认为不应该在电话中讨论此类敏感问题，而选择挂断以保护自己。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

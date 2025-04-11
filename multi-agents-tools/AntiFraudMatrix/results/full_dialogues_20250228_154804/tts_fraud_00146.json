@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我们手上，如果你不想他出事，就照我说的做。",
+      "timestamp": 1740749428.0376604
+    },
+    {
+      "role": "right",
+      "content": "你们为什么要这么做？我儿子到底怎么了？你们快放了他，我愿意付赎金。",
+      "timestamp": 1740749429.6324086
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被控制后，表现出极度的担忧和恐惧，但随后立即挂断电话。这可能表明用户意识到这是一个诈骗电话，或者用户无法承受这种压力，选择立即终止对话以保护自己或寻求其他帮助。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

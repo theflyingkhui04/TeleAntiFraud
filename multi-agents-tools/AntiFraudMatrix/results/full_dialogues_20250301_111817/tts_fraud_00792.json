@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是国家彩票中心，恭喜您中得了一等奖，奖金高达五百万元！请问我能和您核对一下中奖号码吗？",
+      "timestamp": 1740802978.4682236
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？太好了！我的号码是零三零三零三零三，对吗？",
+      "timestamp": 1740802980.826672
+    },
+    {
+      "role": "left",
+      "content": "没错，就是这个号码！真是太幸运了！为了领取奖金，我们需要您提供一些个人信息，包括姓名、身份证号码和银行卡号，以便我们将奖金直接打入您的账户。您可以提供吗？",
+      "timestamp": 1740802986.9359524
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，我这就提供。我叫张建国，身份证号码是四十一零零一九五六零三零三零三一零，银行卡号是六二二二零八零三零三零三零三零三零三。谢谢你们的通知，真是太高兴了！",
+      "timestamp": 1740802990.4134262
+    },
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，奖金会在三个工作日内打入您的账户。再次恭喜您，祝您生活愉快！再见。",
+      "timestamp": 1740802997.9518998
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我也祝你们工作顺利！再见。",
+      "timestamp": 1740802999.2008452
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息，包括姓名、身份证号码和银行卡号，诈骗明显成功。为了防止进一步的损失，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们已经记录了您的信息，奖金会在三个工作日内打入您的账户。再次恭喜您，祝您生活愉快！再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我也祝你们工作顺利！再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

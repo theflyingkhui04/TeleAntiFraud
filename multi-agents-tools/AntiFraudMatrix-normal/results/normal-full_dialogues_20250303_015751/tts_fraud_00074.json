@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪一项服务呢？",
+      "timestamp": 1740975149.5381896
+    },
+    {
+      "role": "right",
+      "content": "您好，我暂时还没想好，可以先了解一下你们都有哪些服务吗？",
+      "timestamp": 1740975150.8890498
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话开始时表达了想要了解服务方提供的所有服务的意图，但服务方在未提供任何服务信息的情况下立即使用了结束信号代码。这可能是由于服务方的误操作导致对话提前结束。用户的意图是希望获取服务方提供的服务信息，而服务方未能满足这一需求。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

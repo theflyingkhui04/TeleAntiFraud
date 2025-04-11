@@ -1,0 +1,66 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，我可以帮您预订餐厅或外卖，请问您需要预订哪种服务？",
+      "timestamp": 1740980331.301029
+    },
+    {
+      "role": "right",
+      "content": "预订外卖吧。",
+      "timestamp": 1740980331.971814
+    },
+    {
+      "role": "left",
+      "content": "好的，预订外卖。请问您想点哪家餐厅的外卖？",
+      "timestamp": 1740980335.2585413
+    },
+    {
+      "role": "right",
+      "content": "随便，推荐一家附近的就好。",
+      "timestamp": 1740980335.956008
+    },
+    {
+      "role": "left",
+      "content": "明白了，附近有一家评价很高的“老北京炸酱面”，您看如何？",
+      "timestamp": 1740980339.355816
+    },
+    {
+      "role": "right",
+      "content": "可以，就这家吧。",
+      "timestamp": 1740980339.9089353
+    },
+    {
+      "role": "left",
+      "content": "好的，老北京炸酱面。请问您想点些什么菜品呢？",
+      "timestamp": 1740980343.8966644
+    },
+    {
+      "role": "right",
+      "content": "来一份炸酱面，一份糖醋排骨，还有一份凉拌黄瓜。",
+      "timestamp": 1740980344.8116477
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单是：一份炸酱面、一份糖醋排骨和一份凉拌黄瓜。请问还需要其他什么吗？",
+      "timestamp": 1740980351.8474362
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这样。",
+      "timestamp": 1740980352.7234163
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认。预计送达时间是30到40分钟。如果有任何变动，我们会及时与您联系。请问还有其他需要帮助的吗？",
+      "timestamp": 1740980357.8437152
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户订单后，询问用户是否还有其他需要帮助的事项，用户没有提出其他需求。服务方在此时选择结束对话，表明服务目标已达成，用户的需求得到了满足，服务流程已经完成。服务方的意图是确保用户没有其他问题或需求后，礼貌地结束对话，保持良好的用户体验。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

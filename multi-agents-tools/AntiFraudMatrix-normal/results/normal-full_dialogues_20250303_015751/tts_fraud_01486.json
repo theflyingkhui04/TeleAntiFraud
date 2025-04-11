@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想点什么吗？",
+      "timestamp": 1740958402.8002656
+    },
+    {
+      "role": "right",
+      "content": "哦，你们这里有啥好吃的？可以推荐一下吗？",
+      "timestamp": 1740958404.5209966
+    },
+    {
+      "role": "left",
+      "content": "当然可以。我们这里最受欢迎的是招牌牛肉饭和海鲜炒面，另外还有新鲜的蔬菜沙拉和特制的汤品。您对哪种菜品感兴趣呢？",
+      "timestamp": 1740958407.9721525
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我来份牛肉饭吧，再来一碗汤，汤是什么汤？",
+      "timestamp": 1740958408.8286128
+    },
+    {
+      "role": "left",
+      "content": "好的，您选择的牛肉饭非常美味。我们的汤品是当日特制的西红柿蛋花汤，清新可口，您看可以吗？",
+      "timestamp": 1740958414.957259
+    },
+    {
+      "role": "right",
+      "content": "行，那就这样吧。对了，你们这里送餐快不快？我着急吃饭。",
+      "timestamp": 1740958416.0452178
+    },
+    {
+      "role": "left",
+      "content": "了解您的需求，我们通常在下单后30分钟内送达。如果您的位置在我们配送范围内的中心区域，可能会更快一些。这样可以满足您的需求吗？",
+      "timestamp": 1740958422.9534357
+    },
+    {
+      "role": "right",
+      "content": "那挺好的，我这儿离市中心不远，应该能快点到。谢谢了。",
+      "timestamp": 1740958424.0274756
+    },
+    {
+      "role": "left",
+      "content": "您的订单已确认，预计30分钟内送达。感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740958430.6533043
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740958431.8898618
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单，并表达了对送餐时间的满意，同时表示了感谢，这表明用户的需要已经得到满足，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的订单已确认，预计30分钟内送达。感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

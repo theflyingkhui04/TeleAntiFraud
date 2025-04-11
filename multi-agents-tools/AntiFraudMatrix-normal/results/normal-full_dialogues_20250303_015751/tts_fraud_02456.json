@@ -1,0 +1,41 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，欢迎使用打车服务，我可以帮您叫车，请问您现在需要用车吗？",
+      "timestamp": 1740941313.6457334
+    },
+    {
+      "role": "right",
+      "content": "您好，我需要用车。请帮我叫一辆车去市中心的图书馆，谢谢。",
+      "timestamp": 1740941314.9566786
+    },
+    {
+      "role": "left",
+      "content": "好的，我已为您叫了一辆车前往市中心的图书馆，预计等待时间约为十分钟。请问您现在的位置是哪里？以便司机能够准确找到您。",
+      "timestamp": 1740941319.9225442
+    },
+    {
+      "role": "right",
+      "content": "我现在在老城区的公园附近，您可以让司机在公园的正门等我，我会按时过去的。谢谢。",
+      "timestamp": 1740941323.7893436
+    },
+    {
+      "role": "left",
+      "content": "明白了，我已将您的位置信息告知司机，请您留意手机上的接驾通知。预计十分钟左右，司机将在公园正门等候您。如果您有任何其他需求，请随时告诉我。",
+      "timestamp": 1740941331.0414505
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。我会注意手机通知的。如果有问题我会再联系您。谢谢。",
+      "timestamp": 1740941333.7694807
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认了所有必要的信息（如上车地点、预计等待时间等）后，明确表示了感谢，并提到如果有问题会再联系。用户使用了结束标识符'##ENDCALL_SIGNAL##'，表明其意图是结束当前对话，因为当前的需求已经得到了满足。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

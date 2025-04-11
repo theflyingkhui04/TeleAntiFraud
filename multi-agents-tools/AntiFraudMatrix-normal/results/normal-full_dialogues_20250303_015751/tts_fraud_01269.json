@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想要订什么餐吗？",
+      "timestamp": 1740954683.019981
+    },
+    {
+      "role": "right",
+      "content": "好的，我想订个牛肉套餐，还有一份青菜。",
+      "timestamp": 1740954684.2861316
+    },
+    {
+      "role": "left",
+      "content": "好的，牛肉套餐和一份青菜已经为您加入订单，还需要其他菜品吗？",
+      "timestamp": 1740954688.0621989
+    },
+    {
+      "role": "right",
+      "content": "不需要了，就这样吧。",
+      "timestamp": 1740954688.6501722
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。再见。",
+      "timestamp": 1740954694.789031
+    },
+    {
+      "role": "left",
+      "content": "不客气，您的订单已确认，我们会尽快为您准备。再见。",
+      "timestamp": 1740954697.1665328
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并明确表示不需要其他菜品。根据对话目标已达成的终止条件，可以由用户来结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "left",
+      "content": "不客气，您的订单已确认，我们会尽快为您准备。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX彩票中心的客服，恭喜您中了我们的大奖！请提供您的身份证号码和银行账户信息，以便我们尽快为您办理兑奖手续。",
+      "timestamp": 1740685042.7292526
+    },
+    {
+      "role": "right",
+      "content": "您好,我是XX彩票中心的客服,恭喜您中了我们的大奖!请提供您的身份证号码和银行账户信息,以便我们尽快为您办理兑奖手续。\n\n这是诈骗,我不会上当的。你们这种骗局我见多了,还想骗我的个人信息?没门!我劝你们趁早收手,否则我就报警了。",
+      "timestamp": 1740685048.8737504
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中识破了诈骗者的骗局，并明确表示不会提供个人信息，同时表达了强烈的不满和警告，意图通过挂断电话来终止与诈骗者的进一步交流，防止个人信息泄露。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，最近我们发现您的账户有异常活动，为了保障您的资金安全，需要您配合我们进行身份验证。请问您现在方便吗？",
+      "timestamp": 1740800551.504907
+    },
+    {
+      "role": "right",
+      "content": "您好，我刚刚吃完午饭，现在挺方便的。有什么问题吗？",
+      "timestamp": 1740800552.5657928
+    },
+    {
+      "role": "left",
+      "content": "好的，麻烦您了。首先，请问您能提供一下您的全名和开户时使用的身份证号码吗？这样我们可以确保您的账户安全。",
+      "timestamp": 1740800558.111221
+    },
+    {
+      "role": "right",
+      "content": "好的，我的全名是张伟，身份证号码是三十一零一零一九六七年五月十二日出生的。这样可以吗？",
+      "timestamp": 1740800560.2887824
+    },
+    {
+      "role": "left",
+      "content": "好的，张先生，感谢您的配合。我们已经记录了您的信息，会尽快处理并确保您的账户安全。如果需要进一步核实，我们会再次与您联系。再次感谢您的配合，祝您生活愉快。再见。",
+      "timestamp": 1740800566.8439062
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，再见。",
+      "timestamp": 1740800568.4687717
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（全名和身份证号码），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，张先生，感谢您的配合。我们已经记录了您的信息，会尽快处理并确保您的账户安全。如果需要进一步核实，我们会再次与您联系。再次感谢您的配合，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行客服中心，我是客服代表小李。我们发现您的账户有异常交易记录，为了您的资金安全，需要您配合我们进行一次安全验证。请问您现在方便吗？",
+      "timestamp": 1740689013.9794462
+    },
+    {
+      "role": "right",
+      "content": "您好，小李。我是张老师。我确实有在使用XX银行的账户。不过我记得银行一般不会主动打电话过来要求验证的，您能提供一下工号和具体部门吗？我还想问问这个电话是从哪里打来的？",
+      "timestamp": 1740689019.4166565
+    },
+    {
+      "role": "left",
+      "content": "张老师您好，您的警觉性很高，这是好事。我的工号是12345，属于客服安全部门。我们这次的电话是从我们银行的客服热线打出来的，可能由于线路问题显示有些异常，但请您放心，我们是正规渠道。为了您的账户安全，我们真的需要尽快进行验证。您看现在方便吗？",
+      "timestamp": 1740689026.7994587
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

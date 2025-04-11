@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，已经为您找到了附近的车辆，预计多久到达您当前位置？",
+      "timestamp": 1740942661.5987372
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。大概多久能到？",
+      "timestamp": 1740942662.9506598
+    },
+    {
+      "role": "left",
+      "content": "大约需要五到十分钟，您可以在门口稍等片刻。",
+      "timestamp": 1740942666.6871967
+    },
+    {
+      "role": "right",
+      "content": "好的，我会在门口等。谢谢你的帮助。",
+      "timestamp": 1740942668.2323751
+    },
+    {
+      "role": "left",
+      "content": "车辆已安排好，预计五到十分钟内到达，请您留意。感谢使用我们的打车服务，祝您行程愉快。",
+      "timestamp": 1740942673.7928643
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝我行程愉快。",
+      "timestamp": 1740942676.161881
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢，并确认会在门口等待，表明用户对服务满意且无需进一步帮助。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "车辆已安排好，预计五到十分钟内到达，请您留意。感谢使用我们的打车服务，祝您行程愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝我行程愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

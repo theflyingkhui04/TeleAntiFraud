@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的？",
+      "timestamp": 1740975315.2688043
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个外卖。有什么推荐的吗？",
+      "timestamp": 1740975316.4045758
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款热销菜品，比如宫保鸡丁、鱼香肉丝和麻辣香锅，都是非常受欢迎的选择。您有兴趣尝试一下吗？",
+      "timestamp": 1740975322.1114037
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来一份吧。还需要加点别的吗？",
+      "timestamp": 1740975323.667581
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁已经加入您的订单。我们这里还有小炒肉、清炒时蔬和番茄炒蛋，都是家常好味。您想再加点什么吗？",
+      "timestamp": 1740975335.89516
+    },
+    {
+      "role": "right",
+      "content": "来一份清炒时蔬吧，谢谢。",
+      "timestamp": 1740975336.8330014
+    },
+    {
+      "role": "left",
+      "content": "好的，一份清炒时蔬也已经加入您的订单。还需要搭配点米饭或者面条吗？",
+      "timestamp": 1740975343.8087785
+    },
+    {
+      "role": "right",
+      "content": "来两碗米饭吧。",
+      "timestamp": 1740975345.125161
+    },
+    {
+      "role": "left",
+      "content": "好的，两碗米饭已经加入您的订单。请问还需要别的吗？如果没有，我将为您提交订单。",
+      "timestamp": 1740975349.707913
+    },
+    {
+      "role": "right",
+      "content": "就这样吧，谢谢。",
+      "timestamp": 1740975350.3823743
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，包含一份宫保鸡丁、一份清炒时蔬和两碗米饭。预计30分钟后送达。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740975355.6284738
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740975357.1230896
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容，并表示感谢，没有进一步的需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，包含一份宫保鸡丁、一份清炒时蔬和两碗米饭。预计30分钟后送达。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

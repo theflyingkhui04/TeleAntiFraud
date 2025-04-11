@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我们手上，如果不想他受伤，马上准备五十万现金，不要报警，否则后果自负！",
+      "timestamp": 1740740627.747997
+    },
+    {
+      "role": "right",
+      "content": "你们是谁？你们怎么会有我儿子的？这太离谱了，我要先确认一下他的安全，不然我不会相信你们的。你们到底想干什么？",
+      "timestamp": 1740740641.1276634
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者提出的极端要求时，表现出明显的怀疑和不安。用户要求确认其儿子的安全，表明他试图验证这一情况的真实性，而不是立即屈服于诈骗者的要求。用户挂断电话可能是为了有时间冷静思考，或者是为了避免在情绪激动的情况下做出错误的决定。此外，这也可能表明用户决定寻求其他帮助，例如联系警方或直接联系其儿子，以确认情况。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

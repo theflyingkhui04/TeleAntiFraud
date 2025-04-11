@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是华夏银行客服中心，我是客服代表小王。我们检测到您的银行卡有异常交易，请问您最近是否有使用过这张卡进行大额交易？",
+      "timestamp": 1740737850.2453935
+    },
+    {
+      "role": "right",
+      "content": "你好，小王。最近我确实用过这张卡，不过都是小额的。你说的异常交易是怎么回事？",
+      "timestamp": 1740737873.8090816
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合。我们发现有几笔可疑的大额交易，可能是盗刷。为了您的资金安全，我们需要立即采取措施。您能告诉我这张卡的最后四位数字吗？这样我们可以快速核实信息。",
+      "timestamp": 1740737910.1677299
+    },
+    {
+      "role": "right",
+      "content": "（略显犹豫）这个...最后四位是二三六八。不过你们核实信息需要我的卡号吗？",
+      "timestamp": 1740737916.6404498
+    },
+    {
+      "role": "left",
+      "content": "好的，既然您对提供卡号有顾虑，那我们稍后再联系您核实情况。请您近期保持电话畅通，我们会安排专员与您联系。感谢您的理解，再见。",
+      "timestamp": 1740737949.8559744
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的提醒。我会注意的。再见。",
+      "timestamp": 1740737954.2289815
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了银行卡的部分敏感信息（最后四位数字），这可能导致诈骗成功。为了防止进一步的信息泄露，应立即终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，既然您对提供卡号有顾虑，那我们稍后再联系您核实情况。请您近期保持电话畅通，我们会安排专员与您联系。感谢您的理解，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的提醒。我会注意的。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

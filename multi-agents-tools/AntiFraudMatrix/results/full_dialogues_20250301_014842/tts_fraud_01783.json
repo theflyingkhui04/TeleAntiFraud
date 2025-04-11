@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是张伟吗？我是你儿子小张的同学，他现在出事了，被几个混混带走了，你必须马上汇五千块钱到这个账户，不然他们不会放人的。账号是六二二二零八零零零一六六六六六六，你快点，时间不多了。",
+      "timestamp": 1740796781.7467604
+    },
+    {
+      "role": "right",
+      "content": "哎呀，你说什么？小张出事了？这可怎么办？你等一下，我得先确认一下。你能告诉我你是哪个学校的吗？我得确认一下你的身份。",
+      "timestamp": 1740796783.7441432
+    },
+    {
+      "role": "left",
+      "content": "张叔，真的没时间了，你儿子就在他们手上，你再不汇钱就来不及了。你赶紧的，我们时间不多，我先挂了。",
+      "timestamp": 1740796789.6864796
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在用户提出需要确认其身份时选择了挂断，这表明诈骗者不愿意或无法提供进一步的验证信息，以避免暴露其诈骗行为。诈骗者的意图是避免在进一步的询问中露出破绽，从而失去诈骗成功的可能性。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

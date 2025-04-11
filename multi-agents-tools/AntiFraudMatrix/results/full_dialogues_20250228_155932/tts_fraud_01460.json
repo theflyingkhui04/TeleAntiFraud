@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是张经理，非常紧急，您儿子出事了，他在外面被人绑架了，现在对方要求支付赎金。您得赶紧准备钱，不然他们可能会对您儿子不利。",
+      "timestamp": 1740754543.169564
+    },
+    {
+      "role": "right",
+      "content": "张经理，您先别急，您能告诉我具体是怎么回事吗？我儿子叫李强，他在哪个地方出的事？你们是怎么联系上的？我需要更多的信息才能相信您。",
+      "timestamp": 1740754546.5707865
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提供的信息中察觉到异常，要求更多具体信息以验证事件的真实性。用户可能意识到诈骗者的说辞缺乏具体细节和可信度，因此选择挂断电话以避免进一步的潜在风险。用户的意图是通过询问具体信息来确认事件的真实性，并在发现可疑之处时保护自己不受骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

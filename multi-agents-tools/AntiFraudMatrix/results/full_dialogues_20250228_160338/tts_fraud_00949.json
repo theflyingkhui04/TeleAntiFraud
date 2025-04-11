@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友李先生的同事，他现在遇到了一些麻烦，需要您的帮助。",
+      "timestamp": 1740736026.5176163
+    },
+    {
+      "role": "right",
+      "content": "您好，我是李先生的朋友。他遇到什么麻烦了？他平时很少有急事找我。",
+      "timestamp": 1740736050.8272934
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出李先生遇到麻烦的请求后，立即挂断了电话。这表明用户可能对诈骗者的身份或请求产生了怀疑，认为这可能是一个诈骗电话。用户可能意识到继续对话可能会导致个人信息泄露或财务损失，因此选择立即挂断以保护自己。用户的意图显然是避免进一步的潜在风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

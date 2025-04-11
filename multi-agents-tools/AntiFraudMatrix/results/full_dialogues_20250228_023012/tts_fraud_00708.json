@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您银行的客服代表，我们检测到您的账户可能有异常活动。为了您的安全，请您提供一下您的账户号码和身份证号码，我们需要核实您的身份。",
+      "timestamp": 1740688103.1611996
+    },
+    {
+      "role": "right",
+      "content": "您好，谢谢您的提醒。不过，我最近没有发现账户有什么异常，你们是怎么发现的呢？另外，我一般都是直接去银行柜台处理这些问题，不太习惯通过电话解决。",
+      "timestamp": 1740688141.0875773
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为对电话中要求提供敏感信息感到不安全，且表达了对通过电话处理银行事务的不习惯，选择直接去银行柜台处理，因此挂断电话以保护个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

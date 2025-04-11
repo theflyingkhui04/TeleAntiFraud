@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家彩票中心，恭喜您中得了本期的大奖，奖金高达五百万元！请告诉我您的姓名和联系方式，以便我们尽快为您办理领奖手续。",
+      "timestamp": 1740771318.5983124
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？太意外了！我叫张老师，张华。你们可以联系我的手机号码是一三九零零零一三九零。谢谢你们的通知，这真是太好了！",
+      "timestamp": 1740771324.0071788
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供个人信息后突然挂断电话，可能是因为用户意识到这是一起诈骗行为，或者用户在提供信息后感到不安，担心个人信息泄露。用户的意图可能是为了防止进一步的信息泄露或避免诈骗者利用已提供的信息进行下一步诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

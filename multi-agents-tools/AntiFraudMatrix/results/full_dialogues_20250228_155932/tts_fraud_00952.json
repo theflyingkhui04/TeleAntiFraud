@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李明吗？我是你儿子的同学小张，他刚才给我发短信说他在外面遇到了点麻烦，被几个人扣住了，现在需要我们帮忙。你得赶紧过来，或者转一笔钱过去解决这个问题。",
+      "timestamp": 1740758415.1794283
+    },
+    {
+      "role": "right",
+      "content": "小张，你先别急。你说的这事我也得确认一下，我直接给我儿子打个电话问问情况，你先别动，我一会儿联系你。",
+      "timestamp": 1740758417.9652476
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因可能是对诈骗者所述情况产生了怀疑，希望通过直接联系自己的儿子来确认信息的真实性。用户的意图是验证信息，避免可能的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

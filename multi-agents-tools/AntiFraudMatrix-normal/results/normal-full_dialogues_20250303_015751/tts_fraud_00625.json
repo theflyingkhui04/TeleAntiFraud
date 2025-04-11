@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，您可以告诉我想点什么餐品吗？",
+      "timestamp": 1740945349.6188138
+    },
+    {
+      "role": "right",
+      "content": "嗨，我想点一份牛肉炒饭和一份宫保鸡丁，还有一瓶冰红茶。谢谢！",
+      "timestamp": 1740945351.965083
+    },
+    {
+      "role": "left",
+      "content": "好的，您点了一份牛肉炒饭、一份宫保鸡丁和一瓶冰红茶。请问需要加餐具吗？还需要其他饮料或小食吗？",
+      "timestamp": 1740945357.7651165
+    },
+    {
+      "role": "right",
+      "content": "不需要加餐具了，饮料和小食也暂时不需要，谢谢。对了，大概多久能送到？",
+      "timestamp": 1740945359.642927
+    },
+    {
+      "role": "left",
+      "content": "您的订单预计在30到40分钟内送达，具体时间可能会根据实际情况有所调整。如果有任何变动，我们会及时联系您。请问还有其他需要帮忙的吗？",
+      "timestamp": 1740945365.210758
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情、配送时间，并询问了用户是否还有其他需要后，主动结束了对话。这表明服务方认为已经完成了本次服务的所有必要步骤，确保用户的需求得到了满足，同时也避免了不必要的对话延长，体现了高效和专业的服务态度。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

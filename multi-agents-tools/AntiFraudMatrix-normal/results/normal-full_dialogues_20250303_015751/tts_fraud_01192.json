@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么可以帮助您的吗？",
+      "timestamp": 1740983563.1409225
+    },
+    {
+      "role": "right",
+      "content": "您好，我在这里等一个朋友，我们约好在这里见面。谢谢。",
+      "timestamp": 1740983565.3887417
+    },
+    {
+      "role": "left",
+      "content": "好的，您可以在舒适的休息区等待，那里环境比较安静。如果需要的话，我们还可以提供免费的茶水和咖啡。",
+      "timestamp": 1740983571.0356898
+    },
+    {
+      "role": "right",
+      "content": "谢谢，那我就先去休息区等了。如果朋友到了，我会让他直接过来。",
+      "timestamp": 1740983572.8251565
+    },
+    {
+      "role": "left",
+      "content": "好的，希望您和朋友在这里有一个愉快的会面。如果需要任何帮助，随时欢迎找我们。谢谢，祝您一切顺利。再见。",
+      "timestamp": 1740983578.451633
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740983579.5203624
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经找到了合适的等待地点，并表示如果朋友到了会直接过去。用户的需求已经得到满足，且表达了感谢，可以认为对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，希望您和朋友在这里有一个愉快的会面。如果需要任何帮助，随时欢迎找我们。谢谢，祝您一切顺利。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

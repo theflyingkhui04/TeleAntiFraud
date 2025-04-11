@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "张先生，您好，我是来自海天投资公司的李经理。最近我们发现了一个非常有潜力的投资项目，年化收益预计可以达到百分之三十，我想这可能对您非常有吸引力。",
+      "timestamp": 1740814349.9299028
+    },
+    {
+      "role": "right",
+      "content": "李经理，您好，听起来不错啊。您能详细介绍一下这个项目吗？我退休了，手里有点闲钱，确实想找个可靠的投资渠道。",
+      "timestamp": 1740814354.0839472
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "在对话中，用户表达了对投资项目的兴趣，并表示愿意了解更多详情。然而，诈骗者在介绍项目之前突然挂断了电话，可能是由于诈骗者意识到用户有进一步了解的意愿，但诈骗者可能没有准备好足够的信息或认为用户可能需要更多的说服，因此选择了终止对话。挂断的原因更倾向于诈骗者认为继续对话无法达到预期效果。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

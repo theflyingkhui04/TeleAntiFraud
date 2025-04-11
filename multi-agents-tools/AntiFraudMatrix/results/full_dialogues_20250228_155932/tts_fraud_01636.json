@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是你儿子的同学，他现在出事了，被坏人绑架了，你必须马上给我准备二十万，不然他们要加害你儿子！",
+      "timestamp": 1740750504.8401227
+    },
+    {
+      "role": "right",
+      "content": "哎呀！我儿子出事了？这...这可怎么办啊！（焦急地）我马上就去准备钱，你...你一定要救救我儿子啊！对了，我儿子现在怎么样了？有没有受伤？",
+      "timestamp": 1740750510.3910427
+    },
+    {
+      "role": "left",
+      "content": "好的，我明白了，我会尽快准备钱的，谢谢你的提醒，再见。",
+      "timestamp": 1740750514.9031835
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，我马上就去准备，你一定要保证我儿子的安全！谢谢，谢谢！",
+      "timestamp": 1740750516.6563537
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表现出极度的恐慌，并且同意准备钱财，这表明诈骗明显成功，用户已提供敏感信息或同意转账。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我明白了，我会尽快准备钱的，谢谢你的提醒，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，好的，我马上就去准备，你一定要保证我儿子的安全！谢谢，谢谢！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

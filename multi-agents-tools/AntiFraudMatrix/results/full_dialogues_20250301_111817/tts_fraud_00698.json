@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客户经理，李华。我们发现您的账户有异常交易，需要您配合进行核实。您方便现在讲电话吗？",
+      "timestamp": 1740802819.8058727
+    },
+    {
+      "role": "right",
+      "content": "李华先生，您好。我确实方便，但在此之前，我需要确认您的身份。请您提供一下您的工号和我开户时的支行名称，好吗？",
+      "timestamp": 1740802821.9465785
+    },
+    {
+      "role": "left",
+      "content": "理解您的顾虑，这是我的工号：八百六十二，您是在解放路支行开户的。您可以随时拨打银行官方客服电话核实我的信息。现在我们可以继续吗？",
+      "timestamp": 1740802831.4354765
+    },
+    {
+      "role": "right",
+      "content": "好的，李华先生，我这就去核实一下。稍等我几分钟，可以吗？",
+      "timestamp": 1740802833.8357604
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在要求验证诈骗者身份后，表示需要去核实诈骗者提供的信息，并随即挂断了电话。这表明用户对诈骗者的身份表示怀疑，并采取了谨慎的态度，通过挂断电话来避免潜在的风险。用户的意图是中断对话，以防止可能的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

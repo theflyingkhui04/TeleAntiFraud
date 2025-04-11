@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您！我是XX彩票中心的客服，您最近购买的一张彩票中了二等奖，奖金高达50万元！请问您方便现在提供一下您的银行卡号，我们好为您办理兑奖手续吗？",
+      "timestamp": 1740691992.8003218
+    },
+    {
+      "role": "right",
+      "content": "啊？真的吗？我最近确实买过彩票...（激动地）那个，银行卡号是吧？我找找看...等等，你们不会是骗子吧？我听说现在有很多冒充中奖的诈骗电话。",
+      "timestamp": 1740691997.9880793
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在考虑提供个人信息前产生了怀疑，意识到可能存在诈骗风险，因此选择主动挂断电话以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

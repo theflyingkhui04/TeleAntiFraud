@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您儿子的朋友，他现在遇到点麻烦，需要您的帮助。您能先别挂电话，听我讲完吗？",
+      "timestamp": 1740745940.3427987
+    },
+    {
+      "role": "right",
+      "content": "你好，你说你是我家儿子的朋友，他遇到了什么麻烦？你先说说看，我好帮帮他。",
+      "timestamp": 1740745942.6886823
+    },
+    {
+      "role": "left",
+      "content": "是这样的，您儿子刚刚在国外出了点意外，他被当地警方扣留了，需要一笔钱才能解决这件事。请您先别担心，我会帮您联系他确认情况的。不过时间很紧，您得尽快准备钱。 ",
+      "timestamp": 1740745954.0954337
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者可能意识到用户没有立即表现出恐慌或怀疑，且用户要求更多细节，这可能导致诈骗计划的暴露。为了防止进一步的质疑和潜在的失败，诈骗者选择提前结束对话，避免用户有更多时间思考和核实情况。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

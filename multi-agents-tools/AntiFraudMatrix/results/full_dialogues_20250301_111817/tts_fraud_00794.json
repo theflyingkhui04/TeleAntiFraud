@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜你，你中了我们这次的特别抽奖活动，奖品是一百万元现金大奖！",
+      "timestamp": 1740810213.9666407
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？太意外了！我怎么这么幸运呢！你们能告诉我具体是怎么回事吗？",
+      "timestamp": 1740810215.8952217
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到这是一个常见的诈骗手法而选择挂断电话。用户在表达出兴趣后立即挂断，这可能表明用户在进一步询问前已经判断出这是诈骗，并决定不再继续对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

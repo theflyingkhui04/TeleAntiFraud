@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子小刘的朋友小王，刚刚小刘遇到了点麻烦，他现在被几个混混扣住了，他们说要我们支付一笔钱才会放人，我们已经凑了一些，但还差不少，您能不能帮忙转点钱过来？这事情很急，麻烦您了。",
+      "timestamp": 1740803215.6695035
+    },
+    {
+      "role": "right",
+      "content": "小王啊，你先别急，你说的这个事情我得好好想想。小刘平时跟你说过有没有遇到过这种麻烦？他最近有没有什么异常的情况？",
+      "timestamp": 1740803219.3746548
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的情况后，没有立即相信，而是选择了挂断电话。这表明用户对诈骗者的故事产生了怀疑，可能认为这是一个诈骗电话，或者用户想要先核实情况再做决定。用户的意图是中断对话，避免进一步的交流，直到确认情况的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问。我们最近推出了一款高回报的理财产品，年化收益率高达25%，您有兴趣了解一下吗？",
+      "timestamp": 1740692316.6161366
+    },
+    {
+      "role": "right",
+      "content": "嗯，听起来挺不错的，但我是医生，平时工作比较忙，对投资了解不多。这个产品真的这么好吗？有没有什么风险？",
+      "timestamp": 1740692354.0329006
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对投资产品的疑问和对自身投资知识的不自信，但并未表现出强烈的兴趣或拒绝。用户挂断电话的原因可能是因为对诈骗者的身份和产品的真实性存疑，或者因为工作繁忙没有时间继续对话。用户的意图可能是避免进一步的风险或节省时间。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

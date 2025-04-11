@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！我是国际快递公司的客服，我们发现您的包裹在海关被扣留，需要您提供身份信息和支付一笔清关费用才能继续派送。请问您现在方便处理吗？",
+      "timestamp": 1740686369.303915
+    },
+    {
+      "role": "right",
+      "content": "抱歉，我这边没有通过你们公司寄过任何国际快递。而且最近也有很多类似的诈骗电话，我不会提供任何个人信息和支付费用的。请你不要再打来了。",
+      "timestamp": 1740686374.0902703
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是因为他们意识到这是一起诈骗电话。用户明确表示自己没有通过该快递公司寄送过任何国际包裹，并且提到了最近有很多类似的诈骗电话，因此拒绝提供任何个人信息或支付费用。用户的意图是终止与诈骗者的对话，避免个人信息泄露和财务损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

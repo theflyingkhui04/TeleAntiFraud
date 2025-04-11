@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！这里是国际邮政服务中心。我们发现您的包裹在海关被扣留，需要支付一百元的清关费用才能放行。请问您现在方便处理吗？",
+      "timestamp": 1740743124.0882752
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊。那我怎么支付呢？我这儿有点急，能不能快点啊？",
+      "timestamp": 1740743168.310156
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为急事需要立即处理，没有时间继续与诈骗者对话。此外，用户可能对支付方式存有疑虑或担心被骗，因此选择迅速挂断电话以避免风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是某某的同事，他现在遇到了点麻烦，需要您的帮助。",
+      "timestamp": 1740688815.1950219
+    },
+    {
+      "role": "right",
+      "content": "啊，你好，能具体说说他遇到了什么麻烦吗？我这边还好，能帮上忙的话我尽量。",
+      "timestamp": 1740688817.7559447
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能在尝试了解更多情况后，意识到这可能是一个诈骗电话，因此选择主动挂断以避免进一步的风险。用户的意图是中断对话，防止个人信息泄露或财务损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

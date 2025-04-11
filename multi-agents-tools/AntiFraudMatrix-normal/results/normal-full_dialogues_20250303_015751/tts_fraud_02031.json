@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是您的购物顾问，有什么可以帮助您的吗？",
+      "timestamp": 1740956876.8571897
+    },
+    {
+      "role": "right",
+      "content": "您好，我在这儿随便看看，谢谢。",
+      "timestamp": 1740956877.8214555
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何需要咨询的商品，随时告诉我。",
+      "timestamp": 1740956883.5881238
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我如果需要会找您的。",
+      "timestamp": 1740956884.4761612
+    },
+    {
+      "role": "left",
+      "content": "没问题，我会在这儿等您。祝您购物愉快。",
+      "timestamp": 1740956892.1576035
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户当前没有具体需求后，礼貌地结束了对话。服务方的意图是保持良好的客户体验，同时避免不必要的长时间占用资源。用户表达了暂时不需要帮助，服务方在此基础上选择了合适的时机结束对话，体现了专业性和对客户时间的尊重。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

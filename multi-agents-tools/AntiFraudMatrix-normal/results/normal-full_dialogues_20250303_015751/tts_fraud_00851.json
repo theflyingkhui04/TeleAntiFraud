@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，我可以帮您预订餐点，请问您想吃些什么？",
+      "timestamp": 1740955977.2691424
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我想吃点简单的东西，有什么推荐的吗？",
+      "timestamp": 1740955978.9771664
+    },
+    {
+      "role": "left",
+      "content": "当然，我们有几款轻食套餐很受欢迎，比如鸡胸沙拉、鲜虾三明治和蔬菜汤，都是非常健康又美味的选择，您可以考虑一下。",
+      "timestamp": 1740955984.2204206
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，那就来个鸡胸沙拉吧。还有什么需要我选的吗？",
+      "timestamp": 1740955985.41677
+    },
+    {
+      "role": "left",
+      "content": "好的，鸡胸沙拉是个不错的选择。您是否需要搭配饮料或小吃？我们有多种饮料和小吃可供选择，比如鲜榨果汁、冰红茶和薯条。",
+      "timestamp": 1740955990.2597117
+    },
+    {
+      "role": "right",
+      "content": "那就来一杯冰红茶吧。这样就可以了。谢谢。",
+      "timestamp": 1740955991.1036024
+    },
+    {
+      "role": "left",
+      "content": "好的，您的鸡胸沙拉已经预订好了，我们会尽快为您准备。如果您需要饮料或小吃，可以随时告诉我。如果没有其他需要，您的订单就完成了，感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740955998.2367651
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。祝我用餐愉快！",
+      "timestamp": 1740955999.8398867
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了餐点和饮料，并表示满意，没有进一步的需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的鸡胸沙拉已经预订好了，我们会尽快为您准备。如果您需要饮料或小吃，可以随时告诉我。如果没有其他需要，您的订单就完成了，感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。祝我用餐愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

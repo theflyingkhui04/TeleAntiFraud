@@ -1,0 +1,61 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约什么项目？",
+      "timestamp": 1740955754.9229546
+    },
+    {
+      "role": "right",
+      "content": "我年纪大了，就想预约个健康检查，看看身体状况。",
+      "timestamp": 1740955758.5311785
+    },
+    {
+      "role": "left",
+      "content": "好的，健康检查是一个很好的选择。请问您希望预约哪一天来医院进行检查？",
+      "timestamp": 1740955762.5778463
+    },
+    {
+      "role": "right",
+      "content": "那就下个星期二吧，那天我有空。",
+      "timestamp": 1740955763.3717115
+    },
+    {
+      "role": "left",
+      "content": "下个星期二可以，上午还是下午时间段更方便呢？",
+      "timestamp": 1740955766.5227172
+    },
+    {
+      "role": "right",
+      "content": "上午吧，我早起习惯了。",
+      "timestamp": 1740955770.1466599
+    },
+    {
+      "role": "left",
+      "content": "好的，已为您预约下周二上午的健康检查。请问需要我帮您安排具体的检查项目吗？",
+      "timestamp": 1740955775.0154898
+    },
+    {
+      "role": "right",
+      "content": "那就麻烦你帮我安排一下吧，常规的检查项目就行。",
+      "timestamp": 1740955775.7530973
+    },
+    {
+      "role": "left",
+      "content": "明白了，我会为您安排常规的健康检查项目，包括血压、血糖、心电图等。请问您还有其他特殊需求吗？",
+      "timestamp": 1740955782.8126664
+    },
+    {
+      "role": "right",
+      "content": "没有了，常规检查就足够了。谢谢你的帮助。",
+      "timestamp": 1740955786.9243782
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方确认了预约时间和检查项目后，表示没有其他特殊需求，并对服务方的帮助表示感谢。用户明确使用了结束标识符'##ENDCALL_SIGNAL##'，表明其预约需求已得到满足，对话目标达成，用户满意并主动选择结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

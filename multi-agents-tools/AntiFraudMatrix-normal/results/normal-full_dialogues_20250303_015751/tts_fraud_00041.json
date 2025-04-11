@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，请问有什么可以帮到您的？",
+      "timestamp": 1740974665.5829837
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我最近在用你们的软件，遇到了一些问题，想咨询一下。",
+      "timestamp": 1740974668.445036
+    },
+    {
+      "role": "left",
+      "content": "好的，请问您遇到了什么问题呢？我会尽力帮您解决。",
+      "timestamp": 1740974677.8065867
+    },
+    {
+      "role": "right",
+      "content": "我在使用某个功能时，总是提示我权限不足，不知道是怎么回事。",
+      "timestamp": 1740974679.7726905
+    },
+    {
+      "role": "left",
+      "content": "这个问题可能是由于您的账户权限设置导致的。您可以尝试检查一下账户设置，确保您拥有该功能所需的权限。如果还是不行，可以提供一下您的账户名和遇到问题的具体功能，我来帮您查看。",
+      "timestamp": 1740974687.1498904
+    },
+    {
+      "role": "right",
+      "content": "好的，我去看一下账户设置。如果还是不行，再联系你。谢谢。",
+      "timestamp": 1740974689.240964
+    },
+    {
+      "role": "left",
+      "content": "不客气，如果需要帮助随时欢迎联系我。祝您使用愉快，有任何问题都可以随时咨询。",
+      "timestamp": 1740974696.2391753
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在用户表示会先自行检查账户设置，并在需要时再联系客服的情况下，主动结束了对话。服务方的意图是确认用户的问题得到了初步的解决方向，并且表达了随时欢迎用户再次咨询的态度，确保用户感到被支持和帮助。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

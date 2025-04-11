@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么可以帮助您的吗？",
+      "timestamp": 1740979169.0475025
+    },
+    {
+      "role": "right",
+      "content": "你好，我是来取预约的检查报告的。",
+      "timestamp": 1740979171.1701772
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户结束对话的原因可能是他们认为对话已经达到了目的，即传达了他们前来取预约检查报告的意图。此外，用户可能认为服务方的问候已经足够，无需进一步交流。服务方的回应中包含了结束信号代码，表明服务方也准备好结束对话，这与用户的意图相吻合。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

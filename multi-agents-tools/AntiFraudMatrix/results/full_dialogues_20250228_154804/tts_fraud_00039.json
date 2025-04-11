@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是来自国家彩票管理中心的工作人员，恭喜您，您的彩票号码与本期开奖号码完全一致，您中得了一等奖，奖金高达五百万元！请问您现在方便听我说明领奖流程吗？",
+      "timestamp": 1740751362.595278
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太不可思议了！我居然中了五百万元！这真是太棒了！我当然方便，您可以告诉我接下来该怎么做吗？",
+      "timestamp": 1740751364.4713533
+    },
+    {
+      "role": "left",
+      "content": "当然可以，首先请您提供一下您的姓名和身份证号码，我们需要核对信息，确保奖金能够准确无误地发放给您。",
+      "timestamp": 1740751368.1294785
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫张伟，我的身份证号码是 xxxxxxxxxxxxxxxx。接下来我需要做什么呢？",
+      "timestamp": 1740751369.9021876
+    },
+    {
+      "role": "left",
+      "content": "好的，那我这就记录您的信息。请您稍等，我会尽快为您处理。再次恭喜您中得大奖，希望我们能尽快完成领奖流程。再见。",
+      "timestamp": 1740751377.1194127
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您！期待尽快领到奖金。再见。",
+      "timestamp": 1740751379.1369538
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（姓名和身份证号码），诈骗明显成功。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我这就记录您的信息。请您稍等，我会尽快为您处理。再次恭喜您中得大奖，希望我们能尽快完成领奖流程。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您！期待尽快领到奖金。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

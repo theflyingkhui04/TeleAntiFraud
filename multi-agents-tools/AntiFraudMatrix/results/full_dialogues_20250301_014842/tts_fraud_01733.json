@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是您的银行客服中心，我是小张。我们接到系统通知，您的银行卡可能涉及一起未授权的交易，为了您的资金安全，需要您配合我们进行核实。请问您现在方便吗？",
+      "timestamp": 1740783903.7481072
+    },
+    {
+      "role": "right",
+      "content": "哎呀，小张啊，你说的这个事情我得好好问问。我年纪大了，这些银行的事情我不太懂。你说的未授权交易是怎么回事？我得确认一下。",
+      "timestamp": 1740783906.6912708
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了对诈骗者身份和未授权交易的怀疑，可能是因为对银行客服的正规流程不够了解，或者感觉到了诈骗者的不专业。用户挂断电话的意图可能是为了自行核实信息，避免直接在电话中透露个人信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

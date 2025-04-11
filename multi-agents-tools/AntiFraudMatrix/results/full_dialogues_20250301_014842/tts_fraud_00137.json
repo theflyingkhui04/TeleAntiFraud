@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行客服中心，我们检测到您的账户存在异常交易，需要立即核实您的身份信息以确保账户安全。请问您现在方便配合我们处理吗？",
+      "timestamp": 1740767021.2112908
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近确实没有进行过什么大额交易，可能是哪里出错了。不过既然你们发现了问题，那我就配合你们核实一下吧。需要我提供什么信息呢？",
+      "timestamp": 1740767023.26525
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出需要核实身份信息后，没有直接提供信息，而是表达了对交易异常的疑问。然而，诈骗者并未进一步解释异常情况，而是直接挂断了电话。这可能是因为诈骗者意识到用户对异常交易有所怀疑，继续诈骗成功的可能性较低，因此选择主动结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

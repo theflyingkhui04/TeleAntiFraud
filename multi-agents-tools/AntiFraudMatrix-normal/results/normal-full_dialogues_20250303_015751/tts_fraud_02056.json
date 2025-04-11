@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，欢迎使用打车服务，我将为您安排车辆，请问您现在的位置和目的地是哪里？",
+      "timestamp": 1740972484.5793386
+    },
+    {
+      "role": "right",
+      "content": "您好，我在学校门口，目的地是图书馆。谢谢。",
+      "timestamp": 1740972485.6992238
+    },
+    {
+      "role": "left",
+      "content": "好的，已经收到您的信息。学校门口到图书馆的距离较近，我会立即为您安排车辆。预计等待时间大约是五分钟。请问还有其他需求吗？比如需要大件行李的空间？",
+      "timestamp": 1740972492.9239497
+    },
+    {
+      "role": "right",
+      "content": "不需要，谢谢。我就带点书。",
+      "timestamp": 1740972493.9743779
+    },
+    {
+      "role": "left",
+      "content": "明白了，那我会为安排一辆常规车型。车辆大约五分钟后到达，请您留意。如果车辆到达，司机将会联系您确认。祝您旅途愉快。",
+      "timestamp": 1740972500.9122996
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的出发地、目的地以及特殊需求后，安排了合适的车辆，并告知了预计等待时间。服务方提供了所有必要的信息，并确保用户没有其他需求后，礼貌地结束了对话。服务方的意图是确保用户满意并高效地完成服务流程。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

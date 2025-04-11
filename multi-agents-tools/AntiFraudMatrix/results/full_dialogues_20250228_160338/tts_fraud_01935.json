@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是平安银行客服中心，我是客服代表小李。我们检测到您的银行账户有异常活动，为了您的资金安全，需要立即进行身份验证。请问您现在方便吗？",
+      "timestamp": 1740743299.7462695
+    },
+    {
+      "role": "right",
+      "content": "您好，小李。我最近确实没怎么用这个账户，但直接说有异常活动是不是太突然了？能不能先告诉我具体是什么异常？",
+      "timestamp": 1740743323.9692235
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者声称的账户异常活动表示怀疑，并要求提供更具体的信息。由于诈骗者在首次接触时未能提供具体的异常活动详情，用户可能认为这是诈骗行为，因此选择挂断电话以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

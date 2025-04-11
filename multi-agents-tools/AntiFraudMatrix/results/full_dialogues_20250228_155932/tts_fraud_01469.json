@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是李明的朋友，现在他遇到了点麻烦，您能帮帮他吗？",
+      "timestamp": 1740754150.7638597
+    },
+    {
+      "role": "right",
+      "content": "抱歉，我不太方便介入别人的私事。如果李明真的需要帮助，建议他直接联系我或者报警处理。",
+      "timestamp": 1740754156.0447824
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能认为这是个诈骗电话，因为对方要求介入一个陌生人的私人事务。用户表达了不介入他人私事的立场，并建议如果有紧急情况，应该直接联系本人或报警处理。用户的意图是明确拒绝参与，并通过挂断电话来结束与诈骗者的交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，您可以告诉我需要预约哪一项服务以及方便的时间吗？",
+      "timestamp": 1740944990.7124138
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约一个全面体检，方便的时间是下周五下午。你们那边可以安排吗？",
+      "timestamp": 1740944993.5397866
+    },
+    {
+      "role": "left",
+      "content": "下周五下午可以安排全面体检，我们有两个时间段可供选择，分别是下午两点和四点，您看哪个时间段更合适呢？",
+      "timestamp": 1740945000.4934766
+    },
+    {
+      "role": "right",
+      "content": "下午四点比较合适，谢谢。",
+      "timestamp": 1740945001.3007505
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您预约了下周五下午四点的全面体检。您的预约编号是123456，稍后我们会通过短信发送详细的预约信息，请注意查收。如果有什么变动，可以随时联系我们。还有其他需要帮助的吗？",
+      "timestamp": 1740945006.8576035
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在完成预约服务后，确认用户没有其他需要帮助的事项，并提供了明确的结束信号代码（##ENDCALL_SIGNAL##）。服务方的意图是确保用户已经获得了所需的服务信息，并且对服务感到满意，同时礼貌地结束对话，避免不必要的延长。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是张强的同事，张强现在情况非常紧急，他被人绑架了，对方要求我们立即支付一笔赎金，不然他们就要对张强不利。您能帮帮我们，尽快把钱转过来吗？",
+      "timestamp": 1740780562.9596214
+    },
+    {
+      "role": "right",
+      "content": "天哪，这可怎么办？张强怎么会遇到这种事。你们确定这是真的吗？我得先确认一下，我得给他家里人打个电话。",
+      "timestamp": 1740780564.6925545
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称张强被绑架并要求支付赎金后，表现出震惊和担忧，但同时也表达了对信息真实性的怀疑。用户决定通过联系张强的家人来确认这一紧急情况的真实性，而不是立即响应诈骗者的要求。用户挂断电话的意图是中断当前对话，以便有时间核实信息，避免可能的诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

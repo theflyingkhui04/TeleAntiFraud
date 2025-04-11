@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你好，我是来自国家身份认证中心的工作人员，我们检测到您的身份信息可能被盗用，需要您配合我们进行安全验证，以确保您的个人信息安全。",
+      "timestamp": 1740790044.9371092
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的提醒。我最近确实感觉有些奇怪，可以告诉我具体需要我做些什么吗？",
+      "timestamp": 1740790047.2412949
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了合作的意愿，但诈骗者突然挂断了电话。这可能是诈骗者意识到用户没有立即表现出恐慌或怀疑，或者诈骗者认为用户可能需要更多时间来考虑，因此选择暂时中断对话。然而，根据提供的信息，实际上是用户挂断了电话，这可能是因为用户在进一步思考后意识到这可能是诈骗，或者用户决定通过其他方式验证信息的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

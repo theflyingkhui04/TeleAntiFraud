@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自盈科财富管理公司的张经理，最近我们推出了一款高收益的投资项目，收益率高达百分之五十，我想您一定感兴趣。",
+      "timestamp": 1740770960.0618274
+    },
+    {
+      "role": "right",
+      "content": "张经理您好，我就是个农民，没什么钱投资的。不过您说的这个项目听起来不错，真的有这么高的收益吗？我得回去和家里人商量一下。",
+      "timestamp": 1740770962.1181607
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对投资项目的兴趣，但同时也表达了需要与家人商量的意图。用户主动挂断电话，可能是出于对诈骗的怀疑或对投资项目的不确定，想要进一步核实信息或咨询家人意见后再做决定。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

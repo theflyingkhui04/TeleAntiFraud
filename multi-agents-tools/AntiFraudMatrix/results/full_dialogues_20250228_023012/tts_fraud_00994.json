@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！这里是国际快递服务公司。我们发现您有一个来自海外的高价值包裹正在等待清关，但需要您支付一笔小额的关税费用。请问您现在方便处理吗？",
+      "timestamp": 1740682564.4514694
+    },
+    {
+      "role": "right",
+      "content": "我最近并没有从海外购买任何东西，你们是不是搞错了？而且你们怎么证明自己是正规的快递公司？",
+      "timestamp": 1740682569.3681302
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方身份的真实性而选择挂断电话。用户提到自己近期没有从海外购物的经历，并且要求对方证明自己是正规快递公司，这表明用户对诈骗者的身份持怀疑态度，不愿意继续与诈骗者进行交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

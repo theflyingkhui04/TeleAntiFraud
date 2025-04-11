@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询助手，有什么我可以帮您的吗？",
+      "timestamp": 1740948889.4984922
+    },
+    {
+      "role": "right",
+      "content": "你好，我最近在考虑优化公司的物流配送路线，想了解一下有什么好的建议或工具可以使用。",
+      "timestamp": 1740948891.1479971
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话刚开始时即提供了结束信号代码 '##ENDCALL_SIGNAL##'，这可能是因为用户突然意识到自己不需要帮助，或者是在尝试测试系统反应。用户的意图可能是测试系统对结束信号的响应机制，或者是突然改变了主意，不再需要咨询。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询专员为您服务，有什么我可以帮助您的吗？",
+      "timestamp": 1740983434.762646
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下最近公交线路有没有什么调整，特别是我常坐的三号线。",
+      "timestamp": 1740983436.4009762
+    },
+    {
+      "role": "left",
+      "content": "您好，目前三号线公交线路没有进行大的调整，一切按照原线路正常运行。如果您有任何具体的疑问或需要进一步的信息，可以告诉我，我会为您核实。",
+      "timestamp": 1740983446.0158997
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的回答。那我就放心了。如果有变化，我会再联系你们的。",
+      "timestamp": 1740983447.5658865
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您没有其他问题，祝您旅途愉快！如果有任何变动，我们会及时通知。",
+      "timestamp": 1740983453.114221
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。祝你一天愉快！",
+      "timestamp": 1740983455.064356
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经得到了所需的信息，并明确表示了感谢和不再需要进一步的帮助。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您没有其他问题，祝您旅途愉快！如果有任何变动，我们会及时通知。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。祝你一天愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

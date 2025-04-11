@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自某知名投资公司的客户经理，最近我们的一个投资项目表现非常出色，收益率高达百分之六十，我想您可能会感兴趣。",
+      "timestamp": 1740770268.8531976
+    },
+    {
+      "role": "right",
+      "content": "您好，谢谢您的联系。不过我对这种高收益的投资项目一直持谨慎态度。您能具体介绍一下这个项目的内容和风险吗？另外，能提供一些公司的详细信息和资质证明吗？",
+      "timestamp": 1740770270.9796517
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了谨慎的态度，并要求诈骗者提供详细的项目内容、风险信息以及公司的资质证明。这表明用户对诈骗者的身份和投资项目的真实性持怀疑态度。用户主动挂断电话，可能是认为继续对话无法获得足够的信任信息，或者认为这可能是一个诈骗电话，因此选择终止对话以保护自己的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

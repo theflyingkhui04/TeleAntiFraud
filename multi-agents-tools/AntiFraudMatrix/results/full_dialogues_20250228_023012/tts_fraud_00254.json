@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自速递易快递公司的客服代表，您的包裹在运输过程中遇到了一些问题，需要您提供一些信息以便我们处理。能麻烦您提供一下您的姓名和联系电话吗？",
+      "timestamp": 1740682875.962491
+    },
+    {
+      "role": "right",
+      "content": "您好，我是张阿姨。请问有什么问题需要我提供信息呢？我平时收到快递都很正常，这是第一次遇到这种情况。",
+      "timestamp": 1740682878.759474
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方身份的真实性而选择挂断电话。在对话中，用户表达了对快递问题的疑问，表明她平时收到快递都很正常，这可能是她对诈骗者身份产生怀疑的迹象。用户没有直接提供姓名和联系电话，而是询问了更多关于问题的细节，这表明她有一定的警惕性。最终，用户选择挂断电话，可能是为了避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

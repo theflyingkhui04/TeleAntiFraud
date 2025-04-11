@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家彩票中心，恭喜您，您中了我们的一等奖，奖金高达500万元！为了确认您的身份，请问您能提供一下您的姓名和联系方式吗？我们会在核对无误后，将奖金发放到您的账户。",
+      "timestamp": 1740685596.3125718
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？太意外了！我叫张明，我的电话是13812345678。不过，我好像没买过彩票啊，这是怎么回事呢？",
+      "timestamp": 1740685598.310936
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供个人信息后，突然意识到自己并未购买过彩票，这可能引发了对诈骗的怀疑。用户通过提供虚假信息（如电话号码）来测试诈骗者的真实性，并在诈骗者可能进一步询问或确认信息时选择挂断电话，以避免潜在的风险。用户的意图是通过挂断电话来终止对话，防止个人信息被进一步利用。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

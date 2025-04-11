@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮助您的吗？",
+      "timestamp": 1740951525.0870466
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份午餐，有什么推荐的吗？",
+      "timestamp": 1740951526.2279358
+    },
+    {
+      "role": "left",
+      "content": "我们今天特别推荐的是招牌鸡肉饭和海鲜意面，都是顾客评价很高的选择。您喜欢哪种口味的呢？",
+      "timestamp": 1740951531.3218966
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我比较喜欢海鲜，那就来一份海鲜意面吧。",
+      "timestamp": 1740951535.5533605
+    },
+    {
+      "role": "left",
+      "content": "好的，海鲜意面已加入您的订单。还需要搭配点什么小菜或者饮料吗？",
+      "timestamp": 1740951540.0508564
+    },
+    {
+      "role": "right",
+      "content": "来一杯冰红茶吧，谢谢。",
+      "timestamp": 1740951540.8366125
+    },
+    {
+      "role": "left",
+      "content": "好的，一杯冰红茶已为您添加。您的订单已经确认，预计三十分钟后送达，还有其他需要帮助的吗？",
+      "timestamp": 1740951546.573594
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户订单并告知预计送达时间后，询问用户是否有其他需要帮助的事项。用户没有提出进一步的需求，服务方通过提供'##ENDCALL_SIGNAL##'信号表明对话已经完成，服务目标达成，可以自然结束。服务方的意图是确保用户的需求得到满足，并礼貌地结束对话，以保持良好的服务体验。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

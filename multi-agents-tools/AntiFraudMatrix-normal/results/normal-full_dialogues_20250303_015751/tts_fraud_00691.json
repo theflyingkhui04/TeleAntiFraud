@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的预约服务专员，可以帮助您预约所需的服务，请问您需要预约什么服务呢？",
+      "timestamp": 1740978535.1958752
+    },
+    {
+      "role": "right",
+      "content": "好的，我想预约一个车辆保养服务。",
+      "timestamp": 1740978536.9250047
+    },
+    {
+      "role": "left",
+      "content": "好的，预约车辆保养服务，请问您的车辆品牌和型号是什么？另外，您希望预约哪一天进行保养？",
+      "timestamp": 1740978542.4890132
+    },
+    {
+      "role": "right",
+      "content": "车辆是宝马五系，希望下周二去保养。",
+      "timestamp": 1740978544.171627
+    },
+    {
+      "role": "left",
+      "content": "好的，已经记录了您的车辆信息。下周二我们有上午九点、十一点和下午两点的预约时间，您看哪个时间段方便？",
+      "timestamp": 1740978552.412295
+    },
+    {
+      "role": "right",
+      "content": "上午九点可以。",
+      "timestamp": 1740978553.530448
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您预约了下周二上午九点的宝马五系保养服务。您的预约编号是 123456，稍后我们会以短信形式发送确认信息，请注意查收。还有其他需要帮助的吗？",
+      "timestamp": 1740978563.2274652
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息后，主动提供了预约编号，并告知用户会通过短信发送确认信息。服务方询问用户是否有其他需要帮助的事项，表明服务方已经完成了预约服务流程，且用户没有提出其他需求。服务方使用了结束标识符'##ENDCALL_SIGNAL##'，表明服务方认为对话目标已达成，服务流程已完成，可以结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

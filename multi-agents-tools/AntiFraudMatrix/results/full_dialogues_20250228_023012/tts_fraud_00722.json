@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，这里是XX银行客服中心，我们检测到您的账户存在异常交易，需要立即核实您的身份信息以确保账户安全。请问您现在方便接听电话吗？",
+      "timestamp": 1740689983.5676389
+    },
+    {
+      "role": "right",
+      "content": "不好意思，我这边显示的来电号码和你们银行的官方号码不符。而且你们说的账户异常交易，我刚才查过账单并无异常。你们这种假冒银行客服的手段我已经见过很多次了，我会立即向公安机关举报的。",
+      "timestamp": 1740689988.6694188
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是怀疑来电号码和银行官方号码不符，并且在自行检查后未发现账户有异常交易。用户认为这是诈骗电话，并表达了强烈的不满和警惕，意图向公安机关举报此次诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

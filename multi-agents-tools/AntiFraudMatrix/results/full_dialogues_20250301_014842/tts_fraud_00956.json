@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好！这里是某某国际安全中心，我需要您立即配合我们，因为您的家人可能正处于非常危险的情况中。",
+      "timestamp": 1740767321.9385767
+    },
+    {
+      "role": "right",
+      "content": "您好，我退休在家，我的家人都在国外，能具体说说是什么危险吗？我有点担心。",
+      "timestamp": 1740767323.3837578
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提供的信息感到怀疑，尤其是在提到家人处于危险中时，用户表示了自己的担忧但并未得到进一步的具体信息。用户可能认为对方无法提供具体的危险情况，因此判断这可能是一起诈骗电话，选择主动挂断以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

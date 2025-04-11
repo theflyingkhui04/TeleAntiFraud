@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我已为您安排了一辆附近的车辆，请问您的上车地点是哪里？",
+      "timestamp": 1740950308.7499833
+    },
+    {
+      "role": "right",
+      "content": "我在村口的老槐树下，麻烦师傅过来接我。",
+      "timestamp": 1740950309.8505588
+    },
+    {
+      "role": "left",
+      "content": "好的，已将您的上车地点设置为村口的老槐树下，司机大约五分钟后到达，请您留意车辆信息，车牌号是京A12345，司机师傅会联系您确认上车位置。",
+      "timestamp": 1740950318.800331
+    },
+    {
+      "role": "right",
+      "content": "好的，我知道了，谢谢。",
+      "timestamp": 1740950319.6621845
+    },
+    {
+      "role": "left",
+      "content": "好的，一切已经安排妥当，请您稍等片刻，司机到达后会联系您。如果您有任何其他需求，随时可以联系我们。祝您出行愉快！",
+      "timestamp": 1740950325.0820796
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们，我会留意的。祝我一路顺利！",
+      "timestamp": 1740950329.4104319
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了上车地点和车辆信息，并表示感谢，表明用户对服务满意且无需进一步的帮助。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，一切已经安排妥当，请您稍等片刻，司机到达后会联系您。如果您有任何其他需求，随时可以联系我们。祝您出行愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们，我会留意的。祝我一路顺利！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

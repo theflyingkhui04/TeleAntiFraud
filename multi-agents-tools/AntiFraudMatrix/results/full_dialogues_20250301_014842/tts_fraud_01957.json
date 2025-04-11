@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是张先生的助理，张先生现在遇到紧急情况，需要您的帮助。",
+      "timestamp": 1740775172.0475953
+    },
+    {
+      "role": "right",
+      "content": "张先生的助理？我怎么没见过你？张先生现在怎么了？你能不能先告诉我具体情况？我得确认一下。",
+      "timestamp": 1740775174.4218369
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份表示怀疑，并要求提供更多具体信息以确认情况的真实性。诈骗者在用户提出质疑后立即挂断电话，可能是为了避免进一步的质疑或暴露其诈骗行为。因此，用户挂断电话的意图可能是出于谨慎，为了防止潜在的诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

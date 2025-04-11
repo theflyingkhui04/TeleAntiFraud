@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张伟吗？我是你儿子的朋友李明，他现在出事了，你必须马上听我说。",
+      "timestamp": 1740812230.06699
+    },
+    {
+      "role": "right",
+      "content": "李明？你找我有什么事？我儿子怎么了？你说清楚点。",
+      "timestamp": 1740812231.5884461
+    },
+    {
+      "role": "left",
+      "content": "张叔，您儿子现在被一帮人扣住了，他们要我联系你，说如果你不想让你儿子出事，就得赶紧准备钱。",
+      "timestamp": 1740812238.3895352
+    },
+    {
+      "role": "right",
+      "content": "什么？这到底是怎么回事？你能不能说清楚一点？我儿子到底在哪里？你们到底要多少钱？",
+      "timestamp": 1740812240.2102454
+    },
+    {
+      "role": "left",
+      "content": "张叔，他们说要三十万，必须马上转到这个账户：六二二九零八零一零一零一。您快点，我手机没电了，不能长时间通话。您儿子的安全就靠您了。",
+      "timestamp": 1740812247.8061924
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在提供了银行账户信息后主动挂断电话，可能是为了制造紧迫感，使用户在没有时间思考的情况下尽快转账。这种行为是诈骗者常用的手段，通过增加时间压力，减少受害者核实信息的可能性，从而提高诈骗成功率。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

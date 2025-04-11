@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的老朋友张华，但现在不是叙旧的时候，您的儿子小明被我们控制了，您必须按照我说的去做，否则后果自负。",
+      "timestamp": 1740683092.7266545
+    },
+    {
+      "role": "right",
+      "content": "张华？我怎么不记得有你这个朋友？你先别急，告诉我你和小明是怎么认识的，我得确认一下。",
+      "timestamp": 1740683094.4134405
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到对方声称其儿子被控制后，对对方的身份表示怀疑，并要求对方提供更多信息以验证其身份。然而，在对方未能提供令人信服的信息之前，用户选择挂断电话，表明用户可能认为这是一个诈骗电话，或至少不愿意在未验证对方身份的情况下继续对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

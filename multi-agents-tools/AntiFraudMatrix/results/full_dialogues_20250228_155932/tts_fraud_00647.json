@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递客服中心，我们发现您有一个包裹因海关问题被扣留，需要核实您的身份信息以便处理。请问您是[姓名]先生/女士本人吗？",
+      "timestamp": 1740747919.2089896
+    },
+    {
+      "role": "right",
+      "content": "您好，我是。这个包裹是我前段时间在网上买的，怎么会被海关扣留了呢？",
+      "timestamp": 1740747921.3602395
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方身份或对包裹被扣留的情况感到困惑和不安，选择挂断电话以避免进一步的风险。用户的意图是中断对话，防止可能的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

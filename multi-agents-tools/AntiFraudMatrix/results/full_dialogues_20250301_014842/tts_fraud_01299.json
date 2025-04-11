@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是你吗？我是你爸爸的朋友，老王。你爸爸出事了，现在在医院，你需要马上过来。",
+      "timestamp": 1740789929.309212
+    },
+    {
+      "role": "right",
+      "content": "老王叔，你等等，你说什么？我爸爸出事了？他在哪家医院？我马上过去。",
+      "timestamp": 1740789931.3738818
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为急切想要了解父亲的情况，决定立即前往医院，因此没有继续与诈骗者通话。用户的意图是尽快确认父亲的安全状况，而不是继续对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

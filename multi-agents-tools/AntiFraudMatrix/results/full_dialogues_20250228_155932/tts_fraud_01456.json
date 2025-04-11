@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友小李的同事，小李现在情况很危急，他在外地出差时被人绑架了，您能听清楚吗？",
+      "timestamp": 1740750387.0241966
+    },
+    {
+      "role": "right",
+      "content": "您好，小李的朋友，您说小李被人绑架了？这太严重了，我需要确认一下这是真的。您能告诉我您的名字和您现在的位置吗？我也好尽快联系警方。",
+      "timestamp": 1740750389.5222623
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称小李被绑架后，表现出了警觉，并要求提供更多详细信息以确认情况的真实性。用户可能已经意识到这是一起诈骗，或者至少对诈骗者的身份和故事的真实性产生了怀疑。因此，用户选择挂断电话，可能是为了保护自己不受进一步的欺骗，也可能是为了自行核实信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

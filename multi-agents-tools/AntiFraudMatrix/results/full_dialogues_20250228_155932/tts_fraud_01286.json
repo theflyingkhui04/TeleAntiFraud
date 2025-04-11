@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李明的家人吗？李明现在在我这里，他出了点意外，需要你们尽快准备十万元赎金，不然我们就…… ",
+      "timestamp": 1740745617.7823474
+    },
+    {
+      "role": "right",
+      "content": "你到底是谁？李明怎么会出事了？你不要吓我，我得先确认一下这到底是怎么回事。你能不能告诉我具体发生了什么？",
+      "timestamp": 1740745621.504607
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者提出的要求时，表现出了怀疑和不安，要求了解更多具体信息以确认情况的真实性。用户挂断电话可能是出于对诈骗行为的警惕，意图是中断与诈骗者的进一步接触，以避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

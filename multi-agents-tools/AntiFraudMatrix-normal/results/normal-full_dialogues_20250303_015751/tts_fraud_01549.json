@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约什么项目？",
+      "timestamp": 1740975058.2246702
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约一个家庭装修的咨询项目。",
+      "timestamp": 1740975059.6527083
+    },
+    {
+      "role": "left",
+      "content": "好的，家庭装修咨询项目已为您准备好。请问您希望预约哪一天，以及具体时间段？",
+      "timestamp": 1740975064.0062082
+    },
+    {
+      "role": "right",
+      "content": "那就预约下周五下午两点到四点吧。",
+      "timestamp": 1740975064.9262075
+    },
+    {
+      "role": "left",
+      "content": "下周五下午两点到四点，这个时间段我们是可用的。请问您的姓名和联系方式，以便我们为您确认预约。",
+      "timestamp": 1740975070.0472836
+    },
+    {
+      "role": "right",
+      "content": "我叫李明，电话是13800138000。",
+      "timestamp": 1740975071.6082227
+    },
+    {
+      "role": "left",
+      "content": "李明先生，您的预约信息已记录，下周五下午两点到四点，我们将为您安排家庭装修咨询服务。稍后您会收到确认短信，请注意查收。还有其他需要帮助的吗？",
+      "timestamp": 1740975076.8254688
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息并告知用户会收到确认短信后，主动使用了结束信号代码（##ENDCALL_SIGNAL##）。这表明服务方认为预约服务已经完成，用户的需求得到了满足，且服务方没有检测到用户有进一步的需求或问题。服务方的意图是礼貌地结束对话，确保用户感到满意并结束此次服务流程。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

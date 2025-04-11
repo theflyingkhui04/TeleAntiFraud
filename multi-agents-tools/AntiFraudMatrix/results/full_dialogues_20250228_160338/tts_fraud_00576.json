@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是国家彩票中心，恭喜您，您的彩票中了今年的一等奖，奖金高达五百万元！请您保持冷静，这是您的幸运日！",
+      "timestamp": 1740737785.401373
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？我太幸运了！谢谢您通知我，我该怎么做呢？",
+      "timestamp": 1740737787.1202366
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为过于兴奋或怀疑而挂断电话，以核实信息的真实性或寻求第三方的确认。用户的意图可能是为了保护自己不受潜在的诈骗行为侵害，或者是因为突然的消息感到不知所措，需要时间来处理这一信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

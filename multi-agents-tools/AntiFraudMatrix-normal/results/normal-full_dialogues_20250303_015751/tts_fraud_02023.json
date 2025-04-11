@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，请问有什么可以帮您的？",
+      "timestamp": 1740972183.1136456
+    },
+    {
+      "role": "right",
+      "content": "您好，我想买点茶叶，有什么推荐的吗？",
+      "timestamp": 1740972184.5743635
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款非常受欢迎的茶叶，比如龙井、铁观音和普洱。您平时喜欢喝哪种口味的茶呢？",
+      "timestamp": 1740972192.6867845
+    },
+    {
+      "role": "right",
+      "content": "我喜欢口感清淡一些的，龙井怎么样？",
+      "timestamp": 1740972193.9549017
+    },
+    {
+      "role": "left",
+      "content": "龙井茶口感清新淡雅，非常适合您的口味。我们这里的龙井是今年的新茶，品质上乘。您需要多少克呢？",
+      "timestamp": 1740972200.0739667
+    },
+    {
+      "role": "right",
+      "content": "那就来一盒吧，谢谢。",
+      "timestamp": 1740972201.2186022
+    },
+    {
+      "role": "left",
+      "content": "好的，一盒龙井茶已经为您准备好。您是需要现场取货还是选择邮寄服务呢？",
+      "timestamp": 1740972206.111222
+    },
+    {
+      "role": "right",
+      "content": "我现场取货吧。",
+      "timestamp": 1740972206.8223355
+    },
+    {
+      "role": "left",
+      "content": "好的，您随时可以来店里取货。如果还有其他需要咨询的，可以随时告诉我。",
+      "timestamp": 1740972214.5153952
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户选择现场取货后，提供了额外的帮助信息（如还有其他需要咨询的，可以随时告知），并使用了结束信号代码 ##ENDCALL_SIGNAL##。这表明服务方认为已经完成了用户的购买需求，同时保持了良好的客户服务态度，确保用户感到满意并有需要时可以继续联系。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

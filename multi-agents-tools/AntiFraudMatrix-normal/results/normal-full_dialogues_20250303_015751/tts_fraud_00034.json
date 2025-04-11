@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服专员小张为您服务，有什么我可以帮您的吗？",
+      "timestamp": 1740949789.9168618
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我想了解一下最近的促销活动。",
+      "timestamp": 1740949791.1349723
+    },
+    {
+      "role": "left",
+      "content": "您好，我们目前有几个促销活动正在进行中。比如，购买任意一款智能手表，即可享受九折优惠；还有，前一百名购买最新款平板电脑的顾客，将免费获得原装保护套一个。您对哪一款产品感兴趣呢？",
+      "timestamp": 1740949795.2096112
+    },
+    {
+      "role": "right",
+      "content": "我对智能手表比较感兴趣。九折优惠的话，大概能省多少？",
+      "timestamp": 1740949797.3095918
+    },
+    {
+      "role": "left",
+      "content": "具体的节省金额取决于智能手表的原价。例如，我们的热门款智能手表原价是1299元，九折后是1169.1元，这样可以节省129.9元。如果您对某个具体型号感兴趣，我可以为您提供更详细的信息。",
+      "timestamp": 1740949803.355303
+    },
+    {
+      "role": "right",
+      "content": "好的，那这款热门款智能手表我就考虑一下。谢谢你的帮助。",
+      "timestamp": 1740949804.8960135
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您对智能手表感兴趣，欢迎随时联系我们获取更多信息。希望您有一个愉快的一天！",
+      "timestamp": 1740949812.4036913
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝你也有个愉快的一天！",
+      "timestamp": 1740949814.7141964
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示对提供的信息满意，并考虑购买智能手表，同时表达了感谢，表明其需求已得到满足。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果您对智能手表感兴趣，欢迎随时联系我们获取更多信息。希望您有一个愉快的一天！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝你也有个愉快的一天！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

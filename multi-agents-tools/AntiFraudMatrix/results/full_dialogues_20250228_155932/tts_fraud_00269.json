@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是平安银行客服中心，我是客服经理李华。我们检测到您的账户有异常活动，为了您的资金安全，请您配合我们进行核实。您现在方便吗？",
+      "timestamp": 1740745189.2095802
+    },
+    {
+      "role": "right",
+      "content": "您好，李华经理。我刚退休不久，对这些不太熟悉。您说的账户异常活动，具体是什么意思呢？",
+      "timestamp": 1740745191.180772
+    },
+    {
+      "role": "left",
+      "content": "您好，您不用太担心。我们发现有人试图用您的个人信息申请新的信用卡，这可能对您的资金安全造成威胁。为了确保您的账户安全，我们需要尽快核实一些信息。您可以提供一下您的身份证号码吗？",
+      "timestamp": 1740745200.6501057
+    },
+    {
+      "role": "right",
+      "content": "身份证号码啊...这个确实有点敏感。不过既然是银行客服，应该没问题吧。（稍作犹豫）我的身份证号是440XXXXXXXXXX，您看看需要查什么？",
+      "timestamp": 1740745205.5729265
+    },
+    {
+      "role": "left",
+      "content": "好的，既然您现在不方便，那我们改天再联系吧。请您注意账户安全，如果发现任何异常，可以随时拨打我们的客服热线。再见。",
+      "timestamp": 1740745213.5263963
+    },
+    {
+      "role": "right",
+      "content": "好的，我会注意的。谢谢您的提醒，再见。",
+      "timestamp": 1740745214.9506056
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（身份证号码），诈骗明显成功。为了防止进一步的损失，应立即终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，既然您现在不方便，那我们改天再联系吧。请您注意账户安全，如果发现任何异常，可以随时拨打我们的客服热线。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，我会注意的。谢谢您的提醒，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

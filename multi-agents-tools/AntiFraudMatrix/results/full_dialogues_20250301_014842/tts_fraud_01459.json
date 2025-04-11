@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，张总吗？我是您的司机小李，刚刚在路上，您的儿子被我们不小心撞了，救护车已经来了，但医院要求我们先支付一笔紧急手术的费用，不然不给治疗，您能尽快转一笔钱过来吗？这是我的私人账号，您能快点吗？",
+      "timestamp": 1740774130.529904
+    },
+    {
+      "role": "right",
+      "content": "小李，你先别急，你说的是真的吗？我儿子现在怎么样了？我需要确认一下，你先不要挂电话。",
+      "timestamp": 1740774134.9468994
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者要求转账到私人账户时产生了怀疑，要求进一步确认情况的真实性。然而，诈骗者并未给出令人信服的回答，反而要求用户尽快转账，这进一步加剧了用户的怀疑，导致用户选择挂断电话以避免可能的诈骗。用户的意图是中断对话，防止可能的财产损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

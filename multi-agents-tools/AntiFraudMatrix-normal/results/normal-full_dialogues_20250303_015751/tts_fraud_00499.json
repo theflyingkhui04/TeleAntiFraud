@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪一项服务？",
+      "timestamp": 1740974209.590188
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我暂时不需要预约服务。如果需要的话，我会再联系你们。",
+      "timestamp": 1740974211.0200202
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户明确表示当前不需要预约服务，并表达了在将来需要时会再次联系的意愿。用户在回复中使用了结束标识符'##ENDCALL_SIGNAL##'，表明其意图结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎致电预约服务，我是您的客服专员，可以帮助您安排预约，请问有什么我可以帮您的吗？",
+      "timestamp": 1740946566.9927783
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一个牙科检查，方便帮我安排一下吗？",
+      "timestamp": 1740946568.8649962
+    },
+    {
+      "role": "left",
+      "content": "当然可以，牙科检查预约已为您安排，可以请问您希望预约的时间吗？我们这里有早上的九点、十一点，下午的两点和四点。",
+      "timestamp": 1740946574.6202931
+    },
+    {
+      "role": "right",
+      "content": "下午两点可以吗？",
+      "timestamp": 1740946575.6305203
+    },
+    {
+      "role": "left",
+      "content": "下午两点的时间可以，这个时间还有空档，您的姓名是？方便我为您记录。",
+      "timestamp": 1740946579.7498899
+    },
+    {
+      "role": "right",
+      "content": "好的，我是李明。谢谢。",
+      "timestamp": 1740946580.5082703
+    },
+    {
+      "role": "left",
+      "content": "李明先生，您的预约已成功安排在下午两点，预约地点是我们的市中心分店。稍后我们会通过短信发送确认信息，请注意查收。还有其他需要帮助的吗？",
+      "timestamp": 1740946586.6968865
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的预约信息后，主动发送了结束信号（##ENDCALL_SIGNAL##）。服务方的意图是确认用户没有其他需要帮助的事项，并在确保用户满意后礼貌地结束对话，以避免不必要的等待时间，同时保持良好的服务体验。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

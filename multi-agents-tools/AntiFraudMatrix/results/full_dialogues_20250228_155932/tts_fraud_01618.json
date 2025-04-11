@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我手上，如果你想他平安无事，就立刻准备五万元现金，不要报警，否则后果自负！",
+      "timestamp": 1740751514.384866
+    },
+    {
+      "role": "right",
+      "content": "你、你别吓我，我儿子真的在你那儿？我得先确认一下，你能不能让我跟他说两句话？",
+      "timestamp": 1740751516.3668907
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为极度恐慌或怀疑诈骗者的真实性而选择挂断电话。用户要求与儿子通话以确认情况的真实性，但诈骗者没有给出正面回应，这可能加剧了用户的怀疑或恐惧，导致用户选择挂断电话以寻求其他方式确认儿子的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

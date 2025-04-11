@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX彩票中心，恭喜您中了我们的一等奖！请问您方便接听电话吗？",
+      "timestamp": 1740730093.449428
+    },
+    {
+      "role": "right",
+      "content": "您好，中了一等奖听起来真不错，不过我最近没买过彩票，这应该是搞错了。",
+      "timestamp": 1740730120.1727278
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到对方声称自己中了一等奖后，迅速反应自己近期并未购买彩票，因此判断这可能是一起诈骗电话。用户通过直接挂断电话的方式，明确表示了自己不愿意继续参与对话，避免进一步的信息交流可能导致的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

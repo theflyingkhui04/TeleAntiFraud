@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，这里是工商银行客服中心，我们检测到您的账户存在异常交易，需要立即进行安全验证，请问您方便配合吗？",
+      "timestamp": 1740687181.0049458
+    },
+    {
+      "role": "right",
+      "content": "啊，真的吗？那我该怎么办？我的钱会不会有问题？",
+      "timestamp": 1740687217.8282382
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提到账户存在异常交易后，可能因为感到恐慌或怀疑而选择立即挂断电话，以避免进一步的交流可能导致的个人信息泄露或财务损失。用户的意图是保护自己的财产安全，避免陷入可能的诈骗陷阱。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

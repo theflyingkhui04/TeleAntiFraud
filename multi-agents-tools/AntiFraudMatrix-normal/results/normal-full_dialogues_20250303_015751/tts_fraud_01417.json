@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，请告诉我您的上车地点和目的地。",
+      "timestamp": 1740957700.4626317
+    },
+    {
+      "role": "right",
+      "content": "上车地点是小区门口，目的地是市中心医院。",
+      "timestamp": 1740957704.3949025
+    },
+    {
+      "role": "left",
+      "content": "好的，已为您安排车辆，预计等待时间为5分钟，司机将会在小区门口接您。",
+      "timestamp": 1740957709.054673
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户上车地点和目的地后，迅速安排了车辆，并告知了用户等待时间和上车地点。服务方提供的信息完整，服务流程已结束，因此服务方选择主动结束对话，以确保用户能够及时准备迎接车辆，同时避免不必要的等待时间。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张伟吗？我是你的老同学李明，你现在方便说话吗？",
+      "timestamp": 1740786613.9673653
+    },
+    {
+      "role": "right",
+      "content": "李明？我们有很长时间没联系了，你最近怎么样？不过电话里声音有点变了，是不是感冒了？",
+      "timestamp": 1740786615.4422
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为察觉到诈骗者的声音与记忆中的老同学李明不符，产生了怀疑。用户提到电话里声音变了，可能是试图确认对方身份的真实性。由于诈骗者没有进一步回应，用户可能已经意识到这是一起诈骗电话，因此选择主动挂断以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

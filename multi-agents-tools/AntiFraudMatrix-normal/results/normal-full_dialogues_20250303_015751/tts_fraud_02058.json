@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助理，可以帮您叫车并提供相关信息。",
+      "timestamp": 1740976178.986446
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我需要叫一辆车去超市，地址是人民路 123 号。",
+      "timestamp": 1740976182.663011
+    },
+    {
+      "role": "left",
+      "content": "好的，我为您叫一辆车。请问您现在就在人民路 123 号吗？如果不是，请告诉我您的当前地址。",
+      "timestamp": 1740976191.1815073
+    },
+    {
+      "role": "right",
+      "content": "我在，就在人民路 123 号。",
+      "timestamp": 1740976192.7671597
+    },
+    {
+      "role": "left",
+      "content": "了解了，我已为您叫了一辆车。司机大约五分钟后到达，请留意手机短信中的车牌号和司机联系方式。",
+      "timestamp": 1740976201.4311843
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会留意的。",
+      "timestamp": 1740976202.7581031
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何其他需要，请随时联系。祝您购物愉快，再见。",
+      "timestamp": 1740976214.5212076
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740976216.184744
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢，并且服务方已经提供了所需的信息和服务，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您有任何其他需要，请随时联系。祝您购物愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

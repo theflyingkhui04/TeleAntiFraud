@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是预约服务的客服专员，可以帮助您预约所需的服务，请问您想预约哪一项服务？",
+      "timestamp": 1740941119.9123073
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约车辆保养。",
+      "timestamp": 1740941121.819481
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认了想要预约的服务类型（车辆保养）后，可能认为已经达到了此次对话的主要目的，即传达了预约需求。由于服务方在首次回应中即提供了结束信号，这可能让用户误以为对话已经结束或者服务方已经记录了其需求，因此用户也随即结束了对话。用户的意图是传达预约需求，而服务方的提前结束信号导致了对话的提前终止。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

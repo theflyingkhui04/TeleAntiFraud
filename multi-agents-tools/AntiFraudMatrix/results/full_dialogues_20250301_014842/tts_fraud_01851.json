@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "张总，您好，我是来自环球资本的投资顾问李明。最近我们发现一个非常有潜力的投资项目，预计回报率非常高，想和您详细聊一聊。您现在方便吗？",
+      "timestamp": 1740784277.7583861
+    },
+    {
+      "role": "right",
+      "content": "李明先生，您好。我是一名医生，平时工作比较忙，对投资的事情了解不多。不过，您既然找到我了，我可以听一听。不过，我最近确实没时间详细讨论，您可以简要介绍一下吗？",
+      "timestamp": 1740784279.8826919
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对投资的不熟悉和当前时间的不便，但仍然礼貌地表示愿意听取简要介绍。然而，用户随后主动挂断了电话，这可能是因为用户意识到对方可能是诈骗者，或者确实因为忙碌而无法继续对话。用户的意图可能是避免进一步的纠缠，同时也表明了对当前对话内容的不感兴趣或不信任。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用订餐服务，您可以告诉我想订哪家餐厅的哪道菜吗？",
+      "timestamp": 1740957019.290324
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一家附近的中餐厅，来个宫保鸡丁和酸辣汤。",
+      "timestamp": 1740957021.0990088
+    },
+    {
+      "role": "left",
+      "content": "好的，附近有几家不错的中餐厅，您有特定的餐厅偏好吗？如果没有，我可以为您推荐评分较高的。",
+      "timestamp": 1740957026.026145
+    },
+    {
+      "role": "right",
+      "content": "不用了，你帮我选一家评分高的就好。",
+      "timestamp": 1740957026.8155355
+    },
+    {
+      "role": "left",
+      "content": "好的，我为您选择了评分最高的“老北京风味馆”，他们家的宫保鸡丁和酸辣汤都颇受欢迎。需要我帮您下单吗？",
+      "timestamp": 1740957032.3906538
+    },
+    {
+      "role": "right",
+      "content": "好的，那就这家吧。请帮我下单，谢谢。",
+      "timestamp": 1740957033.3912935
+    },
+    {
+      "role": "left",
+      "content": "已经为您下单了，预计送达时间是三十分钟内，您需要留什么特别的送餐备注吗？比如无接触配送或者餐具数量。",
+      "timestamp": 1740957041.1379395
+    },
+    {
+      "role": "right",
+      "content": "不用特别备注，按常规来就行。谢谢。",
+      "timestamp": 1740957042.2441142
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经处理完成，预计三十分钟内送达。如果还有其他需要，请随时联系我们。祝您用餐愉快。",
+      "timestamp": 1740957047.6075208
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝你一天愉快。",
+      "timestamp": 1740957048.6962483
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认订单详情，并表示无需特别备注，同时表达了感谢，表明用户对服务满意且问题已解决。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经处理完成，预计三十分钟内送达。如果还有其他需要，请随时联系我们。祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝你一天愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

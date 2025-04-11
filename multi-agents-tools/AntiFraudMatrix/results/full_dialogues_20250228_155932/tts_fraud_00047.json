@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是银行安全部门的李经理。我们发现您的账户存在异常交易，需要立即核实您的身份信息。请提供您的身份证号码和银行卡号，以便我们尽快处理。",
+      "timestamp": 1740759562.0499046
+    },
+    {
+      "role": "right",
+      "content": "李经理，真的吗？我前几天确实有接到一个奇怪的电话，说是我中奖了，结果感觉不太对劲。您能帮我查一下吗？不过，我的身份证和银行卡号我不太方便提供，这样会不会不安全啊？",
+      "timestamp": 1740759564.622182
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份表示怀疑，并意识到提供身份证和银行卡号可能存在安全风险。用户在表达疑虑后主动挂断了电话，表明用户选择终止对话以保护自己的个人信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

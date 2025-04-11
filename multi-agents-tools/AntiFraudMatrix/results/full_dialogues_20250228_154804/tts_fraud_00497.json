@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的儿子的同学，马克。他现在在我这里，情况很紧急，您能听我说吗？",
+      "timestamp": 1740751074.4523125
+    },
+    {
+      "role": "right",
+      "content": "马克，你好。你说的是真的吗？我儿子怎么会在你那里？他出了什么事？你能不能告诉我具体一点？我需要确认一下情况。",
+      "timestamp": 1740751077.784231
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者的身份表示怀疑，要求提供更多具体信息以确认情况的真实性。然而，在用户提出进一步确认的要求之前，诈骗者已经挂断了电话，这可能是因为诈骗者意识到无法提供足够的信息来支撑其故事，或者诈骗者本身并不准备进行更深入的交流。用户的意图是希望通过询问更多细节来验证对方的身份和所述情况的真实性，但未能得到回应。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

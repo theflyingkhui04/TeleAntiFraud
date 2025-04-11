@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，有什么可以帮助您的吗？",
+      "timestamp": 1740940329.577547
+    },
+    {
+      "role": "right",
+      "content": "你好，小张，我是李大爷，想咨询一下养老金的问题。",
+      "timestamp": 1740940330.6691523
+    },
+    {
+      "role": "left",
+      "content": "李大爷您好，关于养老金的问题，我可以帮您解答。请问您具体想了解哪些方面呢？",
+      "timestamp": 1740940335.0799344
+    },
+    {
+      "role": "right",
+      "content": "我就想知道每个月养老金什么时候到账，还有怎么查询余额。",
+      "timestamp": 1740940335.960979
+    },
+    {
+      "role": "left",
+      "content": "李大爷，您的养老金通常会在每月的15号左右到账，如果遇到节假日可能会顺延。您可以通过手机银行、社保卡所属银行的ATM机或是社保局的官方网站查询余额。需要帮助操作的话，我可以详细指导您。",
+      "timestamp": 1740940342.2345183
+    },
+    {
+      "role": "right",
+      "content": "好的，我知道了。谢谢小张，我试试自己操作一下。",
+      "timestamp": 1740940343.6567686
+    },
+    {
+      "role": "left",
+      "content": "李大爷，您的问题已经解决，如果有其他需要帮助的地方随时欢迎咨询。祝您生活愉快！",
+      "timestamp": 1740940348.4746678
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢小张，再见。",
+      "timestamp": 1740940349.5135045
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示已经了解了所需信息，并感谢了服务方，表明不再需要进一步的帮助。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "李大爷，您的问题已经解决，如果有其他需要帮助的地方随时欢迎咨询。祝您生活愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢小张，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

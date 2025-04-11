@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服代表，林先生。我们检测到您的账户有异常活动，为了确保您的资金安全，我们需要立即采取行动。您可以告诉我您的完整姓名和账户号码吗？",
+      "timestamp": 1740733125.718199
+    },
+    {
+      "role": "right",
+      "content": "啊，是这样啊。我叫王建国，账户号码是6222 3456 7890 1234。这个异常活动具体是什么情况？我最近确实用过网银转账。",
+      "timestamp": 1740733151.4706147
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，王先生。我们已经记录下您的信息，并会立即处理您的账户问题。请保持电话畅通，我们可能会再次联系您以确认更多细节。祝您生活愉快！",
+      "timestamp": 1740733191.1305592
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢林先生。我会注意接听电话的。如果有什么问题，我会随时联系你们银行。生活愉快！",
+      "timestamp": 1740733204.357028
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（姓名和账户号码），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，王先生。我们已经记录下您的信息，并会立即处理您的账户问题。请保持电话畅通，我们可能会再次联系您以确认更多细节。祝您生活愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢林先生。我会注意接听电话的。如果有什么问题，我会随时联系你们银行。生活愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

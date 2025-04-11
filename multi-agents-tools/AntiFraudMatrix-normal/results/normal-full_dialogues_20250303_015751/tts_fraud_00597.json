@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的打车服务，请告诉我您的目的地。",
+      "timestamp": 1740975131.6749394
+    },
+    {
+      "role": "right",
+      "content": "去公园路123号，谢谢。",
+      "timestamp": 1740975132.6583843
+    },
+    {
+      "role": "left",
+      "content": "好的，您现在的位置在哪里？我为您派最近的司机过去。",
+      "timestamp": 1740975137.2317564
+    },
+    {
+      "role": "right",
+      "content": "我在市中心广场。",
+      "timestamp": 1740975137.7379875
+    },
+    {
+      "role": "left",
+      "content": "明白了，我已为您派单，预计三分钟内有司机联系您。请您注意接听电话。",
+      "timestamp": 1740975141.7810025
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的上车地点并成功派单后，认为已经完成了本次服务的关键步骤，即为用户安排了前往目的地的车辆。在这种情况下，服务方预期用户很快会接到司机的联系，因此选择在此时结束对话，以避免不必要的等待和占用客服资源。服务方的意图是确保用户得到及时的服务，同时保持服务流程的高效。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

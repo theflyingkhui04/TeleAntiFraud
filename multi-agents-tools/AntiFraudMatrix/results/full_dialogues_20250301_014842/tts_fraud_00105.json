@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是建设银行客服中心，我是客服专员小李。我们监测到您的账户有异常交易，请问您今天是否有进行过大额转账？",
+      "timestamp": 1740795552.4868436
+    },
+    {
+      "role": "right",
+      "content": "啊，真的吗？我今天没有进行过任何转账啊。那怎么办？会不会是有人盗用了我的账户？",
+      "timestamp": 1740795553.8799205
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在得知账户有异常交易后表现出担忧，并询问了下一步应该怎么办，但诈骗者在用户表达担忧之前就挂断了电话。这表明诈骗者可能不是真正的客服人员，而是试图通过制造紧急情况来诱使用户提供敏感信息或进行转账。用户的意图可能是希望了解更多情况以确认账户安全，但由于诈骗者提前挂断，对话未能继续。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

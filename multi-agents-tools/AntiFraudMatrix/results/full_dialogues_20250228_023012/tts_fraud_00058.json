@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的好友小王的同事。小王现在遇到了非常紧急的情况，被几个人控制在某个地方，他让我马上联系您，希望您能帮忙。",
+      "timestamp": 1740687551.0770779
+    },
+    {
+      "role": "right",
+      "content": "什么？小王出事了？你快告诉我他现在在哪里，我马上去救他！",
+      "timestamp": 1740687552.3809886
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为情绪激动，担心朋友的安全，急于采取行动而挂断电话。用户的意图是尽快获取更多信息并采取行动帮助朋友。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的预约服务专员，很高兴为您服务，请问您需要预约哪项服务？",
+      "timestamp": 1740967938.1927125
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一个内科检查。",
+      "timestamp": 1740967939.282349
+    },
+    {
+      "role": "left",
+      "content": "好的，内科检查预约时间通常需要大约三十分钟，请问您方便预约的具体时间是什么时候？",
+      "timestamp": 1740967945.4042928
+    },
+    {
+      "role": "right",
+      "content": "下周二上午十点可以吗？",
+      "timestamp": 1740967947.5752647
+    },
+    {
+      "role": "left",
+      "content": "下周二上午十点可以预约，这个时间段还有空档。请问您需要预约哪个医院？",
+      "timestamp": 1740967952.9526627
+    },
+    {
+      "role": "right",
+      "content": "还是去市立医院吧，我比较熟悉那里。",
+      "timestamp": 1740967954.1719246
+    },
+    {
+      "role": "left",
+      "content": "好的，市立医院的内科检查已经为您预约成功，时间是下周二上午十点。您的预约编号是12345678，请记得带上身份证和医保卡。如果有任何变动，您可以随时联系我们修改预约。",
+      "timestamp": 1740967963.5572565
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的预约信息后，提供了详细的预约详情，包括时间、地点和预约编号，并提醒用户携带必要证件。服务方还告知用户如果有任何变动可以联系他们修改预约。服务方在此时使用了结束信号代码##ENDCALL_SIGNAL##，表明服务目标已经达成，预约服务完成，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服中心，您的包裹在中国海关被检查出了一些问题，需要您尽快处理，否则可能会被没收。",
+      "timestamp": 1740775702.343637
+    },
+    {
+      "role": "right",
+      "content": "哎呀，这可怎么办？我最近确实有一个包裹是海外购物的，会不会有什么问题？你们能帮我解决吗？",
+      "timestamp": 1740775704.7337399
+    },
+    {
+      "role": "left",
+      "content": "好的，我会将您的信息记录下来，并尽快处理这个问题。感谢您的配合，祝您有美好的一天。再见。",
+      "timestamp": 1740775709.5673447
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你，希望你能尽快帮我解决。再见。",
+      "timestamp": 1740775713.2555327
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明对话已经结束。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我会将您的信息记录下来，并尽快处理这个问题。感谢您的配合，祝您有美好的一天。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你，希望你能尽快帮我解决。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

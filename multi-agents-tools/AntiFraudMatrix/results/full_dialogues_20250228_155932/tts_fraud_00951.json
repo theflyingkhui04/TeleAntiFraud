@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子的小王，他现在出事了，需要您马上转一笔钱过来，否则他会有危险。",
+      "timestamp": 1740750229.288893
+    },
+    {
+      "role": "right",
+      "content": "小王？我儿子的朋友里没有叫小王的啊。你能告诉我这是怎么回事吗？我儿子现在在哪里？",
+      "timestamp": 1740750230.4965694
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份表示怀疑，并要求进一步解释情况。当诈骗者未能提供令人信服的证据或信息时，用户可能意识到这是一个诈骗电话，因此选择挂断电话以避免进一步的潜在损失或麻烦。用户的意图是保护自己和儿子不受诈骗的影响。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

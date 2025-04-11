@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您想订购哪一家餐厅的美食呢？",
+      "timestamp": 1740947542.5750742
+    },
+    {
+      "role": "right",
+      "content": "你好，我想看看有没有附近的中餐馆，推荐几家给我吧。",
+      "timestamp": 1740947543.9558969
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们这里有几家评价不错的中餐馆，比如老北京烤鸭店、四川人家和广东粥店，您对哪种口味比较感兴趣？",
+      "timestamp": 1740947551.2991025
+    },
+    {
+      "role": "right",
+      "content": "我比较喜欢川菜，就选四川人家吧。有什么推荐的菜式吗？",
+      "timestamp": 1740947552.5111861
+    },
+    {
+      "role": "left",
+      "content": "四川人家的招牌菜有宫保鸡丁、水煮牛肉和麻婆豆腐，都是非常受欢迎的经典川菜，您想尝试一下吗？",
+      "timestamp": 1740947556.310589
+    },
+    {
+      "role": "right",
+      "content": "听起来都很不错，那就来一份宫保鸡丁和一份麻婆豆腐吧。还有，能加点米饭吗？",
+      "timestamp": 1740947557.4317584
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁和一份麻婆豆腐，再加上两份米饭，这样可以吗？",
+      "timestamp": 1740947564.2241356
+    },
+    {
+      "role": "right",
+      "content": "可以的，就这样吧。谢谢。",
+      "timestamp": 1740947565.0642984
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计三十分钟内送达。感谢您的订购，希望您用餐愉快！",
+      "timestamp": 1740947572.07449
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待美食。",
+      "timestamp": 1740947572.8380437
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容，并表达了感谢，表明其需求已经得到满足。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计三十分钟内送达。感谢您的订购，希望您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

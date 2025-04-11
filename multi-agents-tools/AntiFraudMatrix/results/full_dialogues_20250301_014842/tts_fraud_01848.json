@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自星际投资顾问公司的张先生，最近我们发现了一项非常有潜力的投资项目，希望能与您详细探讨一下。",
+      "timestamp": 1740777078.9761307
+    },
+    {
+      "role": "right",
+      "content": "您好，张先生。谢谢您的联系。我是医生，平时工作很忙，对投资这方面的了解不多。不过，我确实对一些稳健的投资项目感兴趣。不过在进一步了解之前，我想知道你们公司具体的资质和背景，还有这个项目的详细信息。您可以提供这些资料吗？",
+      "timestamp": 1740777081.5771525
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对投资项目的兴趣，但同时也提出了对投资公司资质和项目详细信息的需求，显示出谨慎的态度。用户可能是因为诈骗者在未提供足够信息的情况下试图结束通话，感到不信任或不满，因此选择主动挂断电话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

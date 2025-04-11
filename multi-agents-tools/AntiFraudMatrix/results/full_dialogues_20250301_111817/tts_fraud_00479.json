@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是国家彩票中心的工作人员，恭喜您中了本期双色球的特等奖，奖金高达五百万元！您现在心情一定非常激动吧！",
+      "timestamp": 1740812369.338491
+    },
+    {
+      "role": "right",
+      "content": "您好，能中这么大的奖，确实很让人激动。不过，我最近都没买过彩票，你们是不是搞错了？",
+      "timestamp": 1740812371.8937936
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对中奖信息的怀疑，指出自己近期并未购买彩票，表明对诈骗者所述内容的不信任。用户主动挂断电话，可能是为了终止与诈骗者的进一步交流，避免可能的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

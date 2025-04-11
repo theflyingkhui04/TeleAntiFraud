@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想要预订哪家餐厅和什么菜品吗？",
+      "timestamp": 1740953636.899535
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一家附近的中餐馆，推荐有什么好的选择吗？",
+      "timestamp": 1740953638.0435462
+    },
+    {
+      "role": "left",
+      "content": "当然可以推荐，附近有几家评价不错的中餐馆，比如老北京烤鸭店和四川小馆，您对菜品有什么特别的需求吗？比如喜欢川菜还是粤菜？",
+      "timestamp": 1740953644.5825462
+    },
+    {
+      "role": "right",
+      "content": "我喜欢川菜，那就订四川小馆吧。有什么推荐的菜品？",
+      "timestamp": 1740953645.8499775
+    },
+    {
+      "role": "left",
+      "content": "四川小馆的招牌菜有宫保鸡丁、水煮牛肉和麻婆豆腐，都是非常地道的川菜，您可以考虑一下。还有其他需要添加的吗？",
+      "timestamp": 1740953652.4604685
+    },
+    {
+      "role": "right",
+      "content": "听起来很不错，就来一份水煮牛肉和宫保鸡丁吧。还需要预订时间吗？",
+      "timestamp": 1740953654.1047304
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您选好了水煮牛肉和宫保鸡丁。预订时间的话，如果您是现在点餐，我们大约需要三十分钟准备时间，加上送餐时间，预计一小时后可以送达。您看这个时间可以吗？",
+      "timestamp": 1740953661.7035923
+    },
+    {
+      "role": "right",
+      "content": "没问题，一小时后送到正好。谢谢！",
+      "timestamp": 1740953662.593793
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，水煮牛肉和宫保鸡丁将在大约一小时后送达。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740953669.5773933
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。祝好！",
+      "timestamp": 1740953670.7515438
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订餐信息，并表示感谢，表明用户对服务感到满意且无需进一步的帮助。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，水煮牛肉和宫保鸡丁将在大约一小时后送达。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待美食。祝好！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

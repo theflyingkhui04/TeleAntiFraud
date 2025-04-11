@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自某某银行的客服人员，我注意到您的账户最近有一笔异常交易，需要您配合我们进行核实。请问您现在方便吗？",
+      "timestamp": 1740753087.9666564
+    },
+    {
+      "role": "right",
+      "content": "您好，我的账户确实发生了一笔交易，但我想问一下，您能提供您的工号和具体是哪家分行吗？还有，您是怎么知道我的电话号码的？这些信息让我有些不放心。",
+      "timestamp": 1740753093.1639836
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出对诈骗者身份的怀疑，要求提供更多的验证信息，如工号、分行信息以及对方如何获取其电话号码。用户通过提出这些问题，试图验证对方的身份，以判断是否为真正的银行客服。由于诈骗者未能提供足够的信息来消除用户的疑虑，用户选择主动挂断电话，以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

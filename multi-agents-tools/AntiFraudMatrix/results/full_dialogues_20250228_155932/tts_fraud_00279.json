@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友小李的邻居，小李现在出事了，您能马上听我说吗？",
+      "timestamp": 1740743447.4938967
+    },
+    {
+      "role": "right",
+      "content": "啊？小李出什么事了？",
+      "timestamp": 1740743451.1377585
+    },
+    {
+      "role": "left",
+      "content": "对不起打扰了，看来您不太方便，我再联系其他人帮忙吧。再见。##TERMINATE_SIGNAL##",
+      "timestamp": 1740743495.2076852
+    },
+    {
+      "role": "right",
+      "content": "再见。",
+      "timestamp": 1740743506.2876365
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明对话已经结束。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "对不起打扰了，看来您不太方便，我再联系其他人帮忙吧。再见。##TERMINATE_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

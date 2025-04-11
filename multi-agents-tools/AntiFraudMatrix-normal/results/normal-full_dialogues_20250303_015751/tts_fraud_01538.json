@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是预约服务专员，可以帮助您预约相关服务，有什么可以帮到您的吗？",
+      "timestamp": 1740976143.0531387
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近家里的空调有点问题，想预约个维修服务。",
+      "timestamp": 1740976144.7871392
+    },
+    {
+      "role": "left",
+      "content": "了解了，空调维修服务我们可以为您安排。请问您方便提供一下具体的地址和联系方式吗？以便我们为您预约合适的维修师傅。",
+      "timestamp": 1740976152.349844
+    },
+    {
+      "role": "right",
+      "content": "好的，我家地址是XX路XX号，电话是138XXXX5678。大概什么时候能安排师傅来呢？",
+      "timestamp": 1740976155.2492306
+    },
+    {
+      "role": "left",
+      "content": "感谢您的信任，我们会在收到您的信息后尽快为您安排。一般情况下，我们会在收到预约后的24小时内安排师傅上门服务。您看这个时间可以吗？如果有其他时间需求，也可以告诉我。",
+      "timestamp": 1740976163.8441675
+    },
+    {
+      "role": "right",
+      "content": "24小时内可以，那就按这个时间安排吧。谢谢。",
+      "timestamp": 1740976165.354086
+    },
+    {
+      "role": "left",
+      "content": "好的，我们会尽快为您安排维修服务，并在24小时内与您联系确认具体上门时间。如果您有任何其他问题，可以随时联系我们。感谢您的信任，祝您生活愉快。",
+      "timestamp": 1740976175.784359
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的服务。生活愉快。",
+      "timestamp": 1740976177.2347066
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了所需信息，并且表示了感谢，服务方也确认了服务时间，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们会尽快为您安排维修服务，并在24小时内与您联系确认具体上门时间。如果您有任何其他问题，可以随时联系我们。感谢您的信任，祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的服务。生活愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

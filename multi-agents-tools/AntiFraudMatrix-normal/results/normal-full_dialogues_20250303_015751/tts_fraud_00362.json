@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我已经帮您安排了最近的车辆，大约需要五分钟左右到达您的位置。",
+      "timestamp": 1740974124.5307572
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我在外面等车。",
+      "timestamp": 1740974125.8746848
+    },
+    {
+      "role": "left",
+      "content": "好的，您在外面等车会更方便司机找到您。司机到达时会提前给您打电话确认位置。如果您有任何其他需求，请随时告诉我。",
+      "timestamp": 1740974133.6959674
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方结束了对话，原因是已经为用户安排好了打车服务，并告知了用户车辆到达的预计时间以及司机联系用户的方式。服务方确认用户没有其他需求后，选择了结束对话，以确保用户的信息完整传达并避免不必要的等待时间。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

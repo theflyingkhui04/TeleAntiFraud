@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递客服中心，我们注意到您的包裹在清关时出现了一些问题，需要您提供一些信息以便我们协助处理。请问您方便接听吗？",
+      "timestamp": 1740682625.2673182
+    },
+    {
+      "role": "right",
+      "content": "哦，是快递客服啊。我最近确实有个包裹在路上。不过你们怎么知道我的电话的？这有点奇怪。",
+      "timestamp": 1740682629.0947342
+    },
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。",
+      "timestamp": 1740682639.364823
+    },
+    {
+      "role": "right",
+      "content": "能告诉我具体需要我提供哪些信息吗？我得先了解一下。",
+      "timestamp": 1740682643.4465008
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始后立即提供了挂断标识符'##ENDCALL_SIGNAL##'，表明其选择挂断对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。"
+    },
+    {
+      "role": "right",
+      "content": "能告诉我具体需要我提供哪些信息吗？我得先了解一下。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

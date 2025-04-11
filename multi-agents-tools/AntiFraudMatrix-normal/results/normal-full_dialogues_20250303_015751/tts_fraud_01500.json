@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想要订购的餐品和送餐地址吗？",
+      "timestamp": 1740973904.6174889
+    },
+    {
+      "role": "right",
+      "content": "好的，我想订一份牛肉炒饭和一份糖醋排骨，送餐地址是北京市海淀区中关村大街1号院3号楼2单元1202室。谢谢。",
+      "timestamp": 1740973907.474672
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录，一份牛肉炒饭和一份糖醋排骨，送餐地址是北京市海淀区中关村大街1号院3号楼2单元1202室。请问需要什么时间送达呢？",
+      "timestamp": 1740973916.6386712
+    },
+    {
+      "role": "right",
+      "content": "大概一个半小时后吧，谢谢。",
+      "timestamp": 1740973917.4466362
+    },
+    {
+      "role": "left",
+      "content": "好的，我们会在一个半小时后为您送达。预计送达时间为13:30左右，如果需要调整时间，请提前告知我们。还有其他需要帮助的吗？",
+      "timestamp": 1740973924.8923
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情和送餐时间后，询问用户是否还有其他需要帮助的事项。用户没有提出进一步的需求，服务方通过提供结束信号代码'##ENDCALL_SIGNAL##'表明对话已经完成，服务目标达成，可以自然结束对话。服务方的意图是确保用户的需求已经完全满足，并礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的？",
+      "timestamp": 1740978245.5425541
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我想看看你们都有哪些菜品推荐。",
+      "timestamp": 1740978247.0598888
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方欢迎并询问需求后，表达了查看菜品推荐的意图。然而，服务方在用户表达需求之前就已经提供了结束信号代码 '##ENDCALL_SIGNAL##'，这可能是系统或服务方的误操作。用户随后也提供了结束信号代码 '##ENDCALL_SIGNAL##'，可能是因为服务方的提前结束信号让用户认为对话已经结束，或者用户在看到服务方的结束信号后决定不再继续对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

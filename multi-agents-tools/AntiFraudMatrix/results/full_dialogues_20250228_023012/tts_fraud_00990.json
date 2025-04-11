@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行的客服中心，我是客服代表小李。我们发现您的银行卡可能存在安全问题，为了您的资金安全，需要您立即提供卡号进行验证。请您配合一下，好吗？",
+      "timestamp": 1740689855.6160989
+    },
+    {
+      "role": "right",
+      "content": "您好，小李。谢谢您的提醒，但我想先确认一下，你们是怎么知道我的信息的？我最近确实接到过好几个类似的电话，所以有点担心。能告诉我你们的客服电话吗？我挂了电话之后自己打过去确认一下。",
+      "timestamp": 1740689858.1134346
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份表示怀疑，并要求提供客服电话以自行验证。用户主动挂断电话，表明其意图是中断当前对话，避免可能的风险，并希望通过官方渠道确认信息的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

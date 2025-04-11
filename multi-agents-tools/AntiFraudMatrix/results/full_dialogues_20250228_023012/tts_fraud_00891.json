@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX医院，您的家人刚刚在街上突然晕倒，现在急需手术，请立即汇款5万元到指定账户，否则后果自负！",
+      "timestamp": 1740681946.3437304
+    },
+    {
+      "role": "right",
+      "content": "什么？！我的家人怎么会突然晕倒？请问你们是哪个医院？我需要确认一下情况。",
+      "timestamp": 1740681983.8740013
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提供的信息感到怀疑，要求进一步确认情况。用户在听到诈骗者的要求后，立即表现出警惕，并要求确认医院信息，这表明用户可能已经意识到这是一起诈骗行为，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

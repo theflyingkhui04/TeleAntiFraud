@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是某某银行的客服中心，我是张经理。我们刚刚监测到您的账户有异常活动，为了您的资金安全，需要您配合我们进行身份验证。请问您现在方便吗？",
+      "timestamp": 1740746158.4595735
+    },
+    {
+      "role": "right",
+      "content": "哦，张经理啊，我现在正忙着呢。不过听您这么说，我确实有点担心。我的账户出了什么问题？",
+      "timestamp": 1740746161.036876
+    },
+    {
+      "role": "left",
+      "content": "根据系统显示，您的账户在今天上午十点左右有一笔可疑交易，涉及金额是两万八千元。我们需要立即确认这笔交易是否为您本人操作。您记得今天有进行过类似的交易吗？",
+      "timestamp": 1740746170.0054283
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在初步试探用户反应后，发现用户表现出担忧但并未立即提供敏感信息或表现出明显的信任。诈骗者可能认为当前情况下难以迅速获取用户信任和敏感信息，因此选择挂断电话，可能是为了节省时间寻找更容易上当的受害者。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

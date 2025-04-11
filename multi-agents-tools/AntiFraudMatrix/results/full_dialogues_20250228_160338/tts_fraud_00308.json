@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自某某银行的客服人员，工号零零零七，我们发现您的信用卡可能存在被盗刷的情况，请问您最近是否有收到异常的消费短信或邮件？",
+      "timestamp": 1740732649.6733253
+    },
+    {
+      "role": "right",
+      "content": "您好，我是张阿姨。我最近好像没有注意到有异常的消费短信或邮件，不过我年纪大了，有时候会疏忽。您能帮我查一下吗？",
+      "timestamp": 1740732675.524891
+    },
+    {
+      "role": "left",
+      "content": "当然可以，张阿姨。为了确认您的账户安全，我需要您提供一下信用卡的最后四位数字以及您身份证上的出生年月日，这样我才能在系统中进行核实。请您放心，这是为了确保您的财产安全。",
+      "timestamp": 1740732699.9851422
+    },
+    {
+      "role": "right",
+      "content": "好的，我明白了。不过我先去拿一下我的身份证和信用卡，您稍等一下。",
+      "timestamp": 1740732725.0385313
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到对方要求提供敏感信息，出于安全考虑选择挂断电话。用户的意图是避免可能的诈骗风险，保护个人隐私和财产安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服专员小李为您服务，请问有什么问题需要我帮您解决？",
+      "timestamp": 1740942418.311847
+    },
+    {
+      "role": "right",
+      "content": "你好，小李。我是餐厅的服务员，最近遇到一些问题，想请教你一下。",
+      "timestamp": 1740942421.1370718
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在说明自己的身份后立即提供了结束信号代码，这可能是因为用户意识到找错了服务对象，或者认为当前的客服专员无法解决其作为服务员遇到的问题。用户的意图可能是礼貌地结束对话，避免浪费双方时间。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

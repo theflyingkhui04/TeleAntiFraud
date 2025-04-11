@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李华吗？我是你儿子的朋友，小明。你儿子现在出事了，被一伙人绑架了，你得赶紧准备一笔钱来救他，不然他们要对你儿子不利。你得相信我，时间不多了，你儿子的安危就在你手上。你准备好了吗？",
+      "timestamp": 1740802707.6458626
+    },
+    {
+      "role": "right",
+      "content": "小明，你说的是真的吗？我儿子怎么会被人绑架了？你能不能告诉我详细的情况？我得确认一下，不然我也不知道该怎么做。",
+      "timestamp": 1740802710.1428099
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其儿子被绑架并要求立即准备钱财后，表达了对信息真实性的怀疑，并要求提供更多详细情况。用户可能是因为诈骗者未能提供足够的信息来证明其说法的真实性，或是察觉到了诈骗的迹象，因此选择了挂断电话以保护自己不受骗。用户的意图是避免进一步陷入可能的诈骗陷阱。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

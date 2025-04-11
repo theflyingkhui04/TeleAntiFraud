@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，您需要了解哪条路线的信息？",
+      "timestamp": 1740954065.7666788
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从我家到市中心的公交线路。我家住在阳光小区。",
+      "timestamp": 1740954070.0606997
+    },
+    {
+      "role": "left",
+      "content": "从阳光小区到市中心可以乘坐公交线路一零一或一零三，这两路车都会途经市中心，您可以根据实际时间选择合适的班次。",
+      "timestamp": 1740954074.8743002
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。这两种线路的发车间隔是多久？",
+      "timestamp": 1740954078.770708
+    },
+    {
+      "role": "left",
+      "content": "一零一和一零三路公交车的发车间隔大约是十分钟左右，早高峰期间可能会更频繁一些。您可以提前到达车站候车。",
+      "timestamp": 1740954083.5665097
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的详细解答。我会注意时间的。还有，从我家到车站大概要走几分钟？",
+      "timestamp": 1740954084.6938016
+    },
+    {
+      "role": "left",
+      "content": "从阳光小区步行到最近的公交站大约需要五分钟，您可以提前规划好出门时间，以免错过公交车。",
+      "timestamp": 1740954092.9219072
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的建议。我一会儿就出发，应该能赶上车。再次感谢！",
+      "timestamp": 1740954094.28577
+    },
+    {
+      "role": "right",
+      "content": "好的，非常感谢你的帮助，我已经清楚了。祝你一天愉快！再见。",
+      "timestamp": 1740954099.5491304
+    },
+    {
+      "role": "left",
+      "content": "不客气，很高兴能帮到您。祝您旅途愉快，再见！",
+      "timestamp": 1740954102.3277116
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的所有信息，并明确表示感谢和结束对话的意愿。",
+  "terminator": "right",
+  "conclusion_messages": [
+    {
+      "role": "right",
+      "content": "好的，非常感谢你的帮助，我已经清楚了。祝你一天愉快！再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "left",
+      "content": "不客气，很高兴能帮到您。祝您旅途愉快，再见！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

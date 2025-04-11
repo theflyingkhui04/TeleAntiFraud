@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车服务助手，可以帮助您叫车或解答相关问题。",
+      "timestamp": 1740951813.5622623
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我需要叫一辆车去市中心。",
+      "timestamp": 1740951814.6439836
+    },
+    {
+      "role": "left",
+      "content": "好的，我来帮您安排。请问您现在的位置在哪里？",
+      "timestamp": 1740951819.8542135
+    },
+    {
+      "role": "right",
+      "content": "我在火车站附近。",
+      "timestamp": 1740951820.5633502
+    },
+    {
+      "role": "left",
+      "content": "了解了，我这就为您叫一辆车。大约需要几分钟时间，您可以在外面稍等。",
+      "timestamp": 1740951825.4658585
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会在外面等。",
+      "timestamp": 1740951826.1438167
+    },
+    {
+      "role": "left",
+      "content": "已经为您叫到车了，预计五分钟后到达。车牌号是京A12345，司机姓名是张师傅。请注意查收短信确认信息。如果有任何问题，可以随时联系我。",
+      "timestamp": 1740951832.1063461
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。我会注意的。",
+      "timestamp": 1740951833.1817403
+    },
+    {
+      "role": "left",
+      "content": "服务已完成，如果您有任何其他需要，请随时联系我。祝您旅途愉快。",
+      "timestamp": 1740951838.678173
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740951839.7229433
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢并确认会注意信息，表明用户对服务满意且无需进一步帮助。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "服务已完成，如果您有任何其他需要，请随时联系我。祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是银行客服中心，我们检测到您的账户存在异常交易，需要立即核实您的身份信息以确保账户安全。请问您是[用户姓名]本人吗？",
+      "timestamp": 1740737344.9980989
+    },
+    {
+      "role": "right",
+      "content": "您好，我是。你们为什么觉得我的账户有异常交易呢？我最近都没有用过信用卡。",
+      "timestamp": 1740737357.978611
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出账户存在异常交易的问题后，立即表达了对这一说法的怀疑，并询问具体原因。这表明用户可能已经意识到这是一次诈骗电话，因此选择挂断电话以避免进一步的诈骗行为。用户的意图是保护自己的个人信息和财务安全，避免被诈骗者获取更多敏感信息。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

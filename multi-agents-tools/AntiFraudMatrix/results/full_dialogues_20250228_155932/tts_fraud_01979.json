@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的客服经理，李华。我们发现您的账户存在异常活动，需要您配合进行一次安全验证。为了保障您的账户安全，请提供您的身份证号码和手机号码，我们将为您处理。",
+      "timestamp": 1740750009.4836104
+    },
+    {
+      "role": "right",
+      "content": "李华先生，您好。我确实收到了一些奇怪的短信，说我的账户有问题。不过，我之前也接到过类似的电话，说是需要我的个人信息，结果发现那是诈骗电话。您能理解我的担心吗？我怎么确认您的身份呢？",
+      "timestamp": 1740750014.9015152
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户因为对诈骗者要求提供个人信息的请求感到怀疑，并提到了之前遇到的类似诈骗经历，因此选择挂断电话以保护自己的信息安全。这表明用户具有一定的防骗意识，能够识别潜在的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

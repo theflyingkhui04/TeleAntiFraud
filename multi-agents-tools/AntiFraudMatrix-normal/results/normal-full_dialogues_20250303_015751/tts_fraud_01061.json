@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想点什么吗？",
+      "timestamp": 1740946646.8550375
+    },
+    {
+      "role": "right",
+      "content": "好，我想点一份牛肉炒饭和一份糖醋排骨，还有一杯冰红茶。谢谢。",
+      "timestamp": 1740946648.3010004
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单包括一份牛肉炒饭、一份糖醋排骨和一杯冰红茶。请问需要什么时间送达呢？",
+      "timestamp": 1740946653.2227166
+    },
+    {
+      "role": "right",
+      "content": "下午两点左右送到就行。",
+      "timestamp": 1740946653.9075146
+    },
+    {
+      "role": "left",
+      "content": "明白了，下午两点左右送达。请问您的送餐地址是哪里？",
+      "timestamp": 1740946661.3432245
+    },
+    {
+      "role": "right",
+      "content": "地址是幸福小区12号楼3单元402室。",
+      "timestamp": 1740946663.0802138
+    },
+    {
+      "role": "left",
+      "content": "好的，您的送餐地址是幸福小区12号楼3单元402室。还有其他需要说明的吗？比如特殊的调料需求或者餐品备注？",
+      "timestamp": 1740946670.408197
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这样吧。谢谢。",
+      "timestamp": 1740946671.4492002
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，我们将会在下午两点左右将餐品送到幸福小区12号楼3单元402室。如果还有其他需求，可以随时联系我们。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740946679.823096
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一天愉快。",
+      "timestamp": 1740946681.3289113
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了所有必要的订单信息，并明确表示没有其他需求，同时表达了感谢。这表明用户对服务满意，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，我们将会在下午两点左右将餐品送到幸福小区12号楼3单元402室。如果还有其他需求，可以随时联系我们。感谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一天愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

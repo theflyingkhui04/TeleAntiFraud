@@ -1,0 +1,41 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您需要预订什么餐品呢？",
+      "timestamp": 1740983689.514119
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预订一份炒菜和一碗米饭。有什么推荐的炒菜吗？",
+      "timestamp": 1740983693.1025803
+    },
+    {
+      "role": "left",
+      "content": "您好，我们有几道非常受欢迎的炒菜，比如宫保鸡丁、鱼香肉丝和地三鲜，这些都是顾客评价很高的菜式，您看需要尝试一下吗？",
+      "timestamp": 1740983699.5494292
+    },
+    {
+      "role": "right",
+      "content": "那就来一份宫保鸡丁吧。听起来不错。",
+      "timestamp": 1740983700.9540915
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁和一碗米饭已经为您添加到订单中。请问还需要其他菜品或饮料吗？",
+      "timestamp": 1740983708.5636308
+    },
+    {
+      "role": "right",
+      "content": "不需要了，就这些吧。谢谢。",
+      "timestamp": 1740983710.8754056
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认订单内容并表示无需其他菜品或饮料后，明确表达了感谢并使用了结束标识符'##ENDCALL_SIGNAL##'，表明用户对服务满意，订单需求已完全满足，因此用户主动结束了对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

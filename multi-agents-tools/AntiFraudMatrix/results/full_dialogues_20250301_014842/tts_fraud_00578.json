@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您，您在我们的一次全国性彩票活动中获得了特等奖，奖金高达一百万元！请问我可以确认一下您的个人信息以便为您办理领奖手续吗？",
+      "timestamp": 1740788165.5578864
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？中了一百万，这可真是天大的好消息！你们真是我的幸运星！当然可以，需要我提供哪些信息呢？",
+      "timestamp": 1740788167.1563234
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们下次再联系，希望您一切顺利。再见。",
+      "timestamp": 1740788177.8697278
+    },
+    {
+      "role": "right",
+      "content": "好的，再见。希望下次联系时能顺利领到奖金，谢谢你们！",
+      "timestamp": 1740788181.4600878
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表现出对诈骗信息的信任，并且愿意提供个人信息，这表明诈骗明显成功。为了防止用户进一步泄露敏感信息，应立即终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们下次再联系，希望您一切顺利。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，再见。希望下次联系时能顺利领到奖金，谢谢你们！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，您是张先生吗？我是您的邻居李阿姨的儿子小李，刚才我接到了一个电话，说是您儿子被他们绑架了，他们要求我们尽快准备五十万现金，不然会伤害您儿子的。您快点回来，我们一起想办法。",
+      "timestamp": 1740753036.70005
+    },
+    {
+      "role": "right",
+      "content": "小李，你这话说的，我儿子早就定居国外了，怎么可能被绑架？你是不是搞错了？",
+      "timestamp": 1740753042.4022517
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是识破了诈骗者的谎言。用户明确指出其儿子早已定居国外，不可能发生被绑架的情况，表明用户已经意识到这是一起诈骗行为，因此选择立即挂断电话以避免进一步的交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

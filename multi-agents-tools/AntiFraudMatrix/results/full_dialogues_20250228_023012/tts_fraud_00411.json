@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是警察局的张警官，非常紧急，您的一位家人可能遇到了麻烦。您最近有没有联系过您的儿子/女儿？",
+      "timestamp": 1740690584.663648
+    },
+    {
+      "role": "right",
+      "content": "警官您好，我确实有一段时间没联系上我儿子了，他最近在外地工作。您能具体告诉我他遇到什么麻烦了吗？我有点担心。",
+      "timestamp": 1740690587.3215523
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者提供的信息不足或感到不自然而产生了怀疑，导致其选择挂断电话以避免进一步的风险。用户的意图是终止与诈骗者的交流，防止可能的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

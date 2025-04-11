@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是这里的客服小张，有什么可以帮您的吗？",
+      "timestamp": 1740939570.5706067
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我这里有个问题，想问问你们的产品保修政策。",
+      "timestamp": 1740939572.143817
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们的产品保修政策是购买后一年内非人为损坏免费维修或更换，具体情况可以查看产品说明书或官网上的保修条款。您有具体的疑问吗？",
+      "timestamp": 1740939576.3495016
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢。那如果过了保修期呢？",
+      "timestamp": 1740939577.4315403
+    },
+    {
+      "role": "left",
+      "content": "过了保修期后，我们提供有偿维修服务。您可以联系我们的客服中心，我们会根据故障情况提供维修报价。如果有需要，我们也会为您推荐延保服务。",
+      "timestamp": 1740939581.0108738
+    },
+    {
+      "role": "right",
+      "content": "好的，了解了。谢谢你的解答。",
+      "timestamp": 1740939581.9409251
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您还有其他疑问，随时可以联系我们的客服。感谢您的咨询，祝您生活愉快。",
+      "timestamp": 1740939588.087434
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740939588.72608
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并明确表示了感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您还有其他疑问，随时可以联系我们的客服。感谢您的咨询，祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

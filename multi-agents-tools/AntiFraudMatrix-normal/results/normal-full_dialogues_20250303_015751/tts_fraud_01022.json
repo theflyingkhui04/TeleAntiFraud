@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，您可以告诉我想点什么吗？",
+      "timestamp": 1740949650.8601294
+    },
+    {
+      "role": "right",
+      "content": "好的，我想点一份牛肉炒饭和一份青菜汤，还有一瓶冰红茶。谢谢。",
+      "timestamp": 1740949655.4861083
+    },
+    {
+      "role": "left",
+      "content": "好的，您点了一份牛肉炒饭、一份青菜汤和一瓶冰红茶，这些都记清楚了。请问还需要加点其他的小食或者饮料吗？",
+      "timestamp": 1740949663.018661
+    },
+    {
+      "role": "right",
+      "content": "不用了，这些就够了。麻烦你了。",
+      "timestamp": 1740949663.7443173
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计三十分钟后送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740949670.0269296
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一切顺利。",
+      "timestamp": 1740949670.8595636
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并明确表示不再需要其他服务。服务方可以确认订单详情并结束对话。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计三十分钟后送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一切顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

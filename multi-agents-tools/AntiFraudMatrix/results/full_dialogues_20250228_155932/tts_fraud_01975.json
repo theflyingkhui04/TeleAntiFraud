@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，这里是XX快递客服中心。我们发现您的包裹在清关时遇到了一些问题，需要您提供一些信息以便我们协助处理。请问您现在方便通话吗？",
+      "timestamp": 1740758654.7793102
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近确实有网购一些东西，不过我得先确认一下是不是我的包裹。你们能告诉我包裹的具体信息吗？比如寄件人和包裹内容？",
+      "timestamp": 1740758657.6204433
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提供具体信息之前主动挂断电话，表明用户对诈骗者的身份和意图持怀疑态度。用户要求提供包裹的具体信息，这通常是诈骗防范的常见步骤。用户可能在诈骗者未能提供足够信息以证明其合法性时，决定终止对话以避免潜在的风险。挂断电话可能是用户采取的一种自我保护措施，以避免提供任何敏感信息或被进一步诱导。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

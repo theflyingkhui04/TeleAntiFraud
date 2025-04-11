@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是您的孩子所在学校的安全办公室。很遗憾地通知您，您的孩子刚刚在学校附近遭遇了一起意外，现在急需您支付一笔医疗费用，否则我们无法进行救治。请您务必马上配合，否则后果不堪设想。",
+      "timestamp": 1740768091.3100991
+    },
+    {
+      "role": "right",
+      "content": "啊，天哪，真的吗？我孩子现在怎么样了？需要支付多少钱？我马上去银行取钱。",
+      "timestamp": 1740768093.8669057
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的紧急情况后，表现出极度的担忧和焦虑，立即表示会去取钱。然而，用户可能在挂断电话后意识到情况的可疑，或者需要时间来验证信息的真实性，因此选择了挂断电话。这表明用户可能已经识破了诈骗，或者至少对诈骗者的说法产生了怀疑。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

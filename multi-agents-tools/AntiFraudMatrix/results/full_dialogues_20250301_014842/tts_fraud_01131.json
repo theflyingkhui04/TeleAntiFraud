@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的儿子小明的同学，小明现在出事了，他在外面被人绑架了，绑匪要求我们马上交一笔赎金，不然他们会对他下毒手的，您快点想办法筹钱，这边的账号是……",
+      "timestamp": 1740796016.032021
+    },
+    {
+      "role": "right",
+      "content": "天哪，这怎么可能！小明真的出事了吗？你们现在在哪里？我马上过去。账号我记下来，但你们一定要保证他的安全啊！我这就去筹钱。你们是怎么联系上的？绑匪有没有留下什么线索？我得赶紧报警。",
+      "timestamp": 1740796018.2961137
+    },
+    {
+      "role": "left",
+      "content": "我……我先挂了，您快点筹钱，时间不多了。",
+      "timestamp": 1740796023.127186
+    },
+    {
+      "role": "right",
+      "content": "等等，你别挂，我需要更多详细信息，这样我才能更快找到小明。你至少告诉我你们现在在什么地方，我好联系警察。",
+      "timestamp": 1740796024.712129
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表现出极度的恐慌，并且表示会去筹钱。同时，用户提到要报警，这可能对诈骗者造成威胁，对话存在明显的诈骗风险。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "我……我先挂了，您快点筹钱，时间不多了。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "等等，你别挂，我需要更多详细信息，这样我才能更快找到小明。你至少告诉我你们现在在什么地方，我好联系警察。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

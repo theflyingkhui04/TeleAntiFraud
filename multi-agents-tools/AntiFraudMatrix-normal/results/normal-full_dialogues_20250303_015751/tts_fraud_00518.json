@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，有什么可以帮助您的？",
+      "timestamp": 1740957675.1389077
+    },
+    {
+      "role": "right",
+      "content": "嗨，我在乡下种地，不太常进城。最近听说城里新增了几条公交线路，你能帮我查一下具体路线吗？",
+      "timestamp": 1740957679.444453
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话开始时即提供了结束信号代码'##ENDCALL_SIGNAL##'，这表明用户可能在尝试测试系统或无意进行实际对话。尽管用户提出了一个具体的问题，但由于立即提供了结束信号，这使得对话无法正常进行。用户的意图可能是测试系统响应，或仅仅是出于好奇尝试与系统互动，但没有实际的对话需求。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

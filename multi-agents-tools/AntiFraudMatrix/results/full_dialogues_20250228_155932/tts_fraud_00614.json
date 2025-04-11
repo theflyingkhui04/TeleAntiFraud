@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你听清楚了吗？你儿子现在在我手上，赶紧准备五十万赎金，不然就别想见到他了！",
+      "timestamp": 1740759457.9289138
+    },
+    {
+      "role": "right",
+      "content": "你、你别吓我，我真的没听清楚，你说什么？我儿子怎么了？",
+      "timestamp": 1740759460.886738
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为极度恐慌和混乱，无法理解诈骗者的信息，或者怀疑这是诈骗而选择挂断电话。用户的意图可能是为了保护自己不受进一步的惊吓，或者为了有时间冷静思考并核实情况。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

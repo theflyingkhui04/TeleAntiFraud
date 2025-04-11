@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服为您服务，请问有什么问题需要解决？",
+      "timestamp": 1740940202.0668285
+    },
+    {
+      "role": "right",
+      "content": "你好，我最近接到一些奇怪的电话，都是推销的，想问问怎么才能避免这种情况。",
+      "timestamp": 1740940204.3934891
+    },
+    {
+      "role": "left",
+      "content": "您好，遇到这种情况确实很让人烦恼。您可以尝试将您的电话号码加入到国家的“谢绝来电”服务中，这样可以减少推销电话的骚扰。另外，也可以考虑开启手机自带的防骚扰功能，或者安装第三方的防骚扰软件。希望这些建议能帮到您。",
+      "timestamp": 1740940210.507904
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的建议，我会试试看的。",
+      "timestamp": 1740940211.5624156
+    },
+    {
+      "role": "left",
+      "content": "如果您还有其他问题或需要进一步的帮助，随时欢迎联系我们。感谢您的反馈，祝您生活愉快。",
+      "timestamp": 1740940215.2679987
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，生活愉快。",
+      "timestamp": 1740940216.1420114
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢并接受了建议，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您还有其他问题或需要进一步的帮助，随时欢迎联系我们。感谢您的反馈，祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，生活愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

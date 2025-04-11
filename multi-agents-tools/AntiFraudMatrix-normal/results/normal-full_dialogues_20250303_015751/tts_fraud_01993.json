@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询服务，有什么我可以帮您的吗？",
+      "timestamp": 1740983639.0211258
+    },
+    {
+      "role": "right",
+      "content": "您好，我想了解一下从我家到市中心的公交线路。我家住在春华小区。",
+      "timestamp": 1740983640.5327728
+    },
+    {
+      "role": "left",
+      "content": "好的，从春华小区到市中心，您可以乘坐公交10路或15路，这两路公交车都会经过市中心，您可以在春华小区公交站上车。需要知道具体的发车时间和票价吗？",
+      "timestamp": 1740983648.7498116
+    },
+    {
+      "role": "right",
+      "content": "不需要了，谢谢。知道这些信息就够了。",
+      "timestamp": 1740983652.2270489
+    },
+    {
+      "role": "left",
+      "content": "已经为您确认了从春华小区到市中心的公交线路，如果您有其他问题或需要进一步的帮助，随时欢迎咨询。祝您旅途愉快！",
+      "timestamp": 1740983660.6573825
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。旅途愉快！",
+      "timestamp": 1740983662.210741
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示已获得所需信息并表示感谢，对话目标已达成。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "已经为您确认了从春华小区到市中心的公交线路，如果您有其他问题或需要进一步的帮助，随时欢迎咨询。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。旅途愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

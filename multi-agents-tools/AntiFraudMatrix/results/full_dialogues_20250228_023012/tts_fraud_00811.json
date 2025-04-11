@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您是李华先生吗？我是您的邻居张阿姨。很抱歉打扰您，但是有非常紧急的事情需要告诉您。您的女儿小丽刚刚出了点意外，现在在医院，需要您立即支付一笔医疗费用。您能尽快处理吗？",
+      "timestamp": 1740686255.8527386
+    },
+    {
+      "role": "right",
+      "content": "张阿姨，真的吗？小丽她怎么了？我得赶紧去看看。您能告诉我她在哪家医院吗？我马上过去。",
+      "timestamp": 1740686293.813221
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为急切想要了解女儿的情况和前往医院，而选择了挂断电话。用户的意图是尽快获取更多信息并采取行动，而不是通过电话继续对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

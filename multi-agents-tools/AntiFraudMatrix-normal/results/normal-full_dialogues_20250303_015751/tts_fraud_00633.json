@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我需要预订哪家餐厅或者想点什么餐吗？",
+      "timestamp": 1740973228.7739162
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一家附近的中餐馆，有什么推荐吗？",
+      "timestamp": 1740973230.340388
+    },
+    {
+      "role": "left",
+      "content": "附近有一家非常受欢迎的中餐馆叫“老北京风味”，他们的招牌菜有红烧肉和宫保鸡丁，口味地道，评价很高。您有兴趣尝试一下吗？",
+      "timestamp": 1740973238.2962599
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，就订这家吧。",
+      "timestamp": 1740973239.4523327
+    },
+    {
+      "role": "left",
+      "content": "好的，您想预订几人桌，具体时间是什么时候呢？",
+      "timestamp": 1740973247.7788785
+    },
+    {
+      "role": "right",
+      "content": "两人桌，今晚七点左右。",
+      "timestamp": 1740973248.8195364
+    },
+    {
+      "role": "left",
+      "content": "好的，我帮您确认一下。请问您的姓名和联系电话可以提供一下吗？以便餐厅与您联系确认预订信息。",
+      "timestamp": 1740973255.0165622
+    },
+    {
+      "role": "right",
+      "content": "我叫李明，电话是13812345678。",
+      "timestamp": 1740973260.2362566
+    },
+    {
+      "role": "left",
+      "content": "感谢您的信息，李明先生。我已为您预订了“老北京风味”今晚七点的两人桌。稍后餐厅会通过您提供的电话与您联系确认详细信息。如果您有其他需要帮助的，请随时告诉我。",
+      "timestamp": 1740973269.4741747
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预订信息后，提供了后续的联系安排，并询问用户是否有其他需要帮助的事项。在用户没有进一步的需求后，服务方使用了结束信号代码'##ENDCALL_SIGNAL##'，表明服务目标已达成，预订流程顺利完成，服务方意图礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

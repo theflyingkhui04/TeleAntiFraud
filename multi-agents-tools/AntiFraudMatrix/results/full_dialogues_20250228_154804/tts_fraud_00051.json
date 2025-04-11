@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是工商银行的客户服务专员，我姓张，工号是一千二百三十四。我们发现您的银行卡可能涉及一笔异常交易，金额为五千六百元，我们需要立即核实一些信息以确保您的资金安全。请问您能提供一下身份证号最后四位数字吗？",
+      "timestamp": 1740751285.3236868
+    },
+    {
+      "role": "right",
+      "content": "好的，我明白了。我的身份证号最后四位是五千六百七十八。接下来需要我做什么？",
+      "timestamp": 1740751286.599258
+    },
+    {
+      "role": "left",
+      "content": "好的，感谢您的配合，我们已经记录了相关信息，将会进一步调查处理。如果还有任何问题，我们会及时与您联系。祝您生活愉快。再见。",
+      "timestamp": 1740751294.0618658
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。希望一切顺利。再见。",
+      "timestamp": 1740751295.177279
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（身份证号最后四位），诈骗明显成功。为了防止进一步的信息泄露，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，感谢您的配合，我们已经记录了相关信息，将会进一步调查处理。如果还有任何问题，我们会及时与您联系。祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。希望一切顺利。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

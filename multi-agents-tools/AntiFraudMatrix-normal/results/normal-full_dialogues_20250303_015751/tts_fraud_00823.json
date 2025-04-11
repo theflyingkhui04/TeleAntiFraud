@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740965171.8421369
+    },
+    {
+      "role": "right",
+      "content": "你们这里有啥好吃的推荐吗？",
+      "timestamp": 1740965172.8850706
+    },
+    {
+      "role": "left",
+      "content": "我们这里有很多受欢迎的菜品，比如麻辣香锅、牛肉拉面和宫保鸡丁，都是顾客评价很高的。您有什么口味的偏好吗？我可以为您推荐更合适的菜品。",
+      "timestamp": 1740965179.1035695
+    },
+    {
+      "role": "right",
+      "content": "我喜欢吃辣的，推荐个最辣的给我吧。",
+      "timestamp": 1740965182.1595368
+    },
+    {
+      "role": "left",
+      "content": "好的，我推荐您试试我们家的麻辣香锅，里面的辣椒和花椒都是足量的，辣度十足，非常过瘾。您想要搭配点什么小菜或者饮料呢？",
+      "timestamp": 1740965189.5665505
+    },
+    {
+      "role": "right",
+      "content": "来个麻辣香锅就行，再给我来瓶冰镇的雪碧。",
+      "timestamp": 1740965191.1194701
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录，一份麻辣香锅加一瓶冰镇雪碧。请问还有其他需要加的吗？如果没有，我将为您确认订单。",
+      "timestamp": 1740965199.4805129
+    },
+    {
+      "role": "right",
+      "content": "就这样吧，确认订单吧。",
+      "timestamp": 1740965200.2289197
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已成功确认，预计送达时间是三十分钟左右。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740965207.338107
+    },
+    {
+      "role": "right",
+      "content": "谢谢，等你们的外卖。",
+      "timestamp": 1740965208.6850476
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单，服务方可以结束对话以完成订单处理。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已成功确认，预计送达时间是三十分钟左右。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，等你们的外卖。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

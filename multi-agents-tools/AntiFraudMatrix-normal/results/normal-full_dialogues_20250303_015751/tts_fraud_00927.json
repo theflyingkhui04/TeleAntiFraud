@@ -1,0 +1,51 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约什么项目？",
+      "timestamp": 1740952445.4899502
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一个全面体检。",
+      "timestamp": 1740952447.239183
+    },
+    {
+      "role": "left",
+      "content": "好的，全面体检非常推荐。请问您希望预约哪一天？我们这里可以预约未来两周内的任何一天。",
+      "timestamp": 1740952451.098815
+    },
+    {
+      "role": "right",
+      "content": "那就预约下周五吧，上午九点可以吗？",
+      "timestamp": 1740952454.4454134
+    },
+    {
+      "role": "left",
+      "content": "下周五上午九点可以预约。请问您方便提供一下姓名和联系电话吗？以便我们为您确认预约。",
+      "timestamp": 1740952458.9261074
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫李明，电话是13812345678。",
+      "timestamp": 1740952462.6224673
+    },
+    {
+      "role": "left",
+      "content": "好的，李明先生，您的预约信息已记录，下周五上午九点，全面体检。我们会通过短信发送预约确认信息到13812345678，请留意查收。还有其他需要帮助的吗？",
+      "timestamp": 1740952467.9969451
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。没有其他需要了。",
+      "timestamp": 1740952469.8854961
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方确认了预约信息并询问是否还有其他需要帮助时，明确表示没有其他需要，并表达了感谢。用户通过提供'##ENDCALL_SIGNAL##'明确表示结束对话的意图，表明用户对服务满意且认为对话目标已达成。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

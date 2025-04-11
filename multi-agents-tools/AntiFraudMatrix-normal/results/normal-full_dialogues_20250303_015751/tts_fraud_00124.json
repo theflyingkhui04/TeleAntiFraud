@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到我们的商店，有什么我可以帮您的吗？",
+      "timestamp": 1740939204.123068
+    },
+    {
+      "role": "right",
+      "content": "您好，我来看看这里有什么新鲜的农产品。",
+      "timestamp": 1740939205.117734
+    },
+    {
+      "role": "left",
+      "content": "我们这里每天都有新鲜的蔬菜和水果上架，您可以看看今天新到的草莓和樱桃，非常新鲜。需要我带您去看看吗？",
+      "timestamp": 1740939211.24109
+    },
+    {
+      "role": "right",
+      "content": "好的，麻烦您了。带我去看看吧。",
+      "timestamp": 1740939212.4277768
+    },
+    {
+      "role": "left",
+      "content": "没问题，这边请。我们的草莓和樱桃都是今天早上刚到的，非常新鲜。您看这些草莓颜色鲜艳，个头也很大。樱桃也是，每一颗都非常饱满。您想要称一点尝尝吗？",
+      "timestamp": 1740939219.095105
+    },
+    {
+      "role": "right",
+      "content": "看上去确实不错，我各称一斤吧。",
+      "timestamp": 1740939220.4874527
+    },
+    {
+      "role": "left",
+      "content": "好的，我来帮您称。一斤草莓，一斤樱桃，总共是五十元。您可以在这里扫码支付，或者到收银台结账。",
+      "timestamp": 1740939225.933142
+    },
+    {
+      "role": "right",
+      "content": "好的，我扫码支付。谢谢。",
+      "timestamp": 1740939226.721348
+    },
+    {
+      "role": "left",
+      "content": "好的，感谢您的购买，希望您喜欢这些新鲜的草莓和樱桃。如果您还有其他需要，随时欢迎再来。祝您一天愉快！",
+      "timestamp": 1740939234.4069557
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740939235.4116507
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了购买，并表达了感谢，表明对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，感谢您的购买，希望您喜欢这些新鲜的草莓和樱桃。如果您还有其他需要，随时欢迎再来。祝您一天愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

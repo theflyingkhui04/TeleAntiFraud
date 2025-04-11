@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，有什么可以帮助您的吗？",
+      "timestamp": 1740965402.9243476
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份晚餐，有什么推荐的吗？",
+      "timestamp": 1740965404.0413435
+    },
+    {
+      "role": "left",
+      "content": "我们有几款热门菜品非常受欢迎，比如宫保鸡丁、鱼香肉丝和蒜蓉西兰花，您看是否有兴趣尝试一下？",
+      "timestamp": 1740965408.9312572
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，给我来一份吧。还有什么汤品推荐吗？",
+      "timestamp": 1740965410.3546326
+    },
+    {
+      "role": "left",
+      "content": "我们的番茄蛋花汤非常清爽可口，也很受欢迎，您要不要试试？",
+      "timestamp": 1740965415.3555517
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来一份番茄蛋花汤。还有一份蒜蓉西兰花吧，我觉得这几个搭配应该不错。",
+      "timestamp": 1740965416.8649895
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单包含了宫保鸡丁、番茄蛋花汤和蒜蓉西兰花。还需要帮您加点米饭或饮料吗？",
+      "timestamp": 1740965424.2980807
+    },
+    {
+      "role": "right",
+      "content": "加两份米饭吧，饮料就不用了，谢谢。对了，大概多久能送到？",
+      "timestamp": 1740965426.278672
+    },
+    {
+      "role": "left",
+      "content": "您的订单已记录，预计将在30到40分钟内送达。如果地址是首次下单的，需要您提供一个详细的配送地址。",
+      "timestamp": 1740965430.161965
+    },
+    {
+      "role": "right",
+      "content": "好的，地址是XX路XX号XX小区X栋X单元X楼X号。谢谢。",
+      "timestamp": 1740965432.613307
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，包含宫保鸡丁、番茄蛋花汤、蒜蓉西兰花和两份米饭，预计30到40分钟内送达。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740965442.1248736
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待晚餐。",
+      "timestamp": 1740965443.2746904
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供了完整的订单信息，包括菜品、数量、地址等，服务方也确认了预计送达时间。对话目标已达成，用户获得了所需的服务。",
+  "terminator": "service",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，包含宫保鸡丁、番茄蛋花汤、蒜蓉西兰花和两份米饭，预计30到40分钟内送达。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待晚餐。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

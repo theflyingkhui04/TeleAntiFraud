@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是这里的客服助理，有什么可以帮助您的吗？",
+      "timestamp": 1740973961.6481068
+    },
+    {
+      "role": "right",
+      "content": "您好，我想了解一下这里的退货政策。",
+      "timestamp": 1740973962.532522
+    },
+    {
+      "role": "left",
+      "content": "我们的退货政策非常灵活，如果您购买的商品有任何问题，自购买之日起三十天内可以无理由退货。您需要保留好商品原包装和发票，通过我们的客服申请退货，我们会尽快为您处理。",
+      "timestamp": 1740973971.0736017
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的解答。这样我就放心了。",
+      "timestamp": 1740973972.181954
+    },
+    {
+      "role": "left",
+      "content": "如果您还有其他问题或需要进一步的帮助，随时欢迎联系我们。感谢您的支持，祝您一天愉快。再见。",
+      "timestamp": 1740973976.9097102
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。",
+      "timestamp": 1740973977.8496902
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户在获得所需信息后表示满意并表达了感谢，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您还有其他问题或需要进一步的帮助，随时欢迎联系我们。感谢您的支持，祝您一天愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是工商银行的客服人员，我们监测到您的账户有异常登录的情况，为了您的账户安全，请提供一下您的身份证号码，我们需要核对一下您的身份信息。",
+      "timestamp": 1740751592.8229582
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我的账户有异常登录？那我得注意一下。身份证号码是…………（犹豫了一下）不过，你们怎么会知道我的账户有异常登录呢？是不是真的有这种情况？",
+      "timestamp": 1740751596.1001282
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们会尽快处理您的账户安全问题。如果有任何进一步的问题，我们会与您联系。再见。",
+      "timestamp": 1740751602.7039015
+    },
+    {
+      "role": "right",
+      "content": "好的，那我就等你们的消息。谢谢你们的提醒，再见。",
+      "timestamp": 1740751607.2345176
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（身份证号码的部分信息），并且表现出对诈骗者身份的怀疑。为了防止进一步的信息泄露，应由用户主导结束对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，我们会尽快处理您的账户安全问题。如果有任何进一步的问题，我们会与您联系。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，那我就等你们的消息。谢谢你们的提醒，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

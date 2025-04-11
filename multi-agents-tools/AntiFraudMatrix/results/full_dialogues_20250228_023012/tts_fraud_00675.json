@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！这里是国际邮政服务中心，我们发现您的包裹在海关被扣留，需要您提供身份信息和支付一小笔清关费用。请问您现在方便处理吗？",
+      "timestamp": 1740683824.2017803
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我的包裹被扣留了？这听起来挺麻烦的。我需要提供哪些信息呢？还有，这清关费用大概要多少钱？",
+      "timestamp": 1740683861.5763376
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一个诈骗电话，因为诈骗者要求提供敏感信息和支付费用，这通常是诈骗电话的典型特征。用户在询问具体信息和费用后，可能察觉到不对劲，因此选择挂断电话以避免进一步的潜在损失。用户的意图是保护自己的个人信息和财务安全，避免上当受骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

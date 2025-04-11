@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是京城医院的医生，您的女儿刚刚在这里出了车祸，情况非常危急，需要立即手术，但手术费用还差十五万，您能尽快把钱转过来吗？这是救命的事，一刻都不能耽误。",
+      "timestamp": 1740751051.9813116
+    },
+    {
+      "role": "right",
+      "content": "医生，您能告诉我具体是哪家医院吗？我女儿的情况怎么样了？我需要确认一下。另外，手术费用的事情，我需要联系一下家人，商量一下怎么解决。",
+      "timestamp": 1740751054.597738
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提供的紧急情况后，表现出谨慎的态度，要求提供具体医院信息并表示需要联系家人商量。这表明用户可能对诈骗者提供的信息持有怀疑态度，或者认为在做出任何决定之前需要更多确认。用户主动挂断电话可能是为了防止进一步的诈骗行为，给自己时间去核实信息的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

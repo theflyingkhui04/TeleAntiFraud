@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的先生/女士，您好！我是XX投资公司的理财顾问，我们最近有一个非常特别的投资机会，预计年化收益率可以达到百分之三十以上。您有兴趣了解一下吗？",
+      "timestamp": 1740742179.1665037
+    },
+    {
+      "role": "right",
+      "content": "你好，谢谢你的来电。我年纪大了，对这些投资理财的东西了解不多。不过，我儿子在这方面挺有研究的。要不你先给我讲讲这个投资的具体内容，我回头跟儿子商量一下再决定吧。",
+      "timestamp": 1740742185.1302853
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现得较为谨慎，表示自己对投资理财了解不多，并提到需要与儿子商量后再做决定。用户挂断电话可能是出于对陌生投资机会的警惕，或是认为当前不是合适的交流时间。用户的意图可能是避免立即做出决定，同时保持礼貌。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

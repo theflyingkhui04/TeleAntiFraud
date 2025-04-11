@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是预约服务中心，有什么我可以帮您的？",
+      "timestamp": 1740983048.3189123
+    },
+    {
+      "role": "right",
+      "content": "您好，我想预约一个体检。",
+      "timestamp": 1740983051.2098901
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方问候后立即表达了预约体检的意图，但随后提供了结束信号代码。这可能是因为用户误操作发送了结束信号，或者用户在发送消息前已经找到了其他方式解决需求，因此不再需要继续对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

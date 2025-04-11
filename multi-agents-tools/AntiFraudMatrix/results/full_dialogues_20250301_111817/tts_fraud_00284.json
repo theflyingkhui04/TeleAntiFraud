@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是工商银行客服中心，您的账户刚刚有一笔异常转账记录，请问您是否知情？为了您的资金安全，我们需要立即采取措施。",
+      "timestamp": 1740803581.3031414
+    },
+    {
+      "role": "right",
+      "content": "真的吗？我最近确实没怎么用网银，可能是我疏忽了。你们能帮我查一下具体是什么情况吗？",
+      "timestamp": 1740803583.422922
+    },
+    {
+      "role": "left",
+      "content": "好的，我会记录您的信息并尽快处理。感谢您的配合，祝您生活愉快。再见。",
+      "timestamp": 1740803591.6477304
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。希望能尽快查清楚。再见。",
+      "timestamp": 1740803592.4593906
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明其选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我会记录您的信息并尽快处理。感谢您的配合，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助。希望能尽快查清楚。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

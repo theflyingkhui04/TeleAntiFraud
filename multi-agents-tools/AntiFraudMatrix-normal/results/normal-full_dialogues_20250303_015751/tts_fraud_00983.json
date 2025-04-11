@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是这里的购物顾问，可以帮助您找到需要的商品。",
+      "timestamp": 1740978968.309963
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我随便看看，有需要再麻烦您。",
+      "timestamp": 1740978969.642991
+    },
+    {
+      "role": "left",
+      "content": "没问题，如果您有任何需要，随时可以找我。祝您购物愉快！",
+      "timestamp": 1740978977.8688085
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在用户表示暂时不需要帮助后，礼貌地结束了对话。服务方的意图是保持专业和礼貌，同时避免打扰用户的购物体验。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

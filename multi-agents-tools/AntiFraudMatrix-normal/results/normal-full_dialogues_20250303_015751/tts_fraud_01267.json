@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您想订哪家餐厅的餐呢？",
+      "timestamp": 1740981900.0867162
+    },
+    {
+      "role": "right",
+      "content": "我想订一家评价好的中餐馆，有什么推荐吗？",
+      "timestamp": 1740981901.0205958
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们这里有一家名叫“如意轩”的中餐馆，评价非常高，以地道的川菜和粤菜为主，您看是否感兴趣？",
+      "timestamp": 1740981904.4938793
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，就选“如意轩”吧。他们有什么特色菜推荐？",
+      "timestamp": 1740981905.577072
+    },
+    {
+      "role": "left",
+      "content": "“如意轩”的特色菜有宫保鸡丁、清蒸海鲈鱼和蒜蓉西兰花，都是非常受欢迎的菜品。您想预订这些吗？",
+      "timestamp": 1740981910.0058522
+    },
+    {
+      "role": "right",
+      "content": "好的，那就来一份宫保鸡丁和一份清蒸海鲈鱼吧。",
+      "timestamp": 1740981911.3578498
+    },
+    {
+      "role": "left",
+      "content": "好的，宫保鸡丁和清蒸海鲈鱼已加入您的订单。还需要其他菜品或饮料吗？",
+      "timestamp": 1740981915.1490548
+    },
+    {
+      "role": "right",
+      "content": "不用了，这样就可以了。什么时候能送到？",
+      "timestamp": 1740981915.7058442
+    },
+    {
+      "role": "left",
+      "content": "您的订单预计在三十分钟内送达，如果地址位于繁忙区域，可能会稍微延迟。您需要现在就确认送餐地址吗？",
+      "timestamp": 1740981919.2438226
+    },
+    {
+      "role": "right",
+      "content": "好的，我的地址是上海市徐汇区漕溪路123号。请尽快送达，谢谢。",
+      "timestamp": 1740981920.251244
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计三十分钟内送达。如果有任何问题，您可以随时联系我们。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740981926.9293568
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740981927.5896058
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了送餐地址，并表示了感谢，这表明用户对当前的服务感到满意，且没有进一步的需求。根据终止条件3，用户明确表示感谢并结束对话，因此可以判断对话应该由用户来结束。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计三十分钟内送达。如果有任何问题，您可以随时联系我们。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

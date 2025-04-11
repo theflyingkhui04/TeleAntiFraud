@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服专员，李华。我们发现您的账户可能存在安全隐患，需要您配合我们进行一次安全验证。您现在方便吗？",
+      "timestamp": 1740805226.0660734
+    },
+    {
+      "role": "right",
+      "content": "您好，李华。我这边确实方便，不过我需要确认一下您的身份。您能否告诉我我的姓名和账户的后四位数字？",
+      "timestamp": 1740805230.6751378
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出进行安全验证前，主动要求验证对方的身份，这表明用户对诈骗者的身份持怀疑态度。用户可能已经意识到这是一起诈骗行为，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

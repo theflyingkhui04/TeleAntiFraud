@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行客服中心，我们检测到您的账户近期可能存在异常交易活动，请问您最近有进行过网上支付或转账吗？",
+      "timestamp": 1740758829.2166448
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？我最近确实用网银转了一笔钱给我的孙子，但那是正常的。你们怎么知道的？",
+      "timestamp": 1740758834.525425
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到对方是通过非正规渠道获取了其个人信息，怀疑对方身份的真实性，因此选择主动挂断电话以避免进一步的信息泄露。用户的意图是停止与诈骗者的交流，保护自己的隐私和财产安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

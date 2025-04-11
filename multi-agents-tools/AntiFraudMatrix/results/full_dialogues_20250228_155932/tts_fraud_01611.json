@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是中行客服中心，我检测到您的账户有异常交易，为了您的资金安全，请您立即提供账户的最后四位数字以便我们核实。",
+      "timestamp": 1740745084.0552986
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我最近确实没怎么用这个账户，你们能帮我查一下吗？我的账户最后四位数字是一千二百三十四。",
+      "timestamp": 1740745090.0354471
+    },
+    {
+      "role": "left",
+      "content": "好的，感谢您的配合，我们已经记录了您的信息，会尽快处理。如果还有其他问题，您可以随时联系我们。再见。",
+      "timestamp": 1740745100.3100436
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，希望一切顺利。再见。",
+      "timestamp": 1740745101.7272336
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（账户的最后四位数字），满足终止条件1：诈骗明显成功。为了防止进一步的信息泄露，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，感谢您的配合，我们已经记录了您的信息，会尽快处理。如果还有其他问题，您可以随时联系我们。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，希望一切顺利。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

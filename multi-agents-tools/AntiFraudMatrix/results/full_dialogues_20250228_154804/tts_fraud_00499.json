@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您的儿子的朋友，他现在遇到了非常紧急的情况，被一些坏人扣押了，您必须马上汇一笔钱来救他，否则他们可能会对他下手。您能理解这个情况的严重性吧？",
+      "timestamp": 1740731739.0595872
+    },
+    {
+      "role": "right",
+      "content": "什么？你说你是我的儿子的朋友？他现在被扣押了？这到底是怎么回事？你能不能告诉我详细的情况？我需要确认一下你是谁，还有这个事情是不是真的。",
+      "timestamp": 1740731742.7580016
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的信息表示怀疑，并要求提供更多的详细情况以确认真实性。用户可能已经意识到这是一起诈骗行为，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

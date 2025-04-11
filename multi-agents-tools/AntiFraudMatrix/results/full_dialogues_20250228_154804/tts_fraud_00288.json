@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是银行安全中心的张经理，我们检测到您的账户可能遭到黑客攻击，为了您的资金安全，需要您配合我们进行一次安全验证。您现在方便吗？",
+      "timestamp": 1740737562.6879141
+    },
+    {
+      "role": "right",
+      "content": "您好，张经理，我确实最近收到了一些奇怪的短信，可能是我的账户有问题。您能帮帮我吗？",
+      "timestamp": 1740737564.026098
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合。为了确保安全，请您提供一下您的身份证号码和银行卡号，我们会在系统中进行验证。",
+      "timestamp": 1740737570.519046
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者可能意识到用户对诈骗行为有所警惕，或者用户可能已经识破了诈骗企图，因此选择提前挂断以避免进一步的暴露。诈骗者的意图是防止用户产生更多的怀疑或采取行动（如挂断电话后立即联系真正的银行），从而保护自己不被追踪或举报。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

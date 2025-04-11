@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的打车助手，可以帮您快速叫车。请告诉我您的上车地点和目的地。",
+      "timestamp": 1740940809.2331815
+    },
+    {
+      "role": "right",
+      "content": "好的，我在医院，目的地是家，地址是阳光花园小区。",
+      "timestamp": 1740940810.273839
+    },
+    {
+      "role": "left",
+      "content": "了解了，您的上车地点是医院，目的地是阳光花园小区。我正在为您叫车，大约需要等待 5 到 10 分钟。请留意您的手机消息，司机抵达后会联系您。还有其他需要帮助的吗？",
+      "timestamp": 1740940815.6747284
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的上车地点和目的地，并告知了叫车成功及预计等待时间后，询问用户是否还有其他需要帮助的事项。在用户没有进一步的需求时，服务方主动结束了对话。这表明服务方认为已经完成了用户的需求，达到了服务目标，因此选择结束对话以避免不必要的等待或占用资源。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

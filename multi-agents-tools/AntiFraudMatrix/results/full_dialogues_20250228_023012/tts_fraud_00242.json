@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李华吗？我是你儿子学校的张老师，你儿子刚刚在学校出事了，被紧急送到医院，你必须马上过来。",
+      "timestamp": 1740681110.699077
+    },
+    {
+      "role": "right",
+      "content": "等等，你说你是张老师？我怎么知道你不是骗子？我儿子学校的电话号码是多少？你说出号码我才能相信你。",
+      "timestamp": 1740681116.597836
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份表示怀疑，并要求验证学校电话号码以确认其真实性。用户可能意识到对话存在诈骗风险，因此主动挂断电话以避免进一步的潜在损失或信息泄露。用户的意图是通过挂断来终止可能的诈骗行为，保护自己和家人的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

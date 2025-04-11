@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李明的家属吗？这里是警方，李明出事了，需要你立即过来处理。",
+      "timestamp": 1740748055.0606034
+    },
+    {
+      "role": "right",
+      "content": "警察先生，你说李明出事了？这到底是怎么回事？他现在在哪里？我需要更多的信息才能过来。",
+      "timestamp": 1740748056.7516286
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者提供的信息不足且要求立即行动而感到怀疑，选择挂断电话以避免进一步的诈骗。用户的意图是停止与诈骗者的交流，防止个人信息泄露或财务损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

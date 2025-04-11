@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行账户安全专员，这里显示您的账户可能有安全风险，为了您的资金安全，请问您可以提供一下您的身份证号码以便我们进行核实吗？",
+      "timestamp": 1740750574.84928
+    },
+    {
+      "role": "right",
+      "content": "您好，我明白您是出于好意，但银行通常不会通过电话或短信索要我的个人信息。为了确保安全，我建议您提供一个官方的联系方式，我将直接与银行联系确认这个问题。这样做更安全，您觉得呢？",
+      "timestamp": 1740750579.8421373
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户挂断电话的原因是因为他们意识到了潜在的诈骗风险，并且不愿意提供个人信息。用户表现出了一定的安全意识，选择通过官方渠道来确认账户的安全问题，而不是直接回应电话中的请求。这表明用户对电话的来源和意图持怀疑态度，并采取了更加谨慎的措施来保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询服务人员，有什么可以帮助您的吗？",
+      "timestamp": 1740950633.2005208
+    },
+    {
+      "role": "right",
+      "content": "谢谢您，目前没有需要帮助的。如果有问题我会联系您的。谢谢！",
+      "timestamp": 1740950634.9170182
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户明确表示当前没有需要帮助的事项，并对服务方表达了感谢。用户同时提到如果有问题会再次联系，这表明用户对服务方的服务感到满意，并且认为没有必要继续当前的对话。用户使用了结束标识符'##ENDCALL_SIGNAL##'，进一步确认了结束对话的意图。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

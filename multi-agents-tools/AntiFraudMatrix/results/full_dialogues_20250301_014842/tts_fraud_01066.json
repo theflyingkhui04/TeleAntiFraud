@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家反欺诈中心，我们监测到您的个人信息可能已被泄露，为了您的安全，请尽快与我们联系。",
+      "timestamp": 1740785713.815431
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？那我该怎么办呢？你们能帮我解决这个问题吗？",
+      "timestamp": 1740785718.1442888
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者声称是国家反欺诈中心并表示其个人信息可能已被泄露后，表现出了一定的兴趣和担忧，但随即挂断了电话。这可能是因为用户意识到这可能是诈骗电话，或者用户对这种突如其来的警告感到不安，选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

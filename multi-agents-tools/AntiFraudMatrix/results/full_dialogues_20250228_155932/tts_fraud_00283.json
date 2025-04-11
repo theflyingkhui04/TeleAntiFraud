@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，叔叔，我是小明的朋友，小明现在在我这里，他出事了，您需要尽快准备十万元，转到我提供的账户上，不然我不能保证他的安全。",
+      "timestamp": 1740745310.5431428
+    },
+    {
+      "role": "right",
+      "content": "你先别急，你说你是小明的朋友，能告诉我你是怎么认识小明的吗？还有，小明到底出了什么事？我需要确认一下。",
+      "timestamp": 1740745316.128018
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出谨慎的态度，要求诈骗者提供更多的信息以确认情况的真实性。用户可能已经怀疑这是一起诈骗，并通过要求详细信息来验证对方的身份。由于诈骗者未能提供足够的信息来消除用户的疑虑，用户选择主动挂断电话，以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

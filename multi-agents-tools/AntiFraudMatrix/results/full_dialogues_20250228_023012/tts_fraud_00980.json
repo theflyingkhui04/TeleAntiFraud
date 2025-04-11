@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张先生吗？我是李华，是您儿子小杰的同学。刚才小杰在放学的路上被几个混混挟持了，我现在和他们在一起，他们要求我联系您。请您一定要冷静，我需要您按照我说的做，不然他们可能会对小杰不利。",
+      "timestamp": 1740686428.1329951
+    },
+    {
+      "role": "right",
+      "content": "你等一下，你说你是小杰的同学李华？我怎么从来没有听说过你？而且，你为什么会在这种情况下联系我，而不是报警？这听起来太不寻常了，我需要确认一下。",
+      "timestamp": 1740686430.271295
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份和动机产生了怀疑，认为情况不寻常，可能涉及诈骗。用户在表达疑虑后主动挂断了电话，表明用户意识到可能的诈骗行为并决定不再继续对话，以保护自己和家人的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

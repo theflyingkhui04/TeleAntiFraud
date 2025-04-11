@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是工商银行的客服专员，工号零零五一六。我们系统检测到您的银行账户可能存在异常交易，为了保障您的资金安全，需要您配合我们进行身份验证。您现在方便接听电话吗？",
+      "timestamp": 1740745025.5500238
+    },
+    {
+      "role": "right",
+      "content": "哦，你好。我刚从田里回来，有点累，但还是可以的。你说我的账户有问题？这可怎么办啊？需要我怎么做呢？",
+      "timestamp": 1740745027.5988803
+    },
+    {
+      "role": "left",
+      "content": "非常理解您的情况，不过请您放心，我们只需要核实一下您的个人信息，确保账户的安全。请问您可以提供一下开户时的身份证号码吗？这样我们可以尽快帮您解决问题。",
+      "timestamp": 1740745035.7917957
+    },
+    {
+      "role": "right",
+      "content": "好的好的，我理解。身份证号码是……等一下，我去找找身份证。你稍等一下。",
+      "timestamp": 1740745039.2948349
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到对方要求提供敏感信息（身份证号码），出于安全考虑选择挂断电话。用户的意图是避免可能的诈骗风险，保护个人隐私和资金安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，请问有什么问题需要我来帮忙解决呢？",
+      "timestamp": 1740955454.0688205
+    },
+    {
+      "role": "right",
+      "content": "你好，小张，我最近遇到了一些问题，希望能得到你的帮助。",
+      "timestamp": 1740955455.3212562
+    },
+    {
+      "role": "left",
+      "content": "当然可以，请告诉我您遇到的具体问题是什么，我会尽力帮您解决。",
+      "timestamp": 1740955462.678421
+    },
+    {
+      "role": "right",
+      "content": "好的，我最近在使用公司的报销系统时，发现有一笔报销一直没有审核通过，已经等了好几天了，不知道是怎么回事。",
+      "timestamp": 1740955464.7752795
+    },
+    {
+      "role": "left",
+      "content": "了解了，这种情况可能是由于系统审核流程中的某个环节出现了延迟。您可以先检查一下报销单据是否填写完整，附件是否上传齐全。如果都没有问题，我建议您联系财务部门，询问具体的审核进度。",
+      "timestamp": 1740955469.6110632
+    },
+    {
+      "role": "right",
+      "content": "好的，我检查一下单据和附件，如果都没有问题，就联系财务部门问问。谢谢你的建议，小张。",
+      "timestamp": 1740955471.2224848
+    },
+    {
+      "role": "left",
+      "content": "好的，感谢您的理解和支持。如果有任何其他问题，随时欢迎联系我们。希望您的问题能够尽快得到解决。再见。",
+      "timestamp": 1740955477.3828025
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，再见。",
+      "timestamp": 1740955478.9524572
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示感谢并接受了建议，问题得到了初步解决，用户没有进一步的问题或需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，感谢您的理解和支持。如果有任何其他问题，随时欢迎联系我们。希望您的问题能够尽快得到解决。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

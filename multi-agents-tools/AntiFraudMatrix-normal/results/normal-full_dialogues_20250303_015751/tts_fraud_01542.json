@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约什么项目？",
+      "timestamp": 1740975638.302201
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下你们的维修服务，具体是家电维修。可以帮我安排一下吗？",
+      "timestamp": 1740975639.7601027
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在对话开始时就已经提供了结束信号代码 '##ENDCALL_SIGNAL##'，这表明服务方可能在用户提问之前就已经结束了对话。用户在不知情的情况下提出了自己的需求，并也提供了结束信号代码 '##ENDCALL_SIGNAL##'。这可能是由于技术问题或误解导致的对话提前结束。用户的意图是了解并预约家电维修服务，但由于服务方提前结束对话，用户的实际需求未能得到满足。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

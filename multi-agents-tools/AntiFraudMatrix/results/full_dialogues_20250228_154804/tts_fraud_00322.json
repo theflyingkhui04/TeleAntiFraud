@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是王强吗？我是你儿子的同学李明，现在遇到点麻烦，你儿子被我们带到这里了，你必须马上给我们转账五万块钱，否则他会有危险。",
+      "timestamp": 1740749931.2359567
+    },
+    {
+      "role": "right",
+      "content": "什么？我的儿子？你们在哪里？我怎么联系他？我需要先确认他的安全。",
+      "timestamp": 1740749932.739289
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为感到情况不正常或怀疑对方身份而选择挂断电话，意图是避免进一步陷入可能的诈骗陷阱，同时可能打算通过其他方式确认儿子的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

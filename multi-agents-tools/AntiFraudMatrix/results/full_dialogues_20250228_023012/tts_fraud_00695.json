@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "这里是XX快递公司的客服，我们发现您有一个国际包裹被海关扣留，需要您提供身份信息和缴纳一定的税费才能放行。请问您现在方便处理吗？",
+      "timestamp": 1740682326.2352645
+    },
+    {
+      "role": "right",
+      "content": "等等，这听起来不太对劲。我最近没有订购任何国际包裹，而且你们为什么需要我的身份信息？这会不会是诈骗？我建议你们先提供一些具体的包裹信息，比如订单号和寄件人信息，我再决定是否继续处理。",
+      "timestamp": 1740682329.9817607
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

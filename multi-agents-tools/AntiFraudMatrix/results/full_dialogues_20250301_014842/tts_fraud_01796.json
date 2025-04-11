@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友小李的同事，现在小李出事了，他被一伙人绑架了，您能马上过来帮忙吗？我们的时间不多了。",
+      "timestamp": 1740795191.797842
+    },
+    {
+      "role": "right",
+      "content": "什么？小李被绑架了？这太突然了，你们现在在哪里？我马上过来。不过我需要先确认一下，你叫什么名字？我认识小李的同事，我想确认一下你是哪一位。",
+      "timestamp": 1740795194.6419783
+    },
+    {
+      "role": "left",
+      "content": "我是小刘，我们没时间解释这么多了，小李的状况很危险，绑匪要求我们在一个小时之内支付一笔赎金，否则他们就要对小李不利。您能帮我们吗？",
+      "timestamp": 1740795199.4740717
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者挂断电话的原因可能是用户提出了需要确认对方身份的问题，这可能让诈骗者感到用户开始警惕并可能识破骗局。为了避免进一步的质疑和暴露，诈骗者选择迅速结束对话，以防止诈骗计划失败。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

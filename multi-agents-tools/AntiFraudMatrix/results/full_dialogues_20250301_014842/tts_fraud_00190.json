@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，您的账户近期有异常活动，为了您的资金安全，我们需要您提供一些信息进行核实。请问您现在方便吗？",
+      "timestamp": 1740786201.0037446
+    },
+    {
+      "role": "right",
+      "content": "嗯，我现在有点忙，不过可以稍微听你说一下。你说我的账户有异常活动？这听起来挺严重的。",
+      "timestamp": 1740786202.5517647
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出一定的警惕性，可能是因为诈骗者提到的账户异常活动引起了用户的警觉，但用户同时也表示自己很忙，可能没有时间或不愿意继续深入对话。用户主动挂断电话，可能是为了避免进一步的交流，减少被诈骗的风险，或者是因为确实有其他事情需要处理。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是全国彩票管理中心，恭喜您获得了我们最新一期的特别大奖，奖金高达五百万元！请问我可以叫您什么名字呢？",
+      "timestamp": 1740733712.7206025
+    },
+    {
+      "role": "right",
+      "content": "您好，我叫李医生。不过我从没买过彩票，这可能是搞错了吧？",
+      "timestamp": 1740733737.1996453
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户意识到这是一个诈骗电话，因为用户明确表示自己从未购买过彩票，这与诈骗者声称用户中奖的情况不符。用户使用'##ENDCALL_SIGNAL##'作为挂断信号，表明用户选择主动结束对话，以避免进一步的诈骗尝试。用户的意图是保护自己的个人信息和财产安全，避免与诈骗者继续交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

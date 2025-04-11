@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么可以帮助您的吗？",
+      "timestamp": 1740945015.6017737
+    },
+    {
+      "role": "right",
+      "content": "嗯，我想买点零食，有什么推荐的吗？",
+      "timestamp": 1740945016.5848103
+    },
+    {
+      "role": "left",
+      "content": "我们这里的薯片、坚果和巧克力都很受欢迎，您喜欢哪种口味的？",
+      "timestamp": 1740945022.4140742
+    },
+    {
+      "role": "right",
+      "content": "那就来一包薯片和一包坚果吧，谢谢。",
+      "timestamp": 1740945024.533368
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您决定了，可以告诉我您想要的口味和数量，我会帮您准备好。感谢您的光临，祝您购物愉快！",
+      "timestamp": 1740945030.4730175
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会考虑一下的。",
+      "timestamp": 1740945032.8057609
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了想要购买的商品，并表示了感谢，对话目标已达成。",
+  "terminator": "service",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您决定了，可以告诉我您想要的口味和数量，我会帮您准备好。感谢您的光临，祝您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会考虑一下的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

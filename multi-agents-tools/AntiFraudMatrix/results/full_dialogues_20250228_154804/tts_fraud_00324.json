@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李华先生吗？我是您的老朋友张明，现在遇到点麻烦，需要您的帮助。",
+      "timestamp": 1740729866.9654052
+    },
+    {
+      "role": "right",
+      "content": "张明？好久没联系了，你遇到什么麻烦了？怎么帮？",
+      "timestamp": 1740729869.035751
+    },
+    {
+      "role": "left",
+      "content": "李华，我现在真的非常着急，我被一些不明身份的人扣押了，他们要求我必须联系你，让你转账五万元才能放了我。你一定要救救我！",
+      "timestamp": 1740729879.5800278
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在描述了一个紧急且需要立即行动的场景后主动挂断电话，可能是为了制造紧张气氛，使用户在再次联系时更加急迫地想要提供帮助，从而增加诈骗成功的可能性。这种突然挂断的策略可以防止用户有时间冷静思考或核实情况，同时给用户留下强烈的印象，促使用户主动回拨电话，进一步陷入诈骗者的圈套。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

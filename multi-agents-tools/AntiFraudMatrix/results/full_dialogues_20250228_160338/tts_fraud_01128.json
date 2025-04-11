@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你儿子现在在我们手上，如果不希望他出事，立刻准备两百万元现金，否则后果自负！",
+      "timestamp": 1740731012.677648
+    },
+    {
+      "role": "right",
+      "content": "你们到底是谁？你们为什么要这么做？我儿子到底怎么了？你们先放了他，有什么事情我们可以好好谈！",
+      "timestamp": 1740731015.7639792
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在面对诈骗者的威胁时，表现出极度的担忧和不安，试图通过沟通了解儿子的真实情况。然而，诈骗者并未提供任何实质性的信息，反而继续施加压力，要求用户支付赎金。在这种情况下，用户可能因为无法确认儿子的安全状况，感到无助和恐慌，最终选择挂断电话以避免进一步的威胁和压力。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

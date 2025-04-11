@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自财富资产管理公司的李文，我们公司最近推出了一款超高收益的投资项目，年化收益率可以达到百分之二十五，您有兴趣了解一下吗？",
+      "timestamp": 1740757144.0061162
+    },
+    {
+      "role": "right",
+      "content": "你好，李文。我现在失业，经济状况不是很好，所以不太考虑高风险的投资。不过，你们这个项目听起来收益很高，具体是怎么操作的？我了解一下。",
+      "timestamp": 1740757146.667854
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在表达出对高风险投资的谨慎态度后，出于礼貌询问了项目详情，但随即挂断电话。这表明用户可能对诈骗者的身份或项目的合法性产生了怀疑，或者用户意识到这可能是一个诈骗电话，因此选择立即终止对话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

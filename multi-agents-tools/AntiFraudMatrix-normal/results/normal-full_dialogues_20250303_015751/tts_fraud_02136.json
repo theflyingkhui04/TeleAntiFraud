@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服专员小张为您服务，有什么问题我可以帮您解决呢？",
+      "timestamp": 1740981260.0614598
+    },
+    {
+      "role": "right",
+      "content": "您好，小张。我是老王，之前在你们餐厅吃过几次饭，想问一下你们有没有推出新的菜单？",
+      "timestamp": 1740981261.381924
+    },
+    {
+      "role": "left",
+      "content": "您好，老王！感谢您对我们的关注，我们最近确实推出了几款新菜品，包括香辣蟹、蒜蓉西兰花和黑椒牛柳，口味都很不错，您感兴趣的话可以来尝一尝。",
+      "timestamp": 1740981265.14722
+    },
+    {
+      "role": "right",
+      "content": "好的，听上去很不错。我打算周末再去，那时候人多不多？",
+      "timestamp": 1740981266.0360854
+    },
+    {
+      "role": "left",
+      "content": "周末的时候客人确实会多一些，为了保证您的用餐体验，建议您提前预订，这样可以确保有座位。您需要我现在帮您预订吗？",
+      "timestamp": 1740981269.249079
+    },
+    {
+      "role": "right",
+      "content": "那麻烦您帮我预订一个靠窗的位置，两个人的，大概周六下午五点左右。谢谢啦。",
+      "timestamp": 1740981270.4874468
+    },
+    {
+      "role": "left",
+      "content": "好的，老王，那我帮您预订一个四人桌，周六晚上六点半，这样可以吗？如果有什么变化，您可以随时联系我们。祝您周末用餐愉快！",
+      "timestamp": 1740981278.1055176
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，六点半也行。周末见！",
+      "timestamp": 1740981279.4859152
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "服务方已成功为用户预订了位置，并提供了所需信息，对话目标已达成。",
+  "terminator": "service",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，老王，那我帮您预订一个四人桌，周六晚上六点半，这样可以吗？如果有什么变化，您可以随时联系我们。祝您周末用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您，六点半也行。周末见！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

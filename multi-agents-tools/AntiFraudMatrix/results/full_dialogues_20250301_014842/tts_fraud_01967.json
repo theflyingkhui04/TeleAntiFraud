@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行的客服中心，我是客服代表小张。我们发现您的银行卡可能存在异常交易，为了保障您的资金安全，需要您配合我们进行核实。请问您现在方便吗？",
+      "timestamp": 1740779606.5174181
+    },
+    {
+      "role": "right",
+      "content": "您好，小张。我确实方便，不过我最近没有发现银行卡有任何异常，你们是怎么发现的呢？",
+      "timestamp": 1740779608.9410145
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在确认了诈骗者的身份和意图后，可能意识到这是一起诈骗行为，因此选择立即挂断电话以避免进一步的交流。用户的意图是终止对话，防止个人信息泄露或资金损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

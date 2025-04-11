@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX彩票公司的客服，您中了我们公司的大奖，奖金高达五十万元，请问您现在方便接听电话吗？",
+      "timestamp": 1740743185.9657898
+    },
+    {
+      "role": "right",
+      "content": "您好,我最近好像没有买过彩票啊,您是不是搞错了?而且我听说很多骗子都冒充中奖来骗钱,您能先证明一下您的身份吗?\n",
+      "timestamp": 1740743204.3662338
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表达了对诈骗的怀疑，并要求对方证明身份。由于用户对中奖信息的怀疑和对身份验证的要求，诈骗者未能提供令人信服的证据，导致用户认为这是一起诈骗行为，因此选择主动挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

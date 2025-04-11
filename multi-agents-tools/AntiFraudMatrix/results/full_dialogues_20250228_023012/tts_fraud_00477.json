@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您！您已被系统随机选中成为本期彩票大奖的幸运得主！请告诉我您的姓名和联系方式，以便我们核实并为您办理领奖手续。",
+      "timestamp": 1740690901.2913525
+    },
+    {
+      "role": "right",
+      "content": "这个消息听起来太好了，但我在村里很少买彩票，更别提中大奖了。你们能告诉我这是哪个彩票公司吗？我得确认一下。",
+      "timestamp": 1740690907.9262927
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的说法表示怀疑，并要求提供更多信息以确认消息的真实性。用户可能意识到这是一个诈骗电话，因此选择挂断电话以避免进一步的潜在风险。用户的意图是保护自己不受诈骗，并通过挂断电话来结束对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

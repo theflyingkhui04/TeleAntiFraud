@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，您好！我是国际快递公司的客服人员，我们发现您有一个重要的包裹被海关扣留，需要您立即处理相关费用以避免进一步的法律问题。请问您现在方便通话吗？",
+      "timestamp": 1740688463.481725
+    },
+    {
+      "role": "right",
+      "content": "哦，您好！我确实有一段时间没收到包裹了，可能就是这个。您能告诉我具体是什么包裹吗？我好确认一下。",
+      "timestamp": 1740688465.1378138
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能出于谨慎考虑，选择在进一步确认信息前挂断电话。用户可能希望通过其他方式（如直接联系快递公司或查看官方通知）来验证此信息的真实性，以避免潜在的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

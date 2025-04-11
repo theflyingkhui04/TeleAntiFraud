@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，您需要预约哪一项服务呢？",
+      "timestamp": 1740970946.314403
+    },
+    {
+      "role": "right",
+      "content": "你好，我想预约一个常规体检。",
+      "timestamp": 1740970947.4032054
+    },
+    {
+      "role": "left",
+      "content": "好的，常规体检预约已经为您记录。请问您希望预约哪一天进行体检？",
+      "timestamp": 1740970953.0869772
+    },
+    {
+      "role": "right",
+      "content": "下周三怎么样？",
+      "timestamp": 1740970953.9173727
+    },
+    {
+      "role": "left",
+      "content": "下周三我们有空档，您希望上午还是下午来呢？",
+      "timestamp": 1740970959.4412172
+    },
+    {
+      "role": "right",
+      "content": "上午吧，谢谢。",
+      "timestamp": 1740970960.413001
+    },
+    {
+      "role": "left",
+      "content": "好的，上午的体检时间是 8:00 到 11:00，您具体希望哪个时间段呢？",
+      "timestamp": 1740970967.1427734
+    },
+    {
+      "role": "right",
+      "content": "9:00 左右可以吗？",
+      "timestamp": 1740970969.0711696
+    },
+    {
+      "role": "left",
+      "content": "9:00 没问题，已经为您预约成功。您的预约编号是 123456，请您在就诊时出示。我们会提前一天给您发送提醒短信。还有什么其他需求吗？",
+      "timestamp": 1740970978.705758
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约时间、提供了预约编号，并告知了提醒短信的发送后，询问用户是否有其他需求。用户没有进一步的需求，服务方通过使用结束标识符 ##ENDCALL_SIGNAL## 表示服务流程已经完成，且用户的问题已得到解决，因此选择结束对话。服务方的意图是确保用户满意并完成服务流程。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

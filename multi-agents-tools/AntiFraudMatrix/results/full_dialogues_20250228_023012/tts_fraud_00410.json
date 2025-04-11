@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你的孩子现在在我手上，马上准备50万赎金，不要报警，否则你就再也见不到他了！",
+      "timestamp": 1740687689.0545416
+    },
+    {
+      "role": "right",
+      "content": "你别吓我，我怎么可能有50万！你先让我听听孩子的声音，证明他真的在你那儿。",
+      "timestamp": 1740687691.8907588
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为感到极度恐慌和不确定对方的真实性，选择挂断电话以保护自己不受进一步的恐吓。用户的意图可能是暂时中断对话，以冷静下来并考虑下一步行动，例如联系家人或报警。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

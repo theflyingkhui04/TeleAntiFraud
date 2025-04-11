@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你听好了，你的儿子现在在我们手上，如果你不想看到他出事，就赶紧准备五万块钱，不要报警，否则后果自负。",
+      "timestamp": 1740746379.67104
+    },
+    {
+      "role": "right",
+      "content": "什么？你们别伤害我儿子，我这就去准备钱，你们一定要保证他的安全。",
+      "timestamp": 1740746382.0563476
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者威胁后，表现出极度的恐慌和担心，可能是因为害怕诈骗者会伤害其儿子，或是担心情况的真实性，因此立即挂断电话，可能是为了尽快去准备钱，或是寻求其他帮助。用户的意图是尽快解决当前危机，保护其儿子的安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

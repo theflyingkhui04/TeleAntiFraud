@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自慧通投资的李经理，最近我们发现一个非常有潜力的投资项目，您是否有兴趣了解一下？",
+      "timestamp": 1740818307.9996662
+    },
+    {
+      "role": "right",
+      "content": "李经理，您好。投资这事儿我了解得不多，不过我听说现在骗子很多，您能不能先告诉我这个项目具体是做什么的？",
+      "timestamp": 1740818310.356169
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为对诈骗者提供的信息持怀疑态度，要求更多具体信息以验证对方的真实性。在诈骗者未能提供足够令人信服的信息前，用户选择挂断电话，以避免潜在的风险。这表明用户具有一定的防骗意识，不愿意在没有充分了解的情况下继续对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

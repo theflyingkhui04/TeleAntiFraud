@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生/女士，我是您的老朋友小李，现在有个非常紧急的事情需要您帮忙，我的朋友小王被人绑架了，绑匪要求立即支付赎金，否则就要对小王不利，您能帮帮我们吗？",
+      "timestamp": 1740805205.1350973
+    },
+    {
+      "role": "right",
+      "content": "小李啊，你这是怎么了？小王被绑架了？这可真是个紧急的事情。但是，我得确认一下，这到底是怎么回事，绑匪要多少钱？你有报警吗？",
+      "timestamp": 1740805208.0627103
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的紧急情况后，表现出一定的关心，但同时也提出了合理的质疑，要求更多细节并询问是否已经报警。这表明用户可能已经开始怀疑诈骗者的真实性。用户最终选择挂断电话，可能是为了进一步核实情况，避免直接在电话中做出承诺或提供信息，显示出用户具有一定的警惕性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

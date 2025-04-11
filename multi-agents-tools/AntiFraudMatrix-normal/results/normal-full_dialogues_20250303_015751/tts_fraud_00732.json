@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是交通咨询助手，可以帮您查询路线和交通信息，请告诉我您的出发地和目的地。",
+      "timestamp": 1740955669.9854727
+    },
+    {
+      "role": "right",
+      "content": "好的，我的出发地是学校，目的地是市中心图书馆。",
+      "timestamp": 1740955671.1257827
+    },
+    {
+      "role": "left",
+      "content": "从学校到市中心图书馆的路线，您可以乘坐公交2路或者地铁1号线，公交大约需要四十分钟，地铁则需要二十五分钟左右。您需要我帮您查询具体的发车时间吗？",
+      "timestamp": 1740955677.0312068
+    },
+    {
+      "role": "right",
+      "content": "不用了，谢谢。我知道怎么查。",
+      "timestamp": 1740955678.269196
+    },
+    {
+      "role": "left",
+      "content": "路线信息已提供，希望对您有所帮助，祝您旅途愉快。如果有其他问题，欢迎随时咨询。",
+      "timestamp": 1740955684.3873737
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740955685.218552
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需信息，并明确表示不再需要进一步的帮助，同时表达了感谢。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "路线信息已提供，希望对您有所帮助，祝您旅途愉快。如果有其他问题，欢迎随时咨询。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

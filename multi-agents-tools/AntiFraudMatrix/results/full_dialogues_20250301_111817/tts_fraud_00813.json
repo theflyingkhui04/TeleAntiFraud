@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您儿子的朋友，他现在出了点事，需要您的帮助。您能听我解释一下吗？",
+      "timestamp": 1740800634.539533
+    },
+    {
+      "role": "right",
+      "content": "哎呀，你说什么？我儿子出事了？你快告诉我，他在哪儿？需要我怎么做？",
+      "timestamp": 1740800637.8930097
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为情绪激动，担心儿子的安全，急于了解情况而没有等待对方详细解释就挂断了电话。用户的意图是尽快获取更多信息，可能认为通过其他方式（如直接联系儿子或报警）能更快解决问题。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想点什么吗？",
+      "timestamp": 1740965765.2058167
+    },
+    {
+      "role": "right",
+      "content": "好的，我想点一份牛肉炒饭和一份宫保鸡丁，还有一杯冰红茶。谢谢。",
+      "timestamp": 1740965766.8351276
+    },
+    {
+      "role": "left",
+      "content": "好的，您点的是一份牛肉炒饭、一份宫保鸡丁和一杯冰红茶，需要配餐具和餐巾纸吗？",
+      "timestamp": 1740965771.7190812
+    },
+    {
+      "role": "right",
+      "content": "需要，谢谢。还有，麻烦帮我确认一下订单信息。",
+      "timestamp": 1740965773.3986912
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单包括一份牛肉炒饭、一份宫保鸡丁、一杯冰红茶，还需要餐具和餐巾纸。请问您的送餐地址和联系电话是什么？",
+      "timestamp": 1740965778.9072366
+    },
+    {
+      "role": "right",
+      "content": "地址是XX路XX号XX小区X栋X单元X楼X号，电话是138XXXX5678。谢谢。",
+      "timestamp": 1740965783.3000817
+    },
+    {
+      "role": "left",
+      "content": "您的订单已确认，地址是XX路XX号XX小区X栋X单元X楼X号，电话是138XXXX5678。我们会在30到40分钟内为您送达。如果您有任何其他需求，请随时联系我们。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740965789.2702222
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单信息、送餐地址和联系电话后，明确告知了用户订单的配送时间，并表达了感谢和祝福。服务方使用了结束标识符'##ENDCALL_SIGNAL##'，表明对话目标已达成，服务流程已完成，因此服务方选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

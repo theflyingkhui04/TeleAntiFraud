@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是张先生的朋友。他现在遇到了非常紧急的情况，需要您的帮助。",
+      "timestamp": 1740802391.8106441
+    },
+    {
+      "role": "right",
+      "content": "张先生的朋友？你能具体说说发生了什么吗？我需要确认一下这是真的。",
+      "timestamp": 1740802393.8244004
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在要求诈骗者提供更具体的信息以确认情况的真实性时，诈骗者未给出进一步的解释，而是直接挂断了电话。这可能是因为诈骗者意识到用户已经开始怀疑并要求提供更多的验证信息，为了避免进一步的质疑和暴露，选择了终止对话。用户的意图是希望通过询问更多细节来验证对方身份的真实性，但未能得到满意的回答。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

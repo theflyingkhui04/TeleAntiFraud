@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你听着，你的儿子现在在我手上！如果不想他出事，立刻准备二十万现金，不许报警，否则你就等着给他收尸吧！",
+      "timestamp": 1740740890.6917546
+    },
+    {
+      "role": "right",
+      "content": "你别吓我，你得让我证明你真的抓了我的儿子，不然我怎么相信你？你先让他跟我说句话，我好确认是真的。",
+      "timestamp": 1740740894.107052
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中提出了合理的要求，即要求诈骗者提供证据证明其儿子被绑架，以确认信息的真实性。诈骗者未能提供任何实质性证据，反而继续施压要求支付赎金。用户可能意识到对话的虚假性，或者对诈骗者的威胁感到不安，因此选择挂断电话以避免进一步的威胁或诈骗行为。用户的意图可能是保护自己和家人免受潜在的诈骗或威胁，同时试图通过要求证据来验证信息的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

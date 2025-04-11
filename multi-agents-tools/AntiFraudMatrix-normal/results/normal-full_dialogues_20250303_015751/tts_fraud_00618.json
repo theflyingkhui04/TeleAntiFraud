@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，您可以告诉我想订购哪家餐厅和什么菜品吗？",
+      "timestamp": 1740965445.4492848
+    },
+    {
+      "role": "right",
+      "content": "嗨，谢谢。我想订个农家菜，有什么推荐的吗？",
+      "timestamp": 1740965446.7253013
+    },
+    {
+      "role": "left",
+      "content": "当然，我们有几家很受欢迎的农家菜餐厅，比如“山野人家”和“田园小筑”，两家都有非常不错的口碑。您想要尝试哪家的菜品呢？",
+      "timestamp": 1740965451.6513255
+    },
+    {
+      "role": "right",
+      "content": "“山野人家”听起来不错，有什么招牌菜吗？",
+      "timestamp": 1740965454.7194574
+    },
+    {
+      "role": "left",
+      "content": "“山野人家”的招牌菜有清炒时蔬、农家小炒肉和手撕包菜，这些菜品都保留了食材的原汁原味，非常受欢迎。您想试试这些吗？",
+      "timestamp": 1740965462.616543
+    },
+    {
+      "role": "right",
+      "content": "那就来一份农家小炒肉和一份清炒时蔬吧。对了，你们这边大概多久能送到？",
+      "timestamp": 1740965465.0879517
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录。通常情况下，如果您所在的位置在配送范围内，大约需要30到40分钟送达。我们会尽快为您安排配送。还需要加点别的吗？",
+      "timestamp": 1740965470.8455
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这些吧。谢谢。",
+      "timestamp": 1740965471.801064
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计30到40分钟后送达。如果您有任何其他需求，可以随时联系我们。感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740965480.625535
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。",
+      "timestamp": 1740965482.2147112
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单内容，并表示不再需要其他服务，同时表达了感谢，表明对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计30到40分钟后送达。如果您有任何其他需求，可以随时联系我们。感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。期待美食。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

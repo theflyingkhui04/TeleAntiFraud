@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是紧急联络中心。您的亲人出事了，现在情况非常危急，我需要您立即配合我们。",
+      "timestamp": 1740728900.1688628
+    },
+    {
+      "role": "right",
+      "content": "什么？我的亲人出事了？您能告诉我具体是什么情况吗？我需要了解一下详细信息。",
+      "timestamp": 1740728901.8620815
+    },
+    {
+      "role": "left",
+      "content": "情况非常紧急，您的亲人现在被我们控制了，如果您想确保他的安全，必须按照我们的要求行事。时间不多了，我需要您马上准备一笔钱作为赎金。",
+      "timestamp": 1740728908.8515732
+    },
+    {
+      "role": "right",
+      "content": "天哪，这太突然了。您能告诉我这是怎么回事吗？我需要确认一下，不然我也不知道该怎么办。",
+      "timestamp": 1740728911.1914601
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者要求准备赎金时，可能意识到了这是诈骗行为，因为正常的紧急情况不会立即要求支付赎金。用户通过挂断电话来结束对话，避免进一步的交流和可能的财产损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

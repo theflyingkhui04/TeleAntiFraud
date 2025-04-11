@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是您的银行客服，我们发现您的账户有异常活动，为了确保您的资金安全，需要您提供一些信息进行身份验证。",
+      "timestamp": 1740739901.3030627
+    },
+    {
+      "role": "right",
+      "content": "哦，是吗？我的账户有异常活动？这听起来挺严重的。我需要做什么呢？",
+      "timestamp": 1740739904.359893
+    },
+    {
+      "role": "left",
+      "content": "是的，情况确实比较紧急。为了您的安全，请您提供身份证号码和银行账户的最后四位数字，我们需要确认您的身份。",
+      "timestamp": 1740739960.075001
+    },
+    {
+      "role": "right",
+      "content": "啊，这么重要的事情啊...（犹豫了一下）不过我记得之前看新闻说，不能随便把个人信息给别人...这个，要不我还是先打个电话给银行确认一下吧？",
+      "timestamp": 1740739966.0413785
+    },
+    {
+      "role": "left",
+      "content": "非常抱歉打扰您，既然您还有疑虑，那我们稍后会再联系您确认具体情况。感谢您的理解，祝您生活愉快。",
+      "timestamp": 1740740013.8297873
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的理解。我会尽快联系银行确认一下。祝您一天愉快。",
+      "timestamp": 1740740028.647409
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表达了对提供个人信息的犹豫，并明确表示要先打电话给银行确认情况，这表明用户已经意识到潜在的诈骗风险并拒绝继续对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常抱歉打扰您，既然您还有疑虑，那我们稍后会再联系您确认具体情况。感谢您的理解，祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的理解。我会尽快联系银行确认一下。祝您一天愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

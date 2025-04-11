@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是银行客服中心，我们检测到您的账户存在异常交易，需要您立即核实身份信息以确保账户安全。请问您方便接听电话吗？",
+      "timestamp": 1740758424.7243226
+    },
+    {
+      "role": "right",
+      "content": "您好，我方便接听。请问有什么问题吗？",
+      "timestamp": 1740758425.8129747
+    },
+    {
+      "role": "left",
+      "content": "为了您的账户安全，我们需要核实一些信息。请您提供一下开户时登记的姓名和身份证号码，以便我们进行身份验证。",
+      "timestamp": 1740758431.1602783
+    },
+    {
+      "role": "right",
+      "content": "好的，我理解。我的姓名是张三，身份证号码是三十七零一零二一九九二零三一五六七八九。请帮我核实一下吧。",
+      "timestamp": 1740758434.0779924
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合，张三先生，我们已经记录了您的信息。为了确保您的账户安全，我们会在核实后尽快与您联系。请您保持电话畅通。",
+      "timestamp": 1740758438.2150671
+    },
+    {
+      "role": "right",
+      "content": "明白了，那我等你们的消息。谢谢，再见。",
+      "timestamp": 1740758441.976649
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（姓名和身份证号码），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的配合，张三先生，我们已经记录了您的信息。为了确保您的账户安全，我们会在核实后尽快与您联系。请您保持电话畅通。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "明白了，那我等你们的消息。谢谢，再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

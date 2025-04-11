@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户您好，这里是XX银行风险控制中心。我们检测到您的账户存在异常交易风险，需要立即核实您的身份信息以确保资金安全。请问您方便配合我们进行身份验证吗？",
+      "timestamp": 1740688801.1121805
+    },
+    {
+      "role": "right",
+      "content": "您好，我是XX大学的学生，最近确实没有进行过什么大额交易。不过，我之前也接到过类似的电话，说是银行的，最后发现是诈骗电话。所以，我需要确认一下您的身份。您能告诉我您的工号或者提供一个可以回拨的银行官方电话吗？",
+      "timestamp": 1740688806.2940514
+    },
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。",
+      "timestamp": 1740688816.8464108
+    },
+    {
+      "role": "right",
+      "content": "您好，我理解您的顾虑。不过，为了确保我的账户安全，我还是希望您能提供一个可以回拨的官方电话，这样我可以进一步确认。谢谢。",
+      "timestamp": 1740688856.8067677
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表示选择挂断电话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "API调用失败，无法生成回复。"
+    },
+    {
+      "role": "right",
+      "content": "您好，我理解您的顾虑。不过，为了确保我的账户安全，我还是希望您能提供一个可以回拨的官方电话，这样我可以进一步确认。谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

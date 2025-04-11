@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您想订哪家餐厅的餐呢？",
+      "timestamp": 1740954698.170389
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个快餐，有什么推荐的吗？",
+      "timestamp": 1740954699.0808036
+    },
+    {
+      "role": "left",
+      "content": "推荐您尝试我们合作的“快餐王”，他们家的汉堡和炸鸡非常受欢迎，口味多样，性价比也很高。需要我帮您下单吗？",
+      "timestamp": 1740954705.3260946
+    },
+    {
+      "role": "right",
+      "content": "好的，那就“快餐王”吧。来个双层牛肉堡和一份大薯条。",
+      "timestamp": 1740954707.5283475
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单里有双层牛肉堡和一份大薯条。还需要加点饮料或甜品吗？",
+      "timestamp": 1740954712.4653654
+    },
+    {
+      "role": "right",
+      "content": "来一杯可乐吧。",
+      "timestamp": 1740954714.1595857
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已加上一杯可乐。请问还有其他需要添加的吗？如果没有，我将为您确认订单。",
+      "timestamp": 1740954721.9686596
+    },
+    {
+      "role": "right",
+      "content": "没有了，就这些吧。",
+      "timestamp": 1740954722.9615805
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包括双层牛肉堡、大薯条和一杯可乐。预计三十分钟内送达，感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740954731.1954174
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740954732.5132344
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经确认了订单，没有其他需要添加的项目，服务方可以结束对话并确认订单。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包括双层牛肉堡、大薯条和一杯可乐。预计三十分钟内送达，感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

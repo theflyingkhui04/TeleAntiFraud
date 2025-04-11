@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "感谢您的来电，我是客服小张，有什么问题我可以帮您解决吗？",
+      "timestamp": 1740980375.8320878
+    },
+    {
+      "role": "right",
+      "content": "你好，我是李老师，我想咨询一下关于教师资格证的续期问题。",
+      "timestamp": 1740980377.5337288
+    },
+    {
+      "role": "left",
+      "content": "李老师您好，关于教师资格证的续期，您可以提供一下您的证书编号和联系方式吗？我这边帮您查询一下具体的信息。",
+      "timestamp": 1740980385.850137
+    },
+    {
+      "role": "right",
+      "content": "好的，我的证书编号是123456789，手机号码是13800138000。麻烦你了。",
+      "timestamp": 1740980388.6077087
+    },
+    {
+      "role": "left",
+      "content": "李老师，已经查到了您的信息。您的教师资格证续期需要在到期前三个月内完成，您可以登录教育局官网填写续期申请，并按要求提交相关材料。如果有其他疑问，可以继续告诉我。",
+      "timestamp": 1740980397.5233474
+    },
+    {
+      "role": "right",
+      "content": "明白了，谢谢你的帮助。我会尽快去办理的。",
+      "timestamp": 1740980399.0350254
+    },
+    {
+      "role": "left",
+      "content": "李老师，如果在续期过程中有任何问题，您可以随时联系我们的客服。祝您办理顺利，感谢您的咨询，再见。",
+      "timestamp": 1740980403.4754467
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。",
+      "timestamp": 1740980404.5390255
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需信息，并表达了感谢，表示将去办理续期手续。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "李老师，如果在续期过程中有任何问题，您可以随时联系我们的客服。祝您办理顺利，感谢您的咨询，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

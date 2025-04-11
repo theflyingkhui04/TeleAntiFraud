@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是客服代表小李。请问是张先生吗？我们发现您的银行卡可能有异常交易，需要您的配合进行核实。为了您的资金安全，请问您现在方便吗？",
+      "timestamp": 1740748410.501507
+    },
+    {
+      "role": "right",
+      "content": "哦，小李啊，你好。是的，我是张某某。你说我的银行卡有异常交易？这可怎么办啊，我这年龄大了，对这些事情不太懂，你能帮我解决吗？我正好现在有空，你说需要我怎么做吧。",
+      "timestamp": 1740748415.888945
+    },
+    {
+      "role": "left",
+      "content": "好的，张先生，我们会尽快处理这个问题，请您保持手机畅通，我们可能会再次与您联系。感谢您的配合，祝您生活愉快。再见。",
+      "timestamp": 1740748422.396918
+    },
+    {
+      "role": "right",
+      "content": "好的，小李，谢谢你。我等着你们的消息。再见。",
+      "timestamp": 1740748424.2347353
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明其选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，张先生，我们会尽快处理这个问题，请您保持手机畅通，我们可能会再次与您联系。感谢您的配合，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，小李，谢谢你。我等着你们的消息。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}

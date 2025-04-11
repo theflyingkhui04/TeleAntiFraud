@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您儿子的朋友，他在路上遇到了点麻烦，现在需要您的帮助。",
+      "timestamp": 1740810585.2454252
+    },
+    {
+      "role": "right",
+      "content": "什么麻烦？他现在在哪里？你能不能告诉我详细点？我儿子有没有受伤？",
+      "timestamp": 1740810587.4533825
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者提供的信息不足且过于突然，感到不信任或担心而选择挂断电话。用户的意图是避免进一步的风险或不确定性的交流，同时也可能是因为急于直接联系自己的儿子确认情况。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，我可以帮您完成订餐吗？",
+      "timestamp": 1740940448.1458764
+    },
+    {
+      "role": "right",
+      "content": "好的，我想订一份家常便饭，有什么推荐的吗？",
+      "timestamp": 1740940449.6272378
+    },
+    {
+      "role": "left",
+      "content": "我们有几款家常便饭非常受欢迎，比如红烧肉配米饭、鱼香肉丝配米饭和清蒸鱼配米饭，您看哪一款比较符合您的口味？",
+      "timestamp": 1740940457.6222467
+    },
+    {
+      "role": "right",
+      "content": "红烧肉配米饭听起来不错，就来这个吧。",
+      "timestamp": 1740940459.0328484
+    },
+    {
+      "role": "left",
+      "content": "好的，为您选择红烧肉配米饭。还需要加点其他的配菜或者饮品吗？",
+      "timestamp": 1740940463.2227616
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这个吧，谢谢。",
+      "timestamp": 1740940464.8956804
+    },
+    {
+      "role": "left",
+      "content": "好的，您的红烧肉配米饭已经下单成功，预计三十分钟内送达。如果还有其他需要，请随时联系我们。祝您用餐愉快！",
+      "timestamp": 1740940472.4188788
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740940473.4030726
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了菜品并且表示不需要其他配菜或饮品，服务方可以确认订单并结束对话。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的红烧肉配米饭已经下单成功，预计三十分钟内送达。如果还有其他需要，请随时联系我们。祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

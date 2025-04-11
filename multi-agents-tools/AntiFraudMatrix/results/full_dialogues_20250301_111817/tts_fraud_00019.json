@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是银行客服中心，您的账户可能涉及一笔异常交易，需要您配合确认一下。",
+      "timestamp": 1740801892.2822204
+    },
+    {
+      "role": "right",
+      "content": "啊，真的吗？我最近一直在田里忙，没怎么注意账户。你们能帮我看看是怎么回事吗？",
+      "timestamp": 1740801894.661317
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到这是一起诈骗电话而选择主动挂断。用户在对话中表现出了一定的警惕性，尽管最初表现出合作的意愿，但在诈骗者提到账户异常交易时，用户可能通过某些细节识破了诈骗者的意图，从而决定终止对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您，您刚刚中了我们彩票的特等奖，奖金高达五百万元！您相信自己的好运吗？",
+      "timestamp": 1740736239.3363495
+    },
+    {
+      "role": "right",
+      "content": "真的吗？这么好的事情怎么就让我遇到了呢？我得先跟我的家人商量一下，毕竟这是一笔不小的数目。谢谢您的通知，我再联系您。",
+      "timestamp": 1740736244.3846407
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在接到诈骗者的中奖通知后，表现出一定的怀疑和谨慎。用户提到需要与家人商量，这表明用户对突如其来的‘中奖’消息持保留态度，可能怀疑其真实性。用户的意图是通过挂断电话来避免进一步的诈骗尝试，同时也为自己争取时间去核实消息的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

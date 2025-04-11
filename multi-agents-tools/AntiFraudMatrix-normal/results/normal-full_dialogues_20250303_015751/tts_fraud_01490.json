@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想要订购的餐点和送餐地址吗？",
+      "timestamp": 1740975347.9173696
+    },
+    {
+      "role": "right",
+      "content": "好的，我想订一份牛肉炒饭和一份糖醋排骨，送餐地址是中山路123号，谢谢。",
+      "timestamp": 1740975353.4703782
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录，一份牛肉炒饭和一份糖醋排骨，送餐地址是中山路123号。请问需要什么时间送达呢？",
+      "timestamp": 1740975358.804188
+    },
+    {
+      "role": "right",
+      "content": "大概下午五点左右送到就可以了。",
+      "timestamp": 1740975359.9947224
+    },
+    {
+      "role": "left",
+      "content": "明白了，我们会尽量在下午五点前将餐送达。请问还有其他需求或特殊说明吗？比如餐具或辣度要求。",
+      "timestamp": 1740975364.7635403
+    },
+    {
+      "role": "right",
+      "content": "不需要特别的餐具，辣度就按默认的来吧。谢谢。",
+      "timestamp": 1740975366.3678465
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，我们会在下午五点前将餐送达中山路123号。如果有任何问题，我们会及时与您联系。感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740975374.0289912
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待餐点。祝好。",
+      "timestamp": 1740975375.2489254
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了所有必要的订单信息，包括餐点、送餐地址和时间，且没有其他特殊需求。服务方可以确认订单并结束对话。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，我们会在下午五点前将餐送达中山路123号。如果有任何问题，我们会及时与您联系。感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，期待餐点。祝好。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

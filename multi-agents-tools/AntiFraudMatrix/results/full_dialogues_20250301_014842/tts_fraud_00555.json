@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是社保局，我们注意到您的社保账户存在异常，需要立即核实您的身份信息。请问您的姓名和身份证号码是？ ",
+      "timestamp": 1740781398.7229204
+    },
+    {
+      "role": "right",
+      "content": "喂，社保局吗？你们是怎么回事啊，我从来没有接到过这种电话。你们是不是搞错了？我最近也没有听过我的社保有什么问题。你们先告诉我具体是什么问题，我再考虑要不要提供我的个人信息。 ",
+      "timestamp": 1740781401.2416735
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑电话的真实性而选择挂断。用户表达了对电话来源的质疑，并且不愿意在未确认问题的具体内容之前提供个人信息，显示出对个人信息安全的警惕性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

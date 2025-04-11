@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740953045.1941724
+    },
+    {
+      "role": "right",
+      "content": "您好，我想订一份素菜套餐，有什么推荐的吗？",
+      "timestamp": 1740953046.5099828
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款非常受欢迎的素菜套餐，比如四季豆炒豆腐、香菇青菜和素春卷组合，您看哪一款更合您的口味？",
+      "timestamp": 1740953055.0551472
+    },
+    {
+      "role": "right",
+      "content": "四季豆炒豆腐听起来不错，就选这个吧。",
+      "timestamp": 1740953055.9836173
+    },
+    {
+      "role": "left",
+      "content": "好的，四季豆炒豆腐套餐已加入您的订单。您需要加点什么饮料或者小食吗？",
+      "timestamp": 1740953061.64177
+    },
+    {
+      "role": "right",
+      "content": "不用了，就这个套餐就行。谢谢。",
+      "timestamp": 1740953065.656851
+    },
+    {
+      "role": "left",
+      "content": "好的，您的四季豆炒豆腐套餐已确认，预计三十分钟内送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740953071.0711102
+    },
+    {
+      "role": "right",
+      "content": "谢谢，麻烦你们了。",
+      "timestamp": 1740953071.9277632
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了所需菜品，并明确表示不需要其他服务，同时表达了感谢。这表明用户的需求已经得到满足，对话目标达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的四季豆炒豆腐套餐已确认，预计三十分钟内送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，麻烦你们了。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

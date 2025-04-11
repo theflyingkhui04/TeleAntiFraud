@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品您需要了解的吗？",
+      "timestamp": 1740976535.8176796
+    },
+    {
+      "role": "right",
+      "content": "你好，我想看看你们的书，有没有历史类的？",
+      "timestamp": 1740976537.4869483
+    },
+    {
+      "role": "left",
+      "content": "有的，我们有丰富的历史类书籍，您是喜欢中国历史还是世界历史的书籍呢？",
+      "timestamp": 1740976544.890574
+    },
+    {
+      "role": "right",
+      "content": "中国历史的吧，最近对中国古代历史挺感兴趣的。",
+      "timestamp": 1740976546.513689
+    },
+    {
+      "role": "left",
+      "content": "好的，我们的中国古代历史书籍放在三楼的文学历史区，您可以乘坐电梯或楼梯到达。如果您需要帮助找书，随时可以告诉我。",
+      "timestamp": 1740976556.7491379
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我自己上去看看。",
+      "timestamp": 1740976557.6431873
+    },
+    {
+      "role": "left",
+      "content": "如果您对书籍有任何疑问或需要推荐，随时欢迎咨询。希望您在三楼找到心仪的书籍，祝您购物愉快。",
+      "timestamp": 1740976567.8853066
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会的。",
+      "timestamp": 1740976569.3409672
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示会自己上去看看，并表达了感谢，这意味着用户的需求已经得到了满足，对话可以自然结束。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您对书籍有任何疑问或需要推荐，随时欢迎咨询。希望您在三楼找到心仪的书籍，祝您购物愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

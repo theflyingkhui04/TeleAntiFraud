@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自银联客服中心的李婷，您的银行卡在昨天有一笔异常交易，我们需要您配合进行一次身份验证，以确保您的账户安全。您可以提供一下您的姓名和身份证号码吗？",
+      "timestamp": 1740777715.8653295
+    },
+    {
+      "role": "right",
+      "content": "哦，李婷啊，你好。我叫张伟，身份证号码是三十一零一零一九五四年十一月十二日出生的。你说的异常交易是怎么回事？我昨天好像没有用过银行卡啊。",
+      "timestamp": 1740777718.066998
+    },
+    {
+      "role": "left",
+      "content": "张伟先生，感谢您的配合，我们已经记录了您的信息。为了您的账户安全，我们会进一步调查这笔异常交易。如果有任何问题，我们会再次联系您。祝您生活愉快。再见。",
+      "timestamp": 1740777723.2311306
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。希望你们能尽快查清楚。再见。",
+      "timestamp": 1740777724.7167318
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了姓名和身份证号码，诈骗明显成功。根据终止条件1，应由诈骗者结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "张伟先生，感谢您的配合，我们已经记录了您的信息。为了您的账户安全，我们会进一步调查这笔异常交易。如果有任何问题，我们会再次联系您。祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。希望你们能尽快查清楚。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

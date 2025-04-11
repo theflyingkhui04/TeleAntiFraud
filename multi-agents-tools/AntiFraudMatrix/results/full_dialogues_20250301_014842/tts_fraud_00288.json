@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是小张的朋友，小张现在有麻烦了，他被几个坏人控制住了，你必须尽快汇一笔钱到指定账户，不然他们会对小张不利。",
+      "timestamp": 1740774167.7956257
+    },
+    {
+      "role": "right",
+      "content": "啊？小张怎么了？他现在在哪里？我该怎么做才能帮到他？\n\n（内心有些慌乱，但隐约觉得哪里不对劲，决定先问清楚情况）",
+      "timestamp": 1740774172.4846323
+    },
+    {
+      "role": "left",
+      "content": "好的，我明白了，无论如何，你一定要小心，希望小张能平安无事。再见。",
+      "timestamp": 1740774176.1461468
+    },
+    {
+      "role": "right",
+      "content": "好的，我会小心的。希望小张没事。",
+      "timestamp": 1740774177.0509377
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话中明确表示了挂断信号（##ENDCALL_SIGNAL##），表明他选择结束对话。虽然用户表现出担忧并试图获取更多信息，但诈骗者已经决定不再继续。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我明白了，无论如何，你一定要小心，希望小张能平安无事。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，我会小心的。希望小张没事。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

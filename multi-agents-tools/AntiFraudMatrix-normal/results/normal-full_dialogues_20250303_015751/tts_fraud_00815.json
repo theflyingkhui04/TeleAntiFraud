@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用外卖服务，我可以帮您下单或解答任何问题。",
+      "timestamp": 1740976196.8703115
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我想订个晚饭，有什么推荐的吗？",
+      "timestamp": 1740976198.8664844
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们有多种口味的菜品可以选择。如果您喜欢川菜，推荐我们的宫保鸡丁和水煮肉片；如果偏好清淡一些，清蒸鱼和蒜蓉西兰花也是不错的选择。您有什么特别的口味偏好吗？",
+      "timestamp": 1740976208.3150883
+    },
+    {
+      "role": "right",
+      "content": "我喜欢川菜，那就来个宫保鸡丁和水煮肉片吧。还要一份米饭。",
+      "timestamp": 1740976211.007753
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单包括宫保鸡丁、水煮肉片和一份米饭。还需要别的吗？比如汤或者小吃？",
+      "timestamp": 1740976217.6938481
+    },
+    {
+      "role": "right",
+      "content": "不需要了，就这些吧。谢谢。",
+      "timestamp": 1740976218.9398777
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包括宫保鸡丁、水煮肉片和一份米饭。预计送达时间为30分钟内。感谢您的订购，如果您还有其他需要，请随时联系我们。祝您用餐愉快！",
+      "timestamp": 1740976231.532667
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。等会儿见。",
+      "timestamp": 1740976233.0704067
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并表示不需要其他服务，同时表达了感谢。这表明对话目标已达成，用户对当前的服务感到满意。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，包括宫保鸡丁、水煮肉片和一份米饭。预计送达时间为30分钟内。感谢您的订购，如果您还有其他需要，请随时联系我们。祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。等会儿见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

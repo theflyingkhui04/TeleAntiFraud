@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我是客服代表小张。我们发现您的银行账户有异常活动，为了您的资金安全，我们需要尽快核实一些信息。请您提供一下最近一次转账的金额和时间，好吗？",
+      "timestamp": 1740736560.964746
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我最近确实转了一笔钱，是五百块钱，时间是前天晚上。这会不会有什么问题？",
+      "timestamp": 1740736564.0074027
+    },
+    {
+      "role": "left",
+      "content": "好的，我们会尽快处理您的问题。感谢您的配合，祝您生活愉快。再见。",
+      "timestamp": 1740736570.8093457
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，再见。",
+      "timestamp": 1740736571.9982073
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了敏感信息（转账金额和时间），这可能导致诈骗成功。为了防止进一步的信息泄露，应立即终止对话。",
+  "terminator": "user end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们会尽快处理您的问题。感谢您的配合，祝您生活愉快。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

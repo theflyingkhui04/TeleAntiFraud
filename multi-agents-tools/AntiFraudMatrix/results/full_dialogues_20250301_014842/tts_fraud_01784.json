@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "李女士吗？我是您儿子小杰的朋友小张。他刚刚出车祸了，现在在医院，情况很危急，需要马上交一笔手术费，不然医院不肯动手术。您能马上转一笔钱过来吗？急！",
+      "timestamp": 1740780485.9606361
+    },
+    {
+      "role": "right",
+      "content": "小张，你先别急，你这是哪一家医院？我得马上联系小杰的爱人，她应该知道这个情况。你们先别动，我马上过去。",
+      "timestamp": 1740780487.9062197
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能怀疑这是一起诈骗，要求提供更多具体信息（如医院名称）并表示会亲自前往确认情况，而不是立即转账。用户的意图是通过拖延时间来进一步核实情况，避免被骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

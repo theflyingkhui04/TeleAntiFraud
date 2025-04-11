@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服代表小张为您服务，请问有什么可以帮您的？",
+      "timestamp": 1740953993.9739907
+    },
+    {
+      "role": "right",
+      "content": "你好，小张，我是老李，最近身体有些不适，想咨询一下关于血压高的问题。",
+      "timestamp": 1740953996.9223993
+    },
+    {
+      "role": "left",
+      "content": "您好，老李，虽然我不是医生，但可以为您提供一些基本的建议。高血压通常需要通过健康饮食、适量运动和必要时的药物治疗来控制。建议您尽快联系医生进行详细检查和获得专业建议。希望您早日恢复健康。还有其他方面需要帮助的吗？",
+      "timestamp": 1740954004.89663
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在提供了关于高血压的基本建议后，询问用户是否有其他需要帮助的地方。用户没有提出进一步的问题，服务方通过提供结束信号代码'##ENDCALL_SIGNAL##'表明对话已经完成，服务目标达成，且服务方认为此时结束对话是合适的。服务方的意图是确保用户的问题得到解决，并礼貌地结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

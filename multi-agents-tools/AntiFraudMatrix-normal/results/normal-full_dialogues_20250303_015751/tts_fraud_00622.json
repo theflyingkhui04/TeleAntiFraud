@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740954365.9452112
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖，有什么推荐的菜品吗？",
+      "timestamp": 1740954366.929017
+    },
+    {
+      "role": "left",
+      "content": "您好，我们这里有几道非常受欢迎的菜品，比如宫保鸡丁、麻婆豆腐和清蒸鲈鱼，您感兴趣吗？",
+      "timestamp": 1740954370.8303638
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我来一份宫保鸡丁和一份清蒸鲈鱼吧。还需要点什么饮料吗？",
+      "timestamp": 1740954374.648451
+    },
+    {
+      "role": "left",
+      "content": "好的，宫保鸡丁和清蒸鲈鱼都已加入您的订单。我们这里有多种饮料，比如冰红茶、橙汁和可乐，您想要哪种？",
+      "timestamp": 1740954381.2876556
+    },
+    {
+      "role": "right",
+      "content": "给我来一杯冰红茶吧。对了，大概多久能送到？",
+      "timestamp": 1740954382.6301663
+    },
+    {
+      "role": "left",
+      "content": "好的，冰红茶也已加入您的订单。根据您当前的位置，预计在四十分钟左右送达。",
+      "timestamp": 1740954387.188981
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我等会儿就在家等。",
+      "timestamp": 1740954388.26437
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计四十分钟左右送达。感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740954394.0460668
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740954397.609013
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已确认订单内容，并表示会在家等待送餐，没有进一步的需求或问题。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认，预计四十分钟左右送达。感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

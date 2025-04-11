@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是中国福利彩票中心的客服，您最近是否购买过彩票呢？我们这边有个一等奖的幸运用户需要联系确认。",
+      "timestamp": 1740742811.296367
+    },
+    {
+      "role": "right",
+      "content": "真的吗？我最近确实买过几次彩票，但不记得中奖了。你们是怎么找到我的？",
+      "timestamp": 1740742848.711547
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提到'一等奖的幸运用户需要联系确认'后，可能意识到这是一个诈骗电话，因为正规彩票中心不会通过电话联系中奖者确认信息。用户随后询问'你们是怎么找到我的？'，这表明用户对诈骗者的身份产生了怀疑，并可能希望通过这个问题来确认诈骗者的真实性。然而，诈骗者没有提供合理的解释，这进一步加深了用户的怀疑，导致用户选择挂断电话以避免进一步的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，请问您想预订哪家餐厅的美食呢？",
+      "timestamp": 1740953604.3415031
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一家附近的中餐馆，有什么推荐的吗？",
+      "timestamp": 1740953605.3050206
+    },
+    {
+      "role": "left",
+      "content": "当然可以帮您推荐。附近有一家“味香园”，口碑很不错，主营川菜和粤菜，您可以考虑一下。您想预订哪个时间段呢？",
+      "timestamp": 1740953609.8174891
+    },
+    {
+      "role": "right",
+      "content": "那就试试味香园吧。晚上六点半左右怎么样？",
+      "timestamp": 1740953610.7485476
+    },
+    {
+      "role": "left",
+      "content": "好的，晚上六点半是个不错的用餐时间。请问您需要预订几位呢？",
+      "timestamp": 1740953617.976452
+    },
+    {
+      "role": "right",
+      "content": "两个人。",
+      "timestamp": 1740953618.4792688
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您预订了味香园，晚上六点半，两位。请问需要帮您备注什么特殊要求吗？比如对菜品有什么特别偏好或是忌口的食材？",
+      "timestamp": 1740953621.6207838
+    },
+    {
+      "role": "right",
+      "content": "不用了，谢谢。一切按常规来就行。",
+      "timestamp": 1740953623.3780358
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您预订好味香园，晚上六点半，两位。如果还有其他需要，欢迎随时联系我们。祝您用餐愉快！",
+      "timestamp": 1740953631.13822
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740953634.7004452
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "服务目标已达成，用户获得了所需的信息，预订已经完成，且用户没有进一步的需求。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，已经为您预订好味香园，晚上六点半，两位。如果还有其他需要，欢迎随时联系我们。祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行的客服中心，我是小李。我们监测到您的账户出现了一些异常交易，需要您立即确认。为了您的账户安全，请提供您的身份证号，以便我们进行身份验证。",
+      "timestamp": 1740688594.130308
+    },
+    {
+      "role": "right",
+      "content": "您好，小李。我是张老师。确实最近我的账户有些异常，但我现在不方便提供身份证号。您能不能先告诉我具体的异常情况？",
+      "timestamp": 1740688596.0745778
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户张老师可能因为对诈骗者的要求感到不信任或怀疑，不愿意在未了解具体情况前提供个人敏感信息，因此选择挂断电话以保护自己的信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

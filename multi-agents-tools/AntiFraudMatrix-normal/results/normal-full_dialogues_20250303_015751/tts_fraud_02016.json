@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品是您感兴趣的吗？",
+      "timestamp": 1740958022.172325
+    },
+    {
+      "role": "right",
+      "content": "你好，我想看看你们的茶叶，有什么推荐的吗？",
+      "timestamp": 1740958025.615544
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款非常受欢迎的茶叶，比如龙井、铁观音和普洱。您平时喜欢喝哪种类型的茶呢？",
+      "timestamp": 1740958031.0137253
+    },
+    {
+      "role": "right",
+      "content": "我平时喜欢喝绿茶，龙井听起来不错，给我来一包吧。",
+      "timestamp": 1740958032.23434
+    },
+    {
+      "role": "left",
+      "content": "好的，龙井茶是我们的热销产品，您选择的这款品质上乘。需要给您推荐一些茶具搭配吗？",
+      "timestamp": 1740958038.4652147
+    },
+    {
+      "role": "right",
+      "content": "不用了，我家里已经有茶具了。谢谢。",
+      "timestamp": 1740958039.8752532
+    },
+    {
+      "role": "left",
+      "content": "好的，龙井茶已经为您准备好，您可以到收银台完成支付。如果您有任何其他需求，随时欢迎告诉我们。希望您购物愉快！",
+      "timestamp": 1740958051.25324
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会过去的。",
+      "timestamp": 1740958052.5823247
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表达了对服务的满意，并明确表示不需要进一步的帮助，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，龙井茶已经为您准备好，您可以到收银台完成支付。如果您有任何其他需求，随时欢迎告诉我们。希望您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。我会过去的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

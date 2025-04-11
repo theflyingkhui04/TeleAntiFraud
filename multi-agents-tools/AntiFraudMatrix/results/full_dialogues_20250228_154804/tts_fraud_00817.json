@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张伟吗？我是你儿子的朋友李明。你儿子现在出事了，被几个社会上的人带走了，你必须马上给我转一万块钱，不然他们可能会对你儿子下手。你快点，时间不等人！",
+      "timestamp": 1740731956.3266466
+    },
+    {
+      "role": "right",
+      "content": "李明啊，你先别急，你说的情况太突然了，我得确认一下。我儿子的电话是多少，我给他打个电话问问。",
+      "timestamp": 1740731960.6224134
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出转账要求后，没有立即答应，而是要求提供更多详细信息以验证情况的真实性。用户提出要直接联系其儿子，表明他对诈骗者的话产生了怀疑，并希望通过直接联系儿子来确认情况。用户的挂断可能是为了避免进一步的诈骗尝试，同时给自己时间来核实情况。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

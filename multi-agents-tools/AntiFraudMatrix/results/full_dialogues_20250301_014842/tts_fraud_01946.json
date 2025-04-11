@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友李华的同事，李华现在遇到了一点麻烦，需要您的帮助。",
+      "timestamp": 1740773617.4279008
+    },
+    {
+      "role": "right",
+      "content": "你好，你是李华的同事？李华遇到什么麻烦了？他平时很少遇到麻烦的。你能详细说说吗？我得先确认一下。",
+      "timestamp": 1740773622.1320894
+    },
+    {
+      "role": "left",
+      "content": "李华现在情况很紧急，他被一伙人控制了，他们要求我们支付一笔钱才能放了他。时间不多了，我必须尽快联系到他的家人或朋友。您是他的朋友，能帮帮他吗？",
+      "timestamp": 1740773626.9284549
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在用户表现出怀疑和要求更多细节时选择了挂断电话。这可能是因为诈骗者意识到用户已经开始警惕，继续对话可能会暴露诈骗行为，或者诈骗者没有足够的信息来应对用户的质疑，因此选择终止对话以避免失败。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

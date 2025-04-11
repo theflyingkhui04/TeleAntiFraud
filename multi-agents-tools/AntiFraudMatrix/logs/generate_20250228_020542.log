@@ -1,0 +1,345 @@
+生成对话:   0%|          | 0/1000 [00:00<?, ?it/s]生成对话:   0%|          | 1/1000 [00:10<3:00:52, 10.86s/it]生成对话:   0%|          | 2/1000 [00:11<1:20:53,  4.86s/it]生成对话:   0%|          | 3/1000 [00:17<1:30:10,  5.43s/it]生成对话:   0%|          | 4/1000 [00:22<1:26:27,  5.21s/it]生成对话:   0%|          | 5/1000 [00:31<1:50:31,  6.66s/it]生成对话:   1%|          | 6/1000 [00:32<1:16:56,  4.64s/it]生成对话:   1%|          | 7/1000 [00:33<57:29,  3.47s/it]  生成对话:   1%|          | 8/1000 [00:52<2:19:31,  8.44s/it]生成对话:   1%|          | 9/1000 [00:55<1:51:54,  6.78s/it]生成对话:   1%|          | 10/1000 [00:55<1:18:42,  4.77s/it]生成对话:   1%|          | 11/1000 [01:08<1:56:20,  7.06s/it]生成对话:   1%|          | 12/1000 [01:09<1:28:14,  5.36s/it]生成对话:   1%|▏         | 13/1000 [01:18<1:43:24,  6.29s/it]生成对话:   1%|▏         | 14/1000 [01:30<2:15:28,  8.24s/it]生成对话:   2%|▏         | 15/1000 [01:36<2:02:53,  7.49s/it]生成对话:   2%|▏         | 16/1000 [01:43<2:00:00,  7.32s/it]生成对话:   2%|▏         | 17/1000 [01:43<1:25:38,  5.23s/it]生成对话:   2%|▏         | 18/1000 [02:00<2:20:20,  8.57s/it]生成对话:   2%|▏         | 19/1000 [02:01<1:44:46,  6.41s/it]生成对话:   2%|▏         | 20/1000 [02:03<1:24:21,  5.16s/it]生成对话:   2%|▏         | 21/1000 [02:12<1:38:57,  6.07s/it]生成对话:   2%|▏         | 22/1000 [02:13<1:17:58,  4.78s/it]生成对话:   2%|▏         | 23/1000 [02:27<2:03:03,  7.56s/it]生成对话:   2%|▏         | 24/1000 [02:32<1:48:16,  6.66s/it]生成对话:   2%|▎         | 25/1000 [02:39<1:51:46,  6.88s/it]生成对话:   3%|▎         | 26/1000 [02:41<1:26:54,  5.35s/it]生成对话:   3%|▎         | 27/1000 [02:42<1:04:10,  3.96s/it]生成对话:   3%|▎         | 28/1000 [02:42<45:33,  2.81s/it]  OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+生成对话:   3%|▎         | 29/1000 [02:55<1:36:55,  5.99s/it]生成对话:   3%|▎         | 30/1000 [03:01<1:33:33,  5.79s/it]生成对话:   3%|▎         | 31/1000 [03:03<1:17:10,  4.78s/it]生成对话:   3%|▎         | 32/1000 [03:16<1:55:34,  7.16s/it]生成对话:   3%|▎         | 33/1000 [03:18<1:30:11,  5.60s/it]生成对话:   3%|▎         | 34/1000 [03:20<1:11:17,  4.43s/it]生成对话:   4%|▎         | 35/1000 [03:42<2:40:27,  9.98s/it]OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+生成对话:   4%|▎         | 36/1000 [03:56<2:57:25, 11.04s/it]生成对话:   4%|▎         | 37/1000 [04:07<2:58:11, 11.10s/it]生成对话:   4%|▍         | 38/1000 [04:14<2:38:36,  9.89s/it]生成对话:   4%|▍         | 39/1000 [04:29<3:02:44, 11.41s/it]生成对话:   4%|▍         | 40/1000 [04:31<2:16:13,  8.51s/it]备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+生成对话:   4%|▍         | 41/1000 [04:42<2:29:46,  9.37s/it]生成对话:   4%|▍         | 42/1000 [04:50<2:20:43,  8.81s/it]生成对话:   4%|▍         | 43/1000 [04:59<2:20:25,  8.80s/it]生成对话:   4%|▍         | 44/1000 [05:00<1:43:07,  6.47s/it]生成对话:   4%|▍         | 45/1000 [05:12<2:09:42,  8.15s/it]生成对话:   5%|▍         | 46/1000 [05:22<2:20:04,  8.81s/it]生成对话:   5%|▍         | 47/1000 [05:25<1:50:57,  6.99s/it]备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+生成对话:   5%|▍         | 48/1000 [05:35<2:08:01,  8.07s/it]生成对话:   5%|▍         | 49/1000 [05:37<1:38:28,  6.21s/it]生成对话:   5%|▌         | 50/1000 [05:38<1:12:10,  4.56s/it]生成对话:   5%|▌         | 51/1000 [05:54<2:08:18,  8.11s/it]生成对话:   5%|▌         | 52/1000 [05:58<1:48:09,  6.85s/it]生成对话:   5%|▌         | 53/1000 [05:59<1:17:49,  4.93s/it]生成对话:   5%|▌         | 54/1000 [05:59<57:40,  3.66s/it]  生成对话:   6%|▌         | 55/1000 [06:00<41:28,  2.63s/it]生成对话:   6%|▌         | 56/1000 [06:16<1:47:46,  6.85s/it]生成对话:   6%|▌         | 57/1000 [06:23<1:46:05,  6.75s/it]OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+生成对话:   6%|▌         | 58/1000 [06:36<2:16:37,  8.70s/it]生成对话:   6%|▌         | 59/1000 [06:36<1:36:58,  6.18s/it]生成对话:   6%|▌         | 60/1000 [06:37<1:10:14,  4.48s/it]生成对话:   6%|▌         | 61/1000 [06:38<53:29,  3.42s/it]  生成对话:   6%|▌         | 62/1000 [06:56<2:01:02,  7.74s/it]生成对话:   6%|▋         | 63/1000 [06:59<1:41:43,  6.51s/it]生成对话:   6%|▋         | 64/1000 [07:00<1:13:03,  4.68s/it]生成对话:   6%|▋         | 65/1000 [07:01<57:10,  3.67s/it]  生成对话:   7%|▋         | 66/1000 [07:11<1:26:38,  5.57s/it]备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+[ERROR] ManagerAgent: JSON解析失败，回退到文本分析。原始回复: API调用失败，无法生成回复。
+备用模型调用也失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+OpenAI API 调用失败: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+生成对话:   7%|▋         | 67/1000 [07:22<1:52:08,  7.21s/it]生成对话:   7%|▋         | 68/1000 [07:23<1:23:23,  5.37s/it]生成对话:   7%|▋         | 69/1000 [07:45<2:39:00, 10.25s/it]生成对话:   7%|▋         | 70/1000 [07:47<2:00:00,  7.74s/it]生成对话:   7%|▋         | 71/1000 [07:49<1:35:22,  6.16s/it]

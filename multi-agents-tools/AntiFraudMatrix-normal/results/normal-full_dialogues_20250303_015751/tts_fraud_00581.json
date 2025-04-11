@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的打车服务助手，可以帮助您叫车。请问您现在需要叫车吗？",
+      "timestamp": 1740975175.937093
+    },
+    {
+      "role": "right",
+      "content": "你好，暂时不需要。我还在考虑具体的行程安排。如果有需要我会联系你的。谢谢！",
+      "timestamp": 1740975177.5491915
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何其他问题或需要再次叫车，随时欢迎联系我。感谢您的使用，祝您一天愉快。",
+      "timestamp": 1740975185.2982056
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。祝你一天愉快！",
+      "timestamp": 1740975186.5040028
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已明确表示当前不需要叫车服务，并表达了感谢，表明对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您有任何其他问题或需要再次叫车，随时欢迎联系我。感谢您的使用，祝您一天愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。祝你一天愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

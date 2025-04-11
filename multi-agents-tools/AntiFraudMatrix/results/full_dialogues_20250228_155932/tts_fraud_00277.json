@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李先生吗？我是您的邻居小张，您儿子现在在我这里，他刚刚遇到了一点麻烦，您能来接个电话吗？",
+      "timestamp": 1740754838.0285501
+    },
+    {
+      "role": "right",
+      "content": "小张啊，你好。我儿子怎么了？他现在还好吗？我这就过来接电话。",
+      "timestamp": 1740754840.3793333
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一个诈骗电话，因为诈骗者提到的情况（儿子遇到麻烦）和要求（让用户接电话）显得不自然且紧急，触发了用户的警觉性。用户虽然表面上表示关心并愿意接电话，但实际上迅速挂断了电话，可能是为了避免进一步的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

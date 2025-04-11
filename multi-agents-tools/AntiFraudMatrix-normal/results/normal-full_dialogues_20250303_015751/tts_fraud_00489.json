@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪项服务呢？",
+      "timestamp": 1740945864.59603
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下你们的课程辅导服务。可以详细介绍一下吗？",
+      "timestamp": 1740945866.6217968
+    },
+    {
+      "role": "left",
+      "content": "当然可以。我们的课程辅导服务涵盖了从小学到高中的各个学科，包括语文、数学、英语等。我们有经验丰富的老师一对一辅导，帮助学生提高学习成绩。您可以选择线上或线下的辅导方式，时间也相对灵活。请问您对哪一科感兴趣？",
+      "timestamp": 1740945875.396584
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在提供了详细的课程辅导服务介绍后，询问了用户的进一步需求。然而，在用户没有回应的情况下，服务方可能认为用户已经获得了所需的信息，因此选择主动结束对话。服务方的意图是避免不必要的等待，同时确保用户的问题已经得到解答。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，叔叔，我是小明的同学，小明现在出事了，他被坏人绑走了！你必须马上给我转五万块钱，否则他们要对小明下手了！",
+      "timestamp": 1740737871.0569022
+    },
+    {
+      "role": "right",
+      "content": "你、你是谁啊？你怎么会有我电话？小明到底怎么了？你别吓我，我、我得先确认一下。",
+      "timestamp": 1740737873.2844524
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份和信息表示怀疑，并试图确认情况的真实性。用户可能意识到这是一个诈骗电话，因此选择挂断以避免进一步的诈骗行为或确认信息。挂断的意图是保护自己免受潜在的经济损失和情感困扰。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

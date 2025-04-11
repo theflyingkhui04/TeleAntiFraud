@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，有什么问题我可以帮您解决吗？",
+      "timestamp": 1740978662.4565012
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我是李工，最近家里的暖气不太热，想了解一下是不是供暖系统出了问题。",
+      "timestamp": 1740978664.8574846
+    },
+    {
+      "role": "left",
+      "content": "您好，李工。可以先检查一下暖气阀门是否完全打开，如果已经打开还是不热，可能是管道内有空气或堵塞。您可以尝试排气，如果还是不行，建议联系物业或专业的维修人员检查。",
+      "timestamp": 1740978672.9750078
+    },
+    {
+      "role": "right",
+      "content": "好的，我先试试排气看看。如果还是不行，再联系物业。谢谢你，小张。",
+      "timestamp": 1740978675.9329991
+    },
+    {
+      "role": "left",
+      "content": "李工，如果按照上述方法操作后问题仍然存在，请及时联系物业或维修人员。希望您的问题能够尽快解决，感谢您的咨询，祝您生活愉快。",
+      "timestamp": 1740978689.2458255
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，小张。祝你工作顺利。",
+      "timestamp": 1740978692.4306312
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示将先尝试排气，如果问题仍然存在会联系物业，并对服务方表示了感谢，这表明用户的问题已经得到了初步的解决和指导，用户也表达了结束对话的意愿。",
+  "terminator": "user",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "李工，如果按照上述方法操作后问题仍然存在，请及时联系物业或维修人员。希望您的问题能够尽快解决，感谢您的咨询，祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，小张。祝你工作顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX快递客服中心，我们注意到您的包裹存在异常情况，请问您方便现在处理一下吗？",
+      "timestamp": 1740739009.831494
+    },
+    {
+      "role": "right",
+      "content": "哦，快递出问题了？那麻烦你帮我查一下，是什么问题？",
+      "timestamp": 1740739022.56857
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为意识到这是诈骗电话或认为这是骚扰电话而选择挂断。用户在听到快递异常后，可能进行了快速判断，认为这不是真实的快递问题，因此选择立即挂断以避免进一步的风险或浪费时间。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

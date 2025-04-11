@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到我们的商店，有什么我可以帮您挑选的吗？",
+      "timestamp": 1740974956.024284
+    },
+    {
+      "role": "right",
+      "content": "你好，我想看看你们这里有没有适合送给朋友的茶叶。",
+      "timestamp": 1740974957.4707632
+    },
+    {
+      "role": "left",
+      "content": "我们这里有多种茶叶可以选择，比如龙井、铁观音和普洱等，您朋友喜欢哪种口味？",
+      "timestamp": 1740974961.1891153
+    },
+    {
+      "role": "right",
+      "content": "他喜欢清淡一些的，龙井怎么样？",
+      "timestamp": 1740974962.0470197
+    },
+    {
+      "role": "left",
+      "content": "龙井茶非常适合喜欢清淡口味的人，它的口感清香、滋味甘醇。我们有不同规格的包装，您想要哪种包装呢？",
+      "timestamp": 1740974969.6221254
+    },
+    {
+      "role": "right",
+      "content": "就选一盒中等规格的吧。",
+      "timestamp": 1740974970.5881376
+    },
+    {
+      "role": "left",
+      "content": "好的，一盒中等规格的龙井茶，价格是180元。您需要立即购买还是先了解一下其他产品？",
+      "timestamp": 1740974975.000747
+    },
+    {
+      "role": "right",
+      "content": "我就先买这一盒吧。",
+      "timestamp": 1740974975.8422573
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的选择，一盒中等规格的龙井茶已经为您准备好。如果您有任何其他问题，随时欢迎咨询。祝您购物愉快。",
+      "timestamp": 1740974981.2025077
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一天愉快。",
+      "timestamp": 1740974982.446755
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了商品并表达了购买意愿，服务目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的选择，一盒中等规格的龙井茶已经为您准备好。如果您有任何其他问题，随时欢迎咨询。祝您购物愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝您一天愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

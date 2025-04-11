@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是华夏银行客服中心，我是您的专属客服代表小张。我们发现您的账户可能存在异常交易，需要进行核实。为了您的资金安全，请问您可以提供一下您的身份证号码吗？",
+      "timestamp": 1740746719.9858534
+    },
+    {
+      "role": "right",
+      "content": "好的，小张，谢谢你的提醒。我的身份证号码是……",
+      "timestamp": 1740746721.6867597
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供身份证号码后立即挂断电话，可能是因为意识到自己正在泄露敏感信息，或者突然意识到这可能是一个诈骗电话。这种行为表明用户可能已经识破了诈骗者的意图，或者至少对继续对话感到不安。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

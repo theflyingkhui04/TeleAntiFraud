@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友张伟的邻居，现在张伟遇到了点麻烦，他被一些人绑走了，您必须马上给我们转账一笔钱，否则他们会对张伟不利。",
+      "timestamp": 1740759102.6519945
+    },
+    {
+      "role": "right",
+      "content": "什么？张伟被绑走了？这怎么可能？我得先确认一下这是真的。你能告诉我更多细节吗？比如绑匪的联系方式或者他们的具体要求。我不能就这么随便转账，这太突然了。",
+      "timestamp": 1740759109.2769263
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者声称其朋友被绑架并要求立即转账后，表现出了怀疑和谨慎。用户要求提供更多细节和证据，表明其对诈骗者的要求持怀疑态度，并不愿意在没有进一步确认的情况下进行转账。用户的挂断可能是出于对诈骗行为的警觉，以及不愿意继续参与可能的诈骗活动。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

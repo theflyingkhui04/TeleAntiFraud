@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是您的购物助手，请问有什么可以帮您的？",
+      "timestamp": 1740948217.4448087
+    },
+    {
+      "role": "right",
+      "content": "你好，我想看看你们这里有没有适合商务场合的高档皮鞋。",
+      "timestamp": 1740948219.0086188
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话开始后立即提供了明确的结束信号代码（##ENDCALL_SIGNAL##），这可能是由于用户误操作或突然改变了主意，不再需要帮助。用户的意图可能是因为意识到自己不需要帮助，或者遇到了其他紧急情况。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

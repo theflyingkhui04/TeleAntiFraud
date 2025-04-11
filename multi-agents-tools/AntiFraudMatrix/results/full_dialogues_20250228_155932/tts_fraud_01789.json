@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李伟吗？我是你儿子的同学张明，他现在遇到麻烦了，你最好马上听我说。",
+      "timestamp": 1740748234.9104736
+    },
+    {
+      "role": "right",
+      "content": "你是张明啊，我儿子的同学。他怎么了？出什么事了？",
+      "timestamp": 1740748237.340029
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一个诈骗电话，因为诈骗者在对话中使用了紧急情况的策略试图引起用户的恐慌，但用户在听到诈骗者提到儿子遇到麻烦后，可能察觉到不对劲，选择了立即挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

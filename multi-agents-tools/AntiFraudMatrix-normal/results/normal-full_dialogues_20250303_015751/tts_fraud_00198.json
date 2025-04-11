@@ -1,0 +1,36 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，您可以告诉我想要订购的餐品和送餐地址吗？",
+      "timestamp": 1740970316.2353306
+    },
+    {
+      "role": "right",
+      "content": "好的，我想要一份鸡肉炒饭和一份糖醋排骨，送到学校宿舍，地址是XX大学北区宿舍楼5号楼202室。",
+      "timestamp": 1740970318.3367565
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已记录，一份鸡肉炒饭和一份糖醋排骨，送到XX大学北区宿舍楼5号楼202室。请问需要什么时间送达呢？",
+      "timestamp": 1740970326.4733508
+    },
+    {
+      "role": "right",
+      "content": "尽量快一点吧，大概半小时内送到就行。",
+      "timestamp": 1740970327.9286563
+    },
+    {
+      "role": "left",
+      "content": "了解了，我们会尽快为您安排配送，预计半小时内送达。请您保持电话畅通，以便骑手联系您。还有其他需要帮忙的吗？",
+      "timestamp": 1740970333.6366558
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情、送餐地址和送达时间后，询问了用户是否还有其他需要帮助的事项。在用户没有进一步的需求后，服务方主动提供了结束信号，表明服务目标已达成，订单处理流程已完成，服务方希望以礼貌的方式结束对话，确保用户感到满意。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

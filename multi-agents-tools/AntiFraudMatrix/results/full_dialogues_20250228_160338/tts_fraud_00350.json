@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX投资公司的理财顾问，我们最近有一个千载难逢的投资机会，保本保息，年化收益率可以达到百分之二十以上，您有兴趣了解一下吗？",
+      "timestamp": 1740731351.596665
+    },
+    {
+      "role": "right",
+      "content": "不好意思，我对高收益投资项目一直持怀疑态度。您能提供一下贵公司的具体信息和资质证明吗？另外，我建议您先去金融监管部门的网站核实一下，以防上当受骗。",
+      "timestamp": 1740731362.7038696
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对高收益投资持怀疑态度，并要求诈骗者提供公司具体信息和资质证明，同时建议诈骗者核实信息以防上当受骗。用户的反应表明其对潜在诈骗行为有较高的警觉性，因此主动挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

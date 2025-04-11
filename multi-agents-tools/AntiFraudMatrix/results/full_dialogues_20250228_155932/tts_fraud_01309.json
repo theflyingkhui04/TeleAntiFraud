@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某宝客服中心，我是客服代表小李。请问您最近是否在我们平台购买了一件商品？",
+      "timestamp": 1740750813.7580273
+    },
+    {
+      "role": "right",
+      "content": "你好，小李。是的，我最近确实在某宝上买了一件商品。有什么问题吗？",
+      "timestamp": 1740750815.26204
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "从对话中可以看出，用户在听到对方自称是某宝客服后，可能立即意识到了潜在的诈骗风险，因此选择主动挂断电话以避免进一步的交流。用户的意图是保护自己的信息安全，防止被骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

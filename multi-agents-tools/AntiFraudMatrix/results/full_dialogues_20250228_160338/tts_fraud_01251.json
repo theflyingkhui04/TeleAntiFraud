@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，恭喜您中得了一等奖，奖品是一百万元现金加一辆豪华轿车，这是我们的幸运抽奖活动，您是唯一一位中奖者。",
+      "timestamp": 1740729856.565446
+    },
+    {
+      "role": "right",
+      "content": "真的吗？听起来太不可思议了，我怎么才能确认这是真的呢？",
+      "timestamp": 1740729859.9958615
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者提供的奖品信息后，表现出怀疑态度，要求确认信息的真实性。然而，诈骗者并未给出进一步的解释或证据，而是直接挂断了电话。用户的挂断可能是因为感到不被重视或认为这是一次诈骗尝试。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

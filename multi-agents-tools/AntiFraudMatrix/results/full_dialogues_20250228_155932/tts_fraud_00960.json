@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，你是李明吗？我是你儿子的朋友，小张。你儿子出事了，现在在医院，你得赶紧过来。",
+      "timestamp": 1740752303.2458775
+    },
+    {
+      "role": "right",
+      "content": "小张，你先别急，你能告诉我具体是哪家医院吗？我儿子到底怎么了？我得赶紧过去。",
+      "timestamp": 1740752306.816126
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能意识到这是一个诈骗电话，因为诈骗者没有提供具体信息，如医院名称或详细情况，而是直接要求用户过去。用户在询问具体信息时，诈骗者没有回应，这可能让用户感到不安或怀疑，从而选择挂断电话以避免进一步的诈骗行为。用户的意图可能是保护自己不受诈骗，并试图通过询问具体信息来验证电话的真实性。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

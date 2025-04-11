@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么商品您感兴趣或者需要我为您推荐的吗？",
+      "timestamp": 1740965677.1876395
+    },
+    {
+      "role": "right",
+      "content": "你好，我在看看电子产品，有什么推荐吗？",
+      "timestamp": 1740965678.1842813
+    },
+    {
+      "role": "left",
+      "content": "当然，我们这里有很多热门的电子产品，比如最新款的智能手机、平板电脑和智能手表。您是想寻找特定的品牌还是对某种功能有特别的需求呢？",
+      "timestamp": 1740965703.7913232
+    },
+    {
+      "role": "right",
+      "content": "我对智能手机感兴趣，主要是想换一个电池续航时间长的。",
+      "timestamp": 1740965704.6380053
+    },
+    {
+      "role": "left",
+      "content": "了解了，针对长电池续航的需求，我们这里有几款推荐给您：一是品牌A的最新旗舰机，电池容量达到了五零零零毫安时，正常使用下可以轻松用两天；二是品牌B的中高端机型，电池容量四五千毫安时，也很耐用。您可以看看这两款，感受一下是否符合您的需求。",
+      "timestamp": 1740965710.1985319
+    },
+    {
+      "role": "right",
+      "content": "好的，我看看这俩款。谢谢。",
+      "timestamp": 1740965711.193804
+    },
+    {
+      "role": "left",
+      "content": "如果您对这两款手机还有任何疑问，或者需要进一步的了解，随时欢迎询问。希望您能找到满意的手机，祝您购物愉快！",
+      "timestamp": 1740965717.9623084
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。",
+      "timestamp": 1740965718.7320738
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示感谢并查看推荐的商品，暗示对话目标已达成，没有进一步的询问或需求。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您对这两款手机还有任何疑问，或者需要进一步的了解，随时欢迎询问。希望您能找到满意的手机，祝您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

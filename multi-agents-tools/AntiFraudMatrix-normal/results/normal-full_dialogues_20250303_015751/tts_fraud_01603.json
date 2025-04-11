@@ -1,0 +1,51 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，有什么我可以帮您挑选的吗？",
+      "timestamp": 1740968863.6751907
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我随便看看。这里有什么推荐的吗？",
+      "timestamp": 1740968865.1501915
+    },
+    {
+      "role": "left",
+      "content": "我们最近上新了一批季节性商品，比如这款新款羽绒服，不仅保暖性能好，设计也很时尚，您可以看看。",
+      "timestamp": 1740968871.516054
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，我可以看看这款羽绒服吗？",
+      "timestamp": 1740968872.8014967
+    },
+    {
+      "role": "left",
+      "content": "当然可以，这款羽绒服就在前面的模特架上展示着，您可以过去试穿一下，看看合不合适。如果需要帮助，随时告诉我。",
+      "timestamp": 1740968878.7646782
+    },
+    {
+      "role": "right",
+      "content": "好的，我过去看看。谢谢你的推荐。",
+      "timestamp": 1740968879.8259
+    },
+    {
+      "role": "left",
+      "content": "不客气，希望您能找到满意的产品。如果有任何问题，随时欢迎咨询。",
+      "timestamp": 1740968886.8640308
+    },
+    {
+      "role": "right",
+      "content": "谢谢，我会留意的。",
+      "timestamp": 1740968887.9034526
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在服务方提供了详细的商品信息和试穿建议后，表示感谢并明确表达了会自行浏览和试穿的意图。用户通过发送结束信号代码##ENDCALL_SIGNAL##，表明其对当前服务满意，并认为无需进一步的帮助或交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

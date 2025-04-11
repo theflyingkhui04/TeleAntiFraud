@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询专员为您服务，请问您需要了解哪方面的交通信息？",
+      "timestamp": 1740954399.918759
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下最近的公交线路调整情况。",
+      "timestamp": 1740954401.194376
+    },
+    {
+      "role": "left",
+      "content": "好的，最近确实有一些公交线路进行了调整。您具体想了解哪条线路的信息呢？",
+      "timestamp": 1740954407.3180058
+    },
+    {
+      "role": "right",
+      "content": "我想知道10路公交有没有变化。",
+      "timestamp": 1740954408.2236426
+    },
+    {
+      "role": "left",
+      "content": "10路公交最近确实有调整，主要是在高峰时段增加了班次密度，以减少乘客的等候时间。同时，取消了几个客流量较小的站点，具体站点您可以查看最新的公交线路图。这样可以吗？",
+      "timestamp": 1740954413.816515
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的详细解答。我会去查一下最新的线路图。",
+      "timestamp": 1740954415.7767375
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，10路公交的调整信息已提供给您。如果还有其他问题，欢迎随时联系。祝您旅途愉快！",
+      "timestamp": 1740954421.5509114
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝你一天愉快！",
+      "timestamp": 1740954422.3998346
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示满意并感谢服务方提供的信息，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，10路公交的调整信息已提供给您。如果还有其他问题，欢迎随时联系。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。祝你一天愉快！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

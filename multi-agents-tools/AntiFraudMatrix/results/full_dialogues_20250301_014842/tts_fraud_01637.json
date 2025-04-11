@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是张先生吗？我是您的老朋友小李，现在有个急事需要您的帮助。",
+      "timestamp": 1740767873.6041784
+    },
+    {
+      "role": "right",
+      "content": "小李啊，你这是从哪里打来的电话？怎么换号码了？你有什么急事需要我帮忙？你说说看。",
+      "timestamp": 1740767878.0535302
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑来电者的身份而选择挂断电话。用户询问了来电者的电话来源，并表示了对电话号码变更的疑问，这表明用户对来电者的身份产生了怀疑。在诈骗者没有给出令人信服的解释之前，用户选择挂断电话，可能是为了避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

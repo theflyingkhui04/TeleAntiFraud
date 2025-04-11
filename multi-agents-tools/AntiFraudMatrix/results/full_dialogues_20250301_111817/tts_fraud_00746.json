@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是XX银行客服中心，我是客服代表小李。我们发现您的账户有异常交易，为了您的资金安全，需要您配合进行身份核实。请问您现在方便吗？",
+      "timestamp": 1740799111.6823022
+    },
+    {
+      "role": "right",
+      "content": "您好，小李。我确实收到了一些奇怪的通知，但我想先确认一下，你们的客服电话通常是哪一个？我之前记得是打过几次的。",
+      "timestamp": 1740799113.480803
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了警惕性，通过询问客服电话号码来验证对方身份，这表明用户对来电的真实性和对方身份产生了怀疑。用户主动挂断电话，可能是为了自行核实情况，避免可能的诈骗风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,31 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李先生吗？我是您的老朋友小张，出大事了，这边情况非常紧急，您一定要听我说。",
+      "timestamp": 1740748427.1100156
+    },
+    {
+      "role": "right",
+      "content": "小张啊，好久不见了，你先别急，慢慢说，到底出了什么大事？",
+      "timestamp": 1740748428.7072272
+    },
+    {
+      "role": "left",
+      "content": "李先生，真的太好了，您能听我说。我刚从国外回来，结果不幸遭遇了绑架，绑匪要求我联系您支付赎金，不然他们就要对我下手了。",
+      "timestamp": 1740748438.6883786
+    },
+    {
+      "role": "right",
+      "content": "什么？小张，你可别吓我，这到底是怎么回事？绑匪要多少钱？你先冷静一下，告诉我具体的情况。不过，我得先确认一下是不是真有这么回事。",
+      "timestamp": 1740748444.5392017
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者所述的情况产生了怀疑，要求进一步确认情况的真实性。用户通过挂断电话来中断对话，可能是为了自行调查情况或避免进一步的诈骗行为。这表明用户已经意识到可能存在诈骗的风险，并采取了保护自己的措施。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家彩票管理中心，您在本月的抽奖活动中幸运中得了二等奖，奖金为人民币五十万元。请问您现在方便接听电话吗？",
+      "timestamp": 1740737301.248609
+    },
+    {
+      "role": "right",
+      "content": "您好，中奖听起来很棒，但我最近没有参与过任何抽奖活动。这会不会是搞错了？",
+      "timestamp": 1740737304.3949602
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能怀疑这是一起诈骗行为，因为用户表示自己没有参与过任何抽奖活动，对中奖信息表示怀疑。用户通过挂断电话来避免进一步的交流，表明其不愿意继续参与这次对话，可能是为了避免潜在的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

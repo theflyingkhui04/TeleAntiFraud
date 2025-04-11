@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服专员，李华。我们刚刚检测到您的账户存在异常登录，请问您最近是否有使用过不安全的网络环境登录您的银行账户？",
+      "timestamp": 1740791415.3356657
+    },
+    {
+      "role": "right",
+      "content": "啊，真的吗？我前几天在学校的公共 Wi-Fi 上查过余额，会不会是因为这个？我应该怎么办？",
+      "timestamp": 1740791417.8233712
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为诈骗者提到的账户异常登录引起了警觉，担心个人信息安全，因此选择立即挂断电话，以避免进一步的潜在风险。用户的意图是保护自己的账户安全，防止可能的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

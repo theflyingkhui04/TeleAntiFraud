@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询专员为您服务，请问有什么可以帮助您的？",
+      "timestamp": 1740945474.8762517
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下最近城市交通改造的情况。",
+      "timestamp": 1740945475.9074626
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，如果您还有其他问题，随时欢迎咨询。祝您旅途愉快！",
+      "timestamp": 1740945482.2694793
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。",
+      "timestamp": 1740945483.3982055
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "服务方在对话开始时就已经提供了明确的结束信号代码'##ENDCALL_SIGNAL##'，表明服务方选择结束对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，如果您还有其他问题，随时欢迎咨询。祝您旅途愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

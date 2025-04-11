@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "交通咨询助手在这里，有什么我可以帮您的吗？",
+      "timestamp": 1740945233.6916683
+    },
+    {
+      "role": "right",
+      "content": "你好，我想了解一下从市中心到机场的最佳路线，最好是能避开交通高峰的。",
+      "timestamp": 1740945234.950862
+    },
+    {
+      "role": "left",
+      "content": "好的，从市中心到机场您可以选择走机场高速，这是最快捷的一条路线。如果您想避开交通高峰，建议您选择早上六点到七点之间，或者晚上九点以后出发。此外，您也可以考虑使用导航软件，它会根据实时路况为您提供最佳路线建议。",
+      "timestamp": 1740945242.8092763
+    },
+    {
+      "role": "right",
+      "content": "谢谢你的建议，我会考虑早一点出发，或者用导航软件看看实时路况。这样应该会顺利一些。",
+      "timestamp": 1740945244.2060144
+    },
+    {
+      "role": "left",
+      "content": "路线信息已提供给您，希望对您的出行有所帮助，祝您旅途愉快。如果有其他问题，欢迎随时咨询。",
+      "timestamp": 1740945252.1393979
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，我会注意的。如果还有其他问题，我会再联系你。祝好。",
+      "timestamp": 1740945253.5893567
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表达了感谢，表明用户对提供的建议满意，且没有进一步的问题。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "路线信息已提供给您，希望对您的出行有所帮助，祝您旅途愉快。如果有其他问题，欢迎随时咨询。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的帮助，我会注意的。如果还有其他问题，我会再联系你。祝好。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

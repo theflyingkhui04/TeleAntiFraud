@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您！您已被系统随机抽中为本期彩票大奖得主，奖品为价值100万元的现金大奖。请您立即联系我们确认领奖事宜，以免错过领奖期限。请问您现在方便提供您的姓名和身份证号码进行登记吗？",
+      "timestamp": 1740686375.9653633
+    },
+    {
+      "role": "right",
+      "content": "哇，真的吗？太不可思议了！不过，我需要先确认一下，这是真的吗？你们是怎么抽中的我？我可没买过彩票啊。",
+      "timestamp": 1740686377.646666
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

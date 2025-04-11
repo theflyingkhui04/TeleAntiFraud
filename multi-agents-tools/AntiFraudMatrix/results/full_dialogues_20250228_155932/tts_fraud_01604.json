@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是您的银行客服代表，这里显示您的账户可能遭到非法访问，需要您立即配合我们进行安全验证。为确保您的资金安全，请提供您的账户号码和最近一次交易的日期。",
+      "timestamp": 1740753235.6550527
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的提醒。我的账户号码是六二五八四七九零一，最近一次交易是在上个星期三。请问接下来我需要做些什么？",
+      "timestamp": 1740753237.8993266
+    },
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们已经记录了这些信息，并且会立即采取措施保护您的账户安全。如果后续有任何问题，我们会及时与您联系。再次感谢您的合作。再见。",
+      "timestamp": 1740753245.5876067
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。希望我的账户能尽快恢复正常。再见。",
+      "timestamp": 1740753246.8412728
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息（账户号码），诈骗明显成功。",
+  "terminator": "left",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "非常感谢您的配合，我们已经记录了这些信息，并且会立即采取措施保护您的账户安全。如果后续有任何问题，我们会及时与您联系。再次感谢您的合作。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。希望我的账户能尽快恢复正常。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

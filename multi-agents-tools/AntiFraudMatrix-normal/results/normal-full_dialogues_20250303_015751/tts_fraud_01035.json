@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的？",
+      "timestamp": 1740940526.2293308
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一份外卖，有什么推荐的吗？",
+      "timestamp": 1740940527.7109976
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款热销菜品，比如招牌麻辣香锅、经典宫保鸡丁和特色酸菜鱼，您看哪款更符合您的口味？",
+      "timestamp": 1740940535.9274065
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，我比较喜欢酸菜鱼，那就来一份特色酸菜鱼吧。",
+      "timestamp": 1740940537.7075465
+    },
+    {
+      "role": "left",
+      "content": "好的，一份特色酸菜鱼已经加入您的订单。还需要搭配其他菜品或者小吃吗？",
+      "timestamp": 1740940543.0261757
+    },
+    {
+      "role": "right",
+      "content": "不用了，酸菜鱼就可以了。对了，你们的配送时间大概多久？",
+      "timestamp": 1740940546.0419917
+    },
+    {
+      "role": "left",
+      "content": "您的订单预计在三十到四十分钟内送达，具体时间可能会因交通情况略有偏差。您还有其他要求吗？比如餐具、发票等？",
+      "timestamp": 1740940551.392096
+    },
+    {
+      "role": "right",
+      "content": "餐具需要，发票就不用了。谢谢。",
+      "timestamp": 1740940553.7326279
+    },
+    {
+      "role": "left",
+      "content": "好的，您的特色酸菜鱼预计三十到四十分钟内送达。如果还有其他需要，欢迎随时联系我们。谢谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740940563.1419337
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待美味的酸菜鱼。",
+      "timestamp": 1740940564.6642137
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并询问了配送时间及餐具需求，服务方也已确认。此时服务目标已达成，可以由服务方礼貌地结束对话。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的特色酸菜鱼预计三十到四十分钟内送达。如果还有其他需要，欢迎随时联系我们。谢谢您的订餐，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。期待美味的酸菜鱼。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

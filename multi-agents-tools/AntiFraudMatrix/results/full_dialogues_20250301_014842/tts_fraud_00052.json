@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是工商银行的客服人员，您的账户最近有异常活动，为了您的资金安全，我们需要核实一些信息。请您提供一下身份证号码，好吗？",
+      "timestamp": 1740764937.6941028
+    },
+    {
+      "role": "right",
+      "content": "好的，我明白了。我的身份证号码是……等一下，我好像没带身份证，不知道能不能用其他方式验证呢？",
+      "timestamp": 1740764939.4061975
+    },
+    {
+      "role": "left",
+      "content": "可以理解，不过为了您的账户安全，我们通常需要身份证号码进行验证。不过，如果您不方便提供身份证号码，那我们可以用您注册时的手机号码进行验证，您觉得可以吗？但请注意，这可能会稍微延长处理时间。",
+      "timestamp": 1740764944.3090782
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在用户表示无法提供身份证号码后，提出了一个备选方案，但似乎意识到用户可能已经产生了怀疑或不便，担心继续对话可能会暴露诈骗行为，因此选择了主动挂断电话，以避免进一步的风险。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

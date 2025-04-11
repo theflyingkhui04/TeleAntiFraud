@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子的朋友小李，他现在遇到了一些麻烦，您能听我说吗？",
+      "timestamp": 1740785089.8530786
+    },
+    {
+      "role": "right",
+      "content": "小李先生，您好。您说的麻烦是什么情况？我儿子平时很少遇到这样的事，您能具体说说吗？",
+      "timestamp": 1740785091.4481132
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者的身份表示怀疑，或者认为这是一个不寻常的请求，因此选择挂断电话以确保安全。用户的意图可能是避免进一步的潜在风险，尤其是在对方没有提供具体信息的情况下。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

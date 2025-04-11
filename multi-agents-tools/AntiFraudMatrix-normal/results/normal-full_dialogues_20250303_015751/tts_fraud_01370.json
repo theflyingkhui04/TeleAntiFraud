@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "请问您需要了解哪方面的交通信息呢？",
+      "timestamp": 1740950968.2280622
+    },
+    {
+      "role": "right",
+      "content": "我需要去市区中心，怎么走最方便？",
+      "timestamp": 1740950969.3568647
+    },
+    {
+      "role": "left",
+      "content": "您可以选择乘坐地铁二号线直接到达市中心，或者乘坐公交车10路，大约需要四十分钟。您倾向于哪种方式？",
+      "timestamp": 1740950973.87022
+    },
+    {
+      "role": "right",
+      "content": "地铁听起来更快，我就选地铁吧。谢谢。",
+      "timestamp": 1740950974.6699169
+    },
+    {
+      "role": "left",
+      "content": "如果您选择地铁，从这里步行到最近的地铁站大约需要十分钟。希望这些信息对您有帮助，祝您旅途愉快。",
+      "timestamp": 1740950981.7853987
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。",
+      "timestamp": 1740950985.4482398
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已获得所需信息，并表示感谢，对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您选择地铁，从这里步行到最近的地铁站大约需要十分钟。希望这些信息对您有帮助，祝您旅途愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您中了我们的特别大奖！只需要支付一小笔手续费，您就可以领取奖金了。请问您现在方便处理吗？",
+      "timestamp": 1740692435.997593
+    },
+    {
+      "role": "right",
+      "content": "谢谢您的通知，但我觉得这听起来不太对劲。我之前也收到过类似的电话，结果发现是诈骗。您能提供一些具体的证据，证明这是真的吗？比如您的公司名称和联系方式？",
+      "timestamp": 1740692440.8818512
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户主动挂断了通话。API调用失败，无法生成回复。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，是李伟吗？我是你儿子的同学张强，你儿子现在出事了，他被我们的一群人给带走了，你必须马上转一笔钱到我的账户，否则我们不会放了他。你最好别报警，不然事情就麻烦了。你赶紧把钱转过来，账号是六二二九零八三六七四，建行的，你快点，我没多少时间。",
+      "timestamp": 1740759857.3021212
+    },
+    {
+      "role": "right",
+      "content": "你等一下，你说的是真的吗？我儿子出了什么事？你得把事情说清楚，我才能相信你。你先别挂电话，我得问清楚。",
+      "timestamp": 1740759861.9400132
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者要求转账并威胁不要报警后，表现出明显的警惕和怀疑。用户要求诈骗者提供更详细的信息以证明其说法的真实性，但诈骗者并未给出合理的解释。用户可能意识到这是一起诈骗，因此选择挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

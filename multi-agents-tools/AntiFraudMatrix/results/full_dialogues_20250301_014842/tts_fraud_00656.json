@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国际快递客服中心，您的包裹在海关检查时发现了一些问题，需要您配合处理，不然可能会被扣押。您能配合我们解决这个问题吗？",
+      "timestamp": 1740770722.5951788
+    },
+    {
+      "role": "right",
+      "content": "哦，真的吗？我的包裹出了什么问题呢？我最近确实订购了一些东西，不过没想到会有问题。需要我怎么做呢？",
+      "timestamp": 1740770726.4454675
+    },
+    {
+      "role": "left",
+      "content": "感谢您的配合。您的包裹中有一件物品被海关怀疑为违禁品，需要您提供一些信息和支付一笔小额费用，以便我们确认物品的合法性并完成清关。您能提供您的姓名和联系电话吗？这样我们可以在系统中核实您的信息。",
+      "timestamp": 1740770733.0731404
+    },
+    {
+      "role": "right",
+      "content": "好的，我叫李明，电话是这个号码。需要我支付多少费用呢？我现在就在网上，可以马上处理。",
+      "timestamp": 1740770734.5708456
+    },
+    {
+      "role": "left",
+      "content": "好的，我们会在核实您的信息后进一步联系您。感谢您的配合，祝您一切顺利。再见。",
+      "timestamp": 1740770741.1689703
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，我会等你们的消息。再见。",
+      "timestamp": 1740770743.2052045
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供姓名和联系电话，诈骗明显成功，用户处于提供敏感信息的状态，应立即终止对话以防止进一步的损失。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，我们会在核实您的信息后进一步联系您。感谢您的配合，祝您一切顺利。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的帮助，我会等你们的消息。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

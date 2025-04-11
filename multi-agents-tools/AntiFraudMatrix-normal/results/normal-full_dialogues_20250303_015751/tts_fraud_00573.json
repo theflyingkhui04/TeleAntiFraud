@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，您的位置和目的地是哪里？",
+      "timestamp": 1740969570.2839453
+    },
+    {
+      "role": "right",
+      "content": "我在大学城地铁站，要去中关村。",
+      "timestamp": 1740969571.329049
+    },
+    {
+      "role": "left",
+      "content": "好的，已为您安排车辆，大约十分钟后到达大学城地铁站，车牌号是京A12345，司机姓张。如果有任何变动，司机将提前联系您。请留意手机短信或电话，祝您乘车愉快。",
+      "timestamp": 1740969578.9156942
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在提供了完整的打车服务信息后，包括车辆到达时间、车牌号和司机信息，并提醒用户留意手机通知，确保用户能够顺利乘车。服务方认为已经完成了此次服务流程，用户的需求得到了满足，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

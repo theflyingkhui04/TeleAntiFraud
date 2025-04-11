@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX彩票中心的客服，恭喜您被系统随机选中成为我们特别活动的幸运用户，您将获得五万元的奖金！请问您方便接听电话吗？",
+      "timestamp": 1740755841.999561
+    },
+    {
+      "role": "right",
+      "content": "喂，您好，我是李阿姨。五万元的奖金？这听起来太棒了！不过我平时很少买彩票的，怎么会中奖呢？",
+      "timestamp": 1740755843.6878188
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对诈骗者提供的信息感到怀疑，认为事情过于突然和不真实，因此选择挂断电话以避免进一步的交流。用户的意图是保护自己不受潜在的诈骗行为影响。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

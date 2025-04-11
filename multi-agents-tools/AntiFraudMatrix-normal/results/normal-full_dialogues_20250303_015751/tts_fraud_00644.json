@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想订购的餐点和送餐地址吗？",
+      "timestamp": 1740940159.3486922
+    },
+    {
+      "role": "right",
+      "content": "好的，我想要一份牛肉炒饭和一份宫保鸡丁，送餐地址是光明大学宿舍楼三栋302室。",
+      "timestamp": 1740940161.5303395
+    },
+    {
+      "role": "left",
+      "content": "好的，您订购了一份牛肉炒饭和一份宫保鸡丁，送餐地址是光明大学宿舍楼三栋302室，还有其他需要加点的菜品吗？",
+      "timestamp": 1740940166.5071077
+    },
+    {
+      "role": "right",
+      "content": "不需要了，就这些。谢谢。",
+      "timestamp": 1740940167.3468423
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计30分钟后送达光明大学宿舍楼三栋302室，感谢您的订购，祝您用餐愉快！",
+      "timestamp": 1740940172.833101
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740940173.5232582
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已明确表示不需要再加点菜品，并表达了感谢，表明其需求已得到满足。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，预计30分钟后送达光明大学宿舍楼三栋302室，感谢您的订购，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

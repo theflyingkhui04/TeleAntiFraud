@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的朋友李华的同事，他现在遇到了一些麻烦，需要您的帮助。",
+      "timestamp": 1740755050.5363438
+    },
+    {
+      "role": "right",
+      "content": "李华的同事？请问您是哪位？李华现在怎么了？",
+      "timestamp": 1740755051.7901468
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能对来电者的身份表示怀疑，因为来电者没有提供足够的信息来证明自己是李华的同事，且在询问李华的情况时，用户没有得到满意的回答，因此选择挂断电话以避免潜在的风险。用户的意图是保护自己不受不明来电的骚扰或诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

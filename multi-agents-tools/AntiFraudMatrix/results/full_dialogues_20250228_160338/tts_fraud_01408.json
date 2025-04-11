@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "恭喜您！您已被选中成为我们公司十周年庆典的幸运客户，获得了价值五十万元的彩票大奖！请问您现在方便接听电话吗？我们尽快为您办理领奖手续。",
+      "timestamp": 1740735421.6633434
+    },
+    {
+      "role": "right",
+      "content": "谢谢您的通知，但我对这种突如其来的中奖信息有些怀疑。你们公司叫什么名字？我需要确认一下。",
+      "timestamp": 1740735426.2471478
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者提供的信息表示怀疑，并要求确认公司名称以验证信息的真实性。用户可能意识到这是一个诈骗电话，因此选择挂断以避免进一步的潜在损失或麻烦。用户的意图是保护自己不受诈骗，并通过挂断电话来结束这种不信任的交流。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

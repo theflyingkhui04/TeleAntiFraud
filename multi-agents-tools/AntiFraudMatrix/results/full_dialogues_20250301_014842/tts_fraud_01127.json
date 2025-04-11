@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，先生，我是您儿子的朋友，他刚才出事了，被几个小混混打了，现在在医院，您得赶紧过来，不然可能来不及了。",
+      "timestamp": 1740772252.8215475
+    },
+    {
+      "role": "right",
+      "content": "什么？！你再说一遍，我儿子怎么会出事了？你叫什么名字？你们在哪家医院？我马上过去。",
+      "timestamp": 1740772256.1469903
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为情绪激动，急于了解详细情况而选择挂断电话，意图是立即前往医院查看儿子的情况。这种情况下，用户可能没有意识到这是一起诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

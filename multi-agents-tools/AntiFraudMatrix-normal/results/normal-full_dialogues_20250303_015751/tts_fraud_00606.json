@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮您的？",
+      "timestamp": 1740953924.1156049
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个晚饭，有什么推荐的吗？",
+      "timestamp": 1740953925.0934362
+    },
+    {
+      "role": "left",
+      "content": "我们有几款热门菜品非常受欢迎，比如宫保鸡丁、鱼香肉丝和西红柿炒蛋，您感兴趣吗？",
+      "timestamp": 1740953929.8990078
+    },
+    {
+      "role": "right",
+      "content": "听起来都不错，那就来一份宫保鸡丁和一份西红柿炒蛋吧。再加一份米饭。",
+      "timestamp": 1740953931.7741542
+    },
+    {
+      "role": "left",
+      "content": "好的，为您加了一份宫保鸡丁、一份西红柿炒蛋和一份米饭。还需要其他什么吗？比如汤类或饮料？",
+      "timestamp": 1740953935.3882341
+    },
+    {
+      "role": "right",
+      "content": "来一碗紫菜汤吧，饮料就来一瓶冰红茶。谢谢。",
+      "timestamp": 1740953936.5493445
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已确认：宫保鸡丁、西红柿炒蛋、一碗紫菜汤和一瓶冰红茶，还有一份米饭。您的订单预计在30分钟内送达。如果需要更改送达时间或有其他要求，请告诉我。",
+      "timestamp": 1740953942.6861076
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情后，提供了预计送达时间和更改选项，随后使用了结束信号代码'##ENDCALL_SIGNAL##'。这表明服务方认为订单流程已经完成，用户的需求得到了满足，因此选择结束对话。服务方的意图是确保用户满意并礼貌地结束此次服务交互。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

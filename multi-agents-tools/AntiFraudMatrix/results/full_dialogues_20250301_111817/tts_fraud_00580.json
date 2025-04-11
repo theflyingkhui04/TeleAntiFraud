@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子的朋友，他现在遇到了一些麻烦，您必须马上给我转账，否则他会很危险。",
+      "timestamp": 1740806652.9482398
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？我儿子他怎么了？你能不能告诉我具体是什么情况？我需要马上联系他。",
+      "timestamp": 1740806655.4874163
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能因为怀疑对方身份和动机，担心这是一个诈骗电话，因此选择挂断电话以保护自己不受潜在的诈骗风险。用户在对话中表现出对儿子安全的关心，但同时也希望获取更多信息来验证对方的说法，这表明用户对诈骗者的要求持谨慎态度。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

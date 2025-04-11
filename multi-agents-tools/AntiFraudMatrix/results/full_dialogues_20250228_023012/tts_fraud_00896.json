@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您儿子的朋友，他现在出事了，需要您立刻转账5万元到这个账户：6222 0806 1234 5678。他被坏人抓走了，我们得赶紧付钱，不然他们真的会伤害他！您快点，好吗？",
+      "timestamp": 1740689391.0776687
+    },
+    {
+      "role": "right",
+      "content": "哎呀，你说的是真的吗？我儿子真的出事了？这可怎么办啊！你们是谁？我怎么知道你不是骗子？",
+      "timestamp": 1740689428.900674
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者要求立即转账并提供银行账户信息后，产生了怀疑并质疑对方的身份，表明用户可能意识到了这是一起诈骗行为，因此选择主动挂断电话以避免进一步的风险。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

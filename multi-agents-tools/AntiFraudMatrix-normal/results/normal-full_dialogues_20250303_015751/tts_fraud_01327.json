@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪项服务呢？",
+      "timestamp": 1740973116.655199
+    },
+    {
+      "role": "right",
+      "content": "你们都有哪些服务？我看看再说。",
+      "timestamp": 1740973117.891034
+    },
+    {
+      "role": "left",
+      "content": "我们提供的服务包括美容护理、按摩理疗、健身指导和瑜伽课程。您可以根据您的需求选择合适的服务。",
+      "timestamp": 1740973122.3525305
+    },
+    {
+      "role": "right",
+      "content": "我看看按摩理疗吧，具体怎么预约？",
+      "timestamp": 1740973123.326794
+    },
+    {
+      "role": "left",
+      "content": "好的，按摩理疗服务非常受欢迎。请问您想预约哪个时间段？我们通常的营业时间是早上9点到晚上8点。您也可以告诉我您的具体需求，我们会为您推荐合适的按摩师。",
+      "timestamp": 1740973131.6075392
+    },
+    {
+      "role": "right",
+      "content": "明天下午三点可以吗？我主要是想放松一下。",
+      "timestamp": 1740973132.5744293
+    },
+    {
+      "role": "left",
+      "content": "明天下午三点可以为您预约。我会安排一位擅长放松按摩的理疗师为您服务。请问您需要预约多长时间的服务呢？我们有60分钟和90分钟两种选择。",
+      "timestamp": 1740973139.2448416
+    },
+    {
+      "role": "right",
+      "content": "六十分钟吧。",
+      "timestamp": 1740973140.263676
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您预约了明天下午三点的60分钟放松按摩服务。您的预约号是123456，我们会通过短信发送确认信息，请注意查收。还有其他需要帮助的吗？",
+      "timestamp": 1740973148.1104465
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。没有其他需要了。",
+      "timestamp": 1740973149.24028
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何其他需求或问题，随时欢迎联系我们。祝您明天的按摩理疗愉快，感谢您的选择，再见。",
+      "timestamp": 1740973157.441373
+    },
+    {
+      "role": "right",
+      "content": "再见。",
+      "timestamp": 1740973158.6244352
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的服务预约信息，并明确表示没有其他需要帮助的内容，同时表达了感谢。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您有任何其他需求或问题，随时欢迎联系我们。祝您明天的按摩理疗愉快，感谢您的选择，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

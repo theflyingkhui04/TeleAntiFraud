@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是彩票中心的客服，恭喜您中了我们的特等奖！奖品是一辆价值五十万的轿车和五十万元的现金。请提供您的姓名和身份证号码，以便我们核实您的身份信息。",
+      "timestamp": 1740740282.4604795
+    },
+    {
+      "role": "right",
+      "content": "啊，真的吗？我最近都没买彩票啊...怎么会中奖？（语气有些惊讶和怀疑）",
+      "timestamp": 1740740287.7490482
+    },
+    {
+      "role": "left",
+      "content": "您不用担心，这是我们中心推出的回馈活动，您在上个月的某次超市购物时已经自动参与了抽奖。请尽快提供您的信息，今天是我们兑奖的最后一天了。",
+      "timestamp": 1740740320.6879306
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在用户表现出怀疑和不确定时选择挂断电话，可能是因为诈骗者意识到用户对诈骗行为有所警觉，继续对话可能无法成功获取用户的敏感信息。诈骗者的意图是避免在用户进一步质疑或调查前暴露更多细节，从而减少被识破的风险。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,90 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到外卖服务，我可以帮您点餐或解决其他问题。",
+      "timestamp": 1740939759.4660547
+    },
+    {
+      "role": "right",
+      "content": "你好，我想点个饭菜，有什么推荐的吗？",
+      "timestamp": 1740939760.9394805
+    },
+    {
+      "role": "left",
+      "content": "我们有几款人气菜品非常受欢迎，比如宫保鸡丁、鱼香肉丝和麻辣香锅，您对这些有什么偏好吗？",
+      "timestamp": 1740939767.2118385
+    },
+    {
+      "role": "right",
+      "content": "宫保鸡丁听起来不错，就来一份吧。",
+      "timestamp": 1740939768.299565
+    },
+    {
+      "role": "left",
+      "content": "好的，一份宫保鸡丁已经加入您的订单，还需要搭配其他菜品或者小食吗？",
+      "timestamp": 1740939772.1428287
+    },
+    {
+      "role": "right",
+      "content": "再来一份炒青菜吧，清淡点的。",
+      "timestamp": 1740939773.008789
+    },
+    {
+      "role": "left",
+      "content": "好的，一份炒青菜也已经加入您的订单。需要什么饮料或汤品吗？",
+      "timestamp": 1740939777.3472755
+    },
+    {
+      "role": "right",
+      "content": "来一份西红柿蛋汤吧。",
+      "timestamp": 1740939778.0807822
+    },
+    {
+      "role": "left",
+      "content": "好的，一份西红柿蛋汤也已加入您的订单。请问需要餐具和纸巾吗？",
+      "timestamp": 1740939782.5881464
+    },
+    {
+      "role": "right",
+      "content": "需要，麻烦你了。",
+      "timestamp": 1740939783.313982
+    },
+    {
+      "role": "left",
+      "content": "不麻烦，餐具和纸巾我会为您准备好。还有其他需要补充的吗？",
+      "timestamp": 1740939787.2120705
+    },
+    {
+      "role": "right",
+      "content": "没了，就这些吧。谢谢。",
+      "timestamp": 1740939787.87697
+    },
+    {
+      "role": "left",
+      "content": "您的订单已经全部准备好，我们会尽快为您安排配送。预计送达时间是三十分钟内，感谢您的订购，祝您用餐愉快。",
+      "timestamp": 1740939793.784737
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740939794.5859568
+    }
+  ],
+  "turns": 5,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经完成了点餐，并明确表示没有其他需要补充的，同时表达了感谢。这表明对话目标已达成，用户对服务满意。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的订单已经全部准备好，我们会尽快为您安排配送。预计送达时间是三十分钟内，感谢您的订购，祝您用餐愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

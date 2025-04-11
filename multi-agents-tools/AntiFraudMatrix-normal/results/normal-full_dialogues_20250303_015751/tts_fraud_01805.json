@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是您的购物顾问，有什么可以帮助您的吗？",
+      "timestamp": 1740956544.714259
+    },
+    {
+      "role": "right",
+      "content": "您好，我主要是来逛逛，看看有什么适合我的东西。谢谢。",
+      "timestamp": 1740956546.062057
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我们这里有很多新款和热销商品，您可以先告诉我您感兴趣的商品类型或品牌，我可以为您推荐一些。",
+      "timestamp": 1740956550.8401802
+    },
+    {
+      "role": "right",
+      "content": "好的，我最近对户外运动装备比较感兴趣，特别是徒步鞋和背包。有什么推荐的吗？",
+      "timestamp": 1740956553.036373
+    },
+    {
+      "role": "left",
+      "content": "我们这里有几款非常受欢迎的户外徒步鞋，比如品牌XX的轻量化减震徒步鞋，非常适合长途徒步。背包方面，品牌YY的多功能背包，容量大且设计合理，也有很好的背负系统。您可以去看看，如果需要，我还可以为您详细介绍。",
+      "timestamp": 1740956558.5738506
+    },
+    {
+      "role": "right",
+      "content": "听起来不错，我先去看看这些鞋子和背包。如果有问题，我会再找您。谢谢。",
+      "timestamp": 1740956560.776364
+    },
+    {
+      "role": "left",
+      "content": "如果您对这些产品感兴趣，可以随时告诉我，我会为您详细介绍。如果暂时没有其他问题，祝您购物愉快！",
+      "timestamp": 1740956570.632939
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助，我会慢慢看。祝我好运！",
+      "timestamp": 1740956572.846765
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经表示会先去查看推荐的商品，并且明确表示如果有问题会再找服务方，这表明用户当前没有进一步的咨询需求，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果您对这些产品感兴趣，可以随时告诉我，我会为您详细介绍。如果暂时没有其他问题，祝您购物愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助，我会慢慢看。祝我好运！##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

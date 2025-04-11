@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是某某银行客服中心，我们发现您的银行账户存在异常交易，为确保您的资金安全，我们需要对您的账户进行核实。请问您现在方便接听电话吗？",
+      "timestamp": 1740751354.3496885
+    },
+    {
+      "role": "right",
+      "content": "好的，我方便。请问有什么问题呢？我最近确实用网银转过账，不知道是不是出问题了。",
+      "timestamp": 1740751356.8613615
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在对话开始时提供了挂断信号代码（##ENDCALL_SIGNAL##），这表明诈骗者选择结束对话。用户在回应时表示自己方便接听并询问具体情况，但诈骗者并未继续对话。因此，用户的挂断可能是由于诈骗者提前结束对话导致的，用户可能感到困惑或认为对方没有诚意解决问题。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

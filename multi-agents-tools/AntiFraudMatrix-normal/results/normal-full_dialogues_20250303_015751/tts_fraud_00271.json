@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "我是您的预约服务助手，可以帮助您安排预约，请告诉我您需要预约的服务类型和时间。",
+      "timestamp": 1740982297.376494
+    },
+    {
+      "role": "right",
+      "content": "好的，我想预约一个医生，最好是明天上午，有什么时间可以安排吗？",
+      "timestamp": 1740982298.94556
+    },
+    {
+      "role": "left",
+      "content": "明天上午的可选时间有九点、十点和十一点，您方便哪个时间段？",
+      "timestamp": 1740982303.3301084
+    },
+    {
+      "role": "right",
+      "content": "十点吧，这个时间比较合适。谢谢！",
+      "timestamp": 1740982304.4107537
+    },
+    {
+      "role": "left",
+      "content": "好的，您的预约已成功安排在明天上午十点，预约编号是12345，您会收到确认短信。如果有任何变动，请随时联系我们。谢谢您的信任，祝您一切顺利。再见。",
+      "timestamp": 1740982312.1673548
+    },
+    {
+      "role": "right",
+      "content": "好的，收到，谢谢。再见。",
+      "timestamp": 1740982313.8789165
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经选择了合适的时间，并表达了感谢，表明预约服务已完成，用户对服务表示满意。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的预约已成功安排在明天上午十点，预约编号是12345，您会收到确认短信。如果有任何变动，请随时联系我们。谢谢您的信任，祝您一切顺利。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，收到，谢谢。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

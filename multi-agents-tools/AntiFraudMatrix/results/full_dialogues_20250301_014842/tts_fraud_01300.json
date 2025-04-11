@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是您的邻居小王，不知道您还记得我吗？今天给您打电话是因为有一个非常紧急的事情需要您的帮助。",
+      "timestamp": 1740780437.6843429
+    },
+    {
+      "role": "right",
+      "content": "小王啊，你好你好，我记得你。什么紧急的事情啊？你说说看。",
+      "timestamp": 1740780439.7886875
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户可能在听到诈骗者提到紧急事情时，意识到这可能是一个诈骗电话，因此选择立即挂断以避免进一步的交流。用户的意图是终止对话，防止个人信息泄露或财务损失。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

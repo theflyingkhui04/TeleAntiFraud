@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，您可以告诉我想点什么餐吗？",
+      "timestamp": 1740983081.7952278
+    },
+    {
+      "role": "right",
+      "content": "你好，我想点一份牛肉炒饭和一个糖醋排骨，还有一杯冰红茶。谢谢。",
+      "timestamp": 1740983087.297843
+    },
+    {
+      "role": "left",
+      "content": "好的，您点了一份牛肉炒饭、一个糖醋排骨和一杯冰红茶。请问需要什么口味的冰红茶呢？比如原味、柠檬或者蜜桃。",
+      "timestamp": 1740983096.906764
+    },
+    {
+      "role": "right",
+      "content": "那就来一杯原味的吧。谢谢。",
+      "timestamp": 1740983098.1679106
+    },
+    {
+      "role": "left",
+      "content": "好的，原味冰红茶已为您记下。请问您的送餐地址和联系电话是什么？方便我们为您安排送餐。",
+      "timestamp": 1740983103.108164
+    },
+    {
+      "role": "right",
+      "content": "地址是青山路32号，联系电话是13812345678。谢谢。",
+      "timestamp": 1740983105.8873274
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单信息已确认：地址为青山路三十二号，联系电话一三八一二三四年五六七八。您的订单我们会在三十分钟内送达，如有特殊情况我们会提前联系您。感谢您的订餐，祝您用餐愉快。",
+      "timestamp": 1740983118.9427342
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单信息，包括餐品、口味、送餐地址和联系电话后，明确告知了用户订单的送达时间，并表达了感谢和祝福。服务方使用了结束标识符'##ENDCALL_SIGNAL##'，表明对话目标已达成，服务流程已经完成，因此服务方选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

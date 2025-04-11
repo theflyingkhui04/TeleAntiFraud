@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服中心，您的包裹在运输过程中被发现含有违禁品，需要您支付一笔罚款才能继续配送。请您提供一下姓名和电话号码，以便我们核实信息。",
+      "timestamp": 1740754400.1405835
+    },
+    {
+      "role": "right",
+      "content": "哎呀，真的吗？我最近确实寄了一个包裹，里面是一些土特产，不知道怎么就成违禁品了。你们能帮我查一下具体是什么违禁品吗？我这就提供我的信息。我叫张大山，电话号码是这个……",
+      "timestamp": 1740754404.0479093
+    },
+    {
+      "role": "left",
+      "content": "很抱歉给您带来不便，如果您有任何疑问，可以随时联系我们的客服热线。祝您生活愉快！",
+      "timestamp": 1740754414.4964933
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的理解和帮助。我会尽快处理的。",
+      "timestamp": 1740754415.894028
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供姓名和电话号码，诈骗明显成功。为了防止进一步的敏感信息泄露，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "很抱歉给您带来不便，如果您有任何疑问，可以随时联系我们的客服热线。祝您生活愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们的理解和帮助。我会尽快处理的。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

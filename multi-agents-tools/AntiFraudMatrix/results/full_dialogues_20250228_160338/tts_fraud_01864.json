@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是国家邮政服务中心，我们发现您的包裹在海关检查时存在一些问题，需要您配合处理，不然可能会被扣押。您能提供一下您的姓名和联系电话吗？我们需要核实您的身份。",
+      "timestamp": 1740743057.4360473
+    },
+    {
+      "role": "right",
+      "content": "您好，我姓张。我的电话就是你们打过来的这个号码。你们说的包裹有问题，这到底是怎么回事？我最近确实有一个包裹要从国外寄过来，但是我一直没收到通知。",
+      "timestamp": 1740743060.3807893
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在提供基本信息后，可能意识到对话内容存在可疑之处，怀疑对方可能是诈骗者，因此选择挂断电话以避免进一步的风险。用户的意图是保护个人信息，避免被诈骗者获取更多敏感数据。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

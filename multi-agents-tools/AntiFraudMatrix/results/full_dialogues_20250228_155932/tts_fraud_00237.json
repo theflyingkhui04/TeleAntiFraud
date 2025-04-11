@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，我是国家彩票中心的工作人员，恭喜您，您中了一等奖，奖金是一百万元！请您提供一下您的个人信息，我们需要进行身份验证。",
+      "timestamp": 1740745454.4022272
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太不可思议了！不过我之前从没买过彩票啊。你们是怎么确定我是中奖者的呢？",
+      "timestamp": 1740745456.375255
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者表示自己是国家彩票中心的工作人员并声称用户中了一等奖后，表现出怀疑态度，询问自己从未买过彩票如何能中奖。这表明用户对诈骗者的身份和信息的真实性产生了质疑。用户随后挂断电话，可能是出于对诈骗行为的警惕，不愿继续参与可能的诈骗对话，以保护自己的个人信息安全。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服代表小李为您服务，有什么问题我可以帮您解决吗？",
+      "timestamp": 1740973980.3322973
+    },
+    {
+      "role": "right",
+      "content": "嗯，小李啊，我就是想问一下，最近天气这么干旱，咱们村有没有什么应急措施？",
+      "timestamp": 1740973982.0545855
+    },
+    {
+      "role": "left",
+      "content": "我们村已经启动了抗旱应急预案，包括调整灌溉时间、增加蓄水池的储水量和开展节水宣传活动，确保村民的生活用水和农业生产不受影响。您还有其他方面需要了解的吗？",
+      "timestamp": 1740973988.1129086
+    },
+    {
+      "role": "right",
+      "content": "好的，那我明白了。村里能这么快采取措施，真是太好了。谢谢你的解答，小李。",
+      "timestamp": 1740973990.0545692
+    },
+    {
+      "role": "left",
+      "content": "如果还有其他问题，您可以随时联系我们。感谢您的关注和支持，祝您生活愉快。",
+      "timestamp": 1740973995.2748783
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢小李。生活愉快。",
+      "timestamp": 1740973996.7506242
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并对服务表示了感谢，明确表示没有其他问题。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "如果还有其他问题，您可以随时联系我们。感谢您的关注和支持，祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢小李。生活愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是您的朋友张伟的手机，现在情况非常紧急，张伟被一伙人绑架了，他们要求立即支付一百万元赎金，不然他们会对他下手的。您能帮帮忙吗？",
+      "timestamp": 1740804071.8345847
+    },
+    {
+      "role": "right",
+      "content": "天哪，这太可怕了！你说的是真的吗？张伟怎么会遇到这种事？我需要确认一下，你有张伟的电话或者他家人的联系方式吗？我得马上联系他们。",
+      "timestamp": 1740804075.8552577
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到诈骗者描述的紧急情况后，表现出担忧和怀疑，要求提供张伟的电话或家人的联系方式以确认情况的真实性。这表明用户没有立即相信诈骗者的故事，而是试图通过其他方式验证信息。用户挂断电话可能是为了自行联系张伟或其家人进行确认，而不是继续与诈骗者对话。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

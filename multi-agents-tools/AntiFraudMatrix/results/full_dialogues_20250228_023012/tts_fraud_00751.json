@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自快递服务公司的客服代表，这里显示您的包裹可能涉及违禁品，需要您配合处理。为了避免不必要的法律问题，我们需要您提供一些信息以确认您的身份。您能告诉我您的全名和联系电话吗？",
+      "timestamp": 1740687673.8773816
+    },
+    {
+      "role": "right",
+      "content": "您好，我有点怀疑这是不是真的。我最近没有收到任何包裹，而且我也不明白为什么会有违禁品。你们能告诉我具体是哪个包裹吗？还有，我怎么知道你们真的是快递公司的？",
+      "timestamp": 1740687676.0544996
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出怀疑态度，对诈骗者提出的问题表示不解，并质疑对方的身份。用户挂断电话的意图很可能是为了终止与诈骗者的进一步交流，避免提供个人信息，表明用户可能已经识破了诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

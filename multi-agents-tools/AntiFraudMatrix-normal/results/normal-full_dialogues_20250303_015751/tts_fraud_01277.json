@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的订餐服务，我可以帮您完成订餐，请问您想订购哪家餐厅的美食呢？",
+      "timestamp": 1740956175.7936347
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订一家中餐馆的菜，有什么推荐的吗？",
+      "timestamp": 1740956177.8677392
+    },
+    {
+      "role": "left",
+      "content": "当然可以帮您推荐。我们这里有几家口碑不错的中餐馆，比如“京城味道”和“川味轩”，前者以北京菜为主，后者则擅长四川菜。您更倾向于哪种口味？",
+      "timestamp": 1740956182.6230695
+    },
+    {
+      "role": "right",
+      "content": "那就试试“京城味道”吧，来点经典的北京菜。",
+      "timestamp": 1740956184.3964562
+    },
+    {
+      "role": "left",
+      "content": "好的，选择“京城味道”是非常不错的选择。他们家的北京烤鸭、炸酱面和宫保鸡丁都是非常受欢迎的菜品。您想要订购这些经典菜式吗？还是有其他特别想要尝试的？",
+      "timestamp": 1740956190.2088091
+    },
+    {
+      "role": "right",
+      "content": "就来个北京烤鸭和炸酱面吧，听起来很不错。",
+      "timestamp": 1740956192.4958014
+    },
+    {
+      "role": "left",
+      "content": "好的，已经为您添加了北京烤鸭和炸酱面。请问还需要其他菜品或者饮品吗？",
+      "timestamp": 1740956198.6436274
+    },
+    {
+      "role": "right",
+      "content": "暂时不需要了，这几个菜就够了。谢谢。",
+      "timestamp": 1740956200.4810026
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，北京烤鸭和炸酱面将会尽快为您配送。预计送达时间为三十分钟内。感谢您的订购，如果还有其他需要，请随时联系我们。",
+      "timestamp": 1740956209.8447897
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。",
+      "timestamp": 1740956210.801905
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示满意并感谢服务方，且没有进一步的订餐需求，对话目标已达成。",
+  "terminator": "user结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经确认，北京烤鸭和炸酱面将会尽快为您配送。预计送达时间为三十分钟内。感谢您的订购，如果还有其他需要，请随时联系我们。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

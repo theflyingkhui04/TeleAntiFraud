@@ -1,0 +1,80 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎光临，我是店员小张，有什么可以帮助您的吗？",
+      "timestamp": 1740956392.852672
+    },
+    {
+      "role": "right",
+      "content": "你好，小张。我来看看有没有适合我这个年纪穿的休闲衣服。",
+      "timestamp": 1740956394.2545087
+    },
+    {
+      "role": "left",
+      "content": "好的，我们这里有很多款式的休闲衣服，适合各个年龄段。您大概多大年纪，喜欢什么样的风格呢？这样我可以给您更精准的建议。",
+      "timestamp": 1740956403.0012918
+    },
+    {
+      "role": "right",
+      "content": "我今年六十二了，喜欢穿得舒服点，不要太花哨的。给我看看你们的推荐吧。",
+      "timestamp": 1740956405.7046833
+    },
+    {
+      "role": "left",
+      "content": "明白了，我们这边有一些简约舒适的休闲装非常适合您。比如这款纯色的棉质T恤，透气性很好，搭配休闲裤或牛仔裤都挺合适的。您看下这款怎么样？",
+      "timestamp": 1740956411.0851398
+    },
+    {
+      "role": "right",
+      "content": "这款看起来不错，我可以试试吗？",
+      "timestamp": 1740956411.9876938
+    },
+    {
+      "role": "left",
+      "content": "当然可以，我带您去试衣间。请问您需要什么尺码的？我们这里有多种尺码可以选择。",
+      "timestamp": 1740956415.3546112
+    },
+    {
+      "role": "right",
+      "content": "好的，我一般穿中号的，麻烦你了。",
+      "timestamp": 1740956419.2711062
+    },
+    {
+      "role": "left",
+      "content": "好的，我这就帮您拿中号的。如果您还需要其他帮助，随时告诉我。试衣间这边请。",
+      "timestamp": 1740956424.4248514
+    },
+    {
+      "role": "right",
+      "content": "谢谢，小张。你服务真周到。",
+      "timestamp": 1740956425.1291904
+    },
+    {
+      "role": "right",
+      "content": "这件衣服真的很合适，谢谢你的帮助，小张。我决定就买这件了。再见。",
+      "timestamp": 1740956433.2953928
+    },
+    {
+      "role": "left",
+      "content": "非常高兴您喜欢这件衣服，我会为您办理购买手续。如果您有任何其他需求，随时欢迎再来。再见。",
+      "timestamp": 1740956436.6336598
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户明确表示感谢并结束对话，服务目标已达成。",
+  "terminator": "right",
+  "conclusion_messages": [
+    {
+      "role": "right",
+      "content": "这件衣服真的很合适，谢谢你的帮助，小张。我决定就买这件了。再见。"
+    },
+    {
+      "role": "left",
+      "content": "非常高兴您喜欢这件衣服，我会为您办理购买手续。如果您有任何其他需求，随时欢迎再来。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

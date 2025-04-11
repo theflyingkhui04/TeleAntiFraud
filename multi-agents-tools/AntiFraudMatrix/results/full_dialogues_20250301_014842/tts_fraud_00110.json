@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是紧急热线，我们刚刚收到了关于您家人的求救信息，您需要立刻听我说。",
+      "timestamp": 1740769952.3164575
+    },
+    {
+      "role": "right",
+      "content": "喂，您好，我是医生，能具体说说是什么情况吗？我家人都很安全，我有点担心。",
+      "timestamp": 1740769954.1411076
+    },
+    {
+      "role": "left",
+      "content": "医生吗？情况非常紧急，您的家人被挟持了，对方要求立即支付五十万赎金，否则他们会……",
+      "timestamp": 1740769958.85579
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者可能意识到对方是医生，担心对方会进一步询问具体医疗情况，从而暴露诈骗行为。此外，医生的身份可能让诈骗者认为对方具有较高的警惕性和专业知识，难以继续欺骗，因此选择主动挂断以避免进一步的风险。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是XX彩票中心的客服，您最近在我们平台购买的彩票中得了大奖，请问您方便接听电话吗？",
+      "timestamp": 1740732630.4352498
+    },
+    {
+      "role": "right",
+      "content": "您好，真是太意外了！我中奖了？那真是太好了。我这边现在挺方便的，您能告诉我具体是什么奖吗？",
+      "timestamp": 1740732644.4746373
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在听到自己中奖的消息后表现出惊讶和兴趣，但紧接着双方都提供了挂断信号（##ENDCALL_SIGNAL##）。这可能是因为用户在确认信息的真实性之前选择了挂断，以避免进一步的风险，或者是因为诈骗者意识到用户可能需要更多时间来考虑，因此主动挂断。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

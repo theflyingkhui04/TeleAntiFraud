@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎来到美食速递，我可以帮您订餐，请问您想订哪家餐厅的餐呢？",
+      "timestamp": 1740981035.965909
+    },
+    {
+      "role": "right",
+      "content": "你好，我想订个披萨，有什么推荐的吗？",
+      "timestamp": 1740981037.0598364
+    },
+    {
+      "role": "left",
+      "content": "您好，我们这里有几款非常受欢迎的披萨，比如经典的意式腊肠披萨和海鲜披萨，还有素食者喜爱的蔬菜披萨，您有什么偏好吗？",
+      "timestamp": 1740981042.4090416
+    },
+    {
+      "role": "right",
+      "content": "那就来个意式腊肠披萨吧。",
+      "timestamp": 1740981043.6307697
+    },
+    {
+      "role": "left",
+      "content": "好的，意式腊肠披萨一份，还需要加点什么其他的吗？比如饮料或者小吃？",
+      "timestamp": 1740981047.6160524
+    },
+    {
+      "role": "right",
+      "content": "再来一瓶可乐吧。",
+      "timestamp": 1740981049.848306
+    },
+    {
+      "role": "left",
+      "content": "好的，意式腊肠披萨一份加一瓶可乐，您的订单已经记录好了。请问需要送到哪里？",
+      "timestamp": 1740981054.715116
+    },
+    {
+      "role": "right",
+      "content": "送到这里吧，地址是XX路XX号。",
+      "timestamp": 1740981055.5833232
+    },
+    {
+      "role": "left",
+      "content": "好的，您的地址是XX路XX号，我们会尽快为您送达。预计送达时间大约是30分钟到40分钟，请问还有其他需要帮忙的吗？",
+      "timestamp": 1740981061.12219
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的订单详情，包括餐品、饮料和送餐地址后，进一步告知了预计送达时间，并询问用户是否有其他需要帮忙的事项。在用户没有进一步的需求后，服务方使用了结束信号代码'##ENDCALL_SIGNAL##'，表明服务方认为对话目标已达成，即订单已成功创建并确认，服务流程已经完成，因此选择结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

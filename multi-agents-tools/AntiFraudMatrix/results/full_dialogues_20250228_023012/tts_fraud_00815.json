@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "你女儿现在在我们手上，立刻准备50万赎金，不许报警，否则后果自负！",
+      "timestamp": 1740691230.68442
+    },
+    {
+      "role": "right",
+      "content": "你、你们是谁？我女儿怎么样了？你们不要伤害她，我、我会准备钱的，但是你们得先让我知道她没事。",
+      "timestamp": 1740691232.2244759
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者发出威胁后表现出明显的恐慌和焦虑，但随后诈骗者主动挂断了电话，这可能是诈骗者意识到用户已经开始怀疑或准备采取行动，如报警或寻求帮助，因此选择提前结束对话以避免被追踪或暴露。用户的意图可能是试图获取更多关于女儿的信息以确认情况，并可能准备采取进一步行动来应对诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

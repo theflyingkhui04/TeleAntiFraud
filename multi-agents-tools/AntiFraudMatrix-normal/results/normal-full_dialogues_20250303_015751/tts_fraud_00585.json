@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，我可以帮您安排车辆，请告诉我您的上车地点和目的地。",
+      "timestamp": 1740965923.5008442
+    },
+    {
+      "role": "right",
+      "content": "好的，我从医院出发，目的地是市中心的图书馆。谢谢。",
+      "timestamp": 1740965925.2025275
+    },
+    {
+      "role": "left",
+      "content": "好的，从医院到市中心图书馆，我会立刻为您安排车辆。请问您需要什么类型的车辆，比如经济型、舒适型或者商务型？",
+      "timestamp": 1740965931.377664
+    },
+    {
+      "role": "right",
+      "content": "经济型的就行，谢谢。",
+      "timestamp": 1740965932.1524973
+    },
+    {
+      "role": "left",
+      "content": "明白了，我会为您安排一辆经济型车辆。预计车辆将在10分钟内到达医院。请注意查收短信，里面会有司机的联系方式和车牌号。您还有其他需要帮助的吗？",
+      "timestamp": 1740965937.0832853
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢。没有其他需要了。",
+      "timestamp": 1740965937.7602644
+    },
+    {
+      "role": "left",
+      "content": "您的车辆已安排好，10分钟后到达医院。如果需要任何进一步的帮助，请随时联系。祝您一路顺利。",
+      "timestamp": 1740965942.2657597
+    },
+    {
+      "role": "right",
+      "content": "谢谢，一路顺利。",
+      "timestamp": 1740965943.0530534
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户表示没有其他需要帮助的，并且对服务表示了感谢，表明对话目标已达成。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "您的车辆已安排好，10分钟后到达医院。如果需要任何进一步的帮助，请随时联系。祝您一路顺利。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，一路顺利。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

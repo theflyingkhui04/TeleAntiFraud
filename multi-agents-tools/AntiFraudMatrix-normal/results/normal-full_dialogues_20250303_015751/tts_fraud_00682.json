@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "客服小张为您服务，有什么我可以帮您的吗？",
+      "timestamp": 1740953718.3119009
+    },
+    {
+      "role": "right",
+      "content": "您好，小张。我就是想了解一下今年的农作物补贴政策。",
+      "timestamp": 1740953722.5156384
+    },
+    {
+      "role": "left",
+      "content": "了解了，关于今年的农作物补贴政策，我可以帮您查询最新的信息。您是想了解哪些具体的作物或地区的补贴情况呢？",
+      "timestamp": 1740953726.9872518
+    },
+    {
+      "role": "right",
+      "content": "就是小麦和玉米的，我们这边是北方的。",
+      "timestamp": 1740953731.1323004
+    },
+    {
+      "role": "left",
+      "content": "好的，针对北方地区的小麦和玉米补贴政策，目前政府提供了每亩大约一百五十元的直接补贴，还有针对购买种子、化肥的额外补贴。具体的补贴标准和申请流程，可以咨询当地的农业局或村委会，他们会提供详细的指导。不知道这些信息是否对您有帮助？",
+      "timestamp": 1740953737.3437645
+    },
+    {
+      "role": "right",
+      "content": "有帮助，谢谢。那我得去村委会问问具体的申请流程。",
+      "timestamp": 1740953738.406525
+    },
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果还有其他问题，随时欢迎联系。希望这些信息对您有所帮助。祝您生活愉快。",
+      "timestamp": 1740953743.74373
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。生活愉快。",
+      "timestamp": 1740953745.100887
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经获得了所需的信息，并表示将去村委会询问具体的申请流程，表明用户的问题已经解决且对服务表示满意。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "感谢您的咨询，如果还有其他问题，随时欢迎联系。希望这些信息对您有所帮助。祝您生活愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。生活愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服中心，您的包裹在运输过程中出现了问题，需要您配合处理一下。",
+      "timestamp": 1740740927.0357406
+    },
+    {
+      "role": "right",
+      "content": "您好，我是医生，最近确实网购了一些东西。请问我的包裹出了什么问题？",
+      "timestamp": 1740740929.042589
+    },
+    {
+      "role": "left",
+      "content": "您的包裹里含有一些需要特别处理的物品，快递公司按规定需要收取一笔额外处理费用，否则无法继续派送。为了不耽误您正常使用，麻烦您配合下。",
+      "timestamp": 1740740933.9575455
+    },
+    {
+      "role": "right",
+      "content": "哦，这样啊。那需要我做些什么呢？费用是多少？",
+      "timestamp": 1740740936.009251
+    },
+    {
+      "role": "left",
+      "content": "费用是一百元，您可以选择通过微信或支付宝转账。为了方便您，我这里可以提供支付链接，您现在方便支付吗？",
+      "timestamp": 1740740942.716698
+    },
+    {
+      "role": "right",
+      "content": "好的，那麻烦您提供一下支付链接吧。我马上处理。",
+      "timestamp": 1740740944.1962485
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们先挂了，如果您有任何问题，可以随时联系我。再见。",
+      "timestamp": 1740740952.9841537
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。再见。",
+      "timestamp": 1740740954.7978077
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已同意支付并请求支付链接，诈骗明显成功。为了防止用户进一步损失，应立即终止对话。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们先挂了，如果您有任何问题，可以随时联系我。再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

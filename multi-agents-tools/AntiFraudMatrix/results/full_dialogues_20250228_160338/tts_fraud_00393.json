@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是银行信用卡中心，我们发现您的账户存在异常交易，需要立即核实您的身份信息，以确保账户安全。请问您现在方便通话吗？",
+      "timestamp": 1740731882.3579788
+    },
+    {
+      "role": "right",
+      "content": "您好，我确实收到了一条短信，说我的账户有异常。不过我之前也收到过类似的短信，结果是诈骗。你们能提供一下具体的异常交易信息吗？我需要确认一下。",
+      "timestamp": 1740731920.8131082
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户对诈骗者的身份表示怀疑，并要求提供具体的异常交易信息以确认真实性。用户可能意识到这可能是诈骗电话，因此选择挂断以避免进一步的潜在风险。用户的意图是保护自己的个人信息和财产安全，避免被诈骗。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

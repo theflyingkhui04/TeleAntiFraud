@@ -1,0 +1,70 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用我们的外卖服务，有什么可以帮助您的吗？",
+      "timestamp": 1740972100.4305916
+    },
+    {
+      "role": "right",
+      "content": "你好，我想点一份牛肉炒饭和一份糖醋排骨，还有一瓶可乐。",
+      "timestamp": 1740972101.9757512
+    },
+    {
+      "role": "left",
+      "content": "好的，您点了一份牛肉炒饭、一份糖醋排骨和一瓶可乐，这些都记下来了。请问还有其他需要加的吗？",
+      "timestamp": 1740972107.9637227
+    },
+    {
+      "role": "right",
+      "content": "暂时没有了，就这些吧。对了，你们这里外卖送餐时间大概多久？",
+      "timestamp": 1740972109.9454277
+    },
+    {
+      "role": "left",
+      "content": "通常情况下，我们的送餐时间在下单后30到45分钟内，具体时间可能会因当前订单量和天气情况有所不同。我会尽快为您处理订单。您需要马上送餐吗？",
+      "timestamp": 1740972117.1332264
+    },
+    {
+      "role": "right",
+      "content": "最好能尽快送到，我大概半小时后到家。",
+      "timestamp": 1740972118.5731208
+    },
+    {
+      "role": "left",
+      "content": "了解了，我会备注您的订单为尽快配送，争取在您到家时准时送达。请问送餐地址和联系方式可以提供一下吗？",
+      "timestamp": 1740972123.8415782
+    },
+    {
+      "role": "right",
+      "content": "好的，地址是xx小区xx号楼xx单元xx室，电话是138xxxx5678。谢谢。",
+      "timestamp": 1740972125.9905517
+    },
+    {
+      "role": "left",
+      "content": "好的，您的订单已经准备好了，我们会尽快为您配送。感谢您的订餐，祝您用餐愉快！",
+      "timestamp": 1740972133.7959895
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。",
+      "timestamp": 1740972135.638069
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经提供了所有必要的信息，包括点餐内容、送餐时间和地址。服务方可以开始处理订单，对话目标已达成。",
+  "terminator": "service方结束",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，您的订单已经准备好了，我们会尽快为您配送。感谢您的订餐，祝您用餐愉快！##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你们。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,66 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎预约我们的服务，请问您需要预约哪一项服务呢？",
+      "timestamp": 1740978028.7245219
+    },
+    {
+      "role": "right",
+      "content": "我想了解一下你们的家政服务。",
+      "timestamp": 1740978029.7889853
+    },
+    {
+      "role": "left",
+      "content": "好的，我们的家政服务包括日常清洁、深度清洁、钟点工服务等。您具体需要哪一种服务？",
+      "timestamp": 1740978035.992514
+    },
+    {
+      "role": "right",
+      "content": "日常清洁就可以了。",
+      "timestamp": 1740978036.9744334
+    },
+    {
+      "role": "left",
+      "content": "明白了，日常清洁服务包括扫地、拖地、擦窗、整理房间等。请问您希望预约的具体时间是什么时候？",
+      "timestamp": 1740978042.3526845
+    },
+    {
+      "role": "right",
+      "content": "下周一上午十点可以吗？",
+      "timestamp": 1740978043.8058634
+    },
+    {
+      "role": "left",
+      "content": "下周一上午十点可以，这个时间段我们有空档。请问您家的地址是哪里？",
+      "timestamp": 1740978050.0114958
+    },
+    {
+      "role": "right",
+      "content": "地址是幸福路123号。",
+      "timestamp": 1740978052.6754358
+    },
+    {
+      "role": "left",
+      "content": "好的，已记录您的地址为幸福路123号。请问您需要预约多长时间的服务？我们通常以两小时为一个服务单位。",
+      "timestamp": 1740978060.1380026
+    },
+    {
+      "role": "right",
+      "content": "两小时应该够了。",
+      "timestamp": 1740978061.0443401
+    },
+    {
+      "role": "left",
+      "content": "好的，已为您预约下周一上午十点至十二点的日常清洁服务。您的预约编号是123456，稍后我们会发送确认短信到您的手机，请注意查收。是否还有其他事项需要帮助的？",
+      "timestamp": 1740978071.071615
+    }
+  ],
+  "turns": 4,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认了用户的预约信息后，提供了预约编号，并告知用户会发送确认短信。服务方询问用户是否还有其他需要帮助的事项，但并未收到用户的进一步请求。服务方在此时使用了结束信号代码'##ENDCALL_SIGNAL##'，表明服务方认为对话目标已经达成，服务流程已经完成，因此选择主动结束对话。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

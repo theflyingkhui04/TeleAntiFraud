@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "尊敬的客户，我们注意到您最近有一个从国外寄出的包裹，由于海关检查出现问题，需要您支付一笔清关费用才能顺利收到包裹。请问您现在方便处理吗？",
+      "timestamp": 1740690305.9528024
+    },
+    {
+      "role": "right",
+      "content": "您好，我最近确实有一个从国外寄来的包裹，但我已经支付了所有的费用。你们是哪家物流公司？我需要核实一下这个问题。",
+      "timestamp": 1740690308.6280775
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在对话中表现出了警惕性，要求核实对方身份，表明用户可能怀疑这是一起诈骗行为。用户主动挂断电话，可能是为了防止进一步的信息泄露，并打算通过其他途径验证包裹的情况。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

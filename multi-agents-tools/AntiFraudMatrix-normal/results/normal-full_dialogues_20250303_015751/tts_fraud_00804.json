@@ -1,0 +1,46 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是打车服务的客服，有什么可以帮助您的吗？",
+      "timestamp": 1740953969.833945
+    },
+    {
+      "role": "right",
+      "content": "您好，我打的车迟迟没来，能帮我查一下吗？",
+      "timestamp": 1740953971.324226
+    },
+    {
+      "role": "left",
+      "content": "当然可以，麻烦您提供一下您的订单号或者上车地点，我来帮您查询一下。",
+      "timestamp": 1740953975.1842492
+    },
+    {
+      "role": "right",
+      "content": "好的，我的订单号是123456789。",
+      "timestamp": 1740953977.0339272
+    },
+    {
+      "role": "left",
+      "content": "感谢您的耐心等待，我查到了您的订单。司机目前距离您大约还有五分钟的路程，预计三分钟后到达。请您稍作等待，如果有任何变动，我们会及时通知您。",
+      "timestamp": 1740953984.2673538
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的帮助。我会再等一会儿。",
+      "timestamp": 1740953985.4092572
+    },
+    {
+      "role": "left",
+      "content": "不客气，如果您有任何其他问题，随时可以联系我。祝您出行顺利，旅途愉快。",
+      "timestamp": 1740953989.690175
+    }
+  ],
+  "turns": 2,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "服务方在确认用户的问题已经解决，并且用户表示会继续等待后，选择结束对话。服务方的意图是确保用户满意，并在问题解决后礼貌地结束对话，同时表达对用户的美好祝愿。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

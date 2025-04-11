@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "欢迎使用打车服务，您现在需要叫车吗？",
+      "timestamp": 1740956983.497448
+    },
+    {
+      "role": "right",
+      "content": "暂时不需要，谢谢。我还在考虑是开车还是打车。",
+      "timestamp": 1740956984.6282632
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您决定打车，可以随时告诉我您的出发地和目的地，我会为您安排合适的车辆。",
+      "timestamp": 1740956990.6320844
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢你的提醒。如果确定打车，我会联系你的。",
+      "timestamp": 1740956992.6864061
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您有任何需要，随时欢迎联系。祝您今天愉快。",
+      "timestamp": 1740956997.41699
+    },
+    {
+      "role": "right",
+      "content": "谢谢，也祝你今天愉快。",
+      "timestamp": 1740957000.9956605
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经明确表示暂时不需要服务，并且在考虑其他选项。用户也表达了如果需要服务会再次联系，这表明当前对话目标已经达成，没有进一步交流的必要。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您有任何需要，随时欢迎联系。祝您今天愉快。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，也祝你今天愉快。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "喂，您好，这里是国家彩票中心，恭喜您中了一等奖，奖金高达五百万元！您现在方便接听电话吗？",
+      "timestamp": 1740777124.065628
+    },
+    {
+      "role": "right",
+      "content": "真的吗？太不可思议了！我怎么这么幸运呢？我这边现在可以接听，您继续说吧。",
+      "timestamp": 1740777126.3529162
+    },
+    {
+      "role": "left",
+      "content": "是的，是真的！您的彩票号码与开奖号码完全匹配，我们已经验证过了。不过，为了确保奖金能够顺利发放，我们需要您提供一些基本信息，比如姓名、身份证号和银行账号。您能提供吗？",
+      "timestamp": 1740777132.4302742
+    },
+    {
+      "role": "right",
+      "content": "哇，太好了！我叫张明，身份证号是 **********，银行账号是 **********。这些信息可以吗？",
+      "timestamp": 1740777134.7557342
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您！我这就去准备这些信息，等下再联系您。再见！",
+      "timestamp": 1740777141.4649498
+    },
+    {
+      "role": "left",
+      "content": "不不不，您先别挂，我们这里需要马上确认，不然系统会自动取消您的中奖资格。您现在方便提供吗？",
+      "timestamp": 1740777143.0320473
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已提供敏感信息，包括姓名、身份证号和银行账号，诈骗明显成功。",
+  "terminator": "right",
+  "conclusion_messages": [
+    {
+      "role": "right",
+      "content": "好的，谢谢您！我这就去准备这些信息，等下再联系您。再见！"
+    },
+    {
+      "role": "left",
+      "content": "不不不，您先别挂，我们这里需要马上确认，不然系统会自动取消您的中奖资格。您现在方便提供吗？##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

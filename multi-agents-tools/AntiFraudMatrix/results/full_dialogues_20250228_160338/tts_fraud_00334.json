@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是顺丰快递客服，我们刚刚发现您有一个包裹内含有违禁品，需要您配合处理，否则可能会影响您的信用记录。",
+      "timestamp": 1740733510.797715
+    },
+    {
+      "role": "right",
+      "content": "哎呀，这可怎么办？我最近确实收到了一个包裹，里面是什么东西我自己也不太清楚。你们需要我怎么配合呢？",
+      "timestamp": 1740733516.4769764
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在诈骗者提出需要配合处理包裹内含有违禁品的问题后，表现出困惑和担忧，但随后立即挂断了电话。这可能是因为用户意识到这是一个诈骗电话，或者用户对诈骗者的要求感到不安和怀疑，因此选择挂断电话以避免进一步的诈骗行为。用户的意图可能是保护自己的个人信息和财产安全，避免被诈骗者利用。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

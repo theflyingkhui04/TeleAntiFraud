@@ -1,0 +1,50 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，欢迎使用打车服务，请问您现在需要叫车吗？",
+      "timestamp": 1740939505.583086
+    },
+    {
+      "role": "right",
+      "content": "您好，暂时不需要，谢谢。我还在考虑具体的时间和地点。",
+      "timestamp": 1740939506.8537598
+    },
+    {
+      "role": "left",
+      "content": "好的，没问题。如果您决定了时间和地点，随时告诉我，我会为您安排合适的车辆。",
+      "timestamp": 1740939511.8528016
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您的耐心等待。我会尽快确定的。",
+      "timestamp": 1740939513.017079
+    },
+    {
+      "role": "left",
+      "content": "好的，如果您需要任何帮助，随时可以联系我们。祝您一天愉快，再见。",
+      "timestamp": 1740939520.5287693
+    },
+    {
+      "role": "right",
+      "content": "谢谢，也祝您一天愉快。再见。",
+      "timestamp": 1740939521.7427604
+    }
+  ],
+  "turns": 1,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "用户已经明确表示暂时不需要叫车，并感谢了服务方的耐心等待，表明用户当前没有进一步的服务需求。",
+  "terminator": "user_end",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，如果您需要任何帮助，随时可以联系我们。祝您一天愉快，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "谢谢，也祝您一天愉快。再见。##ENDCALL_SIGNAL##"
+    }
+  ],
+  "reached_max_turns": false
+}

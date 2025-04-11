@@ -1,0 +1,21 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "听话，别挂电话，你儿子现在在我们手上，如果你不想他出事，就按照我说的做。",
+      "timestamp": 1740685828.4324481
+    },
+    {
+      "role": "right",
+      "content": "你到底是谁？你怎么会有我儿子的？我儿子现在在哪里？你不要吓我，如果你敢动他一根毫毛，我报警了！",
+      "timestamp": 1740685830.2537413
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "用户在意识到对话涉及诈骗后，表现出强烈的拒绝和不满情绪，并明确表示要报警。用户通过挂断电话来终止与诈骗者的进一步交流，以保护自己和家人的安全，并防止进一步的诈骗行为。",
+  "terminator": "right",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

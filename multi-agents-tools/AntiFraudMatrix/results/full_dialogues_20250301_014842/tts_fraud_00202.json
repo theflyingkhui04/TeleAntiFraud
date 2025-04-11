@@ -1,0 +1,26 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，这里是邮政客服中心，我姓张。我们发现您有一个包裹里面可能含有违禁品，需要您配合处理。为了不影响您的信用记录，请问您方便现在提供一些信息吗？",
+      "timestamp": 1740787005.2065268
+    },
+    {
+      "role": "right",
+      "content": "您好，张先生。这个包裹是什么时候寄的？我最近没收到过这样的通知啊。",
+      "timestamp": 1740787007.386633
+    },
+    {
+      "role": "left",
+      "content": "根据我们的系统显示，这是一个从香港寄出的包裹，寄件日期是上个月的十五号。我们怀疑里面有未经申报的现金，需要核实您的身份信息来处理这个问题。请问您的身份证号是多少？",
+      "timestamp": 1740787013.613947
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "诈骗者在尝试获取用户的敏感信息（身份证号）时，用户提出了合理的疑问，这可能让诈骗者意识到用户对诈骗行为有所警觉。为了避免过早暴露诈骗企图，诈骗者选择主动挂断电话，以防止进一步的质疑或报警。",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

@@ -1,0 +1,40 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "您好，我是来自星际资本的投资顾问李明。最近我们发现了一个非常有潜力的投资项目，预期回报率高达百分之三十，而且风险非常低。如果您有兴趣，可以详细了解一下。",
+      "timestamp": 1740794527.4342022
+    },
+    {
+      "role": "right",
+      "content": "哇，听起来好厉害啊！真的有这么高的回报率吗？我之前也听说过类似的投资项目，但总觉得不太靠谱。不过既然您是专业的，那应该不会错吧？我能不能先了解一下这个项目的具体情况呢？",
+      "timestamp": 1740794529.4581778
+    },
+    {
+      "role": "left",
+      "content": "好的，那我们下次再详细聊这个投资机会吧。如果有任何问题，随时联系我。祝您一切顺利，再见。",
+      "timestamp": 1740794537.267506
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您！我会考虑一下的，有需要的时候会联系您的。再见。",
+      "timestamp": 1740794538.3895972
+    }
+  ],
+  "turns": 0,
+  "terminated_by_manager": true,
+  "end_call_signal_detected": false,
+  "termination_reason": "诈骗者在对话开始时已经提供了明确的挂断信号代码'##ENDCALL_SIGNAL##'，表明其不再希望继续对话。",
+  "terminator": "endcall",
+  "conclusion_messages": [
+    {
+      "role": "left",
+      "content": "好的，那我们下次再详细聊这个投资机会吧。如果有任何问题，随时联系我。祝您一切顺利，再见。##ENDCALL_SIGNAL##"
+    },
+    {
+      "role": "right",
+      "content": "好的，谢谢您！我会考虑一下的，有需要的时候会联系您的。再见。"
+    }
+  ],
+  "reached_max_turns": false
+}
