@@ -87,14 +87,3 @@ To synthesize speech from the collected text:
 2. Addressing critical challenges in data privacy and scenario diversity
 3. Providing high-quality training data for telecom fraud detection
 4. Open-sourcing data processing tools to enable community collaboration
-
-## Citation
-
-```
-@inproceedings{Ma2025TeleAntiFraud28kAA,
-  title={TeleAntiFraud-28k: An Audio-Text Slow-Thinking Dataset for Telecom Fraud Detection},
-  author={Zhiming Ma and Peidong Wang and Minhua Huang and Jingpeng Wang and Kai Wu and Xiangzhao Lv and Yachun Pang and Yin Yang and Wenjie Tang and Yuchen Kang},
-  year={2025},
-  url={https://api.semanticscholar.org/CorpusID:277467703}
-}
-```
