@@ -1,6 +1,6 @@
-I'll summarize the TeleAntiFraud-28k dataset based on your README and add the two sections you requested.
-
 # TeleAntiFraud-28k
+
+[[arXiv](https://img.shields.io/badge/arXiv-2503.24115-b31b1b.svg)](https://arxiv.org/abs/2503.24115)
 
 TeleAntiFraud-28k is the first open-source audio-text slow-thinking dataset specifically designed for automated telecom fraud analysis. This dataset integrates audio signals with reasoning-oriented textual analysis, providing high-quality multimodal training data for telecom fraud detection research.
 
@@ -69,7 +69,7 @@ To synthesize speech from the collected text:
    ```
 3. Use any of the scripts in `ChatTTS/examples/api/normal_run*.sh` or `ChatTTS/examples/api/run*.sh`
 
-  Modify the port in these scripts if needed, then run:
+   Modify the port in these scripts if needed, then run:
    ```bash
    bash ChatTTS/examples/api/run*.sh
    ```
