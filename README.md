@@ -1,6 +1,17 @@
+
 # TeleAntiFraud-28k
 
-[[arXiv](https://img.shields.io/badge/arXiv-2503.24115-b31b1b.svg)](https://arxiv.org/abs/2503.24115)
+<p align="center">
+  <a href="https://modelscope.cn/datasets/YourOrg/TeleAntiFraud-28k">
+    <img alt="ModelScope Dataset" src="https://img.shields.io/badge/ModelScope-Dataset-orange.svg"/>
+  </a>
+  <a href="https://modelscope.cn/models/YourOrg/TeleAntiFraud-28k">
+    <img alt="ModelScope Model" src="https://img.shields.io/badge/ModelScope-Models-green.svg"/>
+  </a>
+  <a href="https://arxiv.org/abs/2503.24115">
+    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2503.24115-b31b1b.svg"/>
+  </a>
+</p>
 
 TeleAntiFraud-28k is the first open-source audio-text slow-thinking dataset specifically designed for automated telecom fraud analysis. This dataset integrates audio signals with reasoning-oriented textual analysis, providing high-quality multimodal training data for telecom fraud detection research.
 
