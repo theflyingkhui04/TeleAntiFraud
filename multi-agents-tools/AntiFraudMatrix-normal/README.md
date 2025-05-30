@@ -1,202 +1,226 @@
-# 诈骗对话生成系统
+# Hệ thống tạo đối thoại gian lận
 
-## 项目介绍
+## Giới thiệu dự án
 
-诈骗对话生成系统是一个基于大语言模型的多智能体对话生成框架，旨在创建逼真的诈骗对话数据集，用于反电信诈骗研究、训练和教育目的。本系统采用三个智能体协同工作：诈骗者智能体、用户智能体和管理者智能体，以模拟各种类型的诈骗场景和不同用户的反应。
+Hệ thống tạo đối thoại gian lận là một khuôn khổ tạo đối thoại đa tác nhân dựa trên mô hình ngôn ngữ lớn, nhằm mục đích tạo ra các tập dữ liệu đối thoại gian lận thực tế cho mục đích nghiên cứu, đào tạo và giáo dục chống gian lận viễn thông. Hệ thống này sử dụng ba tác nhân để làm việc cùng nhau: tác nhân gian lận, tác nhân người dùng và tác nhân quản lý để mô phỏng các loại tình huống gian lận khác nhau và các phản ứng khác nhau của người dùng.
 
-通过本系统生成的对话数据可用于：
-- 训练反诈骗检测模型
-- 开发教育和预防工具
-- 研究诈骗话术模式和演变
-- 分析不同用户群体对诈骗的响应差异
+Dữ liệu hội thoại do hệ thống này tạo ra có thể được sử dụng cho:
+- Đào tạo các mô hình phát hiện gian lận
+- Phát triển các công cụ giáo dục và phòng ngừa
+- Nghiên cứu các mô hình và sự tiến hóa của lời nói gian lận
+- Phân tích sự khác biệt trong phản ứng với gian lận của các nhóm người dùng khác nhau
 
-## 系统架构
+## Kiến trúc hệ thống
 
-系统由以下核心组件组成：
+Hệ thống bao gồm các thành phần cốt lõi sau:
 
-1. **智能体模块**：
-   - `LeftAgent`（诈骗者）：负责模拟各类诈骗话术和策略
-   - `RightAgent`（用户）：模拟不同年龄、职业和防诈意识水平的用户反应
-   - `ManagerAgent`（管理者）：监控对话，决定何时结束及由谁结束对话
+1. **Mô-đun tác nhân**:
+- `LeftAgent` (kẻ lừa đảo): chịu trách nhiệm mô phỏng nhiều lời nói và chiến lược gian lận khác nhau
+- `RightAgent` (người dùng): mô phỏng phản ứng của người dùng ở nhiều độ tuổi, nghề nghiệp và mức độ nhận thức chống gian lận khác nhau
+- `ManagerAgent` (người quản lý): theo dõi cuộc trò chuyện và quyết định khi nào và ai sẽ kết thúc cuộc trò chuyện
 
-2. **对话协调器**：
-   - 协调诈骗者和用户之间的对话流程
-   - 根据管理者决策控制对话结束
-   - 生成自然的对话结束语
+2. **Điều phối viên cuộc trò chuyện**:
+- Điều phối luồng hội thoại giữa kẻ lừa đảo và người dùng
+- Kiểm soát kết thúc cuộc trò chuyện theo quyết định của người quản lý
+- Tạo kết thúc cuộc trò chuyện tự nhiên
 
-3. **工具类**：
-   - OpenAI API 客户端封装
-   - 对话记录器
-   - 数据导出工具
+3. **Công cụ**:
+- Đóng gói ứng dụng khách API OpenAI
+- Ghi lại cuộc trò chuyện
+- Công cụ xuất dữ liệu
 
-## 功能特点
+## Tính năng
 
-- **多样化诈骗类型**：支持投资诈骗、情感诈骗、钓鱼诈骗、身份盗窃、彩票诈骗、虚假工作和银行诈骗等7种诈骗类型
-- **用户画像定制**：可根据年龄、职业和防诈意识水平定制用户反应
-- **自然对话结束**：由管理者智能体决定对话自然结束点和结束方式
-- **高效并行生成**：支持多线程并行生成大量对话数据
-- **双格式数据导出**：同时支持精简的JSONL格式和详细的JSON格式
-- **详细日志记录**：记录完整对话历史和系统运行状态
-- **均匀分布采样**：确保年龄段、防诈意识和诈骗类型的均匀分布
+- **Gian lận đa dạng types**: Hỗ trợ 7 loại gian lận, bao gồm gian lận đầu tư, gian lận tình cảm, gian lận lừa đảo, trộm cắp danh tính, gian lận xổ số, việc làm giả và gian lận ngân hàng
+- **Tùy chỉnh chân dung người dùng**: Phản ứng của người dùng có thể được tùy chỉnh dựa trên độ tuổi, nghề nghiệp và mức độ nhận thức chống gian lận
+- **Kết thúc cuộc trò chuyện tự nhiên**: Tác nhân quản lý xác định điểm kết thúc tự nhiên và phương thức kết thúc cuộc trò chuyện
+- **Tạo song song hiệu quả**: Hỗ trợ tạo song song đa luồng với lượng lớn dữ liệu cuộc trò chuyện
+- **Xuất dữ liệu định dạng kép**: Hỗ trợ cả định dạng JSONL hợp lý hóa và định dạng JSON chi tiết
+- **Ghi nhật ký chi tiết**: Ghi lại toàn bộ lịch sử cuộc trò chuyện và trạng thái hoạt động của hệ thống
+- **Lấy mẫu phân phối đồng đều**: Đảm bảo phân phối đồng đều nhóm tuổi, nhận thức chống gian lận và các loại gian lận
 
-## 安装要求
+## Yêu cầu cài đặt
 
-### 环境要求
-- Python 3.8+
-- 有效的API密钥（如OpenAI API或其他兼容API）
+### Yêu cầu về môi trường
+- Python 3.8 trở lên
+- Khóa API hợp lệ (như API OpenAI hoặc API tương thích khác)
 
-### 依赖包
+### Dependency
 ```bash
 pip install openai tqdm concurrent.futures
 ```
 
-## 使用方法
+## Sử dụng
 
-### 基本用法
+### Sử dụng cơ bản
 
-1. 配置API密钥和基础URL:
+1. Cấu hình khóa API và URL cơ sở:
 ```bash
 export OPENAI_API_KEY="your-api-key"
 ```
 
-2. 运行单个对话生成:
+2. Chạy tạo hộp thoại đơn:
 ```bash
 python main.py --fraud_type investment --base_url "https://api.siliconflow.cn/v1" --api_key "your-api-key" --model "deepseek-ai/DeepSeek-V2.5"
 ```
 
-3. 批量生成对话数据集:
+3. Tạo hàng loạt tập dữ liệu hộp thoại:
 ```bash
 python generate_dialogues.py --count 1000 --base_url "https://api.siliconflow.cn/v1" --api_key "your-api-key" --model "deepseek-ai/DeepSeek-V2.5" --workers 10 --output "fraud_dialogues.jsonl" --full_output_dir "full_dialogues"
 ```
 
-### 参数说明
+### Mô tả tham số
 
-#### 单次对话生成 (main.py)
-- `--fraud_type`: 诈骗类型 [investment, romance, phishing, identity_theft, lottery, job_offer, banking]
-- `--user_age`: 用户年龄
-- `--user_awareness`: 用户防诈意识 [low, medium, high]
-- `--max_turns`: 最大对话轮次
-- `--output`: 输出文件路径
-- `--base_url`: 自定义API端点URL
-- `--api_key`: 自定义API密钥
-- `--model`: 模型名称
+#### Tạo hộp thoại đơn (main.py)
+- `--fraud_type`: Loại gian lận [đầu tư, lãng mạn, lừa đảo, trộm cắp danh tính, xổ số, việc làm, ngân hàng]
+- `--user_age`: độ tuổi của người dùng
+- `--user_awareness`: nhận thức chống gian lận của người dùng [thấp, trung bình, cao]
+- `--max_turns`: số lượt trò chuyện tối đa
+- `--output`: đường dẫn tệp đầu ra
+- `--base_url`: URL điểm cuối API tùy chỉnh
+- `--api_key`: khóa API tùy chỉnh
+- `--model`: tên mô hình
 
-#### 批量对话生成 (generate_dialogues.py)
-- `--count`: 要生成的对话总数
-- `--output`: JSONL格式输出文件路径
-- `--full_output_dir`: 完整对话JSON文件输出目录
-- `--base_url`: 自定义API端点URL
-- `--api_key`: 自定义API密钥
-- `--model`: 模型名称
-- `--max_turns`: 每个对话的最大轮次
-- `--workers`: 并发生成的线程数
+#### Tạo hộp thoại hàng loạt (generate_dialogues.py)
+- `--count`: tổng số hộp thoại cần tạo
+- `--output`: đường dẫn tệp đầu ra định dạng JSONL
+- `--full_output_dir`: thư mục đầu ra tệp JSON của hộp thoại đầy đủ
+- `--base_url`: URL điểm cuối API tùy chỉnh
+- `--api_key`: khóa API tùy chỉnh
+- `--model`: tên mô hình
+- `--max_turns`: số lượt tối đa cho mỗi hộp thoại
+- `--workers`: số luồng được tạo đồng thời
 
-## 数据格式
+## Định dạng dữ liệu
 
-### JSONL格式（简化版）
-```json
-{"tts_id": "tts_fraud_00001", "left": ["喂，您好，这边是建设银行的，您名下有一笔三十万的备用金可以申请，月息低至两厘三，您现在有资金需求吗？", "那您考虑一下，如果有需要随时联系我，这是我的联系方式。"], "right": ["喂，不用了，谢谢。", "好的，谢谢，再见。"], "user_age": 22, "user_awareness": "medium", "fraud_type": "banking", "occupation": "student", "termination_reason": "用户表示不需要...", "terminator": "right"}
-```
-
-### JSON格式（详细版）
+### Định dạng JSONL (phiên bản đơn giản hóa)
 ```json
 {
-  "dialogue_history": [
-    {
-      "role": "left",
-      "content": "喂，您好，这边是建设银行的，您名下有一笔三十万的备用金可以申请，月息低至两厘三，您现在有资金需求吗？",
-      "timestamp": 1740545473.5704024
-    },
-    {
-      "role": "right",
-      "content": "喂，不用了，谢谢。",
-      "timestamp": 1740545476.625075
-    },
-    ...
-  ],
-  "turns": 2,
-  "terminated_by_manager": true,
-  "termination_reason": "是。用户结束。理由：用户已经明确拒绝了诈骗者的提议...",
-  "terminator": "right",
-  "conclusion_messages": [...],
-  "reached_max_turns": false
+    "tts_id": "tts_fraud_00001",
+    "left": [
+        "Xin chào, đây là Ngân hàng Xây dựng Trung Quốc. Bạn có quỹ dự trữ 300.000 nhân dân tệ đứng tên mình. Lãi suất hàng tháng chỉ thấp tới 2,3%. Bạn có cần tiền ngay không?",
+        "Vậy thì hãy cân nhắc nhé. Nếu bạn cần, vui lòng liên hệ với tôi. Đây là thông tin liên hệ của tôi."
+    ],
+    "right": [
+        "Xin chào, không, cảm ơn.",
+        "Được rồi, cảm ơn, tạm biệt."
+    ],
+    "user_age": 22,
+    "user_awareness": "medium",
+    "fraud_type": "banking",
+    "occupation": "student",
+    "termination_reason": "Người dùng nói rằng không cần...",
+    "terminator": "right"
 }
 ```
 
-## 项目结构
+### Định dạng JSON (phiên bản chi tiết)
+```json
+{
+    "tts_id": "tts_fraud_00001",
+    "dialogue_history": [
+        {
+            "role": "left",
+            "content": "Xin chào, đây là Ngân hàng Xây dựng Trung Quốc. Bạn có quỹ dự trữ 300.000 nhân dân tệ đứng tên mình. Lãi suất hàng tháng chỉ thấp tới 2,3%. Bạn có cần tiền ngay không?",
+            "timestamp": 1740545473.5704024
+        },
+        {
+            "role": "right",
+            "content": "Xin chào, không, cảm ơn bạn.",
+            "timestamp": 1740545476.625075
+        }
+    ],
+    "user_age": 22,
+    "user_awareness": "medium",
+    "fraud_type": "banking",
+    "occupation": "student",
+    "turns": 2,
+    "terminated_by_manager": true,
+    "termination_reason": "Có. Người dùng đã chấm dứt. Lý do: Người dùng đã từ chối đề xuất của kẻ lừa đảo một cách rõ ràng...",
+    "terminator": "right",
+    "conclusion_messages": [],
+    "reached_max_turns": false
+}
+```
+```
+
+## Cấu trúc dự án
 
 ```
-├── agents/                     # 智能体模块
-│   ├── base_agent.py           # 基础智能体抽象类
-│   ├── left_agent.py           # 诈骗者智能体
-│   ├── right_agent.py          # 用户智能体
-│   ├── manager_agent.py        # 管理者智能体
-│   └── prompts/                # 提示词模板
-│       ├── left_prompts.py
-│       ├── right_prompts.py
-│       └── manager_prompts.py
-├── logic/                      # 业务逻辑
-│   └── dialogue_orchestrator.py # 对话协调器
-├── utils/                      # 工具类
-│   ├── openai_client.py        # OpenAI API客户端
-│   └── conversation_logger.py  # 对话记录器
-├── config.py                   # 配置文件
-├── main.py                     # 单个对话生成入口
-├── generate_dialogues.py       # 批量对话生成入口
-├── requirements.txt            # 依赖包列表
-└── README.md                   # 项目说明
+├── agents/ # Mô-đun tác nhân
+│ ├── base_agent.py # Lớp trừu tượng tác nhân cơ sở
+│ ├── left_agent.py # Tác nhân lừa đảo
+│ ├── right_agent.py # Tác nhân người dùng
+│ ├── manager_agent.py # Tác nhân quản lý
+│ └── prompts/ # Mẫu lời nhắc
+│ ├── left_prompts.py
+│ ├── right_prompts.py
+│ └── manager_prompts.py
+├── logic/ # Logic nghiệp vụ
+│ └── dialogue_orchestrator.py # Điều phối viên đối thoại
+├── utils/ # Lớp tiện ích
+│ ├── openai_client.py # Máy khách API OpenAI
+│ └── conversation_logger.py # Trình ghi nhật ký đối thoại
+├── config.py # Tệp cấu hình
+├── main.py # Mục tạo đối thoại đơn lẻ
+├── generate_dialogues.py # Tạo đối thoại hàng loạt entry
+├── requirements.txt # Danh sách gói phụ thuộc
+└── README.md # Mô tả dự án
 ```
 
-## 诈骗类型说明
+## Mô tả loại gian lận
 
-1. **投资诈骗 (investment)**：诱导用户投资虚假或高风险项目，承诺高回报
-2. **情感诈骗 (romance)**：建立虚假情感关系，最终索要钱财或个人信息
-3. **钓鱼诈骗 (phishing)**：伪装成合法机构，获取用户个人信息或账号密码
-4. **身份盗窃 (identity_theft)**：盗取用户身份信息以实施其他犯罪活动
-5. **彩票诈骗 (lottery)**：告知用户中奖，但要求支付手续费等费用
-6. **虚假工作 (job_offer)**：提供看似优厚的工作机会，但要求预付费用或个人信息
-7. **银行诈骗 (banking)**：伪装成银行工作人员，声称账户异常需要操作
+1. **Gian lận đầu tư (đầu tư)**: Dụ dỗ người dùng đầu tư vào các dự án giả mạo hoặc rủi ro cao và hứa hẹn lợi nhuận cao
+2. **Gian lận tình cảm (lãng mạn)**: Thiết lập mối quan hệ tình cảm giả tạo và cuối cùng yêu cầu tiền hoặc thông tin cá nhân
+3. **Gian lận lừa đảo (phishing)**: Ngụy trang thành một tổ chức hợp pháp để lấy thông tin cá nhân hoặc mật khẩu tài khoản của người dùng
+4. **Trộm cắp danh tính (identity_theft)**: Đánh cắp thông tin danh tính của người dùng để thực hiện các hoạt động tội phạm khác
+5. **Gian lận xổ số (lottery)**: Thông báo cho người dùng rằng họ đã trúng xổ số, nhưng yêu cầu thanh toán phí và các khoản phí khác
+6. **Công việc giả mạo (job_offer)**: Cung cấp các cơ hội việc làm có vẻ hào phóng, nhưng yêu cầu trả trước phí hoặc thông tin cá nhân
+7. **Gian lận ngân hàng (ngân hàng)**: Ngụy trang thành nhân viên ngân hàng và tuyên bố rằng tài khoản bất thường và cần được vận hành
 
-## 用户画像参数
+## Tham số chân dung người dùng
 
-1. **年龄 (user_age)**:
-   - 18-25: 青年
-   - 26-40: 成年
-   - 41-55: 中年
-   - 56-70: 老年
+1. **Tuổi (user_age)**:
+- 18-25: Thanh niên
+- 26-40: Người lớn
+- 41-55: Trung niên
+- 56-70: Người cao tuổi
 
-2. **防诈意识 (user_awareness)**:
-   - low: 低防诈意识，容易相信诈骗者
-   - medium: 中等防诈意识，会有疑虑但可能被说服
-   - high: 高防诈意识，高度警惕，难以被骗
+2. **Nhận thức về gian lận (user_awareness)**:
+- thấp: Nhận thức về gian lận thấp, dễ tin kẻ lừa đảo
+- trung bình: Nhận thức về gian lận trung bình, sẽ nghi ngờ nhưng có thể bị thuyết phục
+- cao: Nhận thức về gian lận cao, cảnh giác cao, khó bị lừa
 
-3. **职业 (occupation)**:
-   多种职业类型，包括学生、教师、工程师、医生、退休人员等
+3. **Nghề nghiệp (occupation)**:
+Nhiều loại nghề nghiệp, bao gồm sinh viên, giáo viên, kỹ sư, bác sĩ, người đã nghỉ hưu, v.v.
 
-## 贡献者
+## Người đóng góp
 
-本项目由[您的团队或机构名称]开发。
+Dự án này được phát triển bởi [tên nhóm hoặc tổ chức của bạn].
 
-## 免责声明
+## Tuyên bố miễn trừ trách nhiệm
 
-本项目仅用于研究、教育和防范电信诈骗目的。严禁将本系统生成的内容用于任何非法或不道德用途。用户应当对使用本系统及其生成的内容负完全责任。
+Dự án này chỉ dành cho mục đích nghiên cứu, giáo dục và phòng ngừa gian lận viễn thông. Nghiêm cấm sử dụng nội dung do hệ thống này tạo ra cho bất kỳ mục đích bất hợp pháp hoặc phi đạo đức nào. Người dùng phải chịu hoàn toàn trách nhiệm về việc sử dụng hệ thống này và nội dung do hệ thống tạo ra.
 
-## 许可证
+## Giấy phép
 
-[适当的许可证，如MIT、Apache等]
+[Giấy phép phù hợp, chẳng hạn như MIT, Apache, v.v.]
 
 ---
 
-## 常见问题
+## Câu hỏi thường gặp
 
-### Q: 如何添加新的诈骗类型？
-A: 在 `config.py` 中的 `FRAUD_TYPES` 列表中添加新类型，然后在 `agents/prompts/left_prompts.py` 中添加相应的提示词模板。
+### Câu hỏi: Làm thế nào để tôi thêm một loại gian lận mới?
 
-### Q: 如何调整对话结束条件？
-A: 在 `agents/prompts/manager_prompts.py` 中修改 `MANAGER_SYSTEM_PROMPT` 的终止条件部分。
+Trả lời: Thêm loại mới vào danh sách `FRAUD_TYPES` trong `config.py`, sau đó thêm mẫu từ nhắc tương ứng vào `agents/prompts/left_prompts.py`.
 
-### Q: 如何提高生成效率？
-A: 增加 `--workers` 参数值可以提高并行处理能力，但需要注意API调用限制和系统资源消耗。
+### Câu hỏi: Làm thế nào để tôi điều chỉnh điều kiện kết thúc của cuộc trò chuyện?
 
-### Q: 如何自定义用户画像？
-A: 通过 `--user_age`、`--user_awareness` 参数或在 `config.py` 中的 `USER_PROFILES` 字典中添加预设的用户画像。
+Trả lời: Sửa đổi phần điều kiện kết thúc của `MANAGER_SYSTEM_PROMPT` trong `agents/prompts/manager_prompts.py`.
+
+### Câu hỏi: Làm thế nào để tôi cải thiện hiệu quả tạo?
+
+Trả lời: Tăng giá trị tham số `--workers` có thể cải thiện khả năng xử lý song song, nhưng bạn cần chú ý đến giới hạn lệnh gọi API và mức tiêu thụ tài nguyên hệ thống.
+
+### H: Làm thế nào để tùy chỉnh chân dung người dùng?
+A: Thêm hồ sơ người dùng được cài đặt sẵn thông qua các tham số `--user_age`, `--user_awareness` hoặc trong từ điển `USER_PROFILES` trong `config.py`.

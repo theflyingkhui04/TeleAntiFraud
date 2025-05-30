@@ -1,0 +1,56 @@
+{
+  "dialogue_history": [
+    {
+      "role": "left",
+      "content": "Chào anh/chị, dịch vụ khách hàng của chúng tôi có thể giúp gì được anh/chị hôm nay?",
+      "timestamp": 1748615512.1489484
+    },
+    {
+      "role": "right",
+      "content": "Chào bạn, hôm nay tôi cần hỗ trợ về việc cài đặt phần mềm giảng dạy trực tuyến.",
+      "timestamp": 1748615517.2923894
+    },
+    {
+      "role": "left",
+      "content": "Vâng, anh/chị cần hỗ trợ cài đặt phần mềm nào vậy?",
+      "timestamp": 1748615528.934209
+    },
+    {
+      "role": "right",
+      "content": "Tôi đang dùng phần mềm Zoom để tổ chức các buổi học online cho học sinh. Nhưng gần đây gặp lỗi không thể kết nối được.",
+      "timestamp": 1748615533.983242
+    },
+    {
+      "role": "left",
+      "content": "Anh/chị thử khởi động lại máy tính hoặc kiểm tra kết nối mạng xem đã ổn chưa ạ? Nếu vẫn không được, chúng tôi có thể hướng dẫn chi tiết hơn qua điện thoại.",
+      "timestamp": 1748615553.6902382
+    },
+    {
+      "role": "right",
+      "content": "Cảm ơn, tôi đã thử khởi động lại máy tính và kiểm tra kết nối mạng rồi. Vẫn không được. Có thể bạn giúp tôi cài đặt lại phần mềm không?",
+      "timestamp": 1748615565.2590501
+    },
+    {
+      "role": "left",
+      "content": "Được ạ, anh/chị vui lòng cung cấp số điện thoại để chúng tôi gọi lại hướng dẫn chi tiết nhé.",
+      "timestamp": 1748615578.547161
+    },
+    {
+      "role": "right",
+      "content": "Số điện thoại của tôi là 0987654321. Cảm ơn nhiều.",
+      "timestamp": 1748615584.757696
+    },
+    {
+      "role": "left",
+      "content": "Cảm ơn anh/chị. Chúng tôi sẽ gọi lại trong vòng 5 phút để hướng dẫn cài đặt lại phần mềm. Nếu có bất kỳ yêu cầu nào khác, anh/chị vui lòng cho chúng tôi biết. ",
+      "timestamp": 1748615602.7697363
+    }
+  ],
+  "turns": 3,
+  "terminated_by_manager": false,
+  "end_call_signal_detected": true,
+  "termination_reason": "Left ended the conversation because the service process was completed. Left provided clear instructions on how to proceed (calling back within 5 minutes to assist with the software reinstallation) and explicitly mentioned that if there were any further requests, Right could inform them. The use of '##ENDCALL_SIGNAL##' indicates that Left intended to conclude the conversation after fulfilling the immediate service requirement, ensuring that Right's issue would be addressed promptly without the need for further immediate interaction.",
+  "terminator": "left",
+  "conclusion_messages": [],
+  "reached_max_turns": false
+}

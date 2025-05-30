@@ -2,16 +2,16 @@
 from abc import ABC, abstractmethod
 
 class BaseAgent(ABC):
-    """所有智能体的基类，定义通用接口"""
+    """Lớp cơ sở cho tất cả các tác nhân, xác định giao diện chung"""
     
     def __init__(self, name, role_prompt, memory_window=10):
         """
-        初始化智能体
-        
+        Khởi tạo tác nhân
+
         Args:
-            name (str): 智能体名称
-            role_prompt (str): 角色提示词
-            memory_window (int): 记忆窗口大小
+        name (str): tên tác nhân
+        role_prompt (str): lời nhắc vai trò
+        memory_window (int): kích thước cửa sổ bộ nhớ
         """
         self.name = name
         self.role_prompt = role_prompt
@@ -20,30 +20,30 @@ class BaseAgent(ABC):
     
     def add_to_history(self, speaker, message):
         """
-        添加消息到历史记录
-        
+        Thêm tin nhắn vào lịch sử
+
         Args:
-            speaker (str): 发言者
-            message (str): 消息内容
+        speaker (str): speaker
+        message (str): nội dung tin nhắn
         """
         self.dialogue_history.append({"speaker": speaker, "message": message})
-        # 维持记忆窗口大小
+        # Duy trì kích thước cửa sổ bộ nhớ
         if len(self.dialogue_history) > self.memory_window:
             self.dialogue_history = self.dialogue_history[-self.memory_window:]
     
     def get_context(self):
-        """获取当前上下文"""
+        """Nhận bối cảnh hiện tại"""
         return self.dialogue_history.copy()
     
     @abstractmethod
     def generate_response(self, context):
         """
-        生成回复
-        
+        Tạo phản hồi
+
         Args:
-            context (list): 对话上下文
-            
-        Returns:
-            str: 生成的回复
+        context (danh sách): Bối cảnh hội thoại
+
+        Trả về:
+        str: Phản hồi đã tạo
         """
         pass

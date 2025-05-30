@@ -15,7 +15,7 @@ from logic.dialogue_orchestrator import DialogueOrchestrator
 from utils.conversation_logger import ConversationLogger
 import config
 
-# 配置全局日志
+# Cấu hình ghi log toàn cục
 logging.basicConfig(
     filename='run.log',
     level=logging.INFO,
@@ -24,55 +24,40 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# 配置参数
+# Cấu hình các giá trị
 AGE_RANGES = [
-    (18, 25),  # 青年
-    (26, 40),  # 成年
-    (41, 55),  # 中年
-    (56, 70),  # 老年
+    (18, 25),  # Thanh niên
+    (26, 40),  # Trung niên
+    (41, 55),  # Trung cao tuổi
+    (56, 70),  # Cao tuổi
 ]
 
-# AWARENESS_LEVELS = [ "high","medium", "low",]
-AWARENESS_LEVELS = [ "低","中", "高",]
-
-# FRAUD_TYPES = [
-#     "investment",     # 投资诈骗
-#     # "romance",        # 情感诈骗
-#     "phishing",       # 钓鱼诈骗
-#     "identity_theft", # 身份盗窃
-#     "lottery",        # 彩票诈骗
-#     # "job_offer",      # 虚假工作
-#     "banking",        # 银行诈骗
-#     "kidnapping",     # 绑架诈骗
-#     "customer_service", # 客服诈骗
-#     "mail_scam",      # 邮件诈骗
-# ]
+AWARENESS_LEVELS = ["low", "medium", "high"]
 
 FRAUD_TYPES = [
-    "投资诈骗", "钓鱼诈骗", "身份盗窃", "彩票诈骗", "银行诈骗", "绑架诈骗", "客服诈骗", "邮件诈骗"
+    "Đầu tư", "Phishing", "Chiếm đoạt danh tính", "Trúng thưởng", "Ngân hàng", "Bắt cóc", "Chăm sóc khách hàng", "Lừa đảo qua thư"
 ]
 
-# OCCUPATIONS = [
-#     "student", "teacher", "engineer", "doctor", "retired", 
-#     "unemployed", "business_owner", "office_worker", "farmer", "service_worker"
-# ]
-
-OCCUPATIONS = [ "学生", "教师", "工程师", "医生", "退休人员", "失业人员", "企业主", "上班族", "农民", "服务员" ]
+OCCUPATIONS = ["Học sinh/Sinh viên", "Giáo viên", "Kỹ sư", "Bác sĩ", "Người đã nghỉ hưu", "Thất nghiệp", "Chủ doanh nghiệp", "Nhân viên văn phòng", "Nông dân", "Nhân viên dịch vụ"]
 
 def generate_dialogue(args, tts_id: str, user_age: int, user_awareness: str, fraud_type: str) -> Dict[str, Any]:
-    """生成单个对话并返回结果"""
+    """Sinh một hội thoại và trả về kết quả"""
     try:
-        # 记录对话参数
-        logger.info(f"开始生成对话 {tts_id}: age={user_age}, awareness={user_awareness}, fraud_type={fraud_type}")
+        # Ghi log tham số hội thoại
+        logger.info(f"Bắt đầu sinh hội thoại {tts_id}: age={user_age}, awareness={user_awareness}, fraud_type={fraud_type}")
         
-        # 创建智能体
+        # Tạo agent bên trái (Kẻ lừa đảo)
         left_agent = LeftAgent(
             model=args.model,
             fraud_type=fraud_type,
             base_url=args.base_url
         )
         
-        # 随机选择一个职业
+        # Tạo agent bên phải (Người dùng)
+        # Ngẫu nhiên chọn một độ tuổi trong khoảng
+        user_age = random.randint(user_age[0], user_age[1])
+        
+        # Ngẫu nhiên chọn một nghề nghiệp
         occupation = random.choice(OCCUPATIONS)
         
         right_agent = RightAgent(
@@ -85,13 +70,14 @@ def generate_dialogue(args, tts_id: str, user_age: int, user_awareness: str, fra
             base_url=args.base_url
         )
         
+        # Tạo agent quản lý
         manager_agent = ManagerAgent(
             model=args.model,
             strictness="medium",
             base_url=args.base_url
         )
         
-        # 创建对话协调器，禁用控制台输出
+        # Tạo bộ điều phối hội thoại
         conv_logger = ConversationLogger(console_output=False)
         orchestrator = DialogueOrchestrator(
             left_agent=left_agent,
@@ -101,25 +87,25 @@ def generate_dialogue(args, tts_id: str, user_age: int, user_awareness: str, fra
             logger=conv_logger
         )
         
-        # 运行对话
+        # Sinh hội thoại
         dialogue_result = orchestrator.run_dialogue()
         
-        # 记录完整对话历史到日志
-        logger.info(f"对话 {tts_id} 完成，共 {len(dialogue_result['dialogue_history'])} 轮")
-        logger.info(f"对话历史 {tts_id}:")
+        # Ghi log lịch sử hội thoại
+        logger.info(f"Hội thoại {tts_id} hoàn thành, tổng {len(dialogue_result['dialogue_history'])} lượt")
+        logger.info(f"Lịch sử hội thoại {tts_id}:")
         for msg in dialogue_result['dialogue_history']:
-            role = "诈骗者" if msg['role'] == "left" else "用户"
+            role = "Kẻ lừa đảo" if msg['role'] == "left" else "Người dùng"
             logger.info(f"{role}: {msg['content']}")
         
-        # 提取终止原因
-        termination_reason = "达到最大轮次" if dialogue_result.get("reached_max_turns", False) else dialogue_result.get("termination_reason", "未知")
-        # 如果是管理者终止的，提取简短的终止原因描述
+        # Trích xuất lý do kết thúc
+        termination_reason = "Đạt tối đa lượt" if dialogue_result.get("reached_max_turns", False) else dialogue_result.get("termination_reason", "Không xác định")
+        # Nếu do quản lý kết thúc, rút ngắn lý do
         if dialogue_result.get("terminated_by_manager", False) and isinstance(termination_reason, str) and len(termination_reason) > 100:
-            # 提取前100个字符或到第一个句号的内容
+            # Lấy 100 ký tự đầu hoặc đến dấu chấm đầu tiên
             short_reason = termination_reason.split("。")[0] if "。" in termination_reason[:100] else termination_reason[:100]
             termination_reason = short_reason + "..."
         
-        # 提取左右对话内容
+        # Tách biệt nội dung hội thoại của hai bên
         left_messages = []
         right_messages = []
         
@@ -129,7 +115,7 @@ def generate_dialogue(args, tts_id: str, user_age: int, user_awareness: str, fra
             elif message["role"] == "right":
                 right_messages.append(message["content"])
         
-        # 创建JSONL格式的数据条目
+        # Tạo entry dữ liệu JSONL
         entry = {
             "tts_id": tts_id,
             "left": left_messages,
@@ -142,69 +128,68 @@ def generate_dialogue(args, tts_id: str, user_age: int, user_awareness: str, fra
             "terminator": dialogue_result.get("terminator", "natural")
         }
         
-        # 保存完整对话记录
+        # Lưu trữ hội thoại đầy đủ
         full_dialogue_path = os.path.join(args.full_output_dir, f"{tts_id}.json")
         with open(full_dialogue_path, 'w', encoding='utf-8') as f:
             json.dump(dialogue_result, f, ensure_ascii=False, indent=2)
         
-        logger.info(f"对话 {tts_id} 处理完成，终止原因: {termination_reason}")
-        logger.info(f"完整对话已保存到 {full_dialogue_path}")
+        logger.info(f"Hội thoại {tts_id} xử lý xong, lý do kết thúc: {termination_reason}")
+        logger.info(f"Đã lưu hội thoại đầy đủ vào {full_dialogue_path}")
         
         return entry
     
     except Exception as e:
-        logger.error(f"生成对话 {tts_id} 时出错: {e}", exc_info=True)
-        # 返回一个错误标记，稍后会过滤掉
+        logger.error(f"Lỗi khi sinh hội thoại {tts_id}: {e}", exc_info=True)
         return {"error": str(e), "tts_id": tts_id}
 
 def main():
-    # 解析命令行参数
-    parser = argparse.ArgumentParser(description="多智能体诈骗对话数据生成")
-    parser.add_argument("--count", type=int, default=20, help="要生成的对话数量")
-    parser.add_argument("--output", default="fraud_dialogues.jsonl", help="输出文件路径")
-    parser.add_argument("--full_output_dir", default="full_dialogues", help="完整对话输出目录")
-    parser.add_argument("--base_url", required=True, help="自定义API端点URL")
-    parser.add_argument("--api_key", required=True, help="自定义API密钥")
-    parser.add_argument("--model", required=True, help="模型名称")
-    parser.add_argument("--max_turns", type=int, default=15, help="最大对话轮次")
-    parser.add_argument("--workers", type=int, default=10, help="并发工作线程数")
+    # Phân tích tham số dòng lệnh
+    parser = argparse.ArgumentParser(description="Sinh dữ liệu hội thoại lừa đảo đa agent")
+    parser.add_argument("--count", type=int, default=20, help="Số lượng hội thoại cần sinh")
+    parser.add_argument("--output", default="fraud_dialogues.jsonl", help="Đường dẫn file kết quả")
+    parser.add_argument("--full_output_dir", default="full_dialogues", help="Thư mục lưu hội thoại đầy đủ")
+    parser.add_argument("--base_url", required=True, help="API endpoint tuỳ chỉnh")
+    parser.add_argument("--api_key", required=True, help="API key tuỳ chỉnh")
+    parser.add_argument("--model", required=True, help="Tên model sử dụng")
+    parser.add_argument("--max_turns", type=int, default=15, help="Số lượt hội thoại tối đa")
+    parser.add_argument("--workers", type=int, default=10, help="Số luồng xử lý song song")
     args = parser.parse_args()
     
-    # 记录启动信息
-    logger.info(f"开始生成 {args.count} 个对话，模型: {args.model}, API基础URL: {args.base_url}")
+    # Ghi log thông tin khởi động
+    logger.info(f"Bắt đầu sinh {args.count} hội thoại, model: {args.model}, API: {args.base_url}")
     
-    # 设置API密钥和基础URL
+    # Cấu hình API key và URL cơ sở
     config.OPENAI_API_KEY = args.api_key
     config.OPENAI_BASE_URL = args.base_url
     
-    # 创建输出目录
+    # Tạo thư mục lưu trữ kết quả nếu chưa tồn tại
     output_dir = os.path.dirname(args.output)
     if output_dir and not os.path.exists(output_dir):
         os.makedirs(output_dir)
     
-    # 创建完整对话输出目录
+    # Tạo thư mục lưu trữ hội thoại đầy đủ
     if not os.path.exists(args.full_output_dir):
         os.makedirs(args.full_output_dir)
     
-    # 准备任务参数列表
+    # Tạo danh sách nhiệm vụ
     tasks = []
     
-    # 确保参数均匀分布
+    # Đảm bảo phân phối đều các tham số
     combinations = []
     for age_range in AGE_RANGES:
         for awareness in AWARENESS_LEVELS:
             for fraud in FRAUD_TYPES:
                 combinations.append((age_range, awareness, fraud))
     
-    # 为每个组合分配数量
+    # Phân bổ số lượng nhiệm vụ cho mỗi tổ hợp tham số
     per_combination = args.count // len(combinations)
     remainder = args.count % len(combinations)
     
-    # 添加任务
+    # Thêm nhiệm vụ vào danh sách
     tts_counter = 1
     for combo in combinations:
         age_range, awareness, fraud = combo
-        # 该组合的任务数
+        # Số lượng nhiệm vụ cho tổ hợp này
         combo_count = per_combination + (1 if remainder > 0 else 0)
         if remainder > 0:
             remainder -= 1
@@ -215,25 +200,21 @@ def main():
             tasks.append((tts_id, user_age, awareness, fraud))
             tts_counter += 1
     
-    # 随机打乱任务顺序
+    # Xáo trộn thứ tự nhiệm vụ
     random.shuffle(tasks)
     
-    # 使用线程池并行生成对话
-    results = []
-    success_count = 0
-    error_count = 0
-    
-    logger.info(f"开始并行生成对话，线程数: {args.workers}")
+    # Sinh hội thoại song song
+    logger.info(f"Bắt đầu sinh hội thoại song song, số luồng: {args.workers}")
     with ThreadPoolExecutor(max_workers=args.workers) as executor:
-        # 提交所有任务
+        # Gửi tất cả nhiệm vụ vào xử lý
         future_to_task = {
             executor.submit(generate_dialogue, args, tts_id, user_age, awareness, fraud): 
             (tts_id, user_age, awareness, fraud) 
             for tts_id, user_age, awareness, fraud in tasks
         }
         
-        # 处理完成的任务
-        for future in tqdm(as_completed(future_to_task), total=len(tasks), desc="生成对话"):
+        # Xử lý kết quả trả về
+        for future in tqdm(as_completed(future_to_task), total=len(tasks), desc="Sinh hội thoại"):
             task = future_to_task[future]
             try:
                 result = future.result()
@@ -241,56 +222,24 @@ def main():
                     results.append(result)
                     success_count += 1
                 else:
-                    logger.error(f"任务 {task[0]} 失败: {result['error']}")
+                    logger.error(f"Nhiệm vụ {task[0]} thất bại: {result['error']}")
                     error_count += 1
             except Exception as e:
-                logger.error(f"处理任务 {task[0]} 时出错: {e}", exc_info=True)
+                logger.error(f"Lỗi khi xử lý nhiệm vụ {task[0]}: {e}", exc_info=True)
                 error_count += 1
     
-    # 写入结果到JSONL文件
+    # Ghi kết quả vào file JSONL
     with open(args.output, 'w', encoding='utf-8') as f:
         for entry in results:
             f.write(json.dumps(entry, ensure_ascii=False) + '\n')
     
-    # 输出统计信息
-    completion_msg = f"完成！共生成 {len(results)} 个对话，成功: {success_count}，失败: {error_count}，已保存到 {args.output}"
-    print(completion_msg)
-    logger.info(completion_msg)
-    
-    # 统计分布情况
-    age_stats = {"18-25": 0, "26-40": 0, "41-55": 0, "56-70": 0}
-    awareness_stats = {"low": 0, "medium": 0, "high": 0}
-    fraud_stats = {fraud_type: 0 for fraud_type in FRAUD_TYPES}
-    terminator_stats = {"left": 0, "right": 0, "natural": 0}
-    occupations_stats = {occupation: 0 for occupation in OCCUPATIONS}
-    
-    for entry in results:
-        age = entry["user_age"]
-        if 18 <= age <= 25:
-            age_stats["18-25"] += 1
-        elif 26 <= age <= 40:
-            age_stats["26-40"] += 1
-        elif 41 <= age <= 55:
-            age_stats["41-55"] += 1
-        elif 56 <= age <= 70:
-            age_stats["56-70"] += 1
-            
-        awareness_stats[entry["user_awareness"]] += 1
-        fraud_stats[entry["fraud_type"]] += 1
-        occupations_stats[entry["occupation"]] += 1
-        
-        # 统计终止方
-        terminator = entry.get("terminator", "natural")
-        if terminator in terminator_stats:
-            terminator_stats[terminator] += 1
-    
-    # 打印统计信息
-    stats_msg = "\n分布统计:"
-    stats_msg += f"\n年龄分布: {age_stats}"
-    stats_msg += f"\n防诈意识分布: {awareness_stats}"
-    stats_msg += f"\n诈骗类型分布: {fraud_stats}"
-    stats_msg += f"\n终止方分布: {terminator_stats}"
-    stats_msg += f"\n职业分布: {occupations_stats}"
+    # Xuất thống kê phân phối
+    stats_msg = "\nThống kê phân phối:"
+    stats_msg += f"\nPhân bố độ tuổi: {age_stats}"
+    stats_msg += f"\nPhân bố nhận thức: {awareness_stats}"
+    stats_msg += f"\nPhân bố loại lừa đảo: {fraud_stats}"
+    stats_msg += f"\nPhân bố bên kết thúc: {terminator_stats}"
+    stats_msg += f"\nPhân bố nghề nghiệp: {occupations_stats}"
     
     print(stats_msg)
     logger.info(stats_msg)
@@ -300,8 +249,7 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as e:
-        logger.critical("程序执行过程中发生严重错误", exc_info=True)
-    
+        logger.critical("Lỗi nghiêm trọng trong quá trình chạy chương trình", exc_info=True)
     elapsed = time.time() - start_time
-    logger.info(f"总耗时: {elapsed:.2f}秒")
-    print(f"总耗时: {elapsed:.2f}秒")
+    logger.info(f"Tổng thời gian: {elapsed:.2f} giây")
+    print(f"Tổng thời gian: {elapsed:.2f} giây")

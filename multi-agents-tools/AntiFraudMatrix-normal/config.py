@@ -1,16 +1,16 @@
-# OpenAI API配置
+# Cấu hình API OpenAI
 OPENAI_API_KEY = "sk-fpwiniyhjwughnzrzdckrrkiyxkebpgcoslhnenybgbxyvva"  # 请替换为实际密钥
-OPENAI_BASE_URL = "https://api.siliconflow.cn/v1"  # 自定义 API 端点
+OPENAI_BASE_URL = "https://api.siliconflow.cn/v1"  # Điểm cuối API tùy chỉnh
 
-# 模型配置
-DEFAULT_MODEL = "deepseek-ai/DeepSeek-V2.5"  # 默认使用您示例中的模型
-FALLBACK_MODEL = "deepseek-ai/DeepSeek-V2.5"  # 备用模型，可以设置为其他可用模型
+# Cấu hình mô hình
+DEFAULT_MODEL = "deepseek-ai/DeepSeek-V2.5"  # Sử dụng mô hình trong ví dụ của bạn theo mặc định
+FALLBACK_MODEL = "deepseek-ai/DeepSeek-V2.5"  # Mô hình dự phòng, có thể được đặt thành các mô hình khả dụng khác
 
-# 对话配置
+# Cấu hình hội thoại
 MAX_DIALOGUE_TURNS = 20
 MAX_TOKENS_PER_MESSAGE = 500
 
-# 诈骗类型列表
+# Danh sách các loại gian lận
 FRAUD_TYPES = [
     "investment",     # 投资诈骗
     "romance",        # 情感诈骗
@@ -21,7 +21,7 @@ FRAUD_TYPES = [
     "banking"         # 银行诈骗
 ]
 
-# 用户画像配置
+# Cấu hình hồ sơ người dùng
 USER_PROFILES = {
     "elderly": {
         "age": 70,

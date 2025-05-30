@@ -1,42 +1,42 @@
 #!/bin/bash
 
-# 对话生成脚本
-# 用法示例: ./generate_dialogues.sh 10
+# Dialogue generation script
+# Usage example: ./generate_dialogues.sh 10
 # "sk-yjapnkiskowaksedsvcybiqccfwanqemwjalwwakibqxnvia"
-# 设置默认值
+# Set default values
 DEFAULT_COUNT=2500
-DEFAULT_MODEL="Qwen/Qwen2.5-72B-Instruct"
+DEFAULT_MODEL="deepseek-ai/DeepSeek-V2.5"
 DEFAULT_WORKERS=2
-API_KEY="sk-fpwiniyhjwughnzrzdckrrkiyxkebpgcoslhnenybgbxyvva"
+API_KEY="sk-snqprjadkwbxggowrmzmzkdhsdajpdlqirgeopejlalyvbxb"
 BASE_URL="https://api.siliconflow.cn/v1"
 
-# 获取当前时间戳
+# Get current timestamp
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
 
-# 解析命令行参数
+# Parse command line arguments
 COUNT=${1:-$DEFAULT_COUNT}
 MODEL=${2:-$DEFAULT_MODEL}
 WORKERS=${3:-$DEFAULT_WORKERS}
 
-# 设置输出文件名
+# Set output file name
 OUTPUT_FILE="results/normal_dialogues-${TIMESTAMP}.jsonl"
 FULL_OUTPUT_DIR="results/normal-full_dialogues_${TIMESTAMP}"
 
 echo "====================================="
-echo "对话生成任务开始运行"
+echo "Công việc tạo đối thoại đã bắt đầu"
 echo "====================================="
-echo "生成数量: $COUNT"
-echo "使用模型: $MODEL"
-echo "并行工作进程: $WORKERS"
-echo "输出文件: $OUTPUT_FILE"
-echo "完整对话目录: $FULL_OUTPUT_DIR"
-echo "开始时间: $(date)"
+echo "Số lượng cần tạo: $COUNT"
+echo "Mô hình sử dụng: $MODEL"
+echo "Luồng xử lý song song: $WORKERS"
+echo "Tệp đầu ra: $OUTPUT_FILE"
+echo "Thư mục đầu ra đầy đủ: $FULL_OUTPUT_DIR"
+echo "Thời gian bắt đầu: $(date)"
 echo "====================================="
 
-# 创建日志目录
+# Create log directory
 mkdir -p logs
 
-# 运行命令并记录日志
+# Run command and record log
 python generate_dialogues.py \
   --count $COUNT \
   --base_url "$BASE_URL" \
@@ -46,27 +46,27 @@ python generate_dialogues.py \
   --output "$OUTPUT_FILE" \
   --full_output_dir "$FULL_OUTPUT_DIR" 2>&1 | tee "logs/generate_${TIMESTAMP}.log"
 
-# 检查命令执行状态
+# Check command execution status
 EXIT_CODE=$?
 if [ $EXIT_CODE -eq 0 ]; then
   echo "====================================="
-  echo "对话生成任务成功完成!"
-  echo "结束时间: $(date)"
-  echo "输出文件: $OUTPUT_FILE"
-  echo "完整对话目录: $FULL_OUTPUT_DIR"
+  echo "Quá trình tạo đối thoại đã hoàn thành thành công!"
+  echo "Thời gian kết thúc: $(date)"
+  echo "Tệp đầu ra: $OUTPUT_FILE"
+  echo "Thư mục đối thoại đầy đủ: $FULL_OUTPUT_DIR"
   echo "====================================="
 else
   echo "====================================="
-  echo "对话生成任务失败! 错误代码: $EXIT_CODE"
-  echo "结束时间: $(date)"
-  echo "查看日志文件获取详细信息: logs/generate_${TIMESTAMP}.log"
+  echo "Quá trình tạo đối thoại thất bại! Mã lỗi: $EXIT_CODE"
+  echo "Thời gian kết thúc: $(date)"
+  echo "Kiểm tra tệp nhật ký để biết chi tiết: logs/generate_${TIMESTAMP}.log"
   echo "====================================="
 fi
 
-# 统计生成的对话数量
+# Count the number of generated dialogues
 if [ -f "$OUTPUT_FILE" ]; then
   COUNT_ACTUAL=$(wc -l < "$OUTPUT_FILE")
-  echo "实际生成对话数量: $COUNT_ACTUAL"
+  echo "Số lượng cuộc trò chuyện tạo ra: $COUNT_ACTUAL"
 fi
 
 exit $EXIT_CODE

@@ -3,13 +3,13 @@ import config
 from typing import List, Dict, Any
 
 class OpenAIClient:
-    """自定义 OpenAI API 客户端，支持自定义 URL"""
+    """Custom OpenAI API client, supports custom URL"""
     
     def __init__(self, api_key: str = None, base_url: str = None):
         self.api_key = api_key or config.OPENAI_API_KEY
         self.base_url = base_url or config.OPENAI_BASE_URL
         
-        # 创建 OpenAI 客户端
+        # Create OpenAI client
         self.client = OpenAI(
             api_key=self.api_key,
             base_url=self.base_url
@@ -21,7 +21,7 @@ class OpenAIClient:
                       temperature: float = 0.7,
                       max_tokens: int = 500,
                       stream: bool = False) -> str:
-        """调用 ChatCompletion API 获取回复"""
+        """Call ChatCompletion API to get a reply"""
         try:
             if not stream:
                 response = self.client.chat.completions.create(
@@ -32,7 +32,7 @@ class OpenAIClient:
                 )
                 return response.choices[0].message.content
             else:
-                # 流式响应处理
+                # Stream response handling
                 response = self.client.chat.completions.create(
                     model=model,
                     messages=messages,
@@ -41,19 +41,19 @@ class OpenAIClient:
                     stream=True
                 )
                 
-                # 收集流式响应内容
+                # Collect stream response content
                 collected_content = ""
                 for chunk in response:
                     if chunk.choices[0].delta.content:
                         content_chunk = chunk.choices[0].delta.content
                         collected_content += content_chunk
-                        # 可以在这里添加实时处理逻辑
+                        # You can add real-time processing logic here
                         
                 return collected_content
                 
         except Exception as e:
-            print(f"OpenAI API 调用失败: {e}")
-            # 尝试使用备用模型
+            print(f"OpenAI API call failed: {e}")
+            # Try to use fallback model
             try:
                 response = self.client.chat.completions.create(
                     model=config.FALLBACK_MODEL,
@@ -63,6 +63,6 @@ class OpenAIClient:
                 )
                 return response.choices[0].message.content
             except Exception as e2:
-                print(f"备用模型调用也失败: {e2}")
-                # 不再返回错误消息，而是抛出异常
-                raise Exception(f"API调用失败，主模型错误：{e}，备用模型错误：{e2}")
+                print(f"Fallback model call also failed: {e2}")
+                # Do not return error message, but raise exception
+                raise Exception(f"API call failed, main model error: {e}, fallback model error: {e2}")

@@ -15,7 +15,7 @@ from logic.dialogue_orchestrator import DialogueOrchestrator
 from utils.conversation_logger import ConversationLogger
 import config
 
-# 配置全局日志
+# Configure global logging
 logging.basicConfig(
     filename='run.log',
     level=logging.INFO,
@@ -24,40 +24,53 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# 配置参数
+# Các giá trị cấu hình tiếng Việt
 AGE_RANGES = [
-    (18, 25),  # 青年
-    (26, 40),  # 成年
-    (41, 55),  # 中年
-    (56, 70),  # 老年
+    (18, 25),  # Thanh niên
+    (26, 40),  # Người lớn
+    (41, 55),  # Trung niên
+    (56, 70),  # Người cao tuổi
 ]
 
-# AWARENESS_LEVELS = [ "high","medium", "low",]
-AWARENESS_LEVELS = [ "低","中", "高",]
+AWARENESS_LEVELS = ["thấp", "trung bình", "cao"]
 
-# 对话场景类型（保持fraud_types变量名）
-FRAUD_TYPES = [
-    "订餐服务", "咨询客服", "预约服务", 
-     "交通咨询", "日常购物", 
-    "打车服务", "外卖服务"
-]
+# Các loại tình huống gian lận (tiếng Việt)
+FRAUD_TYPES = {
+    "investment": "Gian lận đầu tư",
+    "romance": "Gian lận tình cảm",
+    "phishing": "Gian lận lừa đảo",
+    "identity_theft": "Trộm cắp danh tính",
+    "lottery": "Gian lận xổ số",
+    "job_offer": "Công việc giả mạo",
+    "banking": "Gian lận ngân hàng"
+}
 
-OCCUPATIONS = [ "学生", "教师", "工程师", "医生", "退休人员", "企业主", "上班族", "农民", "服务员" ]
+OCCUPATIONS = {
+    "student": "Sinh viên",
+    "teacher": "Giáo viên",
+    "engineer": "Kỹ sư",
+    "doctor": "Bác sĩ",
+    "retired": "Người đã nghỉ hưu",
+    "business_owner": "Chủ doanh nghiệp",
+    "office_worker": "Nhân viên văn phòng",
+    "farmer": "Nông dân",
+    "waiter": "Phục vụ"
+}
 
 def generate_dialogue(args, tts_id: str, user_age: int, user_awareness: str, fraud_type: str) -> Dict[str, Any]:
-    """生成单个对话并返回结果"""
+    """Generate a single dialogue and return the result"""
     try:
-        # 记录对话参数
-        logger.info(f"开始生成对话 {tts_id}: age={user_age}, awareness={user_awareness}, fraud_type={fraud_type}")
+        # Log dialogue parameters
+        logger.info(f"Start generating dialogue {tts_id}: age={user_age}, awareness={user_awareness}, fraud_type={fraud_type}")
         
-        # 创建智能体
+        # Create agents
         left_agent = LeftAgent(
             model=args.model,
             fraud_type=fraud_type,  # 保持原变量名
             base_url=args.base_url
         )
         
-        # 随机选择一个职业
+        # Randomly select an occupation
         occupation = random.choice(OCCUPATIONS)
         
         right_agent = RightAgent(
@@ -76,7 +89,7 @@ def generate_dialogue(args, tts_id: str, user_age: int, user_awareness: str, fra
             base_url=args.base_url
         )
         
-        # 创建对话协调器，禁用控制台输出
+        # Create dialogue orchestrator, disable console output
         conv_logger = ConversationLogger(console_output=False)
         orchestrator = DialogueOrchestrator(
             left_agent=left_agent,
@@ -86,25 +99,25 @@ def generate_dialogue(args, tts_id: str, user_age: int, user_awareness: str, fra
             logger=conv_logger
         )
         
-        # 运行对话
+        # Run dialogue
         dialogue_result = orchestrator.run_dialogue()
         
-        # 记录完整对话历史到日志
-        logger.info(f"对话 {tts_id} 完成，共 {len(dialogue_result['dialogue_history'])} 轮")
-        logger.info(f"对话历史 {tts_id}:")
+        # Log full dialogue history
+        logger.info(f"Dialogue {tts_id} completed, total {len(dialogue_result['dialogue_history'])} turns")
+        logger.info(f"Dialogue history {tts_id}:")
         for msg in dialogue_result['dialogue_history']:
-            role = "服务方" if msg['role'] == "left" else "用户"
+            role = "Left" if msg['role'] == "left" else "Right"
             logger.info(f"{role}: {msg['content']}")
         
-        # 提取终止原因
-        termination_reason = "达到最大轮次" if dialogue_result.get("reached_max_turns", False) else dialogue_result.get("termination_reason", "未知")
-        # 如果是管理者终止的，提取简短的终止原因描述
+        # Extract termination reason
+        termination_reason = "Reached maximum turns" if dialogue_result.get("reached_max_turns", False) else dialogue_result.get("termination_reason", "Unknown")
+        # If terminated by manager, extract short termination reason
         if dialogue_result.get("terminated_by_manager", False) and isinstance(termination_reason, str) and len(termination_reason) > 100:
-            # 提取前100个字符或到第一个句号的内容
-            short_reason = termination_reason.split("。")[0] if "。" in termination_reason[:100] else termination_reason[:100]
+            # Extract first 100 characters or up to the first period
+            short_reason = termination_reason.split(".")[0] if "." in termination_reason[:100] else termination_reason[:100]
             termination_reason = short_reason + "..."
         
-        # 提取左右对话内容
+        # Extract left and right messages
         left_messages = []
         right_messages = []
         
@@ -114,7 +127,7 @@ def generate_dialogue(args, tts_id: str, user_age: int, user_awareness: str, fra
             elif message["role"] == "right":
                 right_messages.append(message["content"])
         
-        # 创建JSONL格式的数据条目
+        # Create JSONL format entry
         entry = {
             "tts_id": tts_id,
             "left": left_messages,
@@ -127,69 +140,69 @@ def generate_dialogue(args, tts_id: str, user_age: int, user_awareness: str, fra
             "terminator": dialogue_result.get("terminator", "natural")
         }
         
-        # 保存完整对话记录
+        # Save full dialogue record
         full_dialogue_path = os.path.join(args.full_output_dir, f"{tts_id}.json")
         with open(full_dialogue_path, 'w', encoding='utf-8') as f:
             json.dump(dialogue_result, f, ensure_ascii=False, indent=2)
         
-        logger.info(f"对话 {tts_id} 处理完成，终止原因: {termination_reason}")
-        logger.info(f"完整对话已保存到 {full_dialogue_path}")
+        logger.info(f"Dialogue {tts_id} processed, termination reason: {termination_reason}")
+        logger.info(f"Full dialogue saved to {full_dialogue_path}")
         
         return entry
     
     except Exception as e:
-        logger.error(f"生成对话 {tts_id} 时出错: {e}", exc_info=True)
-        # 返回一个错误标记，稍后会过滤掉
+        logger.error(f"Error generating dialogue {tts_id}: {e}", exc_info=True)
+        # Return an error marker, will be filtered out later
         return {"error": str(e), "tts_id": tts_id}
 
 def main():
-    # 解析命令行参数
-    parser = argparse.ArgumentParser(description="多智能体对话数据生成")
-    parser.add_argument("--count", type=int, default=20, help="要生成的对话数量")
-    parser.add_argument("--output", default="fraud_dialogues.jsonl", help="输出文件路径")
-    parser.add_argument("--full_output_dir", default="full_dialogues", help="完整对话输出目录")
-    parser.add_argument("--base_url", required=True, help="自定义API端点URL")
-    parser.add_argument("--api_key", required=True, help="自定义API密钥")
-    parser.add_argument("--model", required=True, help="模型名称")
-    parser.add_argument("--max_turns", type=int, default=15, help="最大对话轮次")
-    parser.add_argument("--workers", type=int, default=10, help="并发工作线程数")
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description="Multi-agent dialogue data generation")
+    parser.add_argument("--count", type=int, default=20, help="Number of dialogues to generate")
+    parser.add_argument("--output", default="fraud_dialogues.jsonl", help="Output file path")
+    parser.add_argument("--full_output_dir", default="full_dialogues", help="Full dialogue output directory")
+    parser.add_argument("--base_url", required=True, help="Custom API endpoint URL")
+    parser.add_argument("--api_key", required=True, help="Custom API key")
+    parser.add_argument("--model", required=True, help="Model name")
+    parser.add_argument("--max_turns", type=int, default=15, help="Maximum dialogue turns")
+    parser.add_argument("--workers", type=int, default=10, help="Number of concurrent worker threads")
     args = parser.parse_args()
     
-    # 记录启动信息
-    logger.info(f"开始生成 {args.count} 个对话，模型: {args.model}, API基础URL: {args.base_url}")
+    # Log startup info
+    logger.info(f"Start generating {args.count} dialogues, model: {args.model}, API base URL: {args.base_url}")
     
-    # 设置API密钥和基础URL
+    # Set API key and base URL
     config.OPENAI_API_KEY = args.api_key
     config.OPENAI_BASE_URL = args.base_url
     
-    # 创建输出目录
+    # Create output directory
     output_dir = os.path.dirname(args.output)
     if output_dir and not os.path.exists(output_dir):
         os.makedirs(output_dir)
     
-    # 创建完整对话输出目录
+    # Create full dialogue output directory
     if not os.path.exists(args.full_output_dir):
         os.makedirs(args.full_output_dir)
     
-    # 准备任务参数列表
+    # Prepare task parameter list
     tasks = []
     
-    # 确保参数均匀分布
+    # Ensure even parameter distribution
     combinations = []
     for age_range in AGE_RANGES:
         for awareness in AWARENESS_LEVELS:
             for fraud in FRAUD_TYPES:
                 combinations.append((age_range, awareness, fraud))
     
-    # 为每个组合分配数量
+    # For each combination, assign a number
     per_combination = args.count // len(combinations)
     remainder = args.count % len(combinations)
     
-    # 添加任务
+    # Add tasks
     tts_counter = 1
     for combo in combinations:
         age_range, awareness, fraud = combo
-        # 该组合的任务数
+        # Number of tasks for this combination
         combo_count = per_combination + (1 if remainder > 0 else 0)
         if remainder > 0:
             remainder -= 1
@@ -200,25 +213,25 @@ def main():
             tasks.append((tts_id, user_age, awareness, fraud))
             tts_counter += 1
     
-    # 随机打乱任务顺序
+    # Randomly shuffle task order
     random.shuffle(tasks)
     
-    # 使用线程池并行生成对话
+    # Use thread pool to generate dialogues in parallel
     results = []
     success_count = 0
     error_count = 0
     
-    logger.info(f"开始并行生成对话，线程数: {args.workers}")
+    logger.info(f"Start parallel dialogue generation, threads: {args.workers}")
     with ThreadPoolExecutor(max_workers=args.workers) as executor:
-        # 提交所有任务
+        # Submit all tasks
         future_to_task = {
             executor.submit(generate_dialogue, args, tts_id, user_age, awareness, fraud): 
             (tts_id, user_age, awareness, fraud) 
             for tts_id, user_age, awareness, fraud in tasks
         }
         
-        # 处理完成的任务
-        for future in tqdm(as_completed(future_to_task), total=len(tasks), desc="生成对话"):
+        # Process completed tasks
+        for future in tqdm(as_completed(future_to_task), total=len(tasks), desc="Generating dialogues"):
             task = future_to_task[future]
             try:
                 result = future.result()
@@ -226,25 +239,25 @@ def main():
                     results.append(result)
                     success_count += 1
                 else:
-                    logger.error(f"任务 {task[0]} 失败: {result['error']}")
+                    logger.error(f"Task {task[0]} failed: {result['error']}")
                     error_count += 1
             except Exception as e:
-                logger.error(f"处理任务 {task[0]} 时出错: {e}", exc_info=True)
+                logger.error(f"Error processing task {task[0]}: {e}", exc_info=True)
                 error_count += 1
     
-    # 写入结果到JSONL文件
+    # Write results to JSONL file
     with open(args.output, 'w', encoding='utf-8') as f:
         for entry in results:
             f.write(json.dumps(entry, ensure_ascii=False) + '\n')
     
-    # 输出统计信息
-    completion_msg = f"完成！共生成 {len(results)} 个对话，成功: {success_count}，失败: {error_count}，已保存到 {args.output}"
+    # Output statistics
+    completion_msg = f"Done! Generated {len(results)} dialogues, success: {success_count}, failed: {error_count}, saved to {args.output}"
     print(completion_msg)
     logger.info(completion_msg)
     
-    # 统计分布情况
+    # Statistics
     age_stats = {"18-25": 0, "26-40": 0, "41-55": 0, "56-70": 0}
-    awareness_stats = {"低": 0, "中": 0, "高": 0}
+    awareness_stats = {"low": 0, "medium": 0, "high": 0}
     fraud_stats = {fraud_type: 0 for fraud_type in FRAUD_TYPES}
     terminator_stats = {"left": 0, "right": 0, "natural": 0}
     occupations_stats = {occupation: 0 for occupation in OCCUPATIONS}
@@ -264,18 +277,18 @@ def main():
         fraud_stats[entry["fraud_type"]] += 1
         occupations_stats[entry["occupation"]] += 1
         
-        # 统计终止方
+        # Count terminator
         terminator = entry.get("terminator", "natural")
         if terminator in terminator_stats:
             terminator_stats[terminator] += 1
     
-    # 打印统计信息
-    stats_msg = "\n分布统计:"
-    stats_msg += f"\n年龄分布: {age_stats}"
-    stats_msg += f"\n沟通风格分布: {awareness_stats}"  # 仅修改描述，不修改变量名
-    stats_msg += f"\n对话类型分布: {fraud_stats}"  # 仅修改描述，不修改变量名
-    stats_msg += f"\n终止方分布: {terminator_stats}"
-    stats_msg += f"\n职业分布: {occupations_stats}"
+    # Print statistics
+    stats_msg = "\nDistribution statistics:"
+    stats_msg += f"\nAge distribution: {age_stats}"
+    stats_msg += f"\nAwareness distribution: {awareness_stats}"  # Only change description, not variable name
+    stats_msg += f"\nDialogue type distribution: {fraud_stats}"  # Only change description, not variable name
+    stats_msg += f"\nTerminator distribution: {terminator_stats}"
+    stats_msg += f"\nOccupation distribution: {occupations_stats}"
     
     print(stats_msg)
     logger.info(stats_msg)
@@ -285,8 +298,8 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as e:
-        logger.critical("程序执行过程中发生严重错误", exc_info=True)
+        logger.critical("A critical error occurred during program execution", exc_info=True)
     
     elapsed = time.time() - start_time
-    logger.info(f"总耗时: {elapsed:.2f}秒")
-    print(f"总耗时: {elapsed:.2f}秒")
+    logger.info(f"Total time: {elapsed:.2f} seconds")
+    print(f"Total time: {elapsed:.2f} seconds")
